@@ -64,3 +64,28 @@ def test_a_client_error_is_not_retried(post):
 def test_network_errors_are_retried(post):
     calls, _ = post(requests.Timeout("slow"), Resp(200, OK))
     assert summarize.gemini_json("s", "u", {}, CFG_G)[0] == "{}" and len(calls) == 2
+
+
+def test_falls_back_to_the_next_model_when_the_primary_stays_overloaded(post):
+    cfg = {**CFG, "gemini": {"model": "primary", "fallback_models": ["backup1", "backup2"]}}
+    calls, sleeps = post(Resp(503), Resp(503), Resp(503), Resp(503), Resp(200, OK))
+    text, usage = summarize.gemini_json("s", "u", {}, cfg)
+    assert text == "{}" and usage["model"] == "backup2"
+    assert [c.split("models/")[1].split(":")[0] for c in calls] == ["primary"] * 3 + ["backup1", "backup2"]
+    assert sleeps == [3, 8]  # fallbacks get a single try, no waiting
+
+
+def test_client_errors_do_not_fall_back(post):
+    cfg = {**CFG, "gemini": {"model": "primary", "fallback_models": ["backup"]}}
+    calls, _ = post(Resp(400))
+    with pytest.raises(RuntimeError, match="HTTP 400"):
+        summarize.gemini_json("s", "u", {}, cfg)
+    assert len(calls) == 1
+
+
+def test_all_models_overloaded_raises_the_last_error(post):
+    cfg = {**CFG, "gemini": {"model": "primary", "fallback_models": ["backup"]}}
+    calls, _ = post(Resp(503), Resp(503), Resp(503), Resp(503))
+    with pytest.raises(RuntimeError, match="HTTP 503"):
+        summarize.gemini_json("s", "u", {}, cfg)
+    assert len(calls) == 4

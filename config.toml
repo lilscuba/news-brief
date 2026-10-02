@@ -48,6 +48,8 @@ provider = "gemini"
 [gemini]
 # Override with the GEMINI_MODEL env var. Check aistudio.google.com for current free-tier models.
 model = "gemini-3.8-flash"
+# Tried in order when the model above is still overloaded (HTTP 429/5xx) after its retries.
+fallback_models = ["gemini-3.7-flash", "gemini-3.5-flash-lite"]
 
 [claude]
 # Override with the CLAUDE_MODEL env var. claude-sonnet-5-5 or claude-haiku-4-5 cost less.
