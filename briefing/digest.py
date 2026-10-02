@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from . import deliver, render, state
+from . import deliver, render, state, translate
 from .config import ROOT, env
 from .dedupe import cluster_items
 from .feeds import fetch_all, load_opml
@@ -45,8 +45,12 @@ def _sources(clusters: list[Cluster]) -> list[dict]:
         if it.canonical_url in seen:
             continue
         seen.add(it.canonical_url)
-        out.append({"outlet": it.feed.title, "title": it.title, "url": it.url,
-                    "official": it.feed.official})
+        src = {"outlet": it.feed.title, "title": it.title, "url": it.url,
+               "official": it.feed.official}
+        if it.original_title:
+            src["translated_from"] = it.feed.lang
+            src["original_title"] = it.original_title
+        out.append(src)
     return out
 
 
@@ -122,6 +126,9 @@ def run(no_llm: bool = False, dry_run: bool = False, out_dir: Path | None = None
              if it.published >= window_start and it.id not in seen
              and not is_muted(it.title, cfg)]
     fresh = _apply_feed_caps(fresh)
+    translate.translate_items(fresh, cfg, st, now)
+    # Mute again on the English headline, and leave out anything that is still untranslated.
+    fresh = [it for it in fresh if translate.is_readable(it) and not is_muted(it.title, cfg)]
     log.info("%d items fetched, %d fresh in window", len(all_items), len(fresh))
 
     clusters = rank(cluster_items(fresh), cfg, now)

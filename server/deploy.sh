@@ -51,9 +51,22 @@ secret="$(openssl rand -hex 32)"
 printf '%s' "$secret" | npx wrangler secret put INGEST_SECRET || fail "wrangler secret put failed"
 
 step "Deploying"
-out="$(npx wrangler deploy 2>&1)"
-printf '%s\n' "$out"
-url="$(printf '%s' "$out" | grep -Eo 'https://[a-z0-9.-]+\.workers\.dev' | head -1)"
+url=""
+for attempt in 1 2 3; do
+  out="$(npx wrangler deploy 2>&1)"
+  printf '%s\n' "$out"
+  url="$(printf '%s' "$out" | grep -Eo 'https://[a-z0-9.-]+\.workers\.dev' | head -1)"
+  [ -n "$url" ] && break
+  # A new Cloudflare account must pick its workers.dev subdomain once before the first deploy.
+  # wrangler only asks for it when it can talk to you directly, so run it once uncaptured.
+  if printf '%s' "$out" | grep -q "register a workers.dev subdomain"; then
+    printf "\033[33mOne-time Cloudflare setting. Wrangler will ask to register a workers.dev subdomain:\n"
+    printf "answer y, then type a name (e.g. your name).\033[0m\n"
+    npx wrangler deploy
+    continue
+  fi
+  break
+done
 [ -n "$url" ] || fail "Deploy didn't print a workers.dev URL; check the output above."
 url="$url/"
 printf '{ "url": "%s" }\n' "$url" > .deployed.json   # remembered for launch.sh (ignored by git)

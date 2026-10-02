@@ -15,7 +15,7 @@ settings:
     SWIFT_VERSION: "5.10"
     MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
-    DEVELOPMENT_TEAM: ""
+    DEVELOPMENT_TEAM: "D5W355MT7L"
 targets:
   PersonalFeed:
     type: application
@@ -23,10 +23,10 @@ targets:
     sources: [PersonalFeed]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.newsfeed
+        PRODUCT_BUNDLE_IDENTIFIER: com.lilscuba.brief
         # Xcode registers the app id, Sign in with Apple and Push with Apple automatically.
         CODE_SIGN_STYLE: Automatic
-        API_BASE_URL: "https://newsfeed-api.YOUR-SUBDOMAIN.workers.dev/"
+        API_BASE_URL: "https://newsfeed-api.snowy-fire-40b4.workers.dev/"
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: YES
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

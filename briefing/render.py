@@ -61,8 +61,12 @@ def _pretty_date(iso_date: str) -> str:
 
 def _chip(src: dict) -> str:
     cls = ' class="off"' if src.get("official") else ""
-    return (f'<a{cls} href="{escape(src["url"])}" title="{escape(src["title"])}" '
-            f'rel="noopener">{escape(src["outlet"])}</a>')
+    title, name = src["title"], escape(src["outlet"])
+    if src.get("translated_from"):
+        title = f'{title} (translated from {src["translated_from"]}: {src.get("original_title", "")})'
+        name += " (translated)"
+    return (f'<a{cls} href="{escape(src["url"])}" title="{escape(title)}" '
+            f'rel="noopener">{name}</a>')
 
 
 def _story(s: dict) -> str:

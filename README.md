@@ -54,15 +54,16 @@ downloaded Apple push key in Downloads, and stores it as an encrypted GitHub sec
 
 It runs free on GitHub and has three parts:
 
-1. **Daily brief** (GitHub Actions, once a day). It reads 35 sources: outlet RSS feeds, official
-   company feeds, two newsletters and eight gaming/tech journalists on Bluesky. It drops
+1. **Daily brief** (GitHub Actions, once a day). It reads 117 sources: outlet RSS feeds (tech, gaming
+   and English-language world news), official company feeds, two newsletters and eight
+   gaming/tech journalists on Bluesky. It drops
    headlines matching your mute words, clusters the same story across outlets, ranks stories
    (coverage, official sources, Hacker News points, your keyword boosts) and gives each one a
    reliability label. The result is published to GitHub Pages as `brief.json` and a mobile web
    page, and a "your brief is ready" push and email go out.
 
    **AI summaries are off for now.** The brief lists every new article under AI / Tech / Gaming
-   / Deals with its original headline and the feed's snippet, with the 5 highest-ranked stories
+   / World / Europe / Japan / Korea / Deals with its original headline and the feed's snippet, with the 5 highest-ranked stories
    on top. Turn on summaries (free with Gemini) and the model writes the brief instead.
 2. **Breaking alerts** (GitHub Actions, every 15 min). These are push notifications through ntfy,
    in four tiers (below), capped at 5 a day.
@@ -141,9 +142,28 @@ reliability labels and is told to write rumors as rumors.
 | Tech | Techmeme, The Verge, Ars Technica, TechCrunch, 9to5Mac, Hacker News (100+ points) |
 | AI | OpenAI, Google DeepMind, Google AI (official); Anthropic and Meta AI (community mirrors); Verge AI, Ars AI, HN Claude/Anthropic, arXiv cs.AI (capped at 12) |
 | Gaming | VGC, Eurogamer, IGN, Gematsu, Insider Gaming, GoNintendo; PlayStation Blog, Xbox Wire, Nintendo of Europe (official); Steam News; Game File (Totilo) and The Game Business (Dring) newsletters |
+| World | BBC World, Guardian World, Al Jazeera, NPR, NYT, CBC, Sky News, CNA, Straits Times, SCMP, The Hindu, Times of India, Times of Israel, BBC Africa and Latin America, MercoPress, Foreign Policy, The Diplomat, Rest of World |
+| Europe | BBC Europe and UK, Guardian Europe and UK, Euronews, DW, RFI, France 24, Politico Europe; Ireland (RTÉ, TheJournal.ie), Netherlands (DutchNews, NL Times), Poland, Ukraine (Kyiv Independent, Ukrainska Pravda), Russia (Meduza), Estonia (ERR), Lithuania (LRT), Balkans, Romania, Finland, Norway, Denmark, Italy (ANSA); translated: Tagesschau, Der Spiegel, SRF, ORF, Le Monde, franceinfo, El País, Corriere, SVT, ERT |
+| Japan | Japan Times, Nikkei Asia, Japan Forward; translated: Asahi, Mainichi, NHK |
+| Korea | Yonhap, Korea Herald, Korea Times, KBS World, NK News; translated: Chosun Ilbo |
 | Social (Bluesky) | Wario64, billbil-kun, Jeff Grubb, Jason Schreier, Stephen Totilo, Christopher Dring, Mat Piscatella, Tom Warren |
 
 Notes on the sources:
+- **Translation.** Feeds marked `pfLang` in `feeds.opml` (Tagesschau, Spiegel, Le Monde,
+  franceinfo, El País, Corriere, SVT, SRF, ORF, ERT, Asahi, Mainichi, NHK, Chosun) are
+  machine-translated to English at ingest with Gemini (`[translate]` in `config.toml`). Each
+  headline is translated once and cached, and the app shows the original on the story page. It
+  needs the `GEMINI_API_KEY` secret (free tier). Without it, or while Gemini is rate-limited,
+  those items are left out until a later run translates them. Articles themselves still open in
+  their original language.
+- **AI summaries (two separate things).** The top 40 stories in the app's shared feed get a
+  one- or two-sentence Gemini summary written from their outlets' headlines and snippets
+  (`[story_summaries]` in `config.toml`; each story is summarized once and cached, and the app
+  labels it). Nothing is scraped; article pages are never fetched. Separately, setting the
+  `SUMMARIZE` repo variable to `true` makes Gemini write the daily brief page and email.
+- **World, Europe, Japan and Korea are off for new accounts** until switched on in Topics.
+- **`[ranking.category_weight]`** halves the outlet-count score for World and Europe. They have
+  far more sources than AI/Tech/Gaming, so without it a big world story would take every top slot.
 - **Bluesky** posts come from the public API with no account. Replies, reposts and posts with no
   link or news marker (EXCLUSIVE, BREAKING, NEW:) are dropped, so you get scoops and article
   shares rather than sports takes. The handles were checked against follower counts and recent

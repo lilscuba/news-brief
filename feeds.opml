@@ -13,6 +13,8 @@
     pfTrusted  "true" = strong scoop track record: its rumors are labelled RUMOR-CREDIBLE and a
                watchlist match from it alerts on its own (alert tier 2)
     pfCategory  section the feed's stories go in, when it differs from the folder (Social)
+    pfLang     ISO 639-1 code of a non-English feed (de, fr, ja...). Its headlines and snippets are
+               machine-translated to English at ingest (see [translate] in config.toml).
 
   Bluesky accounts use their profile RSS URL (https://bsky.app/profile/HANDLE/rss) so this file
   imports cleanly into NetNewsWire; the pipeline reads them through the public Bluesky API.
@@ -30,6 +32,10 @@
       <outline type="rss" text="Ars Technica" pfKey="ars" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/"/>
       <outline type="rss" text="TechCrunch" pfKey="techcrunch" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
       <outline type="rss" text="9to5Mac" pfKey="9to5mac" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/"/>
+      <outline type="rss" text="MacRumors" pfKey="macrumors" xmlUrl="https://feeds.macrumors.com/MacRumors-All" htmlUrl="https://www.macrumors.com/"/>
+      <outline type="rss" text="AppleInsider" pfKey="appleinsider" pfMaxItems="12" xmlUrl="https://appleinsider.com/rss/news/" htmlUrl="https://appleinsider.com/"/>
+      <outline type="rss" text="Engadget" pfKey="engadget" pfMaxItems="15" xmlUrl="https://www.engadget.com/rss.xml" htmlUrl="https://www.engadget.com/"/>
+      <outline type="rss" text="Wired" pfKey="wired" pfMaxItems="10" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com/"/>
       <outline type="rss" text="Hacker News (100+ points)" pfKey="hn" xmlUrl="https://hnrss.org/frontpage?points=100" htmlUrl="https://news.ycombinator.com/"/>
     </outline>
     <outline text="AI" title="AI">
@@ -40,6 +46,11 @@
       <outline type="rss" text="Meta AI (mirror)" pfKey="metaai" pfOfficial="true" pfMirror="true" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml" htmlUrl="https://ai.meta.com/blog/"/>
       <outline type="rss" text="The Verge AI" pfKey="verge-ai" xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" htmlUrl="https://www.theverge.com/ai-artificial-intelligence"/>
       <outline type="rss" text="Ars Technica AI" pfKey="ars-ai" xmlUrl="https://arstechnica.com/ai/feed/" htmlUrl="https://arstechnica.com/ai/"/>
+      <outline type="rss" text="MIT Technology Review" pfKey="mittr" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com/"/>
+      <outline type="rss" text="Hugging Face Blog" pfKey="huggingface" pfOfficial="true" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
+      <outline type="rss" text="NVIDIA Blog" pfKey="nvidia" pfOfficial="true" xmlUrl="https://blogs.nvidia.com/feed/" htmlUrl="https://blogs.nvidia.com/"/>
+      <outline type="rss" text="The Decoder" pfKey="thedecoder" xmlUrl="https://the-decoder.com/feed/" htmlUrl="https://the-decoder.com/"/>
+      <outline type="rss" text="Simon Willison" pfKey="simonw" pfMaxItems="8" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
       <outline type="rss" text="HN: Claude/Anthropic" pfKey="hn-claude" xmlUrl="https://hnrss.org/newest?q=Claude+OR+Anthropic&amp;points=50" htmlUrl="https://news.ycombinator.com/"/>
       <outline type="rss" text="arXiv cs.AI" pfKey="arxiv" pfAlert="never" pfMaxItems="12" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="https://arxiv.org/list/cs.AI/recent"/>
     </outline>
@@ -56,6 +67,87 @@
       <outline type="rss" text="Nintendo (Europe)" pfKey="nintendo" pfOfficial="true" xmlUrl="https://www.nintendo.com/en-gb/news.xml" htmlUrl="https://www.nintendo.com/en-gb/News/News-1/"/>
       <outline type="rss" text="Game File (Stephen Totilo)" pfKey="gamefile" pfTrusted="true" xmlUrl="https://www.gamefile.news/feed" htmlUrl="https://www.gamefile.news/"/>
       <outline type="rss" text="The Game Business (Christopher Dring)" pfKey="gamebusiness" pfTrusted="true" xmlUrl="https://www.thegamebusiness.com/feed" htmlUrl="https://www.thegamebusiness.com/"/>
+      <outline type="rss" text="Kotaku" pfKey="kotaku" pfMaxItems="15" xmlUrl="https://kotaku.com/rss" htmlUrl="https://kotaku.com/"/>
+      <outline type="rss" text="PC Gamer" pfKey="pcgamer" pfMaxItems="15" xmlUrl="https://www.pcgamer.com/rss/" htmlUrl="https://www.pcgamer.com/"/>
+      <outline type="rss" text="GamesIndustry.biz" pfKey="gamesindustry" pfTrusted="true" xmlUrl="https://www.gamesindustry.biz/feed" htmlUrl="https://www.gamesindustry.biz/"/>
+      <outline type="rss" text="Push Square" pfKey="pushsquare" xmlUrl="https://www.pushsquare.com/feeds/latest" htmlUrl="https://www.pushsquare.com/"/>
+      <outline type="rss" text="Nintendo Life" pfKey="nintendolife" xmlUrl="https://www.nintendolife.com/feeds/latest" htmlUrl="https://www.nintendolife.com/"/>
+      <outline type="rss" text="Pure Xbox" pfKey="purexbox" xmlUrl="https://www.purexbox.com/feeds/latest" htmlUrl="https://www.purexbox.com/"/>
+      <outline type="rss" text="Rock Paper Shotgun" pfKey="rps" pfMaxItems="10" xmlUrl="https://www.rockpapershotgun.com/feed" htmlUrl="https://www.rockpapershotgun.com/"/>
+    </outline>
+    <outline text="World" title="World">
+      <outline type="rss" text="BBC News: World" pfKey="bbc-world" pfMaxItems="12" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news/world"/>
+      <outline type="rss" text="The Guardian: World" pfKey="guardian-world" pfMaxItems="12" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world"/>
+      <outline type="rss" text="Al Jazeera" pfKey="aljazeera" pfMaxItems="12" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com/"/>
+      <outline type="rss" text="NPR: World" pfKey="npr-world" xmlUrl="https://feeds.npr.org/1004/rss.xml" htmlUrl="https://www.npr.org/sections/world/"/>
+      <outline type="rss" text="New York Times: World" pfKey="nyt-world" pfMaxItems="12" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" htmlUrl="https://www.nytimes.com/section/world"/>
+      <outline type="rss" text="CBC News: World" pfKey="cbc-world" pfMaxItems="10" xmlUrl="https://www.cbc.ca/webfeed/rss/rss-world" htmlUrl="https://www.cbc.ca/news/world"/>
+      <outline type="rss" text="Sky News: World" pfKey="sky-world" xmlUrl="https://feeds.skynews.com/feeds/rss/world.xml" htmlUrl="https://news.sky.com/world"/>
+      <outline type="rss" text="CNA: World (Singapore)" pfKey="cna" pfMaxItems="10" xmlUrl="https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&amp;category=6311" htmlUrl="https://www.channelnewsasia.com/world"/>
+      <outline type="rss" text="The Straits Times: World" pfKey="straitstimes" pfMaxItems="10" xmlUrl="https://www.straitstimes.com/news/world/rss.xml" htmlUrl="https://www.straitstimes.com/world"/>
+      <outline type="rss" text="South China Morning Post" pfKey="scmp" pfMaxItems="10" xmlUrl="https://www.scmp.com/rss/91/feed" htmlUrl="https://www.scmp.com/"/>
+      <outline type="rss" text="The Hindu: International" pfKey="thehindu" pfMaxItems="8" xmlUrl="https://www.thehindu.com/news/international/feeder/default.rss" htmlUrl="https://www.thehindu.com/news/international/"/>
+      <outline type="rss" text="Times of India: World" pfKey="toi" pfMaxItems="8" xmlUrl="https://timesofindia.indiatimes.com/rssfeeds/296589292.cms" htmlUrl="https://timesofindia.indiatimes.com/world"/>
+      <outline type="rss" text="The Times of Israel" pfKey="timesofisrael" pfMaxItems="8" xmlUrl="https://www.timesofisrael.com/feed/" htmlUrl="https://www.timesofisrael.com/"/>
+      <outline type="rss" text="BBC News: Africa" pfKey="bbc-africa" pfMaxItems="8" xmlUrl="https://feeds.bbci.co.uk/news/world/africa/rss.xml" htmlUrl="https://www.bbc.com/news/world/africa"/>
+      <outline type="rss" text="BBC News: Latin America" pfKey="bbc-latam" pfMaxItems="8" xmlUrl="https://feeds.bbci.co.uk/news/world/latin_america/rss.xml" htmlUrl="https://www.bbc.com/news/world/latin_america"/>
+      <outline type="rss" text="MercoPress (South Atlantic)" pfKey="mercopress" xmlUrl="https://en.mercopress.com/rss" htmlUrl="https://en.mercopress.com/"/>
+      <outline type="rss" text="Foreign Policy" pfKey="foreignpolicy" pfMaxItems="8" xmlUrl="https://foreignpolicy.com/feed/" htmlUrl="https://foreignpolicy.com/"/>
+      <outline type="rss" text="The Diplomat (Asia-Pacific)" pfKey="thediplomat" pfMaxItems="6" xmlUrl="https://thediplomat.com/feed/" htmlUrl="https://thediplomat.com/"/>
+      <outline type="rss" text="Rest of World" pfKey="restofworld" pfMaxItems="6" xmlUrl="https://restofworld.org/feed/latest" htmlUrl="https://restofworld.org/"/>
+    </outline>
+    <outline text="Europe" title="Europe">
+      <outline type="rss" text="BBC News: Europe" pfKey="bbc-europe" xmlUrl="https://feeds.bbci.co.uk/news/world/europe/rss.xml" htmlUrl="https://www.bbc.com/news/world/europe"/>
+      <outline type="rss" text="BBC News: UK" pfKey="bbc-uk" pfMaxItems="10" xmlUrl="https://feeds.bbci.co.uk/news/uk/rss.xml" htmlUrl="https://www.bbc.com/news/uk"/>
+      <outline type="rss" text="The Guardian: Europe" pfKey="guardian-europe" xmlUrl="https://www.theguardian.com/world/europe-news/rss" htmlUrl="https://www.theguardian.com/world/europe-news"/>
+      <outline type="rss" text="The Guardian: UK" pfKey="guardian-uk" pfMaxItems="10" xmlUrl="https://www.theguardian.com/uk-news/rss" htmlUrl="https://www.theguardian.com/uk-news"/>
+      <outline type="rss" text="Euronews" pfKey="euronews" pfMaxItems="12" xmlUrl="https://www.euronews.com/rss" htmlUrl="https://www.euronews.com/"/>
+      <outline type="rss" text="Deutsche Welle (Germany)" pfKey="dw" pfMaxItems="12" xmlUrl="https://rss.dw.com/rdf/rss-en-all" htmlUrl="https://www.dw.com/en/"/>
+      <outline type="rss" text="RFI (France)" pfKey="rfi" xmlUrl="https://www.rfi.fr/en/rss" htmlUrl="https://www.rfi.fr/en/"/>
+      <outline type="rss" text="France 24: Europe" pfKey="france24" pfMaxItems="10" xmlUrl="https://www.france24.com/en/europe/rss" htmlUrl="https://www.france24.com/en/europe/"/>
+      <outline type="rss" text="Politico Europe" pfKey="politico" xmlUrl="https://www.politico.eu/feed/" htmlUrl="https://www.politico.eu/"/>
+      <outline type="rss" text="RTÉ News (Ireland)" pfKey="rte" pfMaxItems="10" xmlUrl="https://www.rte.ie/news/rss/news-headlines.xml" htmlUrl="https://www.rte.ie/news/"/>
+      <outline type="rss" text="TheJournal.ie (Ireland)" pfKey="thejournal" pfMaxItems="10" xmlUrl="https://www.thejournal.ie/feed/" htmlUrl="https://www.thejournal.ie/"/>
+      <outline type="rss" text="DutchNews.nl (Netherlands)" pfKey="dutchnews" xmlUrl="https://www.dutchnews.nl/feed/" htmlUrl="https://www.dutchnews.nl/"/>
+      <outline type="rss" text="NL Times (Netherlands)" pfKey="nltimes" xmlUrl="https://nltimes.nl/rss" htmlUrl="https://nltimes.nl/"/>
+      <outline type="rss" text="Notes from Poland" pfKey="notesfrompoland" xmlUrl="https://notesfrompoland.com/feed/" htmlUrl="https://notesfrompoland.com/"/>
+      <outline type="rss" text="The Kyiv Independent (Ukraine)" pfKey="kyivindependent" pfMaxItems="12" xmlUrl="https://kyivindependent.com/feed/rss/" htmlUrl="https://kyivindependent.com/"/>
+      <outline type="rss" text="Ukrainska Pravda (Ukraine)" pfKey="ukrpravda" pfMaxItems="8" xmlUrl="https://www.pravda.com.ua/eng/rss/" htmlUrl="https://www.pravda.com.ua/eng/"/>
+      <outline type="rss" text="Meduza (Russia)" pfKey="meduza" pfMaxItems="8" xmlUrl="https://meduza.io/rss/en/all" htmlUrl="https://meduza.io/en"/>
+      <outline type="rss" text="ERR News (Estonia)" pfKey="err" pfMaxItems="8" xmlUrl="https://news.err.ee/rss" htmlUrl="https://news.err.ee/"/>
+      <outline type="rss" text="LRT English (Lithuania)" pfKey="lrt" pfMaxItems="8" xmlUrl="https://www.lrt.lt/en/news-in-english?rss" htmlUrl="https://www.lrt.lt/en/news-in-english"/>
+      <outline type="rss" text="Balkan Insight" pfKey="balkaninsight" pfMaxItems="8" xmlUrl="https://balkaninsight.com/feed/" htmlUrl="https://balkaninsight.com/"/>
+      <outline type="rss" text="Romania Insider" pfKey="romaniainsider" pfMaxItems="8" xmlUrl="https://www.romania-insider.com/feed" htmlUrl="https://www.romania-insider.com/"/>
+      <outline type="rss" text="Helsinki Times (Finland)" pfKey="helsinkitimes" xmlUrl="https://www.helsinkitimes.fi/?format=feed&amp;type=rss" htmlUrl="https://www.helsinkitimes.fi/"/>
+      <outline type="rss" text="News in English (Norway)" pfKey="newsinenglish" xmlUrl="https://www.newsinenglish.no/feed/" htmlUrl="https://www.newsinenglish.no/"/>
+      <outline type="rss" text="The Copenhagen Post (Denmark)" pfKey="cphpost" xmlUrl="https://cphpost.dk/feed/" htmlUrl="https://cphpost.dk/"/>
+      <outline type="rss" text="ANSA English (Italy)" pfKey="ansa" pfMaxItems="10" xmlUrl="https://www.ansa.it/english/news/english_nr_rss.xml" htmlUrl="https://www.ansa.it/english/"/>
+      <outline type="rss" text="Tagesschau (Germany)" pfKey="tagesschau" pfLang="de" pfMaxItems="10" xmlUrl="https://www.tagesschau.de/index~rss2.xml" htmlUrl="https://www.tagesschau.de/"/>
+      <outline type="rss" text="Der Spiegel (Germany)" pfKey="spiegel" pfLang="de" pfMaxItems="10" xmlUrl="https://www.spiegel.de/schlagzeilen/index.rss" htmlUrl="https://www.spiegel.de/"/>
+      <outline type="rss" text="Le Monde (France)" pfKey="lemonde" pfLang="fr" pfMaxItems="10" xmlUrl="https://www.lemonde.fr/rss/une.xml" htmlUrl="https://www.lemonde.fr/"/>
+      <outline type="rss" text="franceinfo (France)" pfKey="franceinfo" pfLang="fr" pfMaxItems="10" xmlUrl="https://www.francetvinfo.fr/titres.rss" htmlUrl="https://www.francetvinfo.fr/"/>
+      <outline type="rss" text="El País (Spain)" pfKey="elpais" pfLang="es" pfMaxItems="10" xmlUrl="https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada" htmlUrl="https://elpais.com/"/>
+      <outline type="rss" text="Corriere della Sera (Italy)" pfKey="corriere" pfLang="it" pfMaxItems="10" xmlUrl="https://xml2.corriereobjects.it/rss/homepage.xml" htmlUrl="https://www.corriere.it/"/>
+      <outline type="rss" text="SVT Nyheter (Sweden)" pfKey="svt" pfLang="sv" pfMaxItems="10" xmlUrl="https://www.svt.se/nyheter/rss.xml" htmlUrl="https://www.svt.se/nyheter/"/>
+      <outline type="rss" text="SRF News (Switzerland)" pfKey="srf" pfLang="de" pfMaxItems="10" xmlUrl="https://www.srf.ch/news/bnf/rss/1646" htmlUrl="https://www.srf.ch/news"/>
+      <outline type="rss" text="ORF News (Austria)" pfKey="orf" pfLang="de" pfMaxItems="10" xmlUrl="https://rss.orf.at/news.xml" htmlUrl="https://orf.at/"/>
+      <outline type="rss" text="ERT News (Greece)" pfKey="ertnews" pfLang="el" pfMaxItems="10" xmlUrl="https://www.ertnews.gr/feed/" htmlUrl="https://www.ertnews.gr/"/>
+    </outline>
+    <outline text="Japan" title="Japan">
+      <outline type="rss" text="The Japan Times" pfKey="japantimes" pfMaxItems="12" xmlUrl="https://www.japantimes.co.jp/feed/" htmlUrl="https://www.japantimes.co.jp/"/>
+      <outline type="rss" text="Nikkei Asia" pfKey="nikkei" pfMaxItems="10" xmlUrl="https://asia.nikkei.com/rss/feed/nar" htmlUrl="https://asia.nikkei.com/"/>
+      <outline type="rss" text="Japan Forward" pfKey="japanforward" xmlUrl="https://japan-forward.com/feed/" htmlUrl="https://japan-forward.com/"/>
+      <outline type="rss" text="Asahi Shimbun (Japanese)" pfKey="asahi" pfLang="ja" pfMaxItems="10" xmlUrl="https://www.asahi.com/rss/asahi/newsheadlines.rdf" htmlUrl="https://www.asahi.com/"/>
+      <outline type="rss" text="Mainichi Shimbun (Japanese)" pfKey="mainichi" pfLang="ja" pfMaxItems="10" xmlUrl="https://mainichi.jp/rss/etc/mainichi-flash.rss" htmlUrl="https://mainichi.jp/"/>
+      <outline type="rss" text="NHK News (Japanese)" pfKey="nhk" pfLang="ja" xmlUrl="https://www3.nhk.or.jp/rss/news/cat0.xml" htmlUrl="https://www3.nhk.or.jp/news/"/>
+    </outline>
+    <outline text="Korea" title="Korea">
+      <outline type="rss" text="Yonhap News" pfKey="yonhap" pfMaxItems="12" xmlUrl="https://en.yna.co.kr/RSS/news.xml" htmlUrl="https://en.yna.co.kr/"/>
+      <outline type="rss" text="The Korea Herald" pfKey="koreaherald" pfMaxItems="10" xmlUrl="https://www.koreaherald.com/rss/kh_National" htmlUrl="https://www.koreaherald.com/"/>
+      <outline type="rss" text="The Korea Times" pfKey="koreatimes" xmlUrl="https://www.koreatimes.co.kr/www/rss/nation.xml" htmlUrl="https://www.koreatimes.co.kr/"/>
+      <outline type="rss" text="KBS World" pfKey="kbsworld" pfMaxItems="8" xmlUrl="https://world.kbs.co.kr/rss/rss_news.htm?lang=e" htmlUrl="https://world.kbs.co.kr/"/>
+      <outline type="rss" text="NK News (North Korea)" pfKey="nknews" pfMaxItems="6" xmlUrl="https://www.nknews.org/feed/" htmlUrl="https://www.nknews.org/"/>
+      <outline type="rss" text="Chosun Ilbo (Korean)" pfKey="chosun" pfLang="ko" pfMaxItems="10" xmlUrl="https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml" htmlUrl="https://www.chosun.com/"/>
     </outline>
     <outline text="Social" title="Social">
       <outline type="rss" text="Wario64" pfKey="wario64" pfCategory="Gaming" pfMaxItems="20" xmlUrl="https://bsky.app/profile/wario64.bsky.social/rss" htmlUrl="https://bsky.app/profile/wario64.bsky.social"/>

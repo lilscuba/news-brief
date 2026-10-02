@@ -24,6 +24,8 @@ struct FeedStory: Codable, Hashable, Sendable, Identifiable {
     let outletCount: Int
     let published: Date
     let sources: [FeedSource]
+    /// True when `summary` was written by AI from the outlets' headlines and snippets.
+    var aiSummary: Bool?
 }
 
 struct FeedSource: Codable, Hashable, Sendable {
@@ -33,6 +35,9 @@ struct FeedSource: Codable, Hashable, Sendable {
     let url: URL
     let official: Bool
     let published: Date
+    /// Language code (e.g. "de") when the headline was machine-translated at ingest.
+    var translatedFrom: String?
+    var originalTitle: String?
 }
 
 /// One entry in the source catalog, used by the source pickers.

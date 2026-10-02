@@ -8,7 +8,8 @@ from .models import Cluster
 
 def score_cluster(cluster: Cluster, cfg: dict, now: datetime) -> float:
     r = cfg["ranking"]
-    score = r["per_source"] * len(cluster.outlets)
+    weight = r.get("category_weight", {}).get(cluster.category, 1.0)
+    score = r["per_source"] * len(cluster.outlets) * weight
     if cluster.official:
         score += r["official_boost"]
     if "techmeme" in cluster.outlets:

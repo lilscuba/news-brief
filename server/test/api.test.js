@@ -85,6 +85,14 @@ test("settings are validated and merged", async () => {
   assert.deepEqual(me.body.settings.categories, ["Gaming"]);
 });
 
+test("region topics are accepted but opt-in", async () => {
+  const { token, settings } = await signIn();
+  assert.ok(!settings.categories.some((c) => ["World", "Europe", "Japan", "Korea"].includes(c)));
+  const r = await call("PUT", "/v1/me/settings", { token, body: { categories: ["AI", "World", "Europe", "Japan", "Korea"] } });
+  assert.equal(r.status, 200);
+  assert.deepEqual(r.body.settings.categories, ["AI", "World", "Europe", "Japan", "Korea"]);
+});
+
 test("endpoints need a session; logout ends it", async () => {
   assert.equal((await call("GET", "/v1/me")).status, 401);
   assert.equal((await call("GET", "/v1/me", { token: "made-up" })).status, 401);

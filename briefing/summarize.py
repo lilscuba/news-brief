@@ -48,10 +48,11 @@ class LLMBrief(BaseModel):
     sections: list[LLMSection]
 
 
-SYSTEM_PROMPT = """You are the editor of a personal morning news briefing covering AI, tech, and \
-video games. The reader is an iOS developer who follows AI labs (Anthropic, OpenAI, Google), \
-Apple platforms, and the console/PC games industry. They are replacing Reddit with this brief, \
-so it should tell them everything worth knowing today in a few minutes of reading.
+SYSTEM_PROMPT = """You are the editor of a personal morning news briefing covering AI, tech, \
+video games, and world news. The reader is an iOS developer who follows AI labs (Anthropic, \
+OpenAI, Google), Apple platforms, and the console/PC games industry, plus world news in the \
+World, Europe, Japan and Korea sections. They are replacing Reddit with this brief, so it \
+should tell them everything worth knowing today in a few minutes of reading.
 
 You receive story clusters gathered from RSS feeds and journalists' Bluesky posts over the last \
 day. Each cluster has a numeric id, a category guess, the outlets covering it, flags, and \
@@ -66,7 +67,8 @@ put a deal in `top`.
 - `sections`: one entry per section name given in the request, in that order. Put each remaining \
 story worth reading in exactly one section; sales and discounts go only in the Deals section. \
 A story in `top` must not appear again in a section. Aim for 6-12 stories per section (up to 8 \
-deals); leave out minor items, listicles, and evergreen guides. A section may be empty.
+deals; 4-8 for World, Europe, Japan and Korea, major news only); leave out minor items, \
+listicles, and evergreen guides. A section may be empty.
 - title: a plain, specific headline in your own words (no clickbait, no outlet names).
 - summary: 1-2 sentences saying what happened and why it matters. State facts from the \
 headlines and snippets only; if details are unclear, say less rather than guess.
@@ -78,6 +80,8 @@ headlines and snippets only; if details are unclear, say less rather than guess.
   RUMOR-UNVERIFIED: a leak or rumor from a single source that isn't flagged "trusted".
   DEAL: a sale, discount or price drop.
   The "suggested label" on each cluster is a keyword guess; override it when the text says otherwise.
+- Ordinary news reporting (politics, conflict, economy) is REPORTED, never a RUMOR label. \
+Headlines from some outlets were machine-translated into English; write them as normal English.
 - Write rumors as rumors ("reportedly", "according to a leak"), never as fact.
 - headline: one sentence capturing the day as a whole.
 - Only use cluster ids that appear in the input."""
@@ -137,8 +141,13 @@ def gemini_schema(model: type[BaseModel]) -> dict:
         if isinstance(node, dict):
             if "$ref" in node:
                 return walk(defs[node["$ref"].rsplit("/", 1)[-1]])
-            return {k: walk(v) for k, v in node.items()
-                    if k not in ("title", "additionalProperties")}
+            out = {}
+            for k, v in node.items():
+                if k in ("title", "additionalProperties"):
+                    continue
+                # Property *names* stay even when one is called "title" (the story headline).
+                out[k] = {n: walk(s) for n, s in v.items()} if k == "properties" else walk(v)
+            return out
         if isinstance(node, list):
             return [walk(v) for v in node]
         return node
@@ -146,21 +155,23 @@ def gemini_schema(model: type[BaseModel]) -> dict:
     return walk(raw)
 
 
-def _gemini(user: str, cfg: dict) -> tuple[LLMBrief, dict]:
+def gemini_json(system: str, user: str, schema: dict, cfg: dict,
+                timeout: int = 300) -> tuple[str, dict]:
+    """One structured-output generateContent call. Returns the JSON text and usage."""
     key = env("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("GEMINI_API_KEY is not set")
     model = cfg["gemini"]["model"]
     body = {
-        "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
+        "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
-            "responseSchema": gemini_schema(LLMBrief),
+            "responseSchema": schema,
         },
     }
     # Header, not ?key=, so the key never shows up in logged URLs.
-    resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=300,
+    resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=timeout,
                          headers={"x-goog-api-key": key})
     if resp.status_code != 200:
         raise RuntimeError(f"Gemini HTTP {resp.status_code}: {resp.text[:300]}")
@@ -172,13 +183,17 @@ def _gemini(user: str, cfg: dict) -> tuple[LLMBrief, dict]:
     if cand.get("finishReason") not in (None, "STOP"):
         raise RuntimeError(f"Gemini stopped early: {cand.get('finishReason')}")
     text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
-    brief = LLMBrief.model_validate_json(text)
     meta = data.get("usageMetadata", {})
-    return brief, {
+    return text, {
         "model": data.get("modelVersion") or model,
         "input_tokens": meta.get("promptTokenCount"),
         "output_tokens": meta.get("candidatesTokenCount"),
     }
+
+
+def _gemini(user: str, cfg: dict) -> tuple[LLMBrief, dict]:
+    text, usage = gemini_json(SYSTEM_PROMPT, user, gemini_schema(LLMBrief), cfg)
+    return LLMBrief.model_validate_json(text), usage
 
 
 # --- Claude (Anthropic API) ---------------------------------------------------------------------

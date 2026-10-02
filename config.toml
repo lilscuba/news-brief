@@ -12,13 +12,32 @@ window_hours = 26
 # How many ranked story clusters are sent to the AI model. More = better coverage, higher cost.
 max_clusters_for_llm = 160
 # Sections the brief is split into, in display order. Stories labelled DEAL go in "Deals".
-sections = ["AI", "Tech", "Gaming", "Deals"]
+sections = ["AI", "Tech", "Gaming", "World", "Europe", "Japan", "Korea", "Deals"]
 # Headlines matching any of these (case-insensitive substrings) are dropped before ranking.
 # Deals aren't muted; they're labelled DEAL and collected in their own section instead.
 mute = [
   "how to ", "review:", "sponsored", "giveaway", "wordle", "connections hint",
   "contexto", "best gaming", "gift guide",
 ]
+
+[translate]
+# Feeds marked pfLang="xx" in feeds.opml are machine-translated to English at ingest with Gemini
+# (needs GEMINI_API_KEY; the free tier is enough). Each headline is translated once and cached.
+# Without a key, or if a call fails, those items are left out until a later run translates them.
+enabled = true
+batch_size = 40
+max_calls_per_run = 3
+
+[story_summaries]
+# The top stories in the app's shared feed get a 1-2 sentence AI summary (Gemini) written from
+# their outlets' headlines and feed snippets, instead of just the first outlet's snippet. Each
+# story is summarized once. Needs GEMINI_API_KEY; without it stories keep their snippet.
+enabled = true
+top_n = 40
+# Wait until this many new top stories are ready before calling Gemini (fewer calls).
+min_new = 4
+batch_size = 20
+max_calls_per_run = 2
 
 [ai]
 # Which model writes the brief when summarize = true. Override with the AI_PROVIDER env var.
@@ -46,6 +65,12 @@ techmeme_boost = 3.0
 hn_points_weight = 1.5
 # Stories lose this many points per hour of age.
 age_penalty_per_hour = 0.08
+# Multiplies the outlet-count score for a category. World and Europe have far more sources than
+# AI/Tech/Gaming, so without this a big world story (a dozen outlets) would take every top slot.
+[ranking.category_weight]
+World = 0.5
+Europe = 0.5
+
 # Case-insensitive substrings that make a story more important to *you*.
 [ranking.boosts]
 "claude" = 3.0
