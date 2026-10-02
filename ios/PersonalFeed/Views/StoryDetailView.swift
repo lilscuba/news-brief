@@ -5,6 +5,7 @@ struct StoryDetailView: View {
     @Environment(AppModel.self) private var store
     let story: Story
     @State private var safariLink: SafariLink?
+    @AppStorage(SafariView.readerModeKey) private var readerMode = true
 
     var body: some View {
         List {
@@ -23,6 +24,16 @@ struct StoryDetailView: View {
                         .font(.title2.weight(.semibold))
                     Text(story.summary)
                         .font(.body)
+                    if let first = story.sources.first {
+                        Button {
+                            safariLink = SafariLink(url: first.url)
+                        } label: {
+                            Label(readerMode ? "Read article (no ads)" : "Read article", systemImage: "doc.plaintext")
+                                .frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .padding(.top, 4)
+                    }
                 }
                 .padding(.vertical, 6)
             }
@@ -70,13 +81,20 @@ struct SafariLink: Identifiable {
     var id: URL { url }
 }
 
+/// In-app Safari. With Reader view on (the default), articles open as clean text and images:
+/// no ads, pop-ups or autoplay video. It also honors any Safari content blocker installed on the
+/// phone, which covers pages that Reader can't simplify.
 struct SafariView: UIViewControllerRepresentable {
+    static let readerModeKey = "openArticlesInReader"
     let url: URL
 
     func makeUIViewController(context: Context) -> SFSafariViewController {
         let config = SFSafariViewController.Configuration()
-        config.entersReaderIfAvailable = false
-        return SFSafariViewController(url: url, configuration: config)
+        config.entersReaderIfAvailable = UserDefaults.standard.object(forKey: Self.readerModeKey) as? Bool ?? true
+        config.barCollapsingEnabled = true
+        let controller = SFSafariViewController(url: url, configuration: config)
+        controller.dismissButtonStyle = .close
+        return controller
     }
 
     func updateUIViewController(_ controller: SFSafariViewController, context: Context) {}

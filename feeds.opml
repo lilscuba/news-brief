@@ -30,6 +30,10 @@
       <outline type="rss" text="Ars Technica" pfKey="ars" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/"/>
       <outline type="rss" text="TechCrunch" pfKey="techcrunch" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
       <outline type="rss" text="9to5Mac" pfKey="9to5mac" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/"/>
+      <outline type="rss" text="MacRumors" pfKey="macrumors" xmlUrl="https://feeds.macrumors.com/MacRumors-All" htmlUrl="https://www.macrumors.com/"/>
+      <outline type="rss" text="AppleInsider" pfKey="appleinsider" pfMaxItems="12" xmlUrl="https://appleinsider.com/rss/news/" htmlUrl="https://appleinsider.com/"/>
+      <outline type="rss" text="Engadget" pfKey="engadget" pfMaxItems="15" xmlUrl="https://www.engadget.com/rss.xml" htmlUrl="https://www.engadget.com/"/>
+      <outline type="rss" text="Wired" pfKey="wired" pfMaxItems="10" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com/"/>
       <outline type="rss" text="Hacker News (100+ points)" pfKey="hn" xmlUrl="https://hnrss.org/frontpage?points=100" htmlUrl="https://news.ycombinator.com/"/>
     </outline>
     <outline text="AI" title="AI">
@@ -40,6 +44,11 @@
       <outline type="rss" text="Meta AI (mirror)" pfKey="metaai" pfOfficial="true" pfMirror="true" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml" htmlUrl="https://ai.meta.com/blog/"/>
       <outline type="rss" text="The Verge AI" pfKey="verge-ai" xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" htmlUrl="https://www.theverge.com/ai-artificial-intelligence"/>
       <outline type="rss" text="Ars Technica AI" pfKey="ars-ai" xmlUrl="https://arstechnica.com/ai/feed/" htmlUrl="https://arstechnica.com/ai/"/>
+      <outline type="rss" text="MIT Technology Review" pfKey="mittr" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com/"/>
+      <outline type="rss" text="Hugging Face Blog" pfKey="huggingface" pfOfficial="true" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
+      <outline type="rss" text="NVIDIA Blog" pfKey="nvidia" pfOfficial="true" xmlUrl="https://blogs.nvidia.com/feed/" htmlUrl="https://blogs.nvidia.com/"/>
+      <outline type="rss" text="The Decoder" pfKey="thedecoder" xmlUrl="https://the-decoder.com/feed/" htmlUrl="https://the-decoder.com/"/>
+      <outline type="rss" text="Simon Willison" pfKey="simonw" pfMaxItems="8" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
       <outline type="rss" text="HN: Claude/Anthropic" pfKey="hn-claude" xmlUrl="https://hnrss.org/newest?q=Claude+OR+Anthropic&amp;points=50" htmlUrl="https://news.ycombinator.com/"/>
       <outline type="rss" text="arXiv cs.AI" pfKey="arxiv" pfAlert="never" pfMaxItems="12" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="https://arxiv.org/list/cs.AI/recent"/>
     </outline>
@@ -56,6 +65,13 @@
       <outline type="rss" text="Nintendo (Europe)" pfKey="nintendo" pfOfficial="true" xmlUrl="https://www.nintendo.com/en-gb/news.xml" htmlUrl="https://www.nintendo.com/en-gb/News/News-1/"/>
       <outline type="rss" text="Game File (Stephen Totilo)" pfKey="gamefile" pfTrusted="true" xmlUrl="https://www.gamefile.news/feed" htmlUrl="https://www.gamefile.news/"/>
       <outline type="rss" text="The Game Business (Christopher Dring)" pfKey="gamebusiness" pfTrusted="true" xmlUrl="https://www.thegamebusiness.com/feed" htmlUrl="https://www.thegamebusiness.com/"/>
+      <outline type="rss" text="Kotaku" pfKey="kotaku" pfMaxItems="15" xmlUrl="https://kotaku.com/rss" htmlUrl="https://kotaku.com/"/>
+      <outline type="rss" text="PC Gamer" pfKey="pcgamer" pfMaxItems="15" xmlUrl="https://www.pcgamer.com/rss/" htmlUrl="https://www.pcgamer.com/"/>
+      <outline type="rss" text="GamesIndustry.biz" pfKey="gamesindustry" pfTrusted="true" xmlUrl="https://www.gamesindustry.biz/feed" htmlUrl="https://www.gamesindustry.biz/"/>
+      <outline type="rss" text="Push Square" pfKey="pushsquare" xmlUrl="https://www.pushsquare.com/feeds/latest" htmlUrl="https://www.pushsquare.com/"/>
+      <outline type="rss" text="Nintendo Life" pfKey="nintendolife" xmlUrl="https://www.nintendolife.com/feeds/latest" htmlUrl="https://www.nintendolife.com/"/>
+      <outline type="rss" text="Pure Xbox" pfKey="purexbox" xmlUrl="https://www.purexbox.com/feeds/latest" htmlUrl="https://www.purexbox.com/"/>
+      <outline type="rss" text="Rock Paper Shotgun" pfKey="rps" pfMaxItems="10" xmlUrl="https://www.rockpapershotgun.com/feed" htmlUrl="https://www.rockpapershotgun.com/"/>
     </outline>
     <outline text="Social" title="Social">
       <outline type="rss" text="Wario64" pfKey="wario64" pfCategory="Gaming" pfMaxItems="20" xmlUrl="https://bsky.app/profile/wario64.bsky.social/rss" htmlUrl="https://bsky.app/profile/wario64.bsky.social"/>

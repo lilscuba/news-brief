@@ -4,6 +4,7 @@ struct SettingsView: View {
     @Environment(AppModel.self) private var model
     @State private var confirmDelete = false
     @State private var working = false
+    @AppStorage(SafariView.readerModeKey) private var readerMode = true
 
     /// Every edit goes straight to the model, which rebuilds the brief and saves to the account.
     private var settings: Binding<UserSettings> {
@@ -35,6 +36,13 @@ struct SettingsView: View {
                             } footer: { Text("Stories mentioning these rank higher in your brief.") }
                         }.navigationTitle("Boosted words")
                     }
+                }
+                Section {
+                    Toggle("Open articles in Reader view", isOn: $readerMode)
+                } header: {
+                    Text("Reading")
+                } footer: {
+                    Text("Shows just the article: no ads, pop-ups or videos. If a page can't be simplified, tap the \"aA\" button in the address bar, or install a Safari content blocker (the in-app browser uses it too).")
                 }
                 Section("Notifications") {
                     NavigationLink("Breaking news alerts") {

@@ -61,9 +61,21 @@ $secret = -join ($bytes | ForEach-Object { $_.ToString("x2") })
 $secret | npx wrangler secret put INGEST_SECRET; Check "wrangler secret put"
 
 Step "Deploying"
-$out = (npx wrangler deploy 2>&1 | Out-String)
-Write-Host $out
-$m = [regex]::Match($out, 'https://[a-z0-9.-]+\.workers\.dev')
+for ($attempt = 1; $attempt -le 3; $attempt++) {
+    $out = (npx wrangler deploy 2>&1 | Out-String)
+    Write-Host $out
+    $m = [regex]::Match($out, 'https://[a-z0-9.-]+\.workers\.dev')
+    if ($m.Success) { break }
+    # A new Cloudflare account must pick its workers.dev subdomain once before the first deploy.
+    # wrangler only asks for it when it can talk to you directly, so run it once uncaptured.
+    if ($out -match "register a workers.dev subdomain") {
+        Write-Host "One-time Cloudflare setting. Wrangler will ask to register a workers.dev subdomain:" -ForegroundColor Yellow
+        Write-Host "answer y, then type a name (e.g. your name)." -ForegroundColor Yellow
+        npx wrangler deploy
+        continue
+    }
+    break
+}
 if (-not $m.Success) { Fail "Deploy didn't print a workers.dev URL; check the output above." }
 $url = $m.Value + "/"
 # Remembered for launch.ps1 (not secret; ignored by git).
