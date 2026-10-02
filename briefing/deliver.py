@@ -93,7 +93,8 @@ def send_email(subject: str, html_body: str, text_body: str) -> bool:
             server.starttls()
         with server:
             server.login(s["user"], s["password"])
-            server.send_message(msg)
+            refused = server.send_message(msg)  # {} unless some recipients were refused
+        log.info("email sent (%d recipient(s) refused)", len(refused))
         return True
     except (smtplib.SMTPException, OSError) as exc:
         log.error("email failed: %s", exc)
