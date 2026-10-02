@@ -12,7 +12,7 @@ window_hours = 26
 # How many ranked story clusters are sent to the AI model. More = better coverage, higher cost.
 max_clusters_for_llm = 160
 # Sections the brief is split into, in display order. Stories labelled DEAL go in "Deals".
-sections = ["AI", "Tech", "Gaming", "Deals"]
+sections = ["AI", "Tech", "Gaming", "World", "Europe", "Japan", "Korea", "Deals"]
 # Headlines matching any of these (case-insensitive substrings) are dropped before ranking.
 # Deals aren't muted; they're labelled DEAL and collected in their own section instead.
 mute = [
@@ -46,6 +46,12 @@ techmeme_boost = 3.0
 hn_points_weight = 1.5
 # Stories lose this many points per hour of age.
 age_penalty_per_hour = 0.08
+# Multiplies the outlet-count score for a category. World and Europe have far more sources than
+# AI/Tech/Gaming, so without this a big world story (a dozen outlets) would take every top slot.
+[ranking.category_weight]
+World = 0.5
+Europe = 0.5
+
 # Case-insensitive substrings that make a story more important to *you*.
 [ranking.boosts]
 "claude" = 3.0

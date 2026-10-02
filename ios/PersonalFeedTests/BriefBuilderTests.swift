@@ -66,6 +66,38 @@ final class BriefBuilderTests: XCTestCase {
         XCTAssertLessThanOrEqual(after, before)
     }
 
+    func testRegionTopicsAreOptInAndKeepDisplayOrder() {
+        XCTAssertEqual(UserSettings.default.categories, ["AI", "Tech", "Gaming", "Deals"])
+        var s = UserSettings.default
+        s.setCategory("Korea", enabled: true)
+        s.setCategory("World", enabled: true)
+        XCTAssertEqual(s.categories, ["AI", "Tech", "Gaming", "World", "Korea", "Deals"])
+    }
+
+    func testRegionStoriesAndSourceWarningsOnlyShowForFollowedTopics() {
+        let story = FeedStory(
+            id: "jp1", title: "Tokyo inflation hits 2.7% in September", summary: "", label: "REPORTED",
+            category: "Japan", score: 3, official: false, trusted: false, outletCount: 1, published: now,
+            sources: [FeedSource(key: "japantimes", outlet: "The Japan Times", title: "Tokyo inflation hits 2.7%",
+                                 url: URL(string: "https://example.com/jt")!, official: false, published: now)])
+        let japanTimes = SourceInfo(key: "japantimes", title: "The Japan Times", category: "Japan",
+                                    official: false, trusted: false, mirror: false, status: "error", latest: nil)
+        let withJapan = SharedFeed(version: 1, generatedAt: feed.generatedAt, windowHours: feed.windowHours,
+                                   sections: feed.sections, sources: feed.sources + [japanTimes],
+                                   watchlist: feed.watchlist, stories: feed.stories + [story])
+
+        let skipped = BriefBuilder.build(feed: withJapan, settings: .default, now: now)
+        XCTAssertFalse(skipped.sections.contains { $0.name == "Japan" })
+        XCTAssertFalse(skipped.allStories.contains { $0.id == "jp1" })
+        XCTAssertFalse(skipped.sourceProblems.contains("The Japan Times"))
+
+        var s = UserSettings.default
+        s.setCategory("Japan", enabled: true)
+        let followed = BriefBuilder.build(feed: withJapan, settings: s, now: now)
+        XCTAssertEqual(followed.sections.first { $0.name == "Japan" }?.stories.map(\.id), ["jp1"])
+        XCTAssertTrue(followed.sourceProblems.contains("The Japan Times"))
+    }
+
     func testSettingsJSONMatchesServerShape() throws {
         let json = try JSONSerialization.jsonObject(with: JSONEncoder.api.encode(UserSettings.default)) as! [String: Any]
         XCTAssertEqual(Set(json.keys), ["version", "categories", "disabledSources", "mutedWords", "boosts", "alerts", "brief"])

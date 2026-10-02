@@ -58,6 +58,10 @@ struct TopicsSection: View {
         "AI": "Model launches, labs, research",
         "Tech": "Apple, Microsoft, Google, gadgets, the industry",
         "Gaming": "Consoles, releases, scoops, the business",
+        "World": "Global headlines from English-language outlets",
+        "Europe": "UK, Ireland, Germany, France, Ukraine and more, in English",
+        "Japan": "Japan Times, Nikkei Asia and more, in English",
+        "Korea": "Yonhap, Korea Herald, Korea Times and more, in English",
         "Deals": "Game and hardware sales, kept in their own section",
     ]
 
@@ -91,7 +95,7 @@ struct SourcesSection: View {
     }
 
     private var groups: [SourceGroup] {
-        let order = ["AI", "Tech", "Gaming"]
+        let order = UserSettings.allCategories
         let grouped = Dictionary(grouping: sources, by: \.category)
         return grouped.keys
             .sorted { (order.firstIndex(of: $0) ?? 99, $0) < (order.firstIndex(of: $1) ?? 99, $1) }

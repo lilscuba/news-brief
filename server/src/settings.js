@@ -1,7 +1,8 @@
 // Per-user settings: the same JSON shape the iOS app edits (UserSettings.swift).
 // Everything is validated and clamped here, so the database only ever holds sane values.
 
-export const CATEGORIES = ["AI", "Tech", "Gaming", "Deals"];
+// World, Europe, Japan and Korea are opt-in: new accounts start with DEFAULT_SETTINGS.categories.
+export const CATEGORIES = ["AI", "Tech", "Gaming", "World", "Europe", "Japan", "Korea", "Deals"];
 
 export const DEFAULT_SETTINGS = Object.freeze({
   version: 1,

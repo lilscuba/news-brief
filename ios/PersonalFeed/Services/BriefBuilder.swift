@@ -47,7 +47,11 @@ enum BriefBuilder {
         }
 
         let count = top.count + sections.reduce(0) { $0 + $1.stories.count }
-        let enabledSources = feed.sources.filter { settings.isSourceEnabled($0.key) }
+        // Only sources in topics they follow: someone who skipped Japan shouldn't see Japanese
+        // outlets in the source count or in "not responding" warnings.
+        let enabledSources = feed.sources.filter {
+            settings.isSourceEnabled($0.key) && settings.categories.contains($0.category)
+        }
         let problems = enabledSources.filter { $0.status != "ok" }.map(\.title)
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = timeZone

@@ -4,7 +4,7 @@ import Foundation
 /// stores it with their account, so it follows them to any device they sign in on.
 struct UserSettings: Codable, Hashable, Sendable {
     var version = 1
-    var categories: [String] = UserSettings.allCategories
+    var categories: [String] = UserSettings.defaultCategories
     var disabledSources: [String] = []
     var mutedWords: [String] = []
     var boosts: [String] = []
@@ -26,7 +26,10 @@ struct UserSettings: Codable, Hashable, Sendable {
         var timezone = TimeZone.current.identifier
     }
 
-    static let allCategories = ["AI", "Tech", "Gaming", "Deals"]
+    /// Display order for topics and source groups; matches CATEGORIES in server/src/settings.js.
+    static let allCategories = ["AI", "Tech", "Gaming", "World", "Europe", "Japan", "Korea", "Deals"]
+    /// What a new account starts with. World, Europe, Japan and Korea are opt-in.
+    static let defaultCategories = ["AI", "Tech", "Gaming", "Deals"]
     static let `default` = UserSettings()
 
     func isSourceEnabled(_ key: String) -> Bool { !disabledSources.contains(key) }
