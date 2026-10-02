@@ -16,7 +16,8 @@ struct SettingsView: View {
             Form {
                 Section("Feed") {
                     NavigationLink("Topics") {
-                        Form { TopicsSection(settings: settings) }.navigationTitle("Topics")
+                        Form { TopicsSection(settings: settings, saveState: model.saveState) }
+                            .navigationTitle("Topics")
                     }
                     NavigationLink("Sources") {
                         Form { SourcesSection(settings: settings, sources: model.feed?.sources ?? []) }
