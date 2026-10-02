@@ -58,6 +58,7 @@ struct TopicsSection: View {
         "AI": "Model launches, labs, research",
         "Tech": "Apple, Microsoft, Google, gadgets, the industry",
         "Gaming": "Consoles, releases, scoops, the business",
+        "US": "US news and politics from outlets across the spectrum",
         "World": "Global headlines from English-language outlets",
         "Europe": "UK, Ireland, Germany, France, Spain, Italy, Ukraine and more. Non-English outlets are translated.",
         "Japan": "Japan Times, Nikkei Asia, NHK, Asahi and more. Japanese outlets are translated.",

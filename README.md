@@ -54,7 +54,7 @@ downloaded Apple push key in Downloads, and stores it as an encrypted GitHub sec
 
 It runs free on GitHub and has three parts:
 
-1. **Daily brief** (GitHub Actions, once a day). It reads 116 sources: outlet RSS feeds (tech, gaming
+1. **Daily brief** (GitHub Actions, once a day). It reads 177 sources: outlet RSS feeds (tech, gaming
    and English-language world news), official company feeds, two newsletters and eight
    gaming/tech journalists on Bluesky. It drops
    headlines matching your mute words, clusters the same story across outlets, ranks stories
@@ -142,6 +142,7 @@ reliability labels and is told to write rumors as rumors.
 | Tech | Techmeme, The Verge, Ars Technica, TechCrunch, 9to5Mac, Hacker News (100+ points) |
 | AI | OpenAI, Google DeepMind, Google AI (official); Anthropic and Meta AI (community mirrors); Verge AI, Ars AI, HN Claude/Anthropic, arXiv cs.AI (capped at 12) |
 | Gaming | VGC, Eurogamer, IGN, Gematsu, Insider Gaming, GoNintendo; PlayStation Blog, Xbox Wire, Nintendo of Europe (official); Steam News; Game File (Totilo) and The Game Business (Dring) newsletters |
+| US | Wire and broadcast: NPR, PBS NewsHour, ABC, CBS, NBC, Axios, The Hill, Politico, Semafor, Bloomberg, Newsweek, Time, CS Monitor, Roll Call, Courthouse News, ProPublica, Pew, Straight Arrow News, Tangle, The Dispatch, Yahoo; papers: Washington Post, NYT, WSJ, Guardian US; right: Fox News, NY Post, Daily Wire, National Review, Washington Examiner, Free Beacon, Washington Times, Reason, The Federalist, American Conservative, American Spectator, Daily Caller, The Free Press, RealClearPolitics, TheBlaze, Just the News, The Reload; left: Mother Jones, The Nation, Jacobin, The Intercept, Vox, Slate, HuffPost, Daily Beast, Democracy Now!, The Bulwark, Common Dreams, The Atlantic, The New Yorker, The Lever, Zeteo, The Appeal |
 | World | BBC World, Guardian World, Al Jazeera, NPR, NYT, CBC, Sky News, CNA, Straits Times, SCMP, The Hindu, Times of India, BBC Africa and Latin America, MercoPress, Foreign Policy, The Diplomat, Rest of World |
 | Europe | BBC Europe and UK, Guardian Europe and UK, Euronews, DW, RFI, France 24, Politico Europe; Ireland (RTÉ, TheJournal.ie), Netherlands (DutchNews, NL Times), Poland, Ukraine (Kyiv Independent, Ukrainska Pravda), Russia (Meduza), Estonia (ERR), Lithuania (LRT), Balkans, Romania, Finland, Norway, Denmark, Italy (ANSA); translated: Tagesschau, Der Spiegel, SRF, ORF, Le Monde, franceinfo, El País, Corriere, SVT, ERT |
 | Japan | Japan Times, Nikkei Asia, Japan Forward; translated: Asahi, Mainichi, NHK |
@@ -149,6 +150,13 @@ reliability labels and is told to write rumors as rumors.
 | Social (Bluesky) | Wario64, billbil-kun, Jeff Grubb, Jason Schreier, Stephen Totilo, Christopher Dring, Mat Piscatella, Tom Warren |
 
 Notes on the sources:
+- **US** covers the political spectrum on purpose. Left out: outlets built on conspiracy or health
+  misinformation (Infowars, Natural News and its network sites, Activist Post, The Defender,
+  ZeroHedge), tabloids, state-funded outlets (TRT, teleSUR), podcasts, TV shows and personalities
+  (they have no news feed), and outlets with no working feed (AP and Reuters publish none; USA
+  Today, Forbes, Stars and Stripes, CNN, Newsmax, Quillette, The Post Millennial). Breitbart's
+  feed works but it is held back for a weak fact-checking record; it's one line in `feeds.opml`
+  if you want it.
 - **Translation.** Feeds marked `pfLang` in `feeds.opml` (Tagesschau, Spiegel, Le Monde,
   franceinfo, El País, Corriere, SVT, SRF, ORF, ERT, Asahi, Mainichi, NHK, Chosun) are
   machine-translated to English at ingest with Gemini (`[translate]` in `config.toml`). Each

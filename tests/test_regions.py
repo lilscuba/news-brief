@@ -5,7 +5,7 @@ from briefing.models import Cluster
 from briefing.rank import rank
 from test_pipeline import CFG, NOW, feed, item
 
-REGIONS = ("World", "Europe", "Japan", "Korea")
+REGIONS = ("US", "World", "Europe", "Japan", "Korea")
 
 
 def test_opml_loads_with_region_folders_in_the_configured_sections():

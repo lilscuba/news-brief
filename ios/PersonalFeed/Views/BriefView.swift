@@ -156,6 +156,7 @@ struct TopicStyle {
         case "AI": TopicStyle(symbol: "cpu", color: .purple)
         case "Tech": TopicStyle(symbol: "laptopcomputer", color: .blue)
         case "Gaming": TopicStyle(symbol: "gamecontroller.fill", color: .green)
+        case "US": TopicStyle(symbol: "building.columns.fill", color: .brown)
         case "World": TopicStyle(symbol: "globe", color: .teal)
         case "Europe": TopicStyle(symbol: "globe.europe.africa.fill", color: .indigo)
         case "Japan": TopicStyle(symbol: "globe.asia.australia.fill", color: .red)
