@@ -34,7 +34,7 @@ final class BriefBuilderTests: XCTestCase {
         }
     }
 
-    func testTopicsSourcesAndMutes() {
+    func testTopicsSourcesAndMutes() throws {
         var s = UserSettings.default
         s.categories = ["Gaming"]
         let gaming = BriefBuilder.build(feed: feed, settings: s, now: now)
@@ -47,7 +47,8 @@ final class BriefBuilderTests: XCTestCase {
         let without = BriefBuilder.build(feed: feed, settings: s, now: now)
         XCTAssertFalse(without.allStories.flatMap(\.sources).contains { $0.outlet == firstSource.outlet })
 
-        let word = feed.stories[0].title.split(separator: " ").max { $0.count < $1.count }.map(String.init)!
+        let words: [Substring] = feed.stories[0].title.split(separator: " ")
+        let word = String(try XCTUnwrap(words.max { $0.count < $1.count }))
         s = .default
         s.mutedWords = [word]
         let muted = BriefBuilder.build(feed: feed, settings: s, now: now)
