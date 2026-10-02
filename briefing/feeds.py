@@ -53,6 +53,7 @@ def load_opml(path: Path) -> list[Feed]:
                     mirror=node.get("pfMirror") == "true",
                     max_items=int(node.get("pfMaxItems")) if node.get("pfMaxItems") else None,
                     trusted=node.get("pfTrusted") == "true",
+                    lang=node.get("pfLang") or "en",
                 )
             )
     keys = [f.key for f in feeds]

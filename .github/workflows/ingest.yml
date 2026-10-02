@@ -2,7 +2,7 @@ name: Shared feed (app backend)
 
 # Builds the shared feed for every app user and sends their push notifications.
 # Needs: variable WORKER_URL; secrets INGEST_SECRET, APNS_KEY, APNS_KEY_ID, APNS_TEAM_ID,
-# APNS_TOPIC. See server/README.md.
+# APNS_TOPIC; optional GEMINI_API_KEY for translation. See server/README.md.
 
 on:
   schedule:
@@ -47,6 +47,9 @@ jobs:
           APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
           APNS_TEAM_ID: ${{ secrets.APNS_TEAM_ID }}
           APNS_TOPIC: ${{ secrets.APNS_TOPIC }}
+          # Translates non-English headlines (see [translate] in config.toml).
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
 
       - uses: actions/cache/save@v4
         if: always()

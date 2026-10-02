@@ -33,7 +33,10 @@ enum BriefBuilder {
                 category: isDeal ? "Deals" : s.category,
                 published: s.published,
                 outletCount: outlets,
-                sources: sources.map { Source(outlet: $0.outlet, title: $0.title, url: $0.url, official: $0.official) }
+                sources: sources.map {
+                    Source(outlet: $0.outlet, title: $0.title, url: $0.url, official: $0.official,
+                           translatedFrom: $0.translatedFrom, originalTitle: $0.originalTitle)
+                }
             )
             scored.append((story, s.score + boost, isDeal))
         }

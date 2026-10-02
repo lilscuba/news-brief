@@ -20,6 +20,14 @@ mute = [
   "contexto", "best gaming", "gift guide",
 ]
 
+[translate]
+# Feeds marked pfLang="xx" in feeds.opml are machine-translated to English at ingest with Gemini
+# (needs GEMINI_API_KEY; the free tier is enough). Each headline is translated once and cached.
+# Without a key, or if a call fails, those items are left out until a later run translates them.
+enabled = true
+batch_size = 40
+max_calls_per_run = 3
+
 [ai]
 # Which model writes the brief when summarize = true. Override with the AI_PROVIDER env var.
 #   "gemini" = Google AI Studio free tier (needs GEMINI_API_KEY)

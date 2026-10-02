@@ -13,9 +13,8 @@
     pfTrusted  "true" = strong scoop track record: its rumors are labelled RUMOR-CREDIBLE and a
                watchlist match from it alerts on its own (alert tier 2)
     pfCategory  section the feed's stories go in, when it differs from the folder (Social)
-
-  World, Europe, Japan and Korea are English-language sources only (no translation happens).
-  Spain, Sweden, Switzerland, Austria and Greece have no outlet with a working English feed yet.
+    pfLang     ISO 639-1 code of a non-English feed (de, fr, ja...). Its headlines and snippets are
+               machine-translated to English at ingest (see [translate] in config.toml).
 
   Bluesky accounts use their profile RSS URL (https://bsky.app/profile/HANDLE/rss) so this file
   imports cleanly into NetNewsWire; the pipeline reads them through the public Bluesky API.
@@ -123,11 +122,24 @@
       <outline type="rss" text="News in English (Norway)" pfKey="newsinenglish" xmlUrl="https://www.newsinenglish.no/feed/" htmlUrl="https://www.newsinenglish.no/"/>
       <outline type="rss" text="The Copenhagen Post (Denmark)" pfKey="cphpost" xmlUrl="https://cphpost.dk/feed/" htmlUrl="https://cphpost.dk/"/>
       <outline type="rss" text="ANSA English (Italy)" pfKey="ansa" pfMaxItems="10" xmlUrl="https://www.ansa.it/english/news/english_nr_rss.xml" htmlUrl="https://www.ansa.it/english/"/>
+      <outline type="rss" text="Tagesschau (Germany)" pfKey="tagesschau" pfLang="de" pfMaxItems="10" xmlUrl="https://www.tagesschau.de/index~rss2.xml" htmlUrl="https://www.tagesschau.de/"/>
+      <outline type="rss" text="Der Spiegel (Germany)" pfKey="spiegel" pfLang="de" pfMaxItems="10" xmlUrl="https://www.spiegel.de/schlagzeilen/index.rss" htmlUrl="https://www.spiegel.de/"/>
+      <outline type="rss" text="Le Monde (France)" pfKey="lemonde" pfLang="fr" pfMaxItems="10" xmlUrl="https://www.lemonde.fr/rss/une.xml" htmlUrl="https://www.lemonde.fr/"/>
+      <outline type="rss" text="franceinfo (France)" pfKey="franceinfo" pfLang="fr" pfMaxItems="10" xmlUrl="https://www.francetvinfo.fr/titres.rss" htmlUrl="https://www.francetvinfo.fr/"/>
+      <outline type="rss" text="El País (Spain)" pfKey="elpais" pfLang="es" pfMaxItems="10" xmlUrl="https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada" htmlUrl="https://elpais.com/"/>
+      <outline type="rss" text="Corriere della Sera (Italy)" pfKey="corriere" pfLang="it" pfMaxItems="10" xmlUrl="https://xml2.corriereobjects.it/rss/homepage.xml" htmlUrl="https://www.corriere.it/"/>
+      <outline type="rss" text="SVT Nyheter (Sweden)" pfKey="svt" pfLang="sv" pfMaxItems="10" xmlUrl="https://www.svt.se/nyheter/rss.xml" htmlUrl="https://www.svt.se/nyheter/"/>
+      <outline type="rss" text="SRF News (Switzerland)" pfKey="srf" pfLang="de" pfMaxItems="10" xmlUrl="https://www.srf.ch/news/bnf/rss/1646" htmlUrl="https://www.srf.ch/news"/>
+      <outline type="rss" text="ORF News (Austria)" pfKey="orf" pfLang="de" pfMaxItems="10" xmlUrl="https://rss.orf.at/news.xml" htmlUrl="https://orf.at/"/>
+      <outline type="rss" text="ERT News (Greece)" pfKey="ertnews" pfLang="el" pfMaxItems="10" xmlUrl="https://www.ertnews.gr/feed/" htmlUrl="https://www.ertnews.gr/"/>
     </outline>
     <outline text="Japan" title="Japan">
       <outline type="rss" text="The Japan Times" pfKey="japantimes" pfMaxItems="12" xmlUrl="https://www.japantimes.co.jp/feed/" htmlUrl="https://www.japantimes.co.jp/"/>
       <outline type="rss" text="Nikkei Asia" pfKey="nikkei" pfMaxItems="10" xmlUrl="https://asia.nikkei.com/rss/feed/nar" htmlUrl="https://asia.nikkei.com/"/>
       <outline type="rss" text="Japan Forward" pfKey="japanforward" xmlUrl="https://japan-forward.com/feed/" htmlUrl="https://japan-forward.com/"/>
+      <outline type="rss" text="Asahi Shimbun (Japanese)" pfKey="asahi" pfLang="ja" pfMaxItems="10" xmlUrl="https://www.asahi.com/rss/asahi/newsheadlines.rdf" htmlUrl="https://www.asahi.com/"/>
+      <outline type="rss" text="Mainichi Shimbun (Japanese)" pfKey="mainichi" pfLang="ja" pfMaxItems="10" xmlUrl="https://mainichi.jp/rss/etc/mainichi-flash.rss" htmlUrl="https://mainichi.jp/"/>
+      <outline type="rss" text="NHK News (Japanese)" pfKey="nhk" pfLang="ja" xmlUrl="https://www3.nhk.or.jp/rss/news/cat0.xml" htmlUrl="https://www3.nhk.or.jp/news/"/>
     </outline>
     <outline text="Korea" title="Korea">
       <outline type="rss" text="Yonhap News" pfKey="yonhap" pfMaxItems="12" xmlUrl="https://en.yna.co.kr/RSS/news.xml" htmlUrl="https://en.yna.co.kr/"/>
@@ -135,6 +147,7 @@
       <outline type="rss" text="The Korea Times" pfKey="koreatimes" xmlUrl="https://www.koreatimes.co.kr/www/rss/nation.xml" htmlUrl="https://www.koreatimes.co.kr/"/>
       <outline type="rss" text="KBS World" pfKey="kbsworld" pfMaxItems="8" xmlUrl="https://world.kbs.co.kr/rss/rss_news.htm?lang=e" htmlUrl="https://world.kbs.co.kr/"/>
       <outline type="rss" text="NK News (North Korea)" pfKey="nknews" pfMaxItems="6" xmlUrl="https://www.nknews.org/feed/" htmlUrl="https://www.nknews.org/"/>
+      <outline type="rss" text="Chosun Ilbo (Korean)" pfKey="chosun" pfLang="ko" pfMaxItems="10" xmlUrl="https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml" htmlUrl="https://www.chosun.com/"/>
     </outline>
     <outline text="Social" title="Social">
       <outline type="rss" text="Wario64" pfKey="wario64" pfCategory="Gaming" pfMaxItems="20" xmlUrl="https://bsky.app/profile/wario64.bsky.social/rss" htmlUrl="https://bsky.app/profile/wario64.bsky.social"/>

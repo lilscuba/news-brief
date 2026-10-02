@@ -110,6 +110,8 @@ def test_gemini_schema_is_inlined_and_valid():
     assert story["properties"]["label"]["enum"] == [
         "CONFIRMED", "REPORTED", "RUMOR-CREDIBLE", "RUMOR-UNVERIFIED", "DEAL"]
     assert "cluster_ids" in story["required"]
+    # Every required field must be declared, including the one named "title".
+    assert set(story["required"]) <= set(story["properties"]) and "title" in story["properties"]
 
 
 def test_gmail_settings(monkeypatch):

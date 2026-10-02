@@ -106,7 +106,9 @@ def run(dry_run: bool = False) -> list[Alert]:
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
 
-    feeds = [f for f in load_opml(ROOT / "feeds.opml") if f.alert_mode != "never"]
+    # English feeds only: this pipeline doesn't translate, and headlines in other languages
+    # couldn't match the watchlist anyway.
+    feeds = [f for f in load_opml(ROOT / "feeds.opml") if f.alert_mode != "never" and f.lang == "en"]
     items = [it for r in fetch_all(feeds, now) for it in r.items]
     seen: dict[str, str] = st.get("seen", {})
     cooldowns: dict[str, str] = st.get("cooldowns", {})

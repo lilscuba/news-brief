@@ -59,9 +59,9 @@ struct TopicsSection: View {
         "Tech": "Apple, Microsoft, Google, gadgets, the industry",
         "Gaming": "Consoles, releases, scoops, the business",
         "World": "Global headlines from English-language outlets",
-        "Europe": "UK, Ireland, Germany, France, Ukraine and more, in English",
-        "Japan": "Japan Times, Nikkei Asia and more, in English",
-        "Korea": "Yonhap, Korea Herald, Korea Times and more, in English",
+        "Europe": "UK, Ireland, Germany, France, Spain, Italy, Ukraine and more. Non-English outlets are translated.",
+        "Japan": "Japan Times, Nikkei Asia, NHK, Asahi and more. Japanese outlets are translated.",
+        "Korea": "Yonhap, Korea Herald, Korea Times, Chosun Ilbo and more. Korean outlets are translated.",
         "Deals": "Game and hardware sales, kept in their own section",
     ]
 

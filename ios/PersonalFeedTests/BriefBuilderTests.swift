@@ -98,6 +98,29 @@ final class BriefBuilderTests: XCTestCase {
         XCTAssertTrue(followed.sourceProblems.contains("The Japan Times"))
     }
 
+    func testTranslatedHeadlinesKeepTheirOriginalAndOldFeedsStillDecode() throws {
+        let json = """
+        {"key":"tagesschau","outlet":"Tagesschau (Germany)","title":"Inflation falls","url":"https://example.com/a",
+         "official":false,"published":"2026-10-01T12:00:00Z","translatedFrom":"de","originalTitle":"Inflation sinkt"}
+        """
+        let translated = try JSONDecoder.api.decode(FeedSource.self, from: Data(json.utf8))
+        XCTAssertEqual(translated.translatedFrom, "de")
+        XCTAssertEqual(translated.originalTitle, "Inflation sinkt")
+        XCTAssertNil(feed.stories[0].sources[0].translatedFrom, "feeds without the new fields still decode")
+
+        let story = FeedStory(id: "de1", title: "Inflation falls", summary: "", label: "REPORTED", category: "Europe",
+                              score: 3, official: false, trusted: false, outletCount: 1, published: now, sources: [translated])
+        let withGerman = SharedFeed(version: 1, generatedAt: feed.generatedAt, windowHours: feed.windowHours,
+                                    sections: feed.sections, sources: feed.sources, watchlist: feed.watchlist,
+                                    stories: feed.stories + [story])
+        var s = UserSettings.default
+        s.setCategory("Europe", enabled: true)
+        let europe = BriefBuilder.build(feed: withGerman, settings: s, now: now).allStories.first { $0.id == "de1" }
+        XCTAssertEqual(europe?.isTranslated, true)
+        XCTAssertEqual(europe?.sources.first?.originalTitle, "Inflation sinkt")
+        XCTAssertFalse(try XCTUnwrap(feed.stories.first).sources.isEmpty)
+    }
+
     func testSettingsJSONMatchesServerShape() throws {
         let json = try JSONSerialization.jsonObject(with: JSONEncoder.api.encode(UserSettings.default)) as! [String: Any]
         XCTAssertEqual(Set(json.keys), ["version", "categories", "disabledSources", "mutedWords", "boosts", "alerts", "brief"])

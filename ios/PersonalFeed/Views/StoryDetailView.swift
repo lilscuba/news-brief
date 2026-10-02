@@ -57,6 +57,13 @@ struct StoryDetailView: View {
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
                                 .multilineTextAlignment(.leading)
+                            if let code = source.translatedFrom {
+                                Text("Translated from \(Locale.current.localizedString(forLanguageCode: code) ?? code)"
+                                     + (source.originalTitle.map { ": \($0)" } ?? ""))
+                                    .font(.caption)
+                                    .foregroundStyle(.tertiary)
+                                    .multilineTextAlignment(.leading)
+                            }
                         }
                     }
                     .tint(.primary)

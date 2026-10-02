@@ -44,6 +44,9 @@ struct Story: Codable, Hashable, Sendable, Identifiable {
     let published: Date
     let outletCount: Int
     let sources: [Source]
+
+    /// The headline comes from the first source (see `_story` in briefing/service.py).
+    var isTranslated: Bool { sources.first?.translatedFrom != nil }
 }
 
 struct Source: Codable, Hashable, Sendable, Identifiable {
@@ -51,5 +54,9 @@ struct Source: Codable, Hashable, Sendable, Identifiable {
     let title: String
     let url: URL
     let official: Bool
+    /// Language code (e.g. "de") when the headline was machine-translated; `originalTitle` is the
+    /// untranslated headline.
+    var translatedFrom: String?
+    var originalTitle: String?
     var id: URL { url }
 }

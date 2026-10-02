@@ -88,6 +88,10 @@ struct StoryRow: View {
                 Text(story.category)
                 Text("·")
                 Text(story.outletCount == 1 ? "1 outlet" : "\(story.outletCount) outlets")
+                if story.isTranslated {
+                    Label("Translated", systemImage: "globe")
+                        .labelStyle(.titleAndIcon)
+                }
             }
             .font(.caption)
             .foregroundStyle(.secondary)

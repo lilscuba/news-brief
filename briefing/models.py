@@ -15,6 +15,7 @@ class Feed:
     mirror: bool = False
     max_items: int | None = None  # cap per brief for firehose feeds (arXiv, Steam)
     trusted: bool = False  # strong scoop track record: its rumors are RUMOR-CREDIBLE, alerts solo
+    lang: str = "en"  # ISO 639-1 code; anything but "en" is machine-translated at ingest
 
     @property
     def outlet(self) -> str:
@@ -33,6 +34,7 @@ class Item:
     published: datetime
     alt_urls: list[str] = field(default_factory=list)
     hn_points: int | None = None
+    original_title: str | None = None  # set when title/summary were machine-translated
 
     @property
     def outlet(self) -> str:

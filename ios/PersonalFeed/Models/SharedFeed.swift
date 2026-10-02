@@ -33,6 +33,9 @@ struct FeedSource: Codable, Hashable, Sendable {
     let url: URL
     let official: Bool
     let published: Date
+    /// Language code (e.g. "de") when the headline was machine-translated at ingest.
+    var translatedFrom: String?
+    var originalTitle: String?
 }
 
 /// One entry in the source catalog, used by the source pickers.
