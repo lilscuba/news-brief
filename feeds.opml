@@ -109,7 +109,6 @@
       <outline type="rss" text="National Review" pfKey="nationalreview" pfMaxItems="6" xmlUrl="https://www.nationalreview.com/feed/" htmlUrl="https://www.nationalreview.com/"/>
       <outline type="rss" text="Washington Examiner" pfKey="washingtonexaminer" pfMaxItems="8" xmlUrl="https://www.washingtonexaminer.com/feed" htmlUrl="https://www.washingtonexaminer.com/"/>
       <outline type="rss" text="Washington Free Beacon" pfKey="freebeacon" pfMaxItems="6" xmlUrl="https://freebeacon.com/feed/" htmlUrl="https://freebeacon.com/"/>
-      <outline type="rss" text="The Washington Times" pfKey="washingtontimes" pfMaxItems="8" xmlUrl="https://www.washingtontimes.com/rss/headlines/news/" htmlUrl="https://www.washingtontimes.com/"/>
       <outline type="rss" text="Reason" pfKey="reason" pfMaxItems="6" xmlUrl="https://reason.com/feed/" htmlUrl="https://reason.com/"/>
       <outline type="rss" text="The Federalist" pfKey="federalist" pfMaxItems="6" xmlUrl="https://thefederalist.com/feed/" htmlUrl="https://thefederalist.com/"/>
       <outline type="rss" text="The American Conservative" pfKey="amconservative" pfMaxItems="4" xmlUrl="https://www.theamericanconservative.com/feed/" htmlUrl="https://www.theamericanconservative.com/"/>
