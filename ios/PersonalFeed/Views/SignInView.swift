@@ -15,13 +15,13 @@ struct SignInView: View {
             VStack(spacing: 10) {
                 Text("Brief")
                     .font(.largeTitle.bold())
-                Text("Breaking gaming, tech and AI news from the outlets, official blogs and reporters who break it. One calm feed instead of endless scrolling.")
+                Text("Breaking gaming, tech, AI and world news from the outlets, official blogs and reporters who break it. One calm feed instead of endless scrolling.")
                     .font(.body)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
             }
             VStack(alignment: .leading, spacing: 12) {
-                Feature(icon: "square.stack.3d.up", text: "35+ sources, the same story merged into one")
+                Feature(icon: "square.stack.3d.up", text: "170+ sources, the same story merged into one")
                 Feature(icon: "checkmark.seal", text: "Every story labelled: confirmed, reported or rumor")
                 Feature(icon: "bell.badge", text: "Push only for news that matters to you, max 5 a day")
             }

@@ -16,6 +16,9 @@ struct PersonalFeedApp: App {
         .onChange(of: scenePhase) { _, phase in
             if phase == .active, delegate.model.phase == .ready {
                 Task { await delegate.model.refresh() }
+                delegate.model.flushPendingSettings()   // retry anything that didn't save
+            } else if phase == .background {
+                delegate.model.flushPendingSettings()   // don't lose a change made just before leaving
             }
         }
     }

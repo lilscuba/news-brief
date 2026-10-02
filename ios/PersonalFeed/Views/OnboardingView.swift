@@ -53,6 +53,8 @@ struct OnboardingView: View {
 
 struct TopicsSection: View {
     @Binding var settings: UserSettings
+    /// Shown in Settings, where every change saves to the account by itself. Nil in onboarding.
+    var saveState: AppModel.SaveState? = nil
 
     private static let blurbs = [
         "AI": "Model launches, labs, research",
@@ -80,7 +82,32 @@ struct TopicsSection: View {
                 }
             }
         } footer: {
-            Text("You can change this any time in Settings.")
+            VStack(alignment: .leading, spacing: 4) {
+                Text(saveState == nil ? "You can change this any time in Settings."
+                                      : "Changes save automatically.")
+                if let saveState { SaveStatusLabel(state: saveState) }
+            }
+        }
+    }
+}
+
+/// "Saving…", "Saved" or "Couldn't save yet" under the topic list.
+struct SaveStatusLabel: View {
+    let state: AppModel.SaveState
+
+    var body: some View {
+        switch state {
+        case .idle:
+            EmptyView()
+        case .saving:
+            Label("Saving…", systemImage: "arrow.triangle.2.circlepath")
+        case .saved:
+            Label("Saved", systemImage: "checkmark.circle.fill")
+                .foregroundStyle(.green)
+        case .failed:
+            Label("Couldn't save yet. Your choices are kept on this phone and will sync when you're back online.",
+                  systemImage: "exclamationmark.triangle.fill")
+                .foregroundStyle(.orange)
         }
     }
 }
