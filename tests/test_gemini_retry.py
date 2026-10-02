@@ -20,6 +20,13 @@ class Resp:
         return self._body
 
 
+@pytest.fixture(autouse=True)
+def _reset_overloaded():
+    summarize._OVERLOADED.clear()
+    yield
+    summarize._OVERLOADED.clear()
+
+
 @pytest.fixture
 def post(monkeypatch):
     monkeypatch.setenv("GEMINI_API_KEY", "k")
@@ -89,3 +96,12 @@ def test_all_models_overloaded_raises_the_last_error(post):
     with pytest.raises(RuntimeError, match="HTTP 503"):
         summarize.gemini_json("s", "u", {}, cfg)
     assert len(calls) == 4
+
+
+def test_a_model_that_failed_every_retry_is_skipped_for_the_rest_of_the_run(post):
+    cfg = {**CFG, "gemini": {"model": "primary", "fallback_models": ["backup"]}}
+    calls, sleeps = post(Resp(503), Resp(503), Resp(503), Resp(200, OK), Resp(200, OK))
+    summarize.gemini_json("s", "u", {}, cfg)
+    summarize.gemini_json("s", "u", {}, cfg)  # second call: straight to the backup, no waiting
+    names = [c.split("models/")[1].split(":")[0] for c in calls]
+    assert names == ["primary"] * 3 + ["backup", "backup"] and sleeps == [3, 8]

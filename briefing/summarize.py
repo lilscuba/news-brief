@@ -27,6 +27,9 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 # retry rides it out. Anything still failing is retried by the next scheduled run.
 GEMINI_RETRY_STATUS = {429, 500, 502, 503, 504}
 GEMINI_RETRY_DELAYS = (3, 8)
+# Models that already failed every retry in this process. The rest of the run (the ingest makes
+# several calls) goes straight to the fallbacks instead of waiting out the retries again.
+_OVERLOADED: set[str] = set()
 
 Label = Literal["CONFIRMED", "REPORTED", "RUMOR-CREDIBLE", "RUMOR-UNVERIFIED", "DEAL"]
 
@@ -200,6 +203,8 @@ def gemini_json(system: str, user: str, schema: dict, cfg: dict,
     }
     for n, model in enumerate(models):
         more = n < len(models) - 1
+        if more and model in _OVERLOADED:
+            continue
         try:
             resp = _post_gemini(model, key, body, timeout, GEMINI_RETRY_DELAYS if n == 0 else ())
         except (requests.ConnectionError, requests.Timeout):
@@ -208,6 +213,7 @@ def gemini_json(system: str, user: str, schema: dict, cfg: dict,
             log.warning("Gemini %s unreachable; trying %s", model, models[n + 1])
             continue
         if resp.status_code in GEMINI_RETRY_STATUS and more:
+            _OVERLOADED.add(model)
             log.warning("Gemini %s returned HTTP %s; trying %s", model, resp.status_code, models[n + 1])
             continue
         break
