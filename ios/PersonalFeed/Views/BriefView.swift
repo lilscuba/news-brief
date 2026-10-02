@@ -6,7 +6,6 @@ struct BriefView: View {
     let brief: Brief
     /// e.g. "Offline: showing the last update."
     let status: String?
-    @State private var openedTopic: TopicDestination?
     @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
 
     /// Stories shown per topic in the feed before "See all".
@@ -65,15 +64,15 @@ struct BriefView: View {
         }
         .listStyle(.insetGrouped)
         .navigationDestination(for: TopicDestination.self) { TopicListView(topic: $0) }
-        .navigationDestination(item: $openedTopic) { TopicListView(topic: $0) }
         .toolbar {
             if !topics.isEmpty {
                 ToolbarItem(placement: .topBarTrailing) {
                     Menu {
+                        // A value link, like every other push here. A separate bound
+                        // navigationDestination(item:) on the same stack left the article links on
+                        // that topic page highlighted but not opening until the next tap.
                         ForEach(topics) { topic in
-                            Button {
-                                openedTopic = TopicDestination(name: topic.name, stories: topic.stories)
-                            } label: {
+                            NavigationLink(value: TopicDestination(name: topic.name, stories: topic.stories)) {
                                 Label("\(topic.name) · \(topic.stories.count)",
                                       systemImage: TopicStyle.of(topic.name).symbol)
                             }
