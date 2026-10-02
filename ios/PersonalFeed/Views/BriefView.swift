@@ -1,79 +1,110 @@
 import SwiftUI
 
-/// One day's brief: headline, then a Top list plus one tab per followed topic.
+/// One day's brief as a single scrolling feed: the headline, Top stories, then a short preview of
+/// every followed topic with a "See all" page. A "Topics" menu in the navigation bar opens one.
 struct BriefView: View {
     let brief: Brief
     /// e.g. "Offline: showing the last update."
     let status: String?
-    @State private var selection: String
+    @State private var openedTopic: TopicDestination?
 
-    static let topTab = "Top"
+    /// Stories shown per topic in the feed before "See all".
+    static let previewCount = 3
 
-    init(brief: Brief, status: String? = nil, initialTopic: String = BriefView.topTab) {
+    init(brief: Brief, status: String? = nil) {
         self.brief = brief
         self.status = status
-        _selection = State(initialValue: initialTopic)
     }
 
-    private var topics: [Topic] {
-        [Topic(name: Self.topTab, count: nil)]
-            + brief.sections.map { Topic(name: $0.name, count: $0.stories.count) }
-    }
-
-    private var stories: [Story] {
-        if selection == Self.topTab { return brief.top }
-        return brief.sections.first { $0.name == selection }?.stories ?? []
-    }
+    private var topics: [BriefSection] { brief.sections.filter { !$0.stories.isEmpty } }
 
     var body: some View {
         List {
-            Section {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(brief.displayDate.uppercased())
-                        .font(.caption.weight(.semibold))
-                        .tracking(0.6)
-                        .foregroundStyle(.tint)
-                    Text(brief.headline)
-                        .font(.title3.weight(.semibold))
-                        .fixedSize(horizontal: false, vertical: true)
-                    if let status {
-                        Label(status, systemImage: "wifi.slash")
-                            .font(.footnote)
-                            .foregroundStyle(.secondary)
-                    }
-                }
-                .padding(.vertical, 6)
+            headerSection
+
+            if topics.isEmpty && brief.top.isEmpty {
+                ContentUnavailableView("Nothing new yet",
+                                       systemImage: "tray",
+                                       description: Text("New stories show up here as they come in."))
+                    .listRowBackground(Color.clear)
             }
 
-            Section {
-                if stories.isEmpty {
-                    ContentUnavailableView("Nothing in \(selection) yet",
-                                           systemImage: "tray",
-                                           description: Text("New stories show up here as they come in."))
-                        .listRowBackground(Color.clear)
-                }
-                ForEach(stories) { story in
-                    NavigationLink(value: story) {
-                        StoryRow(story: story)
+            if !brief.top.isEmpty {
+                Section {
+                    ForEach(brief.top) { story in
+                        NavigationLink(value: story) { StoryRow(story: story) }
                     }
-                }
-            } header: {
-                if selection != Self.topTab, !stories.isEmpty {
-                    Text("\(stories.count) \(stories.count == 1 ? "story" : "stories")")
+                } header: {
+                    TopicHeader(name: Self.topTitle, count: nil, showsChevron: false)
                 }
             }
 
-            Section {
-                footer
+            ForEach(topics) { topic in
+                let destination = TopicDestination(name: topic.name, stories: topic.stories)
+                Section {
+                    ForEach(topic.stories.prefix(Self.previewCount)) { story in
+                        NavigationLink(value: story) { StoryRow(story: story) }
+                    }
+                    if topic.stories.count > Self.previewCount {
+                        NavigationLink(value: destination) {
+                            Text("See all \(topic.stories.count) in \(topic.name)")
+                                .font(.subheadline.weight(.semibold))
+                                .foregroundStyle(.tint)
+                        }
+                    }
+                } header: {
+                    NavigationLink(value: destination) {
+                        TopicHeader(name: topic.name, count: topic.stories.count, showsChevron: true)
+                    }
+                    .buttonStyle(.plain)
+                }
             }
+
+            Section { footer }
         }
         .listStyle(.insetGrouped)
-        .animation(.snappy, value: selection)
-        // The topic chips stay pinned under the navigation bar while the list scrolls.
-        .safeAreaInset(edge: .top, spacing: 0) {
-            TopicBar(topics: topics, selection: $selection)
+        .navigationDestination(for: TopicDestination.self) { TopicListView(topic: $0) }
+        .navigationDestination(item: $openedTopic) { TopicListView(topic: $0) }
+        .toolbar {
+            if !topics.isEmpty {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        ForEach(topics) { topic in
+                            Button {
+                                openedTopic = TopicDestination(name: topic.name, stories: topic.stories)
+                            } label: {
+                                Label("\(topic.name) · \(topic.stories.count)",
+                                      systemImage: TopicStyle.of(topic.name).symbol)
+                            }
+                        }
+                    } label: {
+                        Label("Topics", systemImage: "list.bullet")
+                    }
+                }
+            }
         }
-        .onChange(of: brief.date) { selection = Self.topTab }
+    }
+
+    static let topTitle = "Top stories"
+
+    private var headerSection: some View {
+        Section {
+            VStack(alignment: .leading, spacing: 8) {
+                Text(brief.displayDate.uppercased())
+                    .font(.caption.weight(.semibold))
+                    .tracking(0.6)
+                    .foregroundStyle(.tint)
+                Text(brief.headline)
+                    .font(.title3.weight(.semibold))
+                    .fixedSize(horizontal: false, vertical: true)
+                if let status {
+                    Label(status, systemImage: "wifi.slash")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .padding(.vertical, 6)
+        }
     }
 
     private var footer: some View {
@@ -89,66 +120,90 @@ struct BriefView: View {
     }
 }
 
-struct Topic: Identifiable, Hashable {
+/// Where "See all" goes: every story of one topic.
+struct TopicDestination: Hashable {
     let name: String
-    /// Number of stories, or nil for the Top tab.
-    let count: Int?
-    var id: String { name }
+    let stories: [Story]
 }
 
-/// Topic chips in a horizontally scrolling row. A segmented control squeezed up to nine topics
-/// into one line; chips keep each label readable at any Dynamic Type size and scroll to keep the
-/// selected topic in view.
-struct TopicBar: View {
-    let topics: [Topic]
-    @Binding var selection: String
+struct TopicListView: View {
+    let topic: TopicDestination
 
     var body: some View {
-        ScrollViewReader { proxy in
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 8) {
-                    ForEach(topics) { topic in
-                        chip(topic).id(topic.name)
-                    }
+        List {
+            Section {
+                ForEach(topic.stories) { story in
+                    NavigationLink(value: story) { StoryRow(story: story) }
                 }
-                .padding(.horizontal, 16)
-                .padding(.vertical, 10)
-            }
-            .onAppear { proxy.scrollTo(selection, anchor: .center) }
-            .onChange(of: selection) { _, name in
-                withAnimation(.snappy) { proxy.scrollTo(name, anchor: .center) }
+            } header: {
+                Text("\(topic.stories.count) \(topic.stories.count == 1 ? "story" : "stories")")
             }
         }
-        // Only behind the chips: the default would also fill the navigation bar's safe area and
-        // blur the large title.
-        .background(.bar, ignoresSafeAreaEdges: [])
-        .overlay(alignment: .bottom) { Divider() }
-        .sensoryFeedback(.selection, trigger: selection)
+        .listStyle(.insetGrouped)
+        .navigationTitle(topic.name)
+        .navigationBarTitleDisplayMode(.large)
     }
+}
 
-    private func chip(_ topic: Topic) -> some View {
-        let selected = topic.name == selection
-        return Button {
-            withAnimation(.snappy) { selection = topic.name }
-        } label: {
-            HStack(spacing: 6) {
-                Text(topic.name)
-                if let count = topic.count, count > 0 {
-                    Text("\(count)")
-                        .font(.caption.weight(.bold))
-                        .monospacedDigit()
-                        .foregroundStyle(selected ? Color.white.opacity(0.8) : Color.secondary)
-                }
-            }
-            .font(.subheadline.weight(.semibold))
-            .padding(.horizontal, 14)
-            .padding(.vertical, 8)
-            .foregroundStyle(selected ? Color.white : Color.primary)
-            .background(Capsule().fill(selected ? Color.accentColor : Color(.secondarySystemFill)))
-            .contentShape(Capsule())
+/// Icon and colour for a topic.
+struct TopicStyle {
+    let symbol: String
+    let color: Color
+
+    static func of(_ name: String) -> TopicStyle {
+        switch name {
+        case BriefView.topTitle: TopicStyle(symbol: "flame.fill", color: .orange)
+        case "AI": TopicStyle(symbol: "cpu", color: .purple)
+        case "Tech": TopicStyle(symbol: "laptopcomputer", color: .blue)
+        case "Gaming": TopicStyle(symbol: "gamecontroller.fill", color: .green)
+        case "US": TopicStyle(symbol: "building.columns.fill", color: .brown)
+        case "World": TopicStyle(symbol: "globe", color: .teal)
+        case "Europe": TopicStyle(symbol: "globe.europe.africa.fill", color: .indigo)
+        case "Japan": TopicStyle(symbol: "globe.asia.australia.fill", color: .red)
+        case "Korea": TopicStyle(symbol: "globe.asia.australia.fill", color: .cyan)
+        case "Deals": TopicStyle(symbol: "tag.fill", color: .pink)
+        default: TopicStyle(symbol: "newspaper.fill", color: .gray)
         }
-        .buttonStyle(.plain)
-        .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+}
+
+/// Section header: coloured icon, topic name, story count and a chevron when it opens a page.
+struct TopicHeader: View {
+    let name: String
+    let count: Int?
+    let showsChevron: Bool
+
+    var body: some View {
+        let style = TopicStyle.of(name)
+        HStack(spacing: 10) {
+            Image(systemName: style.symbol)
+                .font(.footnote.weight(.bold))
+                .foregroundStyle(.white)
+                .frame(width: 28, height: 28)
+                .background(style.color.gradient, in: RoundedRectangle(cornerRadius: 7, style: .continuous))
+                .accessibilityHidden(true)
+            Text(name)
+                .font(.title3.weight(.bold))
+                // Color.primary, not .primary: list headers pass down a secondary style that the
+                // hierarchical .primary would inherit.
+                .foregroundStyle(Color.primary)
+            Spacer(minLength: 8)
+            if let count {
+                Text("\(count)")
+                    .font(.subheadline)
+                    .monospacedDigit()
+                    .foregroundStyle(.secondary)
+            }
+            if showsChevron {
+                Image(systemName: "chevron.right")
+                    .font(.footnote.weight(.semibold))
+                    .foregroundStyle(.tertiary)
+            }
+        }
+        .textCase(nil)
+        .padding(.top, 8)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isHeader)
     }
 }
 

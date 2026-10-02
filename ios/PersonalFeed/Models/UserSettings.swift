@@ -27,8 +27,8 @@ struct UserSettings: Codable, Hashable, Sendable {
     }
 
     /// Display order for topics and source groups; matches CATEGORIES in server/src/settings.js.
-    static let allCategories = ["AI", "Tech", "Gaming", "World", "Europe", "Japan", "Korea", "Deals"]
-    /// What a new account starts with. World, Europe, Japan and Korea are opt-in.
+    static let allCategories = ["AI", "Tech", "Gaming", "US", "World", "Europe", "Japan", "Korea", "Deals"]
+    /// What a new account starts with. US, World, Europe, Japan and Korea are opt-in.
     static let defaultCategories = ["AI", "Tech", "Gaming", "Deals"]
     static let `default` = UserSettings()
 

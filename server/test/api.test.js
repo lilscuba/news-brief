@@ -87,10 +87,10 @@ test("settings are validated and merged", async () => {
 
 test("region topics are accepted but opt-in", async () => {
   const { token, settings } = await signIn();
-  assert.ok(!settings.categories.some((c) => ["World", "Europe", "Japan", "Korea"].includes(c)));
-  const r = await call("PUT", "/v1/me/settings", { token, body: { categories: ["AI", "World", "Europe", "Japan", "Korea"] } });
+  assert.ok(!settings.categories.some((c) => ["US", "World", "Europe", "Japan", "Korea"].includes(c)));
+  const r = await call("PUT", "/v1/me/settings", { token, body: { categories: ["AI", "US", "World", "Europe", "Japan", "Korea"] } });
   assert.equal(r.status, 200);
-  assert.deepEqual(r.body.settings.categories, ["AI", "World", "Europe", "Japan", "Korea"]);
+  assert.deepEqual(r.body.settings.categories, ["AI", "US", "World", "Europe", "Japan", "Korea"]);
 });
 
 test("endpoints need a session; logout ends it", async () => {
