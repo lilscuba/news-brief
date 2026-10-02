@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.tmp
+.env
+
+# Alert state lives in the Actions cache, not the repo.
+state/alerts.json
+
+# Xcode
+ios/**/xcuserdata/
+ios/**/*.xcodeproj/
+ios/build/
+.DS_Store
+
+# App backend
+state/ingest.json
+server/node_modules/
+server/.wrangler/
+server/dev/
+
+# Launcher progress and deploy output (no secrets, but personal)
+.launch/
+server/.deployed.json

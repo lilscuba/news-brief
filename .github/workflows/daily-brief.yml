@@ -1,0 +1,78 @@
+name: Daily brief
+
+on:
+  schedule:
+    # 11:00 UTC = 7:00 New York (EDT) / 6:00 (EST). GitHub may start scheduled runs a few
+    # minutes late. Change to suit your morning.
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+    inputs:
+      no_llm:
+        description: "Skip AI summary (plain article list)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # commit the archive + state
+  pages: write      # deploy the site
+  id-token: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build brief
+        run: python -m briefing digest ${{ inputs.no_llm && '--no-llm' || '' }}
+        env:
+          SUMMARIZE: ${{ vars.SUMMARIZE }}
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          PAGES_URL: ${{ vars.PAGES_URL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+
+      - name: Commit archive and state
+        run: |
+          git config user.name "personal-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs state
+          git diff --cached --quiet || git commit -m "Brief for $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploy
+        uses: actions/deploy-pages@v4

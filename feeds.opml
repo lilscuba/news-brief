@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Personal Feed sources. Import this file into any RSS reader (Inoreader, NetNewsWire, Folo...).
+
+  Custom attributes used by the briefing pipeline (other readers ignore them):
+    pfKey      short stable id for the feed (used in state + ranking)
+    pfOfficial "true" = first-party source; gets a ranking boost and counts as confirmation for alerts
+    pfAlert    "all"   = every new item triggers a push alert (use only for low-volume feeds)
+               "watch" = items can alert when they match a watchlist rule (default)
+               "never" = digest only, never alerts (e.g. arXiv)
+    pfMirror   "true" = unofficial scraped mirror; expect breakage, watched by the health check
+    pfMaxItems N     = keep only the N newest items per brief (firehose feeds like arXiv)
+    pfTrusted  "true" = strong scoop track record: its rumors are labelled RUMOR-CREDIBLE and a
+               watchlist match from it alerts on its own (alert tier 2)
+    pfCategory  section the feed's stories go in, when it differs from the folder (Social)
+
+  Bluesky accounts use their profile RSS URL (https://bsky.app/profile/HANDLE/rss) so this file
+  imports cleanly into NetNewsWire; the pipeline reads them through the public Bluesky API.
+  Handles were checked against follower counts and recent activity (Oct 2026). Beware
+  lookalike accounts, especially for Wario64.
+-->
+<opml version="2.0">
+  <head>
+    <title>Personal Feed</title>
+  </head>
+  <body>
+    <outline text="Tech" title="Tech">
+      <outline type="rss" text="Techmeme" pfKey="techmeme" xmlUrl="https://www.techmeme.com/feed.xml" htmlUrl="https://www.techmeme.com/"/>
+      <outline type="rss" text="The Verge" pfKey="verge" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com/"/>
+      <outline type="rss" text="Ars Technica" pfKey="ars" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/"/>
+      <outline type="rss" text="TechCrunch" pfKey="techcrunch" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
+      <outline type="rss" text="9to5Mac" pfKey="9to5mac" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/"/>
+      <outline type="rss" text="Hacker News (100+ points)" pfKey="hn" xmlUrl="https://hnrss.org/frontpage?points=100" htmlUrl="https://news.ycombinator.com/"/>
+    </outline>
+    <outline text="AI" title="AI">
+      <outline type="rss" text="OpenAI News" pfKey="openai" pfOfficial="true" pfAlert="all" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/"/>
+      <outline type="rss" text="Google DeepMind" pfKey="deepmind" pfOfficial="true" pfAlert="all" xmlUrl="https://deepmind.google/blog/rss.xml" htmlUrl="https://deepmind.google/discover/blog/"/>
+      <outline type="rss" text="Google AI" pfKey="googleai" pfOfficial="true" xmlUrl="https://blog.google/technology/ai/rss/" htmlUrl="https://blog.google/technology/ai/"/>
+      <outline type="rss" text="Anthropic News (mirror)" pfKey="anthropic" pfOfficial="true" pfAlert="all" pfMirror="true" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml" htmlUrl="https://www.anthropic.com/news"/>
+      <outline type="rss" text="Meta AI (mirror)" pfKey="metaai" pfOfficial="true" pfMirror="true" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml" htmlUrl="https://ai.meta.com/blog/"/>
+      <outline type="rss" text="The Verge AI" pfKey="verge-ai" xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" htmlUrl="https://www.theverge.com/ai-artificial-intelligence"/>
+      <outline type="rss" text="Ars Technica AI" pfKey="ars-ai" xmlUrl="https://arstechnica.com/ai/feed/" htmlUrl="https://arstechnica.com/ai/"/>
+      <outline type="rss" text="HN: Claude/Anthropic" pfKey="hn-claude" xmlUrl="https://hnrss.org/newest?q=Claude+OR+Anthropic&amp;points=50" htmlUrl="https://news.ycombinator.com/"/>
+      <outline type="rss" text="arXiv cs.AI" pfKey="arxiv" pfAlert="never" pfMaxItems="12" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="https://arxiv.org/list/cs.AI/recent"/>
+    </outline>
+    <outline text="Gaming" title="Gaming">
+      <outline type="rss" text="VGC" pfKey="vgc" pfTrusted="true" xmlUrl="https://www.videogameschronicle.com/category/news/feed/" htmlUrl="https://www.videogameschronicle.com/"/>
+      <outline type="rss" text="Eurogamer" pfKey="eurogamer" xmlUrl="https://www.eurogamer.net/feed/news" htmlUrl="https://www.eurogamer.net/"/>
+      <outline type="rss" text="IGN" pfKey="ign" xmlUrl="https://feeds.feedburner.com/ign/all" htmlUrl="https://www.ign.com/"/>
+      <outline type="rss" text="Gematsu" pfKey="gematsu" xmlUrl="https://gematsu.com/feed" htmlUrl="https://gematsu.com/"/>
+      <outline type="rss" text="Insider Gaming" pfKey="insidergaming" pfTrusted="true" xmlUrl="https://insider-gaming.com/feed" htmlUrl="https://insider-gaming.com/"/>
+      <outline type="rss" text="GoNintendo" pfKey="gonintendo" xmlUrl="https://gonintendo.com/feeds/topstories.xml" htmlUrl="https://gonintendo.com/"/>
+      <outline type="rss" text="PlayStation Blog" pfKey="psblog" pfOfficial="true" xmlUrl="https://blog.playstation.com/feed" htmlUrl="https://blog.playstation.com/"/>
+      <outline type="rss" text="Xbox Wire" pfKey="xboxwire" pfOfficial="true" xmlUrl="https://news.xbox.com/en-us/feed/" htmlUrl="https://news.xbox.com/"/>
+      <outline type="rss" text="Steam News" pfKey="steam" pfMaxItems="4" xmlUrl="https://store.steampowered.com/feeds/news/?l=english" htmlUrl="https://store.steampowered.com/news/"/>
+      <outline type="rss" text="Nintendo (Europe)" pfKey="nintendo" pfOfficial="true" xmlUrl="https://www.nintendo.com/en-gb/news.xml" htmlUrl="https://www.nintendo.com/en-gb/News/News-1/"/>
+      <outline type="rss" text="Game File (Stephen Totilo)" pfKey="gamefile" pfTrusted="true" xmlUrl="https://www.gamefile.news/feed" htmlUrl="https://www.gamefile.news/"/>
+      <outline type="rss" text="The Game Business (Christopher Dring)" pfKey="gamebusiness" pfTrusted="true" xmlUrl="https://www.thegamebusiness.com/feed" htmlUrl="https://www.thegamebusiness.com/"/>
+    </outline>
+    <outline text="Social" title="Social">
+      <outline type="rss" text="Wario64" pfKey="wario64" pfCategory="Gaming" pfMaxItems="20" xmlUrl="https://bsky.app/profile/wario64.bsky.social/rss" htmlUrl="https://bsky.app/profile/wario64.bsky.social"/>
+      <outline type="rss" text="billbil-kun" pfKey="billbilkun" pfCategory="Gaming" pfTrusted="true" xmlUrl="https://bsky.app/profile/billbil-kun.bsky.social/rss" htmlUrl="https://bsky.app/profile/billbil-kun.bsky.social"/>
+      <outline type="rss" text="Jeff Grubb" pfKey="grubb" pfCategory="Gaming" pfTrusted="true" pfMaxItems="10" xmlUrl="https://bsky.app/profile/grubb.wtf/rss" htmlUrl="https://bsky.app/profile/grubb.wtf"/>
+      <outline type="rss" text="Jason Schreier" pfKey="schreier" pfCategory="Gaming" pfTrusted="true" pfMaxItems="10" xmlUrl="https://bsky.app/profile/jasonschreier.bsky.social/rss" htmlUrl="https://bsky.app/profile/jasonschreier.bsky.social"/>
+      <outline type="rss" text="Stephen Totilo" pfKey="totilo" pfCategory="Gaming" pfTrusted="true" pfMaxItems="10" xmlUrl="https://bsky.app/profile/stephentotilo.bsky.social/rss" htmlUrl="https://bsky.app/profile/stephentotilo.bsky.social"/>
+      <outline type="rss" text="Christopher Dring" pfKey="dring" pfCategory="Gaming" pfTrusted="true" pfMaxItems="10" xmlUrl="https://bsky.app/profile/dringo.bsky.social/rss" htmlUrl="https://bsky.app/profile/dringo.bsky.social"/>
+      <outline type="rss" text="Mat Piscatella" pfKey="piscatella" pfCategory="Gaming" pfMaxItems="10" xmlUrl="https://bsky.app/profile/matpiscatella.bsky.social/rss" htmlUrl="https://bsky.app/profile/matpiscatella.bsky.social"/>
+      <outline type="rss" text="Tom Warren" pfKey="tomwarren" pfCategory="Tech" pfTrusted="true" pfMaxItems="10" xmlUrl="https://bsky.app/profile/tomwarren.co.uk/rss" htmlUrl="https://bsky.app/profile/tomwarren.co.uk"/>
+    </outline>
+  </body>
+</opml>

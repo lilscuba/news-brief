@@ -1,0 +1,111 @@
+# Personal Feed configuration. Secrets (API keys, tokens) never go here; they come from
+# environment variables / GitHub repository secrets. See README.md.
+
+[digest]
+# false = plain list of every new article (original headlines + feed snippets, no API cost).
+# true  = an AI model writes the brief from the top-ranked stories (see [ai] below).
+summarize = false
+# Your timezone; decides which date the brief is labelled with.
+timezone = "America/New_York"
+# How far back the daily brief looks.
+window_hours = 26
+# How many ranked story clusters are sent to the AI model. More = better coverage, higher cost.
+max_clusters_for_llm = 160
+# Sections the brief is split into, in display order. Stories labelled DEAL go in "Deals".
+sections = ["AI", "Tech", "Gaming", "Deals"]
+# Headlines matching any of these (case-insensitive substrings) are dropped before ranking.
+# Deals aren't muted; they're labelled DEAL and collected in their own section instead.
+mute = [
+  "how to ", "review:", "sponsored", "giveaway", "wordle", "connections hint",
+  "contexto", "best gaming", "gift guide",
+]
+
+[ai]
+# Which model writes the brief when summarize = true. Override with the AI_PROVIDER env var.
+#   "gemini" = Google AI Studio free tier (needs GEMINI_API_KEY)
+#   "claude" = Anthropic API, paid (needs ANTHROPIC_API_KEY)
+provider = "gemini"
+
+[gemini]
+# Override with the GEMINI_MODEL env var. Check aistudio.google.com for current free-tier models.
+model = "gemini-3.8-flash"
+
+[claude]
+# Override with the CLAUDE_MODEL env var. claude-sonnet-5-5 or claude-haiku-4-5 cost less.
+model = "claude-opus-5-5"
+# low | medium | high (ignored on Haiku). Summarizing headlines doesn't need much depth.
+effort = "medium"
+max_tokens = 32000
+
+[ranking]
+# Points added per distinct outlet covering the story (the strongest signal).
+per_source = 3.0
+official_boost = 2.5
+techmeme_boost = 3.0
+# Hacker News: log-scaled bonus from the "Points:" value hnrss puts in each item.
+hn_points_weight = 1.5
+# Stories lose this many points per hour of age.
+age_penalty_per_hour = 0.08
+# Case-insensitive substrings that make a story more important to *you*.
+[ranking.boosts]
+"claude" = 3.0
+"anthropic" = 3.0
+"openai" = 1.5
+"gpt-" = 1.5
+"gemini" = 1.0
+"swiftui" = 2.0
+"xcode" = 1.5
+"ios 2" = 1.5
+"apple intelligence" = 1.0
+"nintendo direct" = 3.0
+"state of play" = 2.5
+"switch 2" = 1.5
+"xbox showcase" = 2.5
+"gta 6" = 2.5
+"gta vi" = 2.5
+
+[alerts]
+# Hard cap on push alerts per (UTC) day, so this never turns back into a doomscroll.
+max_per_day = 5
+# Only items published within this many minutes are considered for alerts.
+lookback_minutes = 90
+# A watchlist story needs at least this many distinct outlets (an official source counts as 2).
+min_sources = 2
+
+# Watchlist rules. `match` is a list of term groups: a headline matches when it contains at
+# least one term from EVERY group. Terms are case-insensitive substrings.
+[[alerts.watch]]
+name = "OpenAI model launch"
+match = [["gpt-", "openai o"], ["launch", "release", "available", "introduc", "announce", "unveil"]]
+
+[[alerts.watch]]
+name = "New Claude model"
+match = [["claude"], ["opus", "sonnet", "haiku", "fable", "new model", "launch", "release"]]
+
+[[alerts.watch]]
+name = "Gemini launch"
+match = [["gemini"], ["launch", "release", "available", "introduc", "announce", "unveil"]]
+
+[[alerts.watch]]
+name = "Nintendo Direct"
+match = [["nintendo direct"]]
+
+[[alerts.watch]]
+name = "PlayStation State of Play"
+match = [["state of play"]]
+
+[[alerts.watch]]
+name = "Xbox showcase"
+match = [["xbox"], ["showcase", "direct"]]
+
+[[alerts.watch]]
+name = "Console price change"
+match = [["switch", "playstation", "ps5", "xbox", "steam deck"], ["price increase", "price hike", "price cut", "raising the price", "raises price", "new price"]]
+
+[[alerts.watch]]
+name = "Apple event"
+match = [["apple"], ["event", "keynote", "wwdc"]]
+
+[health]
+# Feeds with no new items for this many days are flagged in the brief.
+stale_days = 14

@@ -1,0 +1,7 @@
+anthropic>=1.11,<2
+feedparser>=6.0.11
+requests>=2.32
+pydantic>=2.8
+tzdata>=2024.1  # zoneinfo data on Windows; harmless elsewhere
+httpx[http2]>=0.27  # APNs requires HTTP/2
+pyjwt[crypto]>=2.9  # APNs ES256 auth token

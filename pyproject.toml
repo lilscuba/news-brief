@@ -1,0 +1,9 @@
+[project]
+name = "personal-feed"
+version = "1.0.0"
+description = "Daily gaming / tech / AI briefing from RSS, summarized by Claude"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

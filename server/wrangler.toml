@@ -1,0 +1,20 @@
+name = "newsfeed-api"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Bundle id(s) allowed to sign in (comma-separated). Must match the iOS app's bundle id.
+[vars]
+APPLE_BUNDLE_IDS = "com.yourname.newsfeed"
+
+# Created by `npx wrangler d1 create newsfeed`; paste the id it prints.
+[[d1_databases]]
+binding = "DB"
+database_name = "newsfeed"
+database_id = "REPLACE_WITH_D1_ID"
+
+# Created by `npx wrangler kv namespace create FEED`; paste the id it prints.
+[[kv_namespaces]]
+binding = "FEED"
+id = "REPLACE_WITH_KV_ID"
+
+# Secret (not in this file):  npx wrangler secret put INGEST_SECRET

@@ -1,0 +1,55 @@
+name: Shared feed (app backend)
+
+# Builds the shared feed for every app user and sends their push notifications.
+# Needs: variable WORKER_URL; secrets INGEST_SECRET, APNS_KEY, APNS_KEY_ID, APNS_TEAM_ID,
+# APNS_TOPIC. See server/README.md.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: shared-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: ${{ vars.WORKER_URL != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Which items were already seen, so only genuinely new stories become alerts.
+      - uses: actions/cache/restore@v4
+        with:
+          path: state/ingest.json
+          key: ingest-state-${{ github.run_id }}
+          restore-keys: ingest-state-
+
+      - name: Build feed and send pushes
+        run: python -m briefing ingest
+        env:
+          WORKER_URL: ${{ vars.WORKER_URL }}
+          INGEST_SECRET: ${{ secrets.INGEST_SECRET }}
+          APNS_KEY: ${{ secrets.APNS_KEY }}
+          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
+          APNS_TEAM_ID: ${{ secrets.APNS_TEAM_ID }}
+          APNS_TOPIC: ${{ secrets.APNS_TOPIC }}
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: state/ingest.json
+          key: ingest-state-${{ github.run_id }}
