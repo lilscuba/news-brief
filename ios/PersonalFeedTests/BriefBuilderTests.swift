@@ -137,6 +137,20 @@ final class BriefBuilderTests: XCTestCase {
         XCTAssertEqual(try JSONDecoder.api.decode(FeedStory.self, from: Data(json.utf8)).aiSummary, true)
     }
 
+    func testLatestSortsNewestFirstAndHotKeepsTheFeedOrder() {
+        func story(_ id: String, minutesAgo: Double) -> Story {
+            Story(id: id, title: id, summary: "", importance: 1, label: nil, category: "Tech",
+                  published: now.addingTimeInterval(-minutesAgo * 60), outletCount: 1, sources: [])
+        }
+        // Hot order: a (oldest), b, c and d share a time, e (newest).
+        let hot = [story("a", minutesAgo: 300), story("b", minutesAgo: 60), story("c", minutesAgo: 60),
+                   story("d", minutesAgo: 60), story("e", minutesAgo: 5)]
+        XCTAssertEqual(StorySort.hot.apply(hot).map(\.id), ["a", "b", "c", "d", "e"])
+        XCTAssertEqual(StorySort.latest.apply(hot).map(\.id), ["e", "b", "c", "d", "a"], "ties keep hot order")
+        XCTAssertEqual(StorySort.allCases, [.hot, .latest], "hot topics is first, so the default")
+        XCTAssertEqual(StorySort(rawValue: "latest"), .latest)
+    }
+
     func testSettingsJSONMatchesServerShape() throws {
         let json = try JSONSerialization.jsonObject(with: JSONEncoder.api.encode(UserSettings.default)) as! [String: Any]
         XCTAssertEqual(Set(json.keys), ["version", "categories", "disabledSources", "mutedWords", "boosts", "alerts", "brief"])

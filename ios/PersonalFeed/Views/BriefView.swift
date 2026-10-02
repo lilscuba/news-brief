@@ -7,6 +7,7 @@ struct BriefView: View {
     /// e.g. "Offline: showing the last update."
     let status: String?
     @State private var openedTopic: TopicDestination?
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
 
     /// Stories shown per topic in the feed before "See all".
     static let previewCount = 3
@@ -31,7 +32,7 @@ struct BriefView: View {
 
             if !brief.top.isEmpty {
                 Section {
-                    ForEach(brief.top) { story in
+                    ForEach(sort.apply(brief.top)) { story in
                         NavigationLink(value: story) { StoryRow(story: story) }
                     }
                 } header: {
@@ -42,7 +43,7 @@ struct BriefView: View {
             ForEach(topics) { topic in
                 let destination = TopicDestination(name: topic.name, stories: topic.stories)
                 Section {
-                    ForEach(topic.stories.prefix(Self.previewCount)) { story in
+                    ForEach(sort.apply(topic.stories).prefix(Self.previewCount)) { story in
                         NavigationLink(value: story) { StoryRow(story: story) }
                     }
                     if topic.stories.count > Self.previewCount {
@@ -102,6 +103,8 @@ struct BriefView: View {
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
+                SortPicker()
+                    .padding(.top, 4)
             }
             .padding(.vertical, 6)
         }
@@ -128,20 +131,41 @@ struct TopicDestination: Hashable {
 
 struct TopicListView: View {
     let topic: TopicDestination
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
 
     var body: some View {
         List {
             Section {
-                ForEach(topic.stories) { story in
-                    NavigationLink(value: story) { StoryRow(story: story) }
-                }
+                SortPicker()
             } header: {
                 Text("\(topic.stories.count) \(topic.stories.count == 1 ? "story" : "stories")")
+            }
+
+            Section {
+                ForEach(sort.apply(topic.stories)) { story in
+                    NavigationLink(value: story) { StoryRow(story: story) }
+                }
             }
         }
         .listStyle(.insetGrouped)
         .navigationTitle(topic.name)
         .navigationBarTitleDisplayMode(.large)
+    }
+}
+
+/// Hot topics (default) or Latest. Remembered across launches and shared by every list.
+struct SortPicker: View {
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
+
+    var body: some View {
+        Picker("Sort stories by", selection: $sort) {
+            ForEach(StorySort.allCases) { option in
+                Text(option.title).tag(option)
+            }
+        }
+        .pickerStyle(.segmented)
+        .sensoryFeedback(.selection, trigger: sort)
+        .animation(.snappy, value: sort)
     }
 }
 
@@ -209,6 +233,7 @@ struct TopicHeader: View {
 
 struct StoryRow: View {
     @Environment(AppModel.self) private var store
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
     let story: Story
 
     var body: some View {
@@ -223,6 +248,10 @@ struct StoryRow: View {
                 if story.isTranslated {
                     Image(systemName: "globe")
                         .accessibilityLabel("Translated")
+                }
+                if sort == .latest {
+                    Text("·")
+                    Text(story.published.formatted(.relative(presentation: .numeric, unitsStyle: .narrow)))
                 }
             }
             .font(.caption)
