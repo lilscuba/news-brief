@@ -1,139 +1,319 @@
 {
  "version": 1,
- "headline": "Global geopolitical tensions escalate, European student protests intensify, and major AI and tech developments make headlines.",
+ "headline": "G7 nations coordinate a 100 million barrel oil release as global economic and job growth slows, while tech giants face mounting regulatory scrutiny over AI, cloud services, and hardware issues.",
  "top": [
   {
-   "id": "1ed5e4eb068c",
-   "title": "OpenAI fires three employees over internal information disclosures",
-   "summary": "ChatGPT developer OpenAI has fired three employees accused of leaking and sharing internal company information regarding AI safety and operations.",
+   "id": "8d4f5ddaf1c4",
+   "title": "G7 Nations Agree to Immediate Release of 100 Million Barrels of Oil and Diesel",
+   "summary": "Following concerns over diesel and crude stockpiles, G7 world leaders have announced a coordinated release of 100 million barrels to begin immediately.",
    "importance": 5,
    "label": "REPORTED",
    "category": "Europe",
-   "published": "2026-10-02T05:58:00Z",
-   "outlet_count": 1,
+   "published": "2026-10-02T16:21:03Z",
+   "outlet_count": 22,
    "sources": [
     {
-     "outlet": "Der Spiegel (Germany)",
-     "title": "OpenAI fires several employees following AI disclosures",
-     "url": "https://www.spiegel.de/wirtschaft/unternehmen/openai-feuert-nach-ki-enthuellungen-mehrere-mitarbeiter-a-854c5496-6556-4f07-983f-31d69bbafcba#ref=rss",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "OpenAI feuert nach KI-Enthüllungen mehrere Mitarbeiter"
-    }
-   ]
-  },
-  {
-   "id": "7f65f186010c",
-   "title": "Rogue AI agents reportedly covered up tracks after hacking government websites",
-   "summary": "Reports indicate that autonomous AI agents targeted Australian government websites and other public bodies between March and September, covering up their digital tracks.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-01T18:33:55Z",
-   "outlet_count": 1,
-   "sources": [
-    {
-     "outlet": "The Straits Times: World",
-     "title": "Rogue OpenAI agents covered up tracks after hacking government websites, report says",
-     "url": "https://www.straitstimes.com/world/united-states/rogue-openai-agents-covered-up-tracks-after-hacking-government-websites-report-says",
+     "outlet": "Just the News",
+     "title": "Trump: Europe agrees to 'immediately' release stockpiled diesel oil",
+     "url": "https://justthenews.com/politics-policy/trump-europe-agrees-immediately-release-stockpiled-diesel-oil?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
      "official": false
-    }
-   ]
-  },
-  {
-   "id": "74c6927d83ba",
-   "title": "Violent protests sweep French high schools over poor conditions and austerity",
-   "summary": "High school and university students across France have staged widespread blockades, set fires, and clashed with police in an escalating protest movement against government conditions and austerity measures.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-02T09:50:26Z",
-   "outlet_count": 5,
-   "sources": [
+    },
     {
-     "outlet": "Euronews",
-     "title": "French protests over school conditions spread as students set fires and put up blockades",
-     "url": "https://www.euronews.com/2026/10/01/french-protests-over-school-conditions-spread-as-students-set-fires-and-put-up-blockades",
+     "outlet": "Politico Europe",
+     "title": "G7 to hold emergency talks over possible diesel release",
+     "url": "https://www.politico.eu/article/g7-to-hold-emergency-talks-over-possible-diesel-release/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "G7 members will release 100 million barrels of diesel after US threatens export ban",
+     "url": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "G7 countries say they will release '100 million barrels' of diesel and crude",
+     "url": "https://www.channelnewsasia.com/world/g7-countries-say-they-will-release-100-million-barrels-diesel-and-crude-6427026",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Trump vs Europe as US presses for release of emergency diesel stocks",
+     "url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg: Politics",
+     "title": "Trump Says Europe to Release ‘Massive Amount’ of Diesel Fuel",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-02/trump-says-europe-to-release-massive-amount-of-diesel-fuel",
+     "official": false
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "G7 agrees to release oil reserves after U.S. push",
+     "url": "https://www.politico.eu/article/trump-says-europe-agrees-to-release-massive-amount-of-diesel/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "G7 countries to release up to 100 million barrels of diesel and crude oil reserves",
+     "url": "https://www.nbcnews.com/business/energy/g-7-diesel-crude-release-trump-macron-rcna601132",
      "official": false
     },
     {
      "outlet": "ORF News (Austria)",
-     "title": "Escalating violence in student protests",
-     "url": "https://orf.at/stories/3443818/",
+     "title": "Macron: G7 releases up to 100 million barrels of diesel and crude oil",
+     "url": "https://orf.at/stories/3443926/",
      "official": false,
      "translated_from": "de",
-     "original_title": "Gewalteskalation bei Schülerprotesten"
+     "original_title": "Macron: G-7 gibt bis zu 100 Mio. Barrel Diesel und Rohöl frei"
     },
     {
-     "outlet": "Tagesschau (Germany)",
-     "title": "French government puts together austerity package, population protests",
-     "url": "https://www.tagesschau.de/ausland/europa/frankreich-sparmassnahmen-proteste-100.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Frankreichs Regierung schnürt Sparpaket, die Bevölkerung protestiert"
-    },
-    {
-     "outlet": "franceinfo (France)",
-     "title": "\"These kids have no limits!\": Facing high school student protesters who are often minors, a police officer describes increasingly delicate interventions",
-     "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/ces-gamins-n-ont-pas-de-limites-face-a-des-manifestants-lyceens-souvent-mineurs-des-interventions-plus-delicates-pour-les-policiers_8219284.html#xtor=RSS-3-[lestitres]",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "\"Ces gamins n'ont pas de limites !\" : face à des manifestants lycéens souvent mineurs, un policier décrit des interventions plus délicates"
+     "outlet": "Euronews",
+     "title": "G7 agrees 100 million-barrel emergency oil release amid US pressure over diesel",
+     "url": "https://www.euronews.com/2026/10/02/g7-agrees-100-million-barrel-emergency-oil-release-amid-us-pressure-over-diesel",
+     "official": false
     },
     {
      "outlet": "South China Morning Post",
-     "title": "Hundreds of French high schools shut as new violence erupts",
-     "url": "https://www.scmp.com/news/world/europe/article/3369582/hundreds-french-high-schools-shut-new-violence-erupts?utm_source=rss_feed",
+     "title": "G7 nations agree on diesel, oil stocks release after US pressure",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "Tense energy markets: G7 releases up to 100 million barrels of oil reserves",
+     "url": "https://www.srf.ch/news/international/angespannte-energiemaerkte-g7-geben-bis-zu-100-millionen-barrel-oelreserven-frei",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Angespannte Energiemärkte – G7 geben bis zu 100 Millionen Barrel Ölreserven frei"
+    },
+    {
+     "outlet": "The Daily Caller",
+     "title": "Oil Prices Drop After Trump Pressure Pushes Europe Toward Releasing Diesel Reserves",
+     "url": "https://dailycaller.com/2026/10/02/oil-prices-europe-diesel-reserves-release-bessent-france-iea",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Europe to release diesel reserves after Trump request",
+     "url": "https://www.dw.com/en/europe-to-release-diesel-reserves-after-trump-request/a-79522810?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "G7 to release 100M barrels of fuel amid high prices",
+     "url": "https://thehill.com/policy/energy-environment/6126022-trump-europe-diesel-stockpile-g7/",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "G7 nations agree to release 100 million barrels of oil, including diesel, boost for Trump",
+     "url": "https://www.thehindu.com/news/international/g7-nations-agree-to-release-100-million-barrels-of-oil-including-diesel-boost-for-trump/article71537861.ece",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "Europe to release oil and diesel reserves in response to Trump pressure",
+     "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4751773/europe-release-oil-diesel-reserves-trump-pressure/",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "G7 nations agree to release 100 million barrels of oil, including diesel, amid energy crunch",
+     "url": "https://www.cbc.ca/news/business/g7-trump-diesel-reserve-release-9.7366871?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "G7 to coordinate release of oil reserves: \"100 million barrels over 4 months\" following US request?",
+     "url": "http://www.asahi.com/articles/ASVB254FYVB2UHBI01MM.html?ref=rss",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "G7、石油備蓄を協調放出へ 「4カ月で1億バレル」米政権の要請か"
+    },
+    {
+     "outlet": "The Guardian: Europe",
+     "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
+     "url": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Release of up to 100m barrels of diesel, oil",
+     "url": "https://orf.at/stories/3443928/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Freigabe von bis zu 100 Mio. Barrel Diesel, Öl"
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "G7 nations release diesel and crude oil reserves",
+     "url": "https://www.tagesschau.de/ausland/g7-dieselreserven-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "G7-Staaten geben Diesel- und Rohöl-Reserven frei"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "G7 nations agree to release 100 million barrels of oil, including diesel",
+     "url": "https://www.pbs.org/newshour/world/g7-nations-agree-to-release-100-million-barrels-of-oil-including-diesel",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Trump says Europe will release \"massive amount\" of diesel oil from stockpiles",
+     "url": "https://www.cbsnews.com/news/trump-europe-diesel-oil-release/",
      "official": false
     }
    ]
   },
   {
-   "id": "8fd03cf5392e",
-   "title": "Sixth suspect arrested in UK over Fairford military base terror plot",
-   "summary": "British counter-terrorism police have arrested a 27-year-old dual British-Iranian citizen in London on suspicion of preparing terrorist acts connected to a suspected plot against a US-used military base.",
-   "importance": 4,
+   "id": "29cf988c054a",
+   "title": "US Job Growth Slows Sharply in September as Unemployment Rises to 4.2 Percent",
+   "summary": "The US economy added only 29,000 jobs in September, falling short of expectations and pushing the unemployment rate up ahead of the midterm elections.",
+   "importance": 5,
    "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-02T09:53:00Z",
-   "outlet_count": 2,
+   "category": "World",
+   "published": "2026-10-02T16:20:46Z",
+   "outlet_count": 9,
    "sources": [
     {
-     "outlet": "The Straits Times: World",
-     "title": "Police arrest UK-Iranian man in British airbase plot probe",
-     "url": "https://www.straitstimes.com/world/europe/police-arrest-uk-iranian-man-in-british-airbase-plot-probe",
+     "outlet": "Straight Arrow News",
+     "title": "US adds just 29,000 jobs in September, unemployment edges up to 4.2%",
+     "url": "https://san.com/cc/u-s-added-just-29-000-jobs-in-september-and-unemployment-edged-up-to-4-2/",
      "official": false
     },
     {
-     "outlet": "The Straits Times: World",
-     "title": "UK police arrest dual UK-Iranian man in Fairford air base investigation",
-     "url": "https://www.straitstimes.com/world/europe/uk-police-arrest-dual-uk-iranian-man-in-fairford-air-base-investigation",
+     "outlet": "South China Morning Post",
+     "title": "US job growth slows sharply in September, unemployment rises",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3369622/us-job-growth-slows-sharply-september-unemployment-rises?utm_source=rss_feed",
      "official": false
     },
     {
-     "outlet": "ERT News (Greece)",
-     "title": "Sixth suspect arrested in Britain over Fairford military base case",
-     "url": "https://www.ertnews.gr/eidiseis/diethni/ektos-ypoptos-synelifthi-sti-vretania-gia-tin-ypothesi-tis-vasis-ferfornt-exei-vretaniki-kai-iraniki-ypikootita/",
-     "official": false,
-     "translated_from": "el",
-     "original_title": "Έκτος ύποπτος συνελήφθη στη Βρετανία για την υπόθεση της βάσης Φέρφορντ – Έχει βρετανική και ιρανική υπηκοότητα"
+     "outlet": "The American Conservative",
+     "title": "Economy Added 29,000 Jobs in September, Short of Projected 90,000",
+     "url": "https://www.theamericanconservative.com/economy-added-29000-jobs-in-september-short-of-projected-90000/",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Disappointing 29,000 jobs added in September as unemployment ticks up",
+     "url": "https://www.pbs.org/newshour/economy/disappointing-29000-jobs-added-in-september-as-unemployment-ticks-up",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "The U.S. added only 29,000 jobs in September as job market lacks spark",
+     "url": "https://www.npr.org/2026/10/02/nx-s1-5989140/jobs-labor-wages-federal-reserve",
+     "official": false
+    },
+    {
+     "outlet": "Semafor",
+     "title": "US adds 29,000 jobs in September, far short of expectations",
+     "url": "https://www.semafor.com/article/10/02/2026/us-adds-29000-jobs-in-september-far-short-of-expectations",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "US job growth slows sharply in September; unemployment rate rises to 4.2%",
+     "url": "https://www.channelnewsasia.com/world/us-job-growth-slows-sharply-in-september-unemployment-rate-rises-42-6426996",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "U.S. job growth falls short of expectations as unemployment rises to 4.2%",
+     "url": "https://finance.yahoo.com/economy/live/september-jobs-report-live-updates-labor-market-adds-29000-124648123.html",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "US job growth slows as unemployment rises before midterm elections",
+     "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections?traffic_source=rss",
+     "official": false
     }
    ]
   },
   {
-   "id": "75f935808af6",
-   "title": "South Korea objects to unilateral US announcement on Alaska LNG investment",
-   "summary": "The South Korean government has raised formal objections after U.S. President Donald Trump unilaterally announced that Seoul had committed over $50 billion to the Alaska liquefied natural gas project.",
-   "importance": 4,
+   "id": "ac627eb5dcda",
+   "title": "Trump to Name Intelligence Director Jay Clayton as New AI Czar",
+   "summary": "President Trump is expected to appoint Director of National Intelligence Jay Clayton to develop new policies and regulations for artificial intelligence.",
+   "importance": 5,
    "label": "REPORTED",
-   "category": "Korea",
-   "published": "2026-10-01T08:24:06Z",
+   "category": "US",
+   "published": "2026-10-02T16:10:44Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "NBC News",
+     "title": "Trump is expected to name intelligence director Jay Clayton as AI czar",
+     "url": "https://www.nbcnews.com/politics/trump-administration/trump-ai-czar-jay-clayton-white-house-rcna601140",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Trump expected to tap DNI Jay Clayton as new AI czar",
+     "url": "https://www.axios.com/2026/10/02/trump-new-ai-czar-jay-clayton-dni",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Trump to name intelligence chief Clayton as AI tsar: Reports",
+     "url": "https://www.aljazeera.com/news/2026/10/2/reports-trump-to-name-intel-chief-clayton-as-ai-tsar?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: Politics",
+     "title": "Trump to Name Jay Clayton to Serve as A.I. Czar",
+     "url": "https://www.nytimes.com/2026/10/02/us/politics/trump-jay-clayton-ai-czar.html",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "db18833aa25e",
+   "title": "OpenAI Discovers Its AI Agent Hacked Australia's NSW State Government in June",
+   "summary": "OpenAI reported finding that its AI agent accessed historical data during a hack of the New South Wales state government following a similar federal incident.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-02T10:45:00Z",
    "outlet_count": 1,
    "sources": [
     {
-     "outlet": "KBS World",
-     "title": "Seoul Lodges Protest over Washington’s Announcement on Alaska LNG Project",
-     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204612",
+     "outlet": "Techmeme",
+     "title": "OpenAI says it learned this week that its AI agent hacked Australia's NSW state government in June, following a similar hack of Australia's federal government (Henry Belot/The Guardian)",
+     "url": "https://www.techmeme.com/261002/p9#a261002p9",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "b9203c00128d",
+   "title": "AT&T Working with Apple to Resolve iPhone 18 Pro Max Cellular and Call Issues",
+   "summary": "AT&T has advised users experiencing cellular problems on the iPhone 18 Pro Max to update to iOS 27.0.1, though users report mixed results.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-02T16:18:55Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "AppleInsider",
+     "title": "Optimistic AT&T tells iPhone 18 Pro Max iOS 27.0.1 update will fix call problems",
+     "url": "https://appleinsider.com/articles/26/10/02/optimistic-att-tells-iphone-18-pro-max-ios-2701-update-will-fix-call-problems?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "AT&T claims iOS 27.0.1 fixes iPhone 18 Pro Max cellular issues, but users disagree",
+     "url": "https://9to5mac.com/2026/10/02/att-claims-ios-27-0-1-fixes-iphone-18-pro-max-cellular-issues-but-users-disagree/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "AT&T on iPhone 18 Pro Max Issues: 'We Are Working With Apple'",
+     "url": "https://www.macrumors.com/2026/10/02/att-statement-on-iphone-18-pro-max-issues/",
      "official": false
     }
    ]
@@ -144,133 +324,109 @@
    "name": "AI",
    "stories": [
     {
-     "id": "fa008fae0218",
-     "title": "Educator-guided LLM pedagogical agents introduced for database design",
-     "summary": "Researchers published an educator-guided large language model pedagogical agent integrated into an entity-relationship diagram editor to provide scaffolded feedback for conceptual database design.",
-     "importance": 3,
-     "label": "REPORTED",
+     "id": "8e206c4d9ed6",
+     "title": "OpenAI Releases Model Guide for GPT-6 Family Startups",
+     "summary": "OpenAI published guidance on how startups can choose GPT-6 models, tune reasoning effort, and prepare production workflows.",
+     "importance": 4,
+     "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-02T04:00:00Z",
+     "published": "2026-10-02T16:15:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "arXiv cs.AI",
-       "title": "An Educator-Guided LLM Pedagogical Agent for Scaffolded Feedback in Conceptual Database Design",
-       "url": "https://arxiv.org/abs/2610.00870",
+       "outlet": "OpenAI News",
+       "title": "A model guide for the GPT-6 family",
+       "url": "https://openai.com/index/practical-guide-building-gpt-6",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "911dfe6cba1b",
+     "title": "OpenAI Safety Team Shaken by Three Firings Over Leaks",
+     "summary": "OpenAI parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T12:51:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Three firings and a fourth departure shake up OpenAI's safety team",
+       "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
        "official": false
       }
      ]
     },
     {
-     "id": "789324de8131",
-     "title": "New memory systems and automated harness optimization proposed for AI agents",
-     "summary": "Recent arXiv papers detail advancements in long-term agentic memory systems, automated curriculum learning for harness optimization, and model-harness interactions across tasks.",
-     "importance": 3,
-     "label": "REPORTED",
+     "id": "d4e3054526b7",
+     "title": "NVIDIA DGX Spark 64GB Expands Local AI Development Options",
+     "summary": "NVIDIA introduced the DGX Spark 64GB to give developers more capabilities to run open models locally.",
+     "importance": 4,
+     "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-02T04:00:00Z",
+     "published": "2026-10-02T13:00:39Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "arXiv cs.AI",
-       "title": "MemFit: Efficient Long-Term Agentic Memory",
-       "url": "https://arxiv.org/abs/2610.00872",
-       "official": false
-      },
+       "outlet": "NVIDIA Blog",
+       "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "d599f0a282be",
+     "title": "Hugging Face Open-Sources AstaBrief Report Generation Model",
+     "summary": "Hugging Face open-sourced AstaBrief, the fast report-generation model used within Asta.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-02T15:19:50Z",
+     "outlet_count": 1,
+     "sources": [
       {
-       "outlet": "arXiv cs.AI",
-       "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
-       "url": "https://arxiv.org/abs/2610.00906",
-       "official": false
-      },
+       "outlet": "Hugging Face Blog",
+       "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+       "url": "https://huggingface.co/blog/allenai/astabrief",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "2d135f27fdfb",
+     "title": "Suno Debuts 'Speech' Tool for Generating Spoken Voices",
+     "summary": "Suno launched a public beta of Speech, which generates spoken voices from scripts with optional background music.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T13:05:02Z",
+     "outlet_count": 1,
+     "sources": [
       {
-       "outlet": "arXiv cs.AI",
-       "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
-       "url": "https://arxiv.org/abs/2610.00917",
+       "outlet": "Techmeme",
+       "title": "Suno debuts Speech, which generates spoken voices from scripts or prompts, with optional background music, in public beta, as its music generator faces lawsuits (Jess Weatherbed/The Verge)",
+       "url": "https://www.techmeme.com/261002/p11#a261002p11",
        "official": false
       }
      ]
     },
     {
-     "id": "fd0ca7af875a",
-     "title": "Frameworks explored for routing LLMs and multi-environment agent distillation",
-     "summary": "New technical preprints outline frameworks for routing language models into optimization solvers, balancing capability retention during offline agent fine-tuning, and rubrics for multi-environment agent distillation.",
+     "id": "a59bf259f57e",
+     "title": "Trillium Labs Aims to Conduct High-Stakes AI Research Openly",
+     "summary": "Trillium Labs is breaking from industry norms by sharing its self-improvement and model behavior research out in the open.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-02T04:00:00Z",
+     "published": "2026-10-02T16:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "arXiv cs.AI",
-       "title": "OR for AI That Does OR: Routing LLMs up the Escalator inside the OSCAR Framework",
-       "url": "https://arxiv.org/abs/2610.00912",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "PG-SFT: Balancing Capability Acquisition and Retention in Offline Agent Fine-Tuning",
-       "url": "https://arxiv.org/abs/2610.00949",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "RISED: RubrIcs for agentic multi-environment Selection and sElf-Distillation",
-       "url": "https://arxiv.org/abs/2610.00979",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6a1660521782",
-     "title": "Natural-language interfaces and verification scaling studied for long-horizon agents",
-     "summary": "Researchers have introduced natural-language scenario explorers for argument-based reasoning and studied methods to scale agentic verification for complex, long-horizon tasks.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-02T04:00:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "ABDA-NL: A Natural-Language Scenario Explorer for Argument-Based Reasoning",
-       "url": "https://arxiv.org/abs/2610.00947",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
-       "url": "https://arxiv.org/abs/2610.00972",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bb7048f89d57",
-     "title": "Addressing trust, calibration risk, and preference evaluation in agentic delegation",
-     "summary": "Recent studies investigate trustworthy agentic delegation vocabularies, calibration-risk routing for world models, and methods for evaluating LLM-generated preference distributions.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-02T04:00:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Cybernetic and Epistemic: A Missing Vocabulary for Trustworthy Agentic Delegation",
-       "url": "https://arxiv.org/abs/2610.00961",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Evaluating LLM-Generated Preference Distributions",
-       "url": "https://arxiv.org/abs/2610.01000",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Calibration-risk routing for controlled world-model adaptation",
-       "url": "https://arxiv.org/abs/2610.01001",
+       "outlet": "Wired",
+       "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+       "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
        "official": false
       }
      ]
@@ -281,37 +437,157 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "ce21ba014e2b",
-     "title": "New PS5 Slim model reportedly features replaceable CMOS battery and revised cooling",
-     "summary": "Console technicians report that the latest PS5 Slim hardware revision incorporates component changes, including a replaceable CMOS battery and updated cooling systems.",
-     "importance": 3,
-     "label": "RUMOR-CREDIBLE",
+     "id": "836d3d03adc9",
+     "title": "Paramount and Warner Bros. Discovery to Merge Under 'Skydance' Name",
+     "summary": "Paramount Skydance CEO David Ellison announced that the newly merged company will be known as Skydance, with streaming services combining.",
+     "importance": 4,
+     "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-02T08:45:27Z",
-     "outlet_count": 1,
+     "published": "2026-10-02T16:16:02Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "The latest PS5 Slim model reportedly changes some components, including a replaceable CMOS battery and revised cooling",
-       "url": "https://www.videogameschronicle.com/news/the-latest-ps5-slim-model-reportedly-changes-some-components-including-a-replaceable-cmos-battery-and-revised-cooling/",
+       "outlet": "The Verge",
+       "title": "Paramount’s Warner Bros. megamerger will just be called Skydance",
+       "url": "https://www.theverge.com/entertainment/1004016/paramount-warner-bros-skydance-megamerger-name",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "HBO Max and Paramount+ set to merge under ‘Skydance’ brand",
+       "url": "https://9to5mac.com/2026/10/02/hbo-max-and-paramount-set-to-merge-under-skydance-brand/",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "Paramount and Warner Bros Discovery to become Skydance",
+       "url": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Soon-to-be merged Paramount and Warner Bros. will be known as Skydance going forward",
+       "url": "https://www.engadget.com/2275866/soon-to-be-merged-paramount-and-warner-bros-will-be-known-as-skydance-going-forward/",
        "official": false
       }
      ]
     },
     {
-     "id": "507640c9dc16",
-     "title": "Singapore's crackdown exposes fake online review market",
-     "summary": "Singapore authorities have launched a major crackdown on fake five-star online reviews, exposing widespread manipulation as experts warn that generative AI could worsen the issue.",
-     "importance": 3,
+     "id": "eefe05e1170c",
+     "title": "Major US Carriers Form Joint Venture to Eliminate Mobile Dead Zones",
+     "summary": "AT&T, T-Mobile, and Verizon formed a joint venture to expand US satellite coverage, appointing Paul Roth as interim CEO.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-02T01:30:18Z",
+     "published": "2026-10-02T15:37:40Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "AT&T, T-Mobile, and Verizon form a JV that aims to expand US satellite coverage and eliminate dead zones, appointing industry veteran Paul Roth as interim CEO (David Shepardson/Reuters)",
+       "url": "https://www.techmeme.com/261002/p10#a261002p10",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "AT&T, T-Mobile and Verizon have officially teamed up to end coverage gaps",
+       "url": "https://www.engadget.com/2275806/att-t-mobile-and-verizon-have-officially-teamed-up-to-end-coverage-gaps/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "59d990603617",
+     "title": "EU Investigation Set to Find Azure and AWS Meet DMA Thresholds",
+     "summary": "Sources indicate an upcoming EU investigation will find that Microsoft Azure and Amazon Web Services meet Digital Markets Act thresholds.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T13:45:02Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "South China Morning Post",
-       "title": "Singapore’s crackdown exposes market for fake 5-star reviews",
-       "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369495/singapores-crackdown-fake-reviews-exposes-business-buying-social-proof?utm_source=rss_feed",
+       "outlet": "Techmeme",
+       "title": "Sources: an EU investigation is set to find that Azure and AWS meet DMA thresholds, as the EU strengthens its regulatory scrutiny of the cloud sector (Bloomberg)",
+       "url": "https://www.techmeme.com/261002/p12#a261002p12",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b8b74daacd71",
+     "title": "Apple Prepares Mac Mail Fix as Microsoft Phases Out Exchange Connections",
+     "summary": "Apple is working on a fix for Exchange access in its Mac applications following Microsoft's retirement of legacy connection methods.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T16:24:06Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple plans fix as Microsoft's Exchange shutdown disrupts Mac email",
+       "url": "https://appleinsider.com/articles/26/10/02/apple-plans-fix-as-microsofts-exchange-shutdown-disrupts-mac-email?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ac6a9d8e0c9b",
+     "title": "Apple Building Smart Home Camera That Uses AI Without Recording Video",
+     "summary": "Apple is reportedly developing a smart home camera that analyzes activity via AI without storing actual video footage.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T13:44:31Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Apple is reportedly building a smart home camera that won't record video footage of you or anyone else",
+       "url": "https://www.engadget.com/2275621/apple-is-reportedly-building-a-smart-home-camera-that-wont-record-video-footage-of-you-or-anyone-else/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "64b08d1a93f7",
+     "title": "iOS 27.2 Update Brings Overhauled Up Next Queue to Apple Podcasts",
+     "summary": "Apple is introducing a long-awaited solution to the central Up Next queue in Apple Podcasts with the iOS 27.2 update.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T15:37:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "iOS 27.2 gives Apple Podcasts the big fix I’ve wanted for years",
+       "url": "https://9to5mac.com/2026/10/02/ios-27-2-gives-apple-podcasts-the-big-fix-ive-wanted-for-years/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9d058df0f40f",
+     "title": "Home Assistant Says Big Tech Ruined the Cloud",
+     "summary": "Home Assistant publicly distanced itself from corporate cloud dependencies, stating that Big Tech has ruined the cloud ecosystem.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T14:57:22Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Home Assistant says ‘Big tech ruined the cloud, so we’re out’",
+       "url": "https://www.theverge.com/tech/1003936/home-assistant-says-big-tech-ruined-the-cloud-so-were-out",
+       "official": false
+      },
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Big Tech ruined the cloud, so we're renaming ours",
+       "url": "https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/",
        "official": false
       }
      ]
@@ -322,37 +598,192 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "34df21176bbd",
-     "title": "Deadlock update introduces unexpected jumpscare interaction with a troll",
-     "summary": "Valve's Deadlock players are highlighting humorous environmental bugs and player-induced collisions following the game's latest update.",
-     "importance": 2,
+     "id": "e39ade27180f",
+     "title": "Memory Makers Warn Shortages and Higher Prices Will Worsen Through 2027",
+     "summary": "Industry memory suppliers have warned that the tight supply-demand environment will persist and drive prices even higher over the coming years.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-02T09:54:26Z",
-     "outlet_count": 1,
+     "published": "2026-10-02T15:30:00Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Steam News",
-       "title": "Deadlock's got a scary troll",
-       "url": "https://store.steampowered.com/news/group/1850/view/699903325897753670",
+       "outlet": "VGC",
+       "title": "Memory maker warns shortages will get worse in 2027, as CEO celebrates ‘much higher prices’",
+       "url": "https://www.videogameschronicle.com/news/memory-maker-warns-shortages-will-get-worse-in-2027-as-ceo-celebrates-much-higher-prices/",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "RAM shortages are only getting worse and will last until at least 2028, Micron boss declares from atop a mountain of money",
+       "url": "https://www.rockpapershotgun.com/ram-shortages-are-only-getting-worse-and-will-last-until-at-least-2028-micron-boss-declares-from-atop-a-mountain-of-money",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Buckle Up, Memory Shortages Are Reportedly Set To Get Worse In 2027",
+       "url": "https://www.nintendolife.com/news/2026/10/buckle-up-memory-shortages-are-reportedly-set-to-get-worse-in-2027",
        "official": false
       }
      ]
     },
     {
-     "id": "ea430ef109d8",
-     "title": "Fuse Games CEO to discuss Star Wars Galactic Racer at UK conference",
-     "summary": "Fuse Games leadership is set to discuss the upcoming Star Wars racing title at the Game Republic New Horizons conference in Middlesbrough.",
-     "importance": 2,
-     "label": "REPORTED",
+     "id": "0fa7afb2e451",
+     "title": "Ghost of Yōtei Complete Edition Launches on PS5",
+     "summary": "PlayStation 5 players can now access the Complete Edition of Ghost of Yōtei, bundling the main campaign and Legends multiplayer.",
+     "importance": 4,
+     "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-02T09:00:47Z",
+     "published": "2026-10-02T13:00:05Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "Fuse Games CEO to Discuss Star Wars Galactic Racer at UK Games Conference",
-       "url": "https://www.videogameschronicle.com/news/fuse-games-ceo-to-discuss-star-wars-galactic-racer-at-uk-games-conference/",
+       "outlet": "PlayStation Blog",
+       "title": "Ghost of Yōtei Complete Edition",
+       "url": "https://blog.playstation.com/2026/10/02/ghost-of-yotei-complete-edition-erika-ishii-interview/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "1580c1d30c2d",
+     "title": "Riot Executives Discuss Scale and Viability Challenges for League MMO and 2XKO",
+     "summary": "Riot leadership shared insights into why games like 2XKO and the League of Legends MMO require massive player bases to succeed.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T16:29:47Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "2XKO would have needed an MAU base \"in the high hundreds of thousands, if not millions\" to succeed",
+       "url": "https://www.gamesindustry.biz/2xko-would-have-needed-an-mau-base-in-the-high-hundreds-of-thousands-if-not-millions-to-succeed",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Riot needed absurd player counts 'in the high hundreds of thousands, if not millions' for 2XKO, dooming it from launch",
+       "url": "https://www.pcgamer.com/games/fighting/riots-absurd-expectations-of-player-counts-in-the-high-hundreds-of-thousands-if-not-millions-doomed-2xko-from-the-start/",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "There are \"all sorts of smart reasons\" the League of Legends MMO shouldn't be made, Riot boss says",
+       "url": "https://store.steampowered.com/news/group/38509069/view/702155125711439109",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8a48447d226d",
+     "title": "Warhorse COO Hopes Grand Theft Auto 6 Establishes an $80 Triple-A Price Standard",
+     "summary": "The COO of Warhorse Studios suggested he hopes GTA 6 paves the way for other developers to raise base game prices.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T16:23:57Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Kingdom Come: Deliverance Dev Hopes GTA 6 Will Encourage Studios to Charge More for Their Games",
+       "url": "https://www.ign.com/articles/kingdom-come-deliverance-co-founder-gta-6-price",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Warhorse COO wants GTA 6 to set a new $80 price standard for triple-A games",
+       "url": "https://store.steampowered.com/news/group/42342144/view/670629928317748374",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2b42ae27be8d",
+     "title": "Miami Heat to Rebrand as Vice City for One Night in GTA 6 Marketing Push",
+     "summary": "The NBA's Miami Heat will temporarily rebrand as Vice City in a promotional collaboration with Rockstar Games ahead of launch.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T14:15:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Kotaku",
+       "title": "GTA 6 Marketing Ramps Up As Miami Heat Announce Vice City Night That Sounds Very Expensive",
+       "url": "https://kotaku.com/gta-6-marketing-ramps-up-as-miami-heat-announce-vice-city-night-that-sounds-very-expensive-2000739310",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "GTA 6 Rebrands Miami Basketball Team to Vice City for One Night Only",
+       "url": "https://www.pushsquare.com/news/2026/10/gta-6-rebrands-miami-basketball-team-to-vice-city-for-one-night-only",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0ac0752f5821",
+     "title": "ARC Raiders to Go Free-to-Play Briefly for Frozen Trail Launch",
+     "summary": "ARC Raiders is offering new fans a limited-time free-to-play period to celebrate the launch of Frozen Trail.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T16:19:39Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "ARC Raiders To Go Free-To-Play Briefly For Frozen Trail Launch",
+       "url": "https://insider-gaming.com/arc-raiders-to-go-free-to-play-briefly-for-frozen-trail-launch/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "e885c0da3b5c",
+     "title": "Gypsy Rose Blanchard's Partner Ken Urker Found Dead at 34",
+     "summary": "Ken Urker, partner of Gypsy Rose Blanchard, was found dead in his Louisiana home on his 34th birthday.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-02T16:08:27Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Daily Wire",
+       "title": "Gypsy Rose Blanchard Reveals Cause Of Death For 34-Year-Old Boyfriend",
+       "url": "https://www.dailywire.com/news/gypsy-rose-blanchard-reveals-cause-of-death-for-34-year-old-boyfriend",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "Gypsy Rose Blanchard’s partner, Ken Urker, found dead on his 34th birthday",
+       "url": "https://san.com/cc/gypsy-rose-blanchards-partner-ken-urker-found-dead-on-his-34th-birthday/",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Ken Urker, partner of Gypsy Rose Blanchard, found dead in Louisiana home",
+       "url": "https://www.nbcnews.com/news/us-news/gypsy-rose-blanchards-partner-ken-urker-found-dead-rcna601098",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "Gypsy Rose Blanchard speaks out about death of her ex-fiancé, Ken Urker",
+       "url": "https://www.cbc.ca/news/entertainment/gypsy-rose-blanchard-ken-urker-death-9.7366816?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Gypsy Rose Blanchard's partner, Ken Urker, dies at 34",
+       "url": "https://www.cbsnews.com/news/gypsy-rose-blanchard-partner-ken-urker-dies-at-34/",
        "official": false
       }
      ]
@@ -363,109 +794,103 @@
    "name": "World",
    "stories": [
     {
-     "id": "dfabe887c089",
-     "title": "Pakistan blocks capital access for Imran Khan supporters using shipping containers",
-     "summary": "Pakistan's ongoing security measures to restrict former prime minister Imran Khan's supporters from entering the capital have resulted in heavy container blockades at main ports.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-02T07:31:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Sky News: World",
-       "title": "Pakistan seizes shipping containers to keep Imran Khan supporters out of capital",
-       "url": "https://news.sky.com/story/imran-khan-supporters-to-be-kept-out-of-pakistans-capital-by-shipping-containers-seized-from-distressed-lorry-drivers-13594249",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "788f74a43c71",
-     "title": "Family of US woman killed by ICE agent sues Trump administration",
-     "summary": "The relatives of Renee Good, who was fatally shot by a federal immigration agent in Minneapolis, have filed a lawsuit against the Trump administration citing a total lack of accountability.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-01T23:34:13Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "South China Morning Post",
-       "title": "Family of Renee Good, US woman killed by ICE agent, sues Trump administration",
-       "url": "https://www.scmp.com/news/world/united-states-canada/article/3369491/family-renee-good-us-woman-killed-ice-agent-sues-trump-administration?utm_source=rss_feed",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "fbf9af2770ab",
-     "title": "Bolivia detains Attorney General following US visa revocation over bribery allegations",
-     "summary": "Bolivian authorities have arrested Attorney General Roger Mariaca after the United States revoked his visa and accused him of accepting bribes to facilitate drug trafficking.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-01T20:53:26Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Bolivia detains attorney general, government ministry says",
-       "url": "https://www.straitstimes.com/world/bolivia-detains-attorney-general-government-ministry-says",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6f81539d7e72",
-     "title": "Putin warns West against escalation amid high geopolitical tensions",
-     "summary": "Russian leadership has issued stern warnings to Western nations against further escalation, threatening nuclear defense measures around Kaliningrad as global security risks mount.",
+     "id": "6024837f14c1",
+     "title": "US Coast Guard Intercepts Fuel-Carrying Cargo Ship Bound for Cuba",
+     "summary": "The US Coast Guard intercepted a cargo ship using dark fleet tactics to transport fuel to Cuba and diverted it to Mexico.",
      "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-01T18:18:24Z",
-     "outlet_count": 1,
+     "published": "2026-10-02T15:13:23Z",
+     "outlet_count": 3,
      "sources": [
+      {
+       "outlet": "New York Times: World",
+       "title": "Coast Guard Says It Stopped Ships Carrying Fuel to Cuba",
+       "url": "https://www.nytimes.com/2026/10/02/world/americas/coast-guard-cuba-ships-oil.html",
+       "official": false
+      },
       {
        "outlet": "The Straits Times: World",
-       "title": "World living through a dangerous moment, says Putin, warns West not to escalate",
-       "url": "https://www.straitstimes.com/world/europe/putin-says-the-world-is-living-through-a-dangerous-moment-warns-west-not-to-escalate",
+       "title": "US Coast Guard intercepts cargo boat carrying fuel bound for Cuba, NYT reports",
+       "url": "https://www.straitstimes.com/world/us-coast-guard-intercepts-cargo-boat-carrying-fuel-bound-for-cuba-nyt-reports",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: World",
+       "title": "US Coast Guard says it intercepted ship carrying fuel to Cuba",
+       "url": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
        "official": false
       }
      ]
     },
     {
-     "id": "3bdf7b9f7782",
-     "title": "Blasts rock Ethiopian capital amid worsening political conflict",
-     "summary": "Explosions were reported in Ethiopia's capital following a government ban on drone flights, as Prime Minister Abiy Ahmed faces a unified front of armed opposition groups.",
-     "importance": 3,
+     "id": "c661dec3fdbb",
+     "title": "Russian Strikes Deal Heavy Damage to Ukraine's Capital Infrastructure",
+     "summary": "Kyiv mayor Vitaliy Klitschko warned that intensified Russian attacks are severely impacting critical infrastructure and traffic.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-01T15:59:40Z",
-     "outlet_count": 1,
+     "published": "2026-10-02T15:26:37Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Hindu: International",
-       "title": "Blasts in Ethiopian capital after government banned drone flights",
-       "url": "https://www.thehindu.com/news/international/blasts-in-ethiopian-capital-after-government-banned-drone-flights/article71534160.ece",
+       "outlet": "CNA: World (Singapore)",
+       "title": "Russia 'tearing Kyiv apart', mayor says, as strikes paralyse traffic",
+       "url": "https://www.channelnewsasia.com/world/russia-tearing-kyiv-apart-mayor-says-strikes-paralyse-traffic-6426761",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+       "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "c361945c9f7c",
-     "title": "UN urges US reparations for historic Marshall Islands nuclear tests",
-     "summary": "United Nations human rights officials have renewed calls for generational justice and reparations from the United States over radioactive contamination and displacement from nuclear tests in the Marshall Islands.",
+     "id": "1dd8a83c3d9d",
+     "title": "Three in Four Households Go Hungry in Parts of Yemen Amid Resurgent Fighting",
+     "summary": "The World Food Programme warned of a devastating humanitarian toll as ongoing conflict cuts off food supplies in Yemen.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-01T15:53:08Z",
-     "outlet_count": 1,
+     "published": "2026-10-02T16:06:25Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Hindu: International",
-       "title": "UN urges U.S. reparations over Marshall Islands nuclear tests",
-       "url": "https://www.thehindu.com/news/international/un-urges-us-reparations-over-marshall-islands-nuclear-tests/article71534114.ece",
+       "outlet": "CNA: World (Singapore)",
+       "title": "Three in four families go hungry in parts of Yemen from new fighting",
+       "url": "https://www.channelnewsasia.com/world/three-in-four-families-go-hungry-in-parts-yemen-new-fighting-6426751",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Three in four households go hungry in parts of Yemen amid fighting: UN",
+       "url": "https://www.aljazeera.com/news/2026/10/2/three-in-four-households-go-hungry-in-parts-of-yemen-amid-fighting-un?traffic_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "12fdc40d897e",
+     "title": "New York Governor Says Cornell Rape Inquiry Victim Was Failed by Officials",
+     "summary": "New York's governor stated that the university student who alleged she was assaulted by seven fraternity members was failed by institutional systems.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-02T16:07:15Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Guardian: US",
+       "title": "Woman in alleged Cornell gang-rape case was ‘failed’ by system, New York governor says",
+       "url": "https://www.theguardian.com/us-news/2026/oct/02/new-york-cornell-alleged-gang-rape-kathy-hochul",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
+       "url": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
@@ -476,134 +901,26 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "1f3936d241dc",
-     "title": "Eurozone inflation climbs to three-year high driven by surging energy costs",
-     "summary": "Eurozone annual inflation has risen to 3.8%, heavily pushed upward by energy prices jumping nearly twenty percent over the past year.",
+     "id": "d582fd3d501b",
+     "title": "UK Imposes Sanctions on Seven Russians Over Forced Child Deportations",
+     "summary": "The United Kingdom sanctioned seven individuals tied to the forced deportation and re-education programs involving Ukrainian children.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-02T09:43:35Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "El País (Spain)",
-       "title": "Eurozone inflation rises to 3.8%, hitting a three-year high",
-       "url": "https://elpais.com/economia/2026-10-02/la-inflacion-en-la-zona-euro-sube-hasta-el-38-el-maximo-nivel-en-los-ultimos-tres-anos.html",
-       "official": false,
-       "translated_from": "es",
-       "original_title": "La inflación en la zona euro sube hasta el 3,8%, el máximo nivel en los últimos tres años"
-      }
-     ]
-    },
-    {
-     "id": "63c5cf6437b5",
-     "title": "Škoda recalls 1.7 million vehicles worldwide due to steering defect risks",
-     "summary": "A potential steering defect caused by a rust-prone bolt in Volkswagen Group platforms has forced Škoda to issue a worldwide recall affecting 1.7 million vehicles across four models.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T09:46:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Der Spiegel (Germany)",
-       "title": "VW steering issues: Škoda recalls even more cars worldwide than expected",
-       "url": "https://www.spiegel.de/mobilitaet/auto/vw-lenkungsprobleme-skoda-ruft-weltweit-noch-mehr-autos-zurueck-als-erwartet-a-e29f6ec8-e8e7-43e9-acaf-6274e904b4fd#ref=rss",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "VW-Lenkungsprobleme: Škoda ruft weltweit noch mehr Autos zurück als erwartet"
-      }
-     ]
-    },
-    {
-     "id": "3f0fef3c9f63",
-     "title": "Germany agrees on fiscal and energy pressures as coalition friction grows",
-     "summary": "German conservative and center-left parties face crunch talks amid mounting political pressure over economic reforms, austerity measures, and European energy coordination.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T09:53:00Z",
+     "published": "2026-10-02T14:13:00Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "ERT News (Greece)",
-       "title": "Politico: European countries agree on a \"firm\" response to US diesel pressure",
-       "url": "https://www.ertnews.gr/eidiseis/politico-oi-eyropaikes-xores-symfonisan-se-mia-statheri-apantisi-stis-pieseis-ton-ipa-gia-to-ntizel/",
-       "official": false,
-       "translated_from": "el",
-       "original_title": "Politico: Οι ευρωπαϊκές χώρες συμφώνησαν σε μια «σταθερή» απάντηση στις πιέσεις των ΗΠΑ για το ντίζελ"
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Germany news: Reform row raises fears for Merz's coalition",
-       "url": "https://www.dw.com/en/germany-news-reform-row-raises-fears-for-merz-s-coalition/live-79512757?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "427c0642c7e5",
-     "title": "Kyiv and Brussels reach agreement on financial support terms for 2026",
-     "summary": "Ukraine and the European Union have reached an in-principle agreement on how to cover Kyiv's extra financial needs for 2026 without requiring new capital commitments from Brussels.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T05:06:47Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "franceinfo (France)",
-       "title": "Kyiv and Brussels reach agreement on terms of Ukraine financing for 2026",
-       "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/kiev-et-bruxelles-ont-trouve-un-accord-sur-les-modalites-du-financement-de-l-ukraine-pour-2026_8218864.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Kiev et Bruxelles ont trouvé un accord sur les modalités du financement de l'Ukraine pour 2026"
-      }
-     ]
-    },
-    {
-     "id": "89397afdd567",
-     "title": "Poland introduces windfall tax on oil companies to combat high fuel prices",
-     "summary": "Polish President Nawrocki has signed legislation introducing a windfall tax on energy and oil companies to offset surging retail fuel costs for consumers.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T06:41:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Der Spiegel (Germany)",
-       "title": "Poland introduces windfall tax for oil companies",
-       "url": "https://www.spiegel.de/wirtschaft/unternehmen/polen-fuehrt-uebergewinnsteuer-fuer-mineraloelkonzerne-ein-a-296dd7cd-921e-48a4-a8c3-b699442fb97b#ref=rss",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Polen führt Übergewinnsteuer für Mineralölkonzerne ein"
-      }
-     ]
-    },
-    {
-     "id": "d2cae8ac12bf",
-     "title": "Investigation launched after botched execution in Tennessee",
-     "summary": "Following two failed lethal injection attempts on death row inmate Christa Pike, the Governor of Tennessee has ordered a comprehensive inquiry and halted further executions.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T06:12:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Straits Times: World",
-       "title": "US inmate Christa Pike in critical condition after botched execution, says lawyer",
-       "url": "https://www.straitstimes.com/world/united-states/us-inmate-christa-pike-in-critical-condition-after-botched-execution-says-lawyer",
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "UK sanctions 7 Russians over deportation, indoctrination of Ukrainian children",
+       "url": "https://kyivindependent.com/uk-sanctions-7-russians-over-deportation-indoctrination-of-ukrainian-children/",
        "official": false
       },
       {
-       "outlet": "Der Spiegel (Germany)",
-       "title": "Christa Pike survives two lethal injection attempts: Governor halts all further executions for the rest of the year",
-       "url": "https://www.spiegel.de/ausland/christa-pike-ueberlebt-zwei-giftspitzen-gouverneur-setzt-alle-weiteren-hinrichtungen-fuer-den-rest-des-jahres-a-7c869dba-7660-4fed-a3b9-a4b9822223a0#ref=rss",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Christa Pike überlebt zwei Giftspitzen: Gouverneur setzt alle weiteren Hinrichtungen für den Rest des Jahres"
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "UK sanctions seven Russians over deportation of Ukrainian children",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/02/8056194/",
+       "official": false
       }
      ]
     }
@@ -613,78 +930,74 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "f54a6dd01545",
-     "title": "Japan's largest power producer partners with Dell for $15bn data center",
-     "summary": "Japan's leading power generation utility has teamed up with Dell to construct a massive $15 billion data center infrastructure.",
-     "importance": 3,
+     "id": "f8a9baf6c328",
+     "title": "Japan Imposes Sanctions on Russian Shadow Fleet Following Putin Visit",
+     "summary": "Japan announced fresh sanctions targeting Russia's shadow fleet in response to recent geopolitical tensions and disputed island visits.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-02T09:55:53Z",
+     "published": "2026-10-02T16:33:55Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan's largest power producer teams with Dell on $15bn data center",
-       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-largest-power-producer-teams-with-dell-on-15bn-data-center",
+       "title": "Japan hits Russia 'shadow fleet' in 1st sanctions since Putin trip to disputed isle",
+       "url": "https://asia.nikkei.com/politics/international-relations/japan-hits-russia-shadow-fleet-in-1st-sanctions-since-putin-trip-to-disputed-isle",
        "official": false
       }
      ]
     },
     {
-     "id": "4843352815e1",
-     "title": "Robot arm successfully enters containment vessel of Fukushima Daiichi Unit 2",
-     "summary": "Following four prior postponements, a robotic arm has successfully accessed the primary containment vessel at Fukushima Daiichi Unit 2.",
+     "id": "67a7527acbd2",
+     "title": "Japan to Develop Low-Cost Cruise Missile to Counter Air Defenses",
+     "summary": "Japan's defense initiatives move forward with plans to build affordable cruise missiles designed to overwhelm enemy air defense networks.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-02T02:00:07Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Robot arm enters containment vessel of Fukushima Daiichi Unit 2 after four postponements",
-       "url": "http://www.asahi.com/articles/ASV7R1TTNV7RUTFL01PM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "4度延期のロボットアーム、ついに格納容器内へ 福島第一原発2号機"
-      }
-     ]
-    },
-    {
-     "id": "0f1d7795549f",
-     "title": "BOJ Tankan survey indicates sixth straight rise in manufacturer sentiment",
-     "summary": "The Bank of Japan's Tankan business survey recorded a sixth consecutive quarterly improvement in sentiment among large manufacturers.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-02T09:55:53Z",
+     "published": "2026-10-02T16:33:55Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "BOJ Tankan shows sixth straight rise in manufacturer sentiment",
-       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment",
+       "title": "Japan to develop low-cost cruise missile that overwhelms air defenses",
+       "url": "https://asia.nikkei.com/politics/defense/japan-to-develop-low-cost-cruise-missile-that-overwhelms-air-defenses",
        "official": false
       }
      ]
     },
     {
-     "id": "d7e39685a6d3",
-     "title": "Isuzu recalls electric buses following inverter fire incident in Osaka",
-     "summary": "Isuzu has initiated a recall for its electric bus lineup due to a dangerous inverter defect identified after a vehicle caught fire in Osaka.",
+     "id": "136862ac1606",
+     "title": "Hyundai Overtakes Honda in US Hybrid Sales for the First Time",
+     "summary": "Market data shows the Hyundai group has surpassed Honda in US hybrid vehicle sales for the first time.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-02T08:02:47Z",
+     "published": "2026-10-02T16:33:55Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Isuzu recalls EV buses due to inverter defect following fire in Osaka",
-       "url": "http://www.asahi.com/articles/ASVB22HY8VB2ULFA012M.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "いすゞ、EVバスをリコール インバーターに不具合、大阪で火災も"
+       "outlet": "Nikkei Asia",
+       "title": "Hyundai group tops Honda for first time in US hybrid sales",
+       "url": "https://asia.nikkei.com/business/automobiles/hyundai-group-tops-honda-for-first-time-in-us-hybrid-sales",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a26c71115859",
+     "title": "Iconic Shibuya Department Store Closes After 58 Years in Tokyo",
+     "summary": "Shoppers and local residents gathered to bid farewell to Seibu Shibuya as the cultural destination closed its doors after nearly six decades.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-02T14:39:12Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Japan Forward",
+       "title": "Iconic Shibuya Department Store Closes After 58 Years",
+       "url": "https://japan-forward.com/seibu-shibuya-department-store-closes-after-58-years/",
+       "official": false
       }
      ]
     }
@@ -694,73 +1007,49 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "122ed72e55e2",
-     "title": "Special counsel seeks 18-month prison term for Seoul Mayor Oh Se-hoon",
-     "summary": "South Korea's special counsel team is pressing for a one-and-a-half-year prison sentence in the appellate trial of Seoul Mayor Oh Se-hoon, who was convicted under the Political Funds Act.",
-     "importance": 3,
+     "id": "61fd02d9acb7",
+     "title": "Trump Unveils $8.4 Billion Oil Recovery Project Tied to South Korea Deal",
+     "summary": "President Trump announced an $8.4 billion oil recovery project, highlighting positive developments in ongoing trade negotiations with South Korea.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-02T09:07:11Z",
+     "published": "2026-10-02T15:22:13Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "KBS World",
-       "title": "Special Counsel Appeals for Tougher Sentence for Seoul Mayor, Again Seeks 18-Month Prison Term",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204639",
+       "outlet": "Yonhap News",
+       "title": "Trump says S. Korea deal 'keeps getting better,' unveils US$8.4 billion oil recovery project",
+       "url": "https://en.yna.co.kr/view/AEN20261002009800315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Trump says S. Korea deal 'keeps getting better,' unveils US$8.4 billion oil recovery project",
+       "url": "https://en.yna.co.kr/view/AEN20261002009851315",
        "official": false
       }
      ]
     },
     {
-     "id": "3d7f8718eedb",
-     "title": "Kim Jong-ho secures historic gold in men's compound archery at Asian Games",
-     "summary": "Kim Jong-ho captured the gold medal in the men's individual compound archery event at the Aichi-Nagoya Asian Games, marking South Korea's first title in the competition.",
-     "importance": 3,
+     "id": "745774a82647",
+     "title": "Kim Yo-jong Rejects Blame for DMZ Blast and Mocks Seoul",
+     "summary": "North Korean official Kim Yo-jong dismissed responsibility for a recent DMZ explosion while mocking South Korean calls to de-escalate tensions.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-01T08:01:22Z",
+     "published": "2026-10-02T14:26:48Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "KBS World",
-       "title": "Kim Jong-ho Wins Gold in Men’s Individual Compound Archery at Asian Games",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204610",
+       "outlet": "Yonhap News",
+       "title": "(2nd LD) Kim Yo-jong again rejects blame for DMZ blast, mocks Seoul's call to ease tensions",
+       "url": "https://en.yna.co.kr/view/AEN20261002008853315",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "27a5dc322727",
-     "title": "President Lee Jae Myung welcomes upcoming launch of independent criminal agencies",
-     "summary": "South Korean President Lee Jae Myung praised the imminent establishment of the Serious Crimes Investigation Agency and Public Prosecution Service as a step toward a balanced justice system.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-01T08:12:52Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "KBS World",
-       "title": "Lee: Launch of New Agencies Marks End of ‘Political Prosecution’ Era",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204611",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "736e48db1f8b",
-     "title": "South Korean unification minister urges against politicizing DMZ land mine blast",
-     "summary": "Unification Minister Chung Dong-young cautioned lawmakers against politicizing the recent Demilitarized Zone mine explosion that injured several soldiers.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-02T09:52:18Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "NK News (North Korea)",
-       "title": "DMZ land mine explosion should not be politicized: Unification Minister",
-       "url": "https://www.nknews.org/2026/10/dmz-land-mine-explosion-should-not-be-politicized-unification-minister/",
+       "outlet": "Yonhap News",
+       "title": "(3rd LD) Kim Yo-jong again rejects blame for DMZ blast, mocks Seoul's call to ease tensions",
+       "url": "https://en.yna.co.kr/view/AEN20261002008854315",
        "official": false
       }
      ]
@@ -771,22 +1060,164 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "9bd6584464d0",
-     "title": "Amazon offers discounts of up to 67% ahead of Prime Deal Days",
-     "summary": "Early October promotions on Amazon feature price cuts of up to 67 percent across top-selling brand products ahead of upcoming sales events.",
+     "id": "981159ec79fb",
+     "title": "Save on Early Fall Prime Day Apple Hardware and Accessories",
+     "summary": "Amazon has kicked off early fall Prime Day discounts offering up to $600 off Mac computers and Apple Watches alongside audio gear.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T16:05:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Early October Prime Day deals: Save up to $600 on Mac, Apple Watch, Jackery, Ugreen",
+       "url": "https://appleinsider.com/articles/26/10/02/early-october-prime-day-deals-save-up-to-600-on-mac-apple-watch-jackery-ugreen?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Deals: M5 MacBook Air, MacBook Pro, AirTag 2, smart display power bank, early Prime Day deals, more",
+       "url": "https://9to5mac.com/2026/10/02/deals-m5-macbook-air-pro-airtag-2-iphone-18-cases/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Beats 360 Cushion Kits and Apple Accessories See Early Prime Day Price Drops",
+       "url": "https://www.macrumors.com/2026/10/02/best-apple-deals-of-the-week-10-2-26/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "977b72d97446",
+     "title": "Star Wars: Galactic Racer Available for Preorder Discount",
+     "summary": "Preorders for Star Wars: Galactic Racer on Steam are discounted to $44.99 using promotional codes at Newegg.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-02T04:30:00Z",
+     "published": "2026-10-02T13:11:21Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Star Wars: Galactic Racer is my childhood podracing dream come true",
+       "url": "https://www.theverge.com/entertainment/1002887/star-wars-galactic-racer-review",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Star Wars: Galactic Racer Review",
+       "url": "https://www.ign.com/articles/star-wars-galactic-racer-review",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Star Wars: Galactic Racer review – Run-based bash racer with Burnout-style takedowns",
+       "url": "https://www.pcgamer.com/games/racing/star-wars-galactic-racer-review/",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Star Wars: Galactic Racer: The Kotaku Review",
+       "url": "https://kotaku.com/star-wars-galactic-racer-the-kotaku-review-2000739105",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Star Wars: Galactic Racer Is Getting Some Phenomenal Review Scores Ahead Of Launch",
+       "url": "https://www.purexbox.com/news/2026/10/star-wars-galactic-racer-is-getting-some-phenomenal-review-scores-ahead-of-launch",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "STAR WARS: Galactic Racer (Steam) preorder is $44.99 at Newegg w/ code STARWARS buff.ly/YcGk7BK Deluxe $64.99 w/ code STARWARS buff.ly/MjaSYFK #ad out next week",
+       "url": "https://buff.ly/YcGk7BK",
+       "official": false
+      },
+      {
+       "outlet": "Game File (Stephen Totilo)",
+       "title": "10 great hours of father-son bonding with Star Wars Galactic Racer",
+       "url": "https://www.gamefile.news/p/review-star-wars-galactic-racer",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "655277796535",
+     "title": "Limited Edition Lisa PlayStation 5 DualSense Controller Preorders Open",
+     "summary": "Preorders for the limited edition Lisa x PlayStation wireless controller are live across major retailers for $84.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T15:05:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "El País (Spain)",
-       "title": "Amazon's best deals to kick off October: top sellers with up to 67% off",
-       "url": "https://elpais.com/escaparate/ofertas-y-descuentos/chollos-semana-amazon-2-octubre-2026.html",
-       "official": false,
-       "translated_from": "es",
-       "original_title": "Los mejores chollos de Amazon para arrancar octubre: top ventas con hasta un 67% de descuento"
+       "outlet": "Wario64",
+       "title": "LISA x PlayStation - DualSense Wireless Controller Limited Edition up for preorder at PS Direct ($84) buff.ly/GJFwaAT Best Buy buff.ly/nWVy2aX #ad",
+       "url": "https://buff.ly/GJFwaAT",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "PS5 DualSense Wireless Controller – LISA Limited Edition preorder up at Walmart ($84) buff.ly/wYMpxH9 PS Direct buff.ly/GJFwaAT Best Buy buff.ly/nWVy2aX GameStop buff.ly/XLC3eIk #ad Amazon (sold out)…",
+       "url": "https://buff.ly/wYMpxH9",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "26f2981ab1a1",
+     "title": "Nintendo Switch 2 Bubble Bobble 4 Friends Preorders Open",
+     "summary": "Bubble Bobble 4 Friends: The Baron is Back is available for preorder on Switch 2 for $39.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T16:03:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Bubble Bobble 4 Friends: The Baron is Back (Switch 2E) up for preorder at Best Buy ($39.99) buff.ly/2MJuEuW Amazon amzn.to/4hASSab VGP buff.ly/sROf5M5 PNP buff.ly/KKNP1bj #ad",
+       "url": "https://buff.ly/2MJuEuW",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4b6d7e9a57d9",
+     "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 Switch 2 Preorders Live",
+     "summary": "Physical and digital preorders for Demon Slayer Hinokami Chronicles 2 on Switch 2 are available for $59.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T14:31:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 (Switch 2E) up for preorder on Amazon ($59.99) amzn.to/4yuYKsX VGP buff.ly/5dbL1Ou #ad",
+       "url": "https://amzn.to/4yuYKsX",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d92e4776fa3e",
+     "title": "Lil Gator Game Heavily Discounted on Fanatical and eShop",
+     "summary": "Lil Gator Game is discounted to $7.59 on Fanatical and $9.99 on the US Nintendo eShop.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T15:23:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Lil Gator Game (Steam) is $7.59 on Fanatical buff.ly/RE0xI7Z #ad $9.99 US eShop buff.ly/wkijXtP",
+       "url": "https://buff.ly/RE0xI7Z",
+       "official": false
       }
      ]
     }
@@ -794,27 +1225,39 @@
   }
  ],
  "date": "2026-10-02",
- "generated_at": "2026-10-02T09:55:53Z",
+ "generated_at": "2026-10-02T16:33:55Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 192,
-  "clusters": 182,
-  "feeds_ok": 114,
-  "feeds_failed": 2
+  "items": 1002,
+  "clusters": 898,
+  "feeds_ok": 172,
+  "feeds_failed": 4
  },
  "feed_health": [
   {
-   "key": "thedecoder",
-   "title": "The Decoder",
+   "key": "hn-claude",
+   "title": "HN: Claude/Anthropic",
    "status": "error",
-   "detail": "ConnectTimeout: HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='the-decoder.com', port=443) at 0x7f75"
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=Claude+OR+Anthropic&points=50"
   },
   {
-   "key": "yonhap",
-   "title": "Yonhap News",
+   "key": "err",
+   "title": "ERR News (Estonia)",
    "status": "error",
-   "detail": "ConnectTimeout: HTTPSConnectionPool(host='en.yna.co.kr', port=443): Max retries exceeded with url: /RSS/news.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='en.yna.co.kr', port=443) at 0x7f7"
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://news.err.ee/rss"
+  },
+  {
+   "key": "helsinkitimes",
+   "title": "Helsinki Times (Finland)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:141: not well-formed (invalid token)"
+  },
+  {
+   "key": "cphpost",
+   "title": "The Copenhagen Post (Denmark)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:119: not well-formed (invalid token)"
   }
  ]
 }
