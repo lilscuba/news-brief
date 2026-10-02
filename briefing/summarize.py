@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import logging
+import time
 from datetime import datetime
 from typing import Literal
 
@@ -22,6 +23,10 @@ log = logging.getLogger(__name__)
 # Models that accept Anthropic's server-side `fallbacks: "default"` refusal fallback.
 _FALLBACK_MODELS = ("claude-opus-5", "claude-fable-5", "claude-sonnet-5-5")
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+# "This model is currently experiencing high demand" (503) is usually a brief spike; a short
+# retry rides it out. Anything still failing is retried by the next scheduled run.
+GEMINI_RETRY_STATUS = {429, 500, 502, 503, 504}
+GEMINI_RETRY_DELAYS = (3, 8)
 
 Label = Literal["CONFIRMED", "REPORTED", "RUMOR-CREDIBLE", "RUMOR-UNVERIFIED", "DEAL"]
 
@@ -171,8 +176,20 @@ def gemini_json(system: str, user: str, schema: dict, cfg: dict,
         },
     }
     # Header, not ?key=, so the key never shows up in logged URLs.
-    resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=timeout,
-                         headers={"x-goog-api-key": key})
+    for attempt in range(len(GEMINI_RETRY_DELAYS) + 1):
+        try:
+            resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=timeout,
+                                 headers={"x-goog-api-key": key})
+            retryable = resp.status_code in GEMINI_RETRY_STATUS
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == len(GEMINI_RETRY_DELAYS):
+                raise
+            resp, retryable = None, True
+        if not retryable or attempt == len(GEMINI_RETRY_DELAYS):
+            break
+        log.info("Gemini %s; retrying in %ss", resp.status_code if resp else "unreachable",
+                 GEMINI_RETRY_DELAYS[attempt])
+        time.sleep(GEMINI_RETRY_DELAYS[attempt])
     if resp.status_code != 200:
         raise RuntimeError(f"Gemini HTTP {resp.status_code}: {resp.text[:300]}")
     data = resp.json()
