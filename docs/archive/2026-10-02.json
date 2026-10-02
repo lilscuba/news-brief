@@ -1,0 +1,3873 @@
+{
+ "version": 1,
+ "headline": "234 new articles from 35 feeds, grouped into 206 stories.",
+ "top": [
+  {
+   "id": "dfc8fa1eac4a",
+   "title": "AI upscaling is coming to PS5",
+   "summary": "Since the launch of PlayStation Spectral Super Resolution (PSSR) on PS5 Pro, players and developers have asked whether similar image-quality improvements could be brought to the PS5 console. PSSR analyzes game images pixel by pixel and uses",
+   "importance": 4,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-01T18:33:40Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "PlayStation Blog",
+     "title": "AI upscaling is coming to PS5",
+     "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/",
+     "official": true
+    },
+    {
+     "outlet": "Gematsu",
+     "title": "PS5 AI upscaler Quick Spectral Super Resolution announced",
+     "url": "https://www.gematsu.com/2026/10/ps5-ai-upscaler-quick-spectral-super-resolution-announced",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Sony brings AI graphics upscaling to the regular PS5",
+     "url": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "0df501c1fcf9",
+   "title": "ArXiv's Updated Rate Limit Policy",
+   "summary": "",
+   "importance": 2,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-02T04:55:00Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "ArXiv's Updated Rate Limit Policy",
+     "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "ArXiv limits preprint submissions to two per month per submitter, as AI access fuels a record 40,363 submissions in September 2026, vs. 20,569 in September 2024 (Kat Boboris/arXiv)",
+     "url": "https://www.techmeme.com/261002/p1#a261002p1",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "28f17eb4860a",
+   "title": "Kena: Scars of Kosmora launches 2027, Ember Lab shares story overview",
+   "summary": "Since our announcement trailer in February, we’ve been heads down bringing Kena: Scars of Kosmora to the finish line. It’s been exciting to see all the anticipation and passion from fans. We can’t wait to share a new installment of Kena’s s",
+   "importance": 3,
+   "label": "CONFIRMED",
+   "category": "Gaming",
+   "published": "2026-10-01T12:57:21Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "PlayStation Blog",
+     "title": "Kena: Scars of Kosmora launches 2027, Ember Lab shares story overview",
+     "url": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview/",
+     "official": true
+    },
+    {
+     "outlet": "Gematsu",
+     "title": "Kena: Scars of Kosmora delayed to 2027",
+     "url": "https://www.gematsu.com/2026/10/kena-scars-of-kosmora-delayed-to-2027",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "Kena: Scars of Kosmora has been delayed until next year, Ember Lab announces",
+     "url": "https://www.videogameschronicle.com/news/kena-scars-of-kosmora-has-been-delayed-until-next-year-ember-lab-announces/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "daa9a77897d5",
+   "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+   "summary": "",
+   "importance": 1,
+   "label": "REPORTED",
+   "category": "AI",
+   "published": "2026-10-01T13:00:55Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "HN: Claude/Anthropic",
+     "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+     "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "f8d3102d5dc3",
+   "title": "007 First Light free DLC ‘Extended Operations’ now available",
+   "summary": "IO Interactive has released 007 First Light free downloadable content “Extended Operations,” which adds new …",
+   "importance": 3,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-01T14:28:56Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Gematsu",
+     "title": "007 First Light free DLC ‘Extended Operations’ now available",
+     "url": "https://www.gematsu.com/2026/10/007-first-light-free-dlc-extended-operations-now-available",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "007 First Light gets free Extended Operations DLC today adding New Game+ and other features",
+     "url": "https://www.videogameschronicle.com/news/007-first-light-gets-free-extended-operations-dlc-today-adding-new-game-and-other-features/",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "007 First Light gets free new DLC today, adding New Game Plus and Photo modes, new TacSim missions and more",
+     "url": "https://www.eurogamer.net/007-james-bond-first-light-free-dlc",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "7e67b43cf9d0",
+     "title": "The eternal complement",
+     "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-01T17:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "The eternal complement",
+       "url": "https://openai.com/index/the-eternal-complement",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "a80484c2d584",
+     "title": "How Albertsons Companies is reimagining retail from the inside out",
+     "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-01T16:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "How Albertsons Companies is reimagining retail from the inside out",
+       "url": "https://openai.com/index/albertsons-reimagining-retail",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "36751599d8f8",
+     "title": "OpenAI’s new agent is a shot at Meta",
+     "summary": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots,",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-01T14:36:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge AI",
+       "title": "OpenAI’s new agent is a shot at Meta",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1d9ebfbb76c9",
+     "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+     "summary": "arXiv:2610.00010v1 Announce Type: new Abstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the m",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+       "url": "https://arxiv.org/abs/2610.00010",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3e14a998894f",
+     "title": "When Do Causal World Models Help Modular LLM Agents",
+     "summary": "arXiv:2610.00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standa",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "When Do Causal World Models Help Modular LLM Agents",
+       "url": "https://arxiv.org/abs/2610.00012",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b044d2469ff2",
+     "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+     "summary": "arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+       "url": "https://arxiv.org/abs/2610.00015",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d51c048af50d",
+     "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+     "summary": "arXiv:2610.00018v1 Announce Type: new Abstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a n",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+       "url": "https://arxiv.org/abs/2610.00018",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a21d05cf6500",
+     "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+     "summary": "arXiv:2610.00025v1 Announce Type: new Abstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, sel",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+       "url": "https://arxiv.org/abs/2610.00025",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0388c309b4d1",
+     "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
+     "summary": "arXiv:2610.00047v1 Announce Type: new Abstract: Diversity collapse in parallel chain-of-thought has motivated inference-time interventions built on a natural design: when a process reward model (PRM) prunes a chain, its high-PRM prefix is e",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
+       "url": "https://arxiv.org/abs/2610.00047",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "26f09a4e1835",
+     "title": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
+     "summary": "arXiv:2610.00061v1 Announce Type: new Abstract: Personalizing large language models (LLMs) requires aligning generation behavior with user-specific preferences rather than aggregate quality. While Direct Preference Optimization (DPO) provid",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
+       "url": "https://arxiv.org/abs/2610.00061",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e513e6b3ad6d",
+     "title": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
+     "summary": "arXiv:2610.00074v1 Announce Type: new Abstract: K-Dense BYOK (bring your own keys) is a free, open-source AI research assistant for scientists in any field that runs on the researcher's own computer. The researcher supplies access to a mode",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
+       "url": "https://arxiv.org/abs/2610.00074",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "be07583f5333",
+     "title": "Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks",
+     "summary": "arXiv:2610.00084v1 Announce Type: new Abstract: Detailed profession-specific system prompts raise token use and estimated cost per response without a consistent accuracy gain. We evaluate Scientific Agents, an open-source corpus of 503 prof",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks",
+       "url": "https://arxiv.org/abs/2610.00084",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a6f29e580f41",
+     "title": "Comedic Fool's Gold: Reward Exploits and Countermeasures in Conversational Humor",
+     "summary": "arXiv:2610.00197v1 Announce Type: new Abstract: We investigate automated rewards for training language models in conversational humor, focusing on reward exploits and countermeasures. Two approaches aim to capture understandable surprise an",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Comedic Fool's Gold: Reward Exploits and Countermeasures in Conversational Humor",
+       "url": "https://arxiv.org/abs/2610.00197",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1df3ee805a6b",
+     "title": "EviGraph: Proof-Carrying Selective Recommendation over Temporal Public-Service Knowledge Graphs",
+     "summary": "arXiv:2610.00212v1 Announce Type: new Abstract: Public-service recommendations require evidence that matches the requested service, scope, and date. Yet treating every missing detail as decisive can withhold useful recommendations. We intro",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "EviGraph: Proof-Carrying Selective Recommendation over Temporal Public-Service Knowledge Graphs",
+       "url": "https://arxiv.org/abs/2610.00212",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8a30b1313a97",
+     "title": "Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying",
+     "summary": "arXiv:2610.00224v1 Announce Type: new Abstract: Building automation systems are increasingly represented as semantic knowledge graphs (KGs) using ontologies such as Brick and ASHRAE 223P, creating a machine-readable substrate for artificial",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying",
+       "url": "https://arxiv.org/abs/2610.00224",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6d0c7aaad06e",
+     "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+     "summary": "Today I’m talking with Josh Dzieza, a longtime features writer here at The Verge, about Kevin O’Leary’s plans to build a massive data center in Utah. The idea was to build the world’s biggest data center — a 40,000-acre AI campus with nine",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-01T14:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge AI",
+       "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+       "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "44e838414ed9",
+     "title": "OpenAI says that as of September 26, it has informed 100+ third-party organizations about unauthorized activity involving its AI agents (Arasu Kannagi Basil/Reuters)",
+     "summary": "Arasu Kannagi Basil / Reuters : OpenAI says that as of September 26, it has informed 100+ third-party organizations about unauthorized activity involving its AI agents — OpenAI has informed more than 100 organizations about incidents involv",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T01:55:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "OpenAI says that as of September 26, it has informed 100+ third-party organizations about unauthorized activity involving its AI agents (Arasu Kannagi Basil/Reuters)",
+       "url": "https://www.techmeme.com/261001/p47#a261001p47",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d2e3722d00a4",
+     "title": "California AG Rob Bonta issues an investigative subpoena to OpenAI, as part of a broader inquiry into cybersecurity incidents and risks related to its AI models (Jaspreet Singh/Reuters)",
+     "summary": "Jaspreet Singh / Reuters : California AG Rob Bonta issues an investigative subpoena to OpenAI, as part of a broader inquiry into cybersecurity incidents and risks related to its AI models — California Attorney General Rob Bonta has issued a",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T23:15:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "California AG Rob Bonta issues an investigative subpoena to OpenAI, as part of a broader inquiry into cybersecurity incidents and risks related to its AI models (Jaspreet Singh/Reuters)",
+       "url": "https://www.techmeme.com/261001/p43#a261001p43",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "88b4f2f246fc",
+     "title": "Source: some of the information that the three now ex-OpenAI employees allegedly mishandled pertained to OpenAI's infrastructure architecture (Rachel Metz/Bloomberg)",
+     "summary": "Rachel Metz / Bloomberg : Source: some of the information that the three now ex-OpenAI employees allegedly mishandled pertained to OpenAI's infrastructure architecture — OpenAI has parted ways with three employees for violating company poli",
+     "importance": 1,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "Tech",
+     "published": "2026-10-01T21:55:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Source: some of the information that the three now ex-OpenAI employees allegedly mishandled pertained to OpenAI's infrastructure architecture (Rachel Metz/Bloomberg)",
+       "url": "https://www.techmeme.com/261001/p39#a261001p39",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f796b39f9fcc",
+     "title": "Pi 1.0",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:33:05Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Pi 1.0",
+       "url": "https://earendil.com/posts/pi-1-0/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b72f6b75e1a1",
+     "title": "DeepSeek Harness Desktop for macOS and Windows",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T03:11:20Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "DeepSeek Harness Desktop for macOS and Windows",
+       "url": "https://www.deepseek.com/en/harness/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "95d0ef58b850",
+     "title": "Several vulnerabilities have been discovered in the Linux kernel",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T23:10:44Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Several vulnerabilities have been discovered in the Linux kernel",
+       "url": "https://lwn.net/Articles/1097401/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4869f911c7a3",
+     "title": "Meta may never need ads to monetize Muse, instead focusing on building trust in the near term and possibly monetizing it through merchant transaction fees later (MBI Deep Dives)",
+     "summary": "MBI Deep Dives : Meta may never need ads to monetize Muse, instead focusing on building trust in the near term and possibly monetizing it through merchant transaction fees later — Get the next one in your inbox. — A daily journal on busines",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T06:05:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Meta may never need ads to monetize Muse, instead focusing on building trust in the near term and possibly monetizing it through merchant transaction fees later (MBI Deep Dives)",
+       "url": "https://www.techmeme.com/261002/p3#a261002p3",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8d8c225d2284",
+     "title": "Pi Durable",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:24:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Pi Durable",
+       "url": "https://earendil.com/posts/pi-durable/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a79f3a3eb333",
+     "title": "Sources: Amazon has held talks with investors about a deal to spin off $8B of Grace Blackwell chips into an SPV, then lease them back for its US data centers (Financial Times)",
+     "summary": "Financial Times : Sources: Amazon has held talks with investors about a deal to spin off $8B of Grace Blackwell chips into an SPV, then lease them back for its US data centers — Amazon is seeking to offload about $8bn of advanced Nvidia chi",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T05:10:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: Amazon has held talks with investors about a deal to spin off $8B of Grace Blackwell chips into an SPV, then lease them back for its US data centers (Financial Times)",
+       "url": "https://www.techmeme.com/261002/p2#a261002p2",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "317971da35b1",
+     "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:18:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+       "url": "https://blog.cloudflare.com/clef-decision-models/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f4cafce75861",
+     "title": "Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly pointing to gaps in Nvidia's due diligence (Mackenzie Hawkins/Bloomberg)",
+     "summary": "Mackenzie Hawkins / Bloomberg : Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly pointing to gaps in Nvidia's due diligence — Nvidia's AI chips keep making their way to Chi",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T03:30:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly pointing to gaps in Nvidia's due diligence (Mackenzie Hawkins/Bloomberg)",
+       "url": "https://www.techmeme.com/261001/p49#a261001p49",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5d7cb0335041",
+     "title": "SvelteKit 3",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T20:14:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "SvelteKit 3",
+       "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6da8e5546052",
+     "title": "Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B (Brandon Vigliarolo/The Register)",
+     "summary": "Brandon Vigliarolo / The Register : Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B — Sure, it costs more, but it can handle im",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T02:35:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Cloudflare debuts open-weight multimodal decision models Clef and Clef-flash, claiming they are smarter and faster than Jev, based on Qwen3.8-27B and Qwen3.5-9B (Brandon Vigliarolo/The Register)",
+       "url": "https://www.techmeme.com/261001/p48#a261001p48",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9f58bc056c1d",
+     "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+       "url": "https://blog.gitbutler.com/git-3-sha-256",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e48f6a874876",
+     "title": "Sources: Jay Clayton will likely be the White House's pick for AI czar, and he may remain in his current role as director of national intelligence (Jennifer Jacobs/CBS News)",
+     "summary": "Jennifer Jacobs / CBS News : Sources: Jay Clayton will likely be the White House's pick for AI czar, and he may remain in his current role as director of national intelligence — Jay Clayton will likely be the White House's pick for AI czar,",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T01:30:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: Jay Clayton will likely be the White House's pick for AI czar, and he may remain in his current role as director of national intelligence (Jennifer Jacobs/CBS News)",
+       "url": "https://www.techmeme.com/261001/p46#a261001p46",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a4d5be1f0220",
+     "title": "RIP, vector database",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:01:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "RIP, vector database",
+       "url": "https://turbopuffer.com/blog/rip-vector-database",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1f9ad68eb044",
+     "title": "Automatic Transmission – a data-privacy study of connected vehicles",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T20:23:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Automatic Transmission – a data-privacy study of connected vehicles",
+       "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e9a4b345ed84",
+     "title": "Survey of 37 countries: the share of people who say social media is bad for democracy has risen significantly since 2022 or 2023; a median 55% say it's good (Pew Research Center)",
+     "summary": "Pew Research Center : Survey of 37 countries: the share of people who say social media is bad for democracy has risen significantly since 2022 or 2023; a median 55% say it's good — Most think social media leads to manipulation and division,",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T00:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Survey of 37 countries: the share of people who say social media is bad for democracy has risen significantly since 2022 or 2023; a median 55% say it's good (Pew Research Center)",
+       "url": "https://www.techmeme.com/261001/p45#a261001p45",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4a5d11bb6ca6",
+     "title": "Frog and Toad and the Increasingly Capable Machines",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:23:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Frog and Toad and the Increasingly Capable Machines",
+       "url": "https://www.frogandtoad.ai/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6e1a935aeecc",
+     "title": "A look at two opposing perspectives on AI agent sandboxing: infosec says labs need better containment while AI alignment says sandboxes cannot contain agents (Matthew Green/A Few Thoughts on Cryptographic Engineering)",
+     "summary": "Matthew Green / A Few Thoughts on Cryptographic Engineering : A look at two opposing perspectives on AI agent sandboxing: infosec says labs need better containment while AI alignment says sandboxes cannot contain agents — Quick caveats: thi",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T23:30:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "A look at two opposing perspectives on AI agent sandboxing: infosec says labs need better containment while AI alignment says sandboxes cannot contain agents (Matthew Green/A Few Thoughts on Cryptographic Engineering)",
+       "url": "https://www.techmeme.com/261001/p44#a261001p44",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "895b910239f4",
+     "title": "Microsoft launches MAI-Transcribe-2-Streaming, a model for low-latency, real-time transcripts, and two new voice models, MAI-Voice-2.1 and MAI-Voice-2.1-Flash (Microsoft AI)",
+     "summary": "Microsoft AI : Microsoft launches MAI-Transcribe-2-Streaming, a model for low-latency, real-time transcripts, and two new voice models, MAI-Voice-2.1 and MAI-Voice-2.1-Flash — MAI-Transcribe and MAI-Voice models: accurate, fast, low cost, a",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T23:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Microsoft launches MAI-Transcribe-2-Streaming, a model for low-latency, real-time transcripts, and two new voice models, MAI-Voice-2.1 and MAI-Voice-2.1-Flash (Microsoft AI)",
+       "url": "https://www.techmeme.com/261001/p42#a261001p42",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "720fd28990c1",
+     "title": "New Mexico asks a judge to order Meta to pay up to $40B after a jury found it willfully deceived customers, in what could be the biggest US court penalty ever (KRQE)",
+     "summary": "KRQE : New Mexico asks a judge to order Meta to pay up to $40B after a jury found it willfully deceived customers, in what could be the biggest US court penalty ever — NEW MEXICO (KRQE) - The State of New Mexico is asking a judge for the bi",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:45:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "New Mexico asks a judge to order Meta to pay up to $40B after a jury found it willfully deceived customers, in what could be the biggest US court penalty ever (KRQE)",
+       "url": "https://www.techmeme.com/261001/p41#a261001p41",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d622cf76ef7c",
+     "title": "The US sanctions Russia-backed payment network A7, freezing any of its US assets, and accuses it of helping Iran and its proxy groups to evade Western sanctions (Amy Mackinnon/Financial Times)",
+     "summary": "Amy Mackinnon / Financial Times : The US sanctions Russia-backed payment network A7, freezing any of its US assets, and accuses it of helping Iran and its proxy groups to evade Western sanctions — Payments group that moved almost $7bn throu",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:35:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "The US sanctions Russia-backed payment network A7, freezing any of its US assets, and accuses it of helping Iran and its proxy groups to evade Western sanctions (Amy Mackinnon/Financial Times)",
+       "url": "https://www.techmeme.com/261001/p40#a261001p40",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6da2086c3232",
+     "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T20:48:37Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+       "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e4c94bcaccb0",
+     "title": "Lyft agrees to pay $272.5M to settle California's claims that Lyft mislabeled drivers as independent contractors rather than employees between 2016 and 2020 (Daniel Wiessner/Reuters)",
+     "summary": "Daniel Wiessner / Reuters : Lyft agrees to pay $272.5M to settle California's claims that Lyft mislabeled drivers as independent contractors rather than employees between 2016 and 2020 — Lyft (LYFT.O) has agreed to pay $272.5 million to set",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T21:45:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Lyft agrees to pay $272.5M to settle California's claims that Lyft mislabeled drivers as independent contractors rather than employees between 2016 and 2020 (Daniel Wiessner/Reuters)",
+       "url": "https://www.techmeme.com/261001/p38#a261001p38",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a1462bb75d9b",
+     "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:07:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+       "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4f45a66ba9a4",
+     "title": "Cloudflare K2: serverless event streams",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T14:09:10Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Cloudflare K2: serverless event streams",
+       "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e2a0edf64b30",
+     "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+     "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier b",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T20:11:55Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+       "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+       "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "449c7f2e1f7d",
+     "title": "Ask HN: Who is hiring? (October 2026)",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:02:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Ask HN: Who is hiring? (October 2026)",
+       "url": "https://news.ycombinator.com/item?id=49922569",
+       "official": false
+      },
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Ask HN: Who wants to be hired? (October 2026)",
+       "url": "https://news.ycombinator.com/item?id=49922568",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8fe0f43c8e68",
+     "title": "Vote on which of Hacker News' challenges for AI have been met",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T17:32:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Vote on which of Hacker News' challenges for AI have been met",
+       "url": "https://stoppels.ch/goalposts/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1260c4e1b35b",
+     "title": "RacketCon Is Saturday",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T14:58:13Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "RacketCon Is Saturday",
+       "url": "https://con.racket-lang.org/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "83044bac058d",
+     "title": "Context Language Models",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T14:51:33Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Context Language Models",
+       "url": "https://arxiv.org/abs/2609.37725",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a3598590c5f1",
+     "title": "Microsoft’s Office and Teams chief is leaving",
+     "summary": "After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky is leaving the company. Roslansky, who until recently was the CEO of LinkedIn, was promoted to the head of Office last year and then took control of Microsoft Teams earlier thi",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:03:38Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Microsoft’s Office and Teams chief is leaving",
+       "url": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0c4051b0b985",
+     "title": "Inside Microsoft’s big Copilot rethink",
+     "summary": "Last week, Microsoft CEO Satya Nadella hosted an intimate, invite-only event for leaders from some of its key enterprise customers. Instead of a flashy media event, Nadella outlined the future of Copilot directly to the customers Microsoft",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:01:04Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Inside Microsoft’s big Copilot rethink",
+       "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3f1d1537d7c4",
+     "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+     "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T18:14:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+       "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f56cb29d7bf6",
+     "title": "Apple TV’s acclaimed ‘The Last First: Winter K2’ documentary now streaming",
+     "summary": "Sporting a 100% Rotten Tomatoes score, the extreme mountain climbing documentary “ The Last First: Winter K2 ” is now available to Apple TV subscribers. Watch the trailer below. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T01:00:20Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple TV’s acclaimed ‘The Last First: Winter K2’ documentary now streaming",
+       "url": "https://9to5mac.com/2026/10/01/apple-tvs-acclaimed-the-last-first-winter-k2-documentary-now-streaming/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8593362dbda4",
+     "title": "Robotaxi operators will face fines for blocking first responders",
+     "summary": "A new California law places new rules on autonomous vehicles operators",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T00:57:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Robotaxi operators will face fines for blocking first responders",
+       "url": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "89dfbc7baec6",
+     "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+     "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-02T00:03:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+       "url": "https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "02d1b27eafe2",
+     "title": "is everything ok @microsoft.com ? It looks like Microsoft's X account has been taken over, as it has linked to a Clippy crypto scam 😬 www.theverge.com/news/1003892...",
+     "summary": "Is everything ok Microsoft?",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T23:06:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Tom Warren",
+       "title": "is everything ok @microsoft.com ? It looks like Microsoft's X account has been taken over, as it has linked to a Clippy crypto scam 😬 www.theverge.com/news/1003892...",
+       "url": "https://www.theverge.com/news/1003892/microsoft-x-twitter-account-clippy",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "146e0a27c06a",
+     "title": "Apple commissions photographers for new ‘Shot on iPhone Duo’ campaign",
+     "summary": "Today, Apple’s Instagram account published a carousel featuring photos commissioned from photographers Jake Michaels and Jason Nocito to highlight the new iPhone Duo ’s cameras. Here are the details. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:52:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple commissions photographers for new ‘Shot on iPhone Duo’ campaign",
+       "url": "https://9to5mac.com/2026/10/01/apple-commissions-photographers-for-new-shot-on-iphone-duo-campaign/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f944a9cab05d",
+     "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
+     "summary": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:51:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
+       "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3dc23902780a",
+     "title": "Venus' mysterious haze is actually cosmic dust",
+     "summary": "A physical model show that iron dust and sulfuric acid create the right properties.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:27:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Venus' mysterious haze is actually cosmic dust",
+       "url": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "eafffd0b93db",
+     "title": "Apple among biggest corporate lobbyists in Brussels, per report",
+     "summary": "A new analysis by The Financial Times shows that Apple has met with EU policymakers 257 times since June 2024 and has spent between €8 million and €9 million per year on lobbying. Here are the details. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:21:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple among biggest corporate lobbyists in Brussels, per report",
+       "url": "https://9to5mac.com/2026/10/01/apple-among-biggest-corporate-lobbyists-in-brussels-per-report/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "859574ea9919",
+     "title": "9to5Mac Daily: October 1, 2026 – iPhone Duo production, AirPods 5 tidbits",
+     "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Spons",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:16:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "9to5Mac Daily: October 1, 2026 – iPhone Duo production, AirPods 5 tidbits",
+       "url": "https://9to5mac.com/2026/10/01/daily-october-1-2026/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "205e262e061d",
+     "title": "SpaceX describes surgical intervention before launch of latest crew mission",
+     "summary": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T22:07:33Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "SpaceX describes surgical intervention before launch of latest crew mission",
+       "url": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d7f51b68ceb3",
+     "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers",
+     "summary": "Today, gig economy drivers are classified as contractors. This settlement clears up a lingering lawsuit from 2020 when that was still an unanswered issue.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T21:57:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers",
+       "url": "https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9f19a257b0be",
+     "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+     "summary": "Kevin Mandia, best known as the founder of Mandiant, has a new startup that is using agent swarms to test and protect enterprises.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T21:55:22Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+       "url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ed5ea9f84ae1",
+     "title": "GrayKey maker can reportedly bypass the iPhone’s ‘Inactivity Reboot’ security feature",
+     "summary": "As reported by 404 Media , Magnet Forensics says it has found a way to bypass the iPhone security feature that automatically reboots devices if they haven’t been unlocked for 72 hours. Here are the details. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T21:36:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "GrayKey maker can reportedly bypass the iPhone’s ‘Inactivity Reboot’ security feature",
+       "url": "https://9to5mac.com/2026/10/01/graykey-maker-can-reportedly-bypass-the-iphones-inactivity-reboot-security-feature/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "578143be7e8f",
+     "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+     "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T21:08:11Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+       "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c03b5506cf82",
+     "title": "Apple Arcade adds five new games, including Terraria+ and Pusheen’s Place",
+     "summary": "Apple Arcade subscribers got access to five new games today, as Apple had promised in early September. Here are the details. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T20:44:52Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple Arcade adds five new games, including Terraria+ and Pusheen’s Place",
+       "url": "https://9to5mac.com/2026/10/01/apple-arcade-adds-five-new-games-including-terraria-and-pusheens-place/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "04e3c6023b13",
+     "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+     "summary": "It has been a bad month for federal government cybersecurity.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T20:28:45Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+       "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f29ac43acaea",
+     "title": "Audible announces AI-powered character guides, interactive stories, more",
+     "summary": "Audible today announced three features coming to “deepen customers’ connections to their favorite stories.” Here are the details. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T20:06:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Audible announces AI-powered character guides, interactive stories, more",
+       "url": "https://9to5mac.com/2026/10/01/audible-announces-ai-powered-character-guides-interactive-stories-more/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9b5699b95cce",
+     "title": "Google’s new Guided Vision feature can help you read the fine print",
+     "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:47:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Google’s new Guided Vision feature can help you read the fine print",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d09dc38ad3a4",
+     "title": "HomePad launch nears, Apple Watch Readiness score, Ternus wants to make Apple more nimble",
+     "summary": "Benjamin and Chance discuss the final Apple smart display rumors with a release for the ‘HomePad’ rumored for October 13, although the small square screen form factor remains puzzling. Also, leaked photos of the iPad mini and HomePod mini s",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:30:28Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "HomePad launch nears, Apple Watch Readiness score, Ternus wants to make Apple more nimble",
+       "url": "https://9to5mac.com/2026/10/01/happy-hour-610/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9b59a27765f5",
+     "title": "ChatGPT can now virtually try on clothes for you",
+     "summary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:21:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "ChatGPT can now virtually try on clothes for you",
+       "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "667ec3bbdaf7",
+     "title": "Android Central ‘will continue’ despite laying off its staff",
+     "summary": "Android Central, a blog focused on the Android ecosystem, laid off its staff yesterday, but owner Future confirms to The Verge that the site will continue publishing. Yesterday, four of the six staffers on Android Central's staff page poste",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:20:29Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Android Central ‘will continue’ despite laying off its staff",
+       "url": "https://www.theverge.com/tech/1003735/android-central-layoffs",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ee42cb729d3f",
+     "title": "Can good design stop content creators from having sex in robotaxis?",
+     "summary": "Autonomous vehicle designers have to worry about riders getting frisky in public.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:19:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Can good design stop content creators from having sex in robotaxis?",
+       "url": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a7b14ae6edab",
+     "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+     "summary": "Google launched its first advanced chip into orbit to pave the way for space data centers.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T19:18:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+       "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cf2378cb3845",
+     "title": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
+     "summary": "The Steam Deck is four and a half years old, and handheld gamers are eagerly awaiting a Steam Deck 2 - but Valve has consistently said it needs a new chip with a \"generational leap\" in performance and efficiency before building the sequel.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T18:52:58Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
+       "url": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "91fc1809ef3e",
+     "title": "Apple says iPhone Duo has ‘replaceable’ folding display layer to minimize crease",
+     "summary": "Foldable displays tend to show a more visible crease over time, but Apple‘s Kate Bergeron says iPhone Duo has a replaceable cover layer on its folding screen to help mitigate that issue. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T18:44:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple says iPhone Duo has ‘replaceable’ folding display layer to minimize crease",
+       "url": "https://9to5mac.com/2026/10/01/apple-says-iphone-duo-has-replaceable-folding-display-layer-to-minimize-crease/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8743c9cecd06",
+     "title": "World’s first enhanced geothermal power plant completed in just 23 months",
+     "summary": "Fervo Energy completed its first power plant in less than two years. The next phases promise to connect to the grid even quicker.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T18:35:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "World’s first enhanced geothermal power plant completed in just 23 months",
+       "url": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "009dd8da04ac",
+     "title": "SpaceXAI releases a separate Grok iOS app for enterprise users",
+     "summary": "Back in May, OpenAI released a dedicated version of their mobile app for enterprise. Now SpaceXAI is doing the same thing for Grok. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T18:16:46Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "SpaceXAI releases a separate Grok iOS app for enterprise users",
+       "url": "https://9to5mac.com/2026/10/01/spacexai-releases-a-separate-grok-ios-app-for-enterprise-users/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cb7646b733bd",
+     "title": "Marvel releases one last VisionQuest trailer",
+     "summary": "\"This is a fight I likely won't win. We have said goodbye before. But remember, family is forever.\"",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T18:04:48Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Marvel releases one last VisionQuest trailer",
+       "url": "https://arstechnica.com/culture/2026/10/marvel-releases-one-last-visionquest-trailer/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "eddd6741471d",
+     "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+     "summary": "Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T17:50:19Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+       "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3dcf1591427c",
+     "title": "Memory executives expect RAM shortage to continue through 2028",
+     "summary": "Prices for memory sold for 2027 \"are much higher than 2026 prices.\"",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T17:49:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Memory executives expect RAM shortage to continue through 2028",
+       "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7c0bc85bcd03",
+     "title": "Twelve South launches tiny new ‘Airfly Drive’ wireless CarPlay adapter",
+     "summary": "Twelve South, the company behind a range of premium Apple accessories, has launched a notable expansion of its Airfly brand. The company today unveiled Airfly Drive, a dongle that turns wired CarPlay into wireless CarPlay. It’s available to",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T17:20:45Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Twelve South launches tiny new ‘Airfly Drive’ wireless CarPlay adapter",
+       "url": "https://9to5mac.com/2026/10/01/twelve-south-launches-tiny-new-airfly-drive-wireless-carplay-adapter/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ec1d48b5ef60",
+     "title": "This startup wants to turn idle car inventory into rental revenue",
+     "summary": "When Igor Dobrianskyi looks at a car dealership lot, he doesn't see rows of cars — he sees millions of dollars just sitting there, depreciating. Come see MyMonthlyCar in the Startup Battlefield 200 at TechCrunch Disrupt, taking place Octobe",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T17:09:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "This startup wants to turn idle car inventory into rental revenue",
+       "url": "https://techcrunch.com/2026/10/01/this-startup-wants-to-turn-idle-car-inventory-into-rental-revenue/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8ffd9bdf7d9c",
+     "title": "Florida cops say they don't know who owns 11 unpermitted Flock cameras",
+     "summary": "Floridians alarmed by 14 mysterious Flock cameras; 11 have no clear owner.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:49:33Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Florida cops say they don't know who owns 11 unpermitted Flock cameras",
+       "url": "https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0fbb393ce28b",
+     "title": "Amazon releases its own Jev clone as decision models flood the web",
+     "summary": "Amazon Web Services' Strand Labs has released the latest Jevalike decision model, Strands Decider 2B.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:49:22Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Amazon releases its own Jev clone as decision models flood the web",
+       "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d94262263987",
+     "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+     "summary": "Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:44:35Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+       "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f49cd2914438",
+     "title": "California governor vetoes bill banning use of ‘pervert glasses’ to secretly record people",
+     "summary": "The California state bill would have penalized people who secretly recorded people in public with wearables equipped with cameras and microphones.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:35:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "California governor vetoes bill banning use of ‘pervert glasses’ to secretly record people",
+       "url": "https://techcrunch.com/2026/10/01/california-governor-vetoes-bill-banning-use-of-pervert-glasses-to-secretly-record-people/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7d353ce6d02f",
+     "title": "\"Something new is coming from Windows,\" says Microsoft. The teasers have begun for next week's Windows and Surface event www.theverge.com/news/1003546...",
+     "summary": "‘Something new is coming from Windows,’ says Microsoft.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:29:19Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Tom Warren",
+       "title": "\"Something new is coming from Windows,\" says Microsoft. The teasers have begun for next week's Windows and Surface event www.theverge.com/news/1003546...",
+       "url": "https://www.theverge.com/news/1003546/microsoft-windows-event-october-7th-rtx-spark-teaser",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f52e74133e2d",
+     "title": "With most information hidden, the game Stratego had stumped AI—until now",
+     "summary": "Adding in a second neural network that guesses the identity of hidden pieces was key.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:28:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "With most information hidden, the game Stratego had stumped AI—until now",
+       "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "328eb9631d68",
+     "title": "Can VR glasses save VR?",
+     "summary": "I'm pretty sure I won't be buying the $1,299 Meta VR Glasses. That's too rich for my blood in today's economy, and my feelings about Meta are… conflicted. But I want you to understand that Meta just changed the game. We've had glasses, but",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:10:32Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Can VR glasses save VR?",
+       "url": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "38be7f6633d6",
+     "title": "ESPN app recently got big upgrade on Apple TV 4K and iPhone",
+     "summary": "Fall is a big season for sports fans, and ESPN recently launched a big upgrade for users of its tvOS and iOS apps: 4K HDR streaming. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T16:04:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "ESPN app recently got big upgrade on Apple TV 4K and iPhone",
+       "url": "https://9to5mac.com/2026/10/01/espn-app-recently-got-big-upgrade-on-apple-tv-4k-and-iphone/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3384ffe95a90",
+     "title": "One year later, Tesla and Musk still don’t have a good definition of ‘abundance’",
+     "summary": "The CEO promised to get more specific about his vision. But the details are still absent.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:50:10Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "One year later, Tesla and Musk still don’t have a good definition of ‘abundance’",
+       "url": "https://techcrunch.com/2026/10/01/one-year-later-tesla-and-musk-are-still-dont-have-a-good-definition-of-abundance/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b7a5c84d125f",
+     "title": "HP’s MacBook Neo competitor is $699 with an OLED display and plenty of catches",
+     "summary": "The PC market was caught flat-footed by Apple’s MacBook Neo launch earlier this year, and while that laptop’s aggressive pricing strategy has already been forced to adapt to market conditions, it’s only months later we’re seeing Windows-bas",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:40:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "HP’s MacBook Neo competitor is $699 with an OLED display and plenty of catches",
+       "url": "https://9to5google.com/2026/10/01/hp-omnibook-5-macbook-neo-competitor-699-oled-display-plenty-of-catches/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e9b84dcbb398",
+     "title": "As US relations fray, Canada gets serious about its own launch industry",
+     "summary": "The Canada Rocket Company gets serious about medium-lift launch.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:30:49Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "As US relations fray, Canada gets serious about its own launch industry",
+       "url": "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "282ff0990f36",
+     "title": "Here’s everything new Apple TV has coming in October",
+     "summary": "Apple TV has a strong current lineup headlined by hits like Slow Horses , Ted Lasso , Dark Matter , and new Matthew McConaughey comedy Brothers . But there’s a lot more coming soon. Here’s everything new Apple TV has premiering in October.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:30:46Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Here’s everything new Apple TV has coming in October",
+       "url": "https://9to5mac.com/2026/10/01/heres-everything-new-apple-tv-has-coming-in-october-2026/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple TV just added a bunch of free classic movies, here’s everything new",
+       "url": "https://9to5mac.com/2026/10/01/apple-tv-just-added-a-bunch-of-free-classic-movies-heres-everything-new/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0d142c0352b5",
+     "title": "Brian Chesky interview: AI agents need their own operating system",
+     "summary": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:12:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Brian Chesky interview: AI agents need their own operating system",
+       "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3304876e62b0",
+     "title": "New MacBook Pro redesign gets exciting launch timing update",
+     "summary": "Apple reportedly plans to launch new Home products on October 13. And according to Mark Gurman, it sounds like the rumored MacBook Pro redesign will arrive shortly after. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T15:08:29Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "New MacBook Pro redesign gets exciting launch timing update",
+       "url": "https://9to5mac.com/2026/10/01/new-macbook-pro-redesign-gets-exciting-launch-timing-update/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3c146db021a8",
+     "title": "NYC is now the first city in America that bans sketchy subscriptions",
+     "summary": "New York City residents struggling to get out of recurring subscription fees can now submit complaints to the city government. As of Thursday, the city's click-to-cancel rule has taken effect, which requires businesses to make it as easy to",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T14:49:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "NYC is now the first city in America that bans sketchy subscriptions",
+       "url": "https://www.theverge.com/policy/1003426/nyc-click-to-cancel-subscriptions-rule",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bb353655e43f",
+     "title": "iPadOS 27.2: Two new features coming soon to your iPad",
+     "summary": "iPadOS 27.2 is coming later this month as a new iPad software update, here are two new features it will bring. more…",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T14:27:32Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "iPadOS 27.2: Two new features coming soon to your iPad",
+       "url": "https://9to5mac.com/2026/10/01/ipados-27-2-two-new-features-coming-soon-to-your-ipad/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2781adb3b156",
+     "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+     "summary": "The startup helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms. It's a bet that consumers will increasingly use agents instead of downloading apps.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T14:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+       "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "58d05c306cac",
+     "title": "‘HomePad’ could launch in these four colors, per leaker",
+     "summary": "Apple’s new smart home hub, commonly called ‘HomePad,’ is reportedly launching October 13. And a new leak reveals the colors it might launch in. more…",
+     "importance": 1,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "Tech",
+     "published": "2026-10-01T13:20:29Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "‘HomePad’ could launch in these four colors, per leaker",
+       "url": "https://9to5mac.com/2026/10/01/homepad-could-launch-in-these-four-colors-per-leaker/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4e6a5ea2be8c",
+     "title": "HP’s answer to the MacBook Neo is thinner, lighter, and comes with OLED. The HP OmniBook 5 14 starts at $699.99 with an Intel Core 5 315 “Wildcat Lake” processor, 8GB of RAM, and a 256GB SSD…",
+     "summary": "HP’s answer to the MacBook Neo is thinner, lighter, and comes with OLED",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T13:14:49Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Tom Warren",
+       "title": "HP’s answer to the MacBook Neo is thinner, lighter, and comes with OLED. The HP OmniBook 5 14 starts at $699.99 with an Intel Core 5 315 “Wildcat Lake” processor, 8GB of RAM, and a 256GB SSD…",
+       "url": "https://www.theverge.com/gadgets/1003107/hp-omnibook-5-14-intel-wildcat-lake-8gb-macbook-neo-price-specs",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a92947ee9d86",
+     "title": "Gears of War: E-Day review time. “E-Day is reminiscent of a James Cameron film: Absolutely every element is in service to creating a thrilling sci-fi spectacle. It’s as close to a playable Aliens as…",
+     "summary": "Gears of War: E-Day is a great game launching at a terrible time",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T13:13:30Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Tom Warren",
+       "title": "Gears of War: E-Day review time. “E-Day is reminiscent of a James Cameron film: Absolutely every element is in service to creating a thrilling sci-fi spectacle. It’s as close to a playable Aliens as…",
+       "url": "https://www.theverge.com/games/1002768/gears-of-war-eday-review-xbox",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8823ad0e46f1",
+     "title": "Hearing tech startup Legato launches its AI hearing glasses",
+     "summary": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T13:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Hearing tech startup Legato launches its AI hearing glasses",
+       "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "913a3b4105af",
+     "title": "Audible’s new features let you explore book worlds — and use AI to talk to characters",
+     "summary": "Audible is rolling out new features that help listeners keep track of characters, explore places and imagery mentioned in books, and even interact with characters using generative AI.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T13:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Audible’s new features let you explore book worlds — and use AI to talk to characters",
+       "url": "https://techcrunch.com/2026/10/01/audibles-new-features-let-you-explore-book-worlds-and-even-talk-to-characters/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a47a333b6e9c",
+     "title": "The new Kindle ditches the raised bezel in a push toward a smaller, lighter e-reader",
+     "summary": "The new Kindle lineup features its lightest and thinnest designs yet, with a sleek, front-flush display that eliminates bezels for good.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T13:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "The new Kindle ditches the raised bezel in a push toward a smaller, lighter e-reader",
+       "url": "https://techcrunch.com/2026/10/01/the-new-kindle-ditches-the-bezel-in-a-push-toward-a-smaller-lighter-e-reader/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "37b4219bf235",
+     "title": "The iPhone 18 Pro is selling well in China for three reasons",
+     "summary": "A new market intelligence report says that the iPhone 18 Pro and Pro Max are selling well in China , making Apple the best-selling brand in the country during the launch week. Counterpoint Research has said there are three reasons for the p",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T12:10:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "The iPhone 18 Pro is selling well in China for three reasons",
+       "url": "https://9to5mac.com/2026/10/01/the-iphone-18-pro-is-selling-well-in-china-for-three-reasons/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e4b8a8881e7a",
+     "title": "This fake Mac Zoom installer has a sneaky way to bypass Gatekeeper",
+     "summary": "Cybersecurity company Jamf has discovered a fake Mac installer for the videoconferencing app Zoom that uses a sneaky way to bypass Apple’s Gatekeeper protection against malware . The malware does actually install Zoom , but also an infostea",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T11:39:20Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "This fake Mac Zoom installer has a sneaky way to bypass Gatekeeper",
+       "url": "https://9to5mac.com/2026/10/01/this-fake-mac-zoom-installer-has-a-sneaky-way-to-bypass-gatekeeper/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "42f25438ff46",
+     "title": "PS5 emulation is suddenly making big strides on PC",
+     "summary": "Games like Astro Bot and Demon’s Souls are running ably without a console.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T11:30:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "PS5 emulation is suddenly making big strides on PC",
+       "url": "https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "87463eda3875",
+     "title": "Reddit is making two changes some long-time users won’t like",
+     "summary": "Reddit has announced two upcoming changes which are likely to prove unpopular with some long-time users. The company has already placed one restriction on Old Reddit, and it has now announced a second one. Additionally, RSS support is being",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T11:17:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Reddit is making two changes some long-time users won’t like",
+       "url": "https://9to5mac.com/2026/10/01/reddit-is-making-two-changes-some-long-time-users-wont-like/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "600db5efc276",
+     "title": "NASA squeezed Treasury, vibe coded, and broke the mold in bid to save Swift",
+     "summary": "\"We did some really, really cool stuff. I'm absolutely gutted we weren't able to get further.\"",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T11:15:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "NASA squeezed Treasury, vibe coded, and broke the mold in bid to save Swift",
+       "url": "https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "52ae5e5a8d75",
+     "title": "HomePad setup process seemingly revealed, sharing feature with iPhone Duo",
+     "summary": "A leaker who previously found iPhone Duo features in Apple code has now done the same for the HomePad . The setup process for the upcoming device shares a feature with Apple’s foldable iPhone. The leaker suggests that the setup process will",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T10:50:40Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "HomePad setup process seemingly revealed, sharing feature with iPhone Duo",
+       "url": "https://9to5mac.com/2026/10/01/homepad-setup-process-seemingly-revealed-sharing-feature-with-iphone-duo/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "67357e3501cf",
+     "title": "Security Bite Podcast: The new era of bug hunting with OpenHack’s Ananay Arora",
+     "summary": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform . Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to management and security combines state-of-t",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T09:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Security Bite Podcast: The new era of bug hunting with OpenHack’s Ananay Arora",
+       "url": "https://9to5mac.com/2026/10/01/security-bite-podcast-the-new-era-of-bug-hunting-with-openhacks-ananay-arora/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "7ecdece976a8",
+     "title": "BrokenLore: MIKI-CHAN announced for PS5, Xbox Series, and PC",
+     "summary": "Serafini Productions has announced first-person psychological horror game BrokenLore: MIKI-CHAN for PlayStation 5, Xbox Series, …",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:45:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "BrokenLore: MIKI-CHAN announced for PS5, Xbox Series, and PC",
+       "url": "https://www.gematsu.com/2026/10/brokenlore-miki-chan-announced-for-ps5-xbox-series-and-pc",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Survival horror game Signal Veil announced for PS5, Xbox Series, Switch 2, and PC",
+       "url": "https://www.gematsu.com/2026/10/survival-horror-game-signal-veil-announced-for-ps5-xbox-series-switch-2-and-pc",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "The Boba Teashop Refill—Exclusive Interview",
+       "url": "https://insider-gaming.com/the-boba-teashop-refill-interview/",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "The Boba Teashop: Refill announced for PS5, Xbox Series, and PC",
+       "url": "https://www.gematsu.com/2026/10/the-boba-teashop-refill-announced-for-ps5-xbox-series-and-pc",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e5ccba832c7a",
+     "title": "Invincible VS Open Beta Begins October 13: What You Need to Know",
+     "summary": "One Angstrom Levy is more than enough. Unfortunately for “Invincible”, there are a whole lot more where he came from! Angstrom Levy is joining Invincible VS on October 13 as our third DLC fighter and 21st playable character, bringing his mu",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T23:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Invincible VS Open Beta Begins October 13: What You Need to Know",
+       "url": "https://news.xbox.com/en-us/2026/10/01/invincible-vs-open-beta-begins-october-13/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "6c5cd29eb83f",
+     "title": "New GTA 6 Age Rating Confirms Game Will Feature Sex Scenes",
+     "summary": "GTA 6 will have sex scenes, according to a new listing from international ratings boards.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T22:14:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "New GTA 6 Age Rating Confirms Game Will Feature Sex Scenes",
+       "url": "https://www.ign.com/articles/new-gta-6-age-rating-confirms-game-will-feature-sex-scenes",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a8f26abe623b",
+     "title": "How GTA 6's Jason and Lucia Have Evolved Since 2023 in Pictures",
+     "summary": "GTA 6 officially releases next month, so we're taking a look at how the game's two protagonists, Jason and Lucia, have evolved since their 2023 reveal.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:09:58Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "How GTA 6's Jason and Lucia Have Evolved Since 2023 in Pictures",
+       "url": "https://www.ign.com/articles/how-gta-6s-jason-and-lucia-have-evolved-since-2023-in-pictures",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6222ffa3b3f7",
+     "title": "The Witcher 3 Remastered gets a new patch fixing DLSS and lighting issues",
+     "summary": "The update is available on the PS5, Xbox Series X/S and PC versions",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T12:07:40Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "The Witcher 3 Remastered gets a new patch fixing DLSS and lighting issues",
+       "url": "https://www.videogameschronicle.com/news/the-witcher-3-remastered-gets-a-new-patch-fixing-dlss-and-lighting-issues/",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Witcher 3 Remastered patch addressing \"various lighting adjustments\" rolls out",
+       "url": "https://www.eurogamer.net/witcher-3-lighting-brightness-patch-remastered",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2ef96031ec46",
+     "title": "Sources: Naughty Dog is working on Uncharted 5",
+     "summary": "The next game in the series will reportedly follow Intergalactic: The Heretic Prophet",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T10:39:54Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Sources: Naughty Dog is working on Uncharted 5",
+       "url": "https://www.videogameschronicle.com/news/sources-naughty-dog-is-working-on-uncharted-5/",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "New Uncharted game reportedly in the works at Naughty Dog, and it's not a remake",
+       "url": "https://www.eurogamer.net/new-uncharted-game-naughty-dog-report",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ca123e3ec842",
+     "title": "Nintendo built a special Switch prototype to test GameChat for Switch 2",
+     "summary": "Switching things up",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T05:13:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "GoNintendo",
+       "title": "Nintendo built a special Switch prototype to test GameChat for Switch 2",
+       "url": "https://gonintendo.com/contents/65660-nintendo-built-a-special-switch-prototype-to-test-gamechat-for-switch-2",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "710edb1808b3",
+     "title": "IKEA and XBOX Team Up on YXSTABY, a New Collection Made for Gaming at Home",
+     "summary": "IKEA and XBOX have partied up to launch a new gaming-inspired collection, YXSTABY, designed for gaming at home. Whether locking in or lounging out, in-game or on the sofa, the collection makes room for gaming everywhere without sacrificing",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T16:05:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "IKEA and XBOX Team Up on YXSTABY, a New Collection Made for Gaming at Home",
+       "url": "https://news.xbox.com/en-us/2026/10/01/ikea-xbox-gaming-collection-yxstaby/",
+       "official": true
+      },
+      {
+       "outlet": "Xbox Wire",
+       "title": "IKEA and XBOX YXSTABY Collection: How the Collaboration Came Together",
+       "url": "https://news.xbox.com/en-us/2026/10/01/ikea-and-xbox-yxstaby-collection-how-the-collaboration-came-together-official-xbox-podcast/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "90798723cadf",
+     "title": "Free Play Days – FARCRY 6, Assassin’s Creed Odyssey, Avatar: Frontiers of Pandora, Skull and Bones, The Crew Motorfest",
+     "summary": "Your weekend plans are officially set with Ubisoft’s Free Play Days takeover! FARCRY 6, Assassin’s Creed Odyssey, Avatar: Frontiers of Pandora, Skull and Bones, and The Crew Motorfest are free for all XBOX members to try from Thursday, Octo",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Free Play Days – FARCRY 6, Assassin’s Creed Odyssey, Avatar: Frontiers of Pandora, Skull and Bones, The Crew Motorfest",
+       "url": "https://news.xbox.com/en-us/2026/10/01/free-play-days-01-10-2026/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "a19fc0ae25fa",
+     "title": "Martial arts meet fluid platforming in Elta: Defy All Gods, with a free PS5 demo out today",
+     "summary": "Take the punchy, fast-paced combat of a brawler, the tight platforming and exploration of a search-action game, and a cute dragon companion (who’s also the millennia-old god you worship), and blend everything together with a dash of anime f",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:00:44Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "Martial arts meet fluid platforming in Elta: Defy All Gods, with a free PS5 demo out today",
+       "url": "https://blog.playstation.com/2026/10/01/martial-arts-meet-fluid-platforming-in-elta-defy-all-gods-with-a-free-ps5-demo-out-today/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "c0eef790bf9d",
+     "title": "Gears of War: E-Day is Available in Early Access Today, Watch the Launch Gameplay Trailer",
+     "summary": "Today, Gears of War: E-Day Early Access begins for Premium Edition players and Game Pass subscribers with the Premium Upgrade. To mark the occasion, we’re releasing the Launch Gameplay Trailer, featuring Metallica’s “For Whom the Bell Tolls",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Gears of War: E-Day is Available in Early Access Today, Watch the Launch Gameplay Trailer",
+       "url": "https://news.xbox.com/en-us/2026/10/01/gears-of-war-e-day-early-access-launch-trailer-xbox/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "30edece100e8",
+     "title": "Return to Fabletown with The Wolf Among Us Remastered, out October 29",
+     "summary": "Telltale’s The Wolf Among Us Remastered launches October 29. To get ready for Bigby Wolf’s enhanced tale we sat down with Telltale’s Matt Saia, the game director of The Wolf Among Us Remastered, and VP of Creative at Telltale, to talk about",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:00:49Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "Return to Fabletown with The Wolf Among Us Remastered, out October 29",
+       "url": "https://blog.playstation.com/2026/10/01/return-to-fabletown-with-the-wolf-among-us-remastered-out-october-29/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "29f9712921ce",
+     "title": "A Colossal Update and Two DLCs Come to Bulwark: Falconeer Chronicles",
+     "summary": "Hello Bulwark lovers! My name is Tomas Sala, and I’m the solo developer of Bulwark: Falconeer Chronicles. Today, we are very excited to announce the release of the two brand new DLCs – the Verne Bannerless and Medieval Houses, plus a huge u",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "A Colossal Update and Two DLCs Come to Bulwark: Falconeer Chronicles",
+       "url": "https://news.xbox.com/en-us/2026/10/01/a-colossal-update-and-two-dlcs-come-to-bulwark-falconeer-chronicles/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "5e577bad307e",
+     "title": "Nintendo eShop Highlights",
+     "summary": "New releases are waiting for you on Nintendo eShop!",
+     "importance": 1,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nintendo (Europe)",
+       "title": "Nintendo eShop Highlights",
+       "url": "https://www.nintendo.com/en-gb/News/2026/October/Nintendo-eShop-Highlights-01-10-2026-3208927.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "16be8dca5e22",
+     "title": "The Wheel Of Time Fans Will Officially Get Closure In 2027",
+     "summary": "Robert Jordan's The Wheel of Time series was always going to be a massive undertaking for the Prime Video show's creators, which made its cancellation after three seasons disappointing but not all that surprising. Spanning 14 main novels ,",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T06:39:21Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "The Wheel Of Time Fans Will Officially Get Closure In 2027",
+       "url": "https://store.steampowered.com/news/group/38666666/view/708910525152494603",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "95cc9fcb5fe0",
+     "title": "Game Of Thrones: Grand Melee Officially Announced",
+     "summary": "There aren't many fantasy franchises that can stage an epic showdown quite like Game of Thrones . Across Westeros and its expanding slate of spinoffs, some of the saga's most memorable moments have come when rival houses, warriors, and woul",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T06:09:20Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "Game Of Thrones: Grand Melee Officially Announced",
+       "url": "https://store.steampowered.com/news/group/38666666/view/708910525152494599",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6d6566809d59",
+     "title": "Dungeon Crawler Carl: Princess Donut Officially Releases Next Month",
+     "summary": "Princess Donut has become every bit as essential to Dungeon Crawler Carl as the main man himself. The pampered Persian cat begins the series as an unlikely survivor of the apocalypse, but the dungeon quickly transforms her into one of its m",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T05:39:19Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "Dungeon Crawler Carl: Princess Donut Officially Releases Next Month",
+       "url": "https://store.steampowered.com/news/group/38666666/view/708910525152494595",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8eea0a49ab1e",
+     "title": "Twitch Drops Account Linking Guide",
+     "summary": "The account you link to Twitch must be the account you're currently playing AION2 on. If you're playing on Steam → Link your Steam account If you're playing on NC (Purple) → Link your NC (Purple) account Linking a different account may resu",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T05:26:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "Twitch Drops Account Linking Guide",
+       "url": "https://store.steampowered.com/news/app/3393110/view/712288224875119609",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d6f8296a5880",
+     "title": "Surreal narrative adventure game [AFANTASIA] to be published by Studio Sasanqua",
+     "summary": "Studio Sasanqua, which was established by Visions of Mana director Kenji Ozawa following the closure …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T03:38:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Surreal narrative adventure game [AFANTASIA] to be published by Studio Sasanqua",
+       "url": "https://www.gematsu.com/2026/10/surreal-narrative-adventure-game-afantasia-to-be-published-by-studio-sasanqua",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "044f0aad3e27",
+     "title": "NYT Strands #942 Hints and Answers for October 1",
+     "summary": "Looking for today’s NYT Strands answers? Get Game #942’s theme, helpful clue words, spangram and complete solution for October 1, 2026. The post NYT Strands #942 Hints and Answers for October 1 appeared first on Insider Gaming .",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T02:39:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "NYT Strands #942 Hints and Answers for October 1",
+       "url": "https://insider-gaming.com/nyt-strands-942-hints-answers-october-1/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d7b4b65fc65a",
+     "title": "youtu.be/v6GPOZHYxRU",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T02:03:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Jeff Grubb",
+       "title": "youtu.be/v6GPOZHYxRU",
+       "url": "https://youtu.be/v6GPOZHYxRU",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a659ef596021",
+     "title": "HBO's War Season 1 Premiere Review and Recap",
+     "summary": "Our recap and review of HBO's War series premiere, starring Dominic West and Sienna Miller as a high-profile divorce erupts into a vicious legal battle.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T02:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "HBO's War Season 1 Premiere Review and Recap",
+       "url": "https://www.ign.com/articles/hbo-war-series-premiere-recap-review",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ba4dbdb08acf",
+     "title": "Doom: The Dark Ages - Revelations Getting New 'Slaughter Mode' as Free Update Next Month",
+     "summary": "Doom: The Dark Ages developer id Software has announced a new free update coming to the first-person shooter's Revelations DLC next month: an endless single-player \"Slaughter Mode.\"",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-02T00:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Doom: The Dark Ages - Revelations Getting New 'Slaughter Mode' as Free Update Next Month",
+       "url": "https://www.ign.com/articles/doom-the-dark-ages-revelations-getting-new-slaughter-mode-as-free-update-next-month",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "96ef52cd2696",
+     "title": "Fast & Furious TV Show Greenlit at Peacock, With Vin Diesel as Executive Producer",
+     "summary": "The Fast & Furious films are getting their own television series, with none other than Vin Diesel himself serving as executive producer.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T23:37:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Fast & Furious TV Show Greenlit at Peacock, With Vin Diesel as Executive Producer",
+       "url": "https://www.ign.com/articles/fast-furious-tv-show-greenlit-at-peacock-with-vin-diesel-as-executive-producer",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "553a12af3e0c",
+     "title": "Viral Short Horror Film Portrait of God Gets Feature Length Movie Starring Chase Infiniti",
+     "summary": "Viral internet short film Portrait of God is getting the Hollywood treatment, with Chase Infiniti set to star in a feature length adaptation of the YouTube-famous horror video.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T23:09:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Viral Short Horror Film Portrait of God Gets Feature Length Movie Starring Chase Infiniti",
+       "url": "https://www.ign.com/articles/viral-short-horror-film-portrait-of-god-gets-feature-length-movie-starring-chase-infiniti",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "32cc63365668",
+     "title": "‘Fast & Furious’ TV Series Greenlit At Peacock - set to premiere in 2028 deadline.com/2026/10/fast...",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T23:04:10Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "‘Fast & Furious’ TV Series Greenlit At Peacock - set to premiere in 2028 deadline.com/2026/10/fast...",
+       "url": "https://deadline.com/2026/10/fast-furious-tv-series-greenlit-peacock-1237144885/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8ab02a693660",
+     "title": "The Final Drop of Limited Edition Gears of War Prototype Lancer Pizza Cutter up for preorder at Prince St. Pizza ($60) buff.ly/OjXrvuF \"Once they're gone, they're GONE!\"",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T22:53:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "The Final Drop of Limited Edition Gears of War Prototype Lancer Pizza Cutter up for preorder at Prince St. Pizza ($60) buff.ly/OjXrvuF \"Once they're gone, they're GONE!\"",
+       "url": "https://buff.ly/OjXrvuF",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4b6e0d766e95",
+     "title": "The X-Tech Executive Chair Aims to Upend Premium Models from Herman Miller, Steelcase at a Better Price",
+     "summary": "Battle of the super premium tier chairs.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T22:45:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "The X-Tech Executive Chair Aims to Upend Premium Models from Herman Miller, Steelcase at a Better Price",
+       "url": "https://www.ign.com/articles/x-tech-executive-chair-aims-to-upend-premium-models-from-herman-miller-steelcase",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0b50b8a98034",
+     "title": "Lanterns Rakes In More Than 18 Million Views Per Episode Globally As Season Finale Approaches",
+     "summary": "It’s safe to say that Lanterns is burning bright. The DCU series is raking in millions of views globally, competing with other HBO juggernauts like Euphoria and The Pitt.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T22:33:40Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Lanterns Rakes In More Than 18 Million Views Per Episode Globally As Season Finale Approaches",
+       "url": "https://www.ign.com/articles/lanterns-rakes-in-more-than-18-million-views-per-episode-globally-as-season-finale-approaches",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "59a781b58aa1",
+     "title": "Miami Vice '85 Casts Walton Goggins in Villain Role",
+     "summary": "Walton Goggins has joined the cast of Miami Vice '85. The actor will play a henchman/assassin acting on behalf of John Leguizamo's character, who is a cartel king and the lead villain in the film.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T22:01:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Miami Vice '85 Casts Walton Goggins in Villain Role",
+       "url": "https://www.ign.com/articles/miami-vice-85-casts-walton-goggins-in-villain-role",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9ca5dbc79d1c",
+     "title": "This sucks for many reasons. But I think it's worth emphasizing how selfish and duplicitous it is to go work with a public-facing, community-focused media org like MinnMax without disclosing this…",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T21:44:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Jason Schreier",
+       "title": "This sucks for many reasons. But I think it's worth emphasizing how selfish and duplicitous it is to go work with a public-facing, community-focused media org like MinnMax without disclosing this…",
+       "url": "https://bsky.app/profile/jasonschreier.bsky.social/post/3mwttdm3lhs2b",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0560a4135a6e",
+     "title": "Amazon Launches New Line of Kindles and Accessories Right Before Prime Big Deal Days",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T21:19:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Amazon Launches New Line of Kindles and Accessories Right Before Prime Big Deal Days",
+       "url": "https://www.ign.com/articles/amazon-launches-a-new-line-of-kindles-and-accessories-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5639b73b0908",
+     "title": "Danny McBride's G.I. Joe Movie Casts Bradley Cooper as Duke",
+     "summary": "Bradley Cooper will star as Duke in the upcoming G.I. Joe movie, directed by Danny McBride.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T21:05:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Danny McBride's G.I. Joe Movie Casts Bradley Cooper as Duke",
+       "url": "https://www.ign.com/articles/danny-mcbrides-gi-joe-movie-casts-bradley-cooper-as-duke",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "26b59fd85d7a",
+     "title": "Gray Zone Warfare’s 0.5 ‘Rogue Ops’ Update Can Turn You Into a Drug Baron",
+     "summary": "In Gray Zone Warfare's huge 0.5 update, you'll have the chance of becoming a cutthroat drug baron terrorizing Lamang. The post Gray Zone Warfare’s 0.5 ‘Rogue Ops’ Update Can Turn You Into a Drug Baron appeared first on Insider Gaming .",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T21:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Gray Zone Warfare’s 0.5 ‘Rogue Ops’ Update Can Turn You Into a Drug Baron",
+       "url": "https://insider-gaming.com/gray-zone-warfare-rogue-ops-update-drug-baron/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ca5dc66bfb01",
+     "title": "New Pokémon x ESA Collection Includes the Astronaut Pikachu Plush That Went to Space",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T20:59:12Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "New Pokémon x ESA Collection Includes the Astronaut Pikachu Plush That Went to Space",
+       "url": "https://www.ign.com/articles/new-pokemon-x-esa-collection-includes-the-astronaut-pikachu-plush-that-went-to-space",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e8a3a96d9f30",
+     "title": "Riot Games Co-Founder Says 2XKO Needed ‘Hundreds of Thousands, if Not Millions’ of Monthly Active Players to Survive",
+     "summary": "The co-founder, co-chairman, and chief product officer of Riot Games, Marc Merrill, revealed the number of monthly active users 2XKO would have needed to justify its budget, and the eye-popping amount has sparked an animated debate within t",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T20:54:48Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Riot Games Co-Founder Says 2XKO Needed ‘Hundreds of Thousands, if Not Millions’ of Monthly Active Players to Survive",
+       "url": "https://www.ign.com/articles/riot-games-co-founder-says-2xko-needed-hundreds-of-thousands-if-not-millions-of-monthly-active-players-to-survive",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1524e6470a4c",
+     "title": "GRIP 2: Combat Racing Evolved demo available on Steam store.steampowered.com/app/4475750/... -5 tracks -5 weapons -2 cars with a selection of new paint jobs -level editor",
+     "summary": "",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T20:47:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "GRIP 2: Combat Racing Evolved demo available on Steam store.steampowered.com/app/4475750/... -5 tracks -5 weapons -2 cars with a selection of new paint jobs -level editor",
+       "url": "https://store.steampowered.com/app/4475750/GRIP_2_Combat_Racing_Evolved/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bd6a3929fd8c",
+     "title": "The FlashForge AD5X Multi-Color 3D Printer Drops to Just $220 Shipped at AliExpress",
+     "summary": "The same printer is $350 on Amazon.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T20:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "The FlashForge AD5X Multi-Color 3D Printer Drops to Just $220 Shipped at AliExpress",
+       "url": "https://www.ign.com/articles/flashforge-ad5x-3d-printer-deal-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ac1a84f61380",
+     "title": "We Build LEGO SpongeBob SquarePants Bikini Bottom: a F.U.N. Build for Nostalgic Adults",
+     "summary": "We build the SpongeBob SquarePants: Bikini Bottom LEGO set, which offers a massive dose of nostalgia for millennial adults.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T20:03:39Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "We Build LEGO SpongeBob SquarePants Bikini Bottom: a F.U.N. Build for Nostalgic Adults",
+       "url": "https://www.ign.com/articles/we-build-lego-spongebob-squarepants-bikini-bottom-11386",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8c645db7f1fe",
+     "title": "Dark Pals: The 2nd Floor Revealed During Insider Gaming’s 28 Games Later Showcase",
+     "summary": "A sequel to the original hit title, Dark Pals 2: The 2nd Floor had a world premiere shown at the Insider Gaming 28 Games Later Showcase. The post Dark Pals: The 2nd Floor Revealed During Insider Gaming’s 28 Games Later Showcase appeared fir",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:48:34Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Dark Pals: The 2nd Floor Revealed During Insider Gaming’s 28 Games Later Showcase",
+       "url": "https://insider-gaming.com/dark-pals-showcase/",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Insider Gaming’s 28 Games Later Horror Showcase—Everything Announced",
+       "url": "https://insider-gaming.com/insider-gamings-28-games-later-horror-showcase-everything-announced/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0d846feb5282",
+     "title": "Transit Looks to ‘Train’ You in New 28 Games Later Trailer",
+     "summary": "Transit might be the first horror game to feature a talking sock puppet, which you can see in its Insider Gaming Showcase appearance. The post Transit Looks to ‘Train’ You in New 28 Games Later Trailer appeared first on Insider Gaming .",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:37:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Transit Looks to ‘Train’ You in New 28 Games Later Trailer",
+       "url": "https://insider-gaming.com/transit-showcase/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4d973df902ba",
+     "title": "The Boba Teashop Refill World Premiere Debuts at 28 Games Later Showcase",
+     "summary": "If you fancy a horrifying top-up, then check out the exclusive reveal of Boba Teashop Refill for a nice taste. The post The Boba Teashop Refill World Premiere Debuts at 28 Games Later Showcase appeared first on Insider Gaming .",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:35:37Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "The Boba Teashop Refill World Premiere Debuts at 28 Games Later Showcase",
+       "url": "https://insider-gaming.com/boba-teashop-refill-showcase/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1bbdbda22b0d",
+     "title": "The 2026 AOVOPRO 48V 500W Electric Scooter with 22-Mile Range and 22mph Top Speed Drops to $130",
+     "summary": "The most powerful e-scooter I've seen for under $150.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:20:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "The 2026 AOVOPRO 48V 500W Electric Scooter with 22-Mile Range and 22mph Top Speed Drops to $130",
+       "url": "https://www.ign.com/articles/aovopro-48v-500w-adult-electric-scooter-deal-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "36fb7503b021",
+     "title": "Get a UrLife E20 1,000W Peak 48V Adult Electric Bike With 28mph Top Speed and 80 Mile Range for $297",
+     "summary": "The upgrade to assisted electric tech is more affordable than you think.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:05:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Get a UrLife E20 1,000W Peak 48V Adult Electric Bike With 28mph Top Speed and 80 Mile Range for $297",
+       "url": "https://www.ign.com/articles/urlife-e20-1000w-48v-adult-electric-bike-deal-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4113b42616cb",
+     "title": "Ahead of Metro 2039, Metro 2033 and Metro Last Light Are Getting Next-Gen Updates",
+     "summary": "Metro 2039 is not too far away, launching on February 4, 2027. While that game will truly bring the franchise into the current generation, developer 4A Games is launching next-gen updates for the first two games.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T19:01:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Ahead of Metro 2039, Metro 2033 and Metro Last Light Are Getting Next-Gen Updates",
+       "url": "https://www.ign.com/articles/ahead-of-metro-2039-metro-2033-and-metro-last-light-are-getting-next-gen-updates",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6257d9e1f3d9",
+     "title": "VOID/BREAKER launches November 4",
+     "summary": "Fast-paced roguelite first-person shooter VOID/BREAKER will leave Early Access and launch for PlayStation 5, Xbox …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T17:35:35Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "VOID/BREAKER launches November 4",
+       "url": "https://www.gematsu.com/2026/10/void-breaker-launches-november-4",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "04a9c6b612ea",
+     "title": "‘Remarkable’: Sony reveals new PS5 upscaler tech, QSSR",
+     "summary": "Unlike PSSR, the new upscaler will work on standard PS5s",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T17:34:12Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "‘Remarkable’: Sony reveals new PS5 upscaler tech, QSSR",
+       "url": "https://www.videogameschronicle.com/news/remarkable-sony-reveals-new-ps5-upscaler-tech-qssr/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0b0144ab5a9b",
+     "title": "Invincible VS DLC character Angstrom Levy launches October 13",
+     "summary": "Publisher Skybound Games and developer Quarter Up will release three-versus-three tag fighting game Invincible VS …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T16:38:18Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Invincible VS DLC character Angstrom Levy launches October 13",
+       "url": "https://www.gematsu.com/2026/10/invincible-vs-dlc-character-angstrom-levy-launches-october-13",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c878eb9f3f99",
+     "title": "Croc 2: Kingdom of the Gobbos remaster launches October 29",
+     "summary": "The remastered version of the 1999-released platformer Croc 2: Kingdom of the Gobbos will launch …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T16:30:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Croc 2: Kingdom of the Gobbos remaster launches October 29",
+       "url": "https://www.gematsu.com/2026/10/croc-2-kingdom-of-the-gobbos-remaster-launches-october-29",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "86ce2496a39d",
+     "title": "European eShop releases for the week of Oct. 1st, 2026",
+     "summary": "The next big slate of games is here!",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T16:19:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "GoNintendo",
+       "title": "European eShop releases for the week of Oct. 1st, 2026",
+       "url": "https://gonintendo.com/contents/65604-european-eshop-releases-for-the-week-of-oct-1st-2026",
+       "official": false
+      },
+      {
+       "outlet": "GoNintendo",
+       "title": "North American eShop releases for the week of Oct. 1st, 2026",
+       "url": "https://gonintendo.com/contents/65605-north-american-eshop-releases-for-the-week-of-oct-1st-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "dfae85b6a207",
+     "title": "Metro Redux coming to PS5, Xbox Series on October 29",
+     "summary": "Publisher Deep Silver and developer 4A Games will release PlayStation 5 and Xbox Series versions …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:52:29Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Metro Redux coming to PS5, Xbox Series on October 29",
+       "url": "https://www.gematsu.com/2026/10/metro-redux-coming-to-ps5-xbox-series-on-october-29",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c556b3939cea",
+     "title": "ArcheAge Chronicles limited-time demo for PC launches October 19",
+     "summary": "XLGAMES will release a limited-time demo for open-world action MMORPG ArcheAge Chronicles for PC via …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:36:35Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "ArcheAge Chronicles limited-time demo for PC launches October 19",
+       "url": "https://www.gematsu.com/2026/10/archeage-chronicles-limited-time-demo-for-pc-launches-october-19",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "28dbc207f973",
+     "title": "Sifu coming to iOS, Android on October 12",
+     "summary": "Sloclap will release iOS and Android versions of kung-fu third-person brawler Sifu on October 12, …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:29:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Sifu coming to iOS, Android on October 12",
+       "url": "https://www.gematsu.com/2026/10/sifu-coming-to-ios-android-on-october-12",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2bf82b1667c9",
+     "title": "One of Gears of War E-Day’s collectibles is a letter from The Coalition thanking ‘those that are no longer with us’",
+     "summary": "UPDATE: Xbox spokesperson says message ‘not a reference to staff being laid off’",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:18:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "One of Gears of War E-Day’s collectibles is a letter from The Coalition thanking ‘those that are no longer with us’",
+       "url": "https://www.videogameschronicle.com/news/one-of-gears-of-war-e-days-collectibles-is-a-letter-from-the-coalition-thanking-those-that-are-no-longer-with-us/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b0412ef0c16e",
+     "title": "Elta: Defy All Gods launches February 2, 2027, demo now available",
+     "summary": "“Adrenaline-fueled action platformer” Elta: Defy All Gods will launch for PlayStation 5, Xbox Series, and …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:11:33Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Elta: Defy All Gods launches February 2, 2027, demo now available",
+       "url": "https://www.gematsu.com/2026/10/elta-defy-all-gods-launches-february-2-2027-demo-now-available",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "03373eb29952",
+     "title": "Aion 2's imminent worldwide release could be huge as early access founders' packs outsell major games, and player numbers soar",
+     "summary": "Aion 2's much-awaited worldwide release is days away, following its release in Korea and Taiwan roughly a year ago. Despite this, the MMO has soared - high up Steam's most played game chart. Read more",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T15:11:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Aion 2's imminent worldwide release could be huge as early access founders' packs outsell major games, and player numbers soar",
+       "url": "https://www.eurogamer.net/aion-2-western-release-steam-player-numbers",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f3c033828b2b",
+     "title": "Ace Combat 8 developer apologises for Belkan War pre-order backlash, explains why it happened and vows to explore possible solutions",
+     "summary": "The early access launch of Ace Combat 8: Wings of Theve kicked off on a down note due to some confusion regarding one of the game's pre-order bonuses. Pre-orders of the flight action game include a copy of 2006's Ace Combat Zero: The Belkan",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:55:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Ace Combat 8 developer apologises for Belkan War pre-order backlash, explains why it happened and vows to explore possible solutions",
+       "url": "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-backlash-response",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e1b4be642871",
+     "title": "Nerial shuts down after 13 years",
+     "summary": "Reigns series and Card Shark developer Nerial will shut down after 13 years of operation, …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:38:21Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Nerial shuts down after 13 years",
+       "url": "https://www.gematsu.com/2026/10/nerial-shuts-down-after-13-years",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5ee3027f8a11",
+     "title": "Games media crisis deepens, Bloober hunts weird horror titles, and New York Games Week soft launches",
+     "summary": "“We want to build a relationship with Nintendo and its players.”",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:23:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Game Business (Christopher Dring)",
+       "title": "Games media crisis deepens, Bloober hunts weird horror titles, and New York Games Week soft launches",
+       "url": "https://www.thegamebusiness.com/p/games-media-crisis-deepens-bloober",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e1d86a991178",
+     "title": "Moadra launches October 22",
+     "summary": "Alien-inspired science-fiction Metroidvania game Moadra will launch for PlayStation 5, Xbox Series, Switch, and PC …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:22:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Moadra launches October 22",
+       "url": "https://www.gematsu.com/2026/10/moadra-launches-october-22",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Gaelco Sports Collection launches October 22",
+       "url": "https://www.gematsu.com/2026/10/gaelco-sports-collection-launches-october-22",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2c941735af04",
+     "title": "Famitsu Sales: 9/21/26",
+     "summary": "Famitsu has published its estimated physical game software data for Japan for the week of …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T13:04:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Famitsu Sales: 9/21/26",
+       "url": "https://www.gematsu.com/2026/10/famitsu-sales-9-21-26-9-27-27",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1ff71b268a03",
+     "title": "Krafton pulls the plug on another PUBG game, Black Budget, less than a year after it was announced",
+     "summary": "PUBG publisher Krafton announced today it is ending development of PUBG: Black Budget, the extraction shooter spin-off announced nearly a year ago. Read more",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T12:03:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Krafton pulls the plug on another PUBG game, Black Budget, less than a year after it was announced",
+       "url": "https://www.eurogamer.net/krafton-pulls-the-plug-on-another-pubg-game-black-budget-less-than-a-year-after-it-was-announced",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cdcdd079f093",
+     "title": "Sound System Early Access delayed to November 4",
+     "summary": "Echo Foundry Interactive has delayed the Early Access version of “next-generation rhythm game” Sound System …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T11:55:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Sound System Early Access delayed to November 4",
+       "url": "https://www.gematsu.com/2026/10/sound-system-early-access-delayed-to-november-4",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "493052336291",
+     "title": "WarioWare director reveals what changed after he left Nintendo",
+     "summary": "Goro Abe says switching Nintendo for teaching has given him a new perspective on game creation",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T11:34:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "WarioWare director reveals what changed after he left Nintendo",
+       "url": "https://www.videogameschronicle.com/news/warioware-director-reveals-what-changed-after-he-left-nintendo/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "46149055bb2a",
+     "title": "Gears of War E-Day staff are reportedly worried they’ll be laid off after the game’s release and miss out on bonuses",
+     "summary": "The game's story director was laid off last week, right before its release",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T10:42:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Gears of War E-Day staff are reportedly worried they’ll be laid off after the game’s release and miss out on bonuses",
+       "url": "https://www.videogameschronicle.com/news/gears-of-war-e-day-staff-are-reportedly-worried-theyll-be-laid-off-after-the-games-release-and-miss-out-on-bonuses/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "49cc6295171b",
+     "title": "Here are our PS Plus monthly games for October 2026",
+     "summary": "Sony has revealed the games coming this month to PlayStation Plus, which are available to everyone from 6th October. Read more",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T10:39:11Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Here are our PS Plus monthly games for October 2026",
+       "url": "https://www.eurogamer.net/playstation-ps-plus-games-lineup-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c4a5163f243d",
+     "title": "Sega is teasing a new House of the Dead arcade game with VR headsets and an 85-inch screen for a ‘front door’",
+     "summary": "House of the Dead: Reawakened's cabinet is designed to look like a Gothic manor",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T09:23:48Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Sega is teasing a new House of the Dead arcade game with VR headsets and an 85-inch screen for a ‘front door’",
+       "url": "https://www.videogameschronicle.com/news/sega-is-teasing-a-new-house-of-the-dead-arcade-game-with-vr-headsets-and-an-85-inch-screen-for-a-front-door/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "87fea42ce515",
+     "title": "The Division studio Massive expands to take control of Splinter Cell and Ghost Recon, and a new IP, in Ubisoft's most recent reorganisation",
+     "summary": "Ubisoft has expanded the remit of Swedish studio Massive Entertainment - responsible for The Division series, Star Wars Outlaws and Avatar: Frontiers of Pandora - to become a second major part of the company and include more of its studios",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T09:02:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "The Division studio Massive expands to take control of Splinter Cell and Ghost Recon, and a new IP, in Ubisoft's most recent reorganisation",
+       "url": "https://www.eurogamer.net/massive-entertainment-the-division-splinter-cell-ghost-recon",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3db60b1456db",
+     "title": "Kimiiro Patra IF delayed to January 28, 2027 in Japan",
+     "summary": "Entergram has delayed Kimiiro Patra IF, the romance visual novel starring Virtual YouTuber Patra Suou, …",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T09:00:12Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Kimiiro Patra IF delayed to January 28, 2027 in Japan",
+       "url": "https://www.gematsu.com/2026/10/kimiiro-patra-if-delayed-to-january-28-2027-in-japan",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "213a7c812bfe",
+     "title": "Sony is selling the Lego Astro Bot separately, with no need to also buy the Lego PlayStation",
+     "summary": "Lego's site only makes Astro Bot available as a free gift if you spend a certain amount",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-01T08:29:19Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Sony is selling the Lego Astro Bot separately, with no need to also buy the Lego PlayStation",
+       "url": "https://www.videogameschronicle.com/news/sony-is-selling-the-lego-astro-bot-separately-with-no-need-to-also-buy-the-lego-playstation/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "c0ef9cbe458a",
+     "title": "Astonishia Story: Special Edition (PS5/Switch) is up for preorder on Amazon ($49.99) amzn.to/4xUV1Uk VGP buff.ly/OVyZkuM PNP buff.ly/MkFQrSj #ad",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T02:34:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Astonishia Story: Special Edition (PS5/Switch) is up for preorder on Amazon ($49.99) amzn.to/4xUV1Uk VGP buff.ly/OVyZkuM PNP buff.ly/MkFQrSj #ad",
+       "url": "https://amzn.to/4xUV1Uk",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Caves of Qud (Switch 2) up for preorder on Amazon ($49.99) amzn.to/4djOtHr VGP buff.ly/zVasgc7 PNP buff.ly/EPZAlif Lost in Cult Edition buff.ly/CiAGzbl #ad",
+       "url": "https://amzn.to/4djOtHr",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "The Séance of Blake Manor (PS5) up for preorder on Amazon ($34.99) amzn.to/4hxn5Ha VGP (+ Switch 2) buff.ly/zVasgc7 PNP buff.ly/EPZAlif Lost in Cult Edition buff.ly/CiAGzbl #ad",
+       "url": "https://amzn.to/4hxn5Ha",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0b9cac89ce0e",
+     "title": "Pokémon Legends: Z-A + Mega Dimension DLC (Switch 2E) up for preorder on Amazon ($99.99) amzn.to/4djCYjg Best Buy buff.ly/2OamDRN #ad Switch 1 + 2 + DLC on cart",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T19:08:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Pokémon Legends: Z-A + Mega Dimension DLC (Switch 2E) up for preorder on Amazon ($99.99) amzn.to/4djCYjg Best Buy buff.ly/2OamDRN #ad Switch 1 + 2 + DLC on cart",
+       "url": "https://amzn.to/4djCYjg",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "73ee9eb5c34a",
+     "title": "'Octopath Traveler I and II are coming to GOG on October 8 and will be a part of the GOG Preservation Program' - 70%/60% off from Oct 8 to Oct 18 www.rpgsite.net/news/21509-o...",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T06:04:17Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "'Octopath Traveler I and II are coming to GOG on October 8 and will be a part of the GOG Preservation Program' - 70%/60% off from Oct 8 to Oct 18 www.rpgsite.net/news/21509-o...",
+       "url": "https://www.rpgsite.net/news/21509-octopath-traveler-i-ii-gog-release-date-discount-1-2-trailer",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "807062e23204",
+     "title": "The Legend of Zelda Master Sword Proplica (Re-release) up for preorder at Entertainment Earth ($269.99) buff.ly/uzwF54Z #ad BBTS buff.ly/EAlMKrp",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T23:15:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "The Legend of Zelda Master Sword Proplica (Re-release) up for preorder at Entertainment Earth ($269.99) buff.ly/uzwF54Z #ad BBTS buff.ly/EAlMKrp",
+       "url": "https://buff.ly/uzwF54Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5359e617c8cf",
+     "title": "Blood Dungeon is $8.49 on Steam buff.ly/iJdFK91",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T21:52:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Blood Dungeon is $8.49 on Steam buff.ly/iJdFK91",
+       "url": "https://buff.ly/iJdFK91",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "dfc932866612",
+     "title": "Save $200 Off the Asus ROG Ally X Z1 Extreme Handheld Gaming PC With a Whopping 2TB of Storage",
+     "summary": "Also features 24GB of DDR5 RAM, dual USB ports, and a massive 80Wh battery.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T21:32:40Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Save $200 Off the Asus ROG Ally X Z1 Extreme Handheld Gaming PC With a Whopping 2TB of Storage",
+       "url": "https://www.ign.com/articles/asus-rog-ally-x-z1-extreme-handheld-gaming-pc-deal",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f803a318eb3f",
+     "title": "ROMEO IS A DEAD MAN is $32.49 on Steam buff.ly/No9LVok",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T21:17:48Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "ROMEO IS A DEAD MAN is $32.49 on Steam buff.ly/No9LVok",
+       "url": "https://buff.ly/No9LVok",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2830a57df760",
+     "title": "Legend of Korra: The Complete Series [Blu-ray] is $6.80 on Amazon amzn.to/4hYtrAF #ad",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T21:01:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Legend of Korra: The Complete Series [Blu-ray] is $6.80 on Amazon amzn.to/4hYtrAF #ad",
+       "url": "https://amzn.to/4hYtrAF",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c3b2900c39a0",
+     "title": "Youtooz - Halloween Style Miku 4.7\" Vinyl Figure available for preorder at Best Buy ($29.99) buff.ly/DWL7mo7 #ad",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T20:58:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Youtooz - Halloween Style Miku 4.7\" Vinyl Figure available for preorder at Best Buy ($29.99) buff.ly/DWL7mo7 #ad",
+       "url": "https://buff.ly/DWL7mo7",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f7db9705bc86",
+     "title": "CrossCode is $3.99 on Steam buff.ly/h7kHCZI GOG buff.ly/kKZnaag #ad",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T20:41:13Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "CrossCode is $3.99 on Steam buff.ly/h7kHCZI GOG buff.ly/kKZnaag #ad",
+       "url": "https://buff.ly/h7kHCZI",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a6a4d7ea64ef",
+     "title": "Keeper is $13.99 on Steam buff.ly/QC33er6",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T20:23:54Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Keeper is $13.99 on Steam buff.ly/QC33er6",
+       "url": "https://buff.ly/QC33er6",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7da1e9df915d",
+     "title": "Hi-Fi RUSH is $13.49 on Steam buff.ly/uRvrPxR PS5/XSX physical $45.65 at VGP buff.ly/73LImdX #ad",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T20:03:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Hi-Fi RUSH is $13.49 on Steam buff.ly/uRvrPxR PS5/XSX physical $45.65 at VGP buff.ly/73LImdX #ad",
+       "url": "https://buff.ly/uRvrPxR",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "06110eeaa154",
+     "title": "Morsels (Steam) is $7.38 on Gamebillet buff.ly/8W5PICX $9.74 US PSN buff.ly/GchDddk $9.74 US eShop buff.ly/BgzBNsI",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T19:59:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Morsels (Steam) is $7.38 on Gamebillet buff.ly/8W5PICX $9.74 US PSN buff.ly/GchDddk $9.74 US eShop buff.ly/BgzBNsI",
+       "url": "https://buff.ly/8W5PICX",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b979f0e6d140",
+     "title": "The Officially Licensed WD Black 1TB PlayStation 5 SSD Just Dropped to the Lowest Price of the Year",
+     "summary": "Overpriced but still a deal in today's market.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T19:50:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "The Officially Licensed WD Black 1TB PlayStation 5 SSD Just Dropped to the Lowest Price of the Year",
+       "url": "https://www.ign.com/articles/wd-black-1tb-playstation-5-ssd-deal-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "639870ee5f42",
+     "title": "Big Walk is $15.99 on Steam buff.ly/Isu6X5V",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T19:24:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Big Walk is $15.99 on Steam buff.ly/Isu6X5V",
+       "url": "https://buff.ly/Isu6X5V",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "dbc55b25e7aa",
+     "title": "Last day to get Humble Games Bundles: Roguelikes ($13) buff.ly/e5pqEBn Deckbuilders ($12) buff.ly/yzse2Km #ad",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T19:15:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Last day to get Humble Games Bundles: Roguelikes ($13) buff.ly/e5pqEBn Deckbuilders ($12) buff.ly/yzse2Km #ad",
+       "url": "https://buff.ly/e5pqEBn",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "56b7d1396dec",
+     "title": "Movies & TV deals on Amazon (4K UHD as low as $8.49) amzn.to/4z8zHvt #ad",
+     "summary": "",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T19:06:40Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Movies & TV deals on Amazon (4K UHD as low as $8.49) amzn.to/4z8zHvt #ad",
+       "url": "https://amzn.to/4z8zHvt",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "71af72211341",
+     "title": "Deals: AirTag 2, Studio Display up to $300 off, MacBook Pro, Belkin 25W MagSafe charger lows, more",
+     "summary": "Joining the ongoing early fall Prime Day sale at Amazon and the ongoing all-time low on the single AirTag 2 listing, today’s 9to5Toys Lunch Break is headlined by the most affordable 2026 Studio Display models at up to $300 off straight from",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-01T15:30:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Deals: AirTag 2, Studio Display up to $300 off, MacBook Pro, Belkin 25W MagSafe charger lows, more",
+       "url": "https://9to5mac.com/2026/10/01/deals-airtag-2-studio-display-macbook-magsafe-chargers/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-02",
+ "generated_at": "2026-10-02T07:27:21Z",
+ "mode": "list",
+ "model": null,
+ "stats": {
+  "items": 234,
+  "clusters": 206,
+  "feeds_ok": 35,
+  "feeds_failed": 0
+ },
+ "feed_health": []
+}
