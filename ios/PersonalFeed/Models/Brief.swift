@@ -44,6 +44,7 @@ struct Story: Codable, Hashable, Sendable, Identifiable {
     let published: Date
     let outletCount: Int
     let sources: [Source]
+    var aiSummary: Bool?
 
     /// The headline comes from the first source (see `_story` in briefing/service.py).
     var isTranslated: Bool { sources.first?.translatedFrom != nil }

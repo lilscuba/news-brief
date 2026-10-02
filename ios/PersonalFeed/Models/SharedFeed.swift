@@ -24,6 +24,8 @@ struct FeedStory: Codable, Hashable, Sendable, Identifiable {
     let outletCount: Int
     let published: Date
     let sources: [FeedSource]
+    /// True when `summary` was written by AI from the outlets' headlines and snippets.
+    var aiSummary: Bool?
 }
 
 struct FeedSource: Codable, Hashable, Sendable {

@@ -24,6 +24,11 @@ struct StoryDetailView: View {
                         .font(.title2.weight(.semibold))
                     Text(story.summary)
                         .font(.body)
+                    if story.aiSummary == true {
+                        Label("Summarized by AI from the outlets' headlines and snippets", systemImage: "sparkles")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                    }
                     if let first = story.sources.first {
                         Button {
                             safariLink = SafariLink(url: first.url)

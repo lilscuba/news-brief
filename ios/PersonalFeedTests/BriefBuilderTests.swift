@@ -121,6 +121,22 @@ final class BriefBuilderTests: XCTestCase {
         XCTAssertFalse(try XCTUnwrap(feed.stories.first).sources.isEmpty)
     }
 
+    func testAISummaryFlagReachesTheBriefAndOldFeedsStillDecode() throws {
+        XCTAssertNil(feed.stories[0].aiSummary, "feeds without the field still decode")
+        var summarized = feed.stories[0]
+        summarized.aiSummary = true
+        let patched = SharedFeed(version: 1, generatedAt: feed.generatedAt, windowHours: feed.windowHours,
+                                 sections: feed.sections, sources: feed.sources, watchlist: feed.watchlist,
+                                 stories: [summarized] + feed.stories.dropFirst())
+        let brief = BriefBuilder.build(feed: patched, settings: .default, now: now)
+        let flagged = brief.allStories.filter { $0.aiSummary == true }.map(\.id)
+        XCTAssertLessThanOrEqual(flagged.count, 1)
+        if let id = flagged.first { XCTAssertEqual(id, summarized.id) }
+
+        let json = #"{"id":"a","title":"t","summary":"s","label":"REPORTED","category":"Tech","score":1,"official":false,"trusted":false,"outletCount":1,"published":"2026-10-01T12:00:00Z","sources":[],"aiSummary":true}"#
+        XCTAssertEqual(try JSONDecoder.api.decode(FeedStory.self, from: Data(json.utf8)).aiSummary, true)
+    }
+
     func testSettingsJSONMatchesServerShape() throws {
         let json = try JSONSerialization.jsonObject(with: JSONEncoder.api.encode(UserSettings.default)) as! [String: Any]
         XCTAssertEqual(Set(json.keys), ["version", "categories", "disabledSources", "mutedWords", "boosts", "alerts", "brief"])

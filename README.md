@@ -156,6 +156,11 @@ Notes on the sources:
   needs the `GEMINI_API_KEY` secret (free tier). Without it, or while Gemini is rate-limited,
   those items are left out until a later run translates them. Articles themselves still open in
   their original language.
+- **AI summaries (two separate things).** The top 40 stories in the app's shared feed get a
+  one- or two-sentence Gemini summary written from their outlets' headlines and snippets
+  (`[story_summaries]` in `config.toml`; each story is summarized once and cached, and the app
+  labels it). Nothing is scraped; article pages are never fetched. Separately, setting the
+  `SUMMARIZE` repo variable to `true` makes Gemini write the daily brief page and email.
 - **World, Europe, Japan and Korea are off for new accounts** until switched on in Topics.
 - **`[ranking.category_weight]`** halves the outlet-count score for World and Europe. They have
   far more sources than AI/Tech/Gaming, so without it a big world story would take every top slot.

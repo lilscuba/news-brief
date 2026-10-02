@@ -28,6 +28,17 @@ enabled = true
 batch_size = 40
 max_calls_per_run = 3
 
+[story_summaries]
+# The top stories in the app's shared feed get a 1-2 sentence AI summary (Gemini) written from
+# their outlets' headlines and feed snippets, instead of just the first outlet's snippet. Each
+# story is summarized once. Needs GEMINI_API_KEY; without it stories keep their snippet.
+enabled = true
+top_n = 40
+# Wait until this many new top stories are ready before calling Gemini (fewer calls).
+min_new = 4
+batch_size = 20
+max_calls_per_run = 2
+
 [ai]
 # Which model writes the brief when summarize = true. Override with the AI_PROVIDER env var.
 #   "gemini" = Google AI Studio free tier (needs GEMINI_API_KEY)

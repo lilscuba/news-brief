@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from . import apns, state, translate
+from . import apns, state, story_summaries, translate
 from .config import ROOT, env, load_config
 from .dedupe import cluster_items
 from .digest import _apply_feed_caps
@@ -52,7 +52,7 @@ def _source_catalog(feeds: list[Feed], results: list[FetchResult]) -> list[dict]
     return out
 
 
-def _story(c: Cluster) -> dict:
+def _story(c: Cluster, summary: str | None = None) -> dict:
     lead = c.lead
     items = sorted(c.items, key=lambda it: (not it.feed.official, it.published))
     seen_urls: set[str] = set()
@@ -70,7 +70,9 @@ def _story(c: Cluster) -> dict:
     return {
         "id": story_id(c),
         "title": lead.title,
-        "summary": lead.summary[:240],
+        # The AI summary (top stories only) replaces the lead outlet's RSS snippet.
+        "summary": summary or lead.summary[:240],
+        **({"aiSummary": True} if summary else {}),
         "label": label_cluster(c),
         "category": c.category,
         "score": c.score,
@@ -82,7 +84,9 @@ def _story(c: Cluster) -> dict:
     }
 
 
-def build_feed(results: list[FetchResult], feeds: list[Feed], cfg: dict, now: datetime) -> dict:
+def build_feed(results: list[FetchResult], feeds: list[Feed], cfg: dict, now: datetime,
+               st: dict | None = None) -> dict:
+    """The shared feed. With `st` (the ingest state), top stories get cached AI summaries."""
     window = now - timedelta(hours=FEED_WINDOW_HOURS)
     items = [it for r in results for it in r.items
              if it.published >= window and not is_muted(it.title, cfg) and translate.is_readable(it)]
@@ -90,6 +94,11 @@ def build_feed(results: list[FetchResult], feeds: list[Feed], cfg: dict, now: da
     # Personal keyword boosts are applied on each phone, so the shared ranking ignores them.
     shared_cfg = {**cfg, "ranking": {**cfg["ranking"], "boosts": {}}}
     clusters = rank(cluster_items(items), shared_cfg, now)
+    summaries: dict[str, str] = {}
+    if st is not None:
+        top_n = cfg.get("story_summaries", {}).get("top_n", 40)
+        summaries = story_summaries.summarize_stories(
+            [(story_id(c), c) for c in clusters[:top_n] if label_cluster(c) != "DEAL"], cfg, st, now)
     return {
         "version": FEED_VERSION,
         "generatedAt": state.iso(now),
@@ -97,7 +106,7 @@ def build_feed(results: list[FetchResult], feeds: list[Feed], cfg: dict, now: da
         "sections": cfg["digest"]["sections"],
         "sources": _source_catalog(feeds, results),
         "watchlist": [{"name": r["name"], "match": r["match"]} for r in cfg["alerts"]["watch"]],
-        "stories": [_story(c) for c in clusters],
+        "stories": [_story(c, summaries.get(story_id(c))) for c in clusters],
     }
 
 
@@ -147,7 +156,7 @@ def run(dry_run: bool = False) -> dict:
     window = now - timedelta(hours=FEED_WINDOW_HOURS)
     translate.translate_items(_apply_feed_caps([it for it in items if it.published >= window]),
                               cfg, st, now)
-    feed = build_feed(results, feeds, cfg, now)
+    feed = build_feed(results, feeds, cfg, now, st)
     # On the very first run everything looks new; don't push a backlog to everyone.
     candidates = [] if first_run else alert_candidates(items, seen, cfg, now)
     log.info("feed: %d stories from %d sources; %d alert candidates",
