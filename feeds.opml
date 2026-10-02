@@ -88,7 +88,6 @@
       <outline type="rss" text="South China Morning Post" pfKey="scmp" pfMaxItems="10" xmlUrl="https://www.scmp.com/rss/91/feed" htmlUrl="https://www.scmp.com/"/>
       <outline type="rss" text="The Hindu: International" pfKey="thehindu" pfMaxItems="8" xmlUrl="https://www.thehindu.com/news/international/feeder/default.rss" htmlUrl="https://www.thehindu.com/news/international/"/>
       <outline type="rss" text="Times of India: World" pfKey="toi" pfMaxItems="8" xmlUrl="https://timesofindia.indiatimes.com/rssfeeds/296589292.cms" htmlUrl="https://timesofindia.indiatimes.com/world"/>
-      <outline type="rss" text="The Times of Israel" pfKey="timesofisrael" pfMaxItems="8" xmlUrl="https://www.timesofisrael.com/feed/" htmlUrl="https://www.timesofisrael.com/"/>
       <outline type="rss" text="BBC News: Africa" pfKey="bbc-africa" pfMaxItems="8" xmlUrl="https://feeds.bbci.co.uk/news/world/africa/rss.xml" htmlUrl="https://www.bbc.com/news/world/africa"/>
       <outline type="rss" text="BBC News: Latin America" pfKey="bbc-latam" pfMaxItems="8" xmlUrl="https://feeds.bbci.co.uk/news/world/latin_america/rss.xml" htmlUrl="https://www.bbc.com/news/world/latin_america"/>
       <outline type="rss" text="MercoPress (South Atlantic)" pfKey="mercopress" xmlUrl="https://en.mercopress.com/rss" htmlUrl="https://en.mercopress.com/"/>

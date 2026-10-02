@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import logging
+import time
 from datetime import datetime
 from typing import Literal
 
@@ -22,6 +23,10 @@ log = logging.getLogger(__name__)
 # Models that accept Anthropic's server-side `fallbacks: "default"` refusal fallback.
 _FALLBACK_MODELS = ("claude-opus-5", "claude-fable-5", "claude-sonnet-5-5")
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+# "This model is currently experiencing high demand" (503) is usually a brief spike; a short
+# retry rides it out. Anything still failing is retried by the next scheduled run.
+GEMINI_RETRY_STATUS = {429, 500, 502, 503, 504}
+GEMINI_RETRY_DELAYS = (3, 8)
 
 Label = Literal["CONFIRMED", "REPORTED", "RUMOR-CREDIBLE", "RUMOR-UNVERIFIED", "DEAL"]
 
@@ -155,13 +160,36 @@ def gemini_schema(model: type[BaseModel]) -> dict:
     return walk(raw)
 
 
+def _post_gemini(model: str, key: str, body: dict, timeout: int, delays: tuple) -> requests.Response:
+    """POST one generateContent request, retrying transient failures after each delay."""
+    for attempt in range(len(delays) + 1):
+        last = attempt == len(delays)
+        try:
+            # Header, not ?key=, so the key never shows up in logged URLs.
+            resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=timeout,
+                                 headers={"x-goog-api-key": key})
+            if resp.status_code not in GEMINI_RETRY_STATUS or last:
+                return resp
+            reason = f"HTTP {resp.status_code}"
+        except (requests.ConnectionError, requests.Timeout) as exc:
+            if last:
+                raise
+            reason = type(exc).__name__
+        log.info("Gemini %s on %s; retrying in %ss", reason, model, delays[attempt])
+        time.sleep(delays[attempt])
+    raise AssertionError("unreachable")
+
+
 def gemini_json(system: str, user: str, schema: dict, cfg: dict,
                 timeout: int = 300) -> tuple[str, dict]:
-    """One structured-output generateContent call. Returns the JSON text and usage."""
+    """One structured-output generateContent call. Returns the JSON text and usage.
+
+    The configured model is retried on transient errors; if it is still overloaded, each of
+    `[gemini] fallback_models` gets one try. Client errors (bad request, bad key) never fall back."""
     key = env("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("GEMINI_API_KEY is not set")
-    model = cfg["gemini"]["model"]
+    models = [cfg["gemini"]["model"], *cfg["gemini"].get("fallback_models", [])]
     body = {
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
@@ -170,9 +198,19 @@ def gemini_json(system: str, user: str, schema: dict, cfg: dict,
             "responseSchema": schema,
         },
     }
-    # Header, not ?key=, so the key never shows up in logged URLs.
-    resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=timeout,
-                         headers={"x-goog-api-key": key})
+    for n, model in enumerate(models):
+        more = n < len(models) - 1
+        try:
+            resp = _post_gemini(model, key, body, timeout, GEMINI_RETRY_DELAYS if n == 0 else ())
+        except (requests.ConnectionError, requests.Timeout):
+            if not more:
+                raise
+            log.warning("Gemini %s unreachable; trying %s", model, models[n + 1])
+            continue
+        if resp.status_code in GEMINI_RETRY_STATUS and more:
+            log.warning("Gemini %s returned HTTP %s; trying %s", model, resp.status_code, models[n + 1])
+            continue
+        break
     if resp.status_code != 200:
         raise RuntimeError(f"Gemini HTTP {resp.status_code}: {resp.text[:300]}")
     data = resp.json()
@@ -275,8 +313,10 @@ def list_brief(clusters: list[Cluster], cfg: dict, feeds_ok: int = 0) -> LLMBrie
     # Configured sections first, then any OPML category that isn't listed, so nothing is dropped.
     names = list(cfg["digest"]["sections"])
     names += [section_of(c) for c in rest if section_of(c) not in names]
+    limits = cfg["digest"].get("section_limits", {})
     sections = [
-        LLMSection(name=name, stories=[story(c) for c in rest if section_of(c) == name])
+        LLMSection(name=name, stories=[story(c) for c in rest if section_of(c) == name]
+                   [: limits.get(name)])  # clusters are ranked, so this keeps the best N
         for name in dict.fromkeys(names)
     ]
     item_count = sum(len(c.items) for c in clusters)

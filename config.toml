@@ -20,6 +20,14 @@ mute = [
   "contexto", "best gaming", "gift guide",
 ]
 
+[digest.section_limits]
+# Plain-list mode (no AI) lists every story; the regional sections have hundreds, so keep the
+# top N of each. Sections not listed here are unlimited.
+World = 12
+Europe = 12
+Japan = 8
+Korea = 8
+
 [translate]
 # Feeds marked pfLang="xx" in feeds.opml are machine-translated to English at ingest with Gemini
 # (needs GEMINI_API_KEY; the free tier is enough). Each headline is translated once and cached.
@@ -48,6 +56,8 @@ provider = "gemini"
 [gemini]
 # Override with the GEMINI_MODEL env var. Check aistudio.google.com for current free-tier models.
 model = "gemini-3.8-flash"
+# Tried in order when the model above is still overloaded (HTTP 429/5xx) after its retries.
+fallback_models = ["gemini-3.7-flash", "gemini-3.5-flash-lite"]
 
 [claude]
 # Override with the CLAUDE_MODEL env var. claude-sonnet-5-5 or claude-haiku-4-5 cost less.
