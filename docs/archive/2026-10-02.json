@@ -1,132 +1,150 @@
 {
  "version": 1,
- "headline": "Global markets react to rising Eurozone inflation and shifting economic indicators as major developments unfold in AI, tech regulation, and international diplomacy.",
+ "headline": "Global headlines feature major political reforms in South Korea, European economic pressures and oil reserve proposals, smuggling arrests of restricted AI chips, and continued developments in international space missions.",
  "top": [
   {
-   "id": "f3a0baa81e8e",
-   "title": "OpenAI fires three employees for mishandling sensitive information",
-   "summary": "OpenAI terminated three workers after an investigation revealed they shared sensitive data with an outside AI evaluation group. The former employees are facing scrutiny over data handling policies.",
+   "id": "b96211e31b84",
+   "title": "US Authorities Arrest Man for Smuggling $300M+ in Restricted Nvidia AI Chips",
+   "summary": "Federal prosecutors arrested a California man suspected of smuggling over $300 million worth of restricted Nvidia AI chips to China via Malaysia and Singapore between 2023 and 2024.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-02T08:20:32Z",
+   "category": "Tech",
+   "published": "2026-10-02T09:45:01Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "US authorities arrest a California man suspected of smuggling $300M+ worth of restricted Nvidia AI chips to China via Malaysia and Singapore from 2023 to 2024 (Michael Shepard/Bloomberg)",
+     "url": "https://www.techmeme.com/261002/p5#a261002p5",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "89e1ab47a570",
+   "title": "South Korea Abolishes 78-Year-Old Prosecutors' Office in Sweeping Judicial Reform",
+   "summary": "South Korea has officially dissolved the Prosecutors' Office, splitting its powers between two newly established agencies under the administration's major government overhaul.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Korea",
+   "published": "2026-10-02T05:22:10Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "KBS World",
+     "title": "S. Korea Abolishes Prosecutors' Office; 2 New Agencies Take Charge",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204620",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "(3rd LD) S. Korea launches scaled-down prosecution, new investigation agency in major reform",
+     "url": "https://en.yna.co.kr/view/AEN20261002001553315",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "a0e9b4f8a382",
+   "title": "European Nations Discuss Diesel and Oil Reserve Releases Amid US Pressure",
+   "summary": "EU member states and the European Commission are holding emergency teleconference meetings to weigh a French proposal to release strategic crude oil and diesel reserves in response to US pressure.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-02T09:23:54Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "franceinfo (France)",
+     "title": "United States urges Europeans to release their diesel stocks to lower fuel prices",
+     "url": "https://www.franceinfo.fr/economie/transports/prix-des-carburants/les-etats-unis-exhortent-les-europeens-a-mettre-sur-le-marche-leurs-stocks-de-diesel-pour-faire-baisser-le-prix-des-carburants_8219194.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Les Etats-Unis exhortent les Européens à mettre sur le marché leurs stocks de diesel pour faire baisser le prix des carburants"
+    },
+    {
+     "outlet": "ERT News (Greece)",
+     "title": "Diesel: EU \"Task Force\" Meeting – French Proposal on the Table Against US Pressures for Strategic Reserves",
+     "url": "https://www.ertnews.gr/eidiseis/diethni/ntizel-synedriasi-task-force-tis-ee-galliki-protasi-sto-trapezi-enanti-stis-pieseis-ton-ipa-gia-ta-stratigika-apothemata/",
+     "official": false,
+     "translated_from": "el",
+     "original_title": "Ντίζελ: Συνεδρίαση «Task Force» της ΕΕ – Γαλλική πρόταση στο τραπέζι έναντι στις πιέσεις των ΗΠΑ για τα στρατηγικά αποθέματα"
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "France floats major oil and diesel reserve release in response to US pressure",
+     "url": "https://www.politico.eu/article/france-floats-major-release-of-oil-and-diesel-reserves-in-response-to-us-pressure/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "ad1ebe2500f1",
+   "title": "Astronauts Arrive at International Space Station in Record Time",
+   "summary": "A NASA Dragon spacecraft carrying four astronauts from the US, Canada, and Russia reached the International Space Station in roughly eight hours, setting a new US speed record.",
+   "importance": 4,
+   "label": "CONFIRMED",
+   "category": "Europe",
+   "published": "2026-10-02T07:21:40Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "NASA: Astronauts reach ISS in US record time",
+     "url": "https://orf.at/stories/3443859/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "NASA: Astronauten erreichen ISS in US-Rekordzeit"
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Astronauts reach ISS in record time",
+     "url": "https://www.tagesschau.de/ausland/amerika/iss-crew-im-all-angekommen-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Astronauten erreichen ISS in Rekordzeit"
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Two Americans, a Canadian, and a Russian join the International Space Station to replace Sophie Adenot's crew",
+     "url": "https://www.franceinfo.fr/sciences/espace/deux-americains-un-canadien-et-un-russe-rejoignent-la-station-spatiale-internationale-pour-remplacer-l-equipage-de-sophie-adenot_8219179.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Deux Américains, un Canadien et un Russe rejoignent la Station spatiale internationale pour remplacer l'équipage de Sophie Adenot"
+    }
+   ]
+  },
+  {
+   "id": "1819abcf4fd2",
+   "title": "Tennessee Death Row Inmate Christa Pike in Critical Condition After Botched Execution",
+   "summary": "Complications arose during the execution of Christa Pike in Tennessee, leaving the death row inmate in critical condition and reigniting the national debate over capital punishment.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-02T05:45:36Z",
    "outlet_count": 3,
    "sources": [
     {
      "outlet": "The Straits Times: World",
-     "title": "OpenAI says three employees fired for mishandling ‘sensitive’ info",
-     "url": "https://www.straitstimes.com/world/openai-says-three-employees-fired-for-mishandling-sensitive-info",
+     "title": "How did US death row inmate Christa Pike survive 2 lethal doses of pentobarbital?",
+     "url": "https://www.straitstimes.com/world/united-states/how-did-us-death-row-inmate-christa-pike-survive-2-lethal-doses-of-pentobarbital",
      "official": false
     },
     {
-     "outlet": "ORF News (Austria)",
-     "title": "OpenAI fires three employees following AI disclosures",
-     "url": "https://orf.at/stories/3443867/",
+     "outlet": "SRF News (Switzerland)",
+     "title": "Execution in the USA – Death row inmate Christa Pike in critical condition",
+     "url": "https://www.srf.ch/news/international/hinrichtung-in-den-usa-zum-tode-verurteilte-christa-pike-in-kritischem-zustand",
      "official": false,
      "translated_from": "de",
-     "original_title": "OpenAI entlässt drei Mitarbeiter nach KI-Enthüllungen"
+     "original_title": "Hinrichtung in den USA – Zum Tode Verurteilte Christa Pike in kritischem Zustand"
     },
     {
-     "outlet": "BBC News: World",
-     "title": "OpenAI fires workers for 'mishandling sensitive information'",
-     "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "90574014a7db",
-   "title": "Eurozone inflation jumps to a three-year high of 3.8% driven by energy costs",
-   "summary": "Eurozone inflation spiked to 3.8% in September, surpassing forecasts and reaching its highest level in three years, primarily driven by rising energy prices.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-02T09:39:21Z",
-   "outlet_count": 1,
-   "sources": [
-    {
-     "outlet": "Euronews",
-     "title": "Eurozone inflation spikes to 3.8%: Is your country on the worst list?",
-     "url": "https://www.euronews.com/2026/10/02/eurozone-inflation-spikes-to-38-is-your-country-on-the-worst-list",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "85362a222524",
-   "title": "Ubisoft restructures studio leadership under Massive Entertainment for major franchises",
-   "summary": "Ubisoft has united the developers behind Splinter Cell, The Division, and Ghost Recon under the Star Wars Outlaws developer Massive Entertainment, which will now coordinate international teams.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Gaming",
-   "published": "2026-10-01T14:00:11Z",
-   "outlet_count": 2,
-   "sources": [
-    {
-     "outlet": "Rock Paper Shotgun",
-     "title": "The Division developers Massive are now \"the global brand\" in charge of Splinter Cell and Ghost Recon, alongside a new Ubisoft dieselpunk MOBA",
-     "url": "https://www.rockpapershotgun.com/the-division-developers-massive-are-now-the-global-brand-in-charge-of-splinter-cell-and-ghost-recon-alongside-a-new-ubisoft-dieselpunk-moba",
-     "official": false
-    },
-    {
-     "outlet": "Kotaku",
-     "title": "Ubisoft Unites Developers Of Splinter Cell, The Division, Ghost Recon And More Under Star Wars Outlaws Studio Massive Entertainment",
-     "url": "https://kotaku.com/star-wars-outlaws-massive-ubisoft-tom-clancy-the-division-ghost-recon-2000738920",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "f9ed79e1751f",
-   "title": "Family of woman killed by US immigration agent files lawsuits against Trump administration",
-   "summary": "The family of Renee Good, a US citizen killed by an ICE agent in Minneapolis, has filed two lawsuits against the federal government and members of the Trump administration.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-01T21:22:05Z",
-   "outlet_count": 3,
-   "sources": [
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "Renee Good's family sues Trump admin over fatal ICE shooting",
-     "url": "https://www.dw.com/en/renee-good-s-family-sues-trump-admin-over-fatal-ice-shooting/a-79504836?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "BBC News: World",
-     "title": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
-     "url": "https://www.bbc.co.uk/news/articles/cwly7y5gvxlmo?at_medium=RSS&at_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Family of woman killed by US immigration agent sues Trump administration",
-     "url": "https://www.channelnewsasia.com/world/renee-good-family-sue-trump-administration-us-6425471",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "c8618932b076",
-   "title": "South Korea launches major criminal justice reform and new investigation agency",
-   "summary": "South Korea has overhauled its criminal justice system after 78 years, officially launching the Serious Crimes Investigation Agency and a restructured Public Prosecution Office.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Korea",
-   "published": "2026-10-02T04:27:20Z",
-   "outlet_count": 2,
-   "sources": [
-    {
-     "outlet": "The Korea Herald",
-     "title": "South Korea launches scaled-down prosecution, new investigation agency in major reform",
-     "url": "https://www.koreaherald.com/article/10891426",
-     "official": false
-    },
-    {
-     "outlet": "KBS World",
-     "title": "New Criminal Justice System Begins amid Political Clashes",
-     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204627",
-     "official": false
+     "outlet": "Tagesschau (Germany)",
+     "title": "Failed execution reignites debate over the death penalty",
+     "url": "https://www.tagesschau.de/ausland/amerika/hinrichtung-tennessee-giftspritze-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Gescheiterte Hinrichtung heizt Debatte über Todesstrafe neu an"
     }
    ]
   }
@@ -136,46 +154,10 @@
    "name": "AI",
    "stories": [
     {
-     "id": "4857c215e8f7",
-     "title": "Anthropic steps up geographical enforcement and VPN restrictions in Hong Kong",
-     "summary": "Users in Hong Kong report sudden account suspensions as Anthropic tightens enforcement of regional access restrictions on its Claude models.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-02T05:44:12Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "South China Morning Post",
-       "title": "Hong Kong users caught off guard as Anthropic tightens VPN access to Claude",
-       "url": "https://www.scmp.com/tech/tech-war/article/3369526/hong-kong-users-caught-offguard-anthropic-tightens-vpn-access-claude?utm_source=rss_feed",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "eca823e07b60",
-     "title": "Suno launches public beta for spoken word generation features",
-     "summary": "AI music generator Suno is expanding beyond music production, launching a public beta feature that generates spoken voices based on scripts or prompts across web and mobile platforms.",
+     "id": "a1b4cbdc8bb8",
+     "title": "New Research Proposes Backdoor Containment and LoRA-Tuned Purification for LLMs",
+     "summary": "Recent academic preprints explore automated backdoor mitigation techniques, including expert quarantine and null-space projection for parameter-efficient fine-tuned large language models.",
      "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-02T09:42:19Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "AI music maker Suno now generates spoken words",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "eadfc5e8fb01",
-     "title": "New research evaluates agentic inference, spatial strategies, and multi-agent reliability",
-     "summary": "Recent academic publications on arXiv explore adaptive agentic inference, vector-quantized geodesics for spatial understanding, and multi-agent team performance breakdowns.",
-     "importance": 2,
      "label": "REPORTED",
      "category": "AI",
      "published": "2026-10-02T04:00:00Z",
@@ -183,74 +165,44 @@
      "sources": [
       {
        "outlet": "arXiv cs.AI",
-       "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
-       "url": "https://arxiv.org/abs/2610.00437",
+       "title": "Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
+       "url": "https://arxiv.org/abs/2610.00663",
        "official": false
       },
       {
        "outlet": "arXiv cs.AI",
-       "title": "Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation",
-       "url": "https://arxiv.org/abs/2610.00447",
+       "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+       "url": "https://arxiv.org/abs/2610.00685",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "db57994adcba",
+     "title": "Studies Introduce State-of-the-Art Reasoning Benchmarks and Stateful Policy Engines for AI Agents",
+     "summary": "New arXiv papers outline ontology-grounded evaluation benchmarks, stateful security policy engines for agent tool calls, and meta-multi-agent reinforcement learning frameworks.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Ontology-Grounded, Reasoner-Verified Benchmarks for Evaluating LLM Reasoning in Scientific AI",
+       "url": "https://arxiv.org/abs/2610.00682",
        "official": false
       },
       {
        "outlet": "arXiv cs.AI",
-       "title": "Before Agents Decide: Epistemic Action in LLM-Based Systems",
-       "url": "https://arxiv.org/abs/2610.00511",
+       "title": "Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving",
+       "url": "https://arxiv.org/abs/2610.00705",
        "official": false
       },
       {
        "outlet": "arXiv cs.AI",
-       "title": "Ontology-Based Contextual AI Evaluations (OB-CAIE) Methodology",
-       "url": "https://arxiv.org/abs/2610.00529",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
-       "url": "https://arxiv.org/abs/2610.00531",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
-       "url": "https://arxiv.org/abs/2610.00583",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents",
-       "url": "https://arxiv.org/abs/2610.00609",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Spatial Strategies, Not Actions: Vector-Quantized Geodesics as Tools for LLM-Driven Agents",
-       "url": "https://arxiv.org/abs/2610.00613",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "CompMat-Bench: Benchmarking AI Agents for Computational Materials Science",
-       "url": "https://arxiv.org/abs/2610.00636",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Incident-Arena: Getting agents to the last nine of reliability",
-       "url": "https://arxiv.org/abs/2610.00648",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Agent Evaluation Reliability: More Tasks Won't (Always) Fix An Agent Leaderboard",
-       "url": "https://arxiv.org/abs/2610.00651",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "When More Data Is Not Enough: The Context-Sufficiency Frontier in Generative AI Personalization",
-       "url": "https://arxiv.org/abs/2610.00654",
+       "title": "Sapien: A Stateful Policy Engine for Autonomous AI Agents",
+       "url": "https://arxiv.org/abs/2610.00797",
        "official": false
       }
      ]
@@ -261,115 +213,55 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "c99ed0a0687f",
-     "title": "Amazon introduces new Kindle Paperwhite, Colorsoft, and entry-level models",
-     "summary": "Amazon has refreshed its e-reader lineup with updated Kindle Paperwhite, Colorsoft, and entry-level devices featuring flat-surface displays and new color options.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-10-01T13:00:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Engadget",
-       "title": "Amazon introduces new Kindle Paperwhite, Colorsoft and entry-level models",
-       "url": "https://www.engadget.com/2274300/amazon-launches-new-kindle-paperwhite-colorsoft-models-late-2026/",
-       "official": false
-      },
-      {
-       "outlet": "Wired",
-       "title": "Amazon Kindle, Paperwhite, and Colorsoft 2026: Specs, Price, Release Date",
-       "url": "https://www.wired.com/story/amazon-kindle-paperwhite-colorsoft-2026-refresh/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6e9a343078f6",
-     "title": "California approves balcony solar installations",
-     "summary": "California has become the latest US state to legalize balcony solar installations, joining nine other states in allowing the space-saving clean energy systems.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-10-02T09:39:12Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Engadget",
-       "title": "Balcony solar installations are now legal in America's most populous state",
-       "url": "https://www.engadget.com/2275466/california-legalizes-balcony-plug-in-solar/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "4c2f6b6713ac",
-     "title": "Healthcare workers raise concerns over Palantir software integration",
-     "summary": "Nurses and hospital staff report that scheduling software implemented by Palantir at major medical networks has led to increased errors, frustration, and burnout.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-02T09:30:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wired",
-       "title": "Health Care Workers Are Tired of Cleaning Up Palantir’s Mess",
-       "url": "https://www.wired.com/story/healthcare-workers-are-tired-of-cleaning-up-palantirs-mess/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9a11479616d6",
-     "title": "Samsung increases Galaxy S26 phone prices amid rising component costs",
-     "summary": "Samsung has unexpectedly raised the retail prices of its Galaxy S26 lineup due to escalating costs for RAM and mobile components.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-01T15:53:58Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Engadget",
-       "title": "Samsung suddenly jacks up the prices of Galaxy S26 phones",
-       "url": "https://www.engadget.com/2274612/samsung-suddenly-jacks-up-the-prices-of-galaxy-s26-phones/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "f60ea77b8883",
-     "title": "California Governor vetoes smart glasses privacy bill",
-     "summary": "Governor Gavin Newsom vetoed a proposed smart glasses privacy bill, citing overly broad language in the legislation.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-10-01T15:05:20Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Engadget",
-       "title": "Newsom vetoes smart glasses privacy bill",
-       "url": "https://www.engadget.com/2274526/newsom-vetoes-smart-glasses-privacy-bill/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6da2c84852c2",
-     "title": "Japanese court rules human voices are protected in landmark AI case",
-     "summary": "A Japanese court issued a landmark ruling establishing legal protections for human voices against unauthorized use by artificial intelligence systems.",
+     "id": "96745ca66927",
+     "title": "Recently Patched ChatGPT Mac App Vulnerability Exposed Sensitive User Data",
+     "summary": "A security flaw in OpenAI's ChatGPT Mac application could have allowed malicious actors to access sensitive data, highlighting vulnerabilities within AI client software.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-01T14:58:44Z",
+     "published": "2026-10-02T09:45:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Engadget",
-       "title": "Japanese court rules human voices are protected in landmark AI case",
-       "url": "https://www.engadget.com/2274521/japanese-court-rules-human-voices-are-protected-in-landmark-ai-case/",
+       "outlet": "Wired",
+       "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+       "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d515d75cf218",
+     "title": "Neurable Announces First Brain-Scanning Headphones for Focus Tracking",
+     "summary": "Neurable revealed its upcoming Neurable One headphones, which claim to measure cognitive focus, recommend breaks, and track your mental energy levels.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-01T11:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Exclusive: Neurable’s First Brain-Scanning Headphones Want to Fine-Tune Your Focus",
+       "url": "https://www.wired.com/story/exclusive-neurable-one-brain-scanning-headphones-want-to-fix-your-focus/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5cc86c5f5f15",
+     "title": "Autonomous Racing Cars Crash at 155 mph in Extreme Track Test",
+     "summary": "A high-speed autonomous vehicle race on a Formula 1 track saw most competing cars fail, exposing the extreme challenges sensors and AI systems face at high speeds.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-01T12:15:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "2 Driverless Cars Crashed Going 155 mph. That Could Be a Good Thing",
+       "url": "https://www.wired.com/story/2-driverless-cars-crashed-going-155-mph-that-could-be-a-good-thing/",
        "official": false
       }
      ]
@@ -380,127 +272,91 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "f6a36cb0b656",
-     "title": "Eight games scheduled to leave Xbox Game Pass in early October",
-     "summary": "Microsoft has revealed the next batch of eight titles slated to leave Xbox Game Pass in early October 2026, flagged as leaving soon on the mobile app.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-02T09:36:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Pure Xbox",
-       "title": "Eight Games Are Leaving Xbox Game Pass In Early October 2026",
-       "url": "https://www.purexbox.com/news/2026/10/eight-games-are-leaving-xbox-game-pass-in-early-october-2026",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "1937ee949073",
-     "title": "Steam Autumn Sale goes live with discounts on major titles",
-     "summary": "The Steam Autumn Sale has officially launched, featuring discounts such as 25% off Monster Hunter Wilds alongside various franchise bundles.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-02T08:34:04Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Steam News",
-       "title": "Autumn Sale Now Live!",
-       "url": "https://store.steampowered.com/news/app/2246340/view/702155125711438876",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bdf14979d1db",
-     "title": "Octopath Traveler games coming to GOG Preservation Program",
-     "summary": "Square Enix's Octopath Traveler and Octopath Traveler II will arrive on GOG on October 8th as part of the GOG Preservation Program.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-02T08:21:29Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Steam News",
-       "title": "OCTOPATH TRAVELER and OCTOPATH TRAVELER II are coming to GOG in the Preservation Program",
-       "url": "https://store.steampowered.com/news/group/4218320/view/703281025618281448",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c878eb9f3f99",
-     "title": "Croc 2: Kingdom of the Gobbos remaster launches on October 29",
-     "summary": "The upcoming remaster of the classic platformer Croc 2: Kingdom of the Gobbos has been officially dated for an October 29 release.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-01T16:32:19Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Croc 2: Kingdom of the Gobbos remaster launches [Cr]October 29 www.gematsu.com/2026/10/croc... www.youtube.com/watch?v=JqNf...",
-       "url": "https://www.gematsu.com/2026/10/croc-2-kingdom-of-the-gobbos-remaster-launches-october-29",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "2f22227719f2",
-     "title": "System Shock 2 remaster offered free on Epic Games Store",
-     "summary": "Nightdive Studios' superlative remaster of System Shock 2 is currently available as the free weekly game on the Epic Games Store.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-01T16:19:08Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "PC Gamer",
-       "title": "Sound the 'This week's free Epic Games Store game is worth logging in for' alarm",
-       "url": "https://www.pcgamer.com/games/fps/sound-the-this-weeks-free-epic-games-store-game-is-worth-logging-in-for-alarm/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "dfc8fa1eac4a",
-     "title": "PlayStation 5 introduces AI upscaling via Quick Spectral Super Resolution",
-     "summary": "Sony is rolling out Quick Spectral Super Resolution (QSSR), an AI upscaling feature coming to the PS5 with patches for games like Marvel's Wolverine and Ghost of Yōtei.",
+     "id": "cc8b6d966725",
+     "title": "Disney Confirms No Current Plans to Buy Epic Games But Teases Collaborations",
+     "summary": "Disney executive Dana Walden stated that the company is not planning a buyout of Epic Games right now, though multiple collaborative projects are scheduled over the next two years.",
      "importance": 4,
      "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-01T16:02:51Z",
+     "published": "2026-10-02T09:42:53Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wario64",
-       "title": "AI upscaling - Quick Spectral Super Resolution (QSSR) - is coming to PS5 Marvel's Wolverine and Ghost of Yōtei are the first titles to use QSSR, patches coming today…",
-       "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/",
+       "outlet": "Insider Gaming",
+       "title": "Disney Not Buying Epic Games ‘Right Now’ But Is Planning More Collabs",
+       "url": "https://insider-gaming.com/disney-epic-games-buyout-fortnite-collabs/",
        "official": false
       }
      ]
     },
     {
-     "id": "65c8176be7de",
-     "title": "Gears of War: E-Day system requirements detail ray tracing and SSD needs",
-     "summary": "System specifications for Gears of War: E-Day reveal that players will need a ray tracing-capable graphics card and 115 GB of free SSD storage space.",
+     "id": "34518bc543e4",
+     "title": "Arc Raiders Implements Zero-Tolerance Permanent Bans for Cheaters",
+     "summary": "Developer Embark Studios announced a strict permanent ban policy with no warnings or second chances for cheaters in Arc Raiders' upcoming Frozen Trail phase.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-01T14:47:03Z",
+     "published": "2026-10-01T12:49:09Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "PC Gamer",
-       "title": "Gears of War: E-Day system requirements require ray tracing-capable graphics card to play, alongside 115 GB of free space on an SSD",
-       "url": "https://www.pcgamer.com/games/action/gears-of-war-e-day-system-requirements-require-ray-tracing-capable-graphics-card-to-play-alongside-115-gb-of-free-space-on-an-ssd/",
+       "title": "Arc Raiders' is taking no prisoners when it comes to cheaters with permanent bans becoming the new normal: 'No warnings. No second chances'",
+       "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-taking-no-prisoners-when-it-comes-to-cheaters-with-permanent-bans-becoming-the-new-normal-no-warnings-no-second-chances/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6c880ce0fd38",
+     "title": "Steam Client Beta Update Enhances Pyrowave Remote Play Codec",
+     "summary": "Valve released a new Steam Client Beta featuring multiple performance improvements for the Pyrowave video streaming codec used in Remote Play.",
+     "importance": 2,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-02T07:51:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "Steam Client Beta for October 1st brings many Remote Play Pyrowave improvements",
+       "url": "https://store.steampowered.com/news/group/4218320/view/703281025618281440",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "929d7c387053",
+     "title": "AMD's 'Gainsborough' APU Rumored to Power Steam Deck 2",
+     "summary": "Unverified reports suggest AMD's upcoming APU codenamed 'Gainsborough' could be the hardware powering Valve's anticipated next-generation handheld.",
+     "importance": 3,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "Gaming",
+     "published": "2026-10-01T10:22:35Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "AMD's new 'Gainsborough' APU rumoured to be the chip that powers the long-awaited Steam Deck 2",
+       "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/amds-new-gainsborough-apu-rumoured-to-be-the-chip-that-powers-the-long-awaited-steam-deck-2/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c8165fb3d30c",
+     "title": "Final Fantasy XI Launches Free Trial Following Final Fantasy XIV's Footsteps",
+     "summary": "Square Enix is bringing a free trial version to the long-running MMORPG Final Fantasy XI, mirroring the successful trial format of its successor.",
+     "importance": 2,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-01T11:09:54Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "Have you heard of the critically acclaimed MMORPG… oh, Final Fantasy 11, that's new",
+       "url": "https://www.pcgamer.com/games/mmo/have-you-heard-of-the-critically-acclaimed-mmorpg-oh-final-fantasy-11-thats-new/",
        "official": false
       }
      ]
@@ -511,103 +367,55 @@
    "name": "World",
    "stories": [
     {
-     "id": "dbb611a728de",
-     "title": "FlyDubai captain recounts cockpit attack as international investigations continue",
-     "summary": "The Indian pilot who helped thwart an in-flight attack by his co-pilot on a FlyDubai flight described fighting for his life as the plane entered a steep descent.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-02T09:36:47Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Euronews",
-       "title": "Trump vows to hit Iran 'very hard' if linked to flydubai pilot stabbing attack",
-       "url": "https://www.euronews.com/2026/10/02/trump-vows-to-hit-iran-very-hard-if-linked-to-flydubai-pilot-stabbing-attack",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "Trump says Iran will be hit ‘very hard’ if it is behind copilot who tried to crash flight to Israel",
-       "url": "https://www.thehindu.com/news/international/trump-says-iran-will-be-hit-very-hard-if-it-is-behind-copilot-who-tried-to-crash-flight-to-israel/article71535847.ece",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "'I was fighting for my life': FlyDubai captain recalls cockpit attack",
-       "url": "https://www.euronews.com/video/2026/10/02/i-was-fighting-for-my-life-flydubai-captain-recalls-cockpit-attack",
-       "official": false
-      },
-      {
-       "outlet": "CBC News: World",
-       "title": "'I was fighting for my life': Indian pilot hailed as hero recalls FlyDubai cockpit attack",
-       "url": "https://www.cbc.ca/news/world/flydubai-pilot-interview-hospital-9.7366522?cmp=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ed52e5332400",
-     "title": "Eritrea and Ethiopia sever diplomatic ties following border tensions",
-     "summary": "Eritrea has cut diplomatic ties with Ethiopia after Addis Ababa closed its embassy in Asmara amid renewed regional friction.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-02T04:40:14Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Ethiopia and Eritrea sever ties amid Tigray fighting",
-       "url": "https://www.dw.com/en/ethiopia-and-eritrea-sever-ties-amid-tigray-fighting/a-79507052?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Eritrea severs diplomatic ties with Ethiopia in row over Tigray",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/eritrea-severs-diplomatic-ties-with-ethiopia-in-row-over-tigray?traffic_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "857e32a0e717",
-     "title": "Tennessee suspends executions after failed lethal injection leaves inmate critical",
-     "summary": "Tennessee Governor ordered an independent inquiry and suspended executions following a botched lethal injection that left death row inmate Christa Pike in critical condition.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-02T04:18:18Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "BBC News: World",
-       "title": "What we know about Christa Pike’s condition after failed execution",
-       "url": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Tennessee suspends executions as Christa Pike’s lawyer says failed lethal injection leaves her in critical condition",
-       "url": "https://www.theguardian.com/us-news/2026/oct/01/christa-pike-tennessee-governor-executions-year-pause",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "580cb0fb5bf8",
-     "title": "NBA closes its sole Africa training academy amid global restructuring",
-     "summary": "The NBA has shut down its training academy in Africa as part of a shift toward new global facilities opening in regions like Abu Dhabi.",
+     "id": "fb56f96c9829",
+     "title": "JD Vance Calls H-1B Visa Program 'Completely Broken' and Backs Scrapping It",
+     "summary": "In recent comments, political figures have targeted immigration policy, with JD Vance expressing strong criticism of the H-1B visa framework.",
      "importance": 3,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-02T09:26:14Z",
+     "published": "2026-10-02T05:29:56Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Al Jazeera",
-       "title": "NBA closes sole Africa training academy in blow to young players",
-       "url": "https://www.aljazeera.com/sports/2026/10/2/nba-closes-sole-africa-training-academy-in-blow-to-young-players?traffic_source=rss",
+       "outlet": "Times of India: World",
+       "title": "'H-1B programme is completely broken': JD Vance backs scrapping visa system",
+       "url": "https://timesofindia.indiatimes.com/world/us/h-1b-programme-is-completely-broken-jd-vance-backs-scrapping-visa-system/articleshow/134632435.cms",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e5a3fd372b3e",
+     "title": "Oceanographic Researchers Discover Rapid Deep Water Upwelling Using Fluorescent Dye",
+     "summary": "Scientists tracking deep ocean water dynamics in the Rockall Trough using fluorescent dye measured upward movement reaching 125 meters per day, far faster than previous estimates.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-02T05:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Times of India: World",
+       "title": "Scientists released fluorescent dye nearly 2 km underwater; it revealed deep water rising 100 metres a day",
+       "url": "https://timesofindia.indiatimes.com/science/discovery/in-2021-scientists-released-fluorescent-dye-1870-metres-deep-in-the-north-atlantic-tracking-it-revealed-canyon-water-rising-about-100-metres-a-day-around-10000-times-the-global-average/articleshow/134632437.cms",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0fdad88c2c11",
+     "title": "Jack Johnson's Foundation Transforms Hawaii Farmland into Educational Student Farm",
+     "summary": "The Kōkua Hawaiʻi Foundation's agricultural initiative on Oʻahu has successfully yielded thousands of pounds of student-harvested produce over a six-year educational project.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-02T05:32:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Times of India: World",
+       "title": "Jack Johnson’s foundation transformed neglected Hawaii farmland into a thriving farm for students",
+       "url": "https://timesofindia.indiatimes.com/world/us/in-2019-jack-johnsons-foundation-bought-neglected-farmland-in-hawaii-six-years-later-it-reported-over-40000-pounds-of-produce-harvested-and-more-than-2200-students-welcomed-on-field-trips/articleshow/134589276.cms",
        "official": false
       }
      ]
@@ -618,98 +426,114 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "708482c2178e",
-     "title": "UK-Iranian national arrested over security incident at RAF Fairford",
-     "summary": "Police arrested a dual UK-Iranian national alongside several other men near the RAF Fairford air base in England on suspicion of explosives and terror offenses.",
+     "id": "4adbf6e8e504",
+     "title": "French Borrowing Costs Hit 24-Year High Amid Broader European Bond Market Shifts",
+     "summary": "Government bond yields across Europe steadied following a sell-off that pushed France's 10-year borrowing costs to their highest levels since 2002 and UK 30-year yields past 6%.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-02T06:53:36Z",
-     "outlet_count": 3,
+     "published": "2026-10-02T09:43:43Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "New York Times: World",
-       "title": "UK-Iranian Man Arrested in Connection to RAF Fairford Air Base Incident",
-       "url": "https://www.nytimes.com/2026/10/01/world/europe/uk-iran-terrorism-raf-fairford.html",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: UK",
-       "title": "UK-Iranian dual national arrested over RAF Fairford incident, police say",
-       "url": "https://www.bbc.co.uk/news/articles/cmdx5xw36492o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
        "outlet": "Euronews",
-       "title": "Dual UK-Iranian national arrested over security incident at RAF air base in England",
-       "url": "https://www.euronews.com/2026/10/02/dual-uk-iranian-national-arrested-over-security-incident-at-raf-air-base-in-england",
+       "title": "Bonds steady as French borrowing costs hit 24-year high and UK 30-year yields top 6%",
+       "url": "https://www.euronews.com/2026/10/02/bonds-steady-as-french-borrowing-costs-hit-24-year-high-and-uk-30-year-yields-top-6",
        "official": false
       }
      ]
     },
     {
-     "id": "958a718c88a7",
-     "title": "Spanish authorities issue severe weather alerts as torrential rains hit Tarragona",
-     "summary": "Civil protection in Spain issued emergency ES-Alerts for southern Tarragona, ordering town confinements as heavy storms and flooding impact the Mediterranean coast.",
+     "id": "bf21d7f82c2f",
+     "title": "Ethiopia and Eritrea Sever Diplomatic Ties as Regional Conflict Escalates",
+     "summary": "Diplomatic relations between Ethiopia and Eritrea have been officially severed amid a sharp escalation in fighting along their northern borders.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-02T09:38:56Z",
+     "published": "2026-10-02T04:28:26Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "South China Morning Post",
+       "title": "Ethiopia and Eritrea sever diplomatic ties as northern fighting escalates",
+       "url": "https://www.scmp.com/news/world/africa/article/3369512/ethiopia-and-eritrea-sever-diplomatic-ties-northern-fighting-escalates?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Ethiopia and Eritrea sever diplomatic relations",
+       "url": "https://orf.at/stories/3443858/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Äthiopien und Eritrea brechen diplomatische Beziehungen ab"
+      }
+     ]
+    },
+    {
+     "id": "ae39c9b29484",
+     "title": "German Department Store Chain Galeria Files for Insolvency Again",
+     "summary": "Major German department store chain Galeria has filed for insolvency once more, putting numerous locations and jobs at risk.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-02T09:42:28Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Galeria: Department store chain files for insolvency once again",
+       "url": "https://www.spiegel.de/wirtschaft/unternehmen/galeria-warenhauskette-stellt-erneut-insolvenzantrag-a-a2e72dff-78c8-461a-8bc2-4a2294a69c60#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Galeria: Warenhauskette stellt erneut Insolvenzantrag"
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Department Store Chain Galeria Files for Insolvency Again",
+       "url": "https://www.tagesschau.de/video/video-1659230.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Warenhauskette Galeria stellt erneut Insolvenzantrag"
+      }
+     ]
+    },
+    {
+     "id": "458262cb005f",
+     "title": "Severe Storms Bring Torrential Rain and Flash Flood Alerts Across Spain",
+     "summary": "Catalonia and the Valencian Community remain under red weather alerts as heavy torrential rainstorms drop over 220 liters of precipitation in parts of Tarragona.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-02T07:30:34Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "El País (Spain)",
-       "title": "Live Updates on the Storm in Spain: Civil Protection Issues New ES-Alert in Southern Tarragona as Rains Expected to Reach 90 Liters in Three Hours",
-       "url": "https://elpais.com/el-tiempo/2026-10-02/ultima-hora-del-temporal-en-espana-en-directo.html",
+       "title": "Second day of torrential rainstorm: Tarragona exceeds 220 liters and Castellón 170",
+       "url": "https://elpais.com/el-tiempo/2026-10-02/segundo-dia-del-temporal-de-lluvias-torrenciales-y-persistentes-persiste-el-rojo-en-tarragona-y-castellon.html",
        "official": false,
        "translated_from": "es",
-       "original_title": "Última hora del temporal en España, en directo | Protección Civil envía un nuevo ES-Alert en el sur de Tarragona ante lluvias que dejarán 90 litros en tres horas"
+       "original_title": "Segundo día del temporal de lluvias torrenciales: Tarragona supera los 220 litros y Castellón los 170"
       }
      ]
     },
     {
-     "id": "227e9e894bc9",
-     "title": "Swiss Federal Councillor Guy Parmelin announces departure at end of 2026",
-     "summary": "Swiss government member Guy Parmelin has announced he will step down from his post at the end of 2026 after eleven years in office.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Europe",
-     "published": "2026-10-02T09:41:52Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "SRF News (Switzerland)",
-       "title": "Guy Parmelin Steps Down – From Alibi Candidate to Statesman",
-       "url": "https://www.srf.ch/news/schweiz/guy-parmelin-tritt-zurueck-vom-alibi-kandidaten-zum-staatsmann-guy-parmelin-im-bundesrat",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Guy Parmelin tritt zurück – Vom Alibi-Kandidaten zum Staatsmann"
-      },
-      {
-       "outlet": "SRF News (Switzerland)",
-       "title": "After Eleven Years – Federal Councillor Guy Parmelin to Step Down at the End of 2026",
-       "url": "https://www.srf.ch/news/schweiz/nach-elf-jahren-bundesrat-guy-parmelin-tritt-per-ende-2026-zurueck",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Nach elf Jahren – Bundesrat Guy Parmelin tritt per Ende 2026 zurück"
-      }
-     ]
-    },
-    {
-     "id": "1b27a2d2d95c",
-     "title": "DTU data breach compromises personal details of 200,000 users",
-     "summary": "Hackers breached a Technical University of Denmark database, exposing names, ID numbers, and contact details belonging to roughly 200,000 current and former users.",
+     "id": "31acfe141f61",
+     "title": "Greek Government Repays 2.5 Billion Euros in Public Debt to EFSF",
+     "summary": "Greece successfully repaid 2.5 billion euros to the European Financial Stability Facility utilizing revenues generated from the re-privatization of domestic banks.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-02T09:33:28Z",
+     "published": "2026-10-02T08:58:33Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Copenhagen Post (Denmark)",
-       "title": "DTU data breach may affect personal information of 200,000 current and former users",
-       "url": "https://cphpost.dk/2026-10-02/life-in-denmark/dtu-data-breach-may-affect-personal-information-of-200000-current-and-former-users/",
-       "official": false
+       "outlet": "ERT News (Greece)",
+       "title": "Greece Repays Public Debt of 2.5 Billion Euros",
+       "url": "https://www.ertnews.gr/eidiseis/oikonomia/h-ellada-proxorise-stin-apopliromi-dimosiou-xreous-ypsous-2-5-dis-eyro/",
+       "official": false,
+       "translated_from": "el",
+       "original_title": "H Eλλάδα προχώρησε στην αποπληρωμή Δημοσίου χρέους ύψους 2,5 δισ. ευρώ"
       }
      ]
     }
@@ -719,73 +543,85 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "6cea65993cd5",
-     "title": "Tepco begins long-delayed investigation inside Fukushima reactor interior",
-     "summary": "Tokyo Electric Power Company has commenced a delayed probe inside a Fukushima reactor after repeatedly postponing operations to remove debris and replace cameras.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Japan",
-     "published": "2026-10-02T03:39:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Japan Times",
-       "title": "Tepco begins long-delayed probe of Fukushima reactor’s interior",
-       "url": "https://www.japantimes.co.jp/news/2026/10/02/japan/tepco-investigation-start/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "0aa0c916d315",
-     "title": "Nidec details recovery plan involving unit sales and AI infrastructure investments",
-     "summary": "Nidec has unveiled a new business plan under fresh leadership to improve its financial standing and avoid potential delisting or hostile buyouts.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Japan",
-     "published": "2026-10-02T03:09:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Japan Times",
-       "title": "Nidec lays out recovery plan with unit sales and investments for AI",
-       "url": "https://www.japantimes.co.jp/business/2026/10/02/companies/nidec-news-conference-recovery-plan/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9a40a555a344",
-     "title": "Japan to mandate corporate reporting for beneficial owners",
-     "summary": "The Japanese government plans to require corporations to report detailed information on beneficial owners to crack down on criminal networks and track foreign land ownership.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Japan",
-     "published": "2026-10-02T03:03:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Japan Times",
-       "title": "Japan to require corporations to report details of beneficial owners",
-       "url": "https://www.japantimes.co.jp/news/2026/10/02/japan/crime-legal/beneficial-owners-information-reporting/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e6f8f5604e0f",
-     "title": "Apollo backs $15 billion AI infrastructure project in Japan",
-     "summary": "A new $15 billion infrastructure project backed by Apollo aims to expand Japan's AI capacity by investing in land, power grids, construction, and computing resources.",
+     "id": "64b72a50f865",
+     "title": "Bank of Japan Debates Further Rate Hikes to Adjust Accommodative Monetary Policy",
+     "summary": "An opinion summary from the Bank of Japan indicates policymakers actively debated implementing additional interest rate hikes to normalize accommodative financial conditions.",
      "importance": 4,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-02T02:30:00Z",
+     "published": "2026-10-02T09:49:48Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "BOJ debated more rate hikes to adjust 'accommodative' conditions: opinion summary",
+       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-debated-more-rate-hikes-to-adjust-accommodative-conditions-opinion-summary",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "deccc7992ff9",
+     "title": "Northern Japan Regional Banks Consider Three-Way Merger Talks",
+     "summary": "Leading regional banks in northern Japan have begun exploring a three-way consolidation to create a dominant regional lender amidst shifting banking landscapes.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-02T09:49:48Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Regional banks in northern Japan to consider three-way merger",
+       "url": "https://www.japantimes.co.jp/business/2026/10/02/companies/regional-banks-merger-consideration/",
+       "official": false
+      },
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Northern Japan banks set for merger talks to create region's top lender",
+       "url": "https://asia.nikkei.com/business/business-deals/northern-japan-banks-set-for-merger-talks-to-create-region-s-top-lender",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d4de6d179f06",
+     "title": "Kei Nishikori Bows Out in Final Professional Match in Tokyo",
+     "summary": "Former US Open singles finalist Kei Nishikori played his final professional tournament match in Tokyo to a cheering home crowd.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-02T02:10:00Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Japan Times",
-       "title": "Apollo to back $15 billion AI infrastructure project in Japan",
-       "url": "https://www.japantimes.co.jp/business/2026/10/02/companies/apollo-japan-ai/",
+       "title": "Nishikori bows out for final time in Tokyo as crowd salutes Japanese trailblazer",
+       "url": "https://www.japantimes.co.jp/sports/2026/10/02/tennis/kei-nishikori-retires/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "48db694f7ae0",
+     "title": "Japan Times Reports Unauthorized Access to Group Management Servers",
+     "summary": "The Japan Times announced that certain servers managed by a group company experienced unauthorized access, with investigations currently underway.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Japan",
+     "published": "2026-10-02T01:34:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Notice Regarding Unauthorized Access to Servers Managed by Our Group",
+       "url": "https://www.japantimes.co.jp/press/2026/10/02/notice-ransomware-incident/",
+       "official": false
+      },
+      {
+       "outlet": "The Japan Times",
+       "title": "当社グループ管理サーバーへの不正アクセスに関するお知らせ",
+       "url": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
        "official": false
       }
      ]
@@ -796,109 +632,73 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "fff0c3e0e4fe",
-     "title": "South Korea claims gold medals in Asian Games archery and League of Legends",
-     "summary": "South Korean athletes secured multiple victories at the Asian Games, winning the men's team recurve archery gold and taking the top spot in the League of Legends competition.",
+     "id": "02e00ffc6b13",
+     "title": "South Korean Trade Minister Urges US to Respect 15% Bilateral Tariff Cap",
+     "summary": "Trade Minister Park Jung-sung officially requested that the United States uphold the bilateral agreement capping tariffs on South Korean products at 15 percent.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-02T07:04:53Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "KBS World",
-       "title": "S. Korea Takes Silver in Women’s Recurve Team Archery at Asian Games, Snapping Gold Streak",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204626",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(URGENT) S. Korea wins gold in LoL competition at Asian Games; Faker takes 2nd Asiad gold",
-       "url": "https://en.yna.co.kr/view/AEN20261002006300320",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(URGENT) S. Korea wins men's team gold medal in recurve archery at Asian Games",
-       "url": "https://en.yna.co.kr/view/AEN20261002006800315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(Asiad) S. Korea wins gold in LoL competition; Faker takes 2nd Asiad gold",
-       "url": "https://en.yna.co.kr/view/AEN20261002006500320",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(Asiad) S. Korea wins 2nd straight gold in men's team recurve archery",
-       "url": "https://en.yna.co.kr/view/AEN20261002006900315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) (Asiad) S. Korea wins 2nd straight gold in men's team recurve archery",
-       "url": "https://en.yna.co.kr/view/AEN20261002006951315",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d7238afb05ff",
-     "title": "Unification Minister proposes inter-Korean talks over Military Demarcation Line dispute",
-     "summary": "South Korea's unification minister has called for direct talks with North Korea to resolve ongoing border tensions stemming from recent landmine incidents.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-02T02:58:04Z",
+     "published": "2026-10-02T01:21:10Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "KBS World",
-       "title": "Unification Minister Proposes Inter-Korean Talks to Resolve Border Dispute",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204625",
+       "title": "Trade Minister Asks US to Respect 15% Limit on Tariffs under Bilateral Deal",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204621",
        "official": false
       }
      ]
     },
     {
-     "id": "23f89a9f0215",
-     "title": "Seoul warns Ukraine over denied POW confidentiality agreement",
-     "summary": "President Lee Jae Myung warned of potential countermeasures if Ukraine continues to deny the existence of a nondisclosure agreement regarding transferred North Korean prisoners of war.",
-     "importance": 3,
+     "id": "335012df3ac2",
+     "title": "South Korea Reviews Options Following North Korean-Linked DMZ Landmine Blast",
+     "summary": "Seoul officials stated that the government is evaluating all possible countermeasures following a landmine explosion linked to North Korea inside the Demilitarized Zone.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-02T02:32:27Z",
+     "published": "2026-10-02T04:56:05Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "KBS World",
-       "title": "Ukraine’s Foreign Minister Calls POW Transfer Spat ‘Diplomatic Misunderstanding’",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204622",
-       "official": false
-      },
-      {
-       "outlet": "KBS World",
-       "title": "Lee Warns of ‘Additional Measures’ as Ukraine Denies POW Confidentiality Deal",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204623",
+       "outlet": "Yonhap News",
+       "title": "Gov't reviewing 'all possible measures' over N.K.-linked DMZ mine blast: senior official",
+       "url": "https://en.yna.co.kr/view/AEN20261002005300315",
        "official": false
       }
      ]
     },
     {
-     "id": "6678329ac806",
-     "title": "President Lee approves confirmation hearing for new investigation agency chief",
-     "summary": "South Korean President Lee Jae Myung submitted a request for a parliamentary confirmation hearing for the nominee designated to lead the newly formed Serious Crimes Investigation Agency.",
+     "id": "26b8928f8ee5",
+     "title": "KB Kookmin Bank Suffers Customer Information Leak",
+     "summary": "Major commercial lender KB Kookmin Bank reported a customer data breach, raising widespread industry concerns over cybersecurity across other domestic financial institutions.",
      "importance": 3,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "Korea",
+     "published": "2026-10-02T05:08:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) KB Kookmin Bank suffers info leak raising concerns over data breach at other lenders",
+       "url": "https://en.yna.co.kr/view/AEN20261002004951320",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8479e7c348e0",
+     "title": "Singer-Actors T.O.P and Nana Publicly Confirm Romantic Relationship",
+     "summary": "Entertainment agencies confirmed that prominent South Korean singer-actors T.O.P and Nana have been in a relationship.",
+     "importance": 2,
      "label": "CONFIRMED",
      "category": "Korea",
-     "published": "2026-10-02T00:48:48Z",
+     "published": "2026-10-02T04:41:33Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Korea Herald",
-       "title": "President requests confirmation hearing for nominee to head new investigation agency",
-       "url": "https://www.koreaherald.com/article/10891392",
+       "outlet": "Yonhap News",
+       "title": "T.O.P, Nana confirm romantic relationship",
+       "url": "https://en.yna.co.kr/view/AEN20261002005000315",
        "official": false
       }
      ]
@@ -907,89 +707,16 @@
   },
   {
    "name": "Deals",
-   "stories": [
-    {
-     "id": "1166fe590fbf",
-     "title": "Armatus preorders available at video game retailers",
-     "summary": "Physical preorders for Armatus on PS5, Xbox Series X, and Switch 2 are available through retailers like VGP and PNP starting around $31.60.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-01T16:25:34Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Armatus (PS5/XSX/Switch 2) up for preorder at VGP ($31.60/$42.14 US Dollars) buff.ly/XVK3NXD PNP buff.ly/RtY5W2P #ad Switch 2 on cart",
-       "url": "https://buff.ly/XVK3NXD",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bb7d6ba8d1cf",
-     "title": "Design Within Reach offers up to 30% off with promo codes",
-     "summary": "Design Within Reach is offering up to 30% off select furniture and free shipping using active promotional coupon codes.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-02T05:00:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wired",
-       "title": "Design Within Reach Promo Codes: 30% Off",
-       "url": "https://www.wired.com/story/design-within-reach-promo-code/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "cef446928d16",
-     "title": "Amazon rolls out early discounts ahead of Prime Big Deal Days",
-     "summary": "Ahead of the official Amazon Prime Big Deal Days sales event on October 6 and 7, early discounts are live on select recommended tech and gear.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-01T20:53:32Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wired",
-       "title": "The Best Early Prime Day Deals Ahead of Amazon’s Second Sale (2026)",
-       "url": "https://www.wired.com/story/amazon-prime-day-early-deals-10-01-2026/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3424bbe1339d",
-     "title": "Re:ZERO – The Prophecy of the Throne physical reprints up for preorder",
-     "summary": "Standard and Steelbook physical reprints for Re:ZERO – The Prophecy of the Throne on PS4 and Nintendo Switch are available for preorder at VGP.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-01T16:40:34Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Re:ZERO – The Prophecy of the Throne (PS4/Switch) Standard/Steelbook reprint up at VGP ($31.60-$42.14 US Dollars) buff.ly/qFb2Ooe #ad",
-       "url": "https://buff.ly/qFb2Ooe",
-       "official": false
-      }
-     ]
-    }
-   ]
+   "stories": []
   }
  ],
  "date": "2026-10-02",
- "generated_at": "2026-10-02T09:43:18Z",
+ "generated_at": "2026-10-02T09:49:48Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 455,
-  "clusters": 424,
+  "items": 322,
+  "clusters": 307,
   "feeds_ok": 116,
   "feeds_failed": 0
  },
