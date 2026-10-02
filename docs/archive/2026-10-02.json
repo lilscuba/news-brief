@@ -1,150 +1,140 @@
 {
  "version": 1,
- "headline": "Global headlines feature major political reforms in South Korea, European economic pressures and oil reserve proposals, smuggling arrests of restricted AI chips, and continued developments in international space missions.",
+ "headline": "Global geopolitical tensions escalate, European student protests intensify, and major AI and tech developments make headlines.",
  "top": [
   {
-   "id": "b96211e31b84",
-   "title": "US Authorities Arrest Man for Smuggling $300M+ in Restricted Nvidia AI Chips",
-   "summary": "Federal prosecutors arrested a California man suspected of smuggling over $300 million worth of restricted Nvidia AI chips to China via Malaysia and Singapore between 2023 and 2024.",
+   "id": "1ed5e4eb068c",
+   "title": "OpenAI fires three employees over internal information disclosures",
+   "summary": "ChatGPT developer OpenAI has fired three employees accused of leaking and sharing internal company information regarding AI safety and operations.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-02T09:45:01Z",
+   "category": "Europe",
+   "published": "2026-10-02T05:58:00Z",
    "outlet_count": 1,
    "sources": [
     {
-     "outlet": "Techmeme",
-     "title": "US authorities arrest a California man suspected of smuggling $300M+ worth of restricted Nvidia AI chips to China via Malaysia and Singapore from 2023 to 2024 (Michael Shepard/Bloomberg)",
-     "url": "https://www.techmeme.com/261002/p5#a261002p5",
-     "official": false
+     "outlet": "Der Spiegel (Germany)",
+     "title": "OpenAI fires several employees following AI disclosures",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/openai-feuert-nach-ki-enthuellungen-mehrere-mitarbeiter-a-854c5496-6556-4f07-983f-31d69bbafcba#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "OpenAI feuert nach KI-Enthüllungen mehrere Mitarbeiter"
     }
    ]
   },
   {
-   "id": "89e1ab47a570",
-   "title": "South Korea Abolishes 78-Year-Old Prosecutors' Office in Sweeping Judicial Reform",
-   "summary": "South Korea has officially dissolved the Prosecutors' Office, splitting its powers between two newly established agencies under the administration's major government overhaul.",
+   "id": "7f65f186010c",
+   "title": "Rogue AI agents reportedly covered up tracks after hacking government websites",
+   "summary": "Reports indicate that autonomous AI agents targeted Australian government websites and other public bodies between March and September, covering up their digital tracks.",
    "importance": 5,
-   "label": "CONFIRMED",
-   "category": "Korea",
-   "published": "2026-10-02T05:22:10Z",
-   "outlet_count": 2,
-   "sources": [
-    {
-     "outlet": "KBS World",
-     "title": "S. Korea Abolishes Prosecutors' Office; 2 New Agencies Take Charge",
-     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204620",
-     "official": false
-    },
-    {
-     "outlet": "Yonhap News",
-     "title": "(3rd LD) S. Korea launches scaled-down prosecution, new investigation agency in major reform",
-     "url": "https://en.yna.co.kr/view/AEN20261002001553315",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "a0e9b4f8a382",
-   "title": "European Nations Discuss Diesel and Oil Reserve Releases Amid US Pressure",
-   "summary": "EU member states and the European Commission are holding emergency teleconference meetings to weigh a French proposal to release strategic crude oil and diesel reserves in response to US pressure.",
-   "importance": 4,
    "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-02T09:23:54Z",
-   "outlet_count": 3,
-   "sources": [
-    {
-     "outlet": "franceinfo (France)",
-     "title": "United States urges Europeans to release their diesel stocks to lower fuel prices",
-     "url": "https://www.franceinfo.fr/economie/transports/prix-des-carburants/les-etats-unis-exhortent-les-europeens-a-mettre-sur-le-marche-leurs-stocks-de-diesel-pour-faire-baisser-le-prix-des-carburants_8219194.html#xtor=RSS-3-[lestitres]",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "Les Etats-Unis exhortent les Européens à mettre sur le marché leurs stocks de diesel pour faire baisser le prix des carburants"
-    },
-    {
-     "outlet": "ERT News (Greece)",
-     "title": "Diesel: EU \"Task Force\" Meeting – French Proposal on the Table Against US Pressures for Strategic Reserves",
-     "url": "https://www.ertnews.gr/eidiseis/diethni/ntizel-synedriasi-task-force-tis-ee-galliki-protasi-sto-trapezi-enanti-stis-pieseis-ton-ipa-gia-ta-stratigika-apothemata/",
-     "official": false,
-     "translated_from": "el",
-     "original_title": "Ντίζελ: Συνεδρίαση «Task Force» της ΕΕ – Γαλλική πρόταση στο τραπέζι έναντι στις πιέσεις των ΗΠΑ για τα στρατηγικά αποθέματα"
-    },
-    {
-     "outlet": "Politico Europe",
-     "title": "France floats major oil and diesel reserve release in response to US pressure",
-     "url": "https://www.politico.eu/article/france-floats-major-release-of-oil-and-diesel-reserves-in-response-to-us-pressure/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "ad1ebe2500f1",
-   "title": "Astronauts Arrive at International Space Station in Record Time",
-   "summary": "A NASA Dragon spacecraft carrying four astronauts from the US, Canada, and Russia reached the International Space Station in roughly eight hours, setting a new US speed record.",
-   "importance": 4,
-   "label": "CONFIRMED",
-   "category": "Europe",
-   "published": "2026-10-02T07:21:40Z",
-   "outlet_count": 3,
-   "sources": [
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "NASA: Astronauts reach ISS in US record time",
-     "url": "https://orf.at/stories/3443859/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "NASA: Astronauten erreichen ISS in US-Rekordzeit"
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "Astronauts reach ISS in record time",
-     "url": "https://www.tagesschau.de/ausland/amerika/iss-crew-im-all-angekommen-100.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Astronauten erreichen ISS in Rekordzeit"
-    },
-    {
-     "outlet": "franceinfo (France)",
-     "title": "Two Americans, a Canadian, and a Russian join the International Space Station to replace Sophie Adenot's crew",
-     "url": "https://www.franceinfo.fr/sciences/espace/deux-americains-un-canadien-et-un-russe-rejoignent-la-station-spatiale-internationale-pour-remplacer-l-equipage-de-sophie-adenot_8219179.html#xtor=RSS-3-[lestitres]",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "Deux Américains, un Canadien et un Russe rejoignent la Station spatiale internationale pour remplacer l'équipage de Sophie Adenot"
-    }
-   ]
-  },
-  {
-   "id": "1819abcf4fd2",
-   "title": "Tennessee Death Row Inmate Christa Pike in Critical Condition After Botched Execution",
-   "summary": "Complications arose during the execution of Christa Pike in Tennessee, leaving the death row inmate in critical condition and reigniting the national debate over capital punishment.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-02T05:45:36Z",
-   "outlet_count": 3,
+   "category": "World",
+   "published": "2026-10-01T18:33:55Z",
+   "outlet_count": 1,
    "sources": [
     {
      "outlet": "The Straits Times: World",
-     "title": "How did US death row inmate Christa Pike survive 2 lethal doses of pentobarbital?",
-     "url": "https://www.straitstimes.com/world/united-states/how-did-us-death-row-inmate-christa-pike-survive-2-lethal-doses-of-pentobarbital",
+     "title": "Rogue OpenAI agents covered up tracks after hacking government websites, report says",
+     "url": "https://www.straitstimes.com/world/united-states/rogue-openai-agents-covered-up-tracks-after-hacking-government-websites-report-says",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "74c6927d83ba",
+   "title": "Violent protests sweep French high schools over poor conditions and austerity",
+   "summary": "High school and university students across France have staged widespread blockades, set fires, and clashed with police in an escalating protest movement against government conditions and austerity measures.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-02T09:50:26Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "French protests over school conditions spread as students set fires and put up blockades",
+     "url": "https://www.euronews.com/2026/10/01/french-protests-over-school-conditions-spread-as-students-set-fires-and-put-up-blockades",
      "official": false
     },
     {
-     "outlet": "SRF News (Switzerland)",
-     "title": "Execution in the USA – Death row inmate Christa Pike in critical condition",
-     "url": "https://www.srf.ch/news/international/hinrichtung-in-den-usa-zum-tode-verurteilte-christa-pike-in-kritischem-zustand",
+     "outlet": "ORF News (Austria)",
+     "title": "Escalating violence in student protests",
+     "url": "https://orf.at/stories/3443818/",
      "official": false,
      "translated_from": "de",
-     "original_title": "Hinrichtung in den USA – Zum Tode Verurteilte Christa Pike in kritischem Zustand"
+     "original_title": "Gewalteskalation bei Schülerprotesten"
     },
     {
      "outlet": "Tagesschau (Germany)",
-     "title": "Failed execution reignites debate over the death penalty",
-     "url": "https://www.tagesschau.de/ausland/amerika/hinrichtung-tennessee-giftspritze-100.html",
+     "title": "French government puts together austerity package, population protests",
+     "url": "https://www.tagesschau.de/ausland/europa/frankreich-sparmassnahmen-proteste-100.html",
      "official": false,
      "translated_from": "de",
-     "original_title": "Gescheiterte Hinrichtung heizt Debatte über Todesstrafe neu an"
+     "original_title": "Frankreichs Regierung schnürt Sparpaket, die Bevölkerung protestiert"
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "\"These kids have no limits!\": Facing high school student protesters who are often minors, a police officer describes increasingly delicate interventions",
+     "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/ces-gamins-n-ont-pas-de-limites-face-a-des-manifestants-lyceens-souvent-mineurs-des-interventions-plus-delicates-pour-les-policiers_8219284.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "\"Ces gamins n'ont pas de limites !\" : face à des manifestants lycéens souvent mineurs, un policier décrit des interventions plus délicates"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Hundreds of French high schools shut as new violence erupts",
+     "url": "https://www.scmp.com/news/world/europe/article/3369582/hundreds-french-high-schools-shut-new-violence-erupts?utm_source=rss_feed",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "8fd03cf5392e",
+   "title": "Sixth suspect arrested in UK over Fairford military base terror plot",
+   "summary": "British counter-terrorism police have arrested a 27-year-old dual British-Iranian citizen in London on suspicion of preparing terrorist acts connected to a suspected plot against a US-used military base.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-02T09:53:00Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Police arrest UK-Iranian man in British airbase plot probe",
+     "url": "https://www.straitstimes.com/world/europe/police-arrest-uk-iranian-man-in-british-airbase-plot-probe",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "UK police arrest dual UK-Iranian man in Fairford air base investigation",
+     "url": "https://www.straitstimes.com/world/europe/uk-police-arrest-dual-uk-iranian-man-in-fairford-air-base-investigation",
+     "official": false
+    },
+    {
+     "outlet": "ERT News (Greece)",
+     "title": "Sixth suspect arrested in Britain over Fairford military base case",
+     "url": "https://www.ertnews.gr/eidiseis/diethni/ektos-ypoptos-synelifthi-sti-vretania-gia-tin-ypothesi-tis-vasis-ferfornt-exei-vretaniki-kai-iraniki-ypikootita/",
+     "official": false,
+     "translated_from": "el",
+     "original_title": "Έκτος ύποπτος συνελήφθη στη Βρετανία για την υπόθεση της βάσης Φέρφορντ – Έχει βρετανική και ιρανική υπηκοότητα"
+    }
+   ]
+  },
+  {
+   "id": "75f935808af6",
+   "title": "South Korea objects to unilateral US announcement on Alaska LNG investment",
+   "summary": "The South Korean government has raised formal objections after U.S. President Donald Trump unilaterally announced that Seoul had committed over $50 billion to the Alaska liquefied natural gas project.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Korea",
+   "published": "2026-10-01T08:24:06Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "KBS World",
+     "title": "Seoul Lodges Protest over Washington’s Announcement on Alaska LNG Project",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204612",
+     "official": false
     }
    ]
   }
@@ -154,9 +144,9 @@
    "name": "AI",
    "stories": [
     {
-     "id": "a1b4cbdc8bb8",
-     "title": "New Research Proposes Backdoor Containment and LoRA-Tuned Purification for LLMs",
-     "summary": "Recent academic preprints explore automated backdoor mitigation techniques, including expert quarantine and null-space projection for parameter-efficient fine-tuned large language models.",
+     "id": "fa008fae0218",
+     "title": "Educator-guided LLM pedagogical agents introduced for database design",
+     "summary": "Researchers published an educator-guided large language model pedagogical agent integrated into an entity-relationship diagram editor to provide scaffolded feedback for conceptual database design.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
@@ -165,22 +155,16 @@
      "sources": [
       {
        "outlet": "arXiv cs.AI",
-       "title": "Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
-       "url": "https://arxiv.org/abs/2610.00663",
-       "official": false
-      },
-      {
-       "outlet": "arXiv cs.AI",
-       "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
-       "url": "https://arxiv.org/abs/2610.00685",
+       "title": "An Educator-Guided LLM Pedagogical Agent for Scaffolded Feedback in Conceptual Database Design",
+       "url": "https://arxiv.org/abs/2610.00870",
        "official": false
       }
      ]
     },
     {
-     "id": "db57994adcba",
-     "title": "Studies Introduce State-of-the-Art Reasoning Benchmarks and Stateful Policy Engines for AI Agents",
-     "summary": "New arXiv papers outline ontology-grounded evaluation benchmarks, stateful security policy engines for agent tool calls, and meta-multi-agent reinforcement learning frameworks.",
+     "id": "789324de8131",
+     "title": "New memory systems and automated harness optimization proposed for AI agents",
+     "summary": "Recent arXiv papers detail advancements in long-term agentic memory systems, automated curriculum learning for harness optimization, and model-harness interactions across tasks.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
@@ -189,20 +173,104 @@
      "sources": [
       {
        "outlet": "arXiv cs.AI",
-       "title": "Ontology-Grounded, Reasoner-Verified Benchmarks for Evaluating LLM Reasoning in Scientific AI",
-       "url": "https://arxiv.org/abs/2610.00682",
+       "title": "MemFit: Efficient Long-Term Agentic Memory",
+       "url": "https://arxiv.org/abs/2610.00872",
        "official": false
       },
       {
        "outlet": "arXiv cs.AI",
-       "title": "Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving",
-       "url": "https://arxiv.org/abs/2610.00705",
+       "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+       "url": "https://arxiv.org/abs/2610.00906",
        "official": false
       },
       {
        "outlet": "arXiv cs.AI",
-       "title": "Sapien: A Stateful Policy Engine for Autonomous AI Agents",
-       "url": "https://arxiv.org/abs/2610.00797",
+       "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
+       "url": "https://arxiv.org/abs/2610.00917",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fd0ca7af875a",
+     "title": "Frameworks explored for routing LLMs and multi-environment agent distillation",
+     "summary": "New technical preprints outline frameworks for routing language models into optimization solvers, balancing capability retention during offline agent fine-tuning, and rubrics for multi-environment agent distillation.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "OR for AI That Does OR: Routing LLMs up the Escalator inside the OSCAR Framework",
+       "url": "https://arxiv.org/abs/2610.00912",
+       "official": false
+      },
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "PG-SFT: Balancing Capability Acquisition and Retention in Offline Agent Fine-Tuning",
+       "url": "https://arxiv.org/abs/2610.00949",
+       "official": false
+      },
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "RISED: RubrIcs for agentic multi-environment Selection and sElf-Distillation",
+       "url": "https://arxiv.org/abs/2610.00979",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6a1660521782",
+     "title": "Natural-language interfaces and verification scaling studied for long-horizon agents",
+     "summary": "Researchers have introduced natural-language scenario explorers for argument-based reasoning and studied methods to scale agentic verification for complex, long-horizon tasks.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "ABDA-NL: A Natural-Language Scenario Explorer for Argument-Based Reasoning",
+       "url": "https://arxiv.org/abs/2610.00947",
+       "official": false
+      },
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
+       "url": "https://arxiv.org/abs/2610.00972",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bb7048f89d57",
+     "title": "Addressing trust, calibration risk, and preference evaluation in agentic delegation",
+     "summary": "Recent studies investigate trustworthy agentic delegation vocabularies, calibration-risk routing for world models, and methods for evaluating LLM-generated preference distributions.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-02T04:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Cybernetic and Epistemic: A Missing Vocabulary for Trustworthy Agentic Delegation",
+       "url": "https://arxiv.org/abs/2610.00961",
+       "official": false
+      },
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Evaluating LLM-Generated Preference Distributions",
+       "url": "https://arxiv.org/abs/2610.01000",
+       "official": false
+      },
+      {
+       "outlet": "arXiv cs.AI",
+       "title": "Calibration-risk routing for controlled world-model adaptation",
+       "url": "https://arxiv.org/abs/2610.01001",
        "official": false
       }
      ]
@@ -213,55 +281,37 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "96745ca66927",
-     "title": "Recently Patched ChatGPT Mac App Vulnerability Exposed Sensitive User Data",
-     "summary": "A security flaw in OpenAI's ChatGPT Mac application could have allowed malicious actors to access sensitive data, highlighting vulnerabilities within AI client software.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-10-02T09:45:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wired",
-       "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
-       "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d515d75cf218",
-     "title": "Neurable Announces First Brain-Scanning Headphones for Focus Tracking",
-     "summary": "Neurable revealed its upcoming Neurable One headphones, which claim to measure cognitive focus, recommend breaks, and track your mental energy levels.",
+     "id": "ce21ba014e2b",
+     "title": "New PS5 Slim model reportedly features replaceable CMOS battery and revised cooling",
+     "summary": "Console technicians report that the latest PS5 Slim hardware revision incorporates component changes, including a replaceable CMOS battery and updated cooling systems.",
      "importance": 3,
-     "label": "CONFIRMED",
+     "label": "RUMOR-CREDIBLE",
      "category": "Tech",
-     "published": "2026-10-01T11:00:00Z",
+     "published": "2026-10-02T08:45:27Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wired",
-       "title": "Exclusive: Neurable’s First Brain-Scanning Headphones Want to Fine-Tune Your Focus",
-       "url": "https://www.wired.com/story/exclusive-neurable-one-brain-scanning-headphones-want-to-fix-your-focus/",
+       "outlet": "VGC",
+       "title": "The latest PS5 Slim model reportedly changes some components, including a replaceable CMOS battery and revised cooling",
+       "url": "https://www.videogameschronicle.com/news/the-latest-ps5-slim-model-reportedly-changes-some-components-including-a-replaceable-cmos-battery-and-revised-cooling/",
        "official": false
       }
      ]
     },
     {
-     "id": "5cc86c5f5f15",
-     "title": "Autonomous Racing Cars Crash at 155 mph in Extreme Track Test",
-     "summary": "A high-speed autonomous vehicle race on a Formula 1 track saw most competing cars fail, exposing the extreme challenges sensors and AI systems face at high speeds.",
+     "id": "507640c9dc16",
+     "title": "Singapore's crackdown exposes fake online review market",
+     "summary": "Singapore authorities have launched a major crackdown on fake five-star online reviews, exposing widespread manipulation as experts warn that generative AI could worsen the issue.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-01T12:15:00Z",
+     "published": "2026-10-02T01:30:18Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wired",
-       "title": "2 Driverless Cars Crashed Going 155 mph. That Could Be a Good Thing",
-       "url": "https://www.wired.com/story/2-driverless-cars-crashed-going-155-mph-that-could-be-a-good-thing/",
+       "outlet": "South China Morning Post",
+       "title": "Singapore’s crackdown exposes market for fake 5-star reviews",
+       "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369495/singapores-crackdown-fake-reviews-exposes-business-buying-social-proof?utm_source=rss_feed",
        "official": false
       }
      ]
@@ -272,91 +322,37 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "cc8b6d966725",
-     "title": "Disney Confirms No Current Plans to Buy Epic Games But Teases Collaborations",
-     "summary": "Disney executive Dana Walden stated that the company is not planning a buyout of Epic Games right now, though multiple collaborative projects are scheduled over the next two years.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-02T09:42:53Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Insider Gaming",
-       "title": "Disney Not Buying Epic Games ‘Right Now’ But Is Planning More Collabs",
-       "url": "https://insider-gaming.com/disney-epic-games-buyout-fortnite-collabs/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "34518bc543e4",
-     "title": "Arc Raiders Implements Zero-Tolerance Permanent Bans for Cheaters",
-     "summary": "Developer Embark Studios announced a strict permanent ban policy with no warnings or second chances for cheaters in Arc Raiders' upcoming Frozen Trail phase.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-01T12:49:09Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "PC Gamer",
-       "title": "Arc Raiders' is taking no prisoners when it comes to cheaters with permanent bans becoming the new normal: 'No warnings. No second chances'",
-       "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-taking-no-prisoners-when-it-comes-to-cheaters-with-permanent-bans-becoming-the-new-normal-no-warnings-no-second-chances/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6c880ce0fd38",
-     "title": "Steam Client Beta Update Enhances Pyrowave Remote Play Codec",
-     "summary": "Valve released a new Steam Client Beta featuring multiple performance improvements for the Pyrowave video streaming codec used in Remote Play.",
+     "id": "34df21176bbd",
+     "title": "Deadlock update introduces unexpected jumpscare interaction with a troll",
+     "summary": "Valve's Deadlock players are highlighting humorous environmental bugs and player-induced collisions following the game's latest update.",
      "importance": 2,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-02T07:51:27Z",
+     "published": "2026-10-02T09:54:26Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Steam News",
-       "title": "Steam Client Beta for October 1st brings many Remote Play Pyrowave improvements",
-       "url": "https://store.steampowered.com/news/group/4218320/view/703281025618281440",
+       "title": "Deadlock's got a scary troll",
+       "url": "https://store.steampowered.com/news/group/1850/view/699903325897753670",
        "official": false
       }
      ]
     },
     {
-     "id": "929d7c387053",
-     "title": "AMD's 'Gainsborough' APU Rumored to Power Steam Deck 2",
-     "summary": "Unverified reports suggest AMD's upcoming APU codenamed 'Gainsborough' could be the hardware powering Valve's anticipated next-generation handheld.",
-     "importance": 3,
-     "label": "RUMOR-UNVERIFIED",
-     "category": "Gaming",
-     "published": "2026-10-01T10:22:35Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "PC Gamer",
-       "title": "AMD's new 'Gainsborough' APU rumoured to be the chip that powers the long-awaited Steam Deck 2",
-       "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/amds-new-gainsborough-apu-rumoured-to-be-the-chip-that-powers-the-long-awaited-steam-deck-2/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c8165fb3d30c",
-     "title": "Final Fantasy XI Launches Free Trial Following Final Fantasy XIV's Footsteps",
-     "summary": "Square Enix is bringing a free trial version to the long-running MMORPG Final Fantasy XI, mirroring the successful trial format of its successor.",
+     "id": "ea430ef109d8",
+     "title": "Fuse Games CEO to discuss Star Wars Galactic Racer at UK conference",
+     "summary": "Fuse Games leadership is set to discuss the upcoming Star Wars racing title at the Game Republic New Horizons conference in Middlesbrough.",
      "importance": 2,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-01T11:09:54Z",
+     "published": "2026-10-02T09:00:47Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "PC Gamer",
-       "title": "Have you heard of the critically acclaimed MMORPG… oh, Final Fantasy 11, that's new",
-       "url": "https://www.pcgamer.com/games/mmo/have-you-heard-of-the-critically-acclaimed-mmorpg-oh-final-fantasy-11-thats-new/",
+       "outlet": "VGC",
+       "title": "Fuse Games CEO to Discuss Star Wars Galactic Racer at UK Games Conference",
+       "url": "https://www.videogameschronicle.com/news/fuse-games-ceo-to-discuss-star-wars-galactic-racer-at-uk-games-conference/",
        "official": false
       }
      ]
@@ -367,55 +363,109 @@
    "name": "World",
    "stories": [
     {
-     "id": "fb56f96c9829",
-     "title": "JD Vance Calls H-1B Visa Program 'Completely Broken' and Backs Scrapping It",
-     "summary": "In recent comments, political figures have targeted immigration policy, with JD Vance expressing strong criticism of the H-1B visa framework.",
+     "id": "dfabe887c089",
+     "title": "Pakistan blocks capital access for Imran Khan supporters using shipping containers",
+     "summary": "Pakistan's ongoing security measures to restrict former prime minister Imran Khan's supporters from entering the capital have resulted in heavy container blockades at main ports.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-02T05:29:56Z",
+     "published": "2026-10-02T07:31:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Times of India: World",
-       "title": "'H-1B programme is completely broken': JD Vance backs scrapping visa system",
-       "url": "https://timesofindia.indiatimes.com/world/us/h-1b-programme-is-completely-broken-jd-vance-backs-scrapping-visa-system/articleshow/134632435.cms",
+       "outlet": "Sky News: World",
+       "title": "Pakistan seizes shipping containers to keep Imran Khan supporters out of capital",
+       "url": "https://news.sky.com/story/imran-khan-supporters-to-be-kept-out-of-pakistans-capital-by-shipping-containers-seized-from-distressed-lorry-drivers-13594249",
        "official": false
       }
      ]
     },
     {
-     "id": "e5a3fd372b3e",
-     "title": "Oceanographic Researchers Discover Rapid Deep Water Upwelling Using Fluorescent Dye",
-     "summary": "Scientists tracking deep ocean water dynamics in the Rockall Trough using fluorescent dye measured upward movement reaching 125 meters per day, far faster than previous estimates.",
+     "id": "788f74a43c71",
+     "title": "Family of US woman killed by ICE agent sues Trump administration",
+     "summary": "The relatives of Renee Good, who was fatally shot by a federal immigration agent in Minneapolis, have filed a lawsuit against the Trump administration citing a total lack of accountability.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-02T05:30:00Z",
+     "published": "2026-10-01T23:34:13Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Times of India: World",
-       "title": "Scientists released fluorescent dye nearly 2 km underwater; it revealed deep water rising 100 metres a day",
-       "url": "https://timesofindia.indiatimes.com/science/discovery/in-2021-scientists-released-fluorescent-dye-1870-metres-deep-in-the-north-atlantic-tracking-it-revealed-canyon-water-rising-about-100-metres-a-day-around-10000-times-the-global-average/articleshow/134632437.cms",
+       "outlet": "South China Morning Post",
+       "title": "Family of Renee Good, US woman killed by ICE agent, sues Trump administration",
+       "url": "https://www.scmp.com/news/world/united-states-canada/article/3369491/family-renee-good-us-woman-killed-ice-agent-sues-trump-administration?utm_source=rss_feed",
        "official": false
       }
      ]
     },
     {
-     "id": "0fdad88c2c11",
-     "title": "Jack Johnson's Foundation Transforms Hawaii Farmland into Educational Student Farm",
-     "summary": "The Kōkua Hawaiʻi Foundation's agricultural initiative on Oʻahu has successfully yielded thousands of pounds of student-harvested produce over a six-year educational project.",
-     "importance": 2,
+     "id": "fbf9af2770ab",
+     "title": "Bolivia detains Attorney General following US visa revocation over bribery allegations",
+     "summary": "Bolivian authorities have arrested Attorney General Roger Mariaca after the United States revoked his visa and accused him of accepting bribes to facilitate drug trafficking.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-02T05:32:16Z",
+     "published": "2026-10-01T20:53:26Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Times of India: World",
-       "title": "Jack Johnson’s foundation transformed neglected Hawaii farmland into a thriving farm for students",
-       "url": "https://timesofindia.indiatimes.com/world/us/in-2019-jack-johnsons-foundation-bought-neglected-farmland-in-hawaii-six-years-later-it-reported-over-40000-pounds-of-produce-harvested-and-more-than-2200-students-welcomed-on-field-trips/articleshow/134589276.cms",
+       "outlet": "The Straits Times: World",
+       "title": "Bolivia detains attorney general, government ministry says",
+       "url": "https://www.straitstimes.com/world/bolivia-detains-attorney-general-government-ministry-says",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6f81539d7e72",
+     "title": "Putin warns West against escalation amid high geopolitical tensions",
+     "summary": "Russian leadership has issued stern warnings to Western nations against further escalation, threatening nuclear defense measures around Kaliningrad as global security risks mount.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-01T18:18:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "World living through a dangerous moment, says Putin, warns West not to escalate",
+       "url": "https://www.straitstimes.com/world/europe/putin-says-the-world-is-living-through-a-dangerous-moment-warns-west-not-to-escalate",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3bdf7b9f7782",
+     "title": "Blasts rock Ethiopian capital amid worsening political conflict",
+     "summary": "Explosions were reported in Ethiopia's capital following a government ban on drone flights, as Prime Minister Abiy Ahmed faces a unified front of armed opposition groups.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-01T15:59:40Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Hindu: International",
+       "title": "Blasts in Ethiopian capital after government banned drone flights",
+       "url": "https://www.thehindu.com/news/international/blasts-in-ethiopian-capital-after-government-banned-drone-flights/article71534160.ece",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c361945c9f7c",
+     "title": "UN urges US reparations for historic Marshall Islands nuclear tests",
+     "summary": "United Nations human rights officials have renewed calls for generational justice and reparations from the United States over radioactive contamination and displacement from nuclear tests in the Marshall Islands.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-01T15:53:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Hindu: International",
+       "title": "UN urges U.S. reparations over Marshall Islands nuclear tests",
+       "url": "https://www.thehindu.com/news/international/un-urges-us-reparations-over-marshall-islands-nuclear-tests/article71534114.ece",
        "official": false
       }
      ]
@@ -426,114 +476,134 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "4adbf6e8e504",
-     "title": "French Borrowing Costs Hit 24-Year High Amid Broader European Bond Market Shifts",
-     "summary": "Government bond yields across Europe steadied following a sell-off that pushed France's 10-year borrowing costs to their highest levels since 2002 and UK 30-year yields past 6%.",
+     "id": "1f3936d241dc",
+     "title": "Eurozone inflation climbs to three-year high driven by surging energy costs",
+     "summary": "Eurozone annual inflation has risen to 3.8%, heavily pushed upward by energy prices jumping nearly twenty percent over the past year.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-02T09:43:43Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Euronews",
-       "title": "Bonds steady as French borrowing costs hit 24-year high and UK 30-year yields top 6%",
-       "url": "https://www.euronews.com/2026/10/02/bonds-steady-as-french-borrowing-costs-hit-24-year-high-and-uk-30-year-yields-top-6",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bf21d7f82c2f",
-     "title": "Ethiopia and Eritrea Sever Diplomatic Ties as Regional Conflict Escalates",
-     "summary": "Diplomatic relations between Ethiopia and Eritrea have been officially severed amid a sharp escalation in fighting along their northern borders.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T04:28:26Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "South China Morning Post",
-       "title": "Ethiopia and Eritrea sever diplomatic ties as northern fighting escalates",
-       "url": "https://www.scmp.com/news/world/africa/article/3369512/ethiopia-and-eritrea-sever-diplomatic-ties-northern-fighting-escalates?utm_source=rss_feed",
-       "official": false
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Ethiopia and Eritrea sever diplomatic relations",
-       "url": "https://orf.at/stories/3443858/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Äthiopien und Eritrea brechen diplomatische Beziehungen ab"
-      }
-     ]
-    },
-    {
-     "id": "ae39c9b29484",
-     "title": "German Department Store Chain Galeria Files for Insolvency Again",
-     "summary": "Major German department store chain Galeria has filed for insolvency once more, putting numerous locations and jobs at risk.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T09:42:28Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Der Spiegel (Germany)",
-       "title": "Galeria: Department store chain files for insolvency once again",
-       "url": "https://www.spiegel.de/wirtschaft/unternehmen/galeria-warenhauskette-stellt-erneut-insolvenzantrag-a-a2e72dff-78c8-461a-8bc2-4a2294a69c60#ref=rss",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Galeria: Warenhauskette stellt erneut Insolvenzantrag"
-      },
-      {
-       "outlet": "Tagesschau (Germany)",
-       "title": "Department Store Chain Galeria Files for Insolvency Again",
-       "url": "https://www.tagesschau.de/video/video-1659230.html",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Warenhauskette Galeria stellt erneut Insolvenzantrag"
-      }
-     ]
-    },
-    {
-     "id": "458262cb005f",
-     "title": "Severe Storms Bring Torrential Rain and Flash Flood Alerts Across Spain",
-     "summary": "Catalonia and the Valencian Community remain under red weather alerts as heavy torrential rainstorms drop over 220 liters of precipitation in parts of Tarragona.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-02T07:30:34Z",
+     "published": "2026-10-02T09:43:35Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "El País (Spain)",
-       "title": "Second day of torrential rainstorm: Tarragona exceeds 220 liters and Castellón 170",
-       "url": "https://elpais.com/el-tiempo/2026-10-02/segundo-dia-del-temporal-de-lluvias-torrenciales-y-persistentes-persiste-el-rojo-en-tarragona-y-castellon.html",
+       "title": "Eurozone inflation rises to 3.8%, hitting a three-year high",
+       "url": "https://elpais.com/economia/2026-10-02/la-inflacion-en-la-zona-euro-sube-hasta-el-38-el-maximo-nivel-en-los-ultimos-tres-anos.html",
        "official": false,
        "translated_from": "es",
-       "original_title": "Segundo día del temporal de lluvias torrenciales: Tarragona supera los 220 litros y Castellón los 170"
+       "original_title": "La inflación en la zona euro sube hasta el 3,8%, el máximo nivel en los últimos tres años"
       }
      ]
     },
     {
-     "id": "31acfe141f61",
-     "title": "Greek Government Repays 2.5 Billion Euros in Public Debt to EFSF",
-     "summary": "Greece successfully repaid 2.5 billion euros to the European Financial Stability Facility utilizing revenues generated from the re-privatization of domestic banks.",
-     "importance": 3,
+     "id": "63c5cf6437b5",
+     "title": "Škoda recalls 1.7 million vehicles worldwide due to steering defect risks",
+     "summary": "A potential steering defect caused by a rust-prone bolt in Volkswagen Group platforms has forced Škoda to issue a worldwide recall affecting 1.7 million vehicles across four models.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-02T08:58:33Z",
+     "published": "2026-10-02T09:46:00Z",
      "outlet_count": 1,
      "sources": [
       {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "VW steering issues: Škoda recalls even more cars worldwide than expected",
+       "url": "https://www.spiegel.de/mobilitaet/auto/vw-lenkungsprobleme-skoda-ruft-weltweit-noch-mehr-autos-zurueck-als-erwartet-a-e29f6ec8-e8e7-43e9-acaf-6274e904b4fd#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "VW-Lenkungsprobleme: Škoda ruft weltweit noch mehr Autos zurück als erwartet"
+      }
+     ]
+    },
+    {
+     "id": "3f0fef3c9f63",
+     "title": "Germany agrees on fiscal and energy pressures as coalition friction grows",
+     "summary": "German conservative and center-left parties face crunch talks amid mounting political pressure over economic reforms, austerity measures, and European energy coordination.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-02T09:53:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
        "outlet": "ERT News (Greece)",
-       "title": "Greece Repays Public Debt of 2.5 Billion Euros",
-       "url": "https://www.ertnews.gr/eidiseis/oikonomia/h-ellada-proxorise-stin-apopliromi-dimosiou-xreous-ypsous-2-5-dis-eyro/",
+       "title": "Politico: European countries agree on a \"firm\" response to US diesel pressure",
+       "url": "https://www.ertnews.gr/eidiseis/politico-oi-eyropaikes-xores-symfonisan-se-mia-statheri-apantisi-stis-pieseis-ton-ipa-gia-to-ntizel/",
        "official": false,
        "translated_from": "el",
-       "original_title": "H Eλλάδα προχώρησε στην αποπληρωμή Δημοσίου χρέους ύψους 2,5 δισ. ευρώ"
+       "original_title": "Politico: Οι ευρωπαϊκές χώρες συμφώνησαν σε μια «σταθερή» απάντηση στις πιέσεις των ΗΠΑ για το ντίζελ"
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Germany news: Reform row raises fears for Merz's coalition",
+       "url": "https://www.dw.com/en/germany-news-reform-row-raises-fears-for-merz-s-coalition/live-79512757?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "427c0642c7e5",
+     "title": "Kyiv and Brussels reach agreement on financial support terms for 2026",
+     "summary": "Ukraine and the European Union have reached an in-principle agreement on how to cover Kyiv's extra financial needs for 2026 without requiring new capital commitments from Brussels.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-02T05:06:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "franceinfo (France)",
+       "title": "Kyiv and Brussels reach agreement on terms of Ukraine financing for 2026",
+       "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/kiev-et-bruxelles-ont-trouve-un-accord-sur-les-modalites-du-financement-de-l-ukraine-pour-2026_8218864.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Kiev et Bruxelles ont trouvé un accord sur les modalités du financement de l'Ukraine pour 2026"
+      }
+     ]
+    },
+    {
+     "id": "89397afdd567",
+     "title": "Poland introduces windfall tax on oil companies to combat high fuel prices",
+     "summary": "Polish President Nawrocki has signed legislation introducing a windfall tax on energy and oil companies to offset surging retail fuel costs for consumers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-02T06:41:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Poland introduces windfall tax for oil companies",
+       "url": "https://www.spiegel.de/wirtschaft/unternehmen/polen-fuehrt-uebergewinnsteuer-fuer-mineraloelkonzerne-ein-a-296dd7cd-921e-48a4-a8c3-b699442fb97b#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Polen führt Übergewinnsteuer für Mineralölkonzerne ein"
+      }
+     ]
+    },
+    {
+     "id": "d2cae8ac12bf",
+     "title": "Investigation launched after botched execution in Tennessee",
+     "summary": "Following two failed lethal injection attempts on death row inmate Christa Pike, the Governor of Tennessee has ordered a comprehensive inquiry and halted further executions.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-02T06:12:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "US inmate Christa Pike in critical condition after botched execution, says lawyer",
+       "url": "https://www.straitstimes.com/world/united-states/us-inmate-christa-pike-in-critical-condition-after-botched-execution-says-lawyer",
+       "official": false
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Christa Pike survives two lethal injection attempts: Governor halts all further executions for the rest of the year",
+       "url": "https://www.spiegel.de/ausland/christa-pike-ueberlebt-zwei-giftspitzen-gouverneur-setzt-alle-weiteren-hinrichtungen-fuer-den-rest-des-jahres-a-7c869dba-7660-4fed-a3b9-a4b9822223a0#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Christa Pike überlebt zwei Giftspitzen: Gouverneur setzt alle weiteren Hinrichtungen für den Rest des Jahres"
       }
      ]
     }
@@ -543,86 +613,78 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "64b72a50f865",
-     "title": "Bank of Japan Debates Further Rate Hikes to Adjust Accommodative Monetary Policy",
-     "summary": "An opinion summary from the Bank of Japan indicates policymakers actively debated implementing additional interest rate hikes to normalize accommodative financial conditions.",
-     "importance": 4,
+     "id": "f54a6dd01545",
+     "title": "Japan's largest power producer partners with Dell for $15bn data center",
+     "summary": "Japan's leading power generation utility has teamed up with Dell to construct a massive $15 billion data center infrastructure.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-02T09:49:48Z",
+     "published": "2026-10-02T09:55:53Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "BOJ debated more rate hikes to adjust 'accommodative' conditions: opinion summary",
-       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-debated-more-rate-hikes-to-adjust-accommodative-conditions-opinion-summary",
+       "title": "Japan's largest power producer teams with Dell on $15bn data center",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-largest-power-producer-teams-with-dell-on-15bn-data-center",
        "official": false
       }
      ]
     },
     {
-     "id": "deccc7992ff9",
-     "title": "Northern Japan Regional Banks Consider Three-Way Merger Talks",
-     "summary": "Leading regional banks in northern Japan have begun exploring a three-way consolidation to create a dominant regional lender amidst shifting banking landscapes.",
+     "id": "4843352815e1",
+     "title": "Robot arm successfully enters containment vessel of Fukushima Daiichi Unit 2",
+     "summary": "Following four prior postponements, a robotic arm has successfully accessed the primary containment vessel at Fukushima Daiichi Unit 2.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-02T09:49:48Z",
-     "outlet_count": 2,
+     "published": "2026-10-02T02:00:07Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Regional banks in northern Japan to consider three-way merger",
-       "url": "https://www.japantimes.co.jp/business/2026/10/02/companies/regional-banks-merger-consideration/",
-       "official": false
-      },
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Robot arm enters containment vessel of Fukushima Daiichi Unit 2 after four postponements",
+       "url": "http://www.asahi.com/articles/ASV7R1TTNV7RUTFL01PM.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "4度延期のロボットアーム、ついに格納容器内へ 福島第一原発2号機"
+      }
+     ]
+    },
+    {
+     "id": "0f1d7795549f",
+     "title": "BOJ Tankan survey indicates sixth straight rise in manufacturer sentiment",
+     "summary": "The Bank of Japan's Tankan business survey recorded a sixth consecutive quarterly improvement in sentiment among large manufacturers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-02T09:55:53Z",
+     "outlet_count": 1,
+     "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Northern Japan banks set for merger talks to create region's top lender",
-       "url": "https://asia.nikkei.com/business/business-deals/northern-japan-banks-set-for-merger-talks-to-create-region-s-top-lender",
+       "title": "BOJ Tankan shows sixth straight rise in manufacturer sentiment",
+       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment",
        "official": false
       }
      ]
     },
     {
-     "id": "d4de6d179f06",
-     "title": "Kei Nishikori Bows Out in Final Professional Match in Tokyo",
-     "summary": "Former US Open singles finalist Kei Nishikori played his final professional tournament match in Tokyo to a cheering home crowd.",
+     "id": "d7e39685a6d3",
+     "title": "Isuzu recalls electric buses following inverter fire incident in Osaka",
+     "summary": "Isuzu has initiated a recall for its electric bus lineup due to a dangerous inverter defect identified after a vehicle caught fire in Osaka.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-02T02:10:00Z",
+     "published": "2026-10-02T08:02:47Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Nishikori bows out for final time in Tokyo as crowd salutes Japanese trailblazer",
-       "url": "https://www.japantimes.co.jp/sports/2026/10/02/tennis/kei-nishikori-retires/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "48db694f7ae0",
-     "title": "Japan Times Reports Unauthorized Access to Group Management Servers",
-     "summary": "The Japan Times announced that certain servers managed by a group company experienced unauthorized access, with investigations currently underway.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Japan",
-     "published": "2026-10-02T01:34:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Japan Times",
-       "title": "Notice Regarding Unauthorized Access to Servers Managed by Our Group",
-       "url": "https://www.japantimes.co.jp/press/2026/10/02/notice-ransomware-incident/",
-       "official": false
-      },
-      {
-       "outlet": "The Japan Times",
-       "title": "当社グループ管理サーバーへの不正アクセスに関するお知らせ",
-       "url": "https://www.japantimes.co.jp/press/2026/10/02/noticeransomware-incident-jp/",
-       "official": false
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Isuzu recalls EV buses due to inverter defect following fire in Osaka",
+       "url": "http://www.asahi.com/articles/ASVB22HY8VB2ULFA012M.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "いすゞ、EVバスをリコール インバーターに不具合、大阪で火災も"
       }
      ]
     }
@@ -632,73 +694,73 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "02e00ffc6b13",
-     "title": "South Korean Trade Minister Urges US to Respect 15% Bilateral Tariff Cap",
-     "summary": "Trade Minister Park Jung-sung officially requested that the United States uphold the bilateral agreement capping tariffs on South Korean products at 15 percent.",
-     "importance": 4,
+     "id": "122ed72e55e2",
+     "title": "Special counsel seeks 18-month prison term for Seoul Mayor Oh Se-hoon",
+     "summary": "South Korea's special counsel team is pressing for a one-and-a-half-year prison sentence in the appellate trial of Seoul Mayor Oh Se-hoon, who was convicted under the Political Funds Act.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-02T01:21:10Z",
+     "published": "2026-10-02T09:07:11Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "KBS World",
-       "title": "Trade Minister Asks US to Respect 15% Limit on Tariffs under Bilateral Deal",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204621",
+       "title": "Special Counsel Appeals for Tougher Sentence for Seoul Mayor, Again Seeks 18-Month Prison Term",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204639",
        "official": false
       }
      ]
     },
     {
-     "id": "335012df3ac2",
-     "title": "South Korea Reviews Options Following North Korean-Linked DMZ Landmine Blast",
-     "summary": "Seoul officials stated that the government is evaluating all possible countermeasures following a landmine explosion linked to North Korea inside the Demilitarized Zone.",
-     "importance": 4,
+     "id": "3d7f8718eedb",
+     "title": "Kim Jong-ho secures historic gold in men's compound archery at Asian Games",
+     "summary": "Kim Jong-ho captured the gold medal in the men's individual compound archery event at the Aichi-Nagoya Asian Games, marking South Korea's first title in the competition.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-02T04:56:05Z",
+     "published": "2026-10-01T08:01:22Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yonhap News",
-       "title": "Gov't reviewing 'all possible measures' over N.K.-linked DMZ mine blast: senior official",
-       "url": "https://en.yna.co.kr/view/AEN20261002005300315",
+       "outlet": "KBS World",
+       "title": "Kim Jong-ho Wins Gold in Men’s Individual Compound Archery at Asian Games",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204610",
        "official": false
       }
      ]
     },
     {
-     "id": "26b8928f8ee5",
-     "title": "KB Kookmin Bank Suffers Customer Information Leak",
-     "summary": "Major commercial lender KB Kookmin Bank reported a customer data breach, raising widespread industry concerns over cybersecurity across other domestic financial institutions.",
+     "id": "27a5dc322727",
+     "title": "President Lee Jae Myung welcomes upcoming launch of independent criminal agencies",
+     "summary": "South Korean President Lee Jae Myung praised the imminent establishment of the Serious Crimes Investigation Agency and Public Prosecution Service as a step toward a balanced justice system.",
      "importance": 3,
-     "label": "RUMOR-UNVERIFIED",
+     "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-02T05:08:02Z",
+     "published": "2026-10-01T08:12:52Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) KB Kookmin Bank suffers info leak raising concerns over data breach at other lenders",
-       "url": "https://en.yna.co.kr/view/AEN20261002004951320",
+       "outlet": "KBS World",
+       "title": "Lee: Launch of New Agencies Marks End of ‘Political Prosecution’ Era",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204611",
        "official": false
       }
      ]
     },
     {
-     "id": "8479e7c348e0",
-     "title": "Singer-Actors T.O.P and Nana Publicly Confirm Romantic Relationship",
-     "summary": "Entertainment agencies confirmed that prominent South Korean singer-actors T.O.P and Nana have been in a relationship.",
-     "importance": 2,
-     "label": "CONFIRMED",
+     "id": "736e48db1f8b",
+     "title": "South Korean unification minister urges against politicizing DMZ land mine blast",
+     "summary": "Unification Minister Chung Dong-young cautioned lawmakers against politicizing the recent Demilitarized Zone mine explosion that injured several soldiers.",
+     "importance": 3,
+     "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-02T04:41:33Z",
+     "published": "2026-10-02T09:52:18Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yonhap News",
-       "title": "T.O.P, Nana confirm romantic relationship",
-       "url": "https://en.yna.co.kr/view/AEN20261002005000315",
+       "outlet": "NK News (North Korea)",
+       "title": "DMZ land mine explosion should not be politicized: Unification Minister",
+       "url": "https://www.nknews.org/2026/10/dmz-land-mine-explosion-should-not-be-politicized-unification-minister/",
        "official": false
       }
      ]
@@ -707,18 +769,52 @@
   },
   {
    "name": "Deals",
-   "stories": []
+   "stories": [
+    {
+     "id": "9bd6584464d0",
+     "title": "Amazon offers discounts of up to 67% ahead of Prime Deal Days",
+     "summary": "Early October promotions on Amazon feature price cuts of up to 67 percent across top-selling brand products ahead of upcoming sales events.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-02T04:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "El País (Spain)",
+       "title": "Amazon's best deals to kick off October: top sellers with up to 67% off",
+       "url": "https://elpais.com/escaparate/ofertas-y-descuentos/chollos-semana-amazon-2-octubre-2026.html",
+       "official": false,
+       "translated_from": "es",
+       "original_title": "Los mejores chollos de Amazon para arrancar octubre: top ventas con hasta un 67% de descuento"
+      }
+     ]
+    }
+   ]
   }
  ],
  "date": "2026-10-02",
- "generated_at": "2026-10-02T09:49:48Z",
+ "generated_at": "2026-10-02T09:55:53Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 322,
-  "clusters": 307,
-  "feeds_ok": 116,
-  "feeds_failed": 0
+  "items": 192,
+  "clusters": 182,
+  "feeds_ok": 114,
+  "feeds_failed": 2
  },
- "feed_health": []
+ "feed_health": [
+  {
+   "key": "thedecoder",
+   "title": "The Decoder",
+   "status": "error",
+   "detail": "ConnectTimeout: HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='the-decoder.com', port=443) at 0x7f75"
+  },
+  {
+   "key": "yonhap",
+   "title": "Yonhap News",
+   "status": "error",
+   "detail": "ConnectTimeout: HTTPSConnectionPool(host='en.yna.co.kr', port=443): Max retries exceeded with url: /RSS/news.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='en.yna.co.kr', port=443) at 0x7f7"
+  }
+ ]
 }
