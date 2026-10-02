@@ -20,6 +20,14 @@ mute = [
   "contexto", "best gaming", "gift guide",
 ]
 
+[digest.section_limits]
+# Plain-list mode (no AI) lists every story; the regional sections have hundreds, so keep the
+# top N of each. Sections not listed here are unlimited.
+World = 12
+Europe = 12
+Japan = 8
+Korea = 8
+
 [translate]
 # Feeds marked pfLang="xx" in feeds.opml are machine-translated to English at ingest with Gemini
 # (needs GEMINI_API_KEY; the free tier is enough). Each headline is translated once and cached.

@@ -34,3 +34,17 @@ def test_category_weight_keeps_wide_coverage_categories_from_taking_every_top_sl
     world, tech = _cluster(1, "World", 4), _cluster(2, "Tech", 3)
     assert rank([world, tech], damped_cfg, NOW)[0] is tech
     assert world.score < tech.score
+
+
+def test_list_brief_keeps_only_the_top_stories_of_limited_sections():
+    from briefing.summarize import list_brief
+    cfg = {**CFG, "digest": {**CFG["digest"], "sections": ["Tech", "Europe"],
+                             "section_limits": {"Europe": 3}}}
+    europe = [_cluster(n, "Europe", 1) for n in range(1, 13)]
+    tech = [_cluster(n, "Tech", 1) for n in range(20, 26)]
+    ranked = rank(europe + tech, cfg, NOW)
+    for n, c in enumerate(ranked, start=1):
+        c.id = n
+    brief = list_brief(ranked, cfg)
+    sizes = {s.name: len(s.stories) for s in brief.sections}
+    assert sizes["Europe"] == 3 and sizes["Tech"] > 3  # only the limited section is cut

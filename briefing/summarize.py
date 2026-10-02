@@ -313,8 +313,10 @@ def list_brief(clusters: list[Cluster], cfg: dict, feeds_ok: int = 0) -> LLMBrie
     # Configured sections first, then any OPML category that isn't listed, so nothing is dropped.
     names = list(cfg["digest"]["sections"])
     names += [section_of(c) for c in rest if section_of(c) not in names]
+    limits = cfg["digest"].get("section_limits", {})
     sections = [
-        LLMSection(name=name, stories=[story(c) for c in rest if section_of(c) == name])
+        LLMSection(name=name, stories=[story(c) for c in rest if section_of(c) == name]
+                   [: limits.get(name)])  # clusters are ranked, so this keeps the best N
         for name in dict.fromkeys(names)
     ]
     item_count = sum(len(c.items) for c in clusters)
