@@ -160,6 +160,8 @@ final class AppModel {
     @ObservationIgnored var hasSeenHistory = false
     @ObservationIgnored var writeTasks: [LocalStore.File: Task<Void, Never>] = [:]
     @ObservationIgnored var dirtyFiles: Set<LocalStore.File> = []
+    /// The latest write of each file; the next one waits for it, so writes land in order.
+    @ObservationIgnored var writesInFlight: [LocalStore.File: Task<Bool, Never>] = [:]
     /// Set once the first feed check after becoming ready is done; push taps wait for it.
     @ObservationIgnored var initialRefreshDone = false
     @ObservationIgnored var sceneIsActive = false

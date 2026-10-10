@@ -125,6 +125,9 @@ extension AppModel {
     func clearUserData() {
         for task in writeTasks.values { task.cancel() }
         writeTasks = [:]
+        // A write still waiting its turn mustn't put the old account's state back.
+        for task in writesInFlight.values { task.cancel() }
+        writesInFlight = [:]
         dirtyFiles = []
         readAt = [:]
         firstSeen = [:]
@@ -151,28 +154,36 @@ extension AppModel {
     /// Writes every changed file now (backgrounding, tests).
     func flushLocalState() async {
         for file in dirtyFiles { await writeNow(file) }
+        // Including writes a debounce started before this was called.
+        for task in writesInFlight.values { _ = await task.value }
     }
 
     private func writeNow(_ file: LocalStore.File) async {
         guard dirtyFiles.remove(file) != nil else { return }
         // Resolved now, on the main actor: the demo mode and tests point LocalStore elsewhere.
         let target = LocalStore.url(file)
-        let ok: Bool
+        // Each write waits for the one before it: an older snapshot finishing last would undo
+        // newer changes on disk.
+        let previous = writesInFlight[file]
+        let job: Task<Bool, Never>
         switch file {
-        case .read: ok = await Self.write(readAt, to: target)
-        case .seen: ok = await Self.write(firstSeen, to: target)
-        case .saved: ok = await Self.write(saved, to: target)
-        case .recent: ok = await Self.write(recent, to: target)
-        case .feed: ok = true
+        case .read: job = Self.write(readAt, to: target, after: previous)
+        case .seen: job = Self.write(firstSeen, to: target, after: previous)
+        case .saved: job = Self.write(saved, to: target, after: previous)
+        case .recent: job = Self.write(recent, to: target, after: previous)
+        case .feed: return
         }
-        if !ok { dirtyFiles.insert(file) }  // try again with the next write or flush
+        writesInFlight[file] = job
+        if !(await job.value) { dirtyFiles.insert(file) }  // try again with the next write or flush
     }
 
-    /// Encodes and writes off the main thread.
-    private nonisolated static func write<T: Encodable & Sendable>(_ value: T, to url: URL) async -> Bool {
-        await Task.detached(priority: .utility) {
-            guard let data = try? JSONEncoder.api.encode(value) else { return false }
+    /// Encodes and writes off the main thread, once `previous` has finished.
+    private nonisolated static func write<T: Encodable & Sendable>(_ value: T, to url: URL,
+                                                                    after previous: Task<Bool, Never>?) -> Task<Bool, Never> {
+        Task.detached(priority: .utility) {
+            _ = await previous?.value
+            guard !Task.isCancelled, let data = try? JSONEncoder.api.encode(value) else { return false }
             return LocalStore.write(data, to: url)
-        }.value
+        }
     }
 }
