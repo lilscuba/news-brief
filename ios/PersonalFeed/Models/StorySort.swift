@@ -24,4 +24,50 @@ enum StorySort: String, CaseIterable, Identifiable, Sendable {
             }.map(\.element)
         }
     }
+
+    /// Groups a list into "Last hour", "Earlier today", "Yesterday" and "Older", keeping the
+    /// order within each group. Empty groups are left out. Used for the Latest view, where one
+    /// flat list of 200 rows gives no sense of how current it is.
+    static func buckets(_ stories: [Story], now: Date = .now,
+                        calendar: Calendar = .current) -> [StoryBucket] {
+        var groups: [StoryBucket.Kind: [Story]] = [:]
+        let hourAgo = now.addingTimeInterval(-3600)
+        for story in stories {
+            let kind: StoryBucket.Kind
+            if story.published >= hourAgo {
+                kind = .lastHour
+            } else if calendar.isDate(story.published, inSameDayAs: now) {
+                kind = .earlierToday
+            } else if let yesterday = calendar.date(byAdding: .day, value: -1, to: now),
+                      calendar.isDate(story.published, inSameDayAs: yesterday) {
+                kind = .yesterday
+            } else {
+                kind = .older
+            }
+            groups[kind, default: []].append(story)
+        }
+        return StoryBucket.Kind.allCases.compactMap { kind in
+            groups[kind].map { StoryBucket(kind: kind, stories: $0) }
+        }
+    }
+}
+
+/// One time group of a Latest list.
+struct StoryBucket: Identifiable, Hashable, Sendable {
+    enum Kind: String, CaseIterable, Sendable {
+        case lastHour, earlierToday, yesterday, older
+    }
+
+    let kind: Kind
+    let stories: [Story]
+    var id: String { kind.rawValue }
+
+    var title: String {
+        switch kind {
+        case .lastHour: "Last hour"
+        case .earlierToday: "Earlier today"
+        case .yesterday: "Yesterday"
+        case .older: "Older"
+        }
+    }
 }

@@ -22,7 +22,17 @@ struct SignInResponse: Decodable {
     let settings: UserSettings
 }
 
-private struct MeResponse: Decodable { let settings: UserSettings }
+private struct MeResponse: Decodable {
+    struct User: Decodable { let id: String }
+    let user: User?
+    let settings: UserSettings
+}
+
+/// GET /v1/me: who the session belongs to and their saved settings.
+struct AccountSnapshot: Sendable {
+    let userID: String?
+    let settings: UserSettings
+}
 private struct SettingsResponse: Decodable { let settings: UserSettings }
 private struct ErrorBody: Decodable { let error: String }
 
@@ -44,10 +54,26 @@ struct APIClient: Sendable {
         case fresh(SharedFeed, data: Data, etag: String?)
     }
 
+    /// Cloudflare compresses the feed and turns its ETag into the weak `W/"…"`; older Workers only
+    /// matched the strong form, so the tag is always sent strong.
+    static func ifNoneMatch(_ etag: String?) -> String? {
+        guard var tag = etag?.trimmingCharacters(in: .whitespaces), !tag.isEmpty else { return nil }
+        if tag.hasPrefix("W/") { tag.removeFirst(2) }
+        return tag
+    }
+
+    /// The ETag the Worker gives a feed built at `generatedAt` (its `"<generatedAt>"` format), for
+    /// a cached feed saved before the app kept the ETag.
+    static func etag(for generatedAt: Date) -> String {
+        "\"\(generatedAt.formatted(.iso8601))\""
+    }
+
     func feed(etag: String?) async throws -> FeedResult {
         var request = URLRequest(url: baseURL.appending(path: "v1/feed"))
         request.cachePolicy = .reloadIgnoringLocalCacheData
-        if let etag { request.setValue(etag, forHTTPHeaderField: "If-None-Match") }
+        // A weak signal shouldn't leave pull-to-refresh spinning for the 60 s default.
+        request.timeoutInterval = 20
+        if let tag = Self.ifNoneMatch(etag) { request.setValue(tag, forHTTPHeaderField: "If-None-Match") }
         let (data, response) = try await URLSession.shared.data(for: request)
         let http = response as? HTTPURLResponse
         if http?.statusCode == 304 { return .notModified }
@@ -64,8 +90,12 @@ struct APIClient: Sendable {
     }
 
     func settings(token: String) async throws -> UserSettings {
+        try await account(token: token).settings
+    }
+
+    func account(token: String) async throws -> AccountSnapshot {
         let me: MeResponse = try await send("GET", "v1/me", token: token)
-        return me.settings
+        return AccountSnapshot(userID: me.user?.id, settings: me.settings)
     }
 
     func save(settings: UserSettings, token: String) async throws -> UserSettings {
