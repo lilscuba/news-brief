@@ -42,7 +42,15 @@ targets:
         CFBundleDisplayName: Brief
         API_BASE_URL: $(API_BASE_URL)
         UILaunchScreen: {}
-        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        # Landscape too: wide tables, charts and video in articles.
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        # Background app refresh (BGAppRefreshTask) so the brief is already fresh when it's opened.
+        # The identifier must match AppModel.backgroundRefreshID.
+        UIBackgroundModes: [fetch]
+        BGTaskSchedulerPermittedIdentifiers: [com.lilscuba.brief.refresh]
         ITSAppUsesNonExemptEncryption: false
   PersonalFeedTests:
     type: bundle.unit-test

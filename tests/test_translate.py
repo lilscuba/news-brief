@@ -20,7 +20,8 @@ class FakeGemini:
     def __init__(self, fail=False, drop=()):
         self.calls, self.fail, self.drop = [], fail, set(drop)
 
-    def __call__(self, system, user, schema, cfg, timeout=0):
+    def __call__(self, system, user, schema, cfg, timeout=0, models=None):
+        self.models = models
         if self.fail:
             raise RuntimeError("Gemini HTTP 429")
         sent = json.loads(user)
@@ -149,3 +150,26 @@ def test_opml_foreign_feeds_declare_a_language():
     foreign = [f for f in load_opml(ROOT / "feeds.opml") if f.lang != "en"]
     assert len(foreign) >= 10 and {f.lang for f in foreign} >= {"de", "fr", "ja", "ko"}
     assert all(len(f.lang) == 2 for f in foreign)
+
+
+def test_a_short_batch_of_fresh_headlines_waits_for_more(gemini):
+    st = {}
+    items = de_items(3, minutes_ago=5)  # default min_batch is 10, max_wait_minutes 20
+    assert translate.translate_items(items, CFG, st, NOW) == 0 and gemini.calls == []
+    assert not any(translate.is_readable(it) for it in items)
+    # Twenty minutes on, the oldest has waited long enough: the short batch goes.
+    assert translate.translate_items(items, CFG, st, NOW + timedelta(minutes=20)) == 3
+    assert len(gemini.calls) == 1
+
+
+def test_a_full_batch_goes_at_once(gemini):
+    cfg = {**CFG, "translate": {"min_batch": 4}}
+    assert translate.translate_items(de_items(4, minutes_ago=1), cfg, {}, NOW) == 4
+
+
+def test_translation_uses_its_own_models(gemini):
+    cfg = {**CFG, "translate": {"models": ["flash-lite", "flash"]}}
+    translate.translate_items(de_items(), cfg, {}, NOW)
+    assert gemini.models == ["flash-lite", "flash"]
+    from briefing.config import load_config
+    assert load_config()["translate"]["models"][0].endswith("flash-lite")

@@ -6,7 +6,7 @@ import pytest
 from briefing import alerts, bluesky, deliver
 from briefing.dedupe import cluster_items
 from briefing.digest import assemble
-from briefing.labels import label_cluster
+from briefing.labels import is_opinion, is_opinion_story, label_cluster
 from briefing.models import Cluster, Feed
 from briefing.rank import rank
 from briefing.summarize import LLMBrief, gemini_schema, list_brief
@@ -54,6 +54,23 @@ def test_bluesky_keeps_news_and_drops_chatter():
     assert items[0].published.isoformat() == "2026-10-01T11:00:00+00:00"
 
 
+def test_bluesky_titles_drop_shortlinks_and_ad_tags_but_stay_deals():
+    wario = Feed("wario64", "Wario64", "https://bsky.app/profile/wario64.bsky.social/rss", "Gaming")
+    data = {"feed": [
+        post("Apple AirPods 4 is $79 at Walmart buff.ly/8HWWe6b #ad", facet_link="https://buff.ly/8HWWe6b"),
+        post("Walmart Deals Days week buff.ly/QyhA9lq\nTech buff.ly/7XEuuLS\nVideo Games/Media "
+             "buff.ly/uYPyoSV\nToys buff.ly/B01tzTC #ad", facet_link="https://buff.ly/QyhA9lq"),
+        post("Invincible VS (PS5) is $24.99 on Amazon amzn.to/4vTD7Al\nBest Buy buff.ly/mTafYBR #ad",
+             facet_link="https://amzn.to/4vTD7Al"),
+    ]}
+    items = bluesky.parse_author_feed(wario, data, NOW)
+    assert [it.title for it in items] == ["Apple AirPods 4 is $79 at Walmart", "Walmart Deals Days week",
+                                          "Invincible VS (PS5) is $24.99 on Amazon"]
+    assert items[0].raw_title == "Apple AirPods 4 is $79 at Walmart buff.ly/8HWWe6b #ad"
+    # Labels read the post as written, so "#ad" still marks a deal without a price in the title.
+    assert all(label_cluster(Cluster(1, [it])) == "DEAL" for it in items)
+
+
 @pytest.mark.parametrize("titles,official,trusted,expected", [
     (["Keeper is $13.99 on Steam"], False, False, "DEAL"),
     (["CrossCode 75% off this week"], False, False, "DEAL"),
@@ -66,10 +83,69 @@ def test_bluesky_keeps_news_and_drops_chatter():
     (["Stellar Blade 2 is a PS5 exclusive"], False, True, "REPORTED"),
     (["Nintendo announces Switch 2 Lite"], True, False, "CONFIRMED"),
     (["Microsoft buys studio for $2 billion"], False, False, "REPORTED"),
+    # Live headlines the substring rules got wrong: words, not fragments ("milli-on sale-s").
+    (["Metro Redux's Next-Gen Update passes 50 million sales"], False, False, "REPORTED"),
+    (["Sales of EVs slow as discounts fade"], False, False, "REPORTED"),
+    (["Greenland Deal: Trump Drops Threat to Annex Denmark Territory"], False, False, "REPORTED"),
+    (["Amazon slashes 50% off Beats Studio Pro headphones"], False, False, "DEAL"),
+    (["Daily Deal: The Complete Raspberry Pi And Alexa A-Z Bundle"], False, False, "DEAL"),
+    (["Amazon's $199 Apple Watch deal is back for Prime Big Deal Days"], False, False, "DEAL"),
+    # A leaked video, a data leak, legal "allegedly" and a denial aren't rumors.
+    (["Samoa prime minister apologises for Nazi gesture in leaked video"], False, False, "REPORTED"),
+    (["Daiwa Securities says info on 110,000 clients may have been leaked"], False, False, "REPORTED"),
+    (["FBI in Los Angeles arrests realtor who allegedly worked as Chinese agent"], False, False, "REPORTED"),
+    (["Police Allegedly Destroyed $37,000 of Legal Hemp"], False, False, "REPORTED"),
+    (["James Gunn Shuts Down Jensen Ackles Batman Casting Rumors"], False, False, "REPORTED"),
+    (["Alito Hints That The Dobbs Leaker Knew A Member of the Majority"], False, False, "REPORTED"),
+    (["Rumour: Sony 'Accepting Game Pitches' on Fan Fave Franchises"], False, False, "RUMOR-UNVERIFIED"),
+    (["Google's Fitbit Edge leaks out with a screen and Pixel 11 colors"], False, False, "RUMOR-UNVERIFIED"),
+    (["Marvel's 'Project COMET' First Gameplay Trailer Allegedly Leaks"], False, False, "RUMOR-UNVERIFIED"),
+    (["'HomePad' could launch in these four colors, per leaker"], False, False, "RUMOR-UNVERIFIED"),
+    # Market and policy wording isn't a sale; a price level needs a price next to it.
+    (["Yen falls to all-time low against the dollar"], False, False, "REPORTED"),
+    (["Brent crude sinks to lowest price since 2021"], False, False, "REPORTED"),
+    (["U.S. lifts sanctions on sale of Russian diesel in global markets"], False, False, "REPORTED"),
+    (["\"After an all-time low, we've started to return to growth\" - Xbox's turnaround"], False, False, "REPORTED"),
+    (["AirPods Pro 3 hit all-time low $179 at Amazon"], False, False, "DEAL"),
+    # Visits, physical leaks and data leaks aren't rumors.
+    (["Zelensky makes unannounced visit to Washington"], False, False, "REPORTED"),
+    (["Part of Laval Town Centre Evacuated in Mayenne After Chemical Leak"], False, False, "REPORTED"),
+    (["Data leak reveals 10 million customers' passwords"], False, False, "REPORTED"),
+    (["Pentagon leaks: what we know"], False, False, "REPORTED"),
+    (["Sony's unannounced handheld leaks in new photos"], False, False, "RUMOR-UNVERIFIED"),
 ])
+
 def test_labels(titles, official, trusted, expected):
     f = feed("src", official=official, trusted=trusted)
     assert label_cluster(Cluster(1, [item(f, t) for t in titles])) == expected
+
+
+def test_regional_news_desks_never_file_deals_and_one_title_cant_turn_a_story_into_one():
+    us = feed("ap", "US")
+    assert label_cluster(Cluster(1, [item(us, "Oil rises to $95 on Iran supply fears")])) == "REPORTED"
+    assert label_cluster(Cluster(1, [item(us, "Taiwan arms sale: US approves $2bn package")])) == "REPORTED"
+    news = [item(feed(f"n{i}"), "Trump says Russia to supply diesel to US and global market") for i in range(5)]
+    odd = item(feed("deals"), "Russian diesel on sale: 20% off at the pump")
+    assert label_cluster(Cluster(1, news + [odd])) == "REPORTED"
+
+
+def test_opinion_pieces_are_flagged_by_section_or_tag():
+    wsj, nikkei, yonhap = feed("wsj"), feed("nikkei"), feed("yonhap")
+    assert is_opinion(item(wsj, "Letitia James and the Cornell 7",
+                           url="https://www.wsj.com/opinion/letitia-james-cornell-7-abc"))
+    assert is_opinion(item(nikkei, "Strategic ambiguity remains Washington's best bet",
+                           url="https://asia.nikkei.com/opinion/strategic-ambiguity"))
+    assert is_opinion(item(feed("guardian"), "It's time to abolish ICE",
+                           url="https://www.theguardian.com/commentisfree/2026/oct/05/abolish-ice"))
+    assert is_opinion(item(yonhap, "(EDITORIAL from Korea JoongAng Daily on Oct. 5) A costly delay"))
+    tagged = item(wsj, "Letitia James and the Cornell 7")
+    tagged.raw_title = "Opinion | Letitia James and the Cornell 7"  # as parse_feed keeps it
+    assert is_opinion(tagged)
+    news = item(wsj, "Fed holds rates steady", url="https://www.wsj.com/economy/fed-holds-rates")
+    assert not is_opinion(news)
+    # One column among news reports doesn't make the story an opinion piece; the label is untouched.
+    assert is_opinion_story(Cluster(1, [tagged])) and not is_opinion_story(Cluster(2, [tagged, news]))
+    assert label_cluster(Cluster(1, [tagged])) == "REPORTED"
 
 
 def test_deals_get_their_own_section_and_never_top():

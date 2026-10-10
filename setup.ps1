@@ -135,7 +135,7 @@ try {
 
 Step "Running the first daily brief"
 Start-Sleep -Seconds 3
-gh workflow run daily-brief.yml --repo $full
+gh workflow run daily-brief.yml --repo $full -f force=true
 if ($LASTEXITCODE -ne 0) { Write-Host "Couldn't start it yet; run it from the Actions tab." -ForegroundColor Yellow }
 
 Write-Host ""

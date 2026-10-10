@@ -13,7 +13,7 @@ import re
 from datetime import datetime, timezone
 
 from .models import Feed, Item
-from .normalize import canonical_url, snippet
+from .normalize import canonical_url, clean_post_title, clean_snippet, is_web_url, snippet
 
 API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
 _PROFILE_RE = re.compile(r"^https://bsky\.app/profile/([^/]+)/rss/?$")
@@ -62,7 +62,8 @@ def parse_author_feed(feed: Feed, data: dict, now: datetime) -> list[Item]:
         record = post.get("record", {})
         if record.get("reply"):
             continue
-        text = " ".join((record.get("text") or "").split())
+        raw_text = record.get("text") or ""
+        text = " ".join(raw_text.split())
         card = (post.get("embed") or {}).get("external") or {}
         if not text and not card.get("title"):
             continue
@@ -70,11 +71,12 @@ def parse_author_feed(feed: Feed, data: dict, now: datetime) -> list[Item]:
         rkey = post.get("uri", "").rsplit("/", 1)[-1]
         post_url = f"https://bsky.app/profile/{handle}/post/{rkey}"
         link = _post_link(post)
-        if link and any(host in link for host in _NON_NEWS_HOSTS):
+        if link and (not is_web_url(link) or any(host in link for host in _NON_NEWS_HOSTS)):
             link = None
         if not link and not _NEWS_MARKERS.search(text):
             continue
-        title = text or card.get("title", "")
+        # The headline drops buff.ly links and "#ad"; labels still read the raw text (DEAL).
+        title = clean_post_title(raw_text) or card.get("title", "") or text
         if len(title) > 200:
             title = snippet(title, 200)
         summary = card.get("title", "") if text and card.get("title") else ""
@@ -86,8 +88,9 @@ def parse_author_feed(feed: Feed, data: dict, now: datetime) -> list[Item]:
                 title=title,
                 url=link or post_url,
                 canonical_url=canonical_url(link or post_url),
-                summary=snippet(summary),
+                summary=clean_snippet(summary, title),
                 published=published,
+                raw_title=text if text != title else None,
             )
         )
     return items

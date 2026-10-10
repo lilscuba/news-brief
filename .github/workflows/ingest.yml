@@ -1,12 +1,16 @@
 name: Shared feed (app backend)
 
-# Builds the shared feed for every app user and sends their push notifications.
+# Builds the shared feed for every app user and sends their push notifications, and (second job)
+# checks for breaking news for the personal ntfy/Pushover alerts, so one run refreshes both.
 # Needs: variable WORKER_URL; secrets INGEST_SECRET, APNS_KEY, APNS_KEY_ID, APNS_TEAM_ID,
 # APNS_TOPIC; optional GEMINI_API_KEY for translation. See server/README.md.
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Backstop only: the Worker cron (server/wrangler.toml) dispatches this every 10 min once
+    # GITHUB_DISPATCH_TOKEN is set. GitHub delays or drops schedules on busy minutes (:00, :15...),
+    # so this uses odd ones.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -31,11 +35,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # Which items were already seen, so only genuinely new stories become alerts.
+      # Which items were already seen, so only genuinely new stories become alerts. Keys are per
+      # attempt: a re-run then restores the newest state (restore-keys) instead of its own old one.
       - uses: actions/cache/restore@v4
         with:
           path: state/ingest.json
-          key: ingest-state-${{ github.run_id }}
+          key: ingest-state-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: ingest-state-
 
       - name: Build feed and send pushes
@@ -55,4 +60,46 @@ jobs:
         if: always()
         with:
           path: state/ingest.json
-          key: ingest-state-${{ github.run_id }}
+          key: ingest-state-${{ github.run_id }}-${{ github.run_attempt }}
+
+  # Same job as breaking-alerts.yml (same state cache), riding on this workflow's 10-minute
+  # dispatch. Runs whether or not WORKER_URL is set. Its concurrency group is shared with
+  # breaking-alerts.yml so the two never touch the alert state at the same time.
+  alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    concurrency:
+      group: breaking-alerts
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Alert state (seen items, cooldowns, daily count) lives in the Actions cache instead of
+      # being committed, so the repo doesn't get a commit every few minutes.
+      - uses: actions/cache/restore@v4
+        with:
+          path: state/alerts.json
+          key: alerts-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: alerts-state-
+
+      - name: Check for breaking news
+        run: python -m briefing alerts
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: state/alerts.json
+          key: alerts-state-${{ github.run_id }}-${{ github.run_attempt }}

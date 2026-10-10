@@ -1,7 +1,8 @@
 import Foundation
 
 /// GET /v1/feed: the shared feed everyone downloads (built by `python -m briefing ingest`).
-/// Each phone turns it into its owner's brief with `BriefBuilder`.
+/// Each phone turns it into its owner's brief with `BriefBuilder`. Fields added after version 1
+/// shipped are optional, so the app keeps reading older feeds and the pipeline can add more.
 struct SharedFeed: Codable, Sendable {
     let version: Int
     let generatedAt: Date
@@ -26,6 +27,8 @@ struct FeedStory: Codable, Hashable, Sendable, Identifiable {
     let sources: [FeedSource]
     /// True when `summary` was written by AI from the outlets' headlines and snippets.
     var aiSummary: Bool?
+    /// True for an opinion or editorial piece (absent otherwise).
+    var opinion: Bool?
 }
 
 struct FeedSource: Codable, Hashable, Sendable {
@@ -50,7 +53,11 @@ struct SourceInfo: Codable, Hashable, Sendable, Identifiable {
     let mirror: Bool
     let status: String
     let latest: Date?
+    /// True when the feed answered but has posted nothing for days (frozen or abandoned).
+    var stale: Bool?
     var id: String { key }
+
+    var isStale: Bool { stale == true }
 }
 
 struct WatchRule: Codable, Hashable, Sendable {

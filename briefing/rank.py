@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import math
+import re
 from datetime import datetime
+from functools import lru_cache
 
 from .models import Cluster
 
@@ -30,6 +32,16 @@ def rank(clusters: list[Cluster], cfg: dict, now: datetime) -> list[Cluster]:
     return sorted(clusters, key=lambda c: c.score, reverse=True)
 
 
+@lru_cache(maxsize=8)
+def _mute_re(patterns: tuple[str, ...]) -> re.Pattern | None:
+    return re.compile("|".join(f"(?:{p})" for p in patterns), re.IGNORECASE) if patterns else None
+
+
 def is_muted(title: str, cfg: dict) -> bool:
+    """Substring `mute` terms, plus `mute_patterns` regexes for filler that needs word boundaries
+    ("codes" alone would also hide a story about stolen 2FA codes)."""
     lowered = title.lower()
-    return any(term in lowered for term in cfg["digest"]["mute"])
+    if any(term in lowered for term in cfg["digest"]["mute"]):
+        return True
+    rx = _mute_re(tuple(cfg["digest"].get("mute_patterns", ())))
+    return bool(rx and rx.search(title))

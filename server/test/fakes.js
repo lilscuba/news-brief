@@ -52,9 +52,11 @@ export function fakeKV() {
       if (!v) return null;
       return type === "json" ? JSON.parse(v.value) : v.value;
     },
-    async getWithMetadata(key) {
+    async getWithMetadata(key, type) {
       const v = store.get(key);
-      return v ? { value: v.value, metadata: v.metadata } : { value: null, metadata: null };
+      if (!v) return { value: null, metadata: null };
+      if (type === "stream") return { value: new Blob([v.value]).stream(), metadata: v.metadata };
+      return { value: v.value, metadata: v.metadata };
     },
     async put(key, value, opts = {}) {
       store.set(key, { value, metadata: opts.metadata ?? null });

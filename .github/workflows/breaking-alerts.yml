@@ -1,9 +1,14 @@
 name: Breaking alerts
 
+# The same check also runs as the `alerts` job of ingest.yml, which the Worker cron dispatches every
+# 10 minutes (and GitHub schedules twice an hour as a backstop). This workflow is a further backstop
+# and the way to run the check alone by hand.
+
 on:
   schedule:
-    # Every 15 minutes. GitHub often delays these; the 90-minute lookback covers the gap.
-    - cron: "*/15 * * * *"
+    # Every 2 hours at an odd minute (GitHub delays or drops schedules on busy minutes). It can
+    # still run hours late, so don't rely on it alone for timely alerts.
+    - cron: "23 */2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,11 +33,12 @@ jobs:
       - run: pip install -r requirements.txt
 
       # Alert state (seen items, cooldowns, daily count) lives in the Actions cache instead of
-      # being committed, so the repo doesn't get ~96 commits a day.
+      # being committed, so the repo doesn't get a commit every few minutes. ingest.yml's
+      # `alerts` job uses the same cache keys and concurrency group.
       - uses: actions/cache/restore@v4
         with:
           path: state/alerts.json
-          key: alerts-state-${{ github.run_id }}
+          key: alerts-state-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: alerts-state-
 
       - name: Check for breaking news
@@ -48,4 +54,4 @@ jobs:
         if: always()
         with:
           path: state/alerts.json
-          key: alerts-state-${{ github.run_id }}
+          key: alerts-state-${{ github.run_id }}-${{ github.run_attempt }}
