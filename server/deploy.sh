@@ -71,7 +71,7 @@ done
 url="$url/"
 printf '{ "url": "%s" }\n' "$url" > .deployed.json   # remembered for launch.sh (ignored by git)
 
-step "Connecting GitHub (the 15-minute ingest job)"
+step "Connecting GitHub (the ingest job)"
 repo="$(gh repo view --json nameWithOwner --jq .nameWithOwner 2>/dev/null)"
 if [ -n "$repo" ]; then
   gh variable set WORKER_URL -R "$repo" -b "$url" || fail "gh variable set failed"
@@ -81,6 +81,24 @@ else
   printf '\033[33mNot in a GitHub repo yet. Add variable WORKER_URL=%s and secret INGEST_SECRET by hand.\033[0m\n' "$url"
   echo "INGEST_SECRET: $secret"
 fi
+
+step "Faster updates (optional)"
+echo "GitHub starts scheduled runs hours late. With a GitHub token, the Worker starts the ingest every"
+echo "10 minutes instead. Make a fine-grained token for this repo only, with Actions: Read and write"
+echo "(server/README.md, 'Keeping the feed fresh')."
+gh_token=""
+read -r -s -p "Paste a GitHub token for 10-minute refresh (Enter to skip): " gh_token
+echo
+# The backend is already live, so a problem here only warns.
+if [ -z "$gh_token" ]; then
+  echo "Skipped (a token saved earlier stays in place). GitHub's own schedule keeps the feed updating, just later."
+  echo "Add one any time:  cd server && npx wrangler secret put GITHUB_DISPATCH_TOKEN"
+elif printf '%s' "$gh_token" | npx wrangler secret put GITHUB_DISPATCH_TOKEN; then
+  echo "Saved. The Worker starts the ingest every 10 minutes from now on."
+else
+  printf "\033[33mCouldn't save the token. Try again:  cd server && npx wrangler secret put GITHUB_DISPATCH_TOKEN\033[0m\n"
+fi
+unset gh_token
 
 printf '\n\033[32m== Backend is live ==\033[0m\n'
 echo "API:            $url"

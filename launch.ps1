@@ -83,7 +83,7 @@ $steps = @(
        need = "Nothing." },
     @{ id = "github"; modes = "personal,app"; minutes = "2"
        name = "GitHub account (Continue with Apple)"
-       what = "Connects this PC to GitHub, which hosts the project and runs it every 15 minutes for free."
+       what = "Connects this PC to GitHub, which hosts the project and runs it around the clock for free."
        need = "Your Apple ID (if you don't have GitHub yet) or your GitHub login." },
     @{ id = "repo"; modes = "personal,app"; minutes = "3"
        name = "Put the project on GitHub + phone alerts"

@@ -24,9 +24,11 @@ export const DEFAULT_SETTINGS = Object.freeze({
 export class SettingsError extends Error {}
 
 const MAX_LIST = 100;
+// Sources are bounded by the catalog (~175 feeds), and turning off a few whole regions is normal.
+const MAX_SOURCES = 500;
 const MAX_TERM = 60;
 
-function stringList(value, field, { allowed } = {}) {
+function stringList(value, field, { allowed, max = MAX_LIST } = {}) {
   if (value === undefined) return undefined;
   if (!Array.isArray(value)) throw new SettingsError(`${field} must be a list`);
   const out = [];
@@ -37,8 +39,9 @@ function stringList(value, field, { allowed } = {}) {
     if (s.length > MAX_TERM) throw new SettingsError(`${field} entries are limited to ${MAX_TERM} characters`);
     if (allowed && !allowed.includes(s)) throw new SettingsError(`${field}: unknown value ${s}`);
     if (!out.includes(s)) out.push(s);
+    // Inside the loop so an oversized list fails fast instead of deduping all of it first.
+    if (out.length > max) throw new SettingsError(`${field} is limited to ${max} entries`);
   }
-  if (out.length > MAX_LIST) throw new SettingsError(`${field} is limited to ${MAX_LIST} entries`);
   return out;
 }
 
@@ -81,7 +84,7 @@ export function mergeSettings(base, input) {
     ...base,
     ...defined({
       categories: stringList(input.categories, "categories", { allowed: CATEGORIES }),
-      disabledSources: stringList(input.disabledSources, "disabledSources"),
+      disabledSources: stringList(input.disabledSources, "disabledSources", { max: MAX_SOURCES }),
       mutedWords: stringList(input.mutedWords, "mutedWords"),
       boosts: stringList(input.boosts, "boosts"),
     }),
