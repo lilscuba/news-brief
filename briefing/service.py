@@ -1,6 +1,6 @@
 """Shared-backend mode: one ingest run serves every app user.
 
-Every 15 minutes `python -m briefing ingest`:
+Every 10 minutes (dispatched by the Worker's cron) `python -m briefing ingest`:
   1. fetches all sources once,
   2. builds the shared feed: the last 48 h of clustered, labelled, globally ranked stories plus
      the source catalog and the default watchlist (each phone personalizes it locally),
@@ -12,17 +12,20 @@ Every 15 minutes `python -m briefing ingest`:
 from __future__ import annotations
 
 import logging
+import time
 from datetime import datetime, timedelta, timezone
 
 import requests
 
-from . import apns, state, story_summaries, translate
+from . import apns, state, story_summaries, summarize, translate
+from .alerts import alert_lookback
 from .config import ROOT, env, load_config
 from .dedupe import cluster_items
 from .digest import _apply_feed_caps
-from .feeds import FetchResult, fetch_all, load_opml
-from .labels import label_cluster
+from .feeds import FetchResult, fetch_all, load_opml, settle_times
+from .labels import is_opinion_story, label_cluster
 from .models import Cluster, Feed, Item
+from .normalize import canonical_url
 from .rank import is_muted, rank
 
 log = logging.getLogger(__name__)
@@ -30,6 +33,7 @@ log = logging.getLogger(__name__)
 FEED_VERSION = 1
 FEED_WINDOW_HOURS = 48
 CANDIDATE_WINDOW_HOURS = 12
+SUMMARY_CHARS = 240
 
 
 def story_id(cluster: Cluster) -> str:
@@ -37,8 +41,12 @@ def story_id(cluster: Cluster) -> str:
     return min(cluster.items, key=lambda it: (it.published, it.id)).id
 
 
-def _source_catalog(feeds: list[Feed], results: list[FetchResult]) -> list[dict]:
+def _source_catalog(feeds: list[Feed], results: list[FetchResult], cfg: dict,
+                    now: datetime) -> list[dict]:
+    """Every source with its health. "status" says whether the fetch worked; "stale" whether a
+    feed that answered has posted nothing for `[health] stale_days` (frozen or moved feeds)."""
     by_key = {r.feed.key: r for r in results}
+    stale_after = timedelta(days=cfg.get("health", {}).get("stale_days", 14))
     out = []
     for f in feeds:
         r = by_key.get(f.key)
@@ -47,33 +55,46 @@ def _source_catalog(feeds: list[Feed], results: list[FetchResult]) -> list[dict]
             "key": f.key, "title": f.title, "category": f.category,
             "official": f.official, "trusted": f.trusted, "mirror": f.mirror,
             "status": "error" if (r and r.error) else "ok",
+            "stale": bool(r and not r.error and newest and now - newest > stale_after),
             "latest": state.iso(newest) if newest else None,
         })
+    if stale := [f"{s['key']} ({s['latest'][:10]})" for s in out if s["stale"]]:
+        log.warning("%d feed(s) with nothing new for %s days: %s", len(stale), stale_after.days,
+                    ", ".join(stale))
     return out
 
 
 def _story(c: Cluster, summary: str | None = None) -> dict:
-    lead = c.lead
-    items = sorted(c.items, key=lambda it: (not it.feed.official, it.published))
+    # The headline item gives the title and is sources[0], the app's "Read article" target. The id
+    # stays the earliest item's, so read state and push dedupe survive a headline change.
+    head = c.headline_item
+    rest = sorted((it for it in c.items if it is not head),
+                  key=lambda it: (not it.feed.official, it.published))
     seen_urls: set[str] = set()
     sources = []
-    for it in items:
+    for it in (head, *rest):
+        url, outlet = it.url, it.source_name or it.feed.title
         if it.canonical_url in seen_urls:
-            continue
+            # A Techmeme post of an article already listed: keep its own page (the discussion).
+            if not (it.source_name and it.alt_urls) or canonical_url(it.alt_urls[0]) in seen_urls:
+                continue
+            url, outlet = it.alt_urls[0], it.feed.title
+            seen_urls.add(canonical_url(url))
         seen_urls.add(it.canonical_url)
-        src = {"key": it.feed.key, "outlet": it.feed.title, "title": it.title,
-               "url": it.url, "official": it.feed.official, "published": state.iso(it.published)}
+        src = {"key": it.feed.key, "outlet": outlet, "title": it.title,
+               "url": url, "official": it.feed.official, "published": state.iso(it.published)}
         if it.original_title:
             src["translatedFrom"] = it.feed.lang
             src["originalTitle"] = it.original_title
         sources.append(src)
     return {
         "id": story_id(c),
-        "title": lead.title,
-        # The AI summary (top stories only) replaces the lead outlet's RSS snippet.
-        "summary": summary or lead.summary[:240],
+        "title": head.title,
+        # The AI summary (top stories only) replaces the outlets' feed snippet.
+        "summary": summary or c.snippet(SUMMARY_CHARS, first=head),
         **({"aiSummary": True} if summary else {}),
         "label": label_cluster(c),
+        **({"opinion": True} if is_opinion_story(c) else {}),
         "category": c.category,
         "score": c.score,
         "official": c.official,
@@ -104,15 +125,16 @@ def build_feed(results: list[FetchResult], feeds: list[Feed], cfg: dict, now: da
         "generatedAt": state.iso(now),
         "windowHours": FEED_WINDOW_HOURS,
         "sections": cfg["digest"]["sections"],
-        "sources": _source_catalog(feeds, results),
+        "sources": _source_catalog(feeds, results, cfg, now),
         "watchlist": [{"name": r["name"], "match": r["match"]} for r in cfg["alerts"]["watch"]],
         "stories": [_story(c, summaries.get(story_id(c))) for c in clusters],
     }
 
 
-def alert_candidates(items: list[Item], seen: dict, cfg: dict, now: datetime) -> list[dict]:
+def alert_candidates(items: list[Item], seen: dict, cfg: dict, now: datetime,
+                     last_run: str | None = None) -> list[dict]:
     """Clusters (over the last 12 h) that contain an item that is new since the last run."""
-    lookback = timedelta(minutes=cfg["alerts"]["lookback_minutes"])
+    lookback = alert_lookback(cfg, now, last_run)
     recent = [it for it in items
               if now - it.published <= timedelta(hours=CANDIDATE_WINDOW_HOURS)
               and it.feed.alert_mode != "never" and not is_muted(it.title, cfg)
@@ -141,6 +163,26 @@ def alert_candidates(items: list[Item], seen: dict, cfg: dict, now: datetime) ->
     return out
 
 
+def _post_worker(url: str, payload: dict, secret: str, timeout: int = 60) -> requests.Response:
+    """POST to the Worker, once more after 5 s on a dropped connection, timeout or 5xx (a deploy
+    or a KV/D1 blip); the ingest's work is too costly to throw away on one."""
+    for attempt in (1, 2):
+        try:
+            resp = requests.post(url, json=payload, headers={"Authorization": f"Bearer {secret}"},
+                                 timeout=timeout)
+            if resp.status_code < 500 or attempt == 2:
+                resp.raise_for_status()
+                return resp
+            reason = f"HTTP {resp.status_code}"
+        except (requests.ConnectionError, requests.Timeout) as exc:
+            if attempt == 2:
+                raise
+            reason = type(exc).__name__
+        log.warning("worker %s on %s; retrying in 5s", reason, url)
+        time.sleep(5)
+    raise AssertionError("unreachable")
+
+
 def run(dry_run: bool = False) -> dict:
     cfg = load_config()
     now = datetime.now(timezone.utc)
@@ -148,43 +190,58 @@ def run(dry_run: bool = False) -> dict:
     st = state.load(path)
     seen: dict[str, str] = st.get("seen", {})
     first_run = not seen
+    summarize.restore_cooldowns(st, now)  # skip Gemini models that failed in a recent run
 
     feeds = load_opml(ROOT / "feeds.opml")
     results = fetch_all(feeds, now)
     items = [it for r in results for it in r.items]
+    # Undated items keep the time they were first seen instead of looking new on every run.
+    settle_times(items, seen, now)
     # Translate before ranking so a foreign story clusters with English coverage of the same event.
     window = now - timedelta(hours=FEED_WINDOW_HOURS)
     translate.translate_items(_apply_feed_caps([it for it in items if it.published >= window]),
                               cfg, st, now)
     feed = build_feed(results, feeds, cfg, now, st)
     # On the very first run everything looks new; don't push a backlog to everyone.
-    candidates = [] if first_run else alert_candidates(items, seen, cfg, now)
+    candidates = [] if first_run else alert_candidates(items, seen, cfg, now, st.get("last_run"))
     log.info("feed: %d stories from %d sources; %d alert candidates",
              len(feed["stories"]), len(feeds), len(candidates))
 
     if dry_run:
         return {"feed": feed, "candidates": candidates}
 
-    worker, secret = env("WORKER_URL"), env("INGEST_SECRET")
-    if not worker or not secret:
-        raise SystemExit("WORKER_URL and INGEST_SECRET must be set (see server/README.md)")
-    resp = requests.post(f"{worker.rstrip('/')}/v1/internal/ingest",
-                         json={"feed": feed, "candidates": candidates},
-                         headers={"Authorization": f"Bearer {secret}"}, timeout=60)
-    resp.raise_for_status()
-    pushes = resp.json().get("pushes", [])
-    log.info("worker returned %d push(es)", len(pushes))
+    try:
+        worker, secret = env("WORKER_URL"), env("INGEST_SECRET")
+        if not worker or not secret:
+            raise SystemExit("WORKER_URL and INGEST_SECRET must be set (see server/README.md)")
+        resp = _post_worker(f"{worker.rstrip('/')}/v1/internal/ingest",
+                            {"feed": feed, "candidates": candidates}, secret)
+        pushes = resp.json().get("pushes", [])
+        log.info("worker returned %d push(es)", len(pushes))
 
-    if pushes:
-        invalid = apns.send_all(pushes)
-        if invalid:
-            requests.post(f"{worker.rstrip('/')}/v1/internal/push-results",
-                          json={"invalidTokens": invalid},
-                          headers={"Authorization": f"Bearer {secret}"}, timeout=30)
+        if pushes:
+            invalid = apns.send_all(pushes)
+            if invalid:
+                try:
+                    requests.post(f"{worker.rstrip('/')}/v1/internal/push-results",
+                                  json={"invalidTokens": invalid},
+                                  headers={"Authorization": f"Bearer {secret}"}, timeout=30)
+                except requests.RequestException as exc:  # APNs reports them again next time
+                    log.warning("couldn't report %d dead device token(s): %s", len(invalid), exc)
 
-    for it in items:
-        seen.setdefault(it.id, state.iso(now))
-    st["seen"] = state.prune(seen, now, keep_days=3)
-    st["last_run"] = state.iso(now)
-    state.save(path, st)
+        # Only a delivered run moves these on, so a failed one's alerts are offered again. A
+        # foreign headline still waiting for its translation batch isn't seen yet: it can only
+        # join an alert once it reads in English.
+        for it in items:
+            if translate.is_readable(it):
+                seen.setdefault(it.id, state.iso(now))
+        # Undated items still in their feed keep their first-seen time past the usual 3 days.
+        st["seen"] = state.prune(seen, now, keep_days=3,
+                                 keep={it.id for it in items if not it.exact_time})
+        st["last_run"] = state.iso(now)
+    finally:
+        # Keep what this run paid for (translations, summaries) and learned (Gemini cooldowns)
+        # even when the upload failed.
+        summarize.store_cooldowns(st, now)
+        state.save(path, st)
     return {"stories": len(feed["stories"]), "candidates": len(candidates), "pushes": len(pushes)}

@@ -8,12 +8,13 @@ from __future__ import annotations
 import json
 import logging
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Literal
 
 import requests
 from pydantic import BaseModel, ConfigDict
 
+from . import state
 from .config import env
 from .labels import label_cluster
 from .models import Cluster
@@ -27,9 +28,22 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 # retry rides it out. Anything still failing is retried by the next scheduled run.
 GEMINI_RETRY_STATUS = {429, 500, 502, 503, 504}
 GEMINI_RETRY_DELAYS = (3, 8)
-# Models that already failed every retry in this process. The rest of the run (the ingest makes
-# several calls) goes straight to the fallbacks instead of waiting out the retries again.
-_OVERLOADED: set[str] = set()
+# The daily brief runs once and is worth waiting for: longer retries on the primary model.
+GEMINI_CRITICAL_DELAYS = (10, 30, 60)
+# ...but the daily-brief job has 20 minutes in all, and a hanging request can take the full
+# timeout. All of a critical call's attempts (fallbacks included) share this budget, so a failure
+# still leaves time for the plain-list brief.
+GEMINI_CRITICAL_BUDGET = 600
+# HTTP 429 means the free-tier quota is spent; a few seconds won't bring it back.
+GEMINI_QUOTA_STATUS = 429
+# A model that failed every retry (or is out of quota) is skipped by the next calls for this
+# long, then tried again: one 503 spike shouldn't push the whole run onto the last fallback.
+OVERLOAD_SECONDS = 120
+# ...and by later runs for this long (persisted in the state file, see store_cooldowns).
+COOLDOWN = timedelta(minutes=30)
+COOLDOWN_KEY = "gemini_cooldown"
+_OVERLOADED: dict[str, float] = {}  # model -> time.monotonic() until which it is skipped
+_FAILED: dict[str, bool] = {}  # this process: model -> whether its latest call failed
 
 Label = Literal["CONFIRMED", "REPORTED", "RUMOR-CREDIBLE", "RUMOR-UNVERIFIED", "DEAL"]
 
@@ -163,19 +177,28 @@ def gemini_schema(model: type[BaseModel]) -> dict:
     return walk(raw)
 
 
-def _post_gemini(model: str, key: str, body: dict, timeout: int, delays: tuple) -> requests.Response:
-    """POST one generateContent request, retrying transient failures after each delay."""
+def _post_gemini(model: str, key: str, body: dict, timeout: int, delays: tuple,
+                 deadline: float | None = None) -> requests.Response:
+    """POST one generateContent request, retrying transient failures after each delay. A spent
+    quota (429) is returned at once so the caller can move to another model. With a `deadline`
+    (time.monotonic), no request runs past it and no retry starts that couldn't finish."""
+    def out_of_time(attempt: int) -> bool:
+        # Checked after each failure: a retry must have room to wait and still get an answer.
+        return attempt == len(delays) or (
+            deadline is not None and time.monotonic() + delays[attempt] + 30 > deadline)
+
     for attempt in range(len(delays) + 1):
-        last = attempt == len(delays)
+        wait = timeout if deadline is None else max(1, min(timeout, deadline - time.monotonic()))
         try:
             # Header, not ?key=, so the key never shows up in logged URLs.
-            resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=timeout,
+            resp = requests.post(GEMINI_URL.format(model=model), json=body, timeout=wait,
                                  headers={"x-goog-api-key": key})
-            if resp.status_code not in GEMINI_RETRY_STATUS or last:
+            if (resp.status_code not in GEMINI_RETRY_STATUS or resp.status_code == GEMINI_QUOTA_STATUS
+                    or out_of_time(attempt)):
                 return resp
             reason = f"HTTP {resp.status_code}"
         except (requests.ConnectionError, requests.Timeout) as exc:
-            if last:
+            if out_of_time(attempt):
                 raise
             reason = type(exc).__name__
         log.info("Gemini %s on %s; retrying in %ss", reason, model, delays[attempt])
@@ -183,16 +206,57 @@ def _post_gemini(model: str, key: str, body: dict, timeout: int, delays: tuple) 
     raise AssertionError("unreachable")
 
 
-def gemini_json(system: str, user: str, schema: dict, cfg: dict,
-                timeout: int = 300) -> tuple[str, dict]:
+def _overloaded(model: str) -> bool:
+    return _OVERLOADED.get(model, 0.0) > time.monotonic()
+
+
+def _mark_failed(model: str) -> None:
+    _OVERLOADED[model] = time.monotonic() + OVERLOAD_SECONDS
+    _FAILED[model] = True
+
+
+def _mark_ok(model: str) -> None:
+    _OVERLOADED.pop(model, None)
+    _FAILED[model] = False
+
+
+def restore_cooldowns(st: dict, now: datetime) -> None:
+    """Skip, for the rest of their cooldown, models that failed in a recent run (`st` is the
+    caller's state file), instead of spending each run's first calls retrying them."""
+    for model, until in st.get(COOLDOWN_KEY, {}).items():
+        left = (state.parse_iso(until) - now).total_seconds()
+        if left > 0:
+            _OVERLOADED[model] = max(_OVERLOADED.get(model, 0.0), time.monotonic() + left)
+
+
+def store_cooldowns(st: dict, now: datetime) -> None:
+    """Record in `st` which models failed in this run (later runs skip them for COOLDOWN after
+    `now`) and clear the ones that answered again."""
+    cooldowns = {m: until for m, until in st.get(COOLDOWN_KEY, {}).items()
+                 if state.parse_iso(until) > now}
+    for model, failed in _FAILED.items():
+        if failed:
+            cooldowns[model] = state.iso(now + COOLDOWN)
+        else:
+            cooldowns.pop(model, None)
+    if cooldowns:
+        st[COOLDOWN_KEY] = cooldowns
+    else:
+        st.pop(COOLDOWN_KEY, None)
+
+
+def gemini_json(system: str, user: str, schema: dict, cfg: dict, timeout: int = 300,
+                models: list[str] | None = None, critical: bool = False) -> tuple[str, dict]:
     """One structured-output generateContent call. Returns the JSON text and usage.
 
-    The configured model is retried on transient errors; if it is still overloaded, each of
-    `[gemini] fallback_models` gets one try. Client errors (bad request, bad key) never fall back."""
+    The first model (`models`, else `[gemini] model` then its `fallback_models`) is retried on
+    transient errors; if it is still overloaded or out of quota, each fallback gets one try, and
+    calls in the next couple of minutes skip it. `critical` calls (the daily brief) always try the
+    first model, with longer retries. Client errors (bad request, bad key) never fall back."""
     key = env("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("GEMINI_API_KEY is not set")
-    models = [cfg["gemini"]["model"], *cfg["gemini"].get("fallback_models", [])]
+    models = models or [cfg["gemini"]["model"], *cfg["gemini"].get("fallback_models", [])]
     body = {
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
@@ -201,22 +265,35 @@ def gemini_json(system: str, user: str, schema: dict, cfg: dict,
             "responseSchema": schema,
         },
     }
+    deadline = time.monotonic() + GEMINI_CRITICAL_BUDGET if critical else None
+    resp = None
     for n, model in enumerate(models):
         more = n < len(models) - 1
-        if more and model in _OVERLOADED:
+        if more and _overloaded(model) and not (critical and n == 0):
             continue
+        if deadline is not None and time.monotonic() + 30 > deadline:
+            log.warning("Gemini: out of time before trying %s", model)
+            break
+        delays = (GEMINI_CRITICAL_DELAYS if critical else GEMINI_RETRY_DELAYS) if n == 0 else ()
         try:
-            resp = _post_gemini(model, key, body, timeout, GEMINI_RETRY_DELAYS if n == 0 else ())
+            resp = _post_gemini(model, key, body, timeout, delays, deadline)
         except (requests.ConnectionError, requests.Timeout):
+            _mark_failed(model)
             if not more:
                 raise
             log.warning("Gemini %s unreachable; trying %s", model, models[n + 1])
             continue
-        if resp.status_code in GEMINI_RETRY_STATUS and more:
-            _OVERLOADED.add(model)
-            log.warning("Gemini %s returned HTTP %s; trying %s", model, resp.status_code, models[n + 1])
-            continue
+        if resp.status_code in GEMINI_RETRY_STATUS:
+            _mark_failed(model)
+            if more:
+                log.warning("Gemini %s returned HTTP %s; trying %s", model, resp.status_code,
+                            models[n + 1])
+                continue
+        elif resp.status_code == 200:
+            _mark_ok(model)
         break
+    if resp is None:
+        raise RuntimeError("Gemini: no model could be tried in time")
     if resp.status_code != 200:
         raise RuntimeError(f"Gemini HTTP {resp.status_code}: {resp.text[:300]}")
     data = resp.json()
@@ -236,7 +313,8 @@ def gemini_json(system: str, user: str, schema: dict, cfg: dict,
 
 
 def _gemini(user: str, cfg: dict) -> tuple[LLMBrief, dict]:
-    text, usage = gemini_json(SYSTEM_PROMPT, user, gemini_schema(LLMBrief), cfg)
+    # Once a day and read by a person: worth waiting for the configured model.
+    text, usage = gemini_json(SYSTEM_PROMPT, user, gemini_schema(LLMBrief), cfg, critical=True)
     return LLMBrief.model_validate_json(text), usage
 
 
@@ -299,7 +377,7 @@ def list_brief(clusters: list[Cluster], cfg: dict, feeds_ok: int = 0) -> LLMBrie
         lead = cl.lead
         return LLMStory(
             title=lead.title,
-            summary=lead.summary[:240],
+            summary=cl.snippet(240, first=lead),
             importance=min(5, max(1, len(cl.outlets))),
             label=label_cluster(cl),
             cluster_ids=[cl.id],

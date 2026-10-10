@@ -15,6 +15,7 @@
     pfCategory  section the feed's stories go in, when it differs from the folder (Social)
     pfLang     ISO 639-1 code of a non-English feed (de, fr, ja...). Its headlines and snippets are
                machine-translated to English at ingest (see [translate] in config.toml).
+    pfTimeZone IANA zone of item times written without an offset ("5 October 2026 - 14:09")
 
   Bluesky accounts use their profile RSS URL (https://bsky.app/profile/HANDLE/rss) so this file
   imports cleanly into NetNewsWire; the pipeline reads them through the public Bluesky API.
@@ -88,7 +89,7 @@
       <outline type="rss" text="ABC News" pfKey="abc-us" pfMaxItems="10" xmlUrl="https://abcnews.go.com/abcnews/topstories" htmlUrl="https://abcnews.go.com/"/>
       <outline type="rss" text="CBS News" pfKey="cbs-us" pfMaxItems="10" xmlUrl="https://www.cbsnews.com/latest/rss/main" htmlUrl="https://www.cbsnews.com/"/>
       <outline type="rss" text="NBC News" pfKey="nbc-us" pfMaxItems="10" xmlUrl="https://feeds.nbcnews.com/nbcnews/public/news" htmlUrl="https://www.nbcnews.com/"/>
-      <outline type="rss" text="Newsweek" pfKey="newsweek" pfMaxItems="8" xmlUrl="https://www.newsweek.com/rss" htmlUrl="https://www.newsweek.com/"/>
+      <outline type="rss" text="Newsweek" pfKey="newsweek" pfMaxItems="8" xmlUrl="https://www.newsweek.com/rss.xml" htmlUrl="https://www.newsweek.com/"/>
       <outline type="rss" text="Time" pfKey="time" pfMaxItems="6" xmlUrl="https://time.com/feed/" htmlUrl="https://time.com/"/>
       <outline type="rss" text="Bloomberg: Politics" pfKey="bloomberg" pfMaxItems="8" xmlUrl="https://feeds.bloomberg.com/politics/news.rss" htmlUrl="https://www.bloomberg.com/politics"/>
       <outline type="rss" text="The Christian Science Monitor" pfKey="csmonitor" pfMaxItems="6" xmlUrl="https://rss.csmonitor.com/feeds/all" htmlUrl="https://www.csmonitor.com/"/>
@@ -170,7 +171,7 @@
       <outline type="rss" text="RTÉ News (Ireland)" pfKey="rte" pfMaxItems="10" xmlUrl="https://www.rte.ie/news/rss/news-headlines.xml" htmlUrl="https://www.rte.ie/news/"/>
       <outline type="rss" text="TheJournal.ie (Ireland)" pfKey="thejournal" pfMaxItems="10" xmlUrl="https://www.thejournal.ie/feed/" htmlUrl="https://www.thejournal.ie/"/>
       <outline type="rss" text="DutchNews.nl (Netherlands)" pfKey="dutchnews" xmlUrl="https://www.dutchnews.nl/feed/" htmlUrl="https://www.dutchnews.nl/"/>
-      <outline type="rss" text="NL Times (Netherlands)" pfKey="nltimes" xmlUrl="https://nltimes.nl/rss" htmlUrl="https://nltimes.nl/"/>
+      <outline type="rss" text="NL Times (Netherlands)" pfKey="nltimes" pfTimeZone="Europe/Amsterdam" xmlUrl="https://nltimes.nl/rss" htmlUrl="https://nltimes.nl/"/>
       <outline type="rss" text="Notes from Poland" pfKey="notesfrompoland" xmlUrl="https://notesfrompoland.com/feed/" htmlUrl="https://notesfrompoland.com/"/>
       <outline type="rss" text="The Kyiv Independent (Ukraine)" pfKey="kyivindependent" pfMaxItems="12" xmlUrl="https://kyivindependent.com/feed/rss/" htmlUrl="https://kyivindependent.com/"/>
       <outline type="rss" text="Ukrainska Pravda (Ukraine)" pfKey="ukrpravda" pfMaxItems="8" xmlUrl="https://www.pravda.com.ua/eng/rss/" htmlUrl="https://www.pravda.com.ua/eng/"/>
@@ -188,7 +189,7 @@
       <outline type="rss" text="Le Monde (France)" pfKey="lemonde" pfLang="fr" pfMaxItems="10" xmlUrl="https://www.lemonde.fr/rss/une.xml" htmlUrl="https://www.lemonde.fr/"/>
       <outline type="rss" text="franceinfo (France)" pfKey="franceinfo" pfLang="fr" pfMaxItems="10" xmlUrl="https://www.francetvinfo.fr/titres.rss" htmlUrl="https://www.francetvinfo.fr/"/>
       <outline type="rss" text="El País (Spain)" pfKey="elpais" pfLang="es" pfMaxItems="10" xmlUrl="https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada" htmlUrl="https://elpais.com/"/>
-      <outline type="rss" text="Corriere della Sera (Italy)" pfKey="corriere" pfLang="it" pfMaxItems="10" xmlUrl="https://xml2.corriereobjects.it/rss/homepage.xml" htmlUrl="https://www.corriere.it/"/>
+      <outline type="rss" text="Corriere della Sera (Italy)" pfKey="corriere" pfLang="it" pfMaxItems="10" xmlUrl="https://xml2.corriereobjects.it/feed-hp/homepage-restyle-2025.xml" htmlUrl="https://www.corriere.it/"/>
       <outline type="rss" text="SVT Nyheter (Sweden)" pfKey="svt" pfLang="sv" pfMaxItems="10" xmlUrl="https://www.svt.se/nyheter/rss.xml" htmlUrl="https://www.svt.se/nyheter/"/>
       <outline type="rss" text="SRF News (Switzerland)" pfKey="srf" pfLang="de" pfMaxItems="10" xmlUrl="https://www.srf.ch/news/bnf/rss/1646" htmlUrl="https://www.srf.ch/news"/>
       <outline type="rss" text="ORF News (Austria)" pfKey="orf" pfLang="de" pfMaxItems="10" xmlUrl="https://rss.orf.at/news.xml" htmlUrl="https://orf.at/"/>
@@ -200,7 +201,7 @@
       <outline type="rss" text="Japan Forward" pfKey="japanforward" xmlUrl="https://japan-forward.com/feed/" htmlUrl="https://japan-forward.com/"/>
       <outline type="rss" text="Asahi Shimbun (Japanese)" pfKey="asahi" pfLang="ja" pfMaxItems="10" xmlUrl="https://www.asahi.com/rss/asahi/newsheadlines.rdf" htmlUrl="https://www.asahi.com/"/>
       <outline type="rss" text="Mainichi Shimbun (Japanese)" pfKey="mainichi" pfLang="ja" pfMaxItems="10" xmlUrl="https://mainichi.jp/rss/etc/mainichi-flash.rss" htmlUrl="https://mainichi.jp/"/>
-      <outline type="rss" text="NHK News (Japanese)" pfKey="nhk" pfLang="ja" xmlUrl="https://www3.nhk.or.jp/rss/news/cat0.xml" htmlUrl="https://www3.nhk.or.jp/news/"/>
+      <outline type="rss" text="NHK News (Japanese)" pfKey="nhk" pfLang="ja" xmlUrl="https://news.web.nhk/n-data/conf/na/rss/cat0.xml" htmlUrl="https://news.web.nhk/newsweb/"/>
     </outline>
     <outline text="Korea" title="Korea">
       <outline type="rss" text="Yonhap News" pfKey="yonhap" pfMaxItems="12" xmlUrl="https://en.yna.co.kr/RSS/news.xml" htmlUrl="https://en.yna.co.kr/"/>

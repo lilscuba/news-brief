@@ -1,5 +1,6 @@
 """Usage:
-  python -m briefing digest [--no-llm] [--dry-run]   build + publish today's brief
+  python -m briefing digest [--no-llm] [--dry-run] [--skip-if-sent]
+                                                     build + publish today's brief
   python -m briefing alerts [--dry-run]              check for breaking news and push
   python -m briefing ingest [--dry-run]              shared backend: feed for all app users
   python -m briefing feeds                           fetch every feed and report status
@@ -23,6 +24,8 @@ def main(argv: list[str] | None = None) -> int:
     d = sub.add_parser("digest", help="build and publish the daily brief")
     d.add_argument("--no-llm", action="store_true", help="skip Claude; rank-only brief")
     d.add_argument("--dry-run", action="store_true", help="print JSON; write nothing")
+    d.add_argument("--skip-if-sent", action="store_true",
+                   help="do nothing if today's brief (digest.timezone) already went out")
     a = sub.add_parser("alerts", help="send breaking-news push alerts")
     a.add_argument("--dry-run", action="store_true", help="print alerts; send nothing")
     i = sub.add_parser("ingest", help="shared backend: build the feed for all app users and push")
@@ -34,9 +37,12 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
     if args.command == "digest":
-        brief = digest.run(no_llm=args.no_llm, dry_run=args.dry_run)
-        print(f"brief for {brief['date']}: {len(brief['top'])} top stories, "
-              f"{sum(len(s['stories']) for s in brief['sections'])} in sections")
+        brief = digest.run(no_llm=args.no_llm, dry_run=args.dry_run, skip_if_sent=args.skip_if_sent)
+        if brief is None:
+            print("today's brief already went out; nothing to do")
+        else:
+            print(f"brief for {brief['date']}: {len(brief['top'])} top stories, "
+                  f"{sum(len(s['stories']) for s in brief['sections'])} in sections")
     elif args.command == "alerts":
         alerts.run(dry_run=args.dry_run)
     elif args.command == "ingest":

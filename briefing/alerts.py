@@ -1,4 +1,4 @@
-"""Breaking-news push alerts, run every ~15 minutes. Four tiers:
+"""Breaking-news push alerts, run every ~10 minutes alongside the ingest. Four tiers:
 
   1 OFFICIAL      a feed marked pfAlert="all" (OpenAI, DeepMind, Anthropic) posts anything new.
   2 TRUSTED       a new headline from a pfTrusted source (billbil-kun, Grubb, Schreier, VGC...)
@@ -19,7 +19,7 @@ from datetime import datetime, timedelta, timezone
 
 from . import deliver, state
 from .config import ROOT, load_config
-from .feeds import fetch_all, load_opml
+from .feeds import fetch_all, load_opml, settle_times
 from .labels import label_cluster
 from .models import Cluster, Item
 from .rank import is_muted
@@ -29,6 +29,10 @@ log = logging.getLogger(__name__)
 CORROBORATION_HOURS = 12
 RULE_COOLDOWN_HOURS = 12
 TIER_NAMES = {1: "official", 2: "trusted", 3: "corroborated"}
+# When runs are hours apart (GitHub delays, a missed dispatch), the lookback stretches to cover
+# the gap, but nothing older than this is ever pushed as breaking.
+MAX_LOOKBACK = timedelta(hours=4)
+LOOKBACK_SLACK = timedelta(minutes=10)
 
 
 @dataclass
@@ -54,13 +58,24 @@ def corroboration(items: list[Item]) -> int:
     return len(outlets) + (1 if any(it.feed.official for it in items) else 0)
 
 
+def alert_lookback(cfg: dict, now: datetime, last_run: str | None) -> timedelta:
+    """How recent an unseen item must be to alert: `lookback_minutes`, or the time since the last
+    run (plus slack) when that is longer, so a late run doesn't silently drop what arrived in the
+    gap; capped at MAX_LOOKBACK."""
+    lookback = timedelta(minutes=cfg["alerts"]["lookback_minutes"])
+    if not last_run:
+        return lookback
+    gap = now - state.parse_iso(last_run) + LOOKBACK_SLACK
+    return max(lookback, min(gap, MAX_LOOKBACK))
+
+
 def find_alerts(items: list[Item], seen: dict, cooldowns: dict, cfg: dict,
-                now: datetime) -> list[Alert]:
+                now: datetime, last_run: str | None = None) -> list[Alert]:
     a = cfg["alerts"]
     recent = [it for it in items
               if now - it.published <= timedelta(hours=CORROBORATION_HOURS)
               and it.feed.alert_mode != "never" and not is_muted(it.title, cfg)]
-    lookback = timedelta(minutes=a["lookback_minutes"])
+    lookback = alert_lookback(cfg, now, last_run)
     new = {it.id for it in recent if it.id not in seen and now - it.published <= lookback}
 
     alerts: list[Alert] = []
@@ -82,7 +97,8 @@ def find_alerts(items: list[Item], seen: dict, cooldowns: dict, cfg: dict,
             tier = 2
         else:
             continue
-        lead = min(matched, key=lambda it: (not it.feed.official, not it.feed.trusted, it.published))
+        lead = min(matched, key=lambda it: (not it.feed.official, not it.feed.trusted,
+                                            not it.exact_time, it.published))
         outlets = sorted({it.feed.title for it in matched})
         alerts.append(Alert(
             title=f"{rule['name']} [{label}]",
@@ -113,8 +129,9 @@ def run(dry_run: bool = False) -> list[Alert]:
     seen: dict[str, str] = st.get("seen", {})
     cooldowns: dict[str, str] = st.get("cooldowns", {})
     sent: dict[str, int] = {k: v for k, v in st.get("sent", {}).items() if k == today}
+    settle_times(items, seen, now)  # undated items keep the time they were first seen
 
-    alerts = find_alerts(items, seen, cooldowns, cfg, now)
+    alerts = find_alerts(items, seen, cooldowns, cfg, now, st.get("last_run"))
     budget = cfg["alerts"]["max_per_day"] - sent.get(today, 0)
     for alert in alerts:
         if dry_run:
@@ -136,7 +153,8 @@ def run(dry_run: bool = False) -> list[Alert]:
     if not dry_run:
         for it in items:
             seen.setdefault(it.id, state.iso(now))
-        st["seen"] = state.prune(seen, now, keep_days=3)
+        st["seen"] = state.prune(seen, now, keep_days=3,
+                                 keep={it.id for it in items if not it.exact_time})
         st["cooldowns"] = cooldowns
         st["sent"] = sent
         st["last_run"] = state.iso(now)
