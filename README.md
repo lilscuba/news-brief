@@ -4,12 +4,25 @@ A gaming / tech / AI news feed built to replace scrolling Reddit. It runs in two
 
 - **The app, for anyone.** People download Brief, tap **Sign in with Apple**, pick their topics,
   sources and alerts, and get their own feed plus push notifications. One shared backend serves
-  everyone: GitHub Actions for ingest, a Cloudflare Worker for accounts. To deploy and ship it,
-  follow **[server/README.md](server/README.md)**.
+  everyone: GitHub Actions for ingest, a Cloudflare Worker for accounts that also starts the
+  ingest every 10 minutes. To deploy and ship it, follow **[server/README.md](server/README.md)**,
+  including [Keeping the feed fresh](server/README.md#keeping-the-feed-fresh).
 - **Just for you**, with no app or accounts: a daily brief web page plus email and ntfy alerts
   from your own GitHub repo, described below.
 
 Both modes use the same pipeline in `briefing/`.
+
+**Reading in the app.** Today opens on how fresh the news is ("Updated 12 min ago", or a warning
+when the server's updates are late) and how much is new since your last visit, then Top stories
+and a short preview of each topic. The list keeps itself current while it's open and in the
+background, and holds an update behind a "↑ 8 new stories" button rather than reshuffling under
+your thumb. Rows show the outlet, the age and only the labels that matter, with an unread dot.
+Swipe a row to mark it read or save it; long-press for share, copy link and more. Topic pages
+include the topic's top stories, switch topics from the title, group Latest by time, hide read
+stories and mark all as read. Search covers your topics or all of them. A story page names the
+outlet and when it was first reported and last updated, lists the coverage by outlet, and
+suggests more on the same story. Saved keeps bookmarks, recently read stories and past briefs.
+Tapping an alert opens its story in the app.
 
 ## Start here: one guided launcher
 
@@ -65,8 +78,10 @@ It runs free on GitHub and has three parts:
    **AI summaries are off for now.** The brief lists every new article under AI / Tech / Gaming
    / World / Europe / Japan / Korea / Deals with its original headline and the feed's snippet, with the 5 highest-ranked stories
    on top. Turn on summaries (free with Gemini) and the model writes the brief instead.
-2. **Breaking alerts** (GitHub Actions, every 15 min). These are push notifications through ntfy,
-   in four tiers (below), capped at 5 a day.
+2. **Breaking alerts** (GitHub Actions). These are push notifications through ntfy, in four tiers
+   (below), capped at 5 a day. They run with every app-feed ingest (every 10 minutes once the
+   Worker cron is set up) and on a slower GitHub schedule as a backstop. A late run still looks
+   back far enough to catch what it missed (up to 4 hours).
 3. **Web page**: the brief at your GitHub Pages URL. Add it to your Home Screen. (The iOS app
    in `ios/` is the multi-user app above.)
 
@@ -159,15 +174,16 @@ Notes on the sources:
   if you want it.
 - **Translation.** Feeds marked `pfLang` in `feeds.opml` (Tagesschau, Spiegel, Le Monde,
   franceinfo, El País, Corriere, SVT, SRF, ORF, ERT, Asahi, Mainichi, NHK, Chosun) are
-  machine-translated to English at ingest with Gemini (`[translate]` in `config.toml`). Each
-  headline is translated once and cached, and the app shows the original on the story page. It
-  needs the `GEMINI_API_KEY` secret (free tier). Without it, or while Gemini is rate-limited,
-  those items are left out until a later run translates them. Articles themselves still open in
-  their original language.
+  machine-translated to English at ingest with Gemini (`[translate]` in `config.toml`, on
+  Flash-Lite to spare the free quota). Headlines are translated in batches (10 at a time, or
+  whatever is waiting after 20 minutes), each once, and the app shows the original on the story
+  page. It needs the `GEMINI_API_KEY` secret (free tier). Without it, or while Gemini is
+  rate-limited, those items are left out until a later run translates them. Articles themselves
+  still open in their original language.
 - **AI summaries (two separate things).** The top 40 stories in the app's shared feed get a
   one- or two-sentence Gemini summary written from their outlets' headlines and snippets
-  (`[story_summaries]` in `config.toml`; each story is summarized once and cached, and the app
-  labels it). Nothing is scraped; article pages are never fetched. Separately, setting the
+  (`[story_summaries]` in `config.toml`; a new top-10 story is summarized right away, a summary
+  is redone when the story's coverage grows, and the app labels it). Nothing is scraped; article pages are never fetched. Separately, setting the
   `SUMMARIZE` repo variable to `true` makes Gemini write the daily brief page and email.
 - **World, Europe, Japan and Korea are off for new accounts** until switched on in Topics.
 - **`[ranking.category_weight]`** halves the outlet-count score for World and Europe. They have
@@ -197,8 +213,11 @@ Every story carries one label, in the brief, the app and alerts:
 | RUMOR-UNVERIFIED | a leak from a single source without that track record |
 | DEAL | a sale or discount; deals go in their own section and never alert |
 
-In list mode the labels come from keyword rules (`briefing/labels.py`). With AI summaries on,
-the model assigns them, using the rules' guess as a hint.
+In list mode the labels come from keyword rules (`briefing/labels.py`), matched as whole words
+("50 million sales" isn't a deal, a denial of a rumor isn't a rumor). With AI summaries on, the
+model assigns them, using the rules' guess as a hint. The app and web page only show a badge
+for the labels that change how to read a story (Confirmed, rumors, Deal); REPORTED is the
+default and gets none. Opinion columns and editorials get an "Opinion" tag.
 
 ## Alert tiers
 
@@ -224,18 +243,22 @@ Each watchlist rule cools down for 12 hours after firing, there are at most 5 al
   - `pfMaxItems="N"`: cap a firehose feed
   - `pfCategory="Gaming"`: the section for a feed in another folder (used by Social)
   - `pfMirror="true"`: unofficial mirror, flagged if it goes stale
+  - `pfTimeZone="Europe/Amsterdam"`: the zone of a feed whose dates carry no offset
 
   To add a Bluesky account, use `xmlUrl="https://bsky.app/profile/HANDLE/rss"`.
 - **`config.toml`**:
-  - mute words
+  - mute words, and `mute_patterns` (regexes) for recurring filler such as puzzle answers
   - keyword boosts
   - watchlist rules
   - daily alert cap
   - timezone
   - sections
   - AI provider and model
-- **Delivery time**: the cron in `.github/workflows/daily-brief.yml`. It defaults to 11:00 UTC,
-  which is 7am Eastern in summer.
+- **Delivery time**: the Worker cron `"0 11 * * *"` in `server/wrangler.toml` starts the daily
+  brief at 11:00 UTC (7am Eastern in summer); change it there and `DAILY_BRIEF_CRON` in
+  `server/src/index.js`. The GitHub schedule in `.github/workflows/daily-brief.yml` (12:41 UTC)
+  is a backstop, and both skip the run if today's brief already went out. Without the Worker
+  token, only the backstop runs, and GitHub often starts it hours late.
 
 | Repo variable / secret | What |
 |---|---|
@@ -267,13 +290,20 @@ python -m pytest -q
 
 - `feeds` checks every source.
 - `digest --dry-run` prints the brief without writing files. `--no-llm` forces the plain list.
+  `--skip-if-sent` does nothing when today's brief (in `digest.timezone`) already went out; the
+  scheduled workflow uses it, and a manual run with **force** ticked leaves it off.
 - `alerts --dry-run` prints alerts it would send.
 
-`python -m briefing digest` writes the real thing into `docs/` (open `docs/index.html`).
+`python -m briefing digest` writes the real thing into `docs/` (open `docs/index.html`). The page
+shows when it was updated and how old each story is, and warns when it's still yesterday's brief.
+The email is a version for mail clients: plain colors and no scripts. With `PAGES_URL` set it adds
+a "View in browser" link and keeps each section to its top 10 with a link to the rest, so Gmail
+doesn't cut it off.
 
 ## Health checks
 The brief's footer (and the app's) lists any source that's erroring or hasn't produced anything
-new in 14 days. The Anthropic and Meta AI mirrors are the most likely to break. Meta posts
+new in 14 days; the app's Settings > Sources says which ("No new posts since Aug 8").
+`GET /v1/health` on the Worker says how old the shared feed is. The Anthropic and Meta AI mirrors are the most likely to break. Meta posts
 rarely, so a quiet Meta feed isn't necessarily broken.
 
 Reddit's RSS ends November 13, 2026; nothing here depends on it.
