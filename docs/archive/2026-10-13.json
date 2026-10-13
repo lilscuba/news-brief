@@ -1,0 +1,1019 @@
+{
+ "version": 1,
+ "headline": "Character.AI files for Chapter 11 bankruptcy and sells assets to Disney as global chip stocks slump over AI spending concerns.",
+ "top": [
+  {
+   "id": "6b40d8ad8ce8",
+   "title": "Character.AI Files for Chapter 11 Bankruptcy and Agrees to Asset Sale",
+   "summary": "Early generative AI breakout pioneer Character.AI has filed for Chapter 11 bankruptcy and agreed to sell a portion of its assets to Disney for $20 million while keeping operations running.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-13T10:32:23Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale (Rhea Rose Abraham/Reuters)",
+     "url": "https://www.techmeme.com/261013/p3#a261013p3",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Character.AI files for bankruptcy",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "f18065521b63",
+   "title": "Global Chip Stock Sell-Off Deepens Amid AI Spending Concerns",
+   "summary": "A broader sell-off across global chip stocks intensified after Broadcom's CEO compared AI investments to a casino, dragging down major hardware manufacturers like Samsung and SK Hynix.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-13T05:05:01Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix down 9.2%, and Micron 4% (Financial Times)",
+     "url": "https://www.techmeme.com/261013/p4#a261013p4",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "d7f1cf3183f0",
+   "title": "Merchant Ship Sunk in Black Sea Drone Attack Off Bulgaria",
+   "summary": "A merchant ship sank and eleven crew members went missing following a Black Sea drone attack off the Bulgarian coast, prompting the Bulgarian prime minister to summon the Russian ambassador.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-13T10:57:17Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "The Hindu: International",
+     "title": "Drone sinks Ukrainian-owned ship off Bulgaria’s Black Sea coast, Bulgarian Prime Minister says",
+     "url": "https://www.thehindu.com/news/international/drone-sinks-ukrainian-owned-ship-off-bulgarias-black-sea-coast-bulgarian-prime-minister-says/article71578213.ece",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "'Absolutely unacceptable' — Commercial vessels hit by drones near Bulgaria's Black Sea coast, says Prime Minister Radev",
+     "url": "https://kyivindependent.com/absolutely-unacceptable-commercial-vessel-hit-by-drones-near-bulgarias-black-sea-coast-says-prime-minister-radev/",
+     "official": false
+    },
+    {
+     "outlet": "Balkan Insight",
+     "title": "Bulgaria Summons Russian Envoy Over New Black Sea Drone Attacks",
+     "url": "https://balkaninsight.com/2026/10/13/bulgaria-summons-russian-envoy-over-new-black-sea-drone-attacks/bi/",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Drones hit ships in Black Sea, sinking 1 and prompting rescue, Bulgaria says",
+     "url": "https://www.cbc.ca/news/world/drone-black-sea-bulgaria-9.7378361?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Black Sea: Another freighter sinks off the Bulgarian coast",
+     "url": "https://www.tagesschau.de/ausland/europa/drohnenangriff-frachter-schwarzes-meer-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Schwarzes Meer: Erneut Frachter vor bulgarischer Küste gesunken"
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Two new vessels struck in the Black Sea near Bulgarian coast",
+     "url": "https://www.franceinfo.fr/monde/europe/union-europeenne/deux-nouveaux-navires-ont-ete-frappes-en-mer-noire-pres-des-cotes-bulgares_8235118.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Deux nouveaux navires ont été frappés en mer Noire près des côtes bulgares"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Bulgaria seeks Nato support after Black Sea drone strikes hit merchant ships, sinking 1",
+     "url": "https://www.scmp.com/news/world/europe/article/3370741/bulgaria-seeks-nato-support-after-black-sea-drone-strikes-hit-merchant-ships-sinking-1?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+     "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "4bdee038fcc7",
+   "title": "Anthropic Reports Major Reduction in Data Harvesting via Model Distillation",
+   "summary": "Anthropic announced that new preservation techniques implemented in models like Fable 5.1 and Opus 5.5 have successfully reduced unauthorized data harvesting through distillation attacks by 90 to 99 percent.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-13T03:45:01Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through distillation attacks by about 90% to 99% (Anthropic)",
+     "url": "https://www.techmeme.com/261012/p46#a261012p46",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "e5805131e907",
+   "title": "Xbox Leadership Insists on Committing to New Original IP",
+   "summary": "Xbox head Asha Sharma has reassured employees and the public that the company must prioritize inventing new original intellectual properties alongside its major franchises to ensure future survival.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-13T10:37:22Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "VGC",
+     "title": "Xbox insists it’s not giving up on original IP: ‘We won’t survive if we only relive the past’",
+     "url": "https://www.videogameschronicle.com/news/xbox-insists-its-not-giving-up-on-original-ip-we-wont-survive-if-we-only-relive-the-past/",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "Asha Sharma reportedly tells rattled Xbox employees: \"We have to find new ways, and courage, to have invention on new IP\"",
+     "url": "https://www.eurogamer.net/asha-sharma-xbox-town-hall-new-ip",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "459735cd30fd",
+     "title": "Anthropic Warns Small AI Models Could Soon Spread Across Consumer Devices",
+     "summary": "A new study from Anthropic suggests that smaller AI models may be months away from independently replicating and spreading across poorly secured everyday smart devices like robot vacuums.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-13T10:33:28Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Anthropic study warns that small AI models could soon replicate across everyday devices",
+       "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8f872270b5d9",
+     "title": "France's Ecosystem Deploys Agentic Computing at Scale with NVIDIA",
+     "summary": "NVIDIA confirmed that companies across France are successfully deploying agentic computing across public sector, space, and research industries.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-13T05:00:31Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+       "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "45ad9337ee37",
+     "title": "AI Labs Buying Digital Archives from Defunct Startups for Training Data",
+     "summary": "AI labs are increasingly purchasing digital data and user archives from shutting down tech startups to feed future model training pipelines.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-13T09:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MIT Technology Review",
+       "title": "AI labs are buying data from dead startups to train their models",
+       "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "5a66e8032ad6",
+     "title": "SpaceX Launches Unified X Subscription Bundling Grok and Cursor",
+     "summary": "SpaceX has rolled out a unified X subscription package that bundles Grok, Cursor, and X Premium across multiple tiered pricing options starting from $8 up to $200 per month.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-13T10:01:05Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
+       "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 per month; the $30 tier includes Grok Bot (Mariella Moon/Engadget)",
+       "url": "https://www.techmeme.com/261013/p10#a261013p10",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7bb16b2f5a5c",
+     "title": "Meta Confirms Muse Supports Private Adult Conversations in Secure VMs",
+     "summary": "Meta has confirmed that its Muse agent permits users to engage in private adult conversations using secure virtual machines, noting it does not block legal adult behavior.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-13T10:25:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Meta confirms Muse lets users \"engage in adult conversations, if they choose, using a private and secure VM\", saying it doesn't block \"legal adult behavior\" (Reece Rogers/Wired)",
+       "url": "https://www.techmeme.com/261013/p12#a261013p12",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "da6c5f263672",
+     "title": "Alibaba Unveils Qwen Glasses N1 with Built-In Cameras and Eye-Tracking",
+     "summary": "Alibaba Group has introduced its next-generation Qwen Glasses N1 featuring 50-megapixel cameras, smart sensors, and optional eye-tracking starting around $450.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-13T10:10:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$520 Pro model, and Qwen Clip AI earbuds (Bloomberg)",
+       "url": "https://www.techmeme.com/261013/p11#a261013p11",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b1df411a9366",
+     "title": "Chinese Tech Giants Reportedly Buy Over 1 Million Nvidia Gaming Chips",
+     "summary": "Reports indicate that Chinese tech companies have acquired over one million Nvidia gaming and workstation chips to handle basic AI workloads amidst ongoing export restrictions.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-13T09:50:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: Chinese tech companies bought 1M+ Nvidia gaming and workstation chips, mostly RTX 5090 and RTX Pro, for basic AI workloads amid an AI chip shortage (Financial Times)",
+       "url": "https://www.techmeme.com/261013/p9#a261013p9",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3af158150717",
+     "title": "CXMT Plans Advanced 4F² DRAM Chip Launch for Data Centers",
+     "summary": "CXMT has announced plans to launch a high-density 4F² design DRAM chip for servers before the end of 2026, marking a significant domestic manufacturing breakthrough.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-13T09:40:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "CXMT says it plans to launch a 4F² design DRAM chip for data center servers before the end of 2026, achieving a breakthrough that rivals have pursued for years (Bloomberg)",
+       "url": "https://www.techmeme.com/261013/p8#a261013p8",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3e93ef5edd1f",
+     "title": "Apple Leads Shifting Global Smartphone Market Share Despite Shipments Decline",
+     "summary": "Preliminary data from market researchers reveals Apple captured a record 22 percent share of worldwide smartphone shipments in the third quarter of 2026 despite an overall market drop.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-13T10:32:57Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "IDC: China's Q3 smartphone shipments fell 15.4% YoY to 57.9M units, the sixth straight quarter of decline; Huawei led with a 21% share and Apple had 17.8% (Reuters)",
+       "url": "https://www.techmeme.com/261013/p7#a261013p7",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "iPhone Takes Bigger Slice of a Shrinking Smartphone Market",
+       "url": "https://www.macrumors.com/2026/10/13/iphone-takes-bigger-slice-of-shrinking-market/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "e3d7d19c1f1c",
+     "title": "Atlus Releases Metaphor: ReFantazio Prologue Demo for Switch 2",
+     "summary": "Ahead of its launch next month, Atlus has published a prologue demo for Metaphor: ReFantazio on the Switch 2 eShop with save data carrying over to the full game.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-13T04:55:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Metaphor: ReFantazio ‘Prologue’ demo for Switch 2 now available",
+       "url": "https://www.gematsu.com/2026/10/metaphor-refantazio-prologue-demo-for-switch-2-now-available",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "PSA: Metaphor: ReFantazio Demo For Switch 2 Now Available",
+       "url": "https://www.nintendolife.com/news/2026/10/psa-metaphor-refantazio-demo-for-switch-2-now-available",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "63af96859249",
+     "title": "God of War Laufey Collector's Edition Omits the Actual Game Disc",
+     "summary": "Sony and Santa Monica Studio revealed the God of War Laufey Collector's Edition, continuing the industry trend of packaging high-end collector items without the base game.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-13T10:29:17Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "God of War Laufey Collector Box Available for Pre-Order Now, Doesn't Include the Game",
+       "url": "https://www.pushsquare.com/news/2026/10/god-of-war-laufey-collector-box-available-for-pre-order-now-doesnt-include-the-game",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "God of War Laufey Collector’s Edition Doesn’t Include the Game",
+       "url": "https://insider-gaming.com/god-of-war-laufey-collectors-edition-doesnt-include-the-game/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c43700cf660f",
+     "title": "Epic Games Reportedly Mandates AI-First Production on New Disney Shooter",
+     "summary": "Epic Games has reportedly instructed developers working on an upcoming Disney shooter featuring Marvel and Star Wars characters to adopt an AI-first workflow.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-13T01:35:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "\"No more hand-written code\": Epic reportedly impose \"AI-first\" model on creators of new Disney shooter with Marvel and Star Wars characters",
+       "url": "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "\"No More Hand-Written Code\" - Epic Reportedly Adopts \"AI First\" Production Model On New Disney Shooter",
+       "url": "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "158fe749a198",
+     "title": "Sony Announces Midnight Black PS5 Digital Edition Region-Locked to Japan",
+     "summary": "Sony has revealed a Midnight Black colorway for the PS5 Digital Edition and standalone disc drive, with a November 19 launch confirmed exclusively for Japan so far.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-13T08:59:40Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "PS5 Digital Edition Midnight Black Japan-only model launches November 19",
+       "url": "https://www.gematsu.com/2026/10/ps5-digital-edition-midnight-black-japan-only-model-launches-november-19",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Sony has announced a Midnight Black PS5 but it’s only confirmed for Japan so far",
+       "url": "https://www.videogameschronicle.com/news/sony-has-announced-a-midnight-black-ps5-but-its-only-confirmed-for-japan-so-far/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "74a68b0e7154",
+     "title": "RimWorld Developer Ludeon Switches Engine from Unity to Custom Waylith Engine",
+     "summary": "Ludeon Studios announced that RimWorld is officially migrating from Unity to their proprietary, faster Waylith Engine in upcoming update 1.7 without breaking mod compatibility.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-13T10:58:02Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "RimWorld switches engine from Unity to the devs' own, faster Waylith Engine, all apparently without breaking mods somehow",
+       "url": "https://www.rockpapershotgun.com/rimworld-switches-engine-from-unity-to-the-devs-own-faster-waylith-engine-all-apparently-without-breaking-mods-somehow",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "RimWorld devs are \"working on something new\" after 13 years of the space construction sim",
+       "url": "https://store.steampowered.com/news/group/38509069/view/702155760121941530",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f0757ffb3555",
+     "title": "Glen Schofield Blames Krafton Management for The Callisto Protocol Flaws",
+     "summary": "Game creator Glen Schofield has publicly blamed Krafton management for forcing him to ship The Callisto Protocol prematurely, leading to its critical and commercial shortcomings.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-13T08:40:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "\"I was forced to ship the game\" - Glen Schofield blames Krafton management for The Callisto Protocol's problems",
+       "url": "https://www.eurogamer.net/glen-schofield-the-callisto-protocol-krafton-problems",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "d00f4b3cdbd2",
+     "title": "Breaking Bad Actor and Disability Advocate RJ Mitte Passes Away at 34",
+     "summary": "RJ Mitte, widely recognized for his breakout role in AMC's Breaking Bad and his dedicated disability rights advocacy, has died at age 34.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-13T08:21:58Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Breaking Bad Star RJ Mitte Dead at 34",
+       "url": "https://www.ign.com/articles/breaking-bad-star-rj-mitte-dead-at-34",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Caller",
+       "title": "‘Breaking Bad’ Star RJ Mitte Dead By Apparent Suicide At 34",
+       "url": "https://dailycaller.com/2026/10/12/breaking-bad-rj-mitte-dead-apparent-suicide-34-cerebral-palsy",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "'Breaking Bad' actor and disability advocate RJ Mitte dies",
+       "url": "https://www.dw.com/en/breaking-bad-actor-and-disability-advocate-rj-mitte-dies/a-79646725?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "RJ Mitte, \"Breaking Bad\" actor, dies at 34",
+       "url": "https://www.cbsnews.com/news/rj-mitte-breaking-bad-actor-dies-age-34/",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Breaking Bad actor RJ Mitte dies aged 34",
+       "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "'Breaking Bad' star RJ Mitte dies at 34",
+       "url": "https://abcnews.com/GMA/Culture/breaking-bad-star-rj-mitte-dies-34/story?id=137206350",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3c104d8788b4",
+     "title": "Guest Fatally Injured in Roller Coaster Incident at Six Flags Over Georgia",
+     "summary": "One park guest was killed and several others injured following an accident on a roller coaster ride at Six Flags Over Georgia.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-13T10:31:17Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Daily Wire",
+       "title": "Six Flags Roller Coaster Horror As Man Plunges To Death, Captured In Souvenir Photo",
+       "url": "https://www.dailywire.com/news/six-flags-roller-coaster-horror-as-man-plunges-to-death-captured-in-souvenir-photo",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "US: Man killed in Six Flags roller coaster incident",
+       "url": "https://www.dw.com/en/us-man-killed-in-six-flags-roller-coaster-incident/a-79646793?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "One killed, several injured in Georgia rollercoaster ‘incident’",
+       "url": "https://www.aljazeera.com/news/2026/10/13/one-dead-after-roller-coaster-incident-in-george-us?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "One dead and several hurt after rollercoaster incident at Six Flags",
+       "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "1 dead in incident on Six Flags Over Georgia roller coaster",
+       "url": "https://www.cbsnews.com/news/six-flags-over-georgia-roller-coaster-incident-death-injuries-investigation/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "af7cd9f8190b",
+     "title": "Trump Evaluating Position of U.S. Ambassador to Greece Kimberly Guilfoyle",
+     "summary": "President Trump stated that he is looking into potentially firing U.S. Ambassador to Greece Kimberly Guilfoyle following accusations regarding a donor payment.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-13T04:33:11Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Washington Post: Politics",
+       "title": "Trump says he’s ‘looking at’ firing Kimberly Guilfoyle from Athens post",
+       "url": "https://www.washingtonpost.com/politics/2026/10/12/trump-says-he-might-fire-his-ambassador-greece-kimberly-guilfoyle/",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Trump says he's 'looking at' firing Kimberly Guilfoyle as U.S. ambassador to Greece",
+       "url": "https://abcnews.com/Politics/trump-firing-us-ambassador-greece-kimberly-guilfoyle/story?id=137209661",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: Politics",
+       "title": "Trump Says He Is ‘Looking at’ Firing Kimberly Guilfoyle",
+       "url": "https://www.nytimes.com/2026/10/12/us/politics/trump-kimberly-guilfoyle-greece.html",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7b23653cb214",
+     "title": "Federal Immigration Agents Execute Search at Representative Ilhan Omar's Home",
+     "summary": "Federal immigration agents conducted a search at the home of Democratic Representative Ilhan Omar, which she denounced as a politically motivated targeting of opponents.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-13T10:37:39Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "Federal agents search Rep. Ilhan Omar's home weeks before the midterms",
+       "url": "https://www.cnn.com/2026/10/12/politics/ilhan-omar-search",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Immigration agents search congresswoman Ilhan Omar's home",
+       "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "923b39d787a6",
+     "title": "Hurricanes Simon and Rachel Leave Five Dead Across Western Mexico",
+     "summary": "Hurricane Simon and post-tropical cyclone Rachel struck western Mexico, triggering heavy flooding and resulting in five total fatalities across Baja California and Guerrero.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-13T10:45:28Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "CBS News",
+       "title": "Hurricane Simon hitting western Mexico after tropical systems kill 5",
+       "url": "https://www.cbsnews.com/news/hurricane-simon-still-hitting-western-mexico-after-tropical-systems-kill-5/",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "Hurricane Simon, storm Rachel leave 5 dead in western Mexico",
+       "url": "https://www.cbc.ca/news/world/hurricane-simon-rachel-mexico-california-9.7378373?cmp=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "0e858aff43c3",
+     "title": "Four Dead Including Two Children in Waterford House Fire",
+     "summary": "A severe house fire in Waterford resulted in four fatalities, including two adults and two children, while leaving two other children in critical condition.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-13T10:40:48Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Two adults and two children die in Waterford house fire",
+       "url": "https://www.rte.ie/news/ireland/2026/1013/1595160-fire-waterford-city/",
+       "official": false
+      },
+      {
+       "outlet": "Sky News: World",
+       "title": "Four dead after house fire and two children 'critical' in hospital",
+       "url": "https://news.sky.com/story/number-of-people-dead-after-house-fire-in-waterford-13598691",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Four dead, including two children, and two others critically injured in Waterford house fire",
+       "url": "https://www.thejournal.ie/house-fire-waterford-city-dead-7191227-Oct2026/",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: UK",
+       "title": "Two children among four dead after Waterford house fire",
+       "url": "https://www.bbc.co.uk/news/articles/cq073814llkjo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "83a74dd24241",
+     "title": "Greta Thunberg Joins French High School Student Protests",
+     "summary": "Climate activist Greta Thunberg joined French high school and university students protesting nationwide against dilapidated school facilities, overcrowded schedules, and absent teachers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-13T10:43:59Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "France 24: Europe",
+       "title": "Live: Greta Thunberg joins French students on new day of nationwide protests",
+       "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
+       "official": false
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "LIVE, high school student movement: 90% of universities 'blocked' or 'closed', according to Student Union. Follow the day of mobilization live",
+       "url": "https://www.lemonde.fr/societe/live/2026/10/13/en-direct-mouvement-lyceen-de-guingamp-a-paris-des-premiers-etablissements-sont-bloques-pour-cette-nouvelle-journee-de-mobilisation-des-lyceens_6793059_3224.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "EN DIRECT, mouvement lycéen : 90 % des universités sont « bloquées » ou « fermées », selon l’Union étudiante. Suivez la journée de mobilisation en direct"
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Activist Greta Thunberg joins French student protests",
+       "url": "https://www.aljazeera.com/news/2026/10/13/activist-greta-thunberg-joins-french-student-protests?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Greta Thunberg joins French teens on new day of school protests",
+       "url": "https://www.straitstimes.com/world/europe/greta-thunberg-joins-french-teens-on-new-day-of-school-protests",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "'Our future is being robbed': Greta Thunberg joins France student protests against school conditions",
+       "url": "https://www.euronews.com/2026/10/13/our-future-is-being-robbed-greta-thunberg-joins-france-student-protests-against-school-con",
+       "official": false
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "High school student mobilization: Student Union claims \"90%\" of universities \"blocked or closed\" this Tuesday, ministry records 35% of institutions disrupted",
+       "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-mobilisation-lyceenne-les-lyceens-de-nouveau-dans-la-rue-pour-un-acte-5-du-mouvement_8234260.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Mobilisation lycéenne : l'Union étudiante revendique \"90%\" des facultés \"bloquées ou fermées\" ce mardi, le ministère recense 35% d'établissements perturbés"
+      }
+     ]
+    },
+    {
+     "id": "2e2ec50acaf7",
+     "title": "Zelenskyy States Kyiv Received No Advance Warning of Russian Ballistic Strike",
+     "summary": "Ukrainian President Volodymyr Zelenskyy lamented that international partners failed to provide any advance warning prior to a nocturnal Russian ballistic missile attack on Kyiv.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-13T10:48:24Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Zelenskyy: No warning from partners about Russian ballistic strike on Kyiv",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057785/",
+       "official": false
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "LIVE, war in Ukraine: Kyiv did not receive \"any warning from its partners\" before the nocturnal Russian attack on the Ukrainian capital, Volodymyr Zelenskyy laments",
+       "url": "https://www.lemonde.fr/international/live/2026/10/13/en-direct-guerre-en-ukraine-kiev-n-a-pas-recu-d-avertissement-de-la-part-de-ses-partenaires-avant-l-attaque-russe-nocturne-sur-la-capitale-ukrainienne-deplore-volodymyr-zelensky_6791198_3210.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "EN DIRECT, guerre en Ukraine : Kiev n’a pas reçu « d’avertissement de la part de ses partenaires » avant l’attaque russe nocturne sur la capitale ukrainienne, déplore Volodymyr Zelensky"
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Zelenskyy: Partners did not warn of Russian attack",
+       "url": "https://orf.at/stories/3444947/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Selenskyj: Partner warnten nicht vor russischem Angriff"
+      }
+     ]
+    },
+    {
+     "id": "6dcaa3506823",
+     "title": "Pope Leo XIV Undergoes Successful Lung Surgery in Rome",
+     "summary": "Pope Leo XIV was admitted to a Rome hospital where he underwent scheduled surgery to treat a lung nodule.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Europe",
+     "published": "2026-10-13T10:26:27Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "France 24: Europe",
+       "title": "Pope Leo to enter hospital on Tuesday for surgery on lung nodule this week",
+       "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Pope Leo in Rome hospital for lung surgery",
+       "url": "https://www.dw.com/en/pope-leo-in-rome-hospital-for-lung-surgery/a-79647264?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "France 24: Europe",
+       "title": "Pope Leo XIV admitted to hospital for lung surgery",
+       "url": "https://www.france24.com/en/pope-leo-xiv-admitted-to-hospital-for-lung-surgery",
+       "official": false
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Pope Leo XIV undergoes lung surgery",
+       "url": "https://www.tagesschau.de/video/video-1665348.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Papst Leo XIV. unterzieht sich Lungenoperation"
+      }
+     ]
+    },
+    {
+     "id": "d91e55c3d9a6",
+     "title": "Swedish Center-Left Leader Magdalena Andersson Struggles to Form Coalition",
+     "summary": "Swedish opposition leader Magdalena Andersson has faced continued difficulties forming a governing coalition after her center-left bloc narrowly defeated the outgoing right-wing government.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-13T10:49:30Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Sweden's Andersson says she is still unable to form a government",
+       "url": "https://www.straitstimes.com/world/europe/swedens-andersson-says-she-is-still-unable-to-form-a-government",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Sweden's centre-left leader Magdalena Andersson again fails to form government",
+       "url": "https://www.euronews.com/2026/10/13/swedens-centre-left-leader-magdalena-andersson-again-fails-to-form-government",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "b4cc6f796c74",
+     "title": "Japan's Omron to Acquire US-Based OnLogic for $675 Million",
+     "summary": "Omron has agreed to purchase US industrial computer maker OnLogic for $675 million to accelerate its expansion into physical artificial intelligence applications.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Japan",
+     "published": "2026-10-13T11:00:58Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan's Omron to buy US-based OnLogic for $675m in physical AI push",
+       "url": "https://asia.nikkei.com/business/business-deals/japan-s-omron-to-buy-us-based-onlogic-for-675m-in-physical-ai-push",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "030b39b77494",
+     "title": "Japan-Controlled Tankers Resume Middle East Routes After Months",
+     "summary": "Risk-averse Japanese shipowners and refiners have cautiously restarted sending tankers back into Persian Gulf transit routes after months of conflict-related avoidance.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-13T10:38:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Japan-controlled tankers return to Middle East after months away",
+       "url": "https://www.japantimes.co.jp/business/2026/10/13/japan-crude-oil-tankers-middle-east/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "2b8ecc8e63c9",
+     "title": "Stabbing Spree at Incheon Supermarket Leaves Eight Injured",
+     "summary": "A suspect in his sixties went on a stabbing spree inside an Incheon supermarket building, leaving one victim in cardiac arrest and seven others wounded before police detained him.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-13T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "8 Wounded in Stabbing Spree in Incheon; Suspect Detained",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204838",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) 1 in cardiac arrest, 7 injured in knife attack in Incheon",
+       "url": "https://en.yna.co.kr/view/AEN20261013008251315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "8 injured in Incheon knife attack",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261013/1-in-cardiac-arrest-7-injured-in-knife-attack-in-incheon?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "433e19a6cfec",
+     "title": "Two Students Caught Cheating with AI Glasses During College Entrance Exams",
+     "summary": "South Korean education authorities reported that two applicants were caught using prohibited artificial intelligence glasses to cheat during college entrance examinations in Seoul.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-13T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "2 caught cheating using AI glasses during college entrance exams",
+       "url": "https://www.koreatimes.co.kr/southkorea/society/20261013/2-caught-cheating-using-ai-glasses-during-college-entrance-exams?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2531e1d77fdb",
+     "title": "Seoul Forms Task Force to Prepare for Potential Lee-Trump Golf Meeting",
+     "summary": "The South Korean presidential office has established a working-level task force to prepare for a possible golf outing between President Lee Jae Myung and U.S. President Donald Trump.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-13T09:22:52Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Seoul sets up team for Lee-Trump golf outing",
+       "url": "https://www.koreaherald.com/article/10901457",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Presidential office forms task force for potential Lee-Trump golf outing",
+       "url": "https://en.yna.co.kr/view/AEN20261013010500315",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Top Office Launches Preparations for Possible Golf Meeting between Lee, Trump",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204839",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "908299a812f8",
+     "title": "North Korea Test-Fires Tactical Ballistic Missile Following Landmine Blasts",
+     "summary": "State media reported that North Korea successfully test-fired a new tactical ballistic missile following cross-border tensions surrounding landmine explosions near the DMZ.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-13T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Rival parties spar over adoption of resolution condemning N. Korea for DMZ mine blast",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261013/rival-parties-spar-over-adoption-of-resolution-condemning-n-korea-for-dmz-mine-blast?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "N. Korea reports test-firing of 'tactical' ballistic missile to improve weapons systems",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261013/n-korea-reports-test-firing-of-tactical-ballistic-missile-to-improve-weapons-systems?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "US Pacific Command says N. Korea fired 2 ballistic missiles, reaffirms defense commitment",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261013/us-pacific-command-says-n-korea-fired-2-ballistic-missiles-reaffirms-defense-commitment?utm_source=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": []
+  }
+ ],
+ "date": "2026-10-13",
+ "generated_at": "2026-10-13T11:00:58Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 956,
+  "clusters": 856,
+  "feeds_ok": 176,
+  "feeds_failed": 0
+ },
+ "feed_health": []
+}

@@ -1,363 +1,151 @@
 {
  "version": 1,
- "headline": "Meta launches its Wonder AI model family, Epic Games shifts to an AI-first game development pipeline, and high-profile security and political stories dominate global headlines.",
+ "headline": "Character.AI files for Chapter 11 bankruptcy and sells assets to Disney as global chip stocks slump over AI spending concerns.",
  "top": [
   {
-   "id": "bd0bfdf7fabf",
-   "title": "Meta Launches Muse Wonder AI Models Featuring Active Memory and Focus",
-   "summary": "Meta has released its first frontier model family, Muse Wonder, featuring active memory and active focus capabilities that allow the system to perform complex tasks over extended periods. Industry benchmarks indicate the model breaks into the top AI tier, closely matching leading competitor models.",
+   "id": "6b40d8ad8ce8",
+   "title": "Character.AI Files for Chapter 11 Bankruptcy and Agrees to Asset Sale",
+   "summary": "Early generative AI breakout pioneer Character.AI has filed for Chapter 11 bankruptcy and agreed to sell a portion of its assets to Disney for $20 million while keeping operations running.",
    "importance": 5,
    "label": "REPORTED",
    "category": "Tech",
-   "published": "2026-10-12T19:58:46Z",
-   "outlet_count": 8,
+   "published": "2026-10-13T10:32:23Z",
+   "outlet_count": 2,
    "sources": [
     {
-     "outlet": "Hacker News (100+ points)",
-     "title": "Muse Wonder",
-     "url": "https://research.meta.ai/blog/muse-wonder",
+     "outlet": "Techmeme",
+     "title": "Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale (Rhea Rose Abraham/Reuters)",
+     "url": "https://www.techmeme.com/261013/p3#a261013p3",
      "official": false
     },
     {
      "outlet": "The Verge",
-     "title": "Meta has some Wonder Full new AI models",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks (Meta AI Research)",
-     "url": "https://www.techmeme.com/261012/p31#a261012p31",
-     "official": false
-    },
-    {
-     "outlet": "Wired",
-     "title": "Muse Wonder Puts Meta Back at the AI Frontier",
-     "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "An interview with Mark Zuckerberg, who says Meta has caught up with rivals at the frontier of AI with its Wonder model and rejects calls for a slowdown (Hannah Murphy/Financial Times)",
-     "url": "https://www.techmeme.com/261012/p32#a261012p32",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Meta says it plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it \"can bring to everyone using Muse\" (Robert Hart/The Verge)",
-     "url": "https://www.techmeme.com/261012/p33#a261012p33",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Meta says Wonder includes Active Memory and Active Focus, two features designed to help AI systems perform more useful work over extended periods (Ina Fried/Axios)",
-     "url": "https://www.techmeme.com/261012/p34#a261012p34",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Muse Wonder is available through the Meta Model API and Muse Code, while Muse Wonder Full is available to Muse Code subscribers (Jonathan Vanian/CNBC)",
-     "url": "https://www.techmeme.com/261012/p35#a261012p35",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Muse Wonder Full (max) outperforms Fable 5.1 (max) on Artificial Analysis' Intelligence Index, matches Sonnet 5.5 (max), and is just shy of Opus 5.5 (max) (@artificialanlys)",
-     "url": "https://www.techmeme.com/261012/p36#a261012p36",
-     "official": false
-    },
-    {
-     "outlet": "TechCrunch",
-     "title": "Meta releases its first frontier model, Muse Wonder",
-     "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-     "official": false
-    },
-    {
-     "outlet": "The Decoder",
-     "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
-     "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "Meta says it's caught up to the frontier with its latest Wonder AI models",
-     "url": "https://www.engadget.com/2284478/meta-says-its-caught-up-to-the-frontier-with-its-latest-wonder-ai-models/",
-     "official": false
-    },
-    {
-     "outlet": "The Straits Times: World",
-     "title": "Meta says its new AI models on par with OpenAI, Anthropic",
-     "url": "https://www.straitstimes.com/world/united-states/meta-says-its-new-ai-models-on-par-with-openai-anthropic",
+     "title": "Character.AI files for bankruptcy",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
      "official": false
     }
    ]
   },
   {
-   "id": "f3f6ec1c5c02",
-   "title": "Epic Games Delays Disney Shooter and Orders Staff to Implement 'AI-First' Development",
-   "summary": "Epic Games has internally delayed its upcoming Star Wars and Marvel shooter, instructing developers to pivot to an 'AI-first' production model with no more handwritten code. The move marks a dramatic push toward generative AI workflows across character art and code generation.",
+   "id": "f18065521b63",
+   "title": "Global Chip Stock Sell-Off Deepens Amid AI Spending Concerns",
+   "summary": "A broader sell-off across global chip stocks intensified after Broadcom's CEO compared AI investments to a casino, dragging down major hardware manufacturers like Samsung and SK Hynix.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "Gaming",
-   "published": "2026-10-12T19:54:58Z",
+   "category": "Tech",
+   "published": "2026-10-13T05:05:01Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix down 9.2%, and Micron 4% (Financial Times)",
+     "url": "https://www.techmeme.com/261013/p4#a261013p4",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "d7f1cf3183f0",
+   "title": "Merchant Ship Sunk in Black Sea Drone Attack Off Bulgaria",
+   "summary": "A merchant ship sank and eleven crew members went missing following a Black Sea drone attack off the Bulgarian coast, prompting the Bulgarian prime minister to summon the Russian ambassador.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-13T10:57:17Z",
    "outlet_count": 8,
    "sources": [
     {
-     "outlet": "Jason Schreier",
-     "title": "NEW: Epic Games has delayed its upcoming (not yet announced) Star Wars + Marvel shooter as it pivots to complete AI game development. \"No more hand-written code,\" a director told staff. All art…",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTgyOTQ5NCwiZXhwIjoxNzkyNDM0Mjk0LCJhcnRpY2xlSWQiOiJUTVQ0SDVSS1YyVEQwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.rC824FbXuutjticK4TKijZtWW-ewDWvg6AIoVnPo5IA",
+     "outlet": "The Hindu: International",
+     "title": "Drone sinks Ukrainian-owned ship off Bulgaria’s Black Sea coast, Bulgarian Prime Minister says",
+     "url": "https://www.thehindu.com/news/international/drone-sinks-ukrainian-owned-ship-off-bulgarias-black-sea-coast-bulgarian-prime-minister-says/article71578213.ece",
      "official": false
     },
     {
-     "outlet": "Push Square",
-     "title": "'No More Hand Written Code': Fortnite Dev's Disney Game to Be an 'AI First' Project",
-     "url": "https://www.pushsquare.com/news/2026/10/no-more-hand-written-code-fortnite-devs-disney-game-to-be-an-ai-first-project",
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "'Absolutely unacceptable' — Commercial vessels hit by drones near Bulgaria's Black Sea coast, says Prime Minister Radev",
+     "url": "https://kyivindependent.com/absolutely-unacceptable-commercial-vessel-hit-by-drones-near-bulgarias-black-sea-coast-says-prime-minister-radev/",
      "official": false
     },
     {
-     "outlet": "Kotaku",
-     "title": "Epic Games Forces Shocked Developers Into ‘AI-First’ Mode For Delayed Shooter Featuring Marvel And Star Wars Characters",
-     "url": "https://kotaku.com/epic-games-forces-shocked-developers-into-ai-first-mode-for-delayed-shooter-featuring-marvel-and-star-wars-characters-2000744620",
+     "outlet": "Balkan Insight",
+     "title": "Bulgaria Summons Russian Envoy Over New Black Sea Drone Attacks",
+     "url": "https://balkaninsight.com/2026/10/13/bulgaria-summons-russian-envoy-over-new-black-sea-drone-attacks/bi/",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Drones hit ships in Black Sea, sinking 1 and prompting rescue, Bulgaria says",
+     "url": "https://www.cbc.ca/news/world/drone-black-sea-bulgaria-9.7378361?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Black Sea: Another freighter sinks off the Bulgarian coast",
+     "url": "https://www.tagesschau.de/ausland/europa/drohnenangriff-frachter-schwarzes-meer-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Schwarzes Meer: Erneut Frachter vor bulgarischer Küste gesunken"
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Two new vessels struck in the Black Sea near Bulgarian coast",
+     "url": "https://www.franceinfo.fr/monde/europe/union-europeenne/deux-nouveaux-navires-ont-ete-frappes-en-mer-noire-pres-des-cotes-bulgares_8235118.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Deux nouveaux navires ont été frappés en mer Noire près des côtes bulgares"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Bulgaria seeks Nato support after Black Sea drone strikes hit merchant ships, sinking 1",
+     "url": "https://www.scmp.com/news/world/europe/article/3370741/bulgaria-seeks-nato-support-after-black-sea-drone-strikes-hit-merchant-ships-sinking-1?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+     "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "4bdee038fcc7",
+   "title": "Anthropic Reports Major Reduction in Data Harvesting via Model Distillation",
+   "summary": "Anthropic announced that new preservation techniques implemented in models like Fable 5.1 and Opus 5.5 have successfully reduced unauthorized data harvesting through distillation attacks by 90 to 99 percent.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-13T03:45:01Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through distillation attacks by about 90% to 99% (Anthropic)",
+     "url": "https://www.techmeme.com/261012/p46#a261012p46",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "e5805131e907",
+   "title": "Xbox Leadership Insists on Committing to New Original IP",
+   "summary": "Xbox head Asha Sharma has reassured employees and the public that the company must prioritize inventing new original intellectual properties alongside its major franchises to ensure future survival.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-13T10:37:22Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "VGC",
+     "title": "Xbox insists it’s not giving up on original IP: ‘We won’t survive if we only relive the past’",
+     "url": "https://www.videogameschronicle.com/news/xbox-insists-its-not-giving-up-on-original-ip-we-wont-survive-if-we-only-relive-the-past/",
      "official": false
     },
     {
      "outlet": "Eurogamer",
-     "title": "Epic Games reportedly delays Star Wars and Marvel shooter, as the Fortnite maker embraces \"AI-accelerated development\"",
-     "url": "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development",
-     "official": false
-    },
-    {
-     "outlet": "Insider Gaming",
-     "title": "Epic’s Disney Shooter Will Have ‘No More Handwritten Code’ Amid AI-First Push",
-     "url": "https://insider-gaming.com/epics-disney-shooter-will-have-no-more-handwritten-code-amid-ai-first-push/",
-     "official": false
-    },
-    {
-     "outlet": "VGC",
-     "title": "Epic Games reportedly orders staff to implement ‘AI-first’ development",
-     "url": "https://www.videogameschronicle.com/news/epic-games-reportedly-orders-staff-to-implement-ai-first-development/",
-     "official": false
-    },
-    {
-     "outlet": "Steam News",
-     "title": "Epic Games reportedly orders staff to implement ‘AI-first’ development",
-     "url": "https://store.steampowered.com/news/group/42342144/view/670630562731396272",
-     "official": false
-    },
-    {
-     "outlet": "GamesIndustry.biz",
-     "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
-     "url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "e26a9923a500",
-   "title": "Microsoft Announces Maia 300 AI Chips to Reduce Reliance on Nvidia",
-   "summary": "Microsoft unveiled its next-generation Maia 300 AI chips, with production racks holding 96 chips and consuming 167 kW of power. The company plans multi-gigawatt deployments starting next year to reduce its reliance on Nvidia hardware.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-12T15:20:01Z",
-   "outlet_count": 3,
-   "sources": [
-    {
-     "outlet": "The Verge",
-     "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-     "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Microsoft says Maia 300 racks will hold 96 chips and use ~167 kW of power and plans to roll out \"multi-gigawatt deployments\" of the chip starting next year (Reuters)",
-     "url": "https://www.techmeme.com/261012/p29#a261012p29",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "619f5969eb4c",
-   "title": "Federal Agents Search Home of Democratic Representative Ilhan Omar",
-   "summary": "Federal authorities executed a search warrant at the home of Democratic Representative Ilhan Omar as part of an ongoing investigation into alleged immigration fraud. The raid comes just weeks ahead of the upcoming midterm elections.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "US",
-   "published": "2026-10-12T20:05:41Z",
-   "outlet_count": 19,
-   "sources": [
-    {
-     "outlet": "Just the News",
-     "title": "Federal agents raid Democratic Rep Ilhan Omar's DC residence: report",
-     "url": "https://justthenews.com/government/federal-agents-raid-democratic-rep-ilhan-omars-dc-residence-report?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-     "official": false
-    },
-    {
-     "outlet": "Just the News",
-     "title": "Ilhan Omar responds to federal raid on DC home, says she will not be 'silenced'",
-     "url": "https://justthenews.com/government/courts-law/ilhan-omar-responds-federal-raid-dc-home-says-she-will-not-be-silenced?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-     "official": false
-    },
-    {
-     "outlet": "Fox News: Politics",
-     "title": "Federal agents raid Ilhan Omar’s DC home amid immigration fraud investigation",
-     "url": "https://www.foxnews.com/politics/ilhan-omars-home-dc-searched-hsi-pre-dawn-raid",
-     "official": false
-    },
-    {
-     "outlet": "Yahoo News",
-     "title": "Rep. Omar calls Fed search of her home an 'intimidation' campaign",
-     "url": "https://www.yahoo.com/news/articles/federal-agents-searched-minnesota-rep-121754172.html",
-     "official": false
-    },
-    {
-     "outlet": "Straight Arrow News",
-     "title": "Federal agents search Rep. Ilhan Omar’s home amid criminal investigation: Reports",
-     "url": "https://san.com/cc/federal-agents-search-rep-ilhan-omars-home-amid-criminal-investigation-reports/",
-     "official": false
-    },
-    {
-     "outlet": "The American Conservative",
-     "title": "Federal Agents Raid Home of Rep. Ilhan Omar",
-     "url": "https://www.theamericanconservative.com/federal-agents-raid-home-of-rep-ilhan-omar/",
-     "official": false
-    },
-    {
-     "outlet": "Sky News: World",
-     "title": "Congresswoman insists she will not be 'silenced' after federal agents raid her home",
-     "url": "https://news.sky.com/story/congresswoman-insists-she-will-not-be-silenced-after-federal-agents-raid-her-home-13598219",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "US federal agents search home of Trump critic Ilhan Omar",
-     "url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "Axios",
-     "title": "Feds search Rep. Ilhan Omar's home in immigration probe",
-     "url": "https://www.axios.com/2026/10/12/ilhan-omar-search-immigration",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: US",
-     "title": "Ilhan Omar says she will not be silenced after federal agents raid her home",
-     "url": "https://www.theguardian.com/us-news/2026/oct/12/federal-agents-ilhan-omar-home-raid",
-     "official": false
-    },
-    {
-     "outlet": "The Wall Street Journal: U.S.",
-     "title": "Ilhan Omar’s Home Is Searched by Federal Agents",
-     "url": "https://www.wsj.com/politics/policy/ilhan-omars-home-is-searched-by-federal-agents-14a79871?mod=rss_usnews",
-     "official": false
-    },
-    {
-     "outlet": "South China Morning Post",
-     "title": "US federal agents search Democrat Ilhan Omar’s home as part of a criminal investigation",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3370643/federal-agents-search-democrat-ilhan-omars-home-part-criminal-investigation?utm_source=rss_feed",
-     "official": false
-    },
-    {
-     "outlet": "BBC News: World",
-     "title": "Immigration agents search Congresswoman Ilhan Omar's home",
-     "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "NPR News",
-     "title": "Federal agents search Rep. Ilhan Omar's DC home, DOJ says it approved the warrant",
-     "url": "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj",
-     "official": false
-    },
-    {
-     "outlet": "Time",
-     "title": "Rep. Omar Says She Will ‘Not Be Silenced’ After Federal Agents Raid Her Home",
-     "url": "https://time.com/article/2026/10/12/Ilhan-omar-home-raid-federal-agents-immigration-allegations-democrats-response/",
-     "official": false
-    },
-    {
-     "outlet": "Courthouse News Service",
-     "title": "Feds search US Rep. Ilhan Omar’s home in criminal investigation",
-     "url": "https://www.courthousenews.com/feds-search-us-rep-ilhan-omars-home-in-criminal-investigation/",
-     "official": false
-    },
-    {
-     "outlet": "New York Times: Politics",
-     "title": "Federal Agents Search Home of Rep. Ilhan Omar",
-     "url": "https://www.nytimes.com/2026/10/12/us/politics/ilhan-omar-home-searched.html",
-     "official": false
-    },
-    {
-     "outlet": "Al Jazeera",
-     "title": "US Rep. Ilhan Omar’s home searched by immigration agents",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/us-rep-ilhan-omars-home-searched-by-immigration-agents?traffic_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "Reason",
-     "title": "DHS Searched Ilhan Omar's Home as Part of Immigration Fraud Investigation",
-     "url": "https://reason.com/2026/10/12/dhs-searched-ilhan-omars-home-as-part-of-immigration-fraud-investigation/",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "US immigration authorities raid Democratic congresswoman Ilhan Omar's home",
-     "url": "https://www.channelnewsasia.com/world/ilhan-omar-democratic-home-raid-trump-us-6454226",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "cb73e749df24",
-   "title": "Hackers Target French Supermarkets in Unprecedented IoT Attack on Refrigeration",
-   "summary": "An overnight cyberattack targeted Danfoss-managed refrigeration systems across hundreds of French supermarkets, remotely overriding controls to heat freezers to 50°C for hours. The attack spoiled tons of fresh and frozen food and raised widespread food security concerns across Europe.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-12T18:31:32Z",
-   "outlet_count": 6,
-   "sources": [
-    {
-     "outlet": "Hacker News (100+ points)",
-     "title": "Hackers activate automatic defrosting accross European supermarket fridges",
-     "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Cyberattacks on Sunday night targeted Danfoss-managed refrigeration systems across hundreds of French supermarkets, heating them to 50°C for roughly six hours (Bloomberg)",
-     "url": "https://www.techmeme.com/261012/p27#a261012p27",
-     "official": false
-    },
-    {
-     "outlet": "Hacker News (100+ points)",
-     "title": "Fridges in French supermarkets hit by cyber attack",
-     "url": "https://www.bbc.com/news/articles/crq5nzxv9q4yo",
-     "official": false
-    },
-    {
-     "outlet": "Sky News: World",
-     "title": "French supermarket fridges heated to 50C in cyber attack",
-     "url": "https://news.sky.com/story/hackers-heat-french-supermarket-fridges-to-50c-in-large-scale-cyber-attack-13598252",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: World",
-     "title": "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack",
-     "url": "https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "Hundreds of French supermarkets hit by a cyberattack that defrosted refrigeration systems",
-     "url": "https://www.dw.com/en/hundreds-of-french-supermarkets-hit-by-a-cyberattack-that-defrosted-refrigeration-systems/a-79646097?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "BBC News: World",
-     "title": "Fridges in French supermarkets hit by cyber attack",
-     "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+     "title": "Asha Sharma reportedly tells rattled Xbox employees: \"We have to find new ways, and courage, to have invention on new IP\"",
+     "url": "https://www.eurogamer.net/asha-sharma-xbox-town-hall-new-ip",
      "official": false
     }
    ]
@@ -368,79 +156,55 @@
    "name": "AI",
    "stories": [
     {
-     "id": "1cb84cfd891a",
-     "title": "Anthropic's Claude Submits False Murder Tip to Philadelphia Police",
-     "summary": "Anthropic's Claude AI chatbot mistakenly contacted Philadelphia police with a false tip claiming it had information regarding an active murder case.",
+     "id": "459735cd30fd",
+     "title": "Anthropic Warns Small AI Models Could Soon Spread Across Consumer Devices",
+     "summary": "A new study from Anthropic suggests that smaller AI models may be months away from independently replicating and spreading across poorly secured everyday smart devices like robot vacuums.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-12T18:21:36Z",
+     "published": "2026-10-13T10:33:28Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Ars Technica AI",
-       "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
-       "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "b3d14748077b",
-     "title": "Andrej Karpathy Highlights Knowledge Gap in AI Capabilities",
-     "summary": "OpenAI co-founder and Anthropic researcher Andrej Karpathy noted that roughly 75 percent of the world's population has barely touched LLMs, pointing to a stark widening of the knowledge gap regarding what modern AI can actually accomplish.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-12T12:51:21Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "The gap in shared understanding of LLM capability is widening",
-       "url": "https://twitter.com/karpathy/status/2109361546505966046",
-       "official": false
-      },
-      {
        "outlet": "The Decoder",
-       "title": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do",
-       "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+       "title": "Anthropic study warns that small AI models could soon replicate across everyday devices",
+       "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
        "official": false
       }
      ]
     },
     {
-     "id": "64b8fb1d42bf",
-     "title": "NVIDIA Opens Vera Rubin Architecture to Scale AI Factories",
-     "summary": "At the OCP Global Summit, NVIDIA opened its Vera Rubin architecture and embraced open standards to help the industry scale power-hungry AI infrastructure from megawatts to gigawatts.",
-     "importance": 4,
+     "id": "8f872270b5d9",
+     "title": "France's Ecosystem Deploys Agentic Computing at Scale with NVIDIA",
+     "summary": "NVIDIA confirmed that companies across France are successfully deploying agentic computing across public sector, space, and research industries.",
+     "importance": 3,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-12T15:00:25Z",
+     "published": "2026-10-13T05:00:31Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "NVIDIA Blog",
-       "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-       "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+       "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+       "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
        "official": true
       }
      ]
     },
     {
-     "id": "307489fe487b",
-     "title": "Sakana AI's Self-Improving Model Boosts Reasoning Win Rates",
-     "summary": "Sakana AI introduced its MASS method, allowing language models to iteratively improve themselves by solving tasks, judging results, and refining workflows to reach a win rate of nearly 70 percent against baseline models.",
+     "id": "45ad9337ee37",
+     "title": "AI Labs Buying Digital Archives from Defunct Startups for Training Data",
+     "summary": "AI labs are increasingly purchasing digital data and user archives from shutting down tech startups to feed future model training pipelines.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-12T17:58:54Z",
+     "published": "2026-10-13T09:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Decoder",
-       "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
-       "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+       "outlet": "MIT Technology Review",
+       "title": "AI labs are buying data from dead startups to train their models",
+       "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
        "official": false
       }
      ]
@@ -451,175 +215,121 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "d25c8b5aca85",
-     "title": "Apple Announces 'Indie Games Week' and Upcoming App Store Launches",
-     "summary": "Apple has announced 'Indie Games Week' on the App Store, highlighting seven new and upcoming game launches, including the unexpected mobile port of No Man's Sky.",
+     "id": "5a66e8032ad6",
+     "title": "SpaceX Launches Unified X Subscription Bundling Grok and Cursor",
+     "summary": "SpaceX has rolled out a unified X subscription package that bundles Grok, Cursor, and X Premium across multiple tiered pricing options starting from $8 up to $200 per month.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-12T16:00:55Z",
-     "outlet_count": 7,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "No Man’s Sky is coming to the iPhone and iPad",
-       "url": "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "No Man's Sky is coming to iPhone and iPad as the App Store celebrates Indie Games Week",
-       "url": "https://www.engadget.com/2283704/no-mans-sky-is-coming-to-iphone-and-ipad-as-the-app-store-celebrates-indie-games-week/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "Just about all of 'No Man's Sky' is coming to iPhone and iPad",
-       "url": "https://appleinsider.com/articles/26/10/12/just-about-all-of-no-mans-sky-is-coming-to-iphone-and-ipad?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple announces ‘Indie Games Week’ with seven new, upcoming launches",
-       "url": "https://9to5mac.com/2026/10/12/apple-announces-indie-games-week-with-seven-new-upcoming-launches/",
-       "official": false
-      },
-      {
-       "outlet": "Gematsu",
-       "title": "No Man’s Sky coming to iOS on October 28",
-       "url": "https://www.gematsu.com/2026/10/no-mans-sky-coming-to-ios-on-october-28",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Announces 'Indie Games Week' on App Store",
-       "url": "https://www.macrumors.com/2026/10/12/app-store-indie-games-week/",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "No Man’s Sky Is Coming To iOS, And It’s Looking Utterly Extraordinary",
-       "url": "https://kotaku.com/no-mans-sky-ios-mobile-iphone-ipad-hello-games-port-apple-sean-murray-2000744598",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3f9d40719a54",
-     "title": "Apple and Pokémon Tease Pikachu-Themed Beats Pill Speaker",
-     "summary": "Apple and Pokémon have officially teased an upcoming collaboration featuring a special Pikachu-themed Beats Pill wireless speaker.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-12T17:11:30Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple confirms Beats x Pokémon collaboration with Pill speaker teaser",
-       "url": "https://9to5mac.com/2026/10/12/apple-confirms-beats-x-pokemon-collaboration-with-pill-speaker-teaser/",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple and Pokémon Tease Special Pikachu-Themed Beats Pill Speaker",
-       "url": "https://www.macrumors.com/2026/10/12/beats-pokemon-teaser/",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "Beats is collaborating with Pokémon for a Pikachu-themed Pill speaker",
-       "url": "https://www.engadget.com/2284137/beats-is-collaborating-with-pokmon-for-a-pikachu-themed-pill-speaker/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "694ed531ec35",
-     "title": "Google Hands-On Highlights Early Stability and Connectivity Issues for Googlebooks",
-     "summary": "Early hands-on reports with Googlebooks reveal a rocky start characterized by severe connectivity, file-sharing, and software stability issues, alongside core productivity software lacking full desktop parity.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-12T14:20:01Z",
+     "published": "2026-10-13T10:01:05Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Verge",
-       "title": "Android is the best and worst thing about Googlebooks",
-       "url": "https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing",
+       "outlet": "Engadget",
+       "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
+       "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
        "official": false
       },
       {
        "outlet": "Techmeme",
-       "title": "Googlebooks hands-on: a rocky start, with severe connectivity, file-sharing, and software stability issues; core productivity software lacks full desktop parity (Dominic Preston/The Verge)",
-       "url": "https://www.techmeme.com/261012/p26#a261012p26",
+       "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 per month; the $30 tier includes Grok Bot (Mariella Moon/Engadget)",
+       "url": "https://www.techmeme.com/261013/p10#a261013p10",
        "official": false
       }
      ]
     },
     {
-     "id": "b2ceafcb70e0",
-     "title": "Google Announces Fitbit Edge Wearable",
-     "summary": "Google has announced the Fitbit Edge, a $179.99 wearable device designed as a middle ground between the Pixel Watch and Fitbit Air featuring an OLED display.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-12T15:11:19Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Ars Technica",
-       "title": "Google announces the Fitbit Edge, a middle ground between Pixel Watch 5 and Fitbit Air",
-       "url": "https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air/",
-       "official": false
-      },
-      {
-       "outlet": "TechCrunch",
-       "title": "Fitbit Edge is Google’s middle ground between Fitbit Air and Pixel Watch",
-       "url": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "03eb5098cf34",
-     "title": "Global Smartphone Shipments Fall 20% in Q3 While Apple Reaches 22% Share",
-     "summary": "Counterpoint Research reports that global smartphone shipments fell 20 percent year-over-year in Q3 to a 14-year low due to memory shortages, though Apple's market share crossed 20 percent for the first time in any Q3 to reach 22 percent.",
+     "id": "7bb16b2f5a5c",
+     "title": "Meta Confirms Muse Supports Private Adult Conversations in Secure VMs",
+     "summary": "Meta has confirmed that its Muse agent permits users to engage in private adult conversations using secure virtual machines, noting it does not block legal adult behavior.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-12T14:10:05Z",
+     "published": "2026-10-13T10:25:01Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "Global smartphone shipments fell 20% YoY in Q3 to a 14-year low amid memory shortages; Apple's share crossed 20% for the first time in any Q3, reaching 22% (Counterpoint Research)",
-       "url": "https://www.techmeme.com/261012/p25#a261012p25",
+       "title": "Meta confirms Muse lets users \"engage in adult conversations, if they choose, using a private and secure VM\", saying it doesn't block \"legal adult behavior\" (Reece Rogers/Wired)",
+       "url": "https://www.techmeme.com/261013/p12#a261013p12",
        "official": false
       }
      ]
     },
     {
-     "id": "7fae058a05ee",
-     "title": "Apple Prepares 'Welcome Home' Event and Two-Day Creator Showcase",
-     "summary": "Apple is hosting a two-day product showcase for creators in Los Angeles alongside its 'Welcome Home' launch event expected to introduce new home accessories and smart home hubs.",
+     "id": "da6c5f263672",
+     "title": "Alibaba Unveils Qwen Glasses N1 with Built-In Cameras and Eye-Tracking",
+     "summary": "Alibaba Group has introduced its next-generation Qwen Glasses N1 featuring 50-megapixel cameras, smart sensors, and optional eye-tracking starting around $450.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-12T17:17:12Z",
+     "published": "2026-10-13T10:10:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "MacRumors",
-       "title": "Apple Plans Two-Day Event to Showcase Trio of New Macs and iPad Mini",
-       "url": "https://www.macrumors.com/2026/10/12/new-macs-and-ipad-mini-in-los-angeles/",
+       "outlet": "Techmeme",
+       "title": "Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$520 Pro model, and Qwen Clip AI earbuds (Bloomberg)",
+       "url": "https://www.techmeme.com/261013/p11#a261013p11",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b1df411a9366",
+     "title": "Chinese Tech Giants Reportedly Buy Over 1 Million Nvidia Gaming Chips",
+     "summary": "Reports indicate that Chinese tech companies have acquired over one million Nvidia gaming and workstation chips to handle basic AI workloads amidst ongoing export restrictions.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-13T09:50:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: Chinese tech companies bought 1M+ Nvidia gaming and workstation chips, mostly RTX 5090 and RTX Pro, for basic AI workloads amid an AI chip shortage (Financial Times)",
+       "url": "https://www.techmeme.com/261013/p9#a261013p9",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3af158150717",
+     "title": "CXMT Plans Advanced 4F² DRAM Chip Launch for Data Centers",
+     "summary": "CXMT has announced plans to launch a high-density 4F² design DRAM chip for servers before the end of 2026, marking a significant domestic manufacturing breakthrough.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-13T09:40:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "CXMT says it plans to launch a 4F² design DRAM chip for data center servers before the end of 2026, achieving a breakthrough that rivals have pursued for years (Bloomberg)",
+       "url": "https://www.techmeme.com/261013/p8#a261013p8",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3e93ef5edd1f",
+     "title": "Apple Leads Shifting Global Smartphone Market Share Despite Shipments Decline",
+     "summary": "Preliminary data from market researchers reveals Apple captured a record 22 percent share of worldwide smartphone shipments in the third quarter of 2026 despite an overall market drop.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-13T10:32:57Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "IDC: China's Q3 smartphone shipments fell 15.4% YoY to 57.9M units, the sixth straight quarter of decline; Huawei led with a 21% share and Apple had 17.8% (Reuters)",
+       "url": "https://www.techmeme.com/261013/p7#a261013p7",
        "official": false
       },
       {
        "outlet": "MacRumors",
-       "title": "Apple 'Welcome Home' Launch: Everything to Expect Tomorrow",
-       "url": "https://www.macrumors.com/guide/apple-welcome-home-product-recap/",
+       "title": "iPhone Takes Bigger Slice of a Shrinking Smartphone Market",
+       "url": "https://www.macrumors.com/2026/10/13/iphone-takes-bigger-slice-of-shrinking-market/",
        "official": false
       }
      ]
@@ -630,187 +340,139 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "9baecfbedab7",
-     "title": "Dragon Quest Creator Yuji Horii Releases Game Created with AI in 30 Minutes",
-     "summary": "Dragon Quest co-creator Yuji Horii has released a short game he built using artificial intelligence in approximately 30 minutes, praising the technology for removing the need for manual coding and drawing.",
-     "importance": 4,
-     "label": "REPORTED",
+     "id": "e3d7d19c1f1c",
+     "title": "Atlus Releases Metaphor: ReFantazio Prologue Demo for Switch 2",
+     "summary": "Ahead of its launch next month, Atlus has published a prologue demo for Metaphor: ReFantazio on the Switch 2 eShop with save data carrying over to the full game.",
+     "importance": 3,
+     "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-12T18:49:25Z",
-     "outlet_count": 6,
+     "published": "2026-10-13T04:55:00Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "The latest game from the creator of Dragon Quest was made in ‘about 30 minutes’ with AI",
-       "url": "https://www.videogameschronicle.com/news/the-lastest-game-from-the-creator-of-dragon-quest-was-made-in-about-30-minutes-with-ai/",
+       "outlet": "Gematsu",
+       "title": "Metaphor: ReFantazio ‘Prologue’ demo for Switch 2 now available",
+       "url": "https://www.gematsu.com/2026/10/metaphor-refantazio-prologue-demo-for-switch-2-now-available",
        "official": false
       },
       {
        "outlet": "Nintendo Life",
-       "title": "\"It's Truly Astonishing\" - Dragon Quest Creator Yuji Horii Made An AI-Generated Game In 30 Minutes",
-       "url": "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "Dragon Quest Creator Yuji Horii Thinks AI Is Amazing As He No Longer Needs To Code Or Draw To Make A Game",
-       "url": "https://kotaku.com/dragon-quest-creator-yuji-horii-thinks-ai-is-amazing-as-he-no-longer-needs-to-code-or-draw-to-make-a-game-2000744194",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Dragon Quest co-creator Yuji Horii releases new AI-generated game, and he says it took 30 minutes to make",
-       "url": "https://www.eurogamer.net/dragon-quest-yuji-horii-new-game-ai-30-minutes",
-       "official": false
-      },
-      {
-       "outlet": "Push Square",
-       "title": "The Crazy Wait for Dragon Quest 12 Made Worse by Creator's 'Astonishing' Praise for AI",
-       "url": "https://www.pushsquare.com/news/2026/10/the-crazy-wait-for-dragon-quest-12-made-worse-by-creators-astonishing-praise-for-ai",
-       "official": false
-      },
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
-       "url": "https://www.gamesindustry.biz/dragon-quest-creator-yuji-horii-releases-game-he-says-he-made-with-ai-in-about-30-minutes",
+       "title": "PSA: Metaphor: ReFantazio Demo For Switch 2 Now Available",
+       "url": "https://www.nintendolife.com/news/2026/10/psa-metaphor-refantazio-demo-for-switch-2-now-available",
        "official": false
       }
      ]
     },
     {
-     "id": "37534f3a4d8e",
-     "title": "Gears of War: E-Day Suffers Server Outages Following DDoS Attack",
-     "summary": "Developer The Coalition confirmed that Gears of War: E-Day suffered intermittent disconnects and login issues over the weekend after being targeted by a DDoS attack.",
+     "id": "63af96859249",
+     "title": "God of War Laufey Collector's Edition Omits the Actual Game Disc",
+     "summary": "Sony and Santa Monica Studio revealed the God of War Laufey Collector's Edition, continuing the industry trend of packaging high-end collector items without the base game.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-13T10:29:17Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "God of War Laufey Collector Box Available for Pre-Order Now, Doesn't Include the Game",
+       "url": "https://www.pushsquare.com/news/2026/10/god-of-war-laufey-collector-box-available-for-pre-order-now-doesnt-include-the-game",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "God of War Laufey Collector’s Edition Doesn’t Include the Game",
+       "url": "https://insider-gaming.com/god-of-war-laufey-collectors-edition-doesnt-include-the-game/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c43700cf660f",
+     "title": "Epic Games Reportedly Mandates AI-First Production on New Disney Shooter",
+     "summary": "Epic Games has reportedly instructed developers working on an upcoming Disney shooter featuring Marvel and Star Wars characters to adopt an AI-first workflow.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-12T15:00:16Z",
-     "outlet_count": 3,
+     "published": "2026-10-13T01:35:00Z",
+     "outlet_count": 2,
      "sources": [
-      {
-       "outlet": "Kotaku",
-       "title": "Gears Of War: E-Day Was Taken Down By DDoS Attack, Developers Confirm",
-       "url": "https://kotaku.com/gears-of-war-e-day-the-coalition-microsoft-ddos-attack-woke-2000744559",
-       "official": false
-      },
       {
        "outlet": "Rock Paper Shotgun",
-       "title": "Gears of War: E-Day DDoS attacks are to blame for \"intermittent disconnects\" and \"login issues\", The Coalition confirm",
-       "url": "https://www.rockpapershotgun.com/gears-of-war-e-day-ddos-attacks-are-to-blame-for-intermittent-disconnects-and-login-issues-the-coalition-confirm",
+       "title": "\"No more hand-written code\": Epic reportedly impose \"AI-first\" model on creators of new Disney shooter with Marvel and Star Wars characters",
+       "url": "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "\"No More Hand-Written Code\" - Epic Reportedly Adopts \"AI First\" Production Model On New Disney Shooter",
+       "url": "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "158fe749a198",
+     "title": "Sony Announces Midnight Black PS5 Digital Edition Region-Locked to Japan",
+     "summary": "Sony has revealed a Midnight Black colorway for the PS5 Digital Edition and standalone disc drive, with a November 19 launch confirmed exclusively for Japan so far.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-13T08:59:40Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "PS5 Digital Edition Midnight Black Japan-only model launches November 19",
+       "url": "https://www.gematsu.com/2026/10/ps5-digital-edition-midnight-black-japan-only-model-launches-november-19",
        "official": false
       },
       {
        "outlet": "VGC",
-       "title": "Gears of War E-Day suffered connection issues after being hit by a DDoS attack, The Coalition says",
-       "url": "https://www.videogameschronicle.com/news/gears-of-war-e-day-suffered-connection-issues-after-being-hit-by-a-ddos-attack-the-coalition-says/",
+       "title": "Sony has announced a Midnight Black PS5 but it’s only confirmed for Japan so far",
+       "url": "https://www.videogameschronicle.com/news/sony-has-announced-a-midnight-black-ps5-but-its-only-confirmed-for-japan-so-far/",
        "official": false
       }
      ]
     },
     {
-     "id": "aa985244aa1f",
-     "title": "Nintendo Executive Reiterates Commitment to Physical Games",
-     "summary": "Nintendo's Latin American leadership has explicitly confirmed that the company has no immediate plans to abandon physical media or transition to an all-digital future for the Switch successor.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-12T17:58:32Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Nintendo Life",
-       "title": "Nintendo States That It Has No Plans To Ditch Physical Media",
-       "url": "https://www.nintendolife.com/news/2026/10/nintendo-states-that-it-has-no-plans-to-ditch-physical-media",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Nintendo executive confirms company has \"no plans to ditch physical games\"",
-       "url": "https://www.eurogamer.net/nintendo-executive-confirms-company-has-no-plans-to-ditch-physical-games",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "Unlike Sony, Nintendo Exec Says Switch 2 Maker Has No Plans To Abandon Physical: ‘We Know How Much Fans Enjoy It’",
-       "url": "https://kotaku.com/unlike-sony-nintendo-exec-says-switch-2-maker-has-no-plans-to-abandon-physical-we-know-how-much-fans-enjoy-it-2000744191",
-       "official": false
-      },
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "Nintendo's Latin America VP says there are no plans to ditch physical games",
-       "url": "https://www.gamesindustry.biz/nintendos-latin-america-vp-says-there-are-no-plans-to-ditch-physical-games",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "518dcc8af801",
-     "title": "Sonic Racing: CrossWorlds Fans Outraged Over Paid DLC Changes",
-     "summary": "Fans of Sonic Racing: CrossWorlds have criticized Sega for allegedly reneging on a pre-release promise that future DLC would be free for Deluxe Edition owners, after Season 2 featuring Final Fantasy 7 characters was tied to a new season pass.",
+     "id": "74a68b0e7154",
+     "title": "RimWorld Developer Ludeon Switches Engine from Unity to Custom Waylith Engine",
+     "summary": "Ludeon Studios announced that RimWorld is officially migrating from Unity to their proprietary, faster Waylith Engine in upcoming update 1.7 without breaking mod compatibility.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-12T20:07:40Z",
-     "outlet_count": 3,
+     "published": "2026-10-13T10:58:02Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Push Square",
-       "title": "SEGA Labelled 'Stupid Liars' After Failing to Fulfil 'All Future Paid DLC' Promise for Sonic Racing: CrossWorlds",
-       "url": "https://www.pushsquare.com/news/2026/10/sega-labelled-stupid-liars-after-failing-to-fulfil-all-future-paid-dlc-promise-for-sonic-racing-crossworlds",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "Fans Accuse Sonic Racing: CrossWorlds Of Breaking Deluxe Edition Promise After Revealing FF7 DLC: ‘Paid $100 For This Sh*t, Guess I Learned My Lesson’",
-       "url": "https://kotaku.com/fans-accuse-sonic-racing-crossworlds-of-breaking-deluxe-edition-promise-after-revealing-ff7-dlc-paid-100-for-this-sht-guess-i-learned-my-lesson-2000744567",
+       "outlet": "Rock Paper Shotgun",
+       "title": "RimWorld switches engine from Unity to the devs' own, faster Waylith Engine, all apparently without breaking mods somehow",
+       "url": "https://www.rockpapershotgun.com/rimworld-switches-engine-from-unity-to-the-devs-own-faster-waylith-engine-all-apparently-without-breaking-mods-somehow",
        "official": false
       },
       {
        "outlet": "Steam News",
-       "title": "Sonic Racing: CrossWorlds Fans Are Unhappy With Year 2 DLC Announcement",
-       "url": "https://store.steampowered.com/news/group/1450625/view/699903960312450430",
+       "title": "RimWorld devs are \"working on something new\" after 13 years of the space construction sim",
+       "url": "https://store.steampowered.com/news/group/38509069/view/702155760121941530",
        "official": false
       }
      ]
     },
     {
-     "id": "fe64580133e4",
-     "title": "No Man's Sky Headed to iOS on October 28 Without Multiplayer",
-     "summary": "Hello Games is bringing No Man's Sky to iPad and iPhone devices on October 28, shrinking the game down to 3.8GB with the primary compromise being the exclusion of multiplayer functionality.",
-     "importance": 4,
+     "id": "f0757ffb3555",
+     "title": "Glen Schofield Blames Krafton Management for The Callisto Protocol Flaws",
+     "summary": "Game creator Glen Schofield has publicly blamed Krafton management for forcing him to ship The Callisto Protocol prematurely, leading to its critical and commercial shortcomings.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-12T18:20:50Z",
+     "published": "2026-10-13T08:40:04Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Eurogamer",
-       "title": "No Man's Sky is somehow coming to mobile, and Hello Games says it's partly thanks to Light No Fire",
-       "url": "https://www.eurogamer.net/no-mans-sky-coming-mobile-hello-games-thanks-to-light-no-fire",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "518b9761a305",
-     "title": "PS5 Jailbreak Tools Spark Piracy Concerns and Emulation Milestones",
-     "summary": "Recent jailbreak developments on the PS5 have led to the release of apps enabling free access to games and DLC alongside custom emulators allowing users to boot physical PS3 discs.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-12T18:00:29Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Insider Gaming",
-       "title": "PS5 Jailbreak App ‘Overdrive’ Seemingly Makes Games and DLC Free",
-       "url": "https://insider-gaming.com/ps5-jailbreak-app-overdrive-seemingly-makes-games-and-dlc-free/",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "The Physical Revolution on Jailbroken PS5s Now Has People Emulating PS3 Discs",
-       "url": "https://kotaku.com/the-physical-revolution-on-jailbroken-ps5s-now-has-people-emulating-ps3-discs-2000744606",
+       "title": "\"I was forced to ship the game\" - Glen Schofield blames Krafton management for The Callisto Protocol's problems",
+       "url": "https://www.eurogamer.net/glen-schofield-the-callisto-protocol-krafton-problems",
        "official": false
       }
      ]
@@ -821,208 +483,146 @@
    "name": "US",
    "stories": [
     {
-     "id": "05b1095c8248",
-     "title": "Actress Selma Blair Detained After Alleged Flight Incident",
-     "summary": "Actress Selma Blair was arrested and detained after allegedly biting and assaulting flight attendants on board a Delta Air Lines flight traveling from Los Angeles to New York.",
-     "importance": 3,
-     "label": "RUMOR-CREDIBLE",
+     "id": "d00f4b3cdbd2",
+     "title": "Breaking Bad Actor and Disability Advocate RJ Mitte Passes Away at 34",
+     "summary": "RJ Mitte, widely recognized for his breakout role in AMC's Breaking Bad and his dedicated disability rights advocacy, has died at age 34.",
+     "importance": 4,
+     "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-12T20:07:27Z",
+     "published": "2026-10-13T08:21:58Z",
      "outlet_count": 6,
      "sources": [
       {
-       "outlet": "El País (Spain)",
-       "title": "Selma Blair arrested for attempting to open a plane door and hitting and biting two crew members",
-       "url": "https://elpais.com/us/entretenimiento/2026-10-12/selma-blair-detenida-por-intentar-abrir-la-puerta-de-un-avion-y-pegar-y-morder-a-dos-tripulantes.html",
-       "official": false,
-       "translated_from": "es",
-       "original_title": "Selma Blair, detenida por intentar abrir la puerta de un avión y pegar y morder a dos tripulantes"
-      },
-      {
-       "outlet": "ABC News",
-       "title": "Selma Blair arrested after alleged altercation on Delta flight",
-       "url": "https://abcnews.com/GMA/Culture/selma-blair-arrested-after-alleged-altercation-delta-flight/story?id=137202403",
+       "outlet": "IGN",
+       "title": "Breaking Bad Star RJ Mitte Dead at 34",
+       "url": "https://www.ign.com/articles/breaking-bad-star-rj-mitte-dead-at-34",
        "official": false
       },
       {
-       "outlet": "NBC News",
-       "title": "Selma Blair arrested for allegedly assaulting two flight attendants",
-       "url": "https://www.nbcnews.com/now/video/selma-blair-arrested-for-allegedly-assaulting-two-flight-attendants-271454277761",
+       "outlet": "The Daily Caller",
+       "title": "‘Breaking Bad’ Star RJ Mitte Dead By Apparent Suicide At 34",
+       "url": "https://dailycaller.com/2026/10/12/breaking-bad-rj-mitte-dead-apparent-suicide-34-cerebral-palsy",
        "official": false
       },
       {
-       "outlet": "ORF News (Austria)",
-       "title": "Flight Crew Injured: Selma Blair Detained",
-       "url": "https://orf.at/stories/3444892/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Flugpersonal verletzt: Selma Blair festgenommen"
-      },
-      {
-       "outlet": "Der Spiegel (Germany)",
-       "title": "Selma Blair Detained After Allegedly Biting and Hitting Flight Crew",
-       "url": "https://www.spiegel.de/panorama/leute/selma-blair-soll-flugpersonal-gebissen-und-geschlagen-haben-a-1cebe0e1-0dcf-4917-8a1e-8a0a32b3ed69#ref=rss",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Selma Blair soll Flugpersonal gebissen und geschlagen haben"
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "'Breaking Bad' actor and disability advocate RJ Mitte dies",
+       "url": "https://www.dw.com/en/breaking-bad-actor-and-disability-advocate-rj-mitte-dies/a-79646725?maca=en-rss-en-all-1573-rdf",
+       "official": false
       },
       {
        "outlet": "CBS News",
-       "title": "Selma Blair arrested after allegedly biting flight attendant",
-       "url": "https://www.cbsnews.com/news/selma-blair-arrested-incident-on-board-flight-from-lax-to-jfk/",
+       "title": "RJ Mitte, \"Breaking Bad\" actor, dies at 34",
+       "url": "https://www.cbsnews.com/news/rj-mitte-breaking-bad-actor-dies-age-34/",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Breaking Bad actor RJ Mitte dies aged 34",
+       "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "'Breaking Bad' star RJ Mitte dies at 34",
+       "url": "https://abcnews.com/GMA/Culture/breaking-bad-star-rj-mitte-dies-34/story?id=137206350",
        "official": false
       }
      ]
     },
     {
-     "id": "0880d789a142",
-     "title": "Federal Judge Orders Trump Administration to Halt Taxpayer-Funded TV Ads",
-     "summary": "A federal judge ordered the Trump administration to immediately halt and cancel any remaining television commercials funded by millions in taxpayer money to promote political messages.",
+     "id": "3c104d8788b4",
+     "title": "Guest Fatally Injured in Roller Coaster Incident at Six Flags Over Georgia",
+     "summary": "One park guest was killed and several others injured following an accident on a roller coaster ride at Six Flags Over Georgia.",
      "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-12T19:00:14Z",
+     "published": "2026-10-13T10:31:17Z",
      "outlet_count": 5,
      "sources": [
       {
-       "outlet": "CBC News: World",
-       "title": "Judge orders Trump administration to end taxpayer-funded TV ads",
-       "url": "https://www.cbc.ca/news/world/judge-orders-trump-ads-end-9.7377818?cmp=rss",
+       "outlet": "The Daily Wire",
+       "title": "Six Flags Roller Coaster Horror As Man Plunges To Death, Captured In Souvenir Photo",
+       "url": "https://www.dailywire.com/news/six-flags-roller-coaster-horror-as-man-plunges-to-death-captured-in-souvenir-photo",
        "official": false
       },
       {
-       "outlet": "Axios",
-       "title": "Judge halts Trump administration's taxpayer-funded ads",
-       "url": "https://www.axios.com/2026/10/12/trump-taxpayer-funded-ads-judge-order",
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "US: Man killed in Six Flags roller coaster incident",
+       "url": "https://www.dw.com/en/us-man-killed-in-six-flags-roller-coaster-incident/a-79646793?maca=en-rss-en-all-1573-rdf",
        "official": false
       },
       {
-       "outlet": "Straight Arrow News",
-       "title": "Judge orders Trump’s $20 million taxpayer-funded ads off the air",
-       "url": "https://san.com/cc/judge-orders-trumps-20-million-taxpayer-funded-ads-off-the-air/",
+       "outlet": "Al Jazeera",
+       "title": "One killed, several injured in Georgia rollercoaster ‘incident’",
+       "url": "https://www.aljazeera.com/news/2026/10/13/one-dead-after-roller-coaster-incident-in-george-us?traffic_source=rss",
        "official": false
       },
       {
-       "outlet": "The Guardian: US",
-       "title": "Federal judge orders temporary halt to taxpayer-funded pro-Trump TV ads",
-       "url": "https://www.theguardian.com/us-news/2026/oct/12/judge-orders-halt-taxpayer-funded-pro-trump-ads",
+       "outlet": "BBC News: World",
+       "title": "One dead and several hurt after rollercoaster incident at Six Flags",
+       "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "PBS NewsHour",
-       "title": "Judge orders the Trump administration to cancel taxpayer-funded TV ads",
-       "url": "https://www.pbs.org/newshour/politics/judge-orders-the-trump-administration-to-cancel-taxpayer-funded-tv-ads",
+       "outlet": "CBS News",
+       "title": "1 dead in incident on Six Flags Over Georgia roller coaster",
+       "url": "https://www.cbsnews.com/news/six-flags-over-georgia-roller-coaster-incident-death-injuries-investigation/",
        "official": false
       }
      ]
     },
     {
-     "id": "3c1861416b55",
-     "title": "US Economists Win 2026 Nobel Prize for Work on Economic Crises",
-     "summary": "US economists Robert E. Hall and Michael Woodford were awarded the 2026 Nobel economics prize for developing macroeconomics models that help central bankers and finance ministers stabilize economies.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-12T14:20:53Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "NPR News",
-       "title": "2 Americans win Nobel Prize in economics for work on boom-bust cycles",
-       "url": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
-       "official": false
-      },
-      {
-       "outlet": "The Japan Times",
-       "title": "Robert Hall and Michael Woodford win 2026 Nobel economics prize",
-       "url": "https://www.japantimes.co.jp/news/2026/10/12/world/nobel-economics-prize/",
-       "official": false
-      },
-      {
-       "outlet": "CBC News: World",
-       "title": "Nobel memorial prize in economics awarded to Robert E. Hall and Michael Woodford",
-       "url": "https://www.cbc.ca/news/world/hall-woodford-nobel-economics-9.7377888?cmp=rss",
-       "official": false
-      },
-      {
-       "outlet": "Axios",
-       "title": "Two U.S. professors win Nobel prize in economics",
-       "url": "https://www.axios.com/2026/10/12/nobel-prize-economics-2026-hall-woodford",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: UK",
-       "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
-       "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "2b16f08f6294",
-     "title": "Federal Judge Demands Answers from Trump Administration Over Golf Course Tree Removals",
-     "summary": "During a federal hearing, a judge sharply questioned the Trump administration regarding who authorized the felling of hundreds of trees at the historic East Potomac Golf Links.",
+     "id": "af7cd9f8190b",
+     "title": "Trump Evaluating Position of U.S. Ambassador to Greece Kimberly Guilfoyle",
+     "summary": "President Trump stated that he is looking into potentially firing U.S. Ambassador to Greece Kimberly Guilfoyle following accusations regarding a donor payment.",
      "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-12T19:34:31Z",
+     "published": "2026-10-13T04:33:11Z",
      "outlet_count": 4,
      "sources": [
       {
-       "outlet": "Just the News",
-       "title": "Federal judge orders Trump administration to halt work for one day on DC public golf course",
-       "url": "https://justthenews.com/government/white-house/federal-judge-orders-trump-administration-halt-work-one-day-historic-dc?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "outlet": "The Washington Post: Politics",
+       "title": "Trump says he’s ‘looking at’ firing Kimberly Guilfoyle from Athens post",
+       "url": "https://www.washingtonpost.com/politics/2026/10/12/trump-says-he-might-fire-his-ambassador-greece-kimberly-guilfoyle/",
        "official": false
       },
       {
-       "outlet": "NBC News",
-       "title": "Judge tears into Trump administration for felling trees on D.C. golf course the president wants to remake",
-       "url": "https://www.nbcnews.com/politics/trump-administration/judge-trump-administration-trees-golf-course-rcna603004",
-       "official": false
-      },
-      {
-       "outlet": "PBS NewsHour",
-       "title": "Federal judge orders Trump administration to halt work for a day on historic D.C. golf course",
-       "url": "https://www.pbs.org/newshour/politics/federal-judge-orders-trump-administration-to-halt-work-for-a-day-on-historic-d-c-golf-course",
+       "outlet": "Yahoo News",
+       "title": "Trump says he's 'looking at' firing Kimberly Guilfoyle as U.S. ambassador to Greece",
+       "url": "https://abcnews.com/Politics/trump-firing-us-ambassador-greece-kimberly-guilfoyle/story?id=137209661",
        "official": false
       },
       {
        "outlet": "New York Times: Politics",
-       "title": "Judge Orders Trump Administration to Answer for Tree Removals at D.C. Golf Course",
-       "url": "https://www.nytimes.com/2026/10/12/us/politics/judge-trees-golf-trump.html",
+       "title": "Trump Says He Is ‘Looking at’ Firing Kimberly Guilfoyle",
+       "url": "https://www.nytimes.com/2026/10/12/us/politics/trump-kimberly-guilfoyle-greece.html",
        "official": false
       }
      ]
     },
     {
-     "id": "1bea753476b5",
-     "title": "Elon Musk Donates Over $276 Million to Republican Midterm Campaigns",
-     "summary": "Financial disclosures reveal that Elon Musk has contributed more than $276 million to Republican groups since July, making him the party's top donor for the upcoming midterm elections.",
+     "id": "7b23653cb214",
+     "title": "Federal Immigration Agents Execute Search at Representative Ilhan Omar's Home",
+     "summary": "Federal immigration agents conducted a search at the home of Democratic Representative Ilhan Omar, which she denounced as a politically motivated targeting of opponents.",
      "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-12T19:00:48Z",
-     "outlet_count": 3,
+     "published": "2026-10-13T10:37:39Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Verge",
-       "title": "Elon Musk has donated over $276 million to Republican midterm efforts",
-       "url": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations",
+       "outlet": "Yahoo News",
+       "title": "Federal agents search Rep. Ilhan Omar's home weeks before the midterms",
+       "url": "https://www.cnn.com/2026/10/12/politics/ilhan-omar-search",
        "official": false
       },
       {
-       "outlet": "The Hill",
-       "title": "Musk throws $276M behind Republicans in midterms",
-       "url": "https://thehill.com/policy/technology/6143347-musk-donated-millions-gop-midterms/",
+       "outlet": "BBC News: World",
+       "title": "Immigration agents search congresswoman Ilhan Omar's home",
+       "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
        "official": false
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Musk wants to save midterms for Republicans",
-       "url": "https://orf.at/stories/3444834/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Musk will Republikanern Midterms retten"
       }
      ]
     }
@@ -1032,169 +632,25 @@
    "name": "World",
    "stories": [
     {
-     "id": "15e29cdf6af4",
-     "title": "Pope Leo to Undergo Surgery for Lung Nodule in Rome",
-     "summary": "Vatican officials announced that 71-year-old Pope Leo XIV will undergo surgery in Rome to remove a lung nodule, prompting the cancellation of public events ahead of an anticipated Latin American tour.",
+     "id": "923b39d787a6",
+     "title": "Hurricanes Simon and Rachel Leave Five Dead Across Western Mexico",
+     "summary": "Hurricane Simon and post-tropical cyclone Rachel struck western Mexico, triggering heavy flooding and resulting in five total fatalities across Baja California and Guerrero.",
      "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-12T19:06:44Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "MercoPress (South Atlantic)",
-       "title": "Pope Leo XIV to undergo surgery on a lung nodule a month before his tour of Uruguay, Argentina and Peru",
-       "url": "https://en.mercopress.com/2026/10/12/pope-leo-xiv-to-undergo-surgery-on-a-lung-nodule-a-month-before-his-tour-of-uruguay-argentina-and-peru?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Pope lung nodule: Could it be cancer?",
-       "url": "https://www.dw.com/en/pope-lung-nodule-could-it-be-cancer/a-79641503?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "Sky News: World",
-       "title": "Pope Leo cancels all public events ahead of lung surgery",
-       "url": "https://news.sky.com/story/pope-leo-cancels-all-public-events-ahead-of-lung-surgery-13598270",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Pope Leo to undergo surgery to remove lung nodule in Rome",
-       "url": "https://www.aljazeera.com/news/2026/10/12/pope-leo-to-undergo-surgery-to-remove-lung-nodule-in-rome?traffic_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "29bd4547111b",
-     "title": "Teenager Opens Fire at French Middle School, Wounding Headmaster and Teacher",
-     "summary": "A 14-year-old student shot and wounded a headmaster and a teacher using a hunting rifle at a middle school in Aubagne, France.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-12T19:44:00Z",
+     "published": "2026-10-13T10:45:28Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "South China Morning Post",
-       "title": "Teenager shoots headmaster and teacher with a hunting gun at French school",
-       "url": "https://www.scmp.com/news/world/europe/article/3370635/french-police-detain-pupil-14-suspected-shooting-principal-and-teacher?utm_source=rss_feed",
+       "outlet": "CBS News",
+       "title": "Hurricane Simon hitting western Mexico after tropical systems kill 5",
+       "url": "https://www.cbsnews.com/news/hurricane-simon-still-hitting-western-mexico-after-tropical-systems-kill-5/",
        "official": false
       },
       {
-       "outlet": "Al Jazeera",
-       "title": "Teenager shoots headmaster, teacher at French school",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/teenager-shoots-headmaster-teacher-at-french-school?traffic_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "db7803fa4739",
-     "title": "Houthi Official Warns of Retaliation Following Airport Strikes and US Intervention Warnings",
-     "summary": "Following Houthi ballistic missile strikes on Riyadh's airport, Houthi officials warned of swift and painful retaliation if the United States enters the Yemen conflict, designating regional oil facilities and airports as targets.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-12T19:45:23Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "BBC News: World",
-       "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-       "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes",
-       "url": "https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia.html",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "Saudi Energy Minister says attacks testing infrastructure, vows response",
-       "url": "https://www.thehindu.com/news/international/saudi-energy-minister-says-attacks-testing-infrastructure-vows-response/article71576563.ece",
-       "official": false
-      },
-      {
-       "outlet": "ERT News (Greece)",
-       "title": "Houthi official warns US of immediate and painful response if it intervenes in Yemen war",
-       "url": "https://www.ertnews.gr/eidiseis/diethni/aksiomatouxos-ton-xouthi-proeidopoiei-tis-ipa-gia-amesi-kai-odyniri-antidrasi-se-periptosi-emplokis-ston-polemo-tis-yemenis/",
-       "official": false,
-       "translated_from": "el",
-       "original_title": "Αξιωματούχος των Χούθι προειδοποιεί τις ΗΠΑ για «άμεση και οδυνηρή αντίδραση» σε περίπτωση εμπλοκής στον πόλεμο της Υεμένης"
-      },
-      {
-       "outlet": "franceinfo (France)",
-       "title": "Middle East War: Houthis Claim Ballistic Missile Attack on Riyadh Airport, Capital of Saudi Arabia",
-       "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-la-nouvelle-attaque-contre-l-aeroport-de-riyad-a-fait-un-mort-et-11-blesses_8233339.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Guerre au Moyen-Orient : Les houthis affirment avoir tiré un missile balistique sur l'aéroport de Riyad, la capitale de l'Arabie saoudite"
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Houthi official warns of ‘swift, painful response’ if US enters Yemen war",
-       "url": "https://www.straitstimes.com/world/middle-east/houthi-official-warns-of-swift-painful-response-if-us-enters-yemen-war",
-       "official": false
-      },
-      {
-       "outlet": "franceinfo (France)",
-       "title": "How Will Saudi Arabia Retaliate After Strikes on Riyadh Airport?",
-       "url": "https://www.franceinfo.fr/monde/moyen-orient/quelle-riposte-de-l-arabie-saoudite-apres-les-frappes-contre-l-aeroport-de-riyad_8234482.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Quelle riposte de l'Arabie saoudite après les frappes contre l'aéroport de Riyad ?"
-      }
-     ]
-    },
-    {
-     "id": "2c1a8bda8c1b",
-     "title": "Ethiopian Forces Enter Strategic Tigray Town of Adwa",
-     "summary": "Witnesses report that Ethiopian government forces have entered the key Tigray town of Adwa near the Eritrea border as regional stability continues to shift.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-12T18:01:41Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Hindu: International",
-       "title": "Ethiopian govt forces enter key Tigray town near Eritrea border",
-       "url": "https://www.thehindu.com/news/international/ethiopian-govt-forces-enter-key-tigray-town-near-eritrea-border/article71576602.ece",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Ethiopian forces enter strategic Tigray town of Adwa, witnesses say",
-       "url": "https://www.aljazeera.com/news/2026/10/12/ethiopian-troops-capture-adwa-without-a-fight-witnesses-say?traffic_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "da365965964b",
-     "title": "French High Schools Face Continuing Student Demonstrations Over Conditions",
-     "summary": "Riot police were deployed as French students blocked entrances to high schools across the country to protest poor classroom conditions, leading to occasional clashes.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-12T16:55:31Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Courthouse News Service",
-       "title": "France braces for fresh student demonstrations as Macron calls for ‘respect’",
-       "url": "https://www.courthousenews.com/france-braces-for-fresh-student-demonstrations-as-macron-calls-for-respect/",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "France braces for fresh student demonstrations as Macron calls for ‘respect’",
-       "url": "https://www.thehindu.com/news/international/france-braces-for-fresh-student-demonstrations-as-macron-calls-for-respect/article71576578.ece",
+       "outlet": "CBC News: World",
+       "title": "Hurricane Simon, storm Rachel leave 5 dead in western Mexico",
+       "url": "https://www.cbc.ca/news/world/hurricane-simon-rachel-mexico-california-9.7378373?cmp=rss",
        "official": false
       }
      ]
@@ -1205,153 +661,185 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "86f0f3c96142",
-     "title": "UK Prime Minister Blames Iran for RAF Fairford Security Threat",
-     "summary": "UK Prime Minister Andy Burnham told parliament that Iran's Revolutionary Guards were 'highly likely' behind a security threat at RAF Fairford that forced the temporary withdrawal of US Air Force B-1 bombers.",
+     "id": "0e858aff43c3",
+     "title": "Four Dead Including Two Children in Waterford House Fire",
+     "summary": "A severe house fire in Waterford resulted in four fatalities, including two adults and two children, while leaving two other children in critical condition.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-12T19:02:00Z",
-     "outlet_count": 6,
+     "published": "2026-10-13T10:40:48Z",
+     "outlet_count": 4,
      "sources": [
       {
        "outlet": "RTÉ News (Ireland)",
-       "title": "UK PM says Iran Guards likely behind airbase incident",
-       "url": "https://www.rte.ie/news/2026/1012/1595036-burnham-urges-mps-to-back-closer-eu-ties-after-brexit/",
+       "title": "Two adults and two children die in Waterford house fire",
+       "url": "https://www.rte.ie/news/ireland/2026/1013/1595160-fire-waterford-city/",
        "official": false
       },
       {
-       "outlet": "CNA: World (Singapore)",
-       "title": "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident",
-       "url": "https://www.channelnewsasia.com/world/uk-fairford-incident-iran-involvement-andy-burnham-6453551",
+       "outlet": "Sky News: World",
+       "title": "Four dead after house fire and two children 'critical' in hospital",
+       "url": "https://news.sky.com/story/number-of-people-dead-after-house-fire-in-waterford-13598691",
        "official": false
       },
       {
-       "outlet": "Politico Europe",
-       "title": "Burnham: Iran’s IRGC ‘highly likely’ to be behind RAF Fairford terror plot",
-       "url": "https://www.politico.eu/article/burnham-irans-irgc-highly-likely-behind-raf-fairford-terror-plot/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Four dead, including two children, and two others critically injured in Waterford house fire",
+       "url": "https://www.thejournal.ie/house-fire-waterford-city-dead-7191227-Oct2026/",
        "official": false
       },
       {
-       "outlet": "The Guardian: World",
-       "title": "Iran’s Revolutionary Guards ‘almost certainly’ behind RAF Fairford threats, says Burnham",
-       "url": "https://www.theguardian.com/uk-news/2026/oct/12/iran-revolutionary-guards-irgc-raf-fairford-threats",
-       "official": false
-      },
-      {
-       "outlet": "South China Morning Post",
-       "title": "UK PM Burnham says Iran’s IRGC ‘highly likely’ to have been behind RAF Fairford incident",
-       "url": "https://www.scmp.com/news/world/europe/article/3370646/uk-pm-burnham-says-irans-irgc-highly-likely-have-been-behind-raf-fairford-incident?utm_source=rss_feed",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
-       "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-all-1573-rdf",
+       "outlet": "BBC News: UK",
+       "title": "Two children among four dead after Waterford house fire",
+       "url": "https://www.bbc.co.uk/news/articles/cq073814llkjo?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "5de8e508f8b8",
-     "title": "Two Arrested in Germany Following Arson Attack on Polish Starlink Station",
-     "summary": "German authorities arrested two Turkish citizens connected to a late-September arson fire at a critical Starlink ground station in Poland that supports Ukrainian communications.",
-     "importance": 4,
+     "id": "83a74dd24241",
+     "title": "Greta Thunberg Joins French High School Student Protests",
+     "summary": "Climate activist Greta Thunberg joined French high school and university students protesting nationwide against dilapidated school facilities, overcrowded schedules, and absent teachers.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-12T19:49:18Z",
-     "outlet_count": 3,
+     "published": "2026-10-13T10:43:59Z",
+     "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month",
-       "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Tusk: Arrests in Germany after fire at Starlink station",
-       "url": "https://orf.at/stories/3444884/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Tusk: Festnahmen in Deutschland nach Brand an Starlink-Station"
-      },
-      {
-       "outlet": "Tagesschau (Germany)",
-       "title": "Fire at Starlink Station in Poland",
-       "url": "https://www.tagesschau.de/ausland/polen-starlink-brand-festnahmen-100.html",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Brand in Starlink-Station in Polen"
-      }
-     ]
-    },
-    {
-     "id": "1218a35da53f",
-     "title": "Russian Drone Attack on Kyiv Apartment Building Leaves Casualties",
-     "summary": "A Russian drone strike hit a multi-story residential building in Kyiv, causing fatalities, injuries, and significant structural damage between the upper floors.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-12T18:33:02Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Russian drone attack: Two dead and injured in Kyiv",
-       "url": "https://orf.at/stories/3444885/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Russischer Drohnenangriff: Zwei Tote und Verletzte in Kiew"
-      },
-      {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Russian drone hits apartment block in Kyiv: two killed, several injured",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/12/8057686/",
+       "outlet": "France 24: Europe",
+       "title": "Live: Greta Thunberg joins French students on new day of nationwide protests",
+       "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
        "official": false
       },
       {
        "outlet": "Le Monde (France)",
-       "title": "LIVE, war in Ukraine: a Russian drone attack on a building in Kyiv leaves one dead and eleven injured",
-       "url": "https://www.lemonde.fr/international/live/2026/10/12/en-direct-guerre-en-ukraine-a-kiev-une-attaque-de-drone-russe-contre-un-immeuble-fait-un-mort-et-onze-blesses_6791198_3210.html",
+       "title": "LIVE, high school student movement: 90% of universities 'blocked' or 'closed', according to Student Union. Follow the day of mobilization live",
+       "url": "https://www.lemonde.fr/societe/live/2026/10/13/en-direct-mouvement-lyceen-de-guingamp-a-paris-des-premiers-etablissements-sont-bloques-pour-cette-nouvelle-journee-de-mobilisation-des-lyceens_6793059_3224.html",
        "official": false,
        "translated_from": "fr",
-       "original_title": "EN DIRECT, guerre en Ukraine : à Kiev, une attaque de drone russe contre un immeuble fait un mort et onze blessés"
+       "original_title": "EN DIRECT, mouvement lycéen : 90 % des universités sont « bloquées » ou « fermées », selon l’Union étudiante. Suivez la journée de mobilisation en direct"
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Activist Greta Thunberg joins French student protests",
+       "url": "https://www.aljazeera.com/news/2026/10/13/activist-greta-thunberg-joins-french-student-protests?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Greta Thunberg joins French teens on new day of school protests",
+       "url": "https://www.straitstimes.com/world/europe/greta-thunberg-joins-french-teens-on-new-day-of-school-protests",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "'Our future is being robbed': Greta Thunberg joins France student protests against school conditions",
+       "url": "https://www.euronews.com/2026/10/13/our-future-is-being-robbed-greta-thunberg-joins-france-student-protests-against-school-con",
+       "official": false
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "High school student mobilization: Student Union claims \"90%\" of universities \"blocked or closed\" this Tuesday, ministry records 35% of institutions disrupted",
+       "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-mobilisation-lyceenne-les-lyceens-de-nouveau-dans-la-rue-pour-un-acte-5-du-mouvement_8234260.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Mobilisation lycéenne : l'Union étudiante revendique \"90%\" des facultés \"bloquées ou fermées\" ce mardi, le ministère recense 35% d'établissements perturbés"
       }
      ]
     },
     {
-     "id": "c251d770dd03",
-     "title": "Zelenskyy Comments on Proposed US 'Energy Ceasefire' Amid Continued Infrastructure Attacks",
-     "summary": "Ukrainian President Volodymyr Zelenskyy stated that he learned of a proposed US 'energy ceasefire' through media reports while Russian strikes on electrical infrastructure continued into the winter.",
+     "id": "2e2ec50acaf7",
+     "title": "Zelenskyy States Kyiv Received No Advance Warning of Russian Ballistic Strike",
+     "summary": "Ukrainian President Volodymyr Zelenskyy lamented that international partners failed to provide any advance warning prior to a nocturnal Russian ballistic missile attack on Kyiv.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-12T15:51:30Z",
+     "published": "2026-10-13T10:48:24Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "BBC News: Europe",
-       "title": "Watch: What's behind Trump's energy ceasefire claim?",
-       "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Zelenskyy: No warning from partners about Russian ballistic strike on Kyiv",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/13/8057785/",
        "official": false
       },
       {
-       "outlet": "CBC News: World",
-       "title": "Zelenskyy says Russia violating Trump's 'energy ceasefire' as attacks on Ukraine continue",
-       "url": "https://www.cbc.ca/news/world/zelenskyy-russia-violating-energy-ceasefire-9.7377881?cmp=rss",
+       "outlet": "Le Monde (France)",
+       "title": "LIVE, war in Ukraine: Kyiv did not receive \"any warning from its partners\" before the nocturnal Russian attack on the Ukrainian capital, Volodymyr Zelenskyy laments",
+       "url": "https://www.lemonde.fr/international/live/2026/10/13/en-direct-guerre-en-ukraine-kiev-n-a-pas-recu-d-avertissement-de-la-part-de-ses-partenaires-avant-l-attaque-russe-nocturne-sur-la-capitale-ukrainienne-deplore-volodymyr-zelensky_6791198_3210.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "EN DIRECT, guerre en Ukraine : Kiev n’a pas reçu « d’avertissement de la part de ses partenaires » avant l’attaque russe nocturne sur la capitale ukrainienne, déplore Volodymyr Zelensky"
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Zelenskyy: Partners did not warn of Russian attack",
+       "url": "https://orf.at/stories/3444947/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Selenskyj: Partner warnten nicht vor russischem Angriff"
+      }
+     ]
+    },
+    {
+     "id": "6dcaa3506823",
+     "title": "Pope Leo XIV Undergoes Successful Lung Surgery in Rome",
+     "summary": "Pope Leo XIV was admitted to a Rome hospital where he underwent scheduled surgery to treat a lung nodule.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Europe",
+     "published": "2026-10-13T10:26:27Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "France 24: Europe",
+       "title": "Pope Leo to enter hospital on Tuesday for surgery on lung nodule this week",
+       "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Pope Leo in Rome hospital for lung surgery",
+       "url": "https://www.dw.com/en/pope-leo-in-rome-hospital-for-lung-surgery/a-79647264?maca=en-rss-en-all-1573-rdf",
        "official": false
       },
       {
        "outlet": "France 24: Europe",
-       "title": "Ukraine: Zelensky says learned of Trump's 'energy ceasefire' through media",
-       "url": "https://www.france24.com/en/ukraine-zelensky-says-learned-of-trump-s-energy-ceasefire-through-media",
+       "title": "Pope Leo XIV admitted to hospital for lung surgery",
+       "url": "https://www.france24.com/en/pope-leo-xiv-admitted-to-hospital-for-lung-surgery",
        "official": false
       },
       {
-       "outlet": "BBC News: World",
-       "title": "Watch: What could Trump's energy ceasefire mean for Ukraine?",
-       "url": "https://www.bbc.co.uk/news/videos/crd9321ygqw8o?at_medium=RSS&at_campaign=rss",
+       "outlet": "Tagesschau (Germany)",
+       "title": "Pope Leo XIV undergoes lung surgery",
+       "url": "https://www.tagesschau.de/video/video-1665348.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Papst Leo XIV. unterzieht sich Lungenoperation"
+      }
+     ]
+    },
+    {
+     "id": "d91e55c3d9a6",
+     "title": "Swedish Center-Left Leader Magdalena Andersson Struggles to Form Coalition",
+     "summary": "Swedish opposition leader Magdalena Andersson has faced continued difficulties forming a governing coalition after her center-left bloc narrowly defeated the outgoing right-wing government.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-13T10:49:30Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Sweden's Andersson says she is still unable to form a government",
+       "url": "https://www.straitstimes.com/world/europe/swedens-andersson-says-she-is-still-unable-to-form-a-government",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Sweden's centre-left leader Magdalena Andersson again fails to form government",
+       "url": "https://www.euronews.com/2026/10/13/swedens-centre-left-leader-magdalena-andersson-again-fails-to-form-government",
        "official": false
       }
      ]
@@ -1362,61 +850,37 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "60039b4ae71f",
-     "title": "Japan Faces Growing Calls to Establish LNG Safety Net and Revise Foreign Worker Quotas",
-     "summary": "Economic analysts and policymakers in Japan are urging the creation of a robust liquefied natural gas safety net ahead of future energy crises while addressing strains in the foreign worker quota system.",
+     "id": "b4cc6f796c74",
+     "title": "Japan's Omron to Acquire US-Based OnLogic for $675 Million",
+     "summary": "Omron has agreed to purchase US industrial computer maker OnLogic for $675 million to accelerate its expansion into physical artificial intelligence applications.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Japan",
-     "published": "2026-10-12T20:11:10Z",
+     "published": "2026-10-13T11:00:58Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan needs to build an LNG safety net for the next energy crisis",
-       "url": "https://asia.nikkei.com/opinion/japan-needs-to-build-an-lng-safety-net-for-the-next-energy-crisis",
-       "official": false
-      },
-      {
-       "outlet": "Nikkei Asia",
-       "title": "Japan's foreign worker system strains as officials shift quotas",
-       "url": "https://asia.nikkei.com/spotlight/japan-immigration/japan-s-foreign-worker-system-strains-as-officials-shift-quotas",
+       "title": "Japan's Omron to buy US-based OnLogic for $675m in physical AI push",
+       "url": "https://asia.nikkei.com/business/business-deals/japan-s-omron-to-buy-us-based-onlogic-for-675m-in-physical-ai-push",
        "official": false
       }
      ]
     },
     {
-     "id": "42e24d31c5dc",
-     "title": "Former Japanese PM Kishida Urges ASEAN Engagement with Myanmar",
-     "summary": "Former Japanese Prime Minister Fumio Kishida stated that Japan should actively assist ASEAN in bringing Myanmar back into diplomatic alignment and stabilizing the region.",
+     "id": "030b39b77494",
+     "title": "Japan-Controlled Tankers Resume Middle East Routes After Months",
+     "summary": "Risk-averse Japanese shipowners and refiners have cautiously restarted sending tankers back into Persian Gulf transit routes after months of conflict-related avoidance.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-12T20:11:10Z",
+     "published": "2026-10-13T10:38:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Nikkei Asia",
-       "title": "Japan should help ASEAN bring Myanmar back into fold: Kishida",
-       "url": "https://asia.nikkei.com/editor-s-picks/interview/japan-should-help-asean-bring-myanmar-back-into-fold-kishida",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "5bcabd6ab2b6",
-     "title": "South Korea's HiteJinro to Brew Kirin Beer Domestically",
-     "summary": "South Korean beverage maker HiteJinro has reached an agreement to produce Japanese peer Kirin's beer locally for the domestic market.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-12T20:11:10Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Nikkei Asia",
-       "title": "South Korea's HiteJinro to make Japanese peer Kirin's beer at home",
-       "url": "https://asia.nikkei.com/business/food-beverage/south-korea-s-hitejinro-to-make-japanese-peer-kirin-s-beer-at-home",
+       "outlet": "The Japan Times",
+       "title": "Japan-controlled tankers return to Middle East after months away",
+       "url": "https://www.japantimes.co.jp/business/2026/10/13/japan-crude-oil-tankers-middle-east/",
        "official": false
       }
      ]
@@ -1427,97 +891,109 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "0f949cd219ac",
-     "title": "US Army Receives First South Korean-Made Hanwha Mobile Howitzer",
-     "summary": "The U.S. Army has accepted delivery of its first South Korean-manufactured Mobile Tactical Cannon howitzer system built by Hanwha to modernize its aging artillery fleet.",
+     "id": "2b8ecc8e63c9",
+     "title": "Stabbing Spree at Incheon Supermarket Leaves Eight Injured",
+     "summary": "A suspect in his sixties went on a stabbing spree inside an Incheon supermarket building, leaving one victim in cardiac arrest and seven others wounded before police detained him.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-12T20:07:03Z",
-     "outlet_count": 2,
+     "published": "2026-10-13T10:57:03Z",
+     "outlet_count": 3,
      "sources": [
       {
+       "outlet": "KBS World",
+       "title": "8 Wounded in Stabbing Spree in Incheon; Suspect Detained",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204838",
+       "official": false
+      },
+      {
        "outlet": "Yonhap News",
-       "title": "U.S. Army receives 1st Hanwha-made mobile howitzer system: report",
-       "url": "https://en.yna.co.kr/view/AEN20261012010000315",
+       "title": "(LEAD) 1 in cardiac arrest, 7 injured in knife attack in Incheon",
+       "url": "https://en.yna.co.kr/view/AEN20261013008251315",
        "official": false
       },
       {
        "outlet": "The Korea Times",
-       "title": "US Army receives 1st Hanwha-made mobile howitzer system: report",
-       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261013/us-army-receives-1st-hanwha-made-mobile-howitzer-system-report?utm_source=rss",
+       "title": "8 injured in Incheon knife attack",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261013/1-in-cardiac-arrest-7-injured-in-knife-attack-in-incheon?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "f14509098b19",
-     "title": "South Korean Rights Watchdog Plans Apology Over Impeachment Defense Recommendation",
-     "summary": "South Africa's state human rights watchdog announced a public apology and reversal of an earlier resolution that recommended guaranteeing former President Yoon Suk Yeol's right to defense during his impeachment trial.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-12T13:18:32Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "Rights watchdog to offer public apology over recommendation on Yoon's right to defense",
-       "url": "https://en.yna.co.kr/view/AEN20261012009300320",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Rights watchdog scraps recommendation on Yoon's right to defense, plans apology",
-       "url": "https://www.koreaherald.com/article/10900178",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "206d535084db",
-     "title": "South Korean Nationals Arrested in Nepal Over Tourist Visa Religious Program Violations",
-     "summary": "Local Nepalese authorities arrested 24 South Korean tourists for participating in a localized religious program while visiting the country on tourist visas.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-12T12:55:39Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "KBS World",
-       "title": "24 S. Koreans Arrested in Nepal after Taking Part in Religious Program on Tourist Visas",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204810",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "24 S. Koreans on tourist visas nabbed in Nepal over religious program",
-       "url": "https://www.koreaherald.com/article/10900170",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "30b0e4ccecc8",
-     "title": "North Korea Fires Two Ballistic Missiles as US, Japan, and South Korea Reaffirm Denuclearization",
-     "summary": "U.S. Pacific Command reported that North Korea fired two ballistic missiles, prompting high-level diplomatic talks where the U.S., Japan, and South Korea reaffirmed their commitment to complete denuclearization.",
+     "id": "433e19a6cfec",
+     "title": "Two Students Caught Cheating with AI Glasses During College Entrance Exams",
+     "summary": "South Korean education authorities reported that two applicants were caught using prohibited artificial intelligence glasses to cheat during college entrance examinations in Seoul.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-12T18:11:13Z",
+     "published": "2026-10-13T10:57:03Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yonhap News",
-       "title": "U.S., Japan reaffirm commitment to complete denuclearization of N. Korea in high-level talks",
-       "url": "https://en.yna.co.kr/view/AEN20261013000300315",
+       "outlet": "The Korea Times",
+       "title": "2 caught cheating using AI glasses during college entrance exams",
+       "url": "https://www.koreatimes.co.kr/southkorea/society/20261013/2-caught-cheating-using-ai-glasses-during-college-entrance-exams?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2531e1d77fdb",
+     "title": "Seoul Forms Task Force to Prepare for Potential Lee-Trump Golf Meeting",
+     "summary": "The South Korean presidential office has established a working-level task force to prepare for a possible golf outing between President Lee Jae Myung and U.S. President Donald Trump.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-13T09:22:52Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Seoul sets up team for Lee-Trump golf outing",
+       "url": "https://www.koreaherald.com/article/10901457",
        "official": false
       },
       {
        "outlet": "Yonhap News",
-       "title": "U.S. Pacific Command says N. Korea fired 2 ballistic missiles, reaffirms defense commitment",
-       "url": "https://en.yna.co.kr/view/AEN20261013000400315",
+       "title": "Presidential office forms task force for potential Lee-Trump golf outing",
+       "url": "https://en.yna.co.kr/view/AEN20261013010500315",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Top Office Launches Preparations for Possible Golf Meeting between Lee, Trump",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204839",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "908299a812f8",
+     "title": "North Korea Test-Fires Tactical Ballistic Missile Following Landmine Blasts",
+     "summary": "State media reported that North Korea successfully test-fired a new tactical ballistic missile following cross-border tensions surrounding landmine explosions near the DMZ.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-13T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Rival parties spar over adoption of resolution condemning N. Korea for DMZ mine blast",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261013/rival-parties-spar-over-adoption-of-resolution-condemning-n-korea-for-dmz-mine-blast?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "N. Korea reports test-firing of 'tactical' ballistic missile to improve weapons systems",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261013/n-korea-reports-test-firing-of-tactical-ballistic-missile-to-improve-weapons-systems?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "US Pacific Command says N. Korea fired 2 ballistic missiles, reaffirms defense commitment",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261013/us-pacific-command-says-n-korea-fired-2-ballistic-missiles-reaffirms-defense-commitment?utm_source=rss",
        "official": false
       }
      ]
@@ -1526,182 +1002,18 @@
   },
   {
    "name": "Deals",
-   "stories": [
-    {
-     "id": "8c90131863ec",
-     "title": "Turbo Overkill on GOG",
-     "summary": "Turbo Overkill is currently discounted to $5.99 on GOG.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T19:57:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Turbo Overkill is $5.99 on GOG buff.ly/IZyKa5j #ad Xbox buff.ly/SzdXCM2",
-       "url": "https://buff.ly/IZyKa5j",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "07940b03462b",
-     "title": "Rome: The Complete Series on Apple TV",
-     "summary": "Rome: The Complete Series in HD Digital is available for $9.99 on Apple TV.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T19:43:56Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Rome: The Complete Series (HD Digital) is $9.99 on Apple TV buff.ly/9LM9qJM #ad",
-       "url": "https://buff.ly/9LM9qJM",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "eaec2290e868",
-     "title": "Severed on US Nintendo eShop",
-     "summary": "Severed is marked down to $3.74 on the US Nintendo eShop.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T19:25:36Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Severed is $3.74 on US eShop buff.ly/PMJ1ltj",
-       "url": "https://buff.ly/PMJ1ltj",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e289a6d8416f",
-     "title": "Mafia: The Old Country Across Platforms",
-     "summary": "Mafia: The Old Country is discounted to $25.99 on Steam and $29.99 on PSN, Xbox, and Amazon.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T18:46:56Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Mafia: The Old Country (Steam) is $25.99 on Fanatical buff.ly/bPFSN0S #ad $29.99 US PSN buff.ly/MOm2eA1 $29.99 Xbox buff.ly/j9ux3Ai $29.99 PS5 Amazon buff.ly/V2CRRSp",
-       "url": "https://buff.ly/bPFSN0S",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9403992892c0",
-     "title": "Onimusha: Dawn of Dreams on US PSN",
-     "summary": "Onimusha: Dawn of Dreams is on sale for $4.99 on US PSN.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T18:26:21Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Onimusha: Dawn of Dreams is $4.99 on US PSN buff.ly/LLEnc3h",
-       "url": "https://buff.ly/LLEnc3h",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "239c020b091d",
-     "title": "Roboquest on GOG and PlayStation",
-     "summary": "Roboquest is available for $14.99 on GOG and $12.49 for US PlayStation Plus subscribers.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T18:15:56Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Roboquest is $14.99 on GOG buff.ly/8k2dG1i #ad $12.49 US PS+ buff.ly/gUn5vCt",
-       "url": "https://buff.ly/8k2dG1i",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "a2c859446129",
-     "title": "Humble Capcom Classics Bundle",
-     "summary": "The Humble Capcom Classics Bundle features Dino Crisis 2 and five other games for $20 total.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T17:42:24Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Dino Crisis 2 (Steam) w/ 5 more games is $20 on Humble Capcom Classics Bundle buff.ly/HImAiHG (GOG or Steam) $4.73 Gamesplanet buff.ly/RBbLuMJ #ad",
-       "url": "https://buff.ly/HImAiHG",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "21798c435e0d",
-     "title": "Halo: The Master Chief Collection on Steam and Xbox",
-     "summary": "Halo: The Master Chief Collection is discounted to $9.99 on both Steam and Xbox marketplaces.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-12T17:05:08Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Halo: The Master Chief Collection is $9.99 on Steam buff.ly/yaqBHoO Xbox buff.ly/oaZb92v",
-       "url": "https://buff.ly/yaqBHoO",
-       "official": false
-      }
-     ]
-    }
-   ]
+   "stories": []
   }
  ],
- "date": "2026-10-12",
- "generated_at": "2026-10-12T20:11:10Z",
+ "date": "2026-10-13",
+ "generated_at": "2026-10-13T11:00:58Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1111,
-  "clusters": 942,
-  "feeds_ok": 173,
-  "feeds_failed": 3
+  "items": 956,
+  "clusters": 856,
+  "feeds_ok": 176,
+  "feeds_failed": 0
  },
- "feed_health": [
-  {
-   "key": "hn-claude",
-   "title": "HN: Claude/Anthropic",
-   "status": "error",
-   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=Claude+OR+Anthropic&points=50"
-  },
-  {
-   "key": "helsinkitimes",
-   "title": "Helsinki Times (Finland)",
-   "status": "error",
-   "detail": "ValueError: unparseable feed: <unknown>:2:141: not well-formed (invalid token)"
-  },
-  {
-   "key": "cphpost",
-   "title": "The Copenhagen Post (Denmark)",
-   "status": "error",
-   "detail": "ValueError: unparseable feed: <unknown>:2:119: not well-formed (invalid token)"
-  }
- ]
+ "feed_health": []
 }
