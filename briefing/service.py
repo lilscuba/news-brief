@@ -66,6 +66,9 @@ def _story(c: Cluster, summary: str | None = None) -> dict:
         if it.original_title:
             src["translatedFrom"] = it.feed.lang
             src["originalTitle"] = it.original_title
+        if it.image:
+            # Per source, so a phone that turned this outlet off shows another outlet's picture.
+            src["image"] = it.image
         sources.append(src)
     return {
         "id": story_id(c),

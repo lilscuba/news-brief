@@ -54,6 +54,20 @@ def test_bluesky_keeps_news_and_drops_chatter():
     assert items[0].published.isoformat() == "2026-10-01T11:00:00+00:00"
 
 
+def test_bluesky_post_pictures():
+    card = post("NEW: Studio X lays off 200 people", link="https://www.bloomberg.com/x")
+    card["post"]["embed"]["external"]["thumb"] = "https://cdn.bsky.app/img/feed_thumbnail/card.jpg"
+    photo = post("BREAKING: first look at the new handheld")
+    photo["post"]["embed"] = {"$type": "app.bsky.embed.recordWithMedia#view", "media": {
+        "$type": "app.bsky.embed.images#view",
+        "images": [{"thumb": "https://cdn.bsky.app/img/feed_thumbnail/photo.jpg"}]}}
+    poll = post("BREAKING: vote in my poll", link="https://forms.gle/abc")
+    poll["post"]["embed"]["external"]["thumb"] = "https://cdn.bsky.app/img/feed_thumbnail/poll.jpg"
+    items = bluesky.parse_author_feed(BSKY, {"feed": [card, photo, poll]}, NOW)
+    assert [it.image for it in items] == ["https://cdn.bsky.app/img/feed_thumbnail/card.jpg",
+                                          "https://cdn.bsky.app/img/feed_thumbnail/photo.jpg", None]
+
+
 @pytest.mark.parametrize("titles,official,trusted,expected", [
     (["Keeper is $13.99 on Steam"], False, False, "DEAL"),
     (["CrossCode 75% off this week"], False, False, "DEAL"),

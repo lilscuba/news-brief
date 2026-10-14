@@ -41,6 +41,18 @@ def test_build_feed_shape_and_ignores_personal_boosts():
     assert out["watchlist"][0]["name"] == "Gemini launch"
 
 
+def test_build_feed_gives_each_source_its_picture():
+    deepmind, verge = feed("deepmind", "AI", official=True), feed("verge")
+    blog = item(deepmind, "Gemini 4 Argon: our next era of frontier intelligence")
+    news = item(verge, "Gemini 4 Argon is Google's next era of frontier intelligence")
+    news.image = "https://cdn.example/argon.jpg"
+    results = [FetchResult(deepmind, [blog]), FetchResult(verge, [news])]
+    out = service.build_feed(results, [deepmind, verge], FULL_CFG, NOW)
+    [story] = out["stories"]
+    assert [s.get("image") for s in story["sources"]] == [None, "https://cdn.example/argon.jpg"]
+    assert "image" not in story["sources"][0]  # omitted, not null, so the feed stays small
+
+
 def test_alert_candidates_only_include_clusters_with_new_items():
     vgc, ign, openai = feed("vgc", trusted=True), feed("ign"), feed("openai", official=True, alert_mode="all")
     old = item(vgc, "Nintendo Direct announced for tomorrow", minutes_ago=200)

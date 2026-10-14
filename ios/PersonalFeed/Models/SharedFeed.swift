@@ -38,6 +38,9 @@ struct FeedSource: Codable, Hashable, Sendable {
     /// Language code (e.g. "de") when the headline was machine-translated at ingest.
     var translatedFrom: String?
     var originalTitle: String?
+    /// The article's picture. A string, not a URL: one malformed link from a feed must not stop
+    /// the whole feed from decoding.
+    var image: String?
 }
 
 /// One entry in the source catalog, used by the source pickers.

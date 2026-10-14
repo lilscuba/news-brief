@@ -35,6 +35,7 @@ class Item:
     alt_urls: list[str] = field(default_factory=list)
     hn_points: int | None = None
     original_title: str | None = None  # set when title/summary were machine-translated
+    image: str | None = None  # https URL of the article's picture, for the app's feed cards
 
     @property
     def outlet(self) -> str:
