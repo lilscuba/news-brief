@@ -39,15 +39,34 @@ struct StoryImage: View {
             }
             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
             .accessibilityHidden(true)
+            .onAppear {
+                // Back on screen: the picture is usually still in ImageLoader's memory cache.
+                if image == nil { image = ImageLoader.shared.cached(url) }
+            }
+            // Off screen only the cache holds the picture, so its memory limit applies. A List
+            // keeps every row's state, so holding it here would keep every picture ever scrolled past.
+            .onDisappear { image = nil }
             .task(id: url) {
-                guard image == nil, !failed else { return }
-                do {
-                    let loaded = try await ImageLoader.shared.image(for: url)
-                    withAnimation(.easeOut(duration: 0.2)) { image = loaded }
-                } catch {
-                    // Scrolled away before it arrived: try again when it's back on screen.
-                    if !Task.isCancelled { failed = true }
+                // Also runs when the story's picture changes, so the old one never lingers.
+                image = ImageLoader.shared.cached(url)
+                var wait = 2.0
+                while image == nil, !Task.isCancelled, ImageLoader.shared.canLoad(url) {
+                    do {
+                        let loaded = try await ImageLoader.shared.image(for: url)
+                        withAnimation(.easeOut(duration: 0.2)) {
+                            image = loaded
+                            failed = false
+                        }
+                    } catch {
+                        // Scrolled away before it arrived: it loads again when back on screen.
+                        if Task.isCancelled { return }
+                        // Offline, a timeout or a busy server: keep trying while it's on screen.
+                        failed = true
+                        try? await Task.sleep(for: .seconds(wait))
+                        wait = min(wait * 3, 60)
+                    }
                 }
+                if image == nil, !Task.isCancelled { failed = true }
             }
     }
 }

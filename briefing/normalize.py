@@ -24,7 +24,7 @@ _SUFFIX_RE = re.compile(r"\s+[-|–—]\s+[^-|–—]{2,30}$")
 # Tracking pixels, avatars, emoji and share buttons that sit in feed HTML but aren't a story's picture.
 _NOT_A_PICTURE = re.compile(
     r"feedburner\.com|feedsportal|doubleclick|pixel\.wp\.com|stats\.wordpress|gravatar\.com|"
-    r"/emoji/|/smilies/|/share[-_]|\.svg(?:$|\?)", re.IGNORECASE)
+    r"/emoji/|/smilies/|/share[-_]|/tracking/|rss-pixel|\.svg(?:$|\?)", re.IGNORECASE)
 
 
 def canonical_url(url: str) -> str:
