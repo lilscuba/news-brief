@@ -1,337 +1,263 @@
 {
  "version": 1,
- "headline": "Pope Leo XIV undergoes surgery after lung cancer diagnosis as global tech and AI developments accelerate.",
+ "headline": "A former OpenAI employee was arrested for planting a recording device in company offices as labs race to deploy advanced autonomous agents and governments navigate infrastructure shifts.",
  "top": [
   {
-   "id": "f32375587a72",
-   "title": "Pope Leo XIV Diagnosed with Lung Cancer and Undergoes Surgery",
-   "summary": "Pope Leo XIV spent a peaceful night in the hospital following surgery for lung cancer, prompting prayers and well wishes from world leaders and Catholics globally.",
+   "id": "ef466c43d258",
+   "title": "FBI Arrests Former OpenAI Engineer for Allegedly Planting Listening Device",
+   "summary": "Federal authorities arrested Abdulrahman Alfozan, a former OpenAI engineer and Saudi national, after he allegedly planted a recording device inside the AI lab's executive conference room.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "US",
-   "published": "2026-10-14T10:24:33Z",
-   "outlet_count": 21,
+   "category": "Tech",
+   "published": "2026-10-14T15:35:28Z",
+   "outlet_count": 7,
    "sources": [
     {
-     "outlet": "Sky News: World",
-     "title": "Cancer found after Pope had part of his lung removed during 'successful' surgery",
-     "url": "https://news.sky.com/story/popes-lung-surgery-was-successful-and-went-as-planned-vatican-says-13598965",
+     "outlet": "PC Gamer",
+     "title": "OpenAI employee arrested for allegedly using AI and toilet paper to record confidential meetings - FBI director Kash Patel jumps at the chance to say AI companies are 'essential' for national security",
+     "url": "https://www.pcgamer.com/software/security/openai-employee-arrested-for-allegedly-using-ai-and-toilet-paper-to-record-confidential-meetings-fbi-director-kash-patel-jumps-at-the-chance-to-say-ai-companies-are-essential-for-national-security/",
      "official": false
     },
     {
-     "outlet": "Axios",
-     "title": "Pope Leo diagnosed with lung cancer",
-     "url": "https://www.axios.com/2026/10/13/pope-leo-lung-nodule-surgery-successful",
-     "official": false
-    },
-    {
-     "outlet": "The Daily Caller",
-     "title": "Pope Diagnosed With Lung Cancer Following Surgery, Vatican Says",
-     "url": "https://dailycaller.com/2026/10/13/pope-leo-diagnosed-lung-cancer-surgery-vatica",
-     "official": false
-    },
-    {
-     "outlet": "Straight Arrow News",
-     "title": "Pope Leo XIV diagnosed with cancer, undergoes successful lung surgery",
-     "url": "https://san.com/cc/pope-leo-xiv-diagnosed-with-cancer-undergoes-successful-lung-surgery/",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "Pope Leo has cancerous growth removed in lung operation",
-     "url": "https://www.france24.com/en/pope-leo-has-cancerous-growth-removed-in-lung-operation",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Pope Leo diagnosed with cancer as doctors remove part of lung, Vatican says",
-     "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-operation-hospital-vatican-6457201",
-     "official": false
-    },
-    {
-     "outlet": "PBS NewsHour",
-     "title": "What we know about Pope Leo's lung cancer and prognosis",
-     "url": "https://www.pbs.org/newshour/show/what-we-know-about-pope-leos-lung-cancer-and-prognosis",
-     "official": false
-    },
-    {
-     "outlet": "MercoPress (South Atlantic)",
-     "title": "Pope Leo XIV has lung cancer and underwent successful surgery, Vatican says",
-     "url": "https://en.mercopress.com/2026/10/13/pope-leo-xiv-has-lung-cancer-and-underwent-successful-surgery-vatican-says?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "TheBlaze",
-     "title": "Pope Leo has cancer, Vatican says",
-     "url": "https://www.theblaze.com/news/pope-leo-lung-cancer-vatican",
-     "official": false
-    },
-    {
-     "outlet": "Helsinki Times (Finland)",
-     "title": "Pope Leo diagnosed with lung cancer after surgery",
-     "url": "https://www.helsinkitimes.fi/world-int/29386-pope-leo-diagnosed-with-lung-cancer-after-surgery.html",
+     "outlet": "The Decoder",
+     "title": "Alleged OpenAI spy vibe-coded a surveillance device using his wife's chatbot account",
+     "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
      "official": false
     },
     {
      "outlet": "CBS News",
-     "title": "Doctors discuss Pope Leo's lung cancer diagnosis",
-     "url": "https://www.cbsnews.com/video/doctors-discuss-pope-leo-lung-cancer-diagnosis/",
+     "title": "FBI arrests OpenAI engineer for allegedly planting bug in office",
+     "url": "https://www.cbsnews.com/video/fbi-arrests-openai-engineer-for-allegedly-planting-bug-in-office/",
      "official": false
     },
     {
-     "outlet": "France 24: Europe",
-     "title": "What we know about Pope Leo XIV's lung cancer diagnosis",
-     "url": "https://www.france24.com/en/europe/20261014-what-we-know-about-pope-leo-xiv-s-lung-cancer-operation",
+     "outlet": "Al Jazeera",
+     "title": "Saudi national charged with planting a listening device at OpenAI offices",
+     "url": "https://www.aljazeera.com/news/2026/10/14/saudi-national-charged-with-planting-a-listening-device-at-openai-offices?traffic_source=rss",
      "official": false
     },
     {
-     "outlet": "RTÉ News (Ireland)",
-     "title": "Pope Leo recovering after lung cancer operation",
-     "url": "https://www.rte.ie/news/world/2026/1014/1595308-pope-leo-cancer/",
+     "outlet": "Techmeme",
+     "title": "A profile of Abdulrahman Alfozan, a Saudi national who the FBI arrested after OpenAI discovered a recording device and who has deep connections in Saudi Arabia (Financial Times)",
+     "url": "https://www.techmeme.com/261014/p29#a261014p29",
      "official": false
     },
     {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Pope Leo recovering after lung cancer operation",
-     "url": "https://www.channelnewsasia.com/world/pope-leo-recovering-lung-cancer-tumour-removal-operation-6457146",
+     "outlet": "Euronews",
+     "title": "FBI arrest Saudi OpenAI employee for allegedly planting recording device in office",
+     "url": "https://www.euronews.com/2026/10/14/fbi-arrest-saudi-openai-employee-for-allegedly-planting-recording-device-in-office",
      "official": false
     },
     {
-     "outlet": "TheJournal.ie (Ireland)",
-     "title": "Pope Leo passes 'calm' night after surgery to remove lung cancer tumour",
-     "url": "https://www.thejournal.ie/pope-leo-cancer-surgery-7192554-Oct2026/",
-     "official": false
-    },
-    {
-     "outlet": "Sky News: World",
-     "title": "Pope has 'peaceful night' after lung cancer surgery, says Vatican",
-     "url": "https://news.sky.com/story/pope-leo-has-peaceful-night-after-lung-cancer-surgery-says-vatican-13599141",
-     "official": false
-    },
-    {
-     "outlet": "NPR News",
-     "title": "Pope Leo has lung cancer, the Vatican says",
-     "url": "https://www.npr.org/2026/10/14/nx-s1-6000650/pope-leo-has-lung-cancer-the-vatican-says",
-     "official": false
-    },
-    {
-     "outlet": "BBC News: Latin America",
-     "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-     "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "What we know about Pope Leo's lung cancer diagnosis",
-     "url": "https://www.channelnewsasia.com/world/pope-leo-lung-cancer-diagnosis-hospital-vatican-6457486",
-     "official": false
-    },
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "Lung Cancer Diagnosed",
-     "url": "https://orf.at/stories/3445041/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Lungenkrebs diagnostiziert"
-    },
-    {
-     "outlet": "New York Times: World",
-     "title": "Pope Leo’s Cancer Diagnosis: What Happens Next",
-     "url": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
-     "official": false
-    },
-    {
-     "outlet": "ANSA English (Italy)",
-     "title": "Pope has peaceful night after lung cancer surgery",
-     "url": "https://www.ansa.it/english/news/2026/10/14/pope-has-peaceful-night-after-lung-cancer-surgery_11e7f997-ad14-4cee-8a38-f38e6ca62781.html",
-     "official": false
-    },
-    {
-     "outlet": "NBC News",
-     "title": "Pope Leo spends a peaceful night in the hospital after cancer surgery",
-     "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-cancer-surgery-hospital-diagnosis-treatment-rcna603413",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: US",
-     "title": "First Thing: Pope Leo recovering from surgery after lung cancer diagnosis",
-     "url": "https://www.theguardian.com/us-news/2026/oct/14/first-thing-pope-leo-surgery-lung-cancer",
-     "official": false
-    },
-    {
-     "outlet": "New York Times: World",
-     "title": "Leo XIV’s Lung Cancer Diagnosis Tests a Papacy Still Taking Shape",
-     "url": "https://www.nytimes.com/2026/10/13/world/europe/pope-leo-health-cancer.html",
-     "official": false
-    },
-    {
-     "outlet": "Yahoo News",
-     "title": "Pope Leo spends peaceful night in hospital after surgery for lung cancer",
-     "url": "https://www.yahoo.com/news/articles/pope-leo-spent-peaceful-night-070844535.html",
+     "outlet": "Washington Examiner",
+     "title": "FBI arrests Saudi OpenAI employee accused of bugging office: What to know",
+     "url": "https://www.washingtonexaminer.com/news/justice/4765252/fbi-arrest-saudi-openai-employee-bugging/",
      "official": false
     }
    ]
   },
   {
-   "id": "ba0f4e6f020f",
-   "title": "OpenAI Faces Arrest and Investigation Over Hidden Listening Device",
-   "summary": "An OpenAI employee was arrested and charged after allegedly hiding a sophisticated recording device in a conference room to eavesdrop on sensitive conversations.",
+   "id": "33ee252ddd26",
+   "title": "Anthropic Warns Small AI Models Could Self-Replicate via IoT Devices",
+   "summary": "Anthropic researchers warned that lightweight weight-based AI models could potentially self-replicate across Internet of Things devices, creating a new generation of autonomous computer worms.",
    "importance": 5,
-   "label": "RUMOR-CREDIBLE",
-   "category": "Europe",
-   "published": "2026-10-14T09:44:10Z",
-   "outlet_count": 7,
-   "sources": [
-    {
-     "outlet": "The Verge",
-     "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-     "official": false
-    },
-    {
-     "outlet": "TechCrunch",
-     "title": "FBI arrests OpenAI employee accused of planting hidden recording device in conference room",
-     "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/",
-     "official": false
-    },
-    {
-     "outlet": "CBC News: World",
-     "title": "OpenAI engineer arrested, accused of planting listening device inside company's office",
-     "url": "https://www.cbc.ca/news/world/open-ai-listening-device-fbi-9.7379357?cmp=rss",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "OpenAI says employee caught planting listening device",
-     "url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "OpenAI says it found a 'sophisticated recording device' hidden in its offices",
-     "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-     "official": false
-    },
-    {
-     "outlet": "Politico Europe",
-     "title": "OpenAI employee arrested and charged over hidden recording",
-     "url": "https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-     "official": false
-    },
-    {
-     "outlet": "SRF News (Switzerland)",
-     "title": "Explosive Discovery: Listening Device Found at OpenAI",
-     "url": "https://www.srf.ch/news/international/brisanter-fund-abhoergeraet-bei-open-ai-entdeckt-mitarbeiter-festgenommen",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Brisanter Fund – Abhörgerät bei Open-AI entdeckt"
-    }
-   ]
-  },
-  {
-   "id": "a4734ec8e1c0",
-   "title": "Nvidia Pledges $250 Million in Computing Resources to UK for AI Safety",
-   "summary": "Nvidia is donating $250 million worth of accelerated computing power over five years to support UK AI security and agentic safety research.",
-   "importance": 4,
    "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-14T10:10:37Z",
+   "category": "Tech",
+   "published": "2026-10-14T15:19:02Z",
    "outlet_count": 2,
    "sources": [
     {
-     "outlet": "Techmeme",
-     "title": "Jensen Huang says Nvidia is pledging $250M in accelerated computing resources over five years to fund UK AI security and agentic safety research (Reuters)",
-     "url": "https://www.techmeme.com/261014/p9#a261014p9",
+     "outlet": "Ars Technica",
+     "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+     "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
      "official": false
     },
     {
-     "outlet": "The Guardian: World",
-     "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
-     "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
+     "outlet": "The Verge",
+     "title": "Anthropic’s self-replicating AI warning is alarming deja vu",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk",
      "official": false
     }
    ]
   },
   {
-   "id": "39753e3b1006",
-   "title": "Ubisoft Shuts Down Trials Studio RedLynx and Lays Off Staff",
-   "summary": "Ubisoft is closing its RedLynx studio and laying off 70 employees from Ubisoft Singapore as part of ongoing downscaling.",
+   "id": "1f39721568af",
+   "title": "Netflix Cuts 6% of Global Workforce Amid Slowing Growth",
+   "summary": "Netflix co-CEOs announced that the company is laying off approximately 1,000 employees, or 6 percent of its global staff, primarily across product, tech, legal, and HR departments.",
    "importance": 4,
    "label": "REPORTED",
-   "category": "Gaming",
-   "published": "2026-10-14T10:45:00Z",
-   "outlet_count": 7,
+   "category": "Tech",
+   "published": "2026-10-14T15:12:58Z",
+   "outlet_count": 4,
    "sources": [
     {
-     "outlet": "GamesIndustry.biz",
-     "title": "Ubisoft closing Trials developer RedLynx and cutting jobs in Singapore studio",
-     "url": "https://www.gamesindustry.biz/ubisoft-closing-trials-developer-redlynx-and-cutting-jobs-in-singapore-studio",
-     "official": false
-    },
-    {
-     "outlet": "VGC",
-     "title": "Ubisoft is planning to shut down Trials studio RedLynx and lay off 70 Ubisoft Singapore staff",
-     "url": "https://www.videogameschronicle.com/news/ubisoft-is-planning-to-shut-down-trials-studio-redlynx-and-lay-off-70-ubisoft-singapore-staff/",
+     "outlet": "Techmeme",
+     "title": "Memo: Netflix is cutting 6% of its staff, or ~1,000 jobs globally across product, tech, legal, and HR, its biggest layoffs since 2022, amid slowing growth (Wall Street Journal)",
+     "url": "https://www.techmeme.com/261014/p19#a261014p19",
      "official": false
     },
     {
      "outlet": "IGN",
-     "title": "Ubisoft Cuts 70 Staff From Skull and Bones Dev, Shuts Down Trials Studio RedLynx",
-     "url": "https://www.ign.com/articles/ubisoft-cuts-70-staff-from-skull-and-bones-dev-shuts-down-trials-studio-redlynx",
+     "title": "Netflix Lays Off Over 1,000 People, Around 6% of the Workforce",
+     "url": "https://www.ign.com/articles/netflix-lays-off-over-1000-people",
      "official": false
     },
     {
-     "outlet": "Insider Gaming",
-     "title": "Ubisoft Closing RedLynx Studio & Downsizing Singapore Studio",
-     "url": "https://insider-gaming.com/ubisoft-closing-redlynx-studio-downsizing-singapore-studio/",
+     "outlet": "TechCrunch",
+     "title": "Netflix to lay off 1,000 staff amid intensifying competition for user attention",
+     "url": "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
      "official": false
     },
     {
-     "outlet": "Kotaku",
-     "title": "Ubisoft Is Closing Down Yet Another Studio, Possibly Ending A 25-Year Fan-Favorite Franchise",
-     "url": "https://kotaku.com/ubisoft-redlynx-trials-rising-fusion-singapore-layoffs-assassins-creed-2000745857",
-     "official": false
-    },
-    {
-     "outlet": "Rock Paper Shotgun",
-     "title": "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Trials creators Redlynx, according to report",
-     "url": "https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report",
-     "official": false
-    },
-    {
-     "outlet": "Nintendo Life",
-     "title": "RedLynx, The Studio Behind The Trials Series, Is Being Closed By Ubisoft",
-     "url": "https://www.nintendolife.com/news/2026/10/redlynx-the-studio-behind-the-trials-series-is-being-closed-by-ubisoft",
+     "outlet": "The Verge",
+     "title": "Netflix is laying off around 1,000 employees",
+     "url": "https://www.theverge.com/tech/1011058/netflix-layoff-six-percent-thousand-employees",
      "official": false
     }
    ]
   },
   {
-   "id": "dfac386b3b9a",
-   "title": "Ukrainian Drone Strikes Damage Russian Yandex Data Centers",
-   "summary": "Drone attacks by Ukraine severely damaged three of Yandex's six data centers, disrupting web crawlers and Russia's broader digital infrastructure.",
+   "id": "02b20a7cfe21",
+   "title": "Rockstar Insists Next Game Won't Take Another Eight Years as GTA 6 Development Costs and Delays Emerge",
+   "summary": "Rockstar developers say the technology and workforce built for Grand Theft Auto 6 will allow subsequent titles to release faster, while denying online rumors that the game's budget exceeded $1.5 billion.",
    "importance": 4,
    "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-14T10:30:00Z",
-   "outlet_count": 2,
+   "category": "Gaming",
+   "published": "2026-10-14T15:32:35Z",
+   "outlet_count": 8,
    "sources": [
     {
-     "outlet": "The Verge",
-     "title": "Russian bot farms are still trolling, even after Ukraine’s drone strikes on Yandex",
-     "url": "https://www.theverge.com/news/1010424/yandex-drone-strike-outage-disinformation-zelenskyy",
+     "outlet": "IGN",
+     "title": "GTA 6 Developer Rockstar Insists Its Next Game Won't Take Another 8 Years to Make",
+     "url": "https://www.ign.com/articles/gta-6-developer-rockstar-insists-its-next-game-wont-take-another-8-years-to-make",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "Ukraine's drone attacks severely damaged three of Yandex's six data centers, disrupting Russia's tech ecosystem, centered on one vast, state-aligned company (Financial Times)",
-     "url": "https://www.techmeme.com/261014/p5#a261014p5",
+     "outlet": "VGC",
+     "title": "Rockstar says its next game after Grand Theft Auto 6 won’t take another eight years to make",
+     "url": "https://www.videogameschronicle.com/news/rockstar-says-its-next-game-after-grand-theft-auto-6-wont-take-another-eight-years-to-make/",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "Ukraine's drone strikes on Yandex data centers disrupted Yandex's web crawlers, not Russian political bot operations, as Zelenskyy celebrated \"less division\" (Gaby Del Valle/The Verge)",
-     "url": "https://www.techmeme.com/261014/p11#a261014p11",
+     "outlet": "Eurogamer",
+     "title": "GTA 6 was originally Project Americas and covered \"big swaths\" of country's north and south, Rockstar reveals, in interview tackling crunch, delays, and leaks",
+     "url": "https://www.eurogamer.net/gta-6-project-americas-rockstar-crunch-delays-leaks",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "Rockstar Pushes Back on Rumor GTA 6 Cost More Than $1.5 Billion to Make, but It's Still Probably the Most Expensive Video Game of All Time",
+     "url": "https://www.ign.com/articles/rockstar-pushes-back-on-rumor-gta-6-cost-more-than-15-billion-to-make-but-its-still-probably-the-most-expensive-video-game-of-all-time",
+     "official": false
+    },
+    {
+     "outlet": "GamesIndustry.biz",
+     "title": "Rockstar's next game won't take eight years to make: \"The engine, the tools and the team we've built during GTA 6 will allow us to do things more quickly\"",
+     "url": "https://www.gamesindustry.biz/rockstars-next-game-wont-take-eight-years-to-make-the-engine-the-tools-and-the-team-weve-built-during-gta-6-will-allow-us-to-do-things-more-quickly",
+     "official": false
+    },
+    {
+     "outlet": "Push Square",
+     "title": "GTA 6 Tech Will Help Create the Next Rockstar Game, Won't Be Another 8-Year Wait",
+     "url": "https://www.pushsquare.com/news/2026/10/gta-6-tech-will-help-create-the-next-rockstar-game-wont-be-another-8-year-wait",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "GTA 6 was delayed partially because the amount of NPCs was 'horrifying' and required a dedicated studio full of writers to handle",
+     "url": "https://www.pcgamer.com/games/action/gta-6-was-delayed-partially-because-the-amount-of-npcs-was-horrifying-and-required-a-dedicated-studio-full-of-writers-to-handle/",
+     "official": false
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "When Rockstar Needed To Delay GTA 6 Again, Take-Two’s CEO Replied: ‘Please Tell Me You’re Kidding’",
+     "url": "https://kotaku.com/when-rockstar-needed-to-delay-gta-6-again-take-twos-ceo-replied-please-tell-me-youre-kidding-2000745938",
+     "official": false
+    },
+    {
+     "outlet": "Steam News",
+     "title": "Rockstar still won't reveal cost of GTA 6 development, but it's definitely not previously rumored $1.5 billion",
+     "url": "https://store.steampowered.com/news/group/38509069/view/692023294602248646",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "cda04bbd77dd",
+   "title": "Pope Leo Recovering Well Following Lung Cancer Surgery",
+   "summary": "Doctors report that the 71-year-old Pope is walking and recovering as expected after undergoing a 90-minute procedure during which he was diagnosed with lung cancer.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-14T15:12:46Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "The Hindu: International",
+     "title": "Pope Leo XIV undergoes surgery for cancer: What is lung adenocarcinoma?",
+     "url": "https://www.thehindu.com/news/international/pope-leo-xiv-cancer-surgery-current-health-update/article71582161.ece",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "What we know about the Pope's lung cancer diagnosis",
+     "url": "https://www.bbc.co.uk/news/videos/cwyvrmp9qgrgo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "Pope's Cancer Diagnosis – \"May God Protect Him\" – Reactions to Leo XIV's Diagnosis",
+     "url": "https://www.srf.ch/news/international/krebserkrankung-des-papsts-moege-gott-ihn-behueten-reaktionen-auf-diagnose-von-leo-xiv",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Krebserkrankung des Papsts – «Möge Gott ihn behüten» – Reaktionen auf Diagnose von Leo XIV."
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Pope Leo is eating and recovering after cancer surgery, doctors say",
+     "url": "https://www.pbs.org/newshour/world/pope-leo-is-eating-and-recovering-after-cancer-surgery-doctors-say",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Pope recovering \"as expected\" after surgery, lung cancer diagnosis",
+     "url": "https://www.cbsnews.com/news/pope-leo-diagnosed-lung-cancer-surgery/",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Following Lung Surgery: Health Status of Pope Leo XIV Improves",
+     "url": "https://www.tagesschau.de/video/video-1666102.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Nach Lungen-OP: Gesundheitszustand von Papst Leo XIV. verbessert sich"
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "Pope Leo: Vitals Unremarkable Following Lung Surgery",
+     "url": "https://www.spiegel.de/ausland/papst-leo-werte-nach-lungen-op-unauffaellig-a-d5ceec28-b966-47ac-bf1f-9fb7d33dda6d#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Papst Leo: Werte nach Lungen-OP unauffällig"
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "What is Known About Pope Leo XIV's Cancer Diagnosis",
+     "url": "https://www.tagesschau.de/ausland/europa/papst-leo-xiv-krebserkrankung-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Was über die Krebs-Erkrankung von Papst Leo XIV. bekannt ist"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Pope Leo recovering well after cancer surgery, Vatican says",
+     "url": "https://www.aljazeera.com/news/2026/10/14/pope-leo-recovering-well-after-cancer-surgery-vatican-says?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+     "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
      "official": false
     }
    ]
@@ -342,115 +268,115 @@
    "name": "AI",
    "stories": [
     {
-     "id": "f2bde108f64c",
-     "title": "Anthropic Opens Singapore Office and Signs Government MOU",
-     "summary": "Anthropic has officially expanded its footprint by opening a new office in Singapore and establishing a memorandum of understanding with the local government.",
+     "id": "e181547094b0",
+     "title": "OpenAI Highlights Third Moment Research Running 10,000 Autonomous Agents",
+     "summary": "OpenAI detailed how AI lab Third Moment Research utilizes GPT-6 Astra, Codex, and cybersecurity tools to run 10,000 autonomous agents continuously for over 36 hours.",
      "importance": 4,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-14T00:00:00Z",
+     "published": "2026-10-14T07:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Anthropic News (mirror)",
-       "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-       "url": "https://www.anthropic.com/news/singapore-office-opening",
+       "outlet": "OpenAI News",
+       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+       "url": "https://openai.com/index/third-moment-research",
        "official": true
       }
      ]
     },
     {
-     "id": "5cb1618c1db5",
-     "title": "Google DeepMind and Singapore Collaborate on Scam Detection Model",
-     "summary": "Google DeepMind and GovTech Singapore are partnering to build fine-tuned, lightweight on-device Gemma models for intercepting conversational scams with zero cloud data egress.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-14T02:00:14Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Google DeepMind",
-       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "23f136b8d212",
-     "title": "Google DeepMind and Cloud Grant European Researchers Access to Compute Credits",
-     "summary": "Google is providing up to 200 European scientific researchers with access to frontier AI models and $3 million in compute credits.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-14T08:15:02Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Google DeepMind and Google Cloud plan to provide up to 200 European scientific researchers with access to their frontier AI models and $3M in compute credits (Foo Yun Chee/Reuters)",
-       "url": "https://www.techmeme.com/261014/p6#a261014p6",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e97ff11b3b89",
-     "title": "Scientists Call for International Body to Oversee AI Containment Standards",
-     "summary": "Over 400 scientists, including Geoffrey Hinton and Yoshua Bengio, published an open letter calling for an international body to supervise AI containment and incident reporting.",
+     "id": "ea456f34ff53",
+     "title": "Nvidia Pledges $2 Billion in European Investments and AI Safety Compute",
+     "summary": "Nvidia CEO Jensen Huang announced $2 billion in new European investments—including stakes in French startups Doctolib and Genesis AI—alongside $250 million in compute resources for UK safety labs.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-14T03:55:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Open letter: Geoffrey Hinton, Yoshua Bengio, and over 400 scientists call for an international body to oversee AI containment standards and incident reporting (Leo Marchandon/Reuters)",
-       "url": "https://www.techmeme.com/261013/p53#a261013p53",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "41eb8c77c54d",
-     "title": "Anthropic Acquires Romanian-Founded Security Startup Opaque",
-     "summary": "Opaque, a firm specializing in helping organizations secure data usage co-founded by Raluca Ada Popa, has been acquired by Anthropic.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-14T09:30:26Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Romania Insider",
-       "title": "Romanian co-founded tech company Opaque acquired by Anthropic",
-       "url": "https://www.romania-insider.com/romanian-co-founded-tech-company-opaque-acquired-anthropic",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d6e89e4381e4",
-     "title": "Anthropic Redesigns Source Control with Custom Git Alternative",
-     "summary": "Anthropic published details on how and why they built a custom alternative to Git to handle the dramatic increase in code changes driven by automated tools.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-13T23:00:06Z",
+     "published": "2026-10-14T14:24:34Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Hacker News (100+ points)",
-       "title": "Redesigning source control at Anthropic",
-       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+       "outlet": "Techmeme",
+       "title": "Jensen Huang announces $2B in new European Nvidia investments, including in French startups Doctolib and Genesis AI, adding to $8B invested over the past year (Benoit Berthelot/Bloomberg)",
+       "url": "https://www.techmeme.com/261014/p23#a261014p23",
        "official": false
       },
       {
-       "outlet": "Simon Willison",
-       "title": "Redesigning source control at Anthropic",
-       "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+       "outlet": "The Decoder",
+       "title": "Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs",
+       "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "64950daaf518",
+     "title": "Researchers Say New OpenAI and Google Models Can Be Tricked into Generating Nudes",
+     "summary": "Security researchers revealed an attack method that easily bypasses safety safeguards on newly deployed AI models from OpenAI and Google to generate explicit imagery.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-14T11:00:30Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+       "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b2a5572b9818",
+     "title": "Harmonic Security Raises $50 Million Series B for Workplace AI Inspection Tools",
+     "summary": "Harmonic Security secured a $50 million Series B funding round to expand its small language model tools designed to monitor and inspect employee interactions with corporate AI software.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-14T12:40:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Harmonic Security, which uses small language models to inspect employee interactions with AI tools, raised a $50M Series B, taking its total funding to $76M (Duncan Riley/SiliconANGLE)",
+       "url": "https://www.techmeme.com/261014/p17#a261014p17",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a5355755a52d",
+     "title": "Modal Secures $750 Million Series D at $15.75 Billion Valuation",
+     "summary": "AI infrastructure startup Modal raised a $750 million Series D led by Accel, pushing its total funding to $1.2 billion as it surpasses $1 billion in annual recurring revenue.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-14T14:00:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "AI infrastructure startup Modal raised a $750M Series D led by Accel at a $15.75B post-money valuation, taking its total funding to $1.2B, and passes $1B ARR (Chris Metinko/Axios)",
+       "url": "https://www.techmeme.com/261014/p25#a261014p25",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f1c8e20f7598",
+     "title": "Deezer Plans Toggle to Filter Out AI-Generated Music",
+     "summary": "Streaming service Deezer announced plans to introduce a user toggle by the end of the year to automatically filter out AI-generated music tracks.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-14T15:16:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Deezer will soon let you filter out AI-generated music",
+       "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
        "official": false
       }
      ]
@@ -461,223 +387,193 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "5191713a6026",
-     "title": "Apple Seeds Fourth Betas of iOS 27.2 and macOS 27.2 with Interface Updates",
-     "summary": "Apple has rolled out the fourth developer betas of iOS 27.2 and macOS 27.2, featuring a redesigned black-and-white Apple Music icon and temporary adjustments to the Health app.",
-     "importance": 3,
+     "id": "7e97f2880409",
+     "title": "Apple Details Repair Fees and Specs for New HomeView Smart Display",
+     "summary": "Ahead of its November launch, specifications confirm Apple's new HomeView smart home hub relies on CarPlay app compatibility, lacks native video app support without AirPlay, and starts pre-orders now.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-13T22:11:33Z",
+     "published": "2026-10-14T15:43:34Z",
      "outlet_count": 4,
      "sources": [
       {
-       "outlet": "MacRumors",
-       "title": "Apple Releases Fourth watchOS 27.2 and visionOS 27.2 Betas",
-       "url": "https://www.macrumors.com/2026/10/13/apple-releases-watchos-27-2-beta-4/",
-       "official": false
-      },
-      {
        "outlet": "9to5Mac",
-       "title": "Apple releases fourth iOS 27.2 developer beta for iPhone [U: Public]",
-       "url": "https://9to5mac.com/2026/10/13/apple-releases-fourth-ios-27-2-developer-beta-for-iphone/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "macOS 27.2 Golden Gate beta 4 now available, here’s what’s coming [U: Public]",
-       "url": "https://9to5mac.com/2026/10/13/macos-27-2-golden-gate-beta-4-now-available-heres-whats-coming/",
+       "title": "Why the Apple Home Collection will accelerate smart home adoption",
+       "url": "https://9to5mac.com/2026/10/14/why-the-apple-home-collection-will-accelerate-smart-home-adoption/",
        "official": false
       },
       {
        "outlet": "MacRumors",
-       "title": "Apple Seeds Fourth macOS Golden Gate 27.2 Beta to Developers",
-       "url": "https://www.macrumors.com/2026/10/13/macos-golden-gate-27-2-beta-4/",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Releases Fourth iOS 27.2 Beta",
-       "url": "https://www.macrumors.com/2026/10/13/apple-releases-ios-27-2-beta-4/",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Releases New AirPods Beta Firmware",
-       "url": "https://www.macrumors.com/2026/10/13/airpods-beta-firmware-9b5043a/",
+       "title": "Ready for HomeView? Don't Miss These Smart Home Accessory Deals",
+       "url": "https://www.macrumors.com/2026/10/14/smart-home-accessory-deals/",
        "official": false
       },
       {
        "outlet": "AppleInsider",
-       "title": "Fourth betas of iOS 27.2, macOS 27.2 land for testing",
-       "url": "https://appleinsider.com/articles/26/10/13/fourth-betas-of-ios-272-macos-272-land-for-testing?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "iOS 27.2 beta 4 no longer includes Apple’s overhauled Health app",
-       "url": "https://9to5mac.com/2026/10/13/ios-27-2-beta-4-no-longer-includes-apples-overhauled-health-app/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "iOS 27.2 adds new app icon for Apple Music, more design updates",
-       "url": "https://9to5mac.com/2026/10/13/ios-27-2-adds-new-app-icon-for-apple-music-more-design-updates/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple rolls out new AirPods beta firmware for several models, including AirPods Pro 3",
-       "url": "https://9to5mac.com/2026/10/13/apple-rolls-out-new-airpods-beta-firmware-for-several-models-including-airpods-pro-3/",
+       "title": "Apple HomeView finally offers a simpler alternative to Home Assistant",
+       "url": "https://appleinsider.com/articles/26/10/14/apple-homeview-finally-offers-a-simpler-alternative-to-home-assistant?utm_source=rss",
        "official": false
       },
       {
        "outlet": "The Verge",
-       "title": "It looks like Apple Music is getting a new icon",
-       "url": "https://www.theverge.com/tech/1010619/apple-music-new-icon-ios-27-beta",
+       "title": "HomeView doesn’t natively support any video apps yet",
+       "url": "https://www.theverge.com/tech/1011062/apple-homeview-airplay-apps-streaming",
        "official": false
       },
       {
        "outlet": "AppleInsider",
-       "title": "iOS 27.2 beta 4: Apple Music goes black-and-white, Apple Health redesign pulled",
-       "url": "https://appleinsider.com/articles/26/10/13/ios-272-beta-4-apple-music-goes-black-and-white-apple-health-redesign-pulled?utm_source=rss",
+       "title": "Get ready for HomeView by checking CarPlay apps on your iPhone",
+       "url": "https://appleinsider.com/inside/apple-home/tips/get-ready-for-homeview-by-checking-carplay-apps-on-your-iphone?utm_source=rss",
        "official": false
       },
       {
-       "outlet": "MacRumors",
-       "title": "iOS 27.2 Beta 4 Removes New Health App",
-       "url": "https://www.macrumors.com/2026/10/13/ios-27-2-beta-4-health-app/",
+       "outlet": "AppleInsider",
+       "title": "HomeView will rely on CarPlay apps to make up for some deficiencies",
+       "url": "https://appleinsider.com/articles/26/10/14/homeview-will-rely-on-carplay-apps-to-make-up-for-some-deficiencies?utm_source=rss",
        "official": false
       },
       {
-       "outlet": "MacRumors",
-       "title": "iOS 27.2 Adds New Apple Music Icon",
-       "url": "https://www.macrumors.com/2026/10/13/ios-27-2-apple-music-icon/",
+       "outlet": "9to5Mac",
+       "title": "HomeView will support video apps like YouTube, Netflix—if they say yes",
+       "url": "https://9to5mac.com/2026/10/14/homeview-will-support-video-apps-like-youtube-netflix-if-they-say-yes/",
        "official": false
       },
       {
-       "outlet": "MacRumors",
-       "title": "Apple Releases Third Public Betas of iOS 27.2 and macOS Golden Gate 27.2",
-       "url": "https://www.macrumors.com/2026/10/13/apple-releases-ios-27-2-public-beta-3/",
+       "outlet": "AppleInsider",
+       "title": "How CarPlay entitlements work, and why they're a problem for HomeView",
+       "url": "https://appleinsider.com/articles/26/10/14/how-carplay-entitlements-work-and-why-theyre-a-problem-for-homeview?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "HomeView can display third-party widgets from your iPhone",
+       "url": "https://9to5mac.com/2026/10/14/homeview-can-display-third-party-widgets-from-your-iphone/",
        "official": false
       }
      ]
     },
     {
-     "id": "74757a6a5f3d",
-     "title": "Judge Grants Apple Limited Access to OpenAI Hiring Records and Testimony",
-     "summary": "A federal judge ruled that Apple can access select interview materials, private messages, and employee testimony in its trade secrets lawsuit.",
+     "id": "510ea7de4b82",
+     "title": "Apple Marks Final 12-Inch MacBook and Sixth-Gen iPad as Obsolete",
+     "summary": "Apple updated its vintage and obsolete products list, officially ending official support vintage pathways for the final 12-inch MacBook model and the sixth-generation iPad.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-13T22:14:52Z",
+     "published": "2026-10-14T14:05:39Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "TechCrunch",
-       "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-       "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+       "outlet": "MacRumors",
+       "title": "Apple Says These Products Are Now Obsolete",
+       "url": "https://www.macrumors.com/2026/10/14/apple-three-more-obsolete-products/",
        "official": false
       },
       {
        "outlet": "9to5Mac",
-       "title": "Apple wins early access to OpenAI documents and employee testimony in trade secrets lawsuit",
-       "url": "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/",
+       "title": "Apple says beloved MacBook is now ‘obsolete,’ more products too",
+       "url": "https://9to5mac.com/2026/10/14/apple-says-beloved-macbook-is-now-obsolete-more-products-too/",
        "official": false
       },
       {
        "outlet": "AppleInsider",
-       "title": "Apple will get some OpenAI documents, but not everything it asked for in court",
-       "url": "https://appleinsider.com/articles/26/10/13/apple-will-get-some-openai-documents-but-not-everything-it-asked-for-in-court?utm_source=rss",
+       "title": "Apple's kills support for last 12-inch MacBook and more",
+       "url": "https://appleinsider.com/articles/26/10/14/apples-kills-support-for-last-12-inch-macbook-and-more?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "2502dc2baa27",
-     "title": "ASML Reports Strong Q3 Financials and Warns of 2027-2028 Chip Tool Constraints",
-     "summary": "ASML posted Q3 net sales of €11.66 billion and raised its 2026 forecast, though it noted it cannot fully meet AI-driven demand for its lithography tools through 2028.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-14T06:00:35Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "ASML reports Q3 net sales of €11.66B, vs. €11.72B est., a €4.96B net profit, vs. €4.1B est., and raises its 2026 net sales forecast from €43B-€45B to €44B-€45B (Arjun Kharpal/CNBC)",
-       "url": "https://www.techmeme.com/261014/p2#a261014p2",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "ASML says it cannot fully meet AI-driven demand for its chipmaking tools in 2027 and 2028, and is seeing \"strong interest\" in orders for 2029 and 2030 (Reuters)",
-       "url": "https://www.techmeme.com/261014/p3#a261014p3",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d138ec49afe7",
-     "title": "Microsoft Issues Massive Patch Update Fixing Over 1,400 Vulnerabilities",
-     "summary": "Microsoft released a security patch update addressing over 1,400 vulnerabilities, significantly eclipsing previous record monthly loads.",
+     "id": "7f2fa22f644f",
+     "title": "WhatsApp Introduces Guest Calling Without Requiring an Account",
+     "summary": "Meta updated WhatsApp to allow users to invite anyone to join voice or video calls via a guest link, even if the participant does not have a registered account.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-14T02:25:01Z",
-     "outlet_count": 1,
+     "published": "2026-10-14T14:00:10Z",
+     "outlet_count": 2,
      "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Microsoft releases updates fixing 1,400+ security vulnerabilities, surpassing September's record of 972, which was already ~10x the normal monthly patch load (Brian Krebs/Krebs on Security)",
-       "url": "https://www.techmeme.com/261013/p51#a261013p51",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9daa5858212d",
-     "title": "New Apple TV 4K, HomePod mini 2, and HomeView Available for Pre-Order",
-     "summary": "Pre-orders for Apple's newly announced HomeView, HomePod mini 2, and fourth-generation Apple TV 4K have officially gone live.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-13T19:34:19Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "AppleInsider",
-       "title": "That five-year-old Apple TV 4K is getting Siri AI",
-       "url": "https://appleinsider.com/articles/26/10/13/that-five-year-old-apple-tv-4k-is-getting-siri-ai?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "HomePod surround sound only available with new Apple TV 4K",
-       "url": "https://appleinsider.com/articles/26/10/13/homepod-surround-sound-only-available-with-new-apple-tv-4k?utm_source=rss",
-       "official": false
-      },
       {
        "outlet": "Engadget",
-       "title": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI",
-       "url": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "9to5Mac Daily: October 13, 2026 – HomeView, Apple TV 4K, and HomePod mini",
-       "url": "https://9to5mac.com/2026/10/13/daily-october-13-2026/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "HomeView, Apple TV 4K, and more now available for Amazon pre-order",
-       "url": "https://9to5mac.com/2026/10/13/homeview-apple-tv-4k-and-more-now-available-for-amazon-pre-order/",
+       "title": "WhatsApp adds a guest option for joining calls without an account",
+       "url": "https://www.engadget.com/2286108/whatsapp-adds-a-guest-option-for-joining-calls-without-an-account/",
        "official": false
       },
       {
        "outlet": "MacRumors",
-       "title": "Where to Pre-Order Apple's New HomeView, HomePod Mini 2, and Apple TV 4K",
-       "url": "https://www.macrumors.com/2026/10/13/pre-order-homeview/",
+       "title": "WhatsApp Now Lets Anyone Join Calls, No Account Needed",
+       "url": "https://www.macrumors.com/2026/10/14/whatsapp-guest-calls/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "debb9041cb5d",
+     "title": "GlobalFoundries Plans Two New Chip Plants in New York Backed by Japanese Funding",
+     "summary": "GlobalFoundries announced plans to construct two essential chip fabrication facilities in Malta, New York, backed by up to $21 billion in backing from Japan.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T13:05:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "GlobalFoundries plans to build two \"essential chip\" plants in Malta, New York, backed by up to $21B from Japan; the US will take a 4% stake in GlobalFoundries (Bloomberg)",
+       "url": "https://www.techmeme.com/261014/p18#a261014p18",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aba83ddc846c",
+     "title": "Google Acquires 20-Year Power Deal for Wyoming Fuel Cell Project",
+     "summary": "Google agreed to a 20-year power purchase agreement with AEP, which is investing approximately $4 billion into a Wyoming fuel cell project utilizing Bloom Energy technology.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T13:30:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Google plans to acquire power from AEP's Cheyenne Fuel Cell under a 20-year deal; AEP will invest ~$4B in the Wyoming fuel cell project using Bloom's tech (Kelly Cloonan/Wall Street Journal)",
+       "url": "https://www.techmeme.com/261014/p22#a261014p22",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c92a7455b391",
+     "title": "Alibaba AI Models Cleared for Apple Intelligence Integration in China",
+     "summary": "Alibaba's AI models have received regulatory clearance to power Apple Intelligence features for iPhone launches in mainland China.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T15:36:33Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Alibaba AI models cleared for use in Apple Intelligence in China just in time for the iPhone Duo launch",
+       "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "75d944196875",
+     "title": "Affinity Studio Confirms November Launch Date for iPad",
+     "summary": "Affinity has announced that its professional creative suite tool, Affinity Studio, will officially launch on iPad this coming November.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T15:03:26Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Affinity Studio coming to iPad in November",
+       "url": "https://appleinsider.com/articles/26/10/14/affinity-studio-coming-to-ipad-in-november?utm_source=rss",
        "official": false
       }
      ]
@@ -688,133 +584,223 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "0189f9ce7c04",
-     "title": "Rockstar Opened an LA Studio to Handle GTA 6 NPC Scale",
-     "summary": "Rockstar Games established a new studio in Los Angeles specifically dedicated to creating non-player characters for Grand Theft Auto 6.",
+     "id": "8f7e50a829a8",
+     "title": "Epic Games Previews New Launcher Built Using AI and Vibe Coding",
+     "summary": "Epic Games released a preview of its redesigned PC launcher, admitting the application was heavily built using an AI-first production model dubbed 'vibe coding'.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-14T10:55:32Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Insider Gaming",
-       "title": "Rockstar Opened LA Studio to Handle GTA 6’s ‘Horrifying’ Scale",
-       "url": "https://insider-gaming.com/rockstar-opened-la-studio-to-handle-gta-6s-horrifying-scale/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "076bedbdfc31",
-     "title": "Xbox Announces 'Xbox Labs' Initiative to Explore Emerging Technologies",
-     "summary": "Microsoft has introduced Xbox Labs, a new group focused on trialing emerging ideas, new tech, and community-driven game concepts.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-13T19:42:03Z",
+     "published": "2026-10-14T15:32:37Z",
      "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Xbox Wire",
-       "title": "Introducing XBOX LABS",
-       "url": "https://news.xbox.com/en-us/2026/10/13/introducing-xbox-labs/",
-       "official": true
-      },
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "Xbox announces Xbox Labs, a new initiative to trial emerging ideas and \"new technology\"",
-       "url": "https://www.gamesindustry.biz/xbox-announces-xbox-labs-a-new-initiative-to-trial-emerging-ideas-and-new-technology",
-       "official": false
-      },
-      {
-       "outlet": "Pure Xbox",
-       "title": "Asha Sharma Announces Xbox Labs To Turn 'Emerging Ideas' Into New Experiences",
-       "url": "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences",
-       "official": false
-      },
-      {
        "outlet": "The Verge",
-       "title": "Xbox is officially embracing the chaos of AI-powered game ports",
-       "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+       "title": "Epic’s new games launcher is ‘vibe coded’",
+       "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
        "official": false
       },
-      {
-       "outlet": "Gematsu",
-       "title": "Xbox announces Xbox Labs to explore ’emerging technologies’",
-       "url": "https://www.gematsu.com/2026/10/xbox-announces-xbox-labs-to-explore-emerging-technologies",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "97e8accecaec",
-     "title": "Legendary Duke Nukem and Quake Level Designer Richard 'Levelord' Gray Passes Away",
-     "summary": "Richard Gray, widely known as 'Levelord' for his iconic level design work on classic first-person shooters, has died at age 58.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-13T21:56:50Z",
-     "outlet_count": 2,
-     "sources": [
       {
        "outlet": "PC Gamer",
-       "title": "Legendary level designer Richard 'Levelord' Gray has died",
-       "url": "https://www.pcgamer.com/gaming-industry/legendary-level-designer-richard-levelord-gray-has-died/",
+       "title": "Epic says its new 'vibe coded' Epic Games Store launcher is faster than Steam",
+       "url": "https://www.pcgamer.com/software/platforms/epic-says-its-new-vibe-coded-epic-games-store-launcher-is-faster-than-steam/",
        "official": false
       },
       {
-       "outlet": "Kotaku",
-       "title": "Famous And Innovative Duke Nukem, Quake Level Designer ‘Levelord’ Has Died",
-       "url": "https://kotaku.com/famous-and-innovative-duke-nukem-quake-level-designer-levelord-has-died-2000745380",
+       "outlet": "Techmeme",
+       "title": "Epic unveils a refresh of its Epic Games Launcher for PC in preview, saying that the new version is \"vibe coded\" and \"way faster\", and now supports Linux (Jay Peters/The Verge)",
+       "url": "https://www.techmeme.com/261014/p28#a261014p28",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "24e24facfa89",
-     "title": "Game Boy Advance Nintendo Classics App Adds Three Titles",
-     "summary": "Nintendo has updated its Switch Online GBA app with Monster Rancher Advance, Metal Slug Advance, and Kururin Paradise.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-14T01:05:43Z",
-     "outlet_count": 3,
-     "sources": [
+      },
       {
-       "outlet": "GoNintendo",
-       "title": "GBA: Nintendo Classics updated with Monster Rancher Advance, METAL SLUG ADVANCE & Kururin Paradise",
-       "url": "https://gonintendo.com/contents/66056-gba-nintendo-classics-updated-with-monster-rancher-advance-metal-slug-advance",
+       "outlet": "IGN",
+       "title": "‘We Vibe Coded a New Epic Games Launcher’ – Epic’s New Store App Was Built Using AI",
+       "url": "https://www.ign.com/articles/we-vibe-coded-a-new-epic-games-launcher-epics-new-store-app-was-built-using-ai",
        "official": false
       },
       {
        "outlet": "Wario64",
-       "title": "Games added to Game Boy Advance Nintendo Classics Switch Online -Monster Rancher Advance -METAL SLUG ADVANCE -Kururin Paradise www.youtube.com/watch?v=7K7i...",
-       "url": "https://www.youtube.com/watch?v=7K7iGohHpWU",
+       "title": "new Epic Games Launcher in preview - \"Programming is hard. So, instead of doing that, we vibe coded a new Epic Games Launcher that’s way faster and more responsive than the current one, and has a new…",
+       "url": "https://store.epicgames.com/news/epic-games-launcher-preview",
        "official": false
       },
       {
-       "outlet": "Gematsu",
-       "title": "Game Boy Advance – Nintendo Classics adds Monster Rancher Advance, Metal Slug Advance, and Kururin Paradise",
-       "url": "https://www.gematsu.com/2026/10/game-boy-advance-nintendo-classics-adds-monster-rancher-advance-metal-slug-advance-and-kururin-paradise",
+       "outlet": "Rock Paper Shotgun",
+       "title": "\"We vibe coded a new Epic Games Launcher\" because \"programming is hard\", announce company we're somehow supposed to see as a serious Steam competitor",
+       "url": "https://www.rockpapershotgun.com/we-vibe-coded-a-new-epic-games-launcher-because-programming-is-hard-announce-company-were-somehow-supposed-to-see-as-a-serious-steam-competitor",
        "official": false
       }
      ]
     },
     {
-     "id": "44b61856d76b",
-     "title": "Former Game Retailer Zavvi Enters Administration Again",
-     "summary": "Zavvi has ceased trading and entered administration once more, leaving outstanding customer orders and pre-orders unfulfilled.",
+     "id": "3e68673c2708",
+     "title": "Epic Rebuilding Easy Anti-Cheat to Bring Fortnite to Linux",
+     "summary": "Epic Games is developing Easy Anti-Cheat v2 for Linux, with plans to pilot the software in Fortnite to eventually bring the battle royale title to the platform.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-14T15:42:36Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Epic is bringing Fortnite to Linux",
+       "url": "https://www.theverge.com/games/1010808/epic-fortnite-linux-anti-cheat",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Fortnite is coming to Linux once Epic improves Easy Anti-Cheat",
+       "url": "https://www.pcgamer.com/games/battle-royale/fortnite-is-coming-to-linux-once-epic-improves-easy-anti-cheat/",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Easy Anti-Cheat being rebuilt for Linux in EAC Linux v2. Planned for pilot in Fortnite first \"Once we’ve validated EAC v2’s effectiveness, we’ll make it available to more game developers so they can…",
+       "url": "https://onlineservices.epicgames.com/news/introducing-easy-anti-cheat-linux-v2",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Epic Games Reveals Plans to Finally Bring Fortnite to a New Platform",
+       "url": "https://store.steampowered.com/news/group/1450625/view/710037693113827735",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "47ca9acb7ba0",
+     "title": "Sony Announces October PlayStation Plus Game Catalog Lineup",
+     "summary": "Sony revealed its October PlayStation Plus Extra and Premium lineup, featuring Mafia: The Old Country, Horizon Forbidden West, Dino Crisis 2, and RollerCoaster Tycoon 3.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-14T15:42:02Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "PlayStation Plus Game Catalog for October: Mafia: The Old Country, Horizon Forbidden West, Mycopunk and more",
+       "url": "https://blog.playstation.com/2026/10/14/playstation-plus-game-catalog-for-october-mafia-the-old-country-horizon-forbidden-west-mycopunk-and-more/",
+       "official": true
+      },
+      {
+       "outlet": "Push Square",
+       "title": "9 PS Plus Extra, Premium Games for October 2026 Announced",
+       "url": "https://www.pushsquare.com/news/2026/10/9-ps-plus-extra-premium-games-for-october-2026-announced",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "PlayStation Plus Game Catalog and Classics Catalog lineup for October 2026 announced",
+       "url": "https://www.gematsu.com/2026/10/playstation-plus-game-catalog-and-classics-catalog-lineup-for-october-2026-announced",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6c370e157222",
+     "title": "Former Disco Elysium Developers Announce New RPG Red Rooster",
+     "summary": "Studio Summer Eternal, founded by former Disco Elysium developers, has announced Red Rooster, an incendiary physics-driven RPG coming to PC and consoles.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-14T09:54:26Z",
+     "published": "2026-10-14T14:15:41Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Summer Eternal announces ‘incendiary, physics-driven RPG’ Red Rooster for PS5, Xbox Series, Switch 2, and PC",
+       "url": "https://www.gematsu.com/2026/10/summer-eternal-announces-incendiary-physics-driven-rpg-red-rooster-for-ps5-xbox-series-switch-2-and-pc",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "\"This non-profit will be the 'voice of the gamers'\" - Former Disco Elysium devs break new ground with player- and developer-owned studio structure",
+       "url": "https://www.eurogamer.net/summer-eternal-studio-structure-player-non-profit",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "\"We are here to give you something to believe in\": the former Disco Elysium devs of Summer Eternal reveal new RPG Red Rooster, a game of fire, water and alternate selves",
+       "url": "https://www.rockpapershotgun.com/we-are-here-to-give-you-something-to-believe-in-the-former-disco-elysium-devs-of-summer-eternal-reveal-new-rpg-red-rooster-a-game-of-fire-water-and-alternate-selves",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1b26d737e1a5",
+     "title": "Ubisoft Prepares to Shut Down Trials Developer RedLynx",
+     "summary": "As part of an ongoing company restructuring, publisher Ubisoft intends to close Finnish studio RedLynx, the developer behind the Trials series.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-14T14:30:00Z",
      "outlet_count": 1,
      "sources": [
       {
+       "outlet": "Push Square",
+       "title": "Trials Studio RedLynx Looks Set to Close as Ubisoft Continues Major Restructure",
+       "url": "https://www.pushsquare.com/news/2026/10/trials-studio-redlynx-looks-set-to-close-as-ubisoft-continues-major-restructure",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f07ce1c39ff1",
+     "title": "GTA 6 Leaker Claims to Stop Sharing Footage After Crypto Scheme Collapse",
+     "summary": "The prominent online leaker releasing Grand Theft Auto 6 gameplay footage announced they are ending leaks following the collapse of an associated crypto scheme.",
+     "importance": 3,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "Gaming",
+     "published": "2026-10-14T14:17:10Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "GTA 6 Leaker Releases New Gameplay Video Showing Snippets of the Final Missions, Declares 'The End of the Road' After Crypto Scheme Collapses",
+       "url": "https://www.ign.com/articles/gta-6-leaker-releases-new-gameplay-video-showing-snippets-of-the-final-missions-declares-the-end-of-the-road-after-crypto-scheme-collapses",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "GTA 6 Leaker Is “Stopping For Now” as Website Goes Offline",
+       "url": "https://insider-gaming.com/gta-6-leaker-is-stopping-for-now-as-website-goes-offline/",
+       "official": false
+      },
+      {
        "outlet": "Eurogamer",
-       "title": "Former game-seller Zavvi enters administration again and \"is unable to fulfil any outstanding orders or pre-orders\"",
-       "url": "https://www.eurogamer.net/zavvi-administration-2026-orders",
+       "title": "GTA 6 leaker's latest video allegedly shows scenes from the final mission, as they indicate the leaks may have come to an end",
+       "url": "https://www.eurogamer.net/gta-6-cyberleek-ending-crypto-coin-crash",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "GTA 6 Leaker Announces They Won’t Release The Full Game: ‘The Leeks Stop For Now’",
+       "url": "https://kotaku.com/gta-6-leaker-announces-they-wont-leak-the-full-game-the-leeks-stop-for-now-2000745917",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0bb4b3c95580",
+     "title": "Gran Turismo Limited Edition DualSense Controller Announced for December",
+     "summary": "Sony Interactive Entertainment unveiled a Gran Turismo Limited Edition DualSense Wireless Controller releasing on December 10 for $84.99.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-14T13:20:42Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "Gran Turismo 7’s Spec IV (Part 1) launches today and a first look at DualSense wireless controller",
+       "url": "https://blog.playstation.com/2026/10/14/gran-turismo-7s-spec-iv-part-1-launches-today-and-a-first-look-at-dualsense-wireless-controller-gran-turismo-limited-edition/",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Gran Turismo Limited Edition DualSense Controller announced",
+       "url": "https://www.gematsu.com/2026/10/gran-turismo-limited-edition-dualsense-controller-announced",
        "official": false
       }
      ]
@@ -825,79 +811,85 @@
    "name": "US",
    "stories": [
     {
-     "id": "beb051fbf2a7",
-     "title": "Federal Judge Blocks White House Press Ban on CNN, Politico, and MS NOW",
-     "summary": "District Judge Timothy Kelly ruled that the Trump administration must maintain press access for CNN, Politico, and MS NOW while their lawsuit proceeds.",
+     "id": "629e08ed84c6",
+     "title": "Social Security Announces 3.6% Cost-of-Living Adjustment for 2027",
+     "summary": "The Social Security Administration announced that beneficiaries will receive a 3.6% cost-of-living adjustment in 2027 to help offset rising consumer prices.",
      "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-14T09:17:06Z",
-     "outlet_count": 8,
+     "published": "2026-10-14T15:32:28Z",
+     "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Yahoo News",
-       "title": "Trump-appointed judge extends order blocking White House press ban",
-       "url": "https://www.yahoo.com/news/politics/articles/judge-extends-order-blocking-trump-030954600.html",
+       "outlet": "NBC News",
+       "title": "Social Security recipients will receive a 3.6% cost-of-living increase in 2027",
+       "url": "https://www.nbcnews.com/business/personal-finance/social-security-cola-2027-increase-rcna603284",
        "official": false
       },
       {
-       "outlet": "Reason",
-       "title": "Court Issues Preliminary Injunction Requiring CNN, MS NOW, and Politico to Be Readmitted to White House",
-       "url": "https://reason.com/volokh/2026/10/13/court-issues-preliminary-injunction-requiring-cnn-ms-now-and-politico-to-be-readmitted-to-white-house/",
+       "outlet": "ABC News",
+       "title": "Social Security Administration says cost-of-living adjustment will rise 3.6% in 2027",
+       "url": "https://abcnews.com/Business/social-security-administration-cost-living-adjustment-rise-36/story?id=137234823",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "US judge extends media outlets' White House access",
-       "url": "https://www.dw.com/en/us-judge-extends-media-outlets-white-house-access/a-79656346?maca=en-rss-en-all-1573-rdf",
+       "outlet": "Common Dreams",
+       "title": "Statement by Retiree Leader Richard Fiesta on the 3.6% COLA Increase for Social Security Beneficiaries",
+       "url": "https://www.commondreams.org/newswire/statement-by-retiree-leader-richard-fiesta-on-the-3-6-cola-increase-for-social-security-beneficiaries",
        "official": false
       },
       {
        "outlet": "The Hill",
-       "title": "Judge extends order allowing CNN, Politico, MS NOW White House press access",
-       "url": "https://thehill.com/regulation/court-battles/6147113-judge-extends-block-trump-media-ban/",
+       "title": "Social Security COLA set to rise by 3.6 percent in 2027",
+       "url": "https://thehill.com/business/6147842-social-security-cola-increase-2027/",
        "official": false
       },
       {
        "outlet": "CBS News",
-       "title": "Judge blocks Trump's White House ban targeting CNN, MS NOW and Politico",
-       "url": "https://www.cbsnews.com/news/judge-blocks-trump-white-house-ban-cnn-msnow-politico/",
+       "title": "Social Security announces cost-of-living increase for 2027",
+       "url": "https://www.cbsnews.com/news/social-security-cola-2027-increase/",
        "official": false
       },
       {
-       "outlet": "The Wall Street Journal: U.S.",
-       "title": "Trump Can’t Reinstate White House Ban on CNN, Politico and MS NOW, Judge Rules",
-       "url": "https://www.wsj.com/us-news/law/trump-cant-reinstate-white-house-ban-on-cnn-politico-and-ms-now-judge-rules-de4882c0?mod=rss_usnews",
+       "outlet": "The Hill",
+       "title": "The 2027 Social Security COLA is here: When will benefits increase?",
+       "url": "https://thehill.com/business/personal-finance/6147880-the-2027-social-security-cola-is-here-when-will-benefits-increase/",
        "official": false
       },
       {
-       "outlet": "NPR News",
-       "title": "CNN, MS NOW and Politico prevail against White House",
-       "url": "https://www.npr.org/2026/10/14/nx-s1-6001398/white-house-media-ban",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "U.S. judge backs CNN, MS Now, Politico access to White House",
-       "url": "https://www.thehindu.com/news/international/us-judge-backs-cnn-ms-now-politico-access-to-white-house/article71582606.ece",
+       "outlet": "Washington Examiner",
+       "title": "Social Security gets 3.6% cost-of-living adjustment for 2027",
+       "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4765555/social-security-cost-of-living-adjustment-2027/",
        "official": false
       }
      ]
     },
     {
-     "id": "a0e3ed257373",
-     "title": "Anthropic Warns of Self-Replicating AI Botnet Risks",
-     "summary": "In recent policy warnings, Anthropic highlighted the rising security possibility of autonomous, self-replicating AI botnets that would be difficult to shut down.",
+     "id": "7a22fe6e4b66",
+     "title": "New York City Council Moves to Ban Iconic Horse-Drawn Carriages",
+     "summary": "New York City is moving forward with legislative action to ban horse-drawn carriages from city streets starting June 1, 2028.",
      "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-13T22:44:48Z",
-     "outlet_count": 1,
+     "published": "2026-10-14T15:07:35Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Semafor",
-       "title": "Anthropic issues warning on self-replicating AI",
-       "url": "https://www.semafor.com/article/10/13/2026/anthropic-issues-warning-on-self-replicating-ai",
+       "outlet": "Straight Arrow News",
+       "title": "New York City Council to vote on banning horse-drawn carriages",
+       "url": "https://san.com/cc/new-york-city-council-to-vote-on-banning-horse-drawn-carriages/",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "New York City moves to ban horse-drawn carriages",
+       "url": "https://www.theguardian.com/us-news/2026/oct/14/new-york-city-horse-drawn-carriages-ban",
+       "official": false
+      },
+      {
+       "outlet": "Times of India: World",
+       "title": "New York City to ban iconic horse-drawn carriages from June 1, 2028; decision comes after Indian tourist Romanch Mahajan's death",
+       "url": "https://timesofindia.indiatimes.com/world/us/new-york-city-to-ban-iconic-horse-drawn-carriages-from-june-1-2028-decision-comes-after-indian-tourist-romanch-mahajans-death/articleshow/134945753.cms",
        "official": false
       }
      ]
@@ -908,25 +900,127 @@
    "name": "World",
    "stories": [
     {
-     "id": "94e1dca97a31",
-     "title": "Albanian Students Clash With Police During Education and Job Protests",
-     "summary": "Student demonstrators clashed with police outside the Ministry of Education in Tirana while protesting university conditions, high costs, and bleak job prospects.",
-     "importance": 3,
+     "id": "ce9a62015851",
+     "title": "Trump Declares Massive Oil, Gas, and Mineral Exploration Set for Greenland",
+     "summary": "US President Donald Trump stated that extensive resource exploration is set to begin in Greenland, drawing renewed attention to the self-governing Arctic territory.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-14T10:14:17Z",
-     "outlet_count": 2,
+     "published": "2026-10-14T15:06:13Z",
+     "outlet_count": 5,
      "sources": [
       {
-       "outlet": "Balkan Insight",
-       "title": "Albanian Student Protesters Clash with Police Outside Ministry of Education",
-       "url": "https://balkaninsight.com/2026/10/13/albanian-student-protesters-clash-with-police-outside-ministry-of-education/bi/",
+       "outlet": "Fox News: Politics",
+       "title": "Trump announces massive oil, gas and mineral exploration plans in Greenland, touts national security benefits",
+       "url": "https://www.foxnews.com/politics/trump-announces-massive-oil-gas-mineral-exploration-plans-greenland-touts-national-security-benefits",
        "official": false
       },
       {
-       "outlet": "Al Jazeera",
-       "title": "Albanian students clash with police as they protest over education and jobs",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/albanian-students-clash-with-police-as-they-protest-over-education-and-jobs?traffic_source=rss",
+       "outlet": "South China Morning Post",
+       "title": "Trump says ‘massive’ oil, gas and mineral exploration to begin in Greenland",
+       "url": "https://www.scmp.com/news/world/united-states-canada/article/3370906/trump-says-massive-oil-gas-and-mineral-exploration-begin-greenland?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "Trump says oil, gas and mineral exploration in Greenland is set to begin. It's not that simple",
+       "url": "https://www.cbc.ca/news/canada/north/trump-says-oil-gas-and-mineral-exploration-in-greenland-is-set-to-begin-it-s-not-that-simple-9.7380023?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "Washington Examiner",
+       "title": "Trump hails ‘massive’ Greenland oil and mineral exploration as White House seeks to calm energy worries",
+       "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4765374/trump-massive-greenland-oil-mineral-exploration/",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Trump says massive oil, gas exploration set to begin in 'our Greenland'",
+       "url": "https://www.straitstimes.com/world/europe/trump-says-massive-oil-gas-exploration-set-to-begin-in-our-greenland",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "20acd79fd703",
+     "title": "Trial Begins in Germany Over 2022 Nord Stream Pipeline Explosions",
+     "summary": "A former Ukrainian military officer has gone on trial in Germany, marking the first court proceedings related to the 2022 sabotage of the Nord Stream natural gas pipelines.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-14T13:58:22Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Just the News",
+       "title": "Trial begins for ex-Ukrainian officer accused of masterminding Nord Stream gas pipeline explosion",
+       "url": "https://justthenews.com/index%2ephp/world/europe/trial-ukrainian-officer-nord-stream-gas-pipeline-explosion-begins?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "official": false
+      },
+      {
+       "outlet": "Sky News: World",
+       "title": "Ukrainian on trial in Germany over gas pipeline bombing",
+       "url": "https://news.sky.com/story/ukrainian-on-trial-in-germany-over-war-crime-bombing-of-nord-stream-pipeline-13599215",
+       "official": false
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "Ukrainian accused of Nord Stream pipeline sabotage goes on trial in Germany",
+       "url": "https://www.scmp.com/news/world/russia-central-asia/article/3370911/ukrainian-accused-nord-stream-pipeline-sabotage-goes-trial-germany?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "Ukrainian ex-officer stands trial in Germany over Nord Stream pipeline blasts",
+       "url": "https://www.rfi.fr/en/international/20261014-ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-pipeline-blasts",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "60948fa32810",
+     "title": "Three Indian Nationals Killed in Germany Building Fire",
+     "summary": "Three Indian nationals were killed and five others injured in a residential building fire in Germany, with local police arresting a resident on suspicion of murder.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-14T15:01:48Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Hindu: International",
+       "title": "Three Indians killed in Germany building fire: reports",
+       "url": "https://www.thehindu.com/news/international/indians-killed-in-germany-building-fire-police/article71584633.ece",
+       "official": false
+      },
+      {
+       "outlet": "Times of India: World",
+       "title": "3 Indians killed in Germany fire, 5 injured; resident arrested on murder suspicion",
+       "url": "https://timesofindia.indiatimes.com/world/europe/3-indians-killed-in-germany-fire-5-injured-resident-arrested-on-murder-suspicion/articleshow/134945590.cms",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aa15e9cf3984",
+     "title": "British Prime Minister Seeks to Repair Diplomatic Ties Between Ukraine and US",
+     "summary": "British Prime Minister Burnham stated his intention to mend diplomatic bridges between Ukraine and the United States ahead of meetings with President Zelensky in London.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-14T15:16:21Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "British PM Burnham looks to ‘repair bridges’ between Trump, Zelensky",
+       "url": "https://www.straitstimes.com/world/europe/british-pm-burnham-looks-to-repair-bridges-between-trump-zelensky",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Burnham says he wants to 'repair bridges' between Ukraine and US",
+       "url": "https://www.bbc.co.uk/news/articles/cq98z59xdny5o?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
@@ -937,312 +1031,78 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "ca026976f228",
-     "title": "Heavy Russian Missile Strikes Leave 600,000 Without Power in Ukraine",
-     "summary": "Overnight Russian airstrikes targeted Ukrainian energy infrastructure, killing at least six people, cutting power for hundreds of thousands, and disrupting military drone missions as Starlink restrictions were reported.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-14T10:55:47Z",
-     "outlet_count": 10,
-     "sources": [
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Russian strikes kill six, cut power in Ukraine",
-       "url": "https://www.rte.ie/news/ukraine/2026/1014/1595299-ukraine-russia/",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Heavy Russian strikes on Ukraine kill 6, cut power in Kyiv",
-       "url": "https://www.channelnewsasia.com/world/heavy-russian-strikes-ukraine-kill-6-cut-power-in-kyiv-6457911",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "Heavy Russian strikes on Ukraine kill six, cut power in Kyiv",
-       "url": "https://www.thehindu.com/news/international/heavy-russian-strikes-on-ukraine-kill-six-cut-power-in-kyiv/article71582534.ece",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "Ukraine says SpaceX has restricted Starlink by cutting military-grade service at speeds exceeding 100mph, disrupting drone missions, and it received no warning (Yuliia Dysa/Reuters)",
-       "url": "https://www.techmeme.com/261014/p7#a261014p7",
-       "official": false
-      },
-      {
-       "outlet": "France 24: Europe",
-       "title": "Ukraine says Starlink restricted operations overnight, disrupting military missions",
-       "url": "https://www.france24.com/en/europe/20261014-ukraine-says-starlink-restricted-operations-overnight-disrupting-military-missions",
-       "official": false
-      },
-      {
-       "outlet": "The Copenhagen Post (Denmark)",
-       "title": "Overnight attacks kill six people in Ukraine",
-       "url": "https://cphpost.dk/2026-10-14/global/overnight-attacks-kill-six-people-in-ukraine/",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line",
-       "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "ERT News (Greece)",
-       "title": "Ukraine: At least 7 dead in Russian strikes as SpaceX limits Starlink services, disrupting military operations",
-       "url": "https://www.ertnews.gr/eidiseis/diethni/oukrania-toulaxiston-7-nekroi-apo-rosika-pligmata-i-spacex-periorise-tis-ypiresies-starlink-prokalontas-diataraxi-se-stratiotikes-epixeiriseis/",
-       "official": false,
-       "translated_from": "el",
-       "original_title": "Ουκρανία: Τουλάχιστον 7 νεκροί από ρωσικά πλήγματα – Η SpaceX περιόρισε τις υπηρεσίες Starlink, προκαλώντας διαταραχή σε στρατιωτικές επιχειρήσεις"
-      },
-      {
-       "outlet": "SRF News (Switzerland)",
-       "title": "War in Ukraine: Zelenskyy says 600,000 without power following missile strikes",
-       "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-selenski-600-000-menschen-nach-raketenangriffen-ohne-strom",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Krieg in der Ukraine – Selenski: 600'000 Menschen nach Raketenangriffen ohne Strom"
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Russian attacks on Ukraine leave 600,000 without power as Zelenskyy says Moscow ‘disrespecting’ US",
-       "url": "https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "4d0f8917a3b8",
-     "title": "Donald Trump Announces Plans for Greenland Oil and Mineral Exploration",
-     "summary": "The U.S. president renewed focus on Greenland, announcing preparations for massive oil, gas, and mining exploration across the Arctic territory.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-14T10:00:51Z",
-     "outlet_count": 11,
-     "sources": [
-      {
-       "outlet": "CBS News",
-       "title": "Trump says Greenland oil, gas and mineral exploration \"getting ready to begin\"",
-       "url": "https://www.cbsnews.com/news/greenland-trump-oil-minerals-gas-exploration/",
-       "official": false
-      },
-      {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Trump says 'massive' resource exploration to begin in 'our new and beautiful Greenland'",
-       "url": "https://www.thejournal.ie/trump-oil-exploration-greenland-7192450-Oct2026/",
-       "official": false
-      },
-      {
-       "outlet": "Sky News: World",
-       "title": "Trump says 'massive' oil, gas and mineral exploration will begin in 'our' Greenland",
-       "url": "https://news.sky.com/story/trump-announces-that-massive-oil-gas-and-mineral-exploration-will-begin-in-greenland-13599119",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Trump says oil, gas exploration to begin in Greenland",
-       "url": "https://www.rte.ie/news/us/2026/1014/1595310-us-greenland/",
-       "official": false
-      },
-      {
-       "outlet": "France 24: Europe",
-       "title": "Trump says 'massive' oil, gas and mineral exploration to begin in Greenland",
-       "url": "https://www.france24.com/en/europe/20261014-trump-says-massive-oil-gas-and-mineral-exploration-to-begin-in-greenland",
-       "official": false
-      },
-      {
-       "outlet": "Yahoo News",
-       "title": "Trump says 'massive' oil, gas and mineral exploration to begin in Greenland",
-       "url": "https://www.yahoo.com/news/us/articles/trump-says-massive-oil-gas-064847493.html",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Trump says oil, gas and mineral exploration to begin in Greenland",
-       "url": "https://www.aljazeera.com/news/2026/10/14/trump-says-oil-gas-and-mineral-exploration-to-begin-in-greenland?traffic_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "Le Monde (France)",
-       "title": "Greenland: Donald Trump Announces \"Massive Oil, Gas, and Mining Exploration\" Being Prepared",
-       "url": "https://www.lemonde.fr/international/article/2026/10/14/groenland-donald-trump-annonce-qu-une-exploration-petroliere-gaziere-et-miniere-massive-se-prepare_6793673_3210.html",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Groenland : Donald Trump annonce qu’une « exploration pétrolière, gazière et minière massive » se prépare"
-      },
-      {
-       "outlet": "SVT Nyheter (Sweden)",
-       "title": "Trump: Ready to Search for Oil in Greenland",
-       "url": "https://www.svt.se/nyheter/utrikes/trump-redo-att-soka-efter-olja-pa-gronland",
-       "official": false,
-       "translated_from": "sv",
-       "original_title": "Trump: Redo att söka efter olja på Grönland"
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Trump announces plans for major oil, gas and mineral exploration in Greenland",
-       "url": "https://www.dw.com/en/trump-announces-plans-for-major-oil-gas-and-mineral-exploration-in-greenland/a-79656889?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "The Copenhagen Post (Denmark)",
-       "title": "Trump announces plans for major oil and mineral exploration in Greenland",
-       "url": "https://cphpost.dk/2026-10-14/news/politics/trump-announces-plans-for-major-oil-and-mineral-exploration-in-greenland/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "0e4431c2110d",
-     "title": "Germany Places Former Ukrainian Soldier on Trial for Nord Stream Sabotage",
-     "summary": "German investigators have brought a former Ukrainian military officer to trial on charges of belonging to the cell that sabotaged the Nord Stream gas pipelines.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-14T09:37:08Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Germany news: Nord Stream sabotage suspect's trial opens",
-       "url": "https://www.dw.com/en/germany-news-nord-stream-sabotage-suspect-s-trial-opens/live-79656436?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Ukrainian soldier goes on trial over sabotage of Nord Stream gas pipelines",
-       "url": "https://www.theguardian.com/business/2026/oct/14/ukrainian-soldier-to-go-on-trial-over-sabotage-of-nord-stream-gas-pipelines",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-       "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "Former Ukrainian military officer to stand trial in Germany over Nord Stream sabotage",
-       "url": "https://www.euronews.com/2026/10/14/former-ukrainian-military-officer-to-stand-trial-in-germany-over-nord-stream-sabotage",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ab703fe9cbe8",
-     "title": "Russell Brand Trial Opens as Prosecutors Label Him a 'Ruthless' Predator",
-     "summary": "The sexual assault and rape trial of Russell Brand began in court, with prosecutors characterizing him as a calculated and ruthless predator.",
+     "id": "dd8788d8bb44",
+     "title": "Kremlin Expects Diesel Export Contracts Following US-Russia Agreement",
+     "summary": "The Kremlin announced that the first export contracts for Russian diesel are expected to be signed in the coming days following discussions between Vladimir Putin and Donald Trump.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-14T10:51:50Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Prosecutors describe Russell Brand as a sexual predator",
-       "url": "https://www.rte.ie/news/uk/2026/1014/1595309-russell-brand/",
-       "official": false
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Comedian Russell Brand was a sexual predator: British prosecutors",
-       "url": "https://www.straitstimes.com/world/europe/comedian-russell-brand-was-a-sexual-predator-british-prosecutors",
-       "official": false
-      },
-      {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Russell Brand is a 'ruthless, calculated and manipulative' predator, rape trial hears",
-       "url": "https://www.thejournal.ie/russell-brand-rape-trial-7192536-Oct2026/",
-       "official": false
-      },
-      {
-       "outlet": "New York Post",
-       "title": "Russell Brand admits he’s ‘concerned’ at start of rape trial where he’s accused of being ‘ruthless sexual predator’",
-       "url": "https://nypost.com/2026/10/14/world-news/russell-brand-admits-hes-concerned-at-start-of-rape-trial-where-hes-quickly-called-a-ruthless-sexual-predator/",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Russell Brand was ‘ruthless and calculated’, prosecutors tell jury as rape and sexual assault trial begins",
-       "url": "https://www.theguardian.com/uk-news/live/2026/oct/14/russell-brand-trial-latest-news-updates",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "Prosecution calls Russell Brand 'ruthless' sexual predator at opening of sex assault trial",
-       "url": "https://www.euronews.com/2026/10/14/prosecution-calls-russell-brand-ruthless-sexual-predator-at-opening-of-sex-assault-trial",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "fe41a4ae11da",
-     "title": "Russia Arrests Japanese Journalist on Espionage Charges",
-     "summary": "Russian security services arrested a Hokkaido Shimbun journalist in the Sakhalin region on suspicion of gathering military intelligence.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-14T10:55:54Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Sky News: World",
-       "title": "Japanese journalist arrested in Russia on suspicion of spying",
-       "url": "https://news.sky.com/story/japanese-journalist-arrested-in-russia-on-suspicion-of-spying-13598988",
-       "official": false
-      },
-      {
-       "outlet": "The Kyiv Independent (Ukraine)",
-       "title": "Russia detains Japanese journalist on espionage charges",
-       "url": "https://kyivindependent.com/russia-detains-japanese-journalist-on-espionage-charges/",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "Japanese journalist arrested in Russia's Sakhalin region on spying charges",
-       "url": "https://www.thehindu.com/news/international/japanese-journalist-arrested-in-russias-sakhalin-region-on-spying-charges/article71582418.ece",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "Russia arrests Japanese journalist on spying charges",
-       "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "Russia arrests Japanese Hokkaido Shimbun journalist on suspicion of spying",
-       "url": "https://www.euronews.com/2026/10/14/russia-arrests-japanese-hokkaido-shimbun-journalist-on-suspicion-of-spying",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3e20063476ad",
-     "title": "World's Oldest Shipwreck Discovered Off the Turkish Coast",
-     "summary": "Maritime archaeologists announced the discovery of what is believed to be the world's oldest known shipwreck off the coast of Turkey.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-14T10:25:46Z",
+     "published": "2026-10-14T15:42:00Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "BBC News: Europe",
-       "title": "World's oldest shipwreck found off coast of Turkey",
-       "url": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+       "outlet": "franceinfo (France)",
+       "title": "Diesel agreement between the US and Russia to be concluded \"in the coming days,\" assures the Kremlin",
+       "url": "https://www.franceinfo.fr/economie/automobile/essence/l-accord-sur-le-diesel-entre-les-etats-unis-et-la-russie-aura-lieu-dans-les-prochains-jours-assure-le-kremlin_8237356.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "L'accord sur le diesel entre les Etats-Unis et la Russie sera conclu \"dans les prochains jours\", assure le Kremlin"
+      },
+      {
+       "outlet": "ERT News (Greece)",
+       "title": "Moscow: Russia agreement to be signed in the coming days",
+       "url": "https://www.ertnews.gr/eidiseis/diethni/mosxa-mesa-stis-epomenes-imeres-i-ypografi-tis-symfonias-rosias-ipa-gia-to-ntizel/",
+       "official": false,
+       "translated_from": "el",
+       "original_title": "Μόσχα: Μέσα στις επόμενες ημέρες η υπογραφή της συμφωνίας Ρωσίας"
+      }
+     ]
+    },
+    {
+     "id": "42840457f6b0",
+     "title": "Sally Rooney Books Withdrawn From Sale in the UK Over Legislation Concerns",
+     "summary": "Publisher Faber announced that Sally Rooney's books will no longer be published or sold in the United Kingdom due to regulatory and legislative restrictions surrounding Palestine Action support.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-14T14:42:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Sally Rooney's books to be withdrawn from sale in the UK",
+       "url": "https://www.rte.ie/entertainment/2026/1014/1595383-sally-rooneys-books-to-be-withdrawn-from-sale-in-the-uk/",
        "official": false
       },
       {
-       "outlet": "ORF News (Austria)",
-       "title": "Oldest shipwreck discovered off Turkish coast",
-       "url": "https://orf.at/stories/3445049/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Ältestes Schiffswrack vor türkischer Küste entdeckt"
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Sally Rooney's books will no longer be published in UK due to her support for Palestine Action",
+       "url": "https://www.thejournal.ie/sally-rooney-books-pulled-from-sale-uk-palestine-action-faber-7193162-Oct2026/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e0e0dc0b04c3",
+     "title": "Protesting Students Clash with Riot Police During Fire at Albanian Ministry",
+     "summary": "Riot police deployed in Tirana as student protests turned volatile, culminating in a fire breaking out at Albania's Ministry of Education.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-14T14:56:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Fire breaks out at Albania's Education Ministry during student protest",
+       "url": "https://www.straitstimes.com/world/europe/fire-breaks-out-at-albanias-education-ministry-during-student-protest",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Albania: Fire at Education Ministry as students protest",
+       "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-all-1573-rdf",
+       "official": false
       }
      ]
     }
@@ -1252,70 +1112,68 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "c9b734b9459c",
-     "title": "Japan's Agriculture Minister Yana Resigns Over Budget Cut Remarks",
-     "summary": "Agriculture Minister Yana submitted his resignation following brief parliamentary questioning regarding controversial remarks on budget cuts.",
+     "id": "f19595cfb6ae",
+     "title": "Tokyo Requests Information on Russia's Detention of Japanese Reporter",
+     "summary": "The Japanese government is seeking urgent information and consular access following the detention of a Japanese journalist by Russian authorities.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-14T11:00:53Z",
-     "outlet_count": 4,
+     "published": "2026-10-14T15:45:24Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Scandal-hit agriculture minister Yana announces resignation",
-       "url": "https://www.japantimes.co.jp/news/2026/10/14/japan/politics/takaichi-cabinet-yana-parliament-resigns/",
-       "official": false
-      },
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Agriculture Minister Yana submits resignation after brief questioning",
-       "url": "http://www.asahi.com/articles/ASVBF3W07VBFUQIP05BM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "簗農水相が辞表提出「これ以上迷惑かけるわけには」 質疑2分だけ"
-      },
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Agriculture Minister Yana submits resignation: Q&A",
-       "url": "https://mainichi.jp/articles/20261014/k00/00m/010/236000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "「これ以上迷惑かけるわけには…」 簗農相が辞表提出 一問一答"
-      },
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Agriculture Minister Yana submits resignation over budget cut remarks",
-       "url": "https://mainichi.jp/articles/20261014/k00/00m/010/233000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "簗農相、高市首相に辞表提出 「予算カット」発言問題など受け"
-      },
-      {
        "outlet": "Nikkei Asia",
-       "title": "Japan's scandal-hit agriculture minister quits in blow to PM Takaichi",
-       "url": "https://asia.nikkei.com/politics/japan-s-scandal-hit-agriculture-minister-quits-in-blow-to-pm-takaichi",
+       "title": "Tokyo seeks information on Russia's detention of Japanese reporter",
+       "url": "https://asia.nikkei.com/politics/international-relations/tokyo-seeks-information-on-russia-s-detention-of-japanese-reporter",
        "official": false
       }
      ]
     },
     {
-     "id": "37e7e921960f",
-     "title": "Tokyo International Film Festival Announces 2026 Competition Slate",
-     "summary": "Organizers detailed the upcoming Tokyo International Film Festival, featuring three Japanese films in competition alongside special events starting October 26.",
+     "id": "b46b205431d5",
+     "title": "Three Arrested in Shizuoka Prefecture Over Public Construction Bid-Rigging",
+     "summary": "Japanese authorities arrested three individuals, including a prefectural employee and a civil engineering office worker, over allegations of leaking scheduled bidding prices.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-14T14:59:28Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Three Arrested, Including Prefecture Official, Over Alleged Bid-Rigging in Shizuoka Prefecture",
+       "url": "http://www.asahi.com/articles/ASVBG4RBSVBGUTPB015M.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "静岡県発注工事で予定価格を業者に漏らした疑い、県職員ら3人逮捕"
+      },
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Shizuoka Prefecture Apologizes for Arrest of Civil Engineering Office Employee Over Alleged Bid-Rigging",
+       "url": "https://mainichi.jp/articles/20261014/k00/00m/310/325000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "静岡県、土木事務所職員逮捕で謝罪 入札予定価格漏らした疑い"
+      }
+     ]
+    },
+    {
+     "id": "d63602648bd4",
+     "title": "Smoke Incident Triggers Evacuation at Commercial Complex Near Sapporo Station",
+     "summary": "A smoke detection incident at a commercial facility directly connected to JR Sapporo Station prompted emergency evacuations and temporary closures.",
      "importance": 2,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-14T11:00:13Z",
+     "published": "2026-10-14T14:50:32Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Tokyo International Film Festival Opens on Oct. 26 Featuring Three Japanese Films in Competition and Events",
-       "url": "https://mainichi.jp/articles/20261012/k00/00m/200/019000c",
+       "title": "Smoke Reported at Commercial Facility Directly Connected to JR Sapporo Station, Causing Panic and Evacuations with Closure on the 15th",
+       "url": "https://mainichi.jp/articles/20261014/k00/00m/310/326000c",
        "official": false,
        "translated_from": "ja",
-       "original_title": "映画の推し事:東京国際映画祭 26日開幕 コンペに日本映画3本 イベントも"
+       "original_title": "JR札幌駅直結の商業施設で煙 客ら避難、現場騒然 15日は休業"
       }
      ]
     }
@@ -1325,93 +1183,47 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "da8d98f86c3c",
-     "title": "Opposition Calls for Probe into Religious Group Memberships in Ruling Party",
-     "summary": "South Korea's main opposition People Power Party demanded a thorough investigation after followers of the Shincheonji religious sect were discovered joining the ruling party.",
+     "id": "1762adf0c79c",
+     "title": "Newborn Hypothermia Prevention Warmer Wins Seoul Design Award Grand Prize",
+     "summary": "A newborn warmer designed to prevent infant hypothermia took home the grand prize among 1,204 competing designs from 91 countries at the Seoul Design Award.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-14T10:57:04Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "Main opposition demands probe into suspicious membership of Shincheonji followers in ruling party",
-       "url": "https://en.yna.co.kr/view/AEN20261014008500315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Main opposition demands probe into suspicious membership of Shincheonji followers in ruling party",
-       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261014/main-opposition-demands-probe-into-suspicious-membership-of-shincheonji-followers-in-ruling-party?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "550dbaf538b9",
-     "title": "President Lee Appoints New Chief of Staff and Pledges Gambling Ring Repatriation",
-     "summary": "President Lee Jae-myung appointed National Tax Service head Lim Kwang-hyun as his new chief of staff and vowed to repatriate the mastermind behind a massive illegal gambling ring.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-14T10:57:04Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "3 Trillion Won Gambling Ring Bust, President Lee Pledges Repatriation",
-       "url": "https://www.chosun.com/jp/economy-jp/2026/10/14/UM5UUIPTSZBFVLIXP66IWFUBXY/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "3兆ウォン賭博組織摘発、李大統領「送還」"
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "President Lee names National Tax Service head as new chief of staff",
-       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261014/president-lee-names-national-tax-service-head-as-new-chief-of-staff?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "026bd7033720",
-     "title": "Defense Chief Inspects Gwangju Air Base Ahead of Relocation for Chip Project",
-     "summary": "Defense Minister Kang Shin-chul visited the Gwangju air base to verify defense readiness as the government prepares to relocate the facility for a major semiconductor project.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-14T10:57:04Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Defense chief visits Gwangju air base amid planned relocation for chip project",
-       "url": "https://en.yna.co.kr/view/AEN20261014007051315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Defense chief visits Gwangju air base amid planned relocation for chip project",
-       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261014/defense-chief-visits-gwangju-air-base-amid-planned-relocation-for-chip-project?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6b6c44a1e7f7",
-     "title": "Special Counsel Raids National Election Commission Over Bid Rigging",
-     "summary": "A special counsel team raided the National Election Commission over suspected multi-billion-won bid-rigging corruption involving election supplies.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-14T10:57:04Z",
+     "published": "2026-10-14T15:41:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Korea Times",
-       "title": "Special counsel raids election watchdog over alleged bidding corruption",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261014/special-counsel-raids-election-watchdog-over-alleged-bidding-corruption?utm_source=rss",
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "91 countries, 1204 works compete in Seoul... 'Warmer preventing newborn hypothermia' wins grand prize",
+       "url": "https://www.chosun.com/culture-life/archi-design/2026/10/15/NIPDBAHV5VDF5HXZOWM2LW2IU4/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "91國 1204개 작품 서울서 경쟁… ‘신생아 저체온증 막는 워머’ 대상"
+      },
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Newborn warmer wins Seoul Design Award",
+       "url": "https://www.chosun.com/jp/culture-life-jp/2026/10/15/CUKY6GCAZRHSBLQCAM5YSBRHGU/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "ソウルデザイン大賞に新生児ウォーマー"
+      }
+     ]
+    },
+    {
+     "id": "6f87569196f8",
+     "title": "LG Twins Hold Off Doosan Bears in KBO Postseason Victory",
+     "summary": "The LG Twins secured a postseason victory in the Korea Baseball Organization playoffs following strong relief pitching and outfield execution.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-14T14:14:05Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Twins skipper sings praise of relievers, outfielder in KBO postseason victory",
+       "url": "https://en.yna.co.kr/view/AEN20261014010500315",
        "official": false
       }
      ]
@@ -1420,18 +1232,212 @@
   },
   {
    "name": "Deals",
-   "stories": []
+   "stories": [
+    {
+     "id": "b83ad620dc43",
+     "title": "Save $800 on Apple's Premium M5 Max MacBook Pro",
+     "summary": "Amazon is offering an $800 discount on Apple's high-end M5 Max MacBook Pro, dropping the price from $4,099 down to $3,299.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-14T15:16:30Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Save $800 on Apple's premium M5 Max MacBook Pro",
+       "url": "https://appleinsider.com/articles/26/10/14/save-800-on-apples-premium-m5-max-macbook-pro?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2378f785ea58",
+     "title": "Pre-order The Legend of Zelda: Ocarina of Time Switch 2 Remake for $10 Off",
+     "summary": "Amazon and Walmart have discounted physical preorders for The Legend of Zelda: Ocarina of Time Remake on Switch 2 by $10 down to $59.88.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-14T14:04:50Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "$10 off MSRP - The Legend of Zelda: Ocarina of Time (Switch 2) preorder on Amazon ($59.88) amzn.to/4iearyM Walmart buff.ly/SVA5svi #ad Overview trailer on Nintendo Today: nintendo.today/s/aCKYLrwg",
+       "url": "https://amzn.to/4iearyM",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "The Legend of Zelda: Ocarina of Time remake plays even better than it looks",
+       "url": "https://www.engadget.com/2285785/the-legend-of-zelda-ocarina-of-time-preview/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "The Legend of Zelda: Ocarina of Time Remake Is Surprisingly More Different Than You Think",
+       "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-is-more-different-than-you-think-ign-preview",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "The Legend of Zelda: Ocarina of Time – Overview Trailer – Nintendo Switch 2 www.youtube.com/watch?v=8v8e...",
+       "url": "https://www.youtube.com/watch?v=8v8eDMh1o3g",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "The Legend of Zelda: Ocarina of Time remake ‘Overview’ trailer",
+       "url": "https://www.gematsu.com/2026/10/the-legend-of-zelda-ocarina-of-time-remake-overview-trailer",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Zelda: Ocarina Of Time Overview Trailer Is So Beautiful, We Can't Cope",
+       "url": "https://www.nintendolife.com/news/2026/10/zelda-ocarina-of-time-overview-trailer-is-so-beautiful-we-cant-cope",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "The Legend Of Zelda: Ocarina Of Time Remake’s Latest Trailer Shows A Lot Of Old, But Some Surprising New",
+       "url": "https://kotaku.com/legend-of-zelda-ocarina-of-time-switch-2-remake-bosses-rematch-2000745897",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "The Legend of Zelda: Ocarina of Time Remake Preorders Are $10 Off at Amazon and Walmart",
+       "url": "https://www.ign.com/articles/zelda-ocarina-of-time-remake-preorder-discount-update",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "03e7ec6aa46a",
+     "title": "Save on Apple AirPods Pro 3 and AirPods Max 2 Alongside HomeView Pre-orders",
+     "summary": "Retailers are offering launch discounts on Apple accessories, including $50 off AirPods Pro 3, $120 off AirPods Max 2, and initial promotions on the new HomeView.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-14T15:28:13Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Deals: Apple HomeView pre-order discount, AirTag 2, Magic Keyboard, AirPods, more",
+       "url": "https://9to5mac.com/2026/10/14/apple-homeview-pre-order-deals-live/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5b7986ef0199",
+     "title": "Get Castlevania: Belmont's Curse on Sale for PC and Xbox",
+     "summary": "Castlevania: Belmont's Curse is discounted across digital storefronts, available for $22.49 on Steam via Fanatical and GMG, or $26.99 on Xbox via Newegg.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-14T15:38:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Castlevania: Belmont's Curse (Xbox Digital) is $26.99 on Newegg w/ code EPF56858 buff.ly/FtZkM56 #ad (Steam) $22.49 Fanatical buff.ly/H4Joqab GMG buff.ly/6s6myx2 out tonight",
+       "url": "https://buff.ly/FtZkM56",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8a5c9fcd6b85",
+     "title": "Humble Choice October Drop Features Psychonauts 2 and More for $15",
+     "summary": "The monthly Humble Choice subscription bundle is offering a selection of notable PC games, including Psychonauts 2 and recent releases, for $14.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-14T14:45:45Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "$15 gets you Psychonauts 2, the latest Like a Dragon game, and more",
+       "url": "https://www.theverge.com/gadgets/1011050/humble-choice-valve-index-borderlands-odyssey-deal-sale",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ac811ae7f020",
+     "title": "Pre-order Resident Evil 2, 3, and 4 Switch 2 Physical Imports",
+     "summary": "Video Games Plus has opened pre-orders for physical English/Japanese import bundles of Resident Evil 2, 3, and 4 for Nintendo Switch 2 starting at $21.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-14T14:08:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Biohazard Resident Evil 2, 3 & 4 (Switch 2 KC English/JPN import) up for preorder at VGP ($21/$28/$35 US Dollars or $77 in bundle) buff.ly/2lRD39O #ad",
+       "url": "https://buff.ly/2lRD39O",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "40abd8ea273f",
+     "title": "The Witch's Bakery Launches with 10% Discount on Steam and Consoles",
+     "summary": "The Witch's Bakery is available at a 10% launch discount, pricing the game at $17.99 across Steam, the Nintendo eShop, and PlayStation platforms.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-14T15:31:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "The Witch's Bakery is $17.99 on Steam (10% off launch discount) buff.ly/ZV3kafD US eShop buff.ly/FL2t6t0 US PS+ buff.ly/bQoohIt Xbox buff.ly/A49c7OB",
+       "url": "https://buff.ly/ZV3kafD",
+       "official": false
+      }
+     ]
+    }
+   ]
   }
  ],
  "date": "2026-10-14",
- "generated_at": "2026-10-14T11:00:53Z",
+ "generated_at": "2026-10-14T15:45:24Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1153,
-  "clusters": 981,
-  "feeds_ok": 176,
-  "feeds_failed": 0
+  "items": 923,
+  "clusters": 818,
+  "feeds_ok": 172,
+  "feeds_failed": 4
  },
- "feed_health": []
+ "feed_health": [
+  {
+   "key": "newsweek",
+   "title": "Newsweek",
+   "status": "error",
+   "detail": "HTTPError: 404 Client Error: Not Found for url: https://www.newsweek.com/rss"
+  },
+  {
+   "key": "wapo-politics",
+   "title": "The Washington Post: Politics",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
+  },
+  {
+   "key": "helsinkitimes",
+   "title": "Helsinki Times (Finland)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:141: not well-formed (invalid token)"
+  },
+  {
+   "key": "cphpost",
+   "title": "The Copenhagen Post (Denmark)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:119: not well-formed (invalid token)"
+  }
+ ]
 }
