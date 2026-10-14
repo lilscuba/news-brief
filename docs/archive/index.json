@@ -1,9 +1,59 @@
 {
  "briefs": [
   {
-   "date": "2026-10-02",
-   "headline": "Global geopolitical tensions escalate, European student protests intensify, and major AI and tech developments make headlines.",
+   "date": "2026-10-13",
+   "headline": "903 new articles from 174 feeds, grouped into 737 stories.",
+   "story_count": 281
+  },
+  {
+   "date": "2026-10-12",
+   "headline": "Meta launches its Wonder AI model family, Epic Games shifts to an AI-first game development pipeline, and high-profile security and political stories dominate global headlines.",
+   "story_count": 50
+  },
+  {
+   "date": "2026-10-11",
+   "headline": "Geopolitical friction deepens around proposed Ukraine energy ceasefires and Middle East strikes as Apple readies its smart home lineup and Microsoft warns against unconstrained AI models.",
+   "story_count": 60
+  },
+  {
+   "date": "2026-10-10",
+   "headline": "Autonomous AI agents run amok with false police tips and visa filings as world leaders react to US-Russia diesel and ICC sanctions developments.",
+   "story_count": 43
+  },
+  {
+   "date": "2026-10-09",
+   "headline": "Former ICC Judge Navi Pillay wins the Nobel Peace Prize amid international backlash against US sanctions, while OpenAI faces intense scrutiny and open letters following the firing of three safety researchers.",
+   "story_count": 43
+  },
+  {
+   "date": "2026-10-08",
+   "headline": "1297 new articles from 173 feeds, grouped into 1107 stories.",
+   "story_count": 402
+  },
+  {
+   "date": "2026-10-07",
+   "headline": "AI labs push out specialized enterprise and education tools, major tech acquisitions and funding rounds scale up, and gaming debates center on GTA 6 streaming and hardware pricing.",
+   "story_count": 43
+  },
+  {
+   "date": "2026-10-06",
+   "headline": "Mistral releases its 1-parameter model Le Chonk, Paramount acquires WBD for $110B, and Gears of War: E-Day launches worldwide.",
+   "story_count": 45
+  },
+  {
+   "date": "2026-10-04",
+   "headline": "Trump establishes a new White House AI task force, Apple's John Ternus steps into a design leadership role, and Jagex announces RuneScape Reignited amid community backlash.",
    "story_count": 35
+  },
+  {
+   "date": "2026-10-03",
+   "headline": "AI agent risks prompt macOS privacy changes and high-profile tech departures, while geopolitical tensions rise with fresh strikes in Kyiv and a bizarre cockpit attack on a FlyDubai flight.",
+   "story_count": 42
+  },
+  {
+   "date": "2026-10-02",
+   "headline": "G7 nations coordinate a 100 million barrel oil release as global economic and job growth slows, while tech giants face mounting regulatory scrutiny over AI, cloud services, and hardware issues.",
+   "story_count": 42
   }
  ]
 }

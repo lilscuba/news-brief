@@ -80,6 +80,9 @@ struct StoryDetailView: View {
 
     private func header(_ coverage: Coverage) -> some View {
         VStack(alignment: .leading, spacing: 12) {
+            if let image = story.image {
+                StoryImage(url: image, topic: story.category)
+            }
             StoryTags(story: story)
             Text(story.title)
                 .font(.title2.bold())

@@ -5,6 +5,8 @@ import re
 import unicodedata
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
+from requests.utils import requote_uri
+
 _TRACKING_PARAMS = {
     "fbclid", "gclid", "mc_cid", "mc_eid", "ref", "ref_src", "source", "cmpid", "taid",
     "guccounter", "smid", "mod", "rss", "via", "feature", "share",
@@ -35,6 +37,10 @@ def is_web_url(url: str) -> bool:
         return urlsplit(url.strip()).scheme.lower() in ("http", "https")
     except ValueError:
         return False
+# Tracking pixels, avatars, emoji and share buttons that sit in feed HTML but aren't a story's picture.
+_NOT_A_PICTURE = re.compile(
+    r"feedburner\.com|feedsportal|doubleclick|pixel\.wp\.com|stats\.wordpress|gravatar\.com|"
+    r"/emoji/|/smilies/|/share[-_]|\.svg(?:$|\?)", re.IGNORECASE)
 
 
 def canonical_url(url: str) -> str:
@@ -54,6 +60,20 @@ def canonical_url(url: str) -> str:
     ]
     path = parts.path.rstrip("/") or "/"
     return urlunsplit(("https", host, path, urlencode(sorted(query)), ""))
+
+
+def image_url(url: str | None) -> str | None:
+    """An https URL the app can load for a picture, or None if it isn't a usable one."""
+    if not url:
+        return None
+    url = html.unescape(url.strip())
+    if url.startswith("//"):
+        url = "https:" + url
+    elif url.startswith("http://"):
+        url = "https://" + url[len("http://"):]  # iOS only loads https
+    if not url.startswith("https://") or len(url) > 1000 or _NOT_A_PICTURE.search(url):
+        return None
+    return requote_uri(url)
 
 
 def strip_html(text: str) -> str:

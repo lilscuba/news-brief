@@ -57,6 +57,17 @@ struct Brief: Codable, Hashable, Sendable, Identifiable {
         }.map(\.element)
     }
 
+    /// Every story as one feed with the topics mixed together: top stories first, then the
+    /// rest by score. Briefs saved before stories carried a score rank by outlet count instead.
+    var stories: [Story] {
+        let rest = sections.flatMap(\.stories).enumerated().sorted { l, r in
+            let a = l.element.score ?? Double(l.element.outletCount)
+            let b = r.element.score ?? Double(r.element.outletCount)
+            return a != b ? a > b : l.offset < r.offset
+        }
+        return top + rest.map(\.element)
+    }
+
     var displayDate: String {
         guard let day = Self.dayFormatter.date(from: date) else { return date }
         return day.formatted(.dateTime.weekday(.wide).month(.wide).day())
@@ -103,6 +114,8 @@ struct Story: Codable, Hashable, Sendable, Identifiable {
     var opinion: Bool? = nil
     /// Feed score plus the reader's boosts; orders stories across topics. Nil in old briefs.
     var score: Double? = nil
+    /// Picture for the feed card: the first of the story's (enabled) sources that has one.
+    var image: URL? = nil
 
     /// The headline comes from the first source (see `_story` in briefing/service.py).
     var isTranslated: Bool { sources.first?.translatedFrom != nil }

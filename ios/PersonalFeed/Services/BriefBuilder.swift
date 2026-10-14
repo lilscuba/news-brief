@@ -123,7 +123,9 @@ enum BriefBuilder {
             },
             aiSummary: s.aiSummary,
             opinion: s.opinion,
-            score: score
+            score: score,
+            // The first enabled source with a picture, so turning an outlet off shows another's.
+            image: sources.lazy.compactMap { $0.image.flatMap(URL.init(string:)) }.first
         )
     }
 

@@ -85,8 +85,9 @@ extension VerticalAlignment {
 enum StoryCaption {
     /// One Text, so at large sizes it wraps as a sentence instead of each piece truncating alone:
     /// "⚠ Credible rumor · The Verge +3 · 2h ago · Tech".
+    /// `showsCoverage` false names only the lead outlet (feed cards show the count in a pill).
     static func text(_ story: Story, showsTopic: Bool, hidesDealLabel: Bool = false, isSaved: Bool = false,
-                     now: Date) -> Text {
+                     showsCoverage: Bool = true, now: Date) -> Text {
         var parts: [Text] = []
         if let label = story.notableReliability, !(hidesDealLabel && label == .deal) {
             let icon = Text(Image(systemName: label.systemImage)).foregroundStyle(label.tint)
@@ -95,7 +96,7 @@ enum StoryCaption {
         if story.isOpinion {
             parts.append(Text("Opinion").fontWeight(.semibold).foregroundStyle(.primary))
         }
-        if let outlet = outletText(story) {
+        if let outlet = showsCoverage ? outletText(story) : rowOutlet(story.leadOutlet).nilIfEmpty {
             parts.append(story.isTranslated
                          ? Text("\(outlet) \(Image(systemName: "globe"))")
                          : Text(outlet))
@@ -380,4 +381,8 @@ struct MinuteClock: ViewModifier {
 extension View {
     /// Keeps story ages in this list current, minute by minute.
     func minuteClock() -> some View { modifier(MinuteClock()) }
+}
+
+private extension String {
+    var nilIfEmpty: String? { isEmpty ? nil : self }
 }

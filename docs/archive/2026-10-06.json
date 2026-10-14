@@ -1,0 +1,1427 @@
+{
+ "version": 1,
+ "headline": "Mistral releases its 1-parameter model Le Chonk, Paramount acquires WBD for $110B, and Gears of War: E-Day launches worldwide.",
+ "top": [
+  {
+   "id": "8c3c18c2c04e",
+   "title": "Paramount Closes $110B Acquisition of Warner Bros. Discovery to Form Skydance",
+   "summary": "Paramount has officially finalized its massive $110 billion acquisition of Warner Bros. Discovery, creating a new media powerhouse under the Skydance banner that will ultimately merge HBO Max and Paramount Plus into a single streaming service.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-06T16:26:29Z",
+   "outlet_count": 11,
+   "sources": [
+    {
+     "outlet": "Straight Arrow News",
+     "title": "Paramount Skydance completes Warner Bros. Discovery merger",
+     "url": "https://san.com/cc/paramount-skydance-completes-warner-bros-discovery-merger/",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Paramount closes historic Warner Bros. merger to form Skydance",
+     "url": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Paramount and Warner Bros merge into one Hollywood giant",
+     "url": "https://www.dw.com/en/paramount-and-warner-bros-merge-into-one-hollywood-giant/a-79565762?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "Paramount finalizes the acquisition of Warner Bros. Discovery for $110 billion, creating a new film and television empire",
+     "url": "https://www.lemonde.fr/economie/article/2026/10/06/paramount-finalise-le-rachat-de-warner-bros-discovery-pour-110-milliards-de-dollars-creant-un-nouveau-conglomerat-geant-du-cinema-et-de-la-television_6789017_3234.html",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Paramount finalise le rachat de Warner Bros Discovery pour 110 milliards de dollars, créant un nouvel empire du cinéma et de la télévision"
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Controversial $110 billion mega-merger of Paramount and Warner Bros. finally closes",
+     "url": "https://www.engadget.com/2278715/paramount-warner-bros-mega-merger-finally-closes/",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Paramount Skydance completes $110 billion ​takeover of Warner Bros.",
+     "url": "https://www.nbcnews.com/video/paramount-skydance-completes-110-billion-takeover-of-warner-bros-271114821749",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Paramount closes $110 billion deal to acquire Warner Bros. Discovery",
+     "url": "https://www.cbsnews.com/news/paramount-warner-bros-discovery-deal-skydance/",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Paramount and Warner Bros merge to become one Hollywood giant, Skydance",
+     "url": "https://www.thehindu.com/business/paramount-and-warner-bros-merge-to-become-one-hollywood-giant-skydance/article71552210.ece",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "HBO Max and Paramount Plus will merge into a single streamer under Skydance",
+     "url": "https://www.theverge.com/entertainment/1005696/hbo-max-paramout-plus-merge-skydance",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Paramount wraps up Warner Bros mega merger to create Hollywood powerhouse Skydance",
+     "url": "https://www.straitstimes.com/world/united-states/paramount-wraps-up-mega-warner-bros-merger-to-create-hollywood-powerhouse-skydance",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Paramount closes historic $110B deal for Warner Bros. Discovery to create Skydance",
+     "url": "https://www.axios.com/2026/10/06/paramount-warner-bros-discovery-deal-skydance",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "e9dad86a6b68",
+   "title": "Mistral Unveils Mistral Large 4 'Le Chonk', a 1T-Parameter Open-Weight Model",
+   "summary": "Mistral has announced its largest model yet, Mistral Large 4, a one-trillion-parameter open-weight model trained on European infrastructure using 4,000 Nvidia Grace Blackwell chips aimed at general agentic capabilities.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-06T14:18:08Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Mistral releases Mistral Large 4, dubbed \"le Chonk\", a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Nvidia Grace Blackwells (Sabrina Ortiz/The Deep View)",
+     "url": "https://www.techmeme.com/261006/p22#a261006p22",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Mistral Large 4",
+     "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Mistral Large 4: \"Le Chonk\"",
+     "url": "https://mistral.ai/news/mistral-large-4/",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work",
+     "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "730688b83764",
+   "title": "White House Defends Trump Comments Regarding Potential Conflict Involving Iran and US Cities",
+   "summary": "The White House has defended comments made by Donald Trump at a Nebraska rally regarding high oil prices and letting Iran target cities like Los Angeles and San Diego, drawing sharp condemnation from California officials.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-06T16:50:22Z",
+   "outlet_count": 12,
+   "sources": [
+    {
+     "outlet": "NBC News",
+     "title": "California officials condemn Trump for saying Iran could ‘take out’ Los Angeles or San Diego",
+     "url": "https://www.nbcnews.com/politics/donald-trump/california-newsom-condemn-trump-iran-los-angeles-san-diego-rcna601821",
+     "official": false
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Trump suggests Iran could 'take out' LA and San Diego if it develops nuclear weapons",
+     "url": "https://abcnews.com/Politics/trump-suggests-iran-los-angeles-san-diego/story?id=137024894",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: Politics",
+     "title": "Trump Suggests Iran Could ‘Take Out’ L.A. or San Diego, Drawing Anger From California Leaders",
+     "url": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Trump remarks that Iran could \"take out\" Los Angeles, San Diego draw backlash",
+     "url": "https://www.axios.com/2026/10/06/trump-iran-take-out-la-san-diego",
+     "official": false
+    },
+    {
+     "outlet": "The Washington Post: Politics",
+     "title": "California leaders slam Trump for saying Iran could ‘take out’ L.A. or San Diego",
+     "url": "https://www.washingtonpost.com/politics/2026/10/06/california-leaders-slam-trump-saying-iran-could-take-out-la-or-san-diego/",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: US",
+     "title": "Trump’s suggestion that Iran could ‘take out’ LA or San Diego draws Republican rebuke",
+     "url": "https://www.theguardian.com/us-news/2026/oct/06/republican-trump-iran-los-angeles-san-diego",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "US denies Trump suggested Iran 'take out' US cities",
+     "url": "https://www.rte.ie/news/middle-east/2026/1006/1594298-iran-us/",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Trump suggests letting Iran \"take out\" LA, San Diego during rally",
+     "url": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Californians blast Trump remark that Iran could ‘take out’ Los Angeles, San Diego",
+     "url": "https://www.straitstimes.com/world/united-states/californians-blast-trump-remark-that-iran-could-take-out-los-angeles-san-diego",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "California officials furious over Trump’s Los Angeles San Diego Iran remarks",
+     "url": "https://www.washingtonexaminer.com/news/white-house/4755362/california-trump-iran-los-angeles-san-diego-war-cost/",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
+     "url": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "Donald Trump speaks about the obliteration of Los Angeles and San Diego by Iran",
+     "url": "https://www.spiegel.de/politik/donald-trump-spricht-ueber-ausloeschung-von-los-angeles-und-san-diego-durch-iran-a-aaf95ba2-5e18-4329-989b-313ff5673471#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Donald Trump spricht über Auslöschung von Los Angeles und San Diego durch Iran"
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "White House denies Trump suggested Iran should ‘take out’ US cities",
+     "url": "https://www.straitstimes.com/world/united-states/white-house-denies-trump-suggested-iran-should-take-out-us-cities",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "6b044edfebc7",
+   "title": "Gears of War: E-Day Launches Worldwide on Xbox and PC",
+   "summary": "Xbox's iconic tactical shooter franchise returns with the worldwide launch of Gears of War: E-Day, available now on Xbox Series X|S, PC, Game Pass, and Steam.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Gaming",
+   "published": "2026-10-06T16:44:09Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "title": "Gears of War: E-Day – Surviving the First Night of Emergence",
+     "url": "https://news.xbox.com/en-us/2026/10/06/gears-of-war-e-day-global-launch-tips-guide/",
+     "official": true
+    },
+    {
+     "outlet": "Xbox Wire",
+     "title": "Watch the Gears of War: E-Day Official Launch Trailer",
+     "url": "https://www.youtube.com/watch?v=3onc3ownB14#new_tab",
+     "official": true
+    },
+    {
+     "outlet": "Game File (Stephen Totilo)",
+     "title": "17 pro-union hours with the Gears of War: E-Day campaign",
+     "url": "https://www.gamefile.news/p/review-gears-of-war-eday",
+     "official": false
+    },
+    {
+     "outlet": "Steam News",
+     "title": "Gears of War: E-Day is Available Now",
+     "url": "https://store.steampowered.com/news/app/3010850/view/690896126641965356",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "46760e490ce5",
+   "title": "Francis Halzen Wins 2026 Nobel Prize in Physics for Antarctic Neutrino Research",
+   "summary": "The 82-year-old physicist has been awarded the Nobel Prize in physics for his pioneering work capturing high-energy neutrinos from space at the South Pole.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-06T10:16:28Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Nobel Prize in Physics goes to Francis Halzen",
+     "url": "https://www.nobelprize.org/prizes/physics/2026/",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Francis Halzen wins Nobel physics prize for Antarctic 'ghost particle' hunt",
+     "url": "https://www.channelnewsasia.com/world/francis-halzen-wins-nobel-physics-prize-antarctic-ghost-particle-hunt-6436066",
+     "official": false
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "Francis Halzen wins 2026 Nobel Prize in physics",
+     "url": "https://www.japantimes.co.jp/news/2026/10/06/world/science-health/nobel-physics-prize-2026/",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+     "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "7ded5c03aba5",
+     "title": "Reflection Releases Beam Open-Weight Mixture-of-Experts Model",
+     "summary": "Reflection has launched Beam, a 501-billion parameter open-weight system activating 23 billion parameters per token to match leading reasoning benchmarks.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-06T12:11:22Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Beam: Reflection's 501B open-weight model",
+       "url": "https://reflection.ai/blog/introducing-beam",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "Reflection's Beam becomes the most capable open-weight model built outside China",
+       "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "076c990b2594",
+     "title": "Google to Restrict Free Gemini Access to Flash Lite Starting October 9",
+     "summary": "Google is removing free user access to Gemini Flash and Pro models, limiting free-tier accounts exclusively to the Flash Lite model.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-06T13:19:01Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Google removes free access to Gemini Flash and Pro on October 9",
+       "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+       "official": false
+      },
+      {
+       "outlet": "The Verge AI",
+       "title": "Google is about to remove free access to Gemini Flash and Pro",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e2d92703cf72",
+     "title": "Google DeepMind Launches EmbeddingGemma 2",
+     "summary": "Google DeepMind has released EmbeddingGemma 2, a 740M-parameter model designed to map code, images, video, and audio in a shared embedding space under an Apache 2.0 license.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-06T16:20:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Google DeepMind launches EmbeddingGemma 2, a 740M-parameter model to map code, images, video, and audio in a shared embedding space, under an Apache 2.0 license (Google)",
+       "url": "https://www.techmeme.com/261006/p25#a261006p25",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "81de859178d3",
+     "title": "OpenAI Announces EU AI Act Compliant Text Watermarking",
+     "summary": "OpenAI has detailed its new text watermarking system for ChatGPT, Codex, and API integrations to comply with European Union AI Act regulations.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-05T20:46:17Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Verge AI",
+       "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+       "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "OpenAI details new text watermarking system for ChatGPT, Codex, and the API",
+       "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "60ef2af305e7",
+     "title": "Atlassian and OpenAI Expand Enterprise Knowledge Partnership",
+     "summary": "Atlassian and OpenAI are expanding their partnership to integrate frontier AI models more deeply with internal enterprise knowledge repositories.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-06T16:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+       "url": "https://openai.com/index/atlassian-partnership",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "ae71bd187bc8",
+     "title": "Insurers Brace for Potential Millions in Claims Arising From Rogue AI Agents",
+     "summary": "Insurers are preparing for a surge in liability claims as autonomous AI agents risk spinning out of control in enterprise deployments.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-06T16:06:46Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Insurers brace for millions in claims as AI agents spin out of control",
+       "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "ece48a1461dc",
+     "title": "Apple Invites Developers to Submit iPhone Duo Apps to the App Store",
+     "summary": "Apple has announced that developers can now submit apps updated specifically for the upcoming iPhone Duo form factor to the App Store.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-06T11:25:05Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple invites developers to submit iPhone Duo-ready apps to the App Store",
+       "url": "https://9to5mac.com/2026/10/05/apple-invites-developers-to-submit-iphone-duo-ready-apps-to-the-app-store/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Announces iPhone Duo Apps Can Now Be Submitted to App Store",
+       "url": "https://www.macrumors.com/2026/10/05/apple-opens-iphone-duo-app-submissions/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Developers can now submit iPhone Duo apps & hope for approval in time",
+       "url": "https://appleinsider.com/articles/26/10/06/developers-can-now-submit-iphone-duo-apps-hope-for-approved-in-time?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c6f17879a239",
+     "title": "Apple Seeds Third macOS 27.2 and iOS 27.2 Betas",
+     "summary": "Apple has pushed out the third developer and public beta builds for macOS 27.2 and iOS 27.2, featuring minor system tweaks and health app updates.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-06T17:04:33Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple releases third iOS 27.2 developer beta for iPhone",
+       "url": "https://9to5mac.com/2026/10/05/apple-releases-third-ios-27-2-developer-beta-for-iphone/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "macOS 27.2 Golden Gate beta 3 now available, here’s what to expect",
+       "url": "https://9to5mac.com/2026/10/05/macos-27-2-golden-gate-beta-3-now-available-heres-what-to-expect/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple releases beta 3 for iPadOS 27.2, watchOS 27.2, and more",
+       "url": "https://9to5mac.com/2026/10/05/apple-releases-beta-3-for-ipados-27-2-watchos-27-2-and-more/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Seeds Third macOS Golden Gate 27.2 Beta to Developers",
+       "url": "https://www.macrumors.com/2026/10/05/apple-seeds-macos-27-2-beta-3/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple releases second iOS 27.2 public beta with new iPhone Health app",
+       "url": "https://9to5mac.com/2026/10/06/apple-releases-second-ios-27-2-public-beta-with-new-iphone-health-app/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "macOS 27.2 public beta 2 now available, here’s what’s coming",
+       "url": "https://9to5mac.com/2026/10/06/macos-27-2-public-beta-2-now-available-heres-whats-coming/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7d21eb44e204",
+     "title": "Rumor Suggests Apple Considered 16GB RAM for iPhone 18 Pro and Duo",
+     "summary": "A leak indicates that Apple previously evaluated packing 16GB of RAM into the A20 Pro chip destined for future iPhone 18 Pro models.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Tech",
+     "published": "2026-10-06T15:09:12Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "iPhone 18 Pro and Duo Were Once Planned With 16GB RAM, Leaker Says",
+       "url": "https://www.macrumors.com/2026/10/06/iphone-18-pro-and-duo-planned-with-16gb/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Rumor: Apple considered 16GB iPhone 18 Pro, iPhone Duo",
+       "url": "https://appleinsider.com/articles/26/10/06/rumor-apple-considered-16gb-iphone-18-pro-iphone-duo?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2b5f572b4bae",
+     "title": "Google Signs Massive Nuclear and Renewable Power Deal with Constellation Energy",
+     "summary": "Google has contracted 3,590 MW of power from Constellation Energy, with new nuclear energy accounting for roughly a quarter of the total capacity.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-06T11:41:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Google contracts for 3,590 MW of power from Constellation Energy in the US' largest power grid, with new nuclear energy accounting for ~25% of that supply (Laila Kearney/Reuters)",
+       "url": "https://www.techmeme.com/261006/p17#a261006p17",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4ab316f8ab1c",
+     "title": "Anduril Wins Up to $2.9B US Navy Submarine Component Contract",
+     "summary": "Defense tech firm Anduril has secured a contract worth up to $2.9 billion to manufacture Virginia-class submarine components for the U.S. Navy.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-06T14:30:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Anduril lands an up to $2.9B US Navy contract to make Virginia-class submarine components, days after Palmer Luckey was named to a DOD future weapons task force (Samantha Subin/CNBC)",
+       "url": "https://www.techmeme.com/261006/p23#a261006p23",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6f494a213946",
+     "title": "Retailer Asos Investigating Snowflake Instance Compromise Alert",
+     "summary": "UK retailer Asos saw its stock drop after users received rogue app notifications claiming a Snowflake database instance had been fully compromised.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-06T12:50:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "UK retailer Asos' stock falls 10%+ after users got app notifications saying \"we have fully compromised the Snowflake instance\"; source: Asos is investigating (Financial Times)",
+       "url": "https://www.techmeme.com/261006/p20#a261006p20",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e1b6269d2c0b",
+     "title": "Crossy Road Rush Heading Exclusively to Apple Arcade in November",
+     "summary": "Apple has revealed that a new spinoff title titled Crossy Road Rush will debut exclusively on Apple Arcade on November 5.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-06T16:46:09Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "'Crossy Road Rush' Launching Exclusively on Apple Arcade in November",
+       "url": "https://www.macrumors.com/2026/10/06/crossy-road-rush-apple-arcade/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "2cf0d93700bc",
+     "title": "Star Wars: Galactic Racer Launches on Amazon Prime Luma and Consoles",
+     "summary": "The highly rated Star Wars: Galactic Racer is available starting today, with Amazon Prime members able to access the single-player campaign for free.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-06T16:15:14Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "STAR WARS: Galactic Racer — Crashing with Consequence in Runs-Based Racing",
+       "url": "https://news.xbox.com/en-us/2026/10/06/star-wars-galactic-racer-crashing-with-consequence/",
+       "official": true
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Star Wars: Galactic Racer launches on Amazon Luna as part of Prime subscription",
+       "url": "https://www.gamesindustry.biz/star-wars-galactic-racer-launches-on-amazon-luna-as-part-of-prime-subscription",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Out Today: Star Wars: Galactic Racer, the Highest-Rated Star Wars Game in Over 20 Years",
+       "url": "https://www.pushsquare.com/news/2026/10/out-today-star-wars-galactic-racer-the-highest-rated-star-wars-game-in-over-20-years",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Three Xbox Games Are Out Today, Including The Highest-Rated Star Wars Release In Over 20 Years (October 6)",
+       "url": "https://www.purexbox.com/news/2026/10/three-xbox-games-are-out-today-including-the-highest-rated-star-wars-release-in-over-20-years-october-6",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Star Wars Galactic Racer’s single-player campaign is available to play on Amazon Prime Luma for ‘free’",
+       "url": "https://www.videogameschronicle.com/news/star-wars-galactic-racers-single-player-campaign-is-available-to-play-on-amazon-prime-luma-for-free/",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Star Wars: Galactic Racer Is Out Today And Amazon Prime Members Can Check It Out For Free",
+       "url": "https://kotaku.com/star-wars-galactic-racer-is-out-today-and-amazon-prime-members-can-check-it-out-for-free-2000740982",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d785ac8f7166",
+     "title": "The Finals and ARC Raiders Getting Film and TV Adaptations",
+     "summary": "Embark Studios has confirmed that its shooter titles The Finals and ARC Raiders are being adapted into movies and television series.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-06T11:15:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Arc Raiders and The Finals are getting film and TV adaptations in collaboration with the Backrooms production company",
+       "url": "https://www.eurogamer.net/arc-raiders-the-finals-film-tv-show-backrooms",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Arc Raiders and The Finals are getting TV series and film adaptations",
+       "url": "https://www.gamesindustry.biz/arc-raiders-and-the-finals-are-getting-tv-series-and-film-adaptations",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "ARC Raiders, The Finals Are the Next Games Set for TV and Movie Adaptations",
+       "url": "https://www.pushsquare.com/news/2026/10/arc-raiders-the-finals-are-the-next-games-set-for-tv-and-movie-adaptations",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5e4c20174eae",
+     "title": "Sega Claims It Is Being Very Cautious With Generative AI in Creative Work",
+     "summary": "Following recent industry controversy, Sega has stated that it will remain cautious and avoid using generative AI for creative game development tasks.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-06T16:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Sega claims it’s being ‘very cautious’ about AI and won’t use it for creative work",
+       "url": "https://www.videogameschronicle.com/news/sega-claims-its-being-very-cautious-about-ai-and-wont-use-it-for-creative-work/",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "After Crazy Taxi's AI Drama, SEGA Says It's Being 'Very Cautious' About Using the Tech",
+       "url": "https://www.pushsquare.com/news/2026/10/after-crazy-taxis-ai-drama-sega-says-its-being-very-cautious-about-using-the-tech",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9364cffadc96",
+     "title": "Details Leak for Unannounced Xbox Elite Series 3 Controller",
+     "summary": "Backend updates in the Xbox Design Lab have seemingly leaked specifications for the upcoming Elite Series 3 controller, including a choice of Hall effect or TMR sticks.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Gaming",
+     "published": "2026-10-06T12:27:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Pure Xbox",
+       "title": "Specs For The Elusive Xbox Elite Series 3 Controller May Have Leaked",
+       "url": "https://www.purexbox.com/news/2026/10/specs-for-the-elusive-xbox-elite-series-3-controller-may-have-leaked",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Xbox Elite Series 3 controller details have reportedly leaked, including a choice of Hall effect or TMR sticks",
+       "url": "https://www.videogameschronicle.com/news/xbox-elite-series-3-controller-details-have-reportedly-leaked-including-a-choice-of-hall-effect-or-tmr-sticks/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ce1f10a8d71c",
+     "title": "Monster Hunter Rise Crosses 20 Million Sales Worldwide",
+     "summary": "Capcom has announced that Monster Hunter Rise has officially surpassed 20 million copies sold globally across its available platforms.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-06T05:55:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Monster Hunter Rise sales top 20 million",
+       "url": "https://www.gematsu.com/2026/10/monster-hunter-rise-sales-top-20-million",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Monster Hunter Rise Surpasses 20 Million Sales Worldwide",
+       "url": "https://www.nintendolife.com/news/2026/10/monster-hunter-rise-surpasses-20-million-sales-worldwide",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e50f7934dcfe",
+     "title": "Escape from Tarkov Adds Pve In-Game Cash Purchases for Real-World Money",
+     "summary": "Battlestate Games has introduced a system allowing PvE players in Escape from Tarkov to buy in-game roubles using real currency following the 1.2.0.0 update.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-06T16:40:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Escape from Tarkov Players Can Now Buy In-Game Cash with IRL Cash",
+       "url": "https://insider-gaming.com/escape-from-tarkov-cash-players-buy-in-game/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "4164bc69b59b",
+     "title": "DOJ Prosecutor Fired Illegally by Trump Reinstated by Federal Judge",
+     "summary": "A federal judge has ordered the reinstatement of a Department of Justice prosecutor who was previously terminated under controversial administration directives.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-06T16:27:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techdirt",
+       "title": "Judge Reinstates DOJ Prosecutor Illegally Fired By Trump",
+       "url": "https://www.techdirt.com/2026/10/06/judge-reinstates-doj-prosecutor-illegally-fired-by-trump/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "625b2ca2d2be",
+     "title": "Parti Québécois Projected to Win Minority in Quebec Election",
+     "summary": "The separatist Parti Québécois has won a provincial minority government in Quebec, renewing debates over Canadian national unity and future referendums.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-06T16:51:59Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "RFI (France)",
+       "title": "Quebec separatist party wins provincial election in test of Canada's unity",
+       "url": "https://www.rfi.fr/en/international/20261006-quebec-separatist-party-wins-provincial-election-in-test-of-canada-s-unity",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+       "url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "173928892585",
+     "title": "Cargo Ship Sinks in Black Sea Near Bulgaria Following Drone Attack",
+     "summary": "A civilian cargo ship sank and crew members remain missing after commercial vessels were targeted by drone strikes in the Black Sea near Bulgaria.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-06T16:53:04Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "BBC News: World",
+       "title": "Ship sinks and crew missing after Black Sea drone attack",
+       "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "Crew of ship missing after drone attacks on 2 commercial vessels in Black Sea near Bulgaria",
+       "url": "https://www.cbc.ca/news/world/bulgaria-black-sea-drone-attacks-reported-9.7370638?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Civilian cargo ship sinks and crew is missing after Black Sea drone attack",
+       "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Ship sinks off Bulgaria after drone attack in Black Sea",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/ship-sinks-off-bulgaria-after-drone-attack-in-black-sea?traffic_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d17ceacca62b",
+     "title": "US Secretary of State Marco Rubio Visits Iceland to Discuss Arctic Security",
+     "summary": "U.S. Secretary of State Marco Rubio visited Iceland, emphasizing the nation's critical role as a security outpost amid growing great-power competition in the Arctic.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-06T16:26:44Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "South China Morning Post",
+       "title": "Iceland is ‘critical outpost’ for security, Rubio says during visit",
+       "url": "https://www.scmp.com/news/world/united-states-canada/article/3369952/iceland-critical-outpost-security-rubio-says-during-visit?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Iceland ‘critical outpost’ for security, says US’ Rubio during visit",
+       "url": "https://www.straitstimes.com/world/europe/iceland-critical-outpost-for-security-says-us-rubio-during-visit",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d8af6320577c",
+     "title": "Spanish Supreme Court Drops Arrest Warrant for Carles Puigdemont",
+     "summary": "Spain's Supreme Court has canceled its longstanding arrest warrant for exiled Catalan separatist leader Carles Puigdemont.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-06T16:03:08Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "South China Morning Post",
+       "title": "Catalan separatist leader Puigdemont set for Spain return after arrest warrant lifted",
+       "url": "https://www.scmp.com/news/world/europe/article/3369946/catalan-separatist-leader-puigdemont-set-spain-return-after-arrest-warrant-lifted?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "Spain Cancels Arrest Warrant for Carles Puigdemont, Catalan Separatist Leader",
+       "url": "https://www.nytimes.com/2026/10/06/world/europe/spain-separatist-amnesty-catalonia-return.html",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "58d1335757b2",
+     "title": "British National Arrested Over Alleged Security Plot at RAF Fairford",
+     "summary": "A 22-year-old British national has been arrested in London in connection with an investigation into a suspected plot targeting the RAF Fairford air base.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-06T17:01:40Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "France 24: Europe",
+       "title": "UK police arrest 22-year-old British man in suspected Fairford base plot",
+       "url": "https://www.france24.com/en/europe/20261006-uk-police-make-new-arrest-in-suspected-air-base-plot",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: UK",
+       "title": "British man arrested over suspected RAF Fairford terrorism plot",
+       "url": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Police arrest another British man in RAF Fairford investigation",
+       "url": "https://www.politico.eu/article/police-arrest-another-british-man-in-raf-fairford-investigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: Politics",
+       "title": "Man Arrested in Connection With Incident at UK Air Base RAF Fairford",
+       "url": "https://www.nytimes.com/2026/10/06/world/europe/arrest-raf-fairford-air-base-incident-uk.html",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: UK",
+       "title": "British national arrested in connection with RAF Fairford incident",
+       "url": "https://www.bbc.co.uk/news/articles/cqlye0xd72wdo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "Washington Examiner",
+       "title": "UK national arrested in connection with RAF Fairford investigation",
+       "url": "https://www.washingtonexaminer.com/news/world/4755365/uk-national-arrested-connection-raf-fairford-investigation/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6aa4d07c9c68",
+     "title": "Russian Authorities Deny Plague Outbreak Following Laboratory Worker Death",
+     "summary": "Russian officials have denied imposing special quarantine anti-plague measures after an employee at a Siberian research facility died from an illness.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-06T17:02:00Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Vox",
+       "title": "What you should know about the Russian “plague lab”",
+       "url": "https://www.vox.com/today-explained-newsletter/505220/what-you-should-know-about-the-russian-plague-lab",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Russia denies imposing anti-plague measures after death of worker",
+       "url": "https://www.channelnewsasia.com/world/russia-plague-lab-worker-death-rubio-urge-info-6437211",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: Europe",
+       "title": "Plague outbreak? Russian lab worker dies in Siberia",
+       "url": "https://www.theguardian.com/news/audio/2026/oct/06/plague-outbreak-russian-lab-worker-dies-in-siberia-the-latest",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: Europe",
+       "title": "Plague outbreak? Russian lab worker dies in Siberia",
+       "url": "https://www.theguardian.com/news/video/2026/oct/06/plague-outbreak-russian-lab-worker-dies-in-siberia-the-latest",
+       "official": false
+      },
+      {
+       "outlet": "Courthouse News Service",
+       "title": "Russia denies imposing anti-plague measures after death of worker",
+       "url": "https://www.courthousenews.com/russia-denies-imposing-anti-plague-measures-after-death-of-worker/",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Russia denies anti-plague measures after pneumonia death",
+       "url": "https://www.dw.com/en/russia-denies-anti-plague-measures-after-pneumonia-death/a-79567922?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "255f873043be",
+     "title": "France Conducts First Test of Modernized M51.3 Nuclear Missile",
+     "summary": "The French military successfully tested its upgraded M51.3 intercontinental ballistic missile from a nuclear submarine in the presence of President Emmanuel Macron.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-06T16:50:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "France tests modernized nuclear missile",
+       "url": "https://orf.at/stories/3444290/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Frankreich testete modernisierte Atomrakete"
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "France tests modernized intercontinental ballistic missile from nuclear submarine for the first time",
+       "url": "https://www.spiegel.de/ausland/frankreich-testet-erstmals-modernisierte-interkontinentalrakete-von-einem-atom-u-boot-aus-a-f2fb8997-664d-41d6-8cd9-26078d3d83fe#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Frankreich testet erstmals modernisierte Interkontinentalrakete von einem Atom-U-Boot aus"
+      }
+     ]
+    },
+    {
+     "id": "20260691064c",
+     "title": "Ireland Unveils Budget 2027 With Tax Adjustments and Savings Incentives",
+     "summary": "The Irish government announced its 2027 budget package, introducing income tax band modifications, a carbon tax freeze, and targeted investment incentives.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-06T16:50:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Budget 2027",
+       "url": "https://www.rte.ie/news/2026/1006/1594201-your-questions-answered-budget-2027/",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Check your wages: Use our calculator to find out how Budget 2027 will affect your pay",
+       "url": "https://www.thejournal.ie/budget-calculator-2-7184265-Oct2026/",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "At a glance: Key takeaways from Budget 2027",
+       "url": "https://www.rte.ie/news/2026/1006/1594297-at-a-glance-key-points-from-budget-2027/",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Ireland’s 2027 budget offers tax break to help people invest savings",
+       "url": "https://www.politico.eu/article/ireland-budget-2027-new-tax-free-investment-accounts-stocks-bonds/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Last year's package 'landed like a lead balloon' - so is anyone happy with Budget 2027?",
+       "url": "https://www.thejournal.ie/budget-2027-workers-analysis-7183726-Oct2026/",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "From income tax cuts to another euro on cigarettes: Here are the main points of Budget 2027",
+       "url": "https://www.thejournal.ie/budget-2027-ireland-main-points-7183694-Oct2026/",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Budget 2027 includes income tax band change, carbon tax freeze, and price hike on cigarettes",
+       "url": "https://www.thejournal.ie/budget-2027-announcement-whats-in-it-live-updates-7183581-Oct2026/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "61cd58b4d087",
+     "title": "OpenAI Commits to Faster Security Disclosures Following Australian Incident",
+     "summary": "OpenAI has pledged to increase safety transparency and provide earlier disclosures regarding security incidents following a hack reported in Australia.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-06T17:05:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "OpenAI steps up safety, promises earlier disclosure after Australian hack",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/openai-steps-up-safety-promises-earlier-disclosure-after-australian-hack",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9e296de28c7e",
+     "title": "Honda and Nissan Partner with US AI Startups for Vehicle Software",
+     "summary": "Japanese automakers Honda and Nissan are deepening their technology investments by partnering with American artificial intelligence firms to build next-generation vehicle software.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-06T17:05:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Honda, Nissan each team with US AI startup on next-gen vehicle software",
+       "url": "https://asia.nikkei.com/business/automobiles/honda-nissan-each-team-with-us-ai-startup-on-next-gen-vehicle-software",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "27ddb99ad399",
+     "title": "Taiwanese Display Makers Invest in Glass Substrates for AI Chips",
+     "summary": "Taiwanese panel manufacturers AUO and Innolux are transitioning production lines to bet on glass as a foundational material for next-generation AI hardware.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-06T17:05:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Taiwan's AUO, Innolux bet on glass as next-gen AI chip material",
+       "url": "https://asia.nikkei.com/business/materials/taiwan-s-auo-innolux-bet-on-glass-as-next-gen-ai-chip-material",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "e5fa63081759",
+     "title": "North Korea Warns of Immediate Counteraction Over Border Breaches",
+     "summary": "North Korea has issued a formal warning promising a powerful response if South Korean forces cross even a millimeter into its territory.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-06T11:36:34Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "N. Korea warns of 'powerful counteraction' if S. Korea intrudes 'even a millimeter' into its territory",
+       "url": "https://www.koreaherald.com/article/10894741",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) N. Korea warns of 'powerful counteraction' if S. Korea intrudes 'even a millimeter' into its territory",
+       "url": "https://en.yna.co.kr/view/AEN20261006010651315",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "dc7b2aeaabde",
+     "title": "South Korean President Highlights AI Vulnerabilities Following Bank Hacks",
+     "summary": "South Korean President Lee noted that artificial intelligence tools appear to have been utilized in recent bank hacks, urging enhanced cybersecurity measures.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-06T06:53:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "South Korea's Lee says AI appears to have been used in bank hacks",
+       "url": "https://www.channelnewsasia.com/east-asia/south-korea-ai-bank-hanks-data-breach-6434861",
+       "official": false
+      },
+      {
+       "outlet": "The Japan Times",
+       "title": "South Korea’s Lee says AI appears to have been used in bank hacks",
+       "url": "https://www.japantimes.co.jp/business/2026/10/06/south-korea-bank-hacks/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "95b3b1c63dc3",
+     "title": "Athletes Withdraw En Masse From Denmark Open Following Fatigue Warnings",
+     "summary": "Top badminton players, including gold medalists Baek Ha-na, Lee So-hee, and China's Chen Yufei, are pulling out of the Denmark Open, validating earlier warnings by star player An Se-young.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-06T16:25:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "\"Are you trying to kill us?\" An Se-young's outspoken remark was right after all... Gold medalists Baek Ha-na and Lee So-hee, China's Chen Yufei, and Switch also skip the Denmark Open as top players drop out in droves",
+       "url": "https://www.chosun.com/sports/sports_general/2026/10/07/G44WEYZTGJSTQNJZMRRGGYTBMQ/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "\"죽으란 거 아니냐\" 안세영 소신발언, 결국 맞았다...'금메달' 백하나·이소희도 中 천위페이·스위치도 덴마크오픈 포기→정상급 선수들 줄기권"
+      },
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "\"Are you trying to make us die?\" An Se-young's warning proven right",
+       "url": "https://www.chosun.com/jp/sports-jp/2026/10/07/HIV7NVC4GBCTZLBCRYPZ72MUFU/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "「死ねということか」アン・セヨンの苦言的中"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "61f2ffebd211",
+     "title": "Amazon Prime Big Deal Days Feature Deep Discounts on Apple Hardware",
+     "summary": "Amazon's fall sale event features price drops across Apple’s ecosystem, including $120 off AirPods Max 2, discounts on AirPods Pro 3, and savings on Mac mini systems.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-06T16:43:34Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Deals: AirPods Pro 3, AirPods Max 2 $120 off, M6 Mac mini $150 off, Series 12, Ultra 4, more",
+       "url": "https://9to5mac.com/2026/10/05/deals-airpods-pro-3-airpods-max-2-mac-mini-series-12/",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "The Best Amazon Prime Day Pet Deals on Feeders, Litter Boxes, and More (2026)",
+       "url": "https://www.wired.com/story/amazon-prime-day-pet-deals-10-6-2026/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "All of the best fall Prime Day deals now live: AirPods, Mac mini, MacBook, chargers, cases, more",
+       "url": "https://9to5mac.com/2026/10/06/best-fall-prime-day-apple-deals-live/",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "7 Best Prime Day Kindle Deals (2026): Save Up to $150",
+       "url": "https://www.wired.com/story/best-kindle-prime-day-deals-10-06-2026/",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "Apple AirPods Max 2 Are $120 Off Right Now",
+       "url": "https://www.wired.com/story/apple-airpods-max-2-deal-october-2026/",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "Save Up to $200 on the Best Prime Day Apple Deals (2026)",
+       "url": "https://www.wired.com/story/best-prime-day-apple-deals-10-06-2026/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Prime Day 1 deals: AirPods Pro 3, Max 2 $120 off, M6 Mac mini $150 off, MacBook Air $200 off, more",
+       "url": "https://9to5mac.com/2026/10/06/prime-day-deals-airpods-pro-3-m6-mac-mini-macbook-air/",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "I Found The Best Amazon Prime Day Headphone Deals (2026)",
+       "url": "https://www.wired.com/story/best-prime-day-headphone-deals-10-06-2026/",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "Best October Prime Day Mattress and Bedding Deals (2026)",
+       "url": "https://www.wired.com/story/prime-day-mattress-deals-10-06-2026/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6f87b9bb85ae",
+     "title": "Anthropic Expands Claude Startups Program With Credits and Discounts",
+     "summary": "Anthropic has updated its startup initiative to include up to $45,000 in combined stack discounts and a one-time $1,000 API credit allocation.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-06T16:30:02Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+       "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Anthropic expands its Claude Startups program, including up to $45K in discounts and credits via the Claude Startup Stack and a one-time $1,000 API credit (Ashley Capoot/CNBC)",
+       "url": "https://www.techmeme.com/261006/p26#a261006p26",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "865b2fe5ade5",
+     "title": "Humble Choice October Bundle Features Pirate Yakuza and Prince of Persia",
+     "summary": "The October Humble Choice PC bundle is live for $14.99, featuring Steam codes for Like a Dragon: Pirate Yakuza in Hawaii, Psychonauts 2, and Prince of Persia The Lost Crown.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-06T17:00:11Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Humble Choice October Bundle is up ($14.99) buff.ly/FoVMeKo #ad -Like a Dragon: Pirate Yakuza in Hawaii -Prince of Persia The Lost Crown (Steam code) -Psychonauts 2 -Deep Rock Galactic: Survivor &…",
+       "url": "https://buff.ly/FoVMeKo",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a8df6d1a8d49",
+     "title": "Amazon Prime Day Discounts Final Fantasy Games on Steam by 50%",
+     "summary": "Square Enix's catalog of Final Fantasy PC titles is discounted by 50% on Amazon during the Prime Big Deal Days sales window.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-06T16:15:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "Score 50% off Select Final Fantasy Games at Amazon During Prime Big Deal Days",
+       "url": "https://store.steampowered.com/news/group/9869/view/711162324968278565",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1bf131034bb1",
+     "title": "GameSir G7 Pro TMR Controller Discounted for Prime Day",
+     "summary": "The GameSir G7 Pro wired controller featuring TMR sticks for Xbox and PC is on sale for $63.99 across Amazon and major electronics retailers.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-06T16:23:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "GameSir G7 Pro Wired Controller for Xbox Series X|S, Xbox One, Wireless Gamepad for PC&Android with TMR Sticks is $63.99 on Amazon Prime amzn.to/4AO5kMF Best Buy buff.ly/SHlSPP9 Walmart…",
+       "url": "https://amzn.to/4AO5kMF",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d8787b3d0b30",
+     "title": "Ys Memoire: Revelations in Celceta Switch Day One Edition Marked Down to $29.99",
+     "summary": "Amazon Prime members can pick up the Day One Edition of Ys Memoire: Revelations in Celceta for Nintendo Switch at a discounted price of $29.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-06T16:11:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Ys Memoire: Revelations in Celceta - DAY ONE EDITION (Switch) is $29.99 on Amazon Prime amzn.to/3Vmx6MR #ad",
+       "url": "https://amzn.to/3Vmx6MR",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-06",
+ "generated_at": "2026-10-06T17:05:41Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1318,
+  "clusters": 1148,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "pew",
+   "title": "Pew Research Center",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.pewresearch.org/feed/"
+  },
+  {
+   "key": "err",
+   "title": "ERR News (Estonia)",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://news.err.ee/rss"
+  }
+ ]
+}

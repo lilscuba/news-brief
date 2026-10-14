@@ -13,11 +13,12 @@ A gaming / tech / AI news feed built to replace scrolling Reddit. It runs in two
 Both modes use the same pipeline in `briefing/`.
 
 **Reading in the app.** Today opens on how fresh the news is ("Updated 12 min ago", or a warning
-when the server's updates are late) and how much is new since your last visit, then Top stories
-and a short preview of each topic. The list keeps itself current while it's open and in the
+when the server's updates are late) and how much is new since your last visit, then one feed of
+picture cards with every followed topic mixed together, top stories first (the topic chips or the
+filter menu narrow it to one topic). The feed keeps itself current while it's open and in the
 background, and holds an update behind a "↑ 8 new stories" button rather than reshuffling under
-your thumb. Rows show the outlet, the age and only the labels that matter, with an unread dot.
-Swipe a row to mark it read or save it; long-press for share, copy link and more. Topic pages
+your thumb. Cards show the topic, outlet, age and only the labels that matter, with an unread dot.
+Swipe a card to mark it read or save it; long-press for share, copy link and more. Topic pages
 include the topic's top stories, switch topics from the title, group Latest by time, hide read
 stories and mark all as read. Search covers your topics or all of them. A story page names the
 outlet and when it was first reported and last updated, lists the coverage by outlet, and
@@ -185,6 +186,11 @@ Notes on the sources:
   (`[story_summaries]` in `config.toml`; a new top-10 story is summarized right away, a summary
   is redone when the story's coverage grows, and the app labels it). Nothing is scraped; article pages are never fetched. Separately, setting the
   `SUMMARIZE` repo variable to `true` makes Gemini write the daily brief page and email.
+- **Pictures.** The app shows every followed topic as one mixed feed of cards (filter to one
+  topic with the chips at the top). Each card's picture is the one the outlet's feed already
+  publishes with the article (`media:content`, `media:thumbnail`, an image enclosure or the
+  first `<img>`, or a Bluesky link card); nothing is scraped. The phone loads it straight from
+  the outlet's servers. Stories without one show their snippet instead.
 - **World, Europe, Japan and Korea are off for new accounts** until switched on in Topics.
 - **`[ranking.category_weight]`** halves the outlet-count score for World and Europe. They have
   far more sources than AI/Tech/Gaming, so without it a big world story would take every top slot.

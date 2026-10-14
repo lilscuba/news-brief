@@ -86,62 +86,63 @@ final class TodayViewTests: XCTestCase {
         XCTAssertFalse(text.contains("yesterday"))
     }
 
-    // MARK: Topic previews and hide read
+    // MARK: The feed and hide read
 
-    private func stories(_ prefix: String, _ count: Int) -> [Story] {
-        (0..<count).map { Story.make(id: "\(prefix)\($0)", title: "Story \(prefix)\($0)", published: now) }
+    private func stories(_ prefix: String, _ count: Int, category: String = "Tech") -> [Story] {
+        (0..<count).map { Story.make(id: "\(prefix)\($0)", title: "Story \(prefix)\($0)", category: category,
+                                     published: now) }
     }
 
-    func testPreviewShowsThreeAndCountsTheWholeTopic() {
-        let promoted = stories("top", 2)
-        let section = stories("s", 5)
-        let preview = TopicPreview.make(sectionStories: section, topicStories: promoted + section, sort: .hot,
-                                        hiddenIDs: nil, isRead: { _ in false })
-        XCTAssertEqual(preview.stories.map(\.id), ["s0", "s1", "s2"])
-        // "See all 7": the Top stories count too.
-        XCTAssertEqual(preview.total, 7)
-        XCTAssertFalse(preview.allCaughtUp)
+    private func brief(top: [Story], sections: [BriefSection]) -> Brief {
+        Brief(date: "2026-10-13", generatedAt: now, headline: "", top: top, sections: sections, sourceProblems: [])
     }
 
-    func testHideReadSkipsStoriesReadBeforeTheListAppeared() {
+    func testFeedMixesTopicsAndNarrowsToOne() {
+        let ai = stories("ai", 2, category: "AI")
+        let games = stories("g", 2, category: "Gaming")
+        let b = brief(top: [ai[0]], sections: [BriefSection(name: "AI", stories: [ai[1]]),
+                                               BriefSection(name: "Gaming", stories: games)])
+        let all = FeedContent.make(brief: b, topic: nil, sort: .hot, hiddenIDs: nil, isRead: { _ in false })
+        XCTAssertEqual(all.stories.first?.id, "ai0", "top stories lead the mixed feed")
+        XCTAssertEqual(Set(all.stories.map(\.id)), ["ai0", "ai1", "g0", "g1"])
+        XCTAssertEqual(all.filters.map(\.name), ["AI", "Gaming"])
+        let gaming = FeedContent.make(brief: b, topic: "Gaming", sort: .hot, hiddenIDs: nil, isRead: { _ in false })
+        XCTAssertEqual(gaming.stories.map(\.id), ["g0", "g1"])
+        XCTAssertEqual(gaming.topic, "Gaming")
+        // A topic the brief doesn't have (since unfollowed, or a past day) shows everything.
+        let gone = FeedContent.make(brief: b, topic: "Korea", sort: .hot, hiddenIDs: nil, isRead: { _ in false })
+        XCTAssertNil(gone.topic)
+        XCTAssertEqual(gone.stories.count, 4)
+    }
+
+    func testHideReadSkipsStoriesReadBeforeTheFeedAppeared() {
         let section = stories("s", 5)
         let readBefore: Set<String> = ["s0", "s2"]
-        let preview = TopicPreview.make(sectionStories: section, topicStories: section, sort: .hot,
-                                        hiddenIDs: readBefore, isRead: { readBefore.contains($0.id) })
-        XCTAssertEqual(preview.stories.map(\.id), ["s1", "s3", "s4"])
-        XCTAssertEqual(preview.total, 5)
-
-        // Hide read off: everything shows, read or not.
-        XCTAssertEqual(HideRead.visible(section, hidden: nil).count, 5)
-        XCTAssertEqual(HideRead.visible(section, hidden: []).count, 5)
+        let b = brief(top: [], sections: [BriefSection(name: "Tech", stories: section)])
+        let content = FeedContent.make(brief: b, topic: nil, sort: .hot, hiddenIDs: readBefore,
+                                       isRead: { readBefore.contains($0.id) })
+        XCTAssertEqual(content.stories.map(\.id), ["s1", "s3", "s4"])
+        XCTAssertFalse(content.allCaughtUp)
     }
 
     func testAllCaughtUpOnlyWhenHidingReadAndEverythingIsRead() {
         let section = stories("s", 2)
         let all = Set(section.map(\.id))
-        let hidden = TopicPreview.make(sectionStories: section, topicStories: section, sort: .hot,
-                                       hiddenIDs: all, isRead: { _ in true })
+        let b = brief(top: [], sections: [BriefSection(name: "Tech", stories: section)])
+        let hidden = FeedContent.make(brief: b, topic: nil, sort: .hot, hiddenIDs: all, isRead: { _ in true })
         XCTAssertTrue(hidden.allCaughtUp)
         XCTAssertTrue(hidden.stories.isEmpty)
-
-        let shown = TopicPreview.make(sectionStories: section, topicStories: section, sort: .hot,
-                                      hiddenIDs: nil, isRead: { _ in true })
+        let shown = FeedContent.make(brief: b, topic: nil, sort: .hot, hiddenIDs: nil, isRead: { _ in true })
         XCTAssertFalse(shown.allCaughtUp)
         XCTAssertEqual(shown.stories.count, 2)
-
-        // A story that's in Top stories but unread means the topic isn't done.
-        let promoted = stories("top", 1)
-        let partly = TopicPreview.make(sectionStories: section, topicStories: promoted + section, sort: .hot,
-                                       hiddenIDs: all, isRead: { all.contains($0.id) })
-        XCTAssertFalse(partly.allCaughtUp)
     }
 
-    func testPreviewFollowsTheSort() {
+    func testFeedFollowsTheSort() {
         let older = Story.make(id: "old", title: "Old", published: now.addingTimeInterval(-7200))
         let newer = Story.make(id: "new", title: "New", published: now)
-        let preview = TopicPreview.make(sectionStories: [older, newer], topicStories: [older, newer],
-                                        sort: .latest, hiddenIDs: nil, isRead: { _ in false })
-        XCTAssertEqual(preview.stories.map(\.id), ["new", "old"])
+        let b = brief(top: [], sections: [BriefSection(name: "Tech", stories: [older, newer])])
+        let latest = FeedContent.make(brief: b, topic: nil, sort: .latest, hiddenIDs: nil, isRead: { _ in false })
+        XCTAssertEqual(latest.stories.map(\.id), ["new", "old"])
     }
 
     func testTopicPageCountLine() {

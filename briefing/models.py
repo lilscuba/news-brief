@@ -53,6 +53,7 @@ class Item:
     # How much `published` can be trusted: "exact" (the feed gave a time), "date" (only a day) or
     # "none" (no usable time; feeds.settle_times puts in when the pipeline first saw the item).
     time_quality: str = "exact"
+    image: str | None = None  # https URL of the article's picture, for the app's feed cards
 
     @property
     def exact_time(self) -> bool:

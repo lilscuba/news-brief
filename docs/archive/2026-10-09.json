@@ -1,0 +1,1827 @@
+{
+ "version": 1,
+ "headline": "Former ICC Judge Navi Pillay wins the Nobel Peace Prize amid international backlash against US sanctions, while OpenAI faces intense scrutiny and open letters following the firing of three safety researchers.",
+ "top": [
+  {
+   "id": "91d52dea87cb",
+   "title": "Former ICC Judge Navi Pillay Awarded Nobel Peace Prize",
+   "summary": "Former UN human rights chief and ICC judge Navanethem Pillay has won the Nobel Peace Prize, dedicating her win to survivors of international crimes as nations condemn US sanctions against the court.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-09T17:23:14Z",
+   "outlet_count": 38,
+   "sources": [
+    {
+     "outlet": "NPR: World",
+     "title": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
+     "official": false
+    },
+    {
+     "outlet": "Sky News: World",
+     "title": "And the Nobel Peace Prize goes to...",
+     "url": "https://news.sky.com/story/former-un-human-rights-chief-navi-pillay-wins-the-nobel-peace-prize-13596724",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "South Africa's Navi Pillay wins 2026 Nobel Peace Prize",
+     "url": "https://www.france24.com/en/europe/20261009-south-africa-s-navanethem-navi-pillay-wins-2026-nobel-peace-prize",
+     "official": false
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "Nobel Peace Prize goes to international jurist Navi Pillay",
+     "url": "https://www.japantimes.co.jp/news/2026/10/09/world/nobel-peace-prize-2026/",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "South African judge Navi Pillay wins Nobel Peace Prize",
+     "url": "https://www.channelnewsasia.com/world/nobel-peace-prize-navi-pillay-south-africa-6445566",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Nobel Peace Prize for 2026 to Navanethem Pillay",
+     "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+     "official": false
+    },
+    {
+     "outlet": "News in English (Norway)",
+     "title": "Nobel Peace Prize committee hails importance of international law",
+     "url": "https://www.newsinenglish.no/2026/10/09/nobel-peace-prize-committee-hails-importance-of-international-law/",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "South African former UN human rights chief Navi Pillay wins Nobel Peace Prize",
+     "url": "https://www.rfi.fr/en/africa/20261009-south-african-former-un-human-rights-chief-wins-2026-nobel-peace-prize-navi-pillay",
+     "official": false
+    },
+    {
+     "outlet": "DutchNews.nl (Netherlands)",
+     "title": "Former ICC judge Navi Pillay awarded Nobel Peace Prize",
+     "url": "https://www.dutchnews.nl/2026/10/former-icc-judge-navi-pillay-awarded-nobel-peace-prize/",
+     "official": false
+    },
+    {
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "What Did Nobel Peace Prize Winner Navi Pillay Do? A Comprehensive Overview",
+     "url": "http://www.asahi.com/articles/ASVB93V8BVB9UHBI01PM.html?ref=rss",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "【まとめてわかる】ノーベル平和賞のナビ・ピレイ氏、何をした人？"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Navi Pillay, South African Jurist, Wins Nobel Peace Prize in \"Stinging Rebuke to Donald Trump\"",
+     "url": "http://www.democracynow.org/2026/10/9/navi_pillay_2026_nobel_peace_prize",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: Europe",
+     "title": "Nobel peace prize winner Navi Pillay jokes about sharing award with Donald Trump",
+     "url": "https://www.theguardian.com/world/video/2026/oct/09/nobel-peace-prize-winner-navi-pillay-jokes-about-sharing-award-with-donald-trump-video",
+     "official": false
+    },
+    {
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "Nobel Peace Prize Winner Pillay: 'I Want to Dedicate This to All Survivors of International Crimes'",
+     "url": "http://www.asahi.com/articles/ASVB554NCVB5UHBI00RM.html?ref=rss",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "ノーベル平和賞のピレイ氏「全ての国際犯罪の生存者に捧げたい」"
+    },
+    {
+     "outlet": "Axios",
+     "title": "Navi Pillay, advocate for international law, wins Nobel Peace Prize",
+     "url": "https://www.axios.com/2026/10/09/navi-pillay-nobel-peace-prize-trump",
+     "official": false
+    },
+    {
+     "outlet": "Mainichi Shimbun (Japanese)",
+     "title": "Nobel Peace Prize Awarded to Pillay as Rebuke to Tyranny of Rule by Force",
+     "url": "https://mainichi.jp/articles/20261009/k00/00m/030/330000c",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "「力による支配」の横暴を戒めた授賞 ノーベル平和賞にピレイ氏"
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Navanethem ‘Navi’ Pillay: 5 facts about 2026 Nobel Peace Prize winner",
+     "url": "https://www.thehindu.com/news/international/navanethem-navi-pillay-facts-about-2026-nobel-peace-prize-winner/article71564112.ece",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg: Politics",
+     "title": "US Sanctions ICC After Former Judge Gets Nobel Peace Prize",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-09/us-adds-sanctions-to-international-criminal-court",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "US imposes sanctions on ICC hours after former judge wins Nobel Peace Prize",
+     "url": "https://www.reuters.com/world/us-imposes-sanctions-international-criminal-court-hours-after-former-judge-wins-2026-10-09/",
+     "official": false
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "US slaps sanctions on ICC, hours after ex-judge wins Nobel",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3370403/us-slaps-sanctions-icc-hours-after-ex-judge-wins-nobel?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "US imposes sanctions aiming to 'dismantle' International Criminal Court",
+     "url": "https://www.dw.com/en/us-imposes-sanctions-aiming-to-dismantle-international-criminal-court/a-79618577?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Imposing Sanctions on the International Criminal Court",
+     "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-on-the-international-criminal-court/",
+     "official": false
+    },
+    {
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "Prime Minister Takaichi Posts That US Sanctions on ICC Are Incompatible with Japan's Position and Deeply Concerning",
+     "url": "http://www.asahi.com/articles/ASVB94WTLVB9UTFK01TM.html?ref=rss",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "高市首相「日本の立場と相容れず深く懸念」 米国のICC制裁で投稿"
+    },
+    {
+     "outlet": "Mainichi Shimbun (Japanese)",
+     "title": "Trump Administration Imposes Sanctions Directly on ICC Immediately After Nobel Peace Prize Announcement",
+     "url": "https://mainichi.jp/articles/20261010/k00/00m/030/001000c",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "米トランプ政権、ICC本体に制裁措置 ノーベル平和賞発表直後"
+    },
+    {
+     "outlet": "The Guardian: Europe",
+     "title": "US imposes sanctions on ICC, hours after former judge Pillay wins Nobel peace prize",
+     "url": "https://www.theguardian.com/world/live/2026/oct/09/2026-nobel-peace-prize-winner-russia-ukraine-sudan-war-france-protests-poland-latest-news-updates",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "US sanctions International Criminal Court itself in major escalation",
+     "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Following Nobel Prize, US Tightens Sanctions Against ICC",
+     "url": "https://orf.at/stories/3444612/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Nach Nobelpreis: USA verschärfen Sanktionen gegen IStGH"
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Trump Administration Sanctions International Criminal Court Hours After Peace Nobel Awarded to Former Judge",
+     "url": "https://elpais.com/internacional/2026-10-09/la-administracion-de-trump-impone-sanciones-el-tribunal-penal-internacional.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "La Administración de Trump sanciona al Tribunal Penal Internacional horas después del Nobel de la Paz a una de sus exjuezas"
+    },
+    {
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "Trump Administration Imposes Sanctions on ICC Organization Immediately After Announcement of Peace Prize to Former Judge",
+     "url": "http://www.asahi.com/articles/ASV9Q0S90V9QSFVU0NMM.html?ref=rss",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "トランプ米政権がICC組織に制裁、元裁判官への平和賞授賞発表直後"
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
+     "url": "https://www.france24.com/en/europe/20261009-international-criminal-court-faces-test-of-resilience-as-us-imposes-sweeping-sanctions",
+     "official": false
+    },
+    {
+     "outlet": "Mainichi Shimbun (Japanese)",
+     "title": "Prime Minister Takaichi \"Deeply Concerned\" Over US ICC Sanctions; Foreign Minister Motegi Also to Engage US",
+     "url": "https://mainichi.jp/articles/20261010/k00/00m/010/002000c",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "米ICC制裁に高市首相「深く懸念」 茂木外相も米へ働きかけへ"
+    },
+    {
+     "outlet": "Mainichi Shimbun (Japanese)",
+     "title": "ICC Criticizes US Sanctions; President Akane Says, \"We Will Perform Our Duties for the Victims\"",
+     "url": "https://mainichi.jp/articles/20261010/k00/00m/030/003000c",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "ICCが米制裁を批判 赤根所長「犠牲者のため任務を遂行する」"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "‘Rogue court’: US sanctions ICC hours after ex-judge wins Nobel Prize",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/rogue-court-us-sanctions-icc-hours-after-ex-judge-wins-nobel-prize?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "Great Honor for Navi Pillay: How the World Reacts to the Nobel Peace Prize Award",
+     "url": "https://www.srf.ch/news/international/grosse-ehre-fuer-navi-pillay-so-reagiert-die-welt-auf-die-friedensnobelpreisvergabe",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Grosse Ehre für Navi Pillay – So reagiert die Welt auf die Friedensnobelpreisvergabe"
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Trump administration hits International Criminal Court with sweeping sanctions",
+     "url": "https://www.cbc.ca/news/world/icc-sanctions-trump-9.7375734?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: US",
+     "title": "US imposes new sanctions on international criminal court",
+     "url": "https://www.theguardian.com/us-news/2026/oct/09/sanctions-icc-trump",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "EU calls US sanctions on International Criminal Court 'regrettable'",
+     "url": "https://www.euronews.com/2026/10/09/eu-calls-us-sanctions-on-international-criminal-court-regrettable",
+     "official": false
+    },
+    {
+     "outlet": "DutchNews.nl (Netherlands)",
+     "title": "Trump administration sanctions International Criminal Court",
+     "url": "https://www.dutchnews.nl/2026/10/trump-administration-sanctions-international-criminal-court/",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+     "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "USA Imposes New Sanctions Against International Criminal Court",
+     "url": "https://www.tagesschau.de/video/video-1663450.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "USA verhängen neue Sanktionen gegen Internationalen Strafgerichtshof"
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Prof. Dr. Michael Broszka, Peace Researcher, on the Nobel Peace Prize for Navanethem Pillay",
+     "url": "https://www.tagesschau.de/video/video-1663456.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Prof. Dr. Michael Broszka, Friedensforscher, zum Friedensnobelpreis für Navanethem Pillay"
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Reactions to US imposing sanctions on International Criminal Court",
+     "url": "https://www.straitstimes.com/world/reactions-to-us-imposing-sanctions-on-international-criminal-court",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "New US Sanctions Against International Criminal Court",
+     "url": "https://www.tagesschau.de/ausland/amerika/usa-sanktionen-istgh-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Neue US-Sanktionen gegen Internationalen Strafgerichtshof"
+    },
+    {
+     "outlet": "The Hill",
+     "title": "Israel calls Navi Pillay's win a 'grotesque weaponization' of Nobel Peace Prize",
+     "url": "https://thehill.com/policy/international/6139090-israel-condemns-navi-pillay-nobel/",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "US imposes sanctions on International Criminal Court",
+     "url": "https://www.rte.ie/news/2026/1009/1594770-icc-us-sanctions/",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+     "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+     "official": false
+    },
+    {
+     "outlet": "Chosun Ilbo (Korean)",
+     "title": "US Tightens Sanctions on International Criminal Court, Demands Cooperation from Allies",
+     "url": "https://www.chosun.com/international/international_general/2026/10/10/MNQTMMZVGAZTSZJVGIZWMMJRMU/",
+     "official": false,
+     "translated_from": "ko",
+     "original_title": "美, 국제형사재판소 제재 강화…“미군에 방어 의존하는 동맹국도 협조해야”"
+    },
+    {
+     "outlet": "Chosun Ilbo (Korean)",
+     "title": "US Strengthens ICC Sanctions, Asks Allies to Cooperate",
+     "url": "https://www.chosun.com/jp/international-jp/2026/10/10/3XCQMILO3RHBBO3TPEZBTJ5FDI/",
+     "official": false,
+     "translated_from": "ko",
+     "original_title": "米、ICC制裁強化…同盟国も協力を"
+    },
+    {
+     "outlet": "Chosun Ilbo (Korean)",
+     "title": "Pillay Wins Nobel Peace Prize; Israel Reacts Strongly",
+     "url": "https://www.chosun.com/jp/international-jp/2026/10/10/SVFYKK5S65BU7DQO6JVSNYS67Y/",
+     "official": false,
+     "translated_from": "ko",
+     "original_title": "ピレイ氏ノーベル平和賞、イスラエル反発"
+    },
+    {
+     "outlet": "Chosun Ilbo (Korean)",
+     "title": "Israel Protests Pillay's Nobel Peace Prize as Palestine Welcomes the Decision",
+     "url": "https://www.chosun.com/international/international_general/2026/10/10/GRQWMNJZGA4GCMRUHE4DOOJUG4/",
+     "official": false,
+     "translated_from": "ko",
+     "original_title": "이스라엘, 필라이 노벨평화상 수상에 반발…팔레스타인은 환영"
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Israel compares Nobel Committee to Joseph Goebbels after Peace Prize award",
+     "url": "https://www.thejournal.ie/israel-nobel-committee-goebbels-peace-prize-navi-pillay-us-sanctions-icc-7188582-Oct2026/",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Israel Denounces the Decision to Award the Nobel Peace Prize to Navi Pillay",
+     "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-navi-pillay-un-genocide-report-israel.html",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "ICC in the Crosshairs: US Imposes Sanctions on International Criminal Court",
+     "url": "https://www.srf.ch/news/international/istgh-im-visier-usa-verhaengen-sanktionen-gegen-weltstrafgericht",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "IStGH im Visier – USA verhängen Sanktionen gegen Weltstrafgericht"
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "US Imposes Sanctions on International Criminal Court; Institution Condemns \"Attack on Rule of Law\"",
+     "url": "https://www.franceinfo.fr/monde/usa/les-etats-unis-imposent-des-sanctions-contre-la-cour-penale-internationale-l-institution-denonce-une-attaque-contre-l-etat-de-droit_8230324.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Les Etats-Unis imposent des sanctions contre la Cour pénale internationale, l'institution dénonce une \"attaque contre l'Etat de droit\""
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Nobel Peace Prize Awarded to South Africa's Navanethem \"Navi\" Pillay for Work Promoting Peace and International Law",
+     "url": "https://www.franceinfo.fr/monde/prix-nobel/le-prix-nobel-de-la-paix-est-decerne-a-la-sud-africaine-navanethem-navi-pillay-pour-ses-efforts-en-faveur-de-la-promotion-de-la-paix-et-du-droit-international_8229787.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Le prix Nobel de la paix est décerné à la Sud-Africaine Navanethem \"Navi\" Pillay, \"pour ses efforts en faveur de la promotion de la paix et du droit international\""
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Live Updates: Human Rights Lawyer Navi Pillay Is Awarded Nobel Peace Prize",
+     "url": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "Netanyahu leads outcry over ICC judge who declared genocide in Gaza being awarded Nobel Peace Prize",
+     "url": "https://www.washingtonexaminer.com/news/world/4761049/benjamin-netanyahu-outcry-navi-pillay-nobel-peace-prize/",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: Politics",
+     "title": "Trump Administration Hits International Criminal Court With Severe Sanctions",
+     "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-international-criminal-court-sanctions.html",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "‘Navi’ Pillay dedicates Nobel Prize to ‘survivors of international crimes’",
+     "url": "https://www.thehindu.com/news/international/navi-pillay-dedicates-nobel-prize-to-survivors-of-international-crimes/article71565315.ece",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "ICC: Germany and Other Nations Condemn US Sanctions Against Criminal Court",
+     "url": "https://www.spiegel.de/ausland/istgh-deutschland-und-weitere-staaten-kritisieren-us-sanktionen-gegen-strafgerichtshof-a-ad94f1e9-5716-4d9f-bd7b-85353706810f#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "IStGH: Deutschland und weitere Staaten kritisieren US-Sanktionen gegen Strafgerichtshof"
+    },
+    {
+     "outlet": "Newsweek",
+     "title": "Why Navi Pillay's Nobel Peace Prize Win Is a Huge Blow to Israel",
+     "url": "https://www.newsweek.com/navi-pillay-nobel-peace-prize-israel-backlash-12548140",
+     "official": false
+    },
+    {
+     "outlet": "NL Times (Netherlands)",
+     "title": "Fmr. ICC Judge Navanethem Pillay wins Nobel Peace Price",
+     "url": "https://nltimes.nl/2026/10/09/fmr-icc-judge-navanethem-pillay-wins-nobel-peace-price",
+     "official": false
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "title": "Nobel laureate Pillay calls sanctions on ICC judges 'shocking'",
+     "url": "https://asia.nikkei.com/editor-s-picks/interview/nobel-laureate-pillay-calls-sanctions-on-icc-judges-shocking",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "5b220b973a15",
+   "title": "Fired OpenAI Safety Researchers Dispute Dismissals in Open Letter",
+   "summary": "OpenAI defended its firing of three safety researchers, stating they violated policies on handling sensitive information. In response, the researchers disputed the misconduct claims and warned of a chilling effect on AI safety culture.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-09T16:47:54Z",
+   "outlet_count": 9,
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+     "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Fired OpenAI safety researchers dispute their dismissals in open letter",
+     "url": "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "OpenAI says it didn't fire three researchers for \"raising safety concerns or speaking out\", but for violating \"clear policies on handling sensitive information\" (Michael Considine/CNBC)",
+     "url": "https://www.techmeme.com/261009/p5#a261009p5",
+     "official": false
+    },
+    {
+     "outlet": "The Verge AI",
+     "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "OpenAI's safety crisis keeps getting worse and the company keeps making it worse",
+     "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "OpenAI denies firing researchers over AI safety warnings",
+     "url": "https://www.channelnewsasia.com/world/openai-denies-firing-researchers-over-ai-safety-warnings-6446751",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "Three Fired OpenAI Employees Accuse Company of Silencing Safety Specialists; Company Denies Claims",
+     "url": "https://www.lemonde.fr/pixels/article/2026/10/09/trois-employes-limoges-par-openai-l-accusent-de-faire-taire-ses-specialistes-de-la-securite-l-entreprise-dement_6790616_4408996.html",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Trois employés limogés par OpenAI l’accusent de faire taire ses spécialistes de la sécurité, l’entreprise dément"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "OpenAI defends firing AI safety researchers over \"breach of trust\"",
+     "url": "https://www.cbsnews.com/news/openai-defends-firing-safety-researchers/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "7ff5aaebee6f",
+   "title": "EU and China Reach Landmark Deal to Halve Hybrid Car Exports",
+   "summary": "The European Union and China have clinched an agreement that will reduce Chinese electric and plug-in hybrid car exports to the European bloc by up to 50%.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-09T17:09:00Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Politico Europe",
+     "title": "EU and China clinch deal to curb hybrid car exports",
+     "url": "https://www.politico.eu/article/china-says-it-reaches-understanding-with-eu-on-hybrid-cars/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: Europe",
+     "title": "China agrees to ‘halve’ hybrid car exports to EU in landmark deal",
+     "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "China, EU reach deal to 'moderate' China's car exports to EU",
+     "url": "https://www.dw.com/en/china-eu-reach-deal-to-moderate-china-s-car-exports-to-eu/a-79621394?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "cac4e5f23368",
+   "title": "Investigators Reveal Flydubai Co-Pilot Planned Suicide Attack on Tel Aviv Airport",
+   "summary": "Authorities announced that the co-pilot of a Flydubai flight from Dubai to Tel Aviv planned to hijack the aircraft and crash it into a terminal at Ben Gurion Airport in a suicide attack.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-09T17:16:56Z",
+   "outlet_count": 6,
+   "sources": [
+    {
+     "outlet": "Sky News: World",
+     "title": "Flydubai co-pilot planned to crash aircraft into Ben Gurion airport, UAE says",
+     "url": "https://news.sky.com/story/flydubai-co-pilot-planned-to-crash-aircraft-into-ben-gurion-airport-uae-says-13597009",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
+     "url": "https://www.straitstimes.com/world/middle-east/uae-says-omani-flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-flight",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "Tel Aviv–Dubai: Investigators Say FlyDubai Co-Pilot Planned Suicide Attack on Tel Aviv Airport",
+     "url": "https://www.spiegel.de/ausland/tel-aviv-dubai-co-pilot-der-flydubai-maschine-plante-laut-ermittlern-selbstmordanschlag-auf-flughafen-tel-aviv-a-2c850334-88e3-45c0-b2a5-c3661fe6ea04#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Tel Aviv - Dubai: Co-Pilot der FlyDubai-Maschine plante laut Ermittlern Selbstmordanschlag auf Flughafen Tel Aviv"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Omani Flydubai co-pilot planned to crash plane into Israeli airport, UAE says",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3370407/omani-flydubai-co-pilot-planned-crash-plane-israeli-airport-uae-says?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Investigators: Co-Pilot Intended to Attack Tel Aviv Airport",
+     "url": "https://orf.at/stories/3444619/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Ermittler: Kopilot wollte Flughafen Tel Aviv angreifen"
+    },
+    {
+     "outlet": "ERT News (Greece)",
+     "title": "UAE: Flydubai Co-Pilot Planned Suicide Attack on Tel Aviv Airport",
+     "url": "https://www.ertnews.gr/eidiseis/iae-o-sygkyvernitis-tis-ptisis-flydubai-sxediaze-epithesi-aytoktonias-sto-aerodromio-tou-tel-aviv/",
+     "official": false,
+     "translated_from": "el",
+     "original_title": "ΗΑΕ: Ο συγκυβερνήτης της πτήσης flydubai σχεδίαζε επίθεση αυτοκτονίας στο αεροδρόμιο του Τελ Αβίβ"
+    }
+   ]
+  },
+  {
+   "id": "5a634497445e",
+   "title": "Pentagon Plans to Livestream Fort Hood Shooter's Firing Squad Execution",
+   "summary": "The Pentagon announced plans to publicly livestream the execution of Nidal Hasan, drawing immediate legal questions and public outrage over the unprecedented decision.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-09T16:29:47Z",
+   "outlet_count": 11,
+   "sources": [
+    {
+     "outlet": "Axios",
+     "title": "Pete Hegseth says the public can watch Fort Hood shooter's execution",
+     "url": "https://www.axios.com/2026/10/08/hegseth-nidal-hasan-firing-squad-public-tv",
+     "official": false
+    },
+    {
+     "outlet": "The Wall Street Journal: U.S.",
+     "title": "Pentagon Says Fort Hood Shooter Execution Will Be Livestreamed",
+     "url": "https://www.wsj.com/us-news/pentagon-says-fort-hood-shooter-execution-will-be-livestreamed-9cbe6559?mod=rss_usnews",
+     "official": false
+    },
+    {
+     "outlet": "Tangle",
+     "title": "Hegseth announces Fort Hood shooter’s execution by firing squad will be public.",
+     "url": "https://www.readtangle.com/hegseth-announces-fort-hood-shooters-execution-by-firing-squad-will-be-public/",
+     "official": false
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "US plans its first military execution since 1961, by firing squad and livestreamed",
+     "url": "https://en.mercopress.com/2026/10/09/us-plans-its-first-military-execution-since-1961-by-firing-squad-and-livestreamed?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Pentagon to livestream firing squad execution of Fort Hood shooter who killed 13 people",
+     "url": "https://www.yahoo.com/news/us/article/nidal-malik-hasan-who-killed-13-in-fort-hood-shooting-to-be-publicly-executed-by-firing-squad-on-livestream-101428278.html",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: Politics",
+     "title": "Fort Hood Shooter’s Execution Will Be Public and Streamed Live, Pentagon Says",
+     "url": "https://www.nytimes.com/2026/10/08/us/politics/fort-hood-execution-streamed-public.html",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "Fort Hood survivor questions livestreamed execution of shooter",
+     "url": "https://www.washingtonexaminer.com/policy/defense/4760951/fort-hood-survivor-questions-livestreamed-execution-shooter/",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Is it legal for the US to livestream the Fort Hood shooter's execution?",
+     "url": "https://www.straitstimes.com/world/explainer-is-it-legal-for-the-us-to-livestream-the-fort-hood-shooters-execution",
+     "official": false
+    },
+    {
+     "outlet": "Techdirt",
+     "title": "Hey Platforms: Your Violent Content Policies Are About To Meet The Pentagon’s Firing Squad",
+     "url": "https://www.techdirt.com/2026/10/09/hey-platforms-your-violent-content-policies-are-about-to-meet-the-pentagons-firing-squad/",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Outrage over US military plan to livestream firing squad execution",
+     "url": "https://www.channelnewsasia.com/world/outrage-over-us-military-plan-livestream-firing-squad-execution-6446971",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Firing squad execution to be livestreamed, Pentagon says",
+     "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "08f1e631a2ad",
+     "title": "Anthropic Bans Cruel and Abusive Behavior Toward Claude",
+     "summary": "Anthropic updated its usage policy to bar users from subjecting Claude to sustained and needless cruel or abusive behavior, sparking debates on AI consciousness.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-09T15:42:49Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "HN: Claude/Anthropic",
+       "title": "Anthropic bans 'abusive or cruel behavior' towards Claude",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "Being mean to Claude can now get your account suspended under Anthropic's new TOS",
+       "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models",
+       "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Anthropic Says Users Can't Be Needlessly Cruel to Claude",
+       "url": "https://www.macrumors.com/2026/10/08/anthropic-user-guideline-update/",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Anthropic bans 'cruel' behaviour against its Claude AI",
+       "url": "https://www.rte.ie/news/2026/1009/1594765-anthropic-ai/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "51b9a8613eaf",
+     "title": "Anthropic Launches Free Vulnerability OSS Scanner for Open-Source Projects",
+     "summary": "Anthropic is offering open-source projects a new way to check for vulnerabilities through its opt-in OSS Scanner service.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-09T11:24:27Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge AI",
+       "title": "Anthropic launches free AI security scans for open-source projects",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Anthropic now offers a free vulnerability-finding service for open-source software",
+       "url": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "feb57be6938a",
+     "title": "Claude Generates Animated Explainer Videos and Live Data Dashboards",
+     "summary": "Anthropic launched two new beta features for Claude, allowing users to generate live data dashboards from SQL sources and animated explainer videos from text prompts.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-08T19:17:22Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+       "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aada0374911b",
+     "title": "OpenAI Uncovers Russian and Iranian Influence Operations",
+     "summary": "OpenAI exposed Russian and Iranian covert operations that used AI tools to plant fake opinion pieces and disinformation in real news publications.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-09T16:02:42Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets",
+       "url": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/",
+       "official": false
+      },
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+       "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ca298997f9c5",
+     "title": "TypeSafe AI Developer Jev Raises Massive Series A at $7.5B Valuation",
+     "summary": "TypeSafe AI, the developer behind agent framework Jev, has raised an $870M Series A led by a16z with backing from Sequoia.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-09T13:25:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Jev developer TypeSafe AI raised a $870M Series A led by a16z at a $7.5B valuation with Sequoia and others participating, says ~33% of the Fortune 500 use Jev (Bloomberg)",
+       "url": "https://www.techmeme.com/261009/p13#a261009p13",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "78897a6b0a8c",
+     "title": "OpenAI Revenue Reaches $50 Billion Anually Amid New Funding Push",
+     "summary": "OpenAI's annualized revenue rate sits at about $50 billion as the company seeks $30 billion in fresh capital.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-09T17:20:34Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI revenue keeps surging as company seeks $30 billion in fresh capital",
+       "url": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "204831b1190d",
+     "title": "Anthropic's Claude Science Maps the Entire Sky in Ultraviolet",
+     "summary": "Astrophysicist Brice Ménard used Anthropic's Claude Science to automatically download data and map the entire sky in ultraviolet light for the first time.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-09T09:22:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Anthropic's Claude Science creates the first complete ultraviolet map of the sky",
+       "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "edd58468d564",
+     "title": "Sophos Cuts Threat Investigation Time With OpenAI Daybreak",
+     "summary": "Sophos is utilizing OpenAI’s Daybreak tool to slash cyber-threat investigation times by 96% and automate a significant portion of MDR cases.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-09T07:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+       "url": "https://openai.com/index/sophos",
+       "official": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "3d7bc2e6e7a6",
+     "title": "Apple Rumored to Launch Touchscreen OLED MacBooks and iPad Mini on October 27",
+     "summary": "Reports indicate Apple is planning an October 27 event to unveil new touchscreen-enabled MacBook Pro models and an OLED iPad mini.",
+     "importance": 4,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Tech",
+     "published": "2026-10-08T23:26:35Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Touchscreen MacBook Pro & OLED iPad mini rumored for October 27 Apple event",
+       "url": "https://appleinsider.com/articles/26/10/08/touchscreen-macbook-pro-oled-ipad-mini-coming-at-october-27-apple-event?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple to launch touchscreen MacBook Pro and more on October 27: report",
+       "url": "https://9to5mac.com/2026/10/08/apple-to-launch-touchscreen-macbook-pro-and-more-on-october-27-report/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple to Launch Touchscreen OLED MacBook Pro and OLED iPad mini on October 27",
+       "url": "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Apple reportedly plans touchscreen MacBook and iPad Mini launch for this month",
+       "url": "https://www.engadget.com/2281839/apple-reportedly-plans-touchscreen-macbook-and-ipad-mini-launch-for-this-month/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "015cff8752b8",
+     "title": "Apple Reports Indicate Cut in iPhone 18 Pro Component Orders",
+     "summary": "Apple shares fell following reports that the company is cutting iPhone 18 Pro component orders due to weaker-than-expected initial demand following price hikes.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-09T15:35:09Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Reportedly Cuts iPhone 18 Pro Orders After Price Hike Dampens Demand",
+       "url": "https://www.macrumors.com/2026/10/09/apple-cuts-iphone-18-pro-orders-price-demand/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Report: Apple cuts iPhone 18 Pro production due to ‘soft demand’",
+       "url": "https://9to5mac.com/2026/10/09/report-apple-cuts-iphone-18-pro-production-due-to-soft-demand/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Shares Fall After News of iPhone 18 Pro Order Cuts",
+       "url": "https://www.macrumors.com/2026/10/09/apple-shares-fall-after-iphone-18-pro-order-cuts/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "51664b99feb3",
+     "title": "Tesla Renames Full Self-Driving to Tesla Assisted Driving in Europe",
+     "summary": "Following pushback from German transport regulators, Tesla has renamed its driver assistance feature to 'Tesla Assisted Driving' to secure wider EU approval.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-09T16:35:04Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
+       "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Tesla renames Full Self-Driving to Tesla Assisted Driving in Europe after pushback from Germany, whose transport minister will now back its EU-wide approval (Sean O'Kane/TechCrunch)",
+       "url": "https://www.techmeme.com/261009/p18#a261009p18",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1ddf4194b01d",
+     "title": "SpaceX Acquires Airwaves to Scale Starlink Mobile Services in the US",
+     "summary": "SpaceX announced it has purchased low-band radio spectrum licenses to position Starlink as a major mobile carrier across the United States.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-09T17:00:24Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "SpaceX wants to become a 'major mobile carrier' with low-band spectrum acquisition",
+       "url": "https://www.engadget.com/2281967/spacex-major-mobile-carrier-low-band-spectrum-acquisition/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "SpaceX to become ‘major mobile carrier’ in US with Starlink Mobile upgrades",
+       "url": "https://9to5mac.com/2026/10/09/spacex-to-become-major-mobile-carrier-in-us-with-starlink-mobile-upgrades/",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "SpaceX says Starlink will \"become a major mobile carrier in the U.S.\"",
+       "url": "https://www.cbsnews.com/news/spacex-starlink-mobile-carrier-radio-airwaves/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "265f63c81ef0",
+     "title": "Apple Recommends Upgrading to iOS 27.0.1 for Older Users",
+     "summary": "Apple is now officially pushing iPhone users remaining on iOS 26 to jump to iOS 27.0.1 as the recommended system update.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-09T13:41:06Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Now Pushing iPhone Users Still on iOS 26 to Install iOS 27",
+       "url": "https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "iOS 27.0.1 is now Apple’s recommended update for users still on iOS 26",
+       "url": "https://9to5mac.com/2026/10/09/ios-27-0-1-is-now-apples-recommended-update-for-users-still-on-ios-26/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "64879352f369",
+     "title": "Global PC and Mac Shipments Slide Sharply in Q3",
+     "summary": "Industry data from IDC shows worldwide PC shipments tumbled 20 percent year-over-year in the third quarter, with Mac shipments dropping 11 percent.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-08T21:50:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "IDC: Mac shipments drop 11% in Q3 as global PC market slides 20%",
+       "url": "https://9to5mac.com/2026/10/08/idc-mac-shipments-drop-11-in-q3-as-global-pc-market-slides-20/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "IDC: Worldwide PC shipments in Q3 fell 20 percent from last year",
+       "url": "https://www.engadget.com/2281788/idc-worldwide-pc-shipments-in-q3-fell-20-percent-from-last-year/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "388823be7a6b",
+     "title": "Meta Bans TikTok Ads Across Platforms in Escalating Rivalry",
+     "summary": "Meta has instituted a ban on ads from ByteDance across the US and select international markets amid rising commercial tensions.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-09T13:12:45Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Meta bans TikTok ads from its platforms in tit-for-tat row",
+       "url": "https://www.engadget.com/2281983/meta-bans-tiktok-ads/",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Meta is banning TikTok ads across its platforms",
+       "url": "https://www.theverge.com/tech/1008658/meta-tiktok-bytedance-ads-ban",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "77e78a2d8466",
+     "title": "Apple Confirms 'Welcome Home' Event for Next Week Focused on Smart Home Gear",
+     "summary": "Apple sent out invitations for an October 13 product event carrying a 'Welcome home' tagline expected to center around smart home accessories.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-09T16:04:53Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "What to expect at Apple's 'Welcome home' event next week",
+       "url": "https://www.engadget.com/2281840/what-to-expect-at-apples-welcome-home-event-next-week/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Will Apple’s ‘Welcome home’ event be livestreamed? Here’s what we know",
+       "url": "https://9to5mac.com/2026/10/09/will-apples-welcome-home-event-be-livestreamed-heres-what-we-know/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple ‘Welcome home’ event: Three new products are coming next week",
+       "url": "https://9to5mac.com/2026/10/09/apple-welcome-home-event-three-new-products/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "55edbb18814b",
+     "title": "Paramount Pictures Adapting Live-Action Movie in Cyberpunk 2077 Universe",
+     "summary": "CD Projekt Red is partnering with Paramount Pictures to develop a live-action film set in the Cyberpunk 2077 universe.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-09T12:54:02Z",
+     "outlet_count": 8,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Cyberpunk 2077 live-action film in development at Paramount Pictures [Update]",
+       "url": "https://www.gematsu.com/2026/10/cyberpunk-2077-live-action-film-in-development-at-paramount-pictures",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Cyberpunk 2077 is getting a live-action movie from Paramount",
+       "url": "https://www.videogameschronicle.com/news/cyberpunk-2077-is-getting-a-live-action-movie-from-paramount/",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Cyberpunk 2077 Is the Next Game Set for a Live-Action Film",
+       "url": "https://www.pushsquare.com/news/2026/10/cyberpunk-2077-is-the-next-game-set-for-a-live-action-film",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Live-Action Cyberpunk 2077 Movie In Development At Paramount",
+       "url": "https://kotaku.com/live-action-cyberpunk-2077-movie-in-development-at-paramount-2000742726",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "All hail brand synergy, Cyberpunk 2077 is getting a live action adaptation from Paramount and the producer behind the horrendous Doom movie",
+       "url": "https://www.rockpapershotgun.com/all-hail-brand-synergy-cyberpunk-2077-is-getting-a-live-action-adaptation-from-paramount-and-the-producer-behind-the-horrendous-doom-movie",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Wake Up, Samurai! Cyberpunk 2077 Is Getting A Live-Action Movie",
+       "url": "https://www.nintendolife.com/news/2026/10/wake-up-samurai-cyberpunk-2077-is-getting-a-live-action-movie",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Live-action Cyberpunk 2077 film reportedly in development, with CD Projekt Red collaborating with Paramount to make it",
+       "url": "https://www.eurogamer.net/cyberpunk-2077-live-action-film-paramount-cd-projekt-red",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Paramount Pictures adapting live-action movie set in Cyberpunk 2077 universe, co-produced by CD Projekt Red",
+       "url": "https://www.gamesindustry.biz/paramount-pictures-adapting-live-action-movie-set-in-cyberpunk-2077-universe-co-produced-by-cd-projekt-red",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "73af31aa2b42",
+     "title": "Forza Horizon 6 Officially Delayed to January 2027 on PS5",
+     "summary": "Sony and Microsoft confirm that Forza Horizon 6's PlayStation 5 release has slipped to January 2027, where it will launch alongside the game's first expansion.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-09T14:42:23Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Forza Horizon 6 officially dated for PS5, alongside an expansion",
+       "url": "https://www.videogameschronicle.com/news/forza-horizon-6-officially-dated-for-ps5-alongside-an-expansion/",
+       "official": false
+      },
+      {
+       "outlet": "Tom Warren",
+       "title": "as I reported last month, Forza Horizon 6 is being delayed on PS5 to January 2027. The delay means the PS5 version will now debut alongside a new expansion. Details 👇 www.theverge.com/news/989314/...",
+       "url": "https://www.theverge.com/news/989314/forza-horizon-6-ps5-release-date-january-2027-delay",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Forza Horizon 6's First Premium Expansion Planned For January 2027 Alongside PS5 Launch",
+       "url": "https://www.purexbox.com/news/2026/10/forza-horizon-6s-first-premium-expansion-planned-for-january-2027-alongside-ps5-launch",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "It's official: Forza Horizon 6 delayed to 2027 on PS5, and the game's first expansion has been announced",
+       "url": "https://www.eurogamer.net/forza-horizon-6-ps5-release-date-delay",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a7701e501f66",
+     "title": "Ubisoft Announces Shutdown of Rainbow Six Mobile",
+     "summary": "Ubisoft is shutting down Rainbow Six Mobile just seven months after its global launch, with servers remaining online until January 15, 2027.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-09T07:44:35Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Kotaku",
+       "title": "Rainbow Six Siege Mobile Already Has A Shutdown Date Just 7 Months Into Its Full Release",
+       "url": "https://kotaku.com/rainbow-six-siege-mobile-already-has-a-shutdown-date-just-7-months-into-its-full-release-2000742717",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Ubisoft announces shutdown of Rainbow Six Mobile seven months after global launch",
+       "url": "https://www.gamesindustry.biz/ubisoft-announces-shutdown-of-rainbow-six-mobile-seven-months-after-global-launch",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5971c2889dc7",
+     "title": "Nintendo Has 'Nothing to Announce' Regarding GTA 6 on Switch 2",
+     "summary": "Nintendo of America's president deflected questions about Grand Theft Auto 6 coming to the Switch 2, telling inquirers to speak with Rockstar and Take-Two.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-09T16:48:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "GTA 6 on Switch 2? 'That's a Conversation for Take-Two and Rockstar,' Nintendo Says",
+       "url": "https://www.ign.com/articles/gta-6-switch-2-nintendo-president",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Nintendo Of America's President Comments On The Possibility Of GTA 6 On Switch 2",
+       "url": "https://www.nintendolife.com/news/2026/10/nintendo-of-americas-president-comments-on-the-possibility-of-gta-6-on-switch-2",
+       "official": false
+      },
+      {
+       "outlet": "GoNintendo",
+       "title": "Nintendo president says they have \"nothing to announce\" concerning GTA 6 on Switch 2, suggests asking Rockstar and Take-Two",
+       "url": "https://gonintendo.com/contents/65937-nintendo-president-says-they-have-nothing-to-announce-concerning-gta-6-on-switch-2",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "035add45e7f1",
+     "title": "Hazelight's 'It Takes Two' Heading to Switch 2 Next Week with Upgrades",
+     "summary": "Hazelight Studios has announced a comprehensive Switch 2 upgrade for its cooperative adventure game, featuring visual enhancements and cross-play.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-09T15:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "'It Takes Two' Hops Onto Switch 2 Next Week, Marrying Visual Upgrades & Cross-Play",
+       "url": "https://www.nintendolife.com/news/2026/10/it-takes-two-hops-onto-switch-2-next-week-marrying-visual-upgrades-and-cross-play",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bb37056cc0e5",
+     "title": "Fatal Fury: City of the Wolves Adds Tekken's Reina as DLC Character",
+     "summary": "SNK revealed that Tekken's Reina will join the roster of Fatal Fury: City of the Wolves as a post-launch downloadable content character.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-09T17:16:40Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "FATAL FURY: CotW ×TEKKEN - Reina Teaser Trailer (coming December) www.youtube.com/watch?v=6ywo...",
+       "url": "https://www.youtube.com/watch?v=6ywoVjl07Rc",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Fatal Fury: City of the Wolves DLC character Reina from Tekken announced",
+       "url": "https://www.gematsu.com/2026/10/fatal-fury-city-of-the-wolves-dlc-character-reina-from-tekken-announced",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "c8340efed846",
+     "title": "Trump Establishes Committee to Investigate Federal Reserve Governor Lisa Cook",
+     "summary": "President Donald Trump has set up a white-house panel to hear closed mortgage fraud allegations against Federal Reserve Governor Lisa Cook.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-09T16:44:24Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "NBC News",
+       "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
+       "url": "https://www.nbcnews.com/business/economy/trump-probe-fed-gov-lisa-cook-rcna602500",
+       "official": false
+      },
+      {
+       "outlet": "Times of India: World",
+       "title": "Trump sets up committee to probe Federal Reserve Governor Lisa Cook in latest bid to fire her",
+       "url": "https://timesofindia.indiatimes.com/world/us/trump-sets-up-committee-to-probe-federal-reserve-governor-lisa-cook-in-latest-bid-to-fire-her/articleshow/134837553.cms",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
+       "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "Trump establishes committee to investigate Fed governor Lisa Cook",
+       "url": "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor",
+       "official": false
+      },
+      {
+       "outlet": "The Washington Post: Politics",
+       "title": "Trump escalates effort to fire Federal Reserve governor Lisa Cook",
+       "url": "https://www.washingtonpost.com/politics/2026/10/09/trump-escalates-effort-fire-federal-reserve-governor-lisa-cook/",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Live updates: Trump sets up commission to investigate Lisa Cook",
+       "url": "https://thehill.com/homenews/administration/6138003-live-update-trump-vance-midterm-elections/",
+       "official": false
+      },
+      {
+       "outlet": "Fox News: Politics",
+       "title": "Trump sets up committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations",
+       "url": "https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3a1f7f027fe0",
+     "title": "Hurricane Isaias Strengthens to Category 3 as Gulf Coast Prepares for Landfall",
+     "summary": "Residents along the US Gulf coast are rushing to board up windows and evacuate as Hurricane Isaias strengthens into a major Category 3 storm.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-09T16:10:29Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "Just the News",
+       "title": "Isaias strengthens to Category 3 hurricane, to make landfall on Gulf Coast by nightfall, Sat morning",
+       "url": "https://justthenews.com/politics-policy/environment/isaias-strengthens-category-3-hurricane-make-landfall-gulf-coast?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Hurricane Isaias Strengthens to Category 2; Heads for Gulf Coast",
+       "url": "https://www.today.com/video/hurricane-isaias-strengthens-to-category-2-what-to-expect-271320133929",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Hurricane Isaias intensifies en route to US Gulf Coast",
+       "url": "https://www.dw.com/en/hurricane-isaias-intensifies-en-route-to-us-gulf-coast/a-79612756?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "Hurricane Isaias strengthens to Category 3 as Gulf Coast braces for landfall",
+       "url": "https://san.com/cc/hurricane-isaias-strengthens-to-category-2-as-gulf-coast-braces-for-landfall/",
+       "official": false
+      },
+      {
+       "outlet": "Times of India: World",
+       "title": "Hurricane Isaias approaches US Gulf Coast, raising storm surge fears",
+       "url": "https://timesofindia.indiatimes.com/world/us/hurricane-isaias-approaches-us-gulf-coast-raising-storm-surge-fears/articleshow/134835715.cms",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Hurricane Isaias strengthens into Category 3 storm with US in its sights",
+       "url": "https://www.aljazeera.com/news/2026/10/9/hurricane-isaias-strengthens-into-category-3-storm-with-us-in-its-sights?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "Gulf coast residents prepare ahead of Hurricane Isaias landfall",
+       "url": "https://www.theguardian.com/world/video/2026/oct/09/gulf-coast-residents-prepare-ahead-of-hurricane-isaias-landfall-video",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3bacd6118017",
+     "title": "Legendary Chicago Bears Coach Mike Ditka Dies at 86",
+     "summary": "NFL Hall of Famer and iconic Chicago Bears head coach Mike Ditka has passed away at the age of 86.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-09T17:17:15Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "Just the News",
+       "title": "Legendary NFL coach Mike Ditka dies at 86",
+       "url": "https://justthenews.com/nation/culture/legendary-nfl-coach-mike-ditka-dies-86?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Mike Ditka, legendary Chicago Bears coach, dies at 86",
+       "url": "https://www.nbcnews.com/sports/nfl/mike-ditka-legendary-chicago-bears-coach-dies-86-rcna602517",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "Chicago Bears legend Mike Ditka dies at 86",
+       "url": "https://san.com/cc/chicago-bears-legend-mike-ditka-dies-at-86/",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "Mike Ditka, legendary Chicago Bears head coach, dies aged 86",
+       "url": "https://www.theguardian.com/sport/2026/oct/09/mike-ditka-dies-86-chicago-bears",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Caller",
+       "title": "Legendary Chicago Bears Coach Mike Ditka Dead At 86",
+       "url": "https://dailycaller.com/2026/10/09/legendary-nfl-coach-mike-ditka-dead-86-chicago-bears",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Mike Ditka, former Chicago Bears head coach, dies at 86",
+       "url": "https://www.cbsnews.com/news/mike-ditka-former-head-coach-chicago-bears-obit/",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "Mike Ditka, legendary NFL player and coach, dies at 86",
+       "url": "https://abcnews.com/GMA/Culture/mike-ditka-legendary-nfl-player-coach-dies-86/story?id=116247659",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e6082e5eed30",
+     "title": "NYC Shooting by ICE Agent Sparks Protests and Calls to End Operations",
+     "summary": "Protests erupted in New York City after an ICE officer shot and wounded a man near a child, drawing condemnation from local officials.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-09T16:36:31Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "Mamdani demands Trump end NYC ICE operations after agent shoots man with child in car",
+       "url": "https://time.com/article/2026/10/09/mamdani-trump-ice-shooting-new-york-dhs-oscar-belgal/",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "Mamdani calls to abolish ICE after NYC shooting; USS Lincoln sailors return home",
+       "url": "https://san.com/cc/mamdani-calls-to-abolish-ice-after-nyc-shooting-uss-lincoln-sailors-return-home/",
+       "official": false
+      },
+      {
+       "outlet": "NPR News",
+       "title": "Trump says U.S. won't attack Iran before midterms. And, ICE agent shoots man in NYC",
+       "url": "https://www.npr.org/2026/10/09/g-s1-147455/up-first-newsletter-hurricane-isaias-ukraine-russia-trump-iran-ice-shooting",
+       "official": false
+      },
+      {
+       "outlet": "The American Conservative",
+       "title": "Iran War Day 224: Trump Says U.S. Won’t Attack Iran Before Midterms",
+       "url": "https://www.theamericanconservative.com/iran-war-day-224-trump-says-u-s-wont-attack-iran-before-midterms/",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "ICE official says officers shot a man in New York because they believed they were in danger",
+       "url": "https://www.pbs.org/newshour/politics/ice-official-says-officers-shot-a-man-in-new-york-because-they-believed-they-were-in-danger",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg: Politics",
+       "title": "Mamdani Calls for End to ICE Operations After NYC Shooting",
+       "url": "https://www.bloomberg.com/news/videos/2026-10-09/mamdani-calls-for-end-to-ice-operations-after-nyc-shooting",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "DHS defends ICE shooting in NYC, says officers believed they were in danger",
+       "url": "https://www.aljazeera.com/news/2026/10/9/dhs-defends-ice-shooting-in-nyc-says-officers-believed-they-were-in-danger?traffic_source=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "11590d2add34",
+     "title": "Three Killed in Houthi Drone and Missile Attack on Riyadh Airport",
+     "summary": "Saudi authorities confirmed that three people were killed at a major airport following Houthi-claimed cross-border strikes from Yemen.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-09T15:28:25Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Sky News: World",
+       "title": "Three killed in Houthi-claimed strikes on Saudi Arabian airport",
+       "url": "https://news.sky.com/story/three-killed-in-houthi-claimed-strikes-on-riyadh-airport-saudi-authorities-say-13596835",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "3 people killed in Houthi attack on main airport in Riyadh, Saudi officials say",
+       "url": "https://www.cbc.ca/news/world/saudi-houthi-fighting-riyadh-airport-9.7375292?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+       "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Saudi Arabia says three killed at airport as Yemen war expands",
+       "url": "https://www.channelnewsasia.com/world/saudi-arabia-says-three-killed-airport-yemen-war-expands-6446871",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9020b0a6f782",
+     "title": "Clashes Erupt During Mass Anti-Austerity Protests in Brussels",
+     "summary": "Belgian police deployed tear gas, water cannon, and baton charges after rioters clashed with authorities on the sidelines of a large anti-austerity rally.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-09T16:07:29Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Brussels: Rioters clash with police at anti-austerity rally",
+       "url": "https://www.dw.com/en/brussels-rioters-clash-with-police-at-anti-austerity-rally/a-79620594?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Thousands rally for anti-austerity protest in Brussels amid clashes",
+       "url": "https://www.aljazeera.com/news/2026/10/9/thousands-rally-for-anti-austerity-protest-in-brussels-amid-clashes?traffic_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "819c4331de60",
+     "title": "Peruvian Remote District Elects Candidate Named Hitler Mussolini",
+     "summary": "A left-wing candidate bearing the name Hitler Mussolini secured a narrow victory in a local mayoral election in the remote Peruvian Andes.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-09T16:32:22Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Politico Europe",
+       "title": "Hitler Mussolini wins local election",
+       "url": "https://www.politico.eu/article/hitler-mussolini-wins-local-election-peru/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Caller",
+       "title": "Peruvian Man Named ‘Hitler Mussolini’ Wins Mayoral Election",
+       "url": "https://dailycaller.com/2026/10/09/hitler-mussolini-mayor-peru-simeon-flores-ahora-nacion",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Man named Hitler Mussolini elected mayor in Peru",
+       "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "5d44a071ea1b",
+     "title": "Groningen Cultural Sector Jointly Bans Smart Glasses Over Privacy Concerns",
+     "summary": "A coalition of 35 museums, clubs, and cultural venues in Groningen have banned AI smart glasses to protect attendee privacy.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-09T17:23:14Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "DutchNews.nl (Netherlands)",
+       "title": "Museums, festivals and clubs in Groningen ban smart glasses",
+       "url": "https://www.dutchnews.nl/2026/10/museums-festivals-and-clubs-in-groningen-ban-smart-glasses/",
+       "official": false
+      },
+      {
+       "outlet": "NL Times (Netherlands)",
+       "title": "35 Groningen clubs, museums, events jointly ban smart glasses over privacy infringements",
+       "url": "https://nltimes.nl/2026/10/09/35-groningen-clubs-museums-events-jointly-ban-smart-glasses-privacy-infringements",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4640a6b94022",
+     "title": "UK Liberal Democrat Deputy Leader Quits Frontbench Amid Party Leadership Frustrations",
+     "summary": "Daisy Cooper resigned from her frontbench post amid a growing internal revolt and discontent over party leader Ed Davey's direction.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-09T17:14:16Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Guardian: World",
+       "title": "Ed Davey faces growing revolt against leadership as senior Lib Dem MP quits",
+       "url": "https://www.theguardian.com/politics/2026/oct/09/ed-davey-faces-growing-revolt-against-leadership-as-senior-lib-dem-mp-quits",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: UK",
+       "title": "Lib Dem MP quits frontbench job over Ed Davey's leadership",
+       "url": "https://www.bbc.co.uk/news/articles/cw4g13j4mdxjo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "549b43f0ddbc",
+     "title": "Tokyo Police to Form Specialized Autonomous Driving Unit",
+     "summary": "Tokyo law enforcement is setting up a dedicated automated vehicle unit to process municipal safety permits and handle self-driving vehicle accidents.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-09T17:23:14Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Tokyo police to set up autonomous driving unit to handle permits, accidents",
+       "url": "https://asia.nikkei.com/business/automobiles/tokyo-police-to-set-up-autonomous-driving-unit-to-handle-permits-accidents",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1bbe1631b7ca",
+     "title": "Fujitsu Plans US Quantum Computing Research Center in New Mexico",
+     "summary": "Fujitsu announced a major investment to establish a dedicated quantum computing R&D center in New Mexico.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-09T17:23:14Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Fujitsu to set up US quantum computing research center in New Mexico",
+       "url": "https://asia.nikkei.com/business/technology/fujitsu-to-set-up-us-quantum-computing-research-center-in-new-mexico",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "9edac32592fe",
+     "title": "South Korea and Japan Reaffirm Defense Cooperation Against North Korean Threats",
+     "summary": "Senior defense officials from South Korea and Japan held bilateral talks in Tokyo to coordinate strategies against ongoing North Korean missile and nuclear threats.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-09T10:12:09Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Senior defense officials of S. Korea, Japan reaffirm cooperation against N. Korean threats",
+       "url": "https://en.yna.co.kr/view/AEN20261009005300315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Senior defense officials of S. Korea, Japan reaffirm cooperation against N. Korean threats",
+       "url": "https://www.koreaherald.com/article/10897937",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d700ba8a6857",
+     "title": "Suspected North Korean Landmine Washes Ashore on Incheon Beach",
+     "summary": "An antipersonnel landmine originating from North Korea was discovered on a South Korean beach, prompting local authorities to issue public safety warnings.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-09T06:16:34Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "NK News (North Korea)",
+       "title": "Suspected North Korean land mine washes ashore on South Korean island",
+       "url": "https://www.nknews.org/2026/10/suspected-north-korean-land-mine-washes-ashore-on-south-korean-island/",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Suspected North Korean land mine found on Incheon beach",
+       "url": "https://www.koreaherald.com/article/10897836",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d90ab88c33ec",
+     "title": "Coupang Services Experiencing Midnight Outages During System Update",
+     "summary": "Major e-commerce platform Coupang experienced widespread user disruptions across its services during a midnight software update.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-09T02:19:58Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Coupang services disrupted around midnight during update",
+       "url": "https://www.koreaherald.com/article/10897724",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Coupang services disrupted around midnight during update",
+       "url": "https://en.yna.co.kr/view/AEN20261009001551320",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "371f1dfc0e07",
+     "title": "Final Fantasy 7 Remake Intergrade Hits New Low Price on Switch 2",
+     "summary": "Nintendo Switch 2 owners can grab Final Fantasy 7 Remake Intergrade for an all-time low price of $25 without needing an active Amazon Prime subscription.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-09T11:11:45Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Final Fantasy 7 Remake Intergrade Drops to New All-Time Low Price on Switch 2",
+       "url": "https://www.ign.com/articles/final-fantasy-7-remake-intergrade-best-deal-nintendo-switch-2",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d6c37bd248de",
+     "title": "Superliminar and The Pale Beyond Discounted on Digital Storefronts",
+     "summary": "Several indie hits including Superliminar and The Pale Beyond are heavily discounted across Steam and Gamebillet.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-09T17:10:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "The Pale Beyond is $3.99 on Steam buff.ly/duqnCRY Promise Mascot Agency $14.99 buff.ly/3iWaLI5 Tavern Keeper $20.99 buff.ly/c4xdxpY Tribe: Primitive Builder $3.79 buff.ly/dYtRLPB",
+       "url": "https://buff.ly/duqnCRY",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Superliminal (Steam) is $6.29 on Gamebillet buff.ly/DOKmqcU $7.99 Xbox buff.ly/xED2et7",
+       "url": "https://buff.ly/DOKmqcU",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-09",
+ "generated_at": "2026-10-09T17:23:14Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1266,
+  "clusters": 1059,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "helsinkitimes",
+   "title": "Helsinki Times (Finland)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:141: not well-formed (invalid token)"
+  },
+  {
+   "key": "cphpost",
+   "title": "The Copenhagen Post (Denmark)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:119: not well-formed (invalid token)"
+  }
+ ]
+}
