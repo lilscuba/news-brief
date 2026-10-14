@@ -47,12 +47,16 @@ struct StoryImage: View {
             // keeps every row's state, so holding it here would keep every picture ever scrolled past.
             .onDisappear { image = nil }
             .task(id: url) {
+                guard !Task.isCancelled else { return }
                 // Also runs when the story's picture changes, so the old one never lingers.
                 image = ImageLoader.shared.cached(url)
                 var wait = 2.0
                 while image == nil, !Task.isCancelled, ImageLoader.shared.canLoad(url) {
                     do {
                         let loaded = try await ImageLoader.shared.image(for: url)
+                        // Scrolled away or the picture changed while it decoded. It's in the cache
+                        // for next time; holding it here would keep it in memory off screen.
+                        if Task.isCancelled { return }
                         withAnimation(.easeOut(duration: 0.2)) {
                             image = loaded
                             failed = false

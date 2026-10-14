@@ -40,6 +40,7 @@ final class ImageLoader: @unchecked Sendable {   // NSCache, URLSession and the 
         if let hit = cached(url) { return hit }
         guard canLoad(url) else { throw URLError(.fileDoesNotExist) }
         let (data, response) = try await session.data(from: url)
+        try Task.checkCancellation()   // its card scrolled away: skip the decode
         if let http = response as? HTTPURLResponse, !(200..<300).contains(http.statusCode) {
             if ![408, 429].contains(http.statusCode) && http.statusCode < 500 { giveUp(on: url) }
             throw URLError(.badServerResponse)

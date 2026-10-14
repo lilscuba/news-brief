@@ -29,7 +29,7 @@ _ATTR_RE = re.compile(r"""\b(src|width)\s*=\s*["']([^"']*)["']""", re.IGNORECASE
 # across a feed card without looking blurry.
 MIN_IMAGE_WIDTH = 300
 # BBC's feeds only carry 240px thumbnails, but its image server returns any width asked for.
-_BBC_IMAGE_RE = re.compile(r"^(https?://ichef\.bbci\.co\.uk/(?:ace/(?:standard|ws)|news))/\d+/")
+_BBC_IMAGE_RE = re.compile(r"^(https?://ichef\.bbci\.co\.uk/(?:ace/(?:standard|ws)|news))/(\d+)/")
 BBC_IMAGE_WIDTH = 976
 
 
@@ -87,7 +87,7 @@ def _width(value) -> int | None:
 
 def _card_sized(url: str | None, width) -> tuple[str | None, object]:
     """Asks BBC's image server for a card-sized picture instead of the feed's 240px thumbnail."""
-    if url and _BBC_IMAGE_RE.match(url):
+    if url and (m := _BBC_IMAGE_RE.match(url)) and int(m.group(2)) < BBC_IMAGE_WIDTH:
         return _BBC_IMAGE_RE.sub(rf"\g<1>/{BBC_IMAGE_WIDTH}/", url), BBC_IMAGE_WIDTH
     return url, width
 

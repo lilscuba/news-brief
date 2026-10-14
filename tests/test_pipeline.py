@@ -173,11 +173,14 @@ def test_parse_feed_skips_pixels_and_small_repeats_and_upsizes_bbc():
         '<media:thumbnail url="https://e.example/full.jpg" width="150"/>',
         '<media:thumbnail width="240" height="135" '
         'url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/x/live/a.jpg"/>',
+        # already bigger than a card needs: left alone
+        '<media:content width="1536" url="https://ichef.bbci.co.uk/news/1536/cpsprodpb/b.jpg"/>',
     )
     images = [it.image for it in parse_feed(feed("bbc"), rss, NOW)]
     assert images == [None, "https://media.npr.org/assets/img/lead.jpg", None,
                       "https://e.example/full.jpg",
-                      "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/x/live/a.jpg"]
+                      "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/x/live/a.jpg",
+                      "https://ichef.bbci.co.uk/news/1536/cpsprodpb/b.jpg"]
 
 
 def test_assemble_drops_unknown_ids_and_repeats():
