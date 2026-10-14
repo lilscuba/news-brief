@@ -13,7 +13,7 @@ import re
 from datetime import datetime, timezone
 
 from .models import Feed, Item
-from .normalize import canonical_url, snippet
+from .normalize import canonical_url, image_url, snippet
 
 API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
 _PROFILE_RE = re.compile(r"^https://bsky\.app/profile/([^/]+)/rss/?$")
@@ -44,6 +44,17 @@ def _post_link(post: dict) -> str | None:
         for feature in facet.get("features", []):
             if feature.get("$type") == "app.bsky.richtext.facet#link" and feature.get("uri"):
                 return feature["uri"]
+    return None
+
+
+def _post_image(post: dict) -> str | None:
+    """The link card's thumbnail, or the first picture attached to the post."""
+    embed = post.get("embed") or {}
+    for e in (embed, embed.get("media") or {}):
+        card = e.get("external") or {}
+        for thumb in [card.get("thumb")] + [i.get("thumb") for i in e.get("images") or []]:
+            if url := image_url(thumb):
+                return url
     return None
 
 
@@ -88,6 +99,8 @@ def parse_author_feed(feed: Feed, data: dict, now: datetime) -> list[Item]:
                 canonical_url=canonical_url(link or post_url),
                 summary=snippet(summary),
                 published=published,
+                # A card for a poll or tip jar was dropped above; its picture goes with it.
+                image=_post_image(post) if link or not card else None,
             )
         )
     return items

@@ -1,112 +1,90 @@
 import SwiftUI
 
-/// One day's brief as a single scrolling feed: the headline, Top stories, then a short preview of
-/// every followed topic with a "See all" page. A "Topics" menu in the navigation bar opens one.
+/// One day's brief as a single scrolling feed, like a Reddit front page: every followed topic
+/// mixed together and ranked (top stories first), each story a card with its picture. The topic
+/// chips, or the filter menu in the navigation bar, narrow the feed to one topic.
 struct BriefView: View {
     let brief: Brief
     /// e.g. "Offline: showing the last update."
     let status: String?
     @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
+    /// The topic the feed is narrowed to; nil shows every topic.
+    @State private var topic: String?
 
-    /// Stories shown per topic in the feed before "See all".
-    static let previewCount = 3
+    private static let headerID = "header"
 
     init(brief: Brief, status: String? = nil) {
         self.brief = brief
         self.status = status
     }
 
-    private var topics: [BriefSection] { brief.sections.filter { !$0.stories.isEmpty } }
-
     var body: some View {
-        List {
-            headerSection
+        let all = brief.stories
+        let filters = TopicFilter.counts(in: all, order: brief.sections.map(\.name))
+        // A topic that was since unfollowed, or that a past brief doesn't have, shows everything.
+        let selected = topic.flatMap { name in filters.contains(where: { $0.name == name }) ? name : nil }
+        let stories = sort.apply(selected.map { name in all.filter { $0.category == name } } ?? all)
+        let topIDs = Set(brief.top.map(\.id))
+        let selection = Binding(get: { selected }, set: { topic = $0 })
 
-            if topics.isEmpty && brief.top.isEmpty {
-                ContentUnavailableView("Nothing new yet",
-                                       systemImage: "tray",
-                                       description: Text("New stories show up here as they come in."))
-                    .listRowBackground(Color.clear)
-            }
+        ScrollViewReader { proxy in
+            List {
+                header
+                    .id(Self.headerID)
+                    .listRowSeparator(.hidden)
 
-            if !brief.top.isEmpty {
-                Section {
-                    ForEach(sort.apply(brief.top)) { story in
-                        NavigationLink(value: story) { StoryRow(story: story) }
-                    }
-                } header: {
-                    TopicHeader(name: Self.topTitle, count: nil, showsChevron: false)
+                if filters.count > 1 {
+                    TopicChips(filters: filters, selection: selection)
+                        .listRowInsets(EdgeInsets(top: 2, leading: 0, bottom: 12, trailing: 0))
+                        .alignmentGuide(.listRowSeparatorLeading) { _ in 0 }
                 }
-            }
 
-            ForEach(topics) { topic in
-                let destination = TopicDestination(name: topic.name, stories: topic.stories)
-                Section {
-                    ForEach(sort.apply(topic.stories).prefix(Self.previewCount)) { story in
-                        NavigationLink(value: story) { StoryRow(story: story) }
-                    }
-                    if topic.stories.count > Self.previewCount {
-                        NavigationLink(value: destination) {
-                            Text("See all \(topic.stories.count) in \(topic.name)")
-                                .font(.subheadline.weight(.semibold))
-                                .foregroundStyle(.tint)
-                        }
-                    }
-                } header: {
-                    NavigationLink(value: destination) {
-                        TopicHeader(name: topic.name, count: topic.stories.count, showsChevron: true)
-                    }
-                    .buttonStyle(.plain)
+                if stories.isEmpty {
+                    ContentUnavailableView("Nothing new yet",
+                                           systemImage: "tray",
+                                           description: Text("New stories show up here as they come in."))
+                        .listRowSeparator(.hidden)
                 }
-            }
 
-            Section { footer }
+                ForEach(stories) { story in
+                    FeedRow(story: story, isTop: topIDs.contains(story.id))
+                }
+
+                footer
+                    .listRowSeparator(.hidden)
+            }
+            .listStyle(.plain)
+            .onChange(of: topic) { proxy.scrollTo(Self.headerID, anchor: .top) }
+            .onChange(of: sort) { proxy.scrollTo(Self.headerID, anchor: .top) }
+            .sensoryFeedback(.selection, trigger: topic)
         }
-        .listStyle(.insetGrouped)
-        .navigationDestination(for: TopicDestination.self) { TopicListView(topic: $0) }
         .toolbar {
-            if !topics.isEmpty {
+            if filters.count > 1 {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Menu {
-                        // A value link, like every other push here. A separate bound
-                        // navigationDestination(item:) on the same stack left the article links on
-                        // that topic page highlighted but not opening until the next tap.
-                        ForEach(topics) { topic in
-                            NavigationLink(value: TopicDestination(name: topic.name, stories: topic.stories)) {
-                                Label("\(topic.name) · \(topic.stories.count)",
-                                      systemImage: TopicStyle.of(topic.name).symbol)
-                            }
-                        }
-                    } label: {
-                        Label("Topics", systemImage: "list.bullet")
-                    }
+                    FilterMenu(filters: filters, selection: selection)
                 }
             }
         }
     }
 
-    static let topTitle = "Top stories"
-
-    private var headerSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 8) {
-                Text(brief.displayDate.uppercased())
-                    .font(.caption.weight(.semibold))
-                    .tracking(0.6)
-                    .foregroundStyle(.tint)
-                Text(brief.headline)
-                    .font(.title3.weight(.semibold))
-                    .fixedSize(horizontal: false, vertical: true)
-                if let status {
-                    Label(status, systemImage: "wifi.slash")
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-                }
-                SortPicker()
-                    .padding(.top, 4)
+    private var header: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(brief.displayDate.uppercased())
+                .font(.caption.weight(.semibold))
+                .tracking(0.6)
+                .foregroundStyle(.tint)
+            Text(brief.headline)
+                .font(.title3.weight(.semibold))
+                .fixedSize(horizontal: false, vertical: true)
+            if let status {
+                Label(status, systemImage: "wifi.slash")
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
             }
-            .padding(.vertical, 6)
+            SortPicker()
+                .padding(.top, 4)
         }
+        .padding(.vertical, 6)
     }
 
     private var footer: some View {
@@ -119,36 +97,119 @@ struct BriefView: View {
         }
         .font(.caption)
         .foregroundStyle(.secondary)
+        .padding(.vertical, 12)
     }
 }
 
-/// Where "See all" goes: every story of one topic.
-struct TopicDestination: Hashable {
-    let name: String
-    let stories: [Story]
+/// A story card that opens the story. The link is hidden so the card has no disclosure chevron;
+/// a tap anywhere on the card still opens it.
+private struct FeedRow: View {
+    let story: Story
+    let isTop: Bool
+
+    var body: some View {
+        ZStack {
+            NavigationLink(value: story) { EmptyView() }
+                .opacity(0)
+            StoryCard(story: story, isTop: isTop)
+        }
+        .listRowInsets(EdgeInsets())
+        .alignmentGuide(.listRowSeparatorLeading) { _ in 0 }
+        .contextMenu {
+            if let first = story.sources.first {
+                ShareLink(item: first.url, subject: Text(story.title))
+            }
+        }
+    }
 }
 
-struct TopicListView: View {
-    let topic: TopicDestination
+/// The navigation bar's filter: pick a topic or the sort order from anywhere in the feed,
+/// without scrolling back up to the chips.
+private struct FilterMenu: View {
+    let filters: [TopicFilter]
+    @Binding var selection: String?
     @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
 
     var body: some View {
-        List {
-            Section {
-                SortPicker()
-            } header: {
-                Text("\(topic.stories.count) \(topic.stories.count == 1 ? "story" : "stories")")
-            }
-
-            Section {
-                ForEach(sort.apply(topic.stories)) { story in
-                    NavigationLink(value: story) { StoryRow(story: story) }
+        Menu {
+            Picker("Topic", selection: $selection) {
+                Label("All topics", systemImage: "square.stack").tag(String?.none)
+                ForEach(filters) { filter in
+                    Label("\(filter.name) · \(filter.count)", systemImage: TopicStyle.of(filter.name).symbol)
+                        .tag(String?.some(filter.name))
                 }
             }
+            Picker("Sort stories by", selection: $sort) {
+                ForEach(StorySort.allCases) { option in
+                    Text(option.title).tag(option)
+                }
+            }
+        } label: {
+            Label("Filter", systemImage: selection == nil
+                  ? "line.3.horizontal.decrease.circle"
+                  : "line.3.horizontal.decrease.circle.fill")
         }
-        .listStyle(.insetGrouped)
-        .navigationTitle(topic.name)
-        .navigationBarTitleDisplayMode(.large)
+    }
+}
+
+/// A followed topic that has stories in the feed, shown as a chip.
+struct TopicFilter: Identifiable, Hashable {
+    let name: String
+    let count: Int
+    var id: String { name }
+
+    /// Topics in `order` (the brief's topic order) with at least one story, and how many.
+    static func counts(in stories: [Story], order: [String]) -> [TopicFilter] {
+        let counts = Dictionary(grouping: stories, by: \.category).mapValues(\.count)
+        return order.compactMap { name in counts[name].map { TopicFilter(name: name, count: $0) } }
+    }
+}
+
+/// "All" plus one chip per topic, scrolling sideways. Tapping the selected chip again goes back
+/// to All.
+struct TopicChips: View {
+    let filters: [TopicFilter]
+    @Binding var selection: String?
+
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 8) {
+                chip(nil, title: "All", symbol: "square.stack.fill", color: .accentColor, count: nil)
+                ForEach(filters) { filter in
+                    let style = TopicStyle.of(filter.name)
+                    chip(filter.name, title: filter.name, symbol: style.symbol, color: style.color,
+                         count: filter.count)
+                }
+            }
+            .padding(.horizontal, 16)
+        }
+    }
+
+    private func chip(_ name: String?, title: String, symbol: String, color: Color, count: Int?) -> some View {
+        let isSelected = selection == name
+        return Button {
+            selection = isSelected ? nil : name
+        } label: {
+            HStack(spacing: 5) {
+                Image(systemName: symbol)
+                    .imageScale(.small)
+                Text(title)
+                if let count {
+                    Text("\(count)")
+                        .monospacedDigit()
+                        .opacity(0.7)
+                }
+            }
+            .font(.subheadline.weight(.semibold))
+            .padding(.horizontal, 12)
+            .padding(.vertical, 7)
+            .foregroundStyle(isSelected ? Color.white : Color.primary)
+            .background(isSelected ? AnyShapeStyle(color.gradient) : AnyShapeStyle(Color(uiColor: .tertiarySystemFill)),
+                        in: Capsule())
+        }
+        // Without this, a tap anywhere in the row would fire every chip's button.
+        .buttonStyle(.plain)
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 }
 
@@ -175,7 +236,6 @@ struct TopicStyle {
 
     static func of(_ name: String) -> TopicStyle {
         switch name {
-        case BriefView.topTitle: TopicStyle(symbol: "flame.fill", color: .orange)
         case "AI": TopicStyle(symbol: "cpu", color: .purple)
         case "Tech": TopicStyle(symbol: "laptopcomputer", color: .blue)
         case "Gaming": TopicStyle(symbol: "gamecontroller.fill", color: .green)
@@ -190,80 +250,92 @@ struct TopicStyle {
     }
 }
 
-/// Section header: coloured icon, topic name, story count and a chevron when it opens a page.
-struct TopicHeader: View {
-    let name: String
-    let count: Int?
-    let showsChevron: Bool
-
-    var body: some View {
-        let style = TopicStyle.of(name)
-        HStack(spacing: 10) {
-            Image(systemName: style.symbol)
-                .font(.footnote.weight(.bold))
-                .foregroundStyle(.white)
-                .frame(width: 28, height: 28)
-                .background(style.color.gradient, in: RoundedRectangle(cornerRadius: 7, style: .continuous))
-                .accessibilityHidden(true)
-            Text(name)
-                .font(.title3.weight(.bold))
-                // Color.primary, not .primary: list headers pass down a secondary style that the
-                // hierarchical .primary would inherit.
-                .foregroundStyle(Color.primary)
-            Spacer(minLength: 8)
-            if let count {
-                Text("\(count)")
-                    .font(.subheadline)
-                    .monospacedDigit()
-                    .foregroundStyle(.secondary)
-            }
-            if showsChevron {
-                Image(systemName: "chevron.right")
-                    .font(.footnote.weight(.semibold))
-                    .foregroundStyle(.tertiary)
-            }
-        }
-        .textCase(nil)
-        .padding(.top, 8)
-        .accessibilityElement(children: .combine)
-        .accessibilityAddTraits(.isHeader)
-    }
-}
-
-struct StoryRow: View {
+/// One story in the feed, laid out like a Reddit post: its topic, outlet and age, the headline,
+/// the picture (or the snippet when there isn't one) and how widely it's covered.
+struct StoryCard: View {
     @Environment(AppModel.self) private var store
-    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
     let story: Story
+    var isTop = false
 
     var body: some View {
         let read = store.isRead(story)
-        VStack(alignment: .leading, spacing: 4) {
-            HStack(spacing: 6) {
-                if let label = story.label { LabelBadge(label: label) }
-                ImportanceDots(level: story.importance)
+        let style = TopicStyle.of(story.category)
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 5) {
+                Image(systemName: style.symbol)
+                    .font(.system(size: 10, weight: .bold))
+                    .foregroundStyle(.white)
+                    .frame(width: 20, height: 20)
+                    .background(style.color.gradient, in: Circle())
+                    .accessibilityHidden(true)
                 Text(story.category)
-                Text("·")
-                Text(story.outletCount == 1 ? "1 outlet" : "\(story.outletCount) outlets")
-                if story.isTranslated {
-                    Image(systemName: "globe")
-                        .accessibilityLabel("Translated")
-                }
-                if sort == .latest {
+                    .fontWeight(.semibold)
+                    .foregroundStyle(Color.primary)
+                    .fixedSize()
+                if let outlet = story.sources.first?.outlet {
                     Text("·")
-                    Text(story.published.formatted(.relative(presentation: .numeric, unitsStyle: .narrow)))
+                    Text(outlet)
+                        .lineLimit(1)
+                }
+                Text("·")
+                Text(story.published.formatted(.relative(presentation: .numeric, unitsStyle: .narrow)))
+                    .fixedSize()
+                Spacer(minLength: 4)
+                if let label = story.label {
+                    LabelBadge(label: label)
+                        .fixedSize()
                 }
             }
             .font(.caption)
             .foregroundStyle(.secondary)
+
             Text(story.title)
                 .font(.headline)
                 .foregroundStyle(read ? .secondary : .primary)
-            Text(story.summary)
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                .lineLimit(3)
+                .multilineTextAlignment(.leading)
+                .fixedSize(horizontal: false, vertical: true)
+
+            if let image = story.image {
+                StoryImage(url: image, topic: story.category)
+            } else if !story.summary.isEmpty {
+                Text(story.summary)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(3)
+            }
+
+            HStack(spacing: 8) {
+                if isTop {
+                    Label("Top story", systemImage: "flame.fill")
+                        .foregroundStyle(.orange)
+                        .pill()
+                }
+                HStack(spacing: 6) {
+                    ImportanceDots(level: story.importance)
+                    Text(story.outletCount == 1 ? "1 outlet" : "\(story.outletCount) outlets")
+                }
+                .pill()
+                if story.isTranslated {
+                    Label("Translated", systemImage: "globe")
+                        .pill()
+                }
+            }
+            .font(.caption.weight(.semibold))
+            .foregroundStyle(.secondary)
         }
-        .padding(.vertical, 4)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 12)
+        .contentShape(Rectangle())
+        .accessibilityElement(children: .combine)
+    }
+}
+
+private extension View {
+    /// The grey capsule under a card, like the vote and comment counts under a Reddit post.
+    func pill() -> some View {
+        padding(.horizontal, 10)
+            .padding(.vertical, 5)
+            .background(Color(uiColor: .tertiarySystemFill), in: Capsule())
     }
 }
 

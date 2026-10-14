@@ -126,6 +126,38 @@ def test_parse_feed_extracts_hn_points_and_techmeme_link():
     assert it.published == NOW  # undated -> now
 
 
+def _rss(*items: str) -> bytes:
+    body = "".join(f"<item><title>T{i}</title><link>https://example.com/{i}</link>{x}</item>"
+                   for i, x in enumerate(items))
+    return (f'<?xml version="1.0"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" '
+            f'xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>t</title>'
+            f"{body}</channel></rss>").encode()
+
+
+def test_parse_feed_finds_each_articles_picture():
+    rss = _rss(
+        # largest media:content image wins; video and the small thumbnail don't
+        '<media:content url="https://i.example/v.mp4" medium="video" width="1920"/>'
+        '<media:content url="https://i.example/a-140.jpg" width="140"/>'
+        '<media:content url="https://i.example/a-460.jpg" width="460"/>'
+        '<media:thumbnail url="https://i.example/a-thumb.jpg" width="240"/>',
+        '<enclosure url="https://i.example/b.jpg" type="image/jpeg" length="1"/>',
+        # tracking pixel and tiny icon skipped; entities decoded; http upgraded for iOS
+        '<content:encoded><![CDATA[<img src="https://feeds.feedburner.com/~r/x/~4/1" width="1">'
+        '<img src="https://i.example/icon.png" width="32">'
+        '<img src="http://i.example/c.jpg?w=800&amp;q=80" width="800"></p>]]></content:encoded>',
+        "<description><![CDATA[<p><img src='//i.example/d image.jpg'/>Hi</p>]]></description>",
+        "<description>No picture here</description>",
+        '<media:thumbnail url="https://i.example/small.jpg" width="240"/>',
+    )
+    images = [it.image for it in parse_feed(feed("verge"), rss, NOW)]
+    assert images == ["https://i.example/a-460.jpg", "https://i.example/b.jpg",
+                      "https://i.example/c.jpg?w=800&q=80", "https://i.example/d%20image.jpg",
+                      None, None]
+    [tm] = parse_feed(feed("techmeme"), _rss('<media:content url="https://i.example/tm.jpg"/>'), NOW)
+    assert tm.image is None
+
+
 def test_assemble_drops_unknown_ids_and_repeats():
     a, b = feed("a", "AI"), feed("b", "Gaming")
     clusters = cluster_items([item(a, "OpenAI ships a thing"), item(b, "Nintendo Direct dated")])

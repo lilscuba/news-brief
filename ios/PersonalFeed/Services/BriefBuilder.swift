@@ -22,7 +22,7 @@ enum BriefBuilder {
             if isDeal ? !wantsDeals : !settings.categories.contains(s.category) { continue }
             let text = ([s.title] + sources.map(\.title)).joined(separator: " ").lowercased()
             if muted.contains(where: { text.contains($0) }) { continue }
-            let boost = Double(boosts.filter { text.contains($0) }.count) * boostWeight
+            let score = s.score + Double(boosts.filter { text.contains($0) }.count) * boostWeight
             let outlets = Set(sources.map(\.outlet)).count
             let story = Story(
                 id: s.id,
@@ -37,9 +37,11 @@ enum BriefBuilder {
                     Source(outlet: $0.outlet, title: $0.title, url: $0.url, official: $0.official,
                            translatedFrom: $0.translatedFrom, originalTitle: $0.originalTitle)
                 },
-                aiSummary: s.aiSummary
+                aiSummary: s.aiSummary,
+                image: sources.lazy.compactMap { $0.image.flatMap(URL.init(string:)) }.first,
+                score: score
             )
-            scored.append((story, s.score + boost, isDeal))
+            scored.append((story, score, isDeal))
         }
         scored.sort { $0.score > $1.score }
 

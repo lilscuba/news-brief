@@ -16,13 +16,18 @@ import requests
 
 from . import bluesky
 from .models import Feed, Item
-from .normalize import canonical_url, clean_title, snippet
+from .normalize import canonical_url, clean_title, image_url, snippet
 
 log = logging.getLogger(__name__)
 
 USER_AGENT = "PersonalFeed/1.0 (personal RSS digest)"
 _HREF_RE = re.compile(r'href="(https?://[^"]+)"')
 _HN_POINTS_RE = re.compile(r"Points:\s*(\d+)")
+_IMG_TAG_RE = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
+_ATTR_RE = re.compile(r"""\b(src|width)\s*=\s*["']([^"']*)["']""", re.IGNORECASE)
+# Pictures declared narrower than this are icons or tracking pixels, or too small to stretch
+# across a feed card without looking blurry.
+MIN_IMAGE_WIDTH = 300
 
 
 @dataclass
@@ -70,6 +75,37 @@ def _entry_time(entry, fallback: datetime) -> datetime:
     return fallback
 
 
+def _width(value) -> int | None:
+    try:
+        return int(str(value).strip().removesuffix("px"))
+    except (TypeError, ValueError):
+        return None  # missing, or something like "100%"
+
+
+def entry_image(entry) -> str | None:
+    """The article's picture: the largest media:content image, then media:thumbnail, an image
+    enclosure, or the first real <img> in the content or description."""
+    candidates: list[tuple[str | None, object]] = []
+    for key in ("media_content", "media_thumbnail"):
+        media = [m for m in entry.get(key) or []
+                 # media:content can be video or audio; with no medium or type it's a picture.
+                 if (m.get("medium") or (m.get("type") or "").split("/")[0]) in ("image", "")]
+        media.sort(key=lambda m: _width(m.get("width")) or 0, reverse=True)
+        candidates += [(m.get("url"), m.get("width")) for m in media]
+    candidates += [(e.get("href"), None) for e in entry.get("enclosures") or []
+                   if (e.get("type") or "").startswith("image/")]
+    for text in [c.get("value") for c in entry.get("content") or []] + [entry.get("summary")]:
+        for tag in _IMG_TAG_RE.findall(text or ""):
+            attrs = {k.lower(): v for k, v in _ATTR_RE.findall(tag)}
+            candidates.append((attrs.get("src"), attrs.get("width")))
+    for url, width in candidates:
+        if (w := _width(width)) is not None and w < MIN_IMAGE_WIDTH:
+            continue
+        if found := image_url(url):
+            return found
+    return None
+
+
 def parse_feed(feed: Feed, content: bytes, now: datetime) -> list[Item]:
     parsed = feedparser.parse(content)
     items: list[Item] = []
@@ -103,6 +139,8 @@ def parse_feed(feed: Feed, content: bytes, now: datetime) -> list[Item]:
                 published=published,
                 alt_urls=alt_urls,
                 hn_points=hn_points,
+                # Techmeme's pictures are tiny; the original outlet's feed has a real one.
+                image=None if feed.outlet == "techmeme" else entry_image(entry),
             )
         )
     if not items and parsed.bozo:

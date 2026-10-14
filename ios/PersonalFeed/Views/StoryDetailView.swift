@@ -11,6 +11,9 @@ struct StoryDetailView: View {
         List {
             Section {
                 VStack(alignment: .leading, spacing: 10) {
+                    if let image = story.image {
+                        StoryImage(url: image, topic: story.category)
+                    }
                     HStack(spacing: 6) {
                         if let label = story.label { LabelBadge(label: label) }
                         ImportanceDots(level: story.importance)

@@ -169,6 +169,11 @@ Notes on the sources:
   (`[story_summaries]` in `config.toml`; each story is summarized once and cached, and the app
   labels it). Nothing is scraped; article pages are never fetched. Separately, setting the
   `SUMMARIZE` repo variable to `true` makes Gemini write the daily brief page and email.
+- **Pictures.** The app shows every followed topic as one mixed feed of cards (filter to one
+  topic with the chips at the top). Each card's picture is the one the outlet's feed already
+  publishes with the article (`media:content`, `media:thumbnail`, an image enclosure or the
+  first `<img>`, or a Bluesky link card); nothing is scraped. The phone loads it straight from
+  the outlet's servers. Stories without one show their snippet instead.
 - **World, Europe, Japan and Korea are off for new accounts** until switched on in Topics.
 - **`[ranking.category_weight]`** halves the outlet-count score for World and Europe. They have
   far more sources than AI/Tech/Gaming, so without it a big world story would take every top slot.

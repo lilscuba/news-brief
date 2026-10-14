@@ -137,6 +137,65 @@ final class BriefBuilderTests: XCTestCase {
         XCTAssertEqual(try JSONDecoder.api.decode(FeedStory.self, from: Data(json.utf8)).aiSummary, true)
     }
 
+    func testStoryPictureComesFromItsFirstEnabledSourceAndOldFeedsStillDecode() throws {
+        XCTAssertNil(feed.stories[0].sources[0].image, "feeds without the field still decode")
+        let json = """
+        {"key":"verge","outlet":"The Verge","title":"t","url":"https://example.com/v","official":false,
+         "published":"2026-10-01T12:00:00Z","image":"https://cdn.example.com/v.jpg"}
+        """
+        let verge = try JSONDecoder.api.decode(FeedSource.self, from: Data(json.utf8))
+        XCTAssertEqual(verge.image, "https://cdn.example.com/v.jpg")
+        let blog = FeedSource(key: "openai", outlet: "OpenAI", title: "t", url: URL(string: "https://example.com/o")!,
+                              official: true, published: now)
+        var ars = FeedSource(key: "ars", outlet: "Ars Technica", title: "t", url: URL(string: "https://example.com/a")!,
+                             official: false, published: now)
+        ars.image = "https://cdn.example.com/a.jpg"
+        let story = FeedStory(id: "pic", title: "t", summary: "", label: "CONFIRMED", category: "Tech", score: 3,
+                              official: true, trusted: false, outletCount: 3, published: now, sources: [blog, verge, ars])
+        let withPicture = SharedFeed(version: 1, generatedAt: feed.generatedAt, windowHours: feed.windowHours,
+                                     sections: feed.sections, sources: feed.sources, watchlist: feed.watchlist,
+                                     stories: [story])
+
+        let brief = BriefBuilder.build(feed: withPicture, settings: .default, now: now)
+        XCTAssertEqual(brief.allStories.first { $0.id == "pic" }?.image, URL(string: "https://cdn.example.com/v.jpg"))
+        var s = UserSettings.default
+        s.disabledSources = ["verge"]
+        let withoutVerge = BriefBuilder.build(feed: withPicture, settings: s, now: now)
+        XCTAssertEqual(withoutVerge.allStories.first { $0.id == "pic" }?.image, URL(string: "https://cdn.example.com/a.jpg"),
+                       "a turned-off outlet's picture isn't shown")
+    }
+
+    func testTheFeedMixesTopicsWithTopStoriesFirstThenByScore() {
+        let brief = BriefBuilder.build(feed: feed, settings: .default, now: now)
+        let stories = brief.stories
+        XCTAssertEqual(stories.map(\.id).sorted(), brief.allStories.map(\.id).sorted(), "every story, once")
+        XCTAssertEqual(stories.prefix(brief.top.count).map(\.id), brief.top.map(\.id))
+        let scores = stories.dropFirst(brief.top.count).compactMap(\.score)
+        XCTAssertEqual(scores.count, stories.count - brief.top.count, "every story carries its score")
+        XCTAssertEqual(scores, scores.sorted(by: >))
+    }
+
+    func testBriefsSavedBeforeScoresStillMixTopics() throws {
+        func story(_ id: String, _ category: String, outlets: Int) -> Story {
+            Story(id: id, title: id, summary: "", importance: 1, label: nil, category: category,
+                  published: now, outletCount: outlets, sources: [])
+        }
+        let old = Brief(date: "2026-10-01", generatedAt: now, headline: "", top: [story("t", "AI", outlets: 9)],
+                        sections: [BriefSection(name: "AI", stories: [story("a1", "AI", outlets: 1)]),
+                                   BriefSection(name: "Gaming", stories: [story("g1", "Gaming", outlets: 4),
+                                                                          story("g2", "Gaming", outlets: 1)])],
+                        sourceProblems: [])
+        XCTAssertEqual(old.stories.map(\.id), ["t", "g1", "a1", "g2"], "by outlet count; ties keep topic order")
+        XCTAssertEqual(TopicFilter.counts(in: old.stories, order: ["AI", "Tech", "Gaming"]),
+                       [TopicFilter(name: "AI", count: 2), TopicFilter(name: "Gaming", count: 2)],
+                       "topics with no stories get no chip")
+
+        let json = #"{"id":"a","title":"t","summary":"","importance":1,"category":"Tech","published":"2026-10-01T12:00:00Z","outletCount":1,"sources":[]}"#
+        let saved = try JSONDecoder.api.decode(Story.self, from: Data(json.utf8))
+        XCTAssertNil(saved.image)
+        XCTAssertNil(saved.score)
+    }
+
     func testLatestSortsNewestFirstAndHotKeepsTheFeedOrder() {
         func story(_ id: String, minutesAgo: Double) -> Story {
             Story(id: id, title: id, summary: "", importance: 1, label: nil, category: "Tech",
