@@ -1,223 +1,397 @@
 {
  "version": 1,
- "headline": "Global markets react to tech earnings and soaring AI revenue while geopolitical tensions mount across Europe and Asia.",
+ "headline": "Grand Theft Auto 6 drops its official launch trailer, while the FTC subpoenas top AI labs and President Trump calls off a high-profile execution livestream.",
  "top": [
   {
-   "id": "41b8af1f6a5d",
-   "title": "OpenAI Alleges Ex-Employee Stole Confidential Device Files and Shared Them With Apple",
-   "summary": "OpenAI filed court documents claiming an ex-employee stole sensitive trade secrets about an unreleased product and presented them to Apple. In response, OpenAI voluntarily agreed not to use any disputed information while the legal battle continues.",
+   "id": "c6b253f287e3",
+   "title": "Grand Theft Auto 6 Official Launch Trailer Released",
+   "summary": "Rockstar Games has officially dropped the launch trailer for Grand Theft Auto 6, showcasing new gameplay featuring Jason and Lucia ahead of its release next month.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-15T10:27:38Z",
-   "outlet_count": 4,
+   "category": "Gaming",
+   "published": "2026-10-15T15:00:00Z",
+   "outlet_count": 11,
    "sources": [
     {
-     "outlet": "9to5Mac",
-     "title": "OpenAI alleges ex-employee took ‘highly confidential’ device files to Apple",
-     "url": "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
+     "outlet": "Wario64",
+     "title": "Grand Theft Auto VI Launch Trailer www.youtube.com/watch?v=rz1B...",
+     "url": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
      "official": false
     },
     {
-     "outlet": "AppleInsider",
-     "title": "OpenAI cries foul, says Apple stole secrets from it in 2026",
-     "url": "https://appleinsider.com/articles/26/10/14/openai-cries-foul-says-apple-stole-secrets-from-it-in-2026?utm_source=rss",
+     "outlet": "VGC",
+     "title": "Rockstar has revealed the official launch trailer for Grand Theft Auto 6",
+     "url": "https://www.videogameschronicle.com/news/rockstar-has-revealed-the-official-launch-trailer-for-grand-theft-auto-6/",
      "official": false
     },
     {
-     "outlet": "The Verge AI",
-     "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+     "outlet": "Insider Gaming",
+     "title": "GTA 6 Gameplay Launch Trailer Dropped by Rockstar Games",
+     "url": "https://insider-gaming.com/gta-6-gameplay-launch-trailer-dropped-by-rockstar-games/",
      "official": false
     },
     {
-     "outlet": "MacRumors",
-     "title": "OpenAI Says Ex-Employee Showed Its Device Plans to Apple",
-     "url": "https://www.macrumors.com/2026/10/14/openai-apple-potential-counterclaim/",
+     "outlet": "Kotaku",
+     "title": "Surprise, Here’s A New Grand Theft Auto 6 Trailer",
+     "url": "https://kotaku.com/surprise-heres-a-new-grand-theft-auto-6-trailer-2000746327",
      "official": false
     },
     {
-     "outlet": "9to5Mac",
-     "title": "OpenAI agrees not to use alleged Apple trade secrets amid ongoing lawsuit",
-     "url": "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
+     "outlet": "Push Square",
+     "title": "GTA 6 Launch Trailer Available to Watch Right Now, Captured on PS5",
+     "url": "https://www.pushsquare.com/news/2026/10/gta-6-launch-trailer-available-to-watch-right-now-captured-on-ps5",
      "official": false
     },
     {
-     "outlet": "AppleInsider",
-     "title": "OpenAI swears it won't use the Apple trade secrets it seemingly admits it has",
-     "url": "https://appleinsider.com/articles/26/10/15/openai-swears-it-wont-use-the-apple-trade-secrets-it-seemingly-admits-it-has?utm_source=rss",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "0b506f863061",
-   "title": "Anthropic Reports Surge to $16.8 Billion in Q3 Revenue Ahead of November IPO",
-   "summary": "Anthropic announced its third-quarter revenue reached $16.8 billion, a 46% year-over-year increase, alongside an adjusted profit. The company is heading toward a planned November stock market debut that could value it at up to $2 trillion.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "AI",
-   "published": "2026-10-15T09:50:43Z",
-   "outlet_count": 4,
-   "sources": [
-    {
-     "outlet": "BBC News: World",
-     "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
-     "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+     "outlet": "IGN",
+     "title": "GTA 6 Launch Trailer Teases Jason's Troubled Past, a Steamy Shower Scene With Lucia, and Much More",
+     "url": "https://www.ign.com/articles/gta-6-launch-trailer-teases-jasons-troubled-past-a-steamy-shower-scene-with-lucia-and-much-more",
      "official": false
     },
     {
-     "outlet": "Euronews",
-     "title": "Anthropic revenue jumps 46% to $16.8bn as AI firm eyes record $2 trillion IPO valuation",
-     "url": "https://www.euronews.com/2026/10/15/anthropic-revenue-jumps-46-to-168bn-as-ai-firm-eyes-record-2-trillion-ipo-valuation",
+     "outlet": "Gematsu",
+     "title": "Grand Theft Auto VI launch trailer",
+     "url": "https://www.gematsu.com/2026/10/grand-theft-auto-vi-launch-trailer",
      "official": false
     },
     {
-     "outlet": "Axios",
-     "title": "Anthropic brings Wall Street an AI bull case",
-     "url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
+     "outlet": "Eurogamer",
+     "title": "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists",
+     "url": "https://www.eurogamer.net/grand-theft-auto-6-launch-trailer",
      "official": false
     },
     {
-     "outlet": "The Decoder",
-     "title": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
-     "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "a08216ed8be3",
-   "title": "Eight US States Sue OpenAI, Alleging ChatGPT Endangers Children",
-   "summary": "Attorneys general from eight US states filed lawsuits against OpenAI, claiming that ChatGPT is unsafe for children and that the company ignored its own safety warnings for financial gain.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-15T09:40:36Z",
-   "outlet_count": 5,
-   "sources": [
-    {
-     "outlet": "The Verge",
-     "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "Iowa, Nebraska and six other states are suing OpenAI for endangering children",
-     "url": "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
+     "outlet": "Pure Xbox",
+     "title": "GTA 6 Looks Great In Official Rockstar Launch Trailer, But Xbox Is Nowhere To Be Seen",
+     "url": "https://www.purexbox.com/news/2026/10/gta-6-looks-great-in-official-rockstar-launch-trailer-but-xbox-is-nowhere-to-be-seen",
      "official": false
     },
     {
      "outlet": "PC Gamer",
-     "title": "State lawsuits accuse OpenAI of ignoring its own safety warnings for profit: 'All these harms were foreseeable and avoidable'",
-     "url": "https://www.pcgamer.com/software/ai/8-us-states-sue-openai/",
+     "title": "The Grand Theft Auto 6 launch trailer is here",
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-launch-trailer/",
      "official": false
     },
     {
+     "outlet": "Kotaku",
+     "title": "The Sex Scene Is One Of The Best Parts Of Grand Theft Auto 6′s New Trailer",
+     "url": "https://kotaku.com/grand-theft-auto-6-new-trailer-sex-scene-jason-lucia-2000746333",
+     "official": false
+    },
+    {
+     "outlet": "Push Square",
+     "title": "GTA 6's Original Music Score Is Composed by Excellent French Electronic Duo Justice",
+     "url": "https://www.pushsquare.com/news/2026/10/gta-6s-original-music-score-is-composed-by-excellent-french-electronic-duo-justice",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "7ee2f9e4d21a",
+   "title": "Trump Cancels Livestream of Nidal Hasan Execution",
+   "summary": "Following heavy public criticism, US President Donald Trump has called off plans to livestream the execution of convicted mass shooter Nidal Hasan.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-15T15:22:59Z",
+   "outlet_count": 29,
+   "sources": [
+    {
+     "outlet": "Just the News",
+     "title": "Trump confirms Fort Hood shooter's execution will not be livestreamed",
+     "url": "https://justthenews.com/politics-policy/trump-confirms-fort-hood-shooters-execution-will-not-be-livestreamed?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "Trump says execution of Fort Hood shooter will not be livestreamed",
+     "url": "https://www.washingtonexaminer.com/news/white-house/4766899/trump-fort-hood-shooter-execution-will-not-be-livestreamed/",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Trump says execution of Fort Hood shooter will not be livestreamed",
+     "url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "Fox News: Politics",
+     "title": "Trump rules out livestream for Nidal Hasan firing squad execution",
+     "url": "https://www.foxnews.com/politics/trump-rules-out-livestream-nidal-hasan-firing-squad-execution",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Trump Backs Down: Pentagon Will Not Stream Execution by Firing Squad of Nidal Malik Hasan",
+     "url": "https://elpais.com/us/2026-10-15/trump-anuncia-que-el-pentagono-no-retransmitira-la-ejecucion-por-fusilamiento-de-hasan.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "Trump da marcha atrás: el Pentágono no retransmitirá la ejecución por fusilamiento de Nidal Malik Hasan"
+    },
+    {
      "outlet": "NBC News",
-     "title": "Eight states sue OpenAI claiming ChatGPT harms children",
-     "url": "https://www.nbcnews.com/video/eight-states-sue-openai-claiming-chatgpt-harms-children-271603269912",
+     "title": "Trump says government won’t livestream execution of Fort Hood shooter Nidal Hasan",
+     "url": "https://www.nbcnews.com/politics/donald-trump/trump-no-livestream-execution-nidal-hasan-rcna603697",
      "official": false
     },
     {
      "outlet": "ORF News (Austria)",
-     "title": "Eight US states sue OpenAI",
-     "url": "https://orf.at/stories/3445151/",
+     "title": "Trump: No Livestream for Attacker's Execution",
+     "url": "https://orf.at/stories/3445196/",
      "official": false,
      "translated_from": "de",
-     "original_title": "Acht US-Bundesstaaten klagen OpenAI"
-    }
-   ]
-  },
-  {
-   "id": "07f09d11087e",
-   "title": "TSMC Reports Record Q3 Profit on Massive AI Demand",
-   "summary": "TSMC posted a 50.9% jump in quarterly revenue to $46.36 billion and a 68.7% rise in net income, marking its sixth consecutive quarterly profit record driven by heavy demand for AI chips.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-15T05:56:47Z",
-   "outlet_count": 1,
-   "sources": [
+     "original_title": "Trump: Kein Livestream bei Hinrichtung von Attentäter"
+    },
     {
-     "outlet": "Techmeme",
-     "title": "TSMC reports Q3 revenue up 50.9% YoY to $46.36B, net income up 68.7% to $23.7B, both above est., marking a sixth straight quarterly profit record on AI demand (Jenny Lee/CNBC)",
-     "url": "https://www.techmeme.com/261015/p7#a261015p7",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "4cb69706bfb9",
-   "title": "Ukraine Resumes Strikes on Russian Oil Refineries Amid Rising Tensions With Trump Administration",
-   "summary": "Ukrainian forces resumed drone strikes targeting Russian oil refineries in the Ryazan region following a brief truce. The renewed attacks come amid growing friction with Washington over fuel prices and diplomatic pressure.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "US",
-   "published": "2026-10-15T10:59:09Z",
-   "outlet_count": 10,
-   "sources": [
-    {
-     "outlet": "France 24: Europe",
-     "title": "Ukraine live: Zelensky calls for US not to stand 'with the aggressor', asks for 'honesty'",
-     "url": "https://www.france24.com/en/europe/20261015-ukraine-live-romania-probes-possible-drone-attack-on-tanker",
+     "outlet": "The Straits Times: World",
+     "title": "Trump says military execution will not be live-streamed",
+     "url": "https://www.straitstimes.com/world/united-states/trump-says-military-execution-will-not-be-livestreamed",
      "official": false
     },
     {
-     "outlet": "Meduza (Russia)",
-     "title": "‘We’re done’: Zelensky says Ukraine will resume strikes on Russian oil refineries",
-     "url": "https://meduza.io/en/news/2026/10/15/we-re-done-zelensky-says-ukraine-will-resume-strikes-on-russian-oil-refineries",
-     "official": false
-    },
-    {
-     "outlet": "Yahoo News",
-     "title": "Ukraine resumes strikes on Russian refineries as Zelensky says 'we're done'",
-     "url": "https://www.yahoo.com/news/articles/zelenskiy-says-ukraine-resume-strikes-060307306.html",
-     "official": false
-    },
-    {
-     "outlet": "The Kyiv Independent (Ukraine)",
-     "title": "Zelensky lifts pause on Ukraine's strikes against Russian oil refineries",
-     "url": "https://kyivindependent.com/zelensky-lifts-pause-on-ukraines-strikes-against-russian-oil-refineries/",
-     "official": false
-    },
-    {
-     "outlet": "NBC News",
-     "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger mounts with Trump",
-     "url": "https://www.nbcnews.com/world/ukraine/ukraine-resumes-strikes-russian-oil-refineries-trump-starlink-intel-rcna603648",
-     "official": false
-    },
-    {
-     "outlet": "Le Monde (France)",
-     "title": "LIVE, war in Ukraine: Volodymyr Zelensky asks the United States not to stand with \"the aggressor\"",
-     "url": "https://www.lemonde.fr/international/live/2026/10/15/en-direct-guerre-en-ukraine-volodymyr-zelensky-demande-aux-etats-unis-de-ne-pas-se-tenir-au-cote-de-l-agresseur_6791198_3210.html",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky demande aux Etats-Unis de ne pas se tenir au côté de « l’agresseur »"
-    },
-    {
-     "outlet": "New York Times: World",
-     "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump",
-     "url": "https://www.nytimes.com/2026/10/15/world/europe/ukraine-russia-oil-strikes-zelensky-us-intelligence.html",
+     "outlet": "ABC News",
+     "title": "Trump announces Nidal Hasan execution 'will not be streamed'",
+     "url": "https://abcnews.com/Politics/trump-announces-nidal-hasan-execution-streamed/story?id=137288098",
      "official": false
     },
     {
      "outlet": "Al Jazeera",
-     "title": "Russia says Ukraine resumes attacks on oil refineries",
-     "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss",
+     "title": "Trump says Fort Hood US shooter execution will not be livestreamed",
+     "url": "https://www.aljazeera.com/news/2026/10/15/trump-says-fort-hood-shooter-execution-will-not-be-livestreamed?traffic_source=rss",
      "official": false
     },
     {
-     "outlet": "NPR News",
-     "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
-     "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+     "outlet": "The Hill",
+     "title": "Trump cancels Hegseth's planned livestream for Nidal Hasan execution",
+     "url": "https://thehill.com/homenews/administration/6150675-hasan-execution-not-livestreamed/",
      "official": false
     },
     {
-     "outlet": "Semafor",
-     "title": "Ukraine to restart strikes on Russian refineries",
-     "url": "https://www.semafor.com/article/10/15/2026/ukraine-to-restart-strikes-on-russian-refineries",
+     "outlet": "CBC News: World",
+     "title": "Pentagon will not livestream execution of Fort Hood shooter: Trump",
+     "url": "https://www.cbc.ca/news/world/execution-fort-hood-shooter-trump-9.7381733?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: US",
+     "title": "Trump cancels plan to livestream execution following global condemnation",
+     "url": "https://www.theguardian.com/us-news/2026/oct/15/trump-fort-hood-execution-livestream",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Trump says gunman's execution will not be livestreamed",
+     "url": "https://www.rte.ie/news/2026/1015/1595533-trump-livestream-execution/",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Trump says Fort Hood shooter execution won't be livestreamed after bipartisan backlash",
+     "url": "https://www.pbs.org/newshour/politics/trump-says-fort-hood-shooter-execution-wont-be-livestreamed-after-bipartisan-backlash",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Trump says execution of Fort Hood shooter will not be livestreamed",
+     "url": "https://www.nbcnews.com/video/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed-271625285609",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "80 percent oppose Hegseth's push to livestream Fort Hood shooter execution: Survey",
+     "url": "https://thehill.com/homenews/administration/6150512-americans-oppose-fort-hood-livestream/",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Fort Hood shooter will not be executed on livestream, Trump says",
+     "url": "https://www.yahoo.com/news/us/article/nidal-malik-hasan-who-killed-13-in-fort-hood-shooting-will-not-be-executed-on-livestream-trump-says-143047512.html",
+     "official": false
+    },
+    {
+     "outlet": "Times of India: World",
+     "title": "US not to livestream execution of Fort Hood gunman Nidal Hasan",
+     "url": "https://timesofindia.indiatimes.com/world/us/victims-families-may-witness-in-person-us-not-to-livestream-execution-of-fort-hood-gunman-nidal-hasan/articleshow/134970388.cms",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Trump calls off plan to livestream Fort Hood shooter's execution",
+     "url": "https://www.cbsnews.com/news/trump-fort-hood-shooter-nidal-hasan-execution-live-stream/",
+     "official": false
+    },
+    {
+     "outlet": "Straight Arrow News",
+     "title": "Trump says Pentagon won’t livestream Fort Hood shooter’s execution",
+     "url": "https://san.com/cc/trump-says-pentagon-wont-livestream-fort-hood-shooters-execution/",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Trump says Fort Hood shooter's execution will not be livestreamed",
+     "url": "https://www.axios.com/2026/10/15/trump-hegseth-fort-hood-execution-livestream",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Trump calls off livestream of execution",
+     "url": "https://www.theverge.com/policy/1011991/trump-nidal-hasan-execution-not-livestreaming",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Trump says Fort Hood shooter Nidal Hasan's execution will not be livestreamed",
+     "url": "https://www.cbsnews.com/video/trump-says-execution-of-fort-hood-shooter-nidal-hasan-will-not-livestreamed/",
+     "official": false
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Trump cancels planned Pentagon live stream of Fort Hood shooter’s firing squad execution",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3371056/trump-cancels-planned-pentagon-live-stream-fort-hood-shooters-firing-squad-execution?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Trump says military execution will not be livestreamed",
+     "url": "https://www.channelnewsasia.com/world/trump-us-military-execution-not-livestream-6462851",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "US Livestream Controversy: Trump Says Execution Will Not Be Broadcast After All",
+     "url": "https://www.srf.ch/news/international/livestream-kontroverse-der-usa-trump-hinrichtung-soll-nun-doch-nicht-uebertragen-werden",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Livestream-Kontroverse der USA – Trump: Hinrichtung soll nun doch nicht übertragen werden"
+    },
+    {
+     "outlet": "ERT News (Greece)",
+     "title": "Trump: Execution of Fort Hood shooter will not be broadcast live",
+     "url": "https://www.ertnews.gr/eidiseis/diethni/tramp-den-tha-metadothei-zontana-i-ektelesi-tou-drasti-tis-epithesis-sti-vasi-fort-xount/",
+     "official": false,
+     "translated_from": "el",
+     "original_title": "Τραμπ: Δεν θα μεταδοθεί ζωντανά η εκτέλεση του δράστη της επίθεσης στη βάση Φορτ Χουντ"
+    },
+    {
+     "outlet": "The Daily Caller",
+     "title": "Trump Says Fort Hood Terrorist Execution Will Not Be Livestreamed",
+     "url": "https://dailycaller.com/2026/10/15/trump-pete-hegseth-fort-hood-terrorist-livestreamed-nidal-hasan-death-penalty",
+     "official": false
+    },
+    {
+     "outlet": "Mother Jones",
+     "title": "Trump Calls Off Execution Livestream",
+     "url": "https://www.motherjones.com/politics/2026/10/trump-calls-off-execution-livestream-nidal-hasan-hegseth/",
+     "official": false
+    },
+    {
+     "outlet": "The Wall Street Journal: U.S.",
+     "title": "Trump Cancels Plans to Livestream Execution of Fort Hood Shooter",
+     "url": "https://www.wsj.com/us-news/trump-cancels-plans-for-livestreamed-execution-of-fort-hood-shooter-b083a50f?mod=rss_usnews",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
+     "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Trump cancels livestream of execution",
+     "url": "https://orf.at/stories/3445197/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Trump sagt Livestream von Hinrichtung ab"
+    }
+   ]
+  },
+  {
+   "id": "8963a105bbbb",
+   "title": "FTC Subpoenas OpenAI and Anthropic in Federal Probe",
+   "summary": "The Federal Trade Commission has issued civil investigative demands to OpenAI and Anthropic regarding safety incidents, safeguarding practices, and consumer protection.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-15T14:42:20Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Source: the US FTC issues ~50-page civil investigative demands to OpenAI and Anthropic over safety incidents, safeguarding practices, and consumer protection (Maria Curi/Axios)",
+     "url": "https://www.techmeme.com/261015/p20#a261015p20",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "FTC subpoenas OpenAI, Anthropic in safety incidents probe",
+     "url": "https://thehill.com/policy/technology/6150621-ftc-subpoena-openai-anthropic-safety-incidents-probe/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "4ae0d25a313e",
+   "title": "Sega Pulls Total War: Shogun 2 Complete Edition Over Bugs and AI Art",
+   "summary": "Sega and Creative Assembly have temporarily delisted Total War: Shogun 2 Complete Edition from stores after admitting the release fell short of player and studio standards.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-15T14:27:58Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "VGC",
+     "title": "Sega pulls Total War: Shogun 2 – Complete Edition from stores over bugs and AI art",
+     "url": "https://www.videogameschronicle.com/news/sega-pulls-total-war-shogun-2-complete-edition-from-stores-over-bugs-and-ai-art/",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "Total War: Shogun 2 Complete Edition Will Be Temporarily Delisted by SEGA",
+     "url": "https://insider-gaming.com/total-war-shogun-2-complete-edition-will-be-temporarily-delisted-by-sega/",
+     "official": false
+    },
+    {
+     "outlet": "Rock Paper Shotgun",
+     "title": "\"Total War: Shogun 2 Complete Edition has fallen short of both your expectations and our own standards\", Sega say as they pull it from stores and restore the original",
+     "url": "https://www.rockpapershotgun.com/total-war-shogun-2-complete-edition-has-fallen-short-of-both-your-expectations-and-our-own-standards-sega-say-as-they-pull-it-from-stores-and-restore-the-original",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "9940478facee",
+   "title": "Severe Drought Declared Across Parts of England",
+   "summary": "The UK government has officially declared a severe drought in parts of southern England following the country's hottest summer on record and a prolonged lack of rainfall.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-15T14:43:27Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "The Guardian: UK",
+     "title": "Severe drought declared in six areas of England as reservoirs run low",
+     "url": "https://www.theguardian.com/environment/2026/oct/15/severe-drought-declared-six-areas-england-public-water-supplies-threat",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "‘Severe drought’ declared in parts of southern England",
+     "url": "https://www.straitstimes.com/world/europe/severe-drought-declared-in-parts-of-southern-england",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: UK",
+     "title": "Severe drought declared in parts of southern England",
+     "url": "https://www.bbc.co.uk/news/articles/cwm243lrgdpgo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "'Severe drought' declared in parts of United Kingdom",
+     "url": "https://www.thehindu.com/news/international/severe-drought-declared-in-parts-of-united-kingdom/article71588927.ece",
      "official": false
     }
    ]
@@ -228,133 +402,157 @@
    "name": "AI",
    "stories": [
     {
-     "id": "d91ead6950e7",
-     "title": "Anthropic's Scion Inspired by Mononoke",
-     "summary": "Discussions online highlighted that Anthropic's Scion project draws heavy design and conceptual inspiration from Studio Ghibli's Princess Mononoke.",
-     "importance": 2,
+     "id": "19722cef5941",
+     "title": "Bank of America Deploys Contractors to Patch Vulnerabilities Found by AI",
+     "summary": "Bank of America hired 1,000 outside contractors to work alongside internal staff on fixing software vulnerabilities uncovered by advanced AI models like Anthropic's Mythos.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-14T20:30:54Z",
-     "outlet_count": 1,
+     "published": "2026-10-15T15:27:25Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "HN: Claude/Anthropic",
-       "title": "Anthropic's Scion is heavily inspired by Mononoke",
-       "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+       "outlet": "Techmeme",
+       "title": "BofA says it hired 1,000 contractors in Q2 to support 3,000 internal staff in patching proprietary and vendor software flaws exposed by AI models like Mythos (Hugh Son/CNBC)",
+       "url": "https://www.techmeme.com/261015/p27#a261015p27",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models",
+       "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
        "official": false
       }
      ]
     },
     {
-     "id": "617580dac72d",
-     "title": "NVIDIA Expands Advanced Computing Access for European Science",
-     "summary": "NVIDIA announced a major expansion of advanced technology access across Europe through new open learning resources, collaborations, and accelerated compute capacity.",
-     "importance": 3,
+     "id": "40b611a330c7",
+     "title": "Anthropic Reports Strong Revenue Growth Ahead of IPO",
+     "summary": "Anthropic told investors during an investor day that its quarterly revenue has surged nearly 50% to $16.8 billion as it prepares for an initial public offering.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-15T13:04:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Simon Willison",
+       "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+       "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2cd92b812c13",
+     "title": "NVIDIA Expands Nemotron Family With New Super VL and Bolt Models",
+     "summary": "NVIDIA has released the Nemotron 3.5 Super VL open 120-billion-parameter model alongside two new edge models aimed at high-efficiency specialized agents.",
+     "importance": 4,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-15T10:00:12Z",
+     "published": "2026-10-15T15:00:24Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "NVIDIA Blog",
-       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-       "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-       "official": true
-      },
-      {
-       "outlet": "NVIDIA Blog",
-       "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-       "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+       "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+       "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
        "official": true
       }
      ]
     },
     {
-     "id": "a0e0fec2c2b5",
-     "title": "OpenAI Unveils Enterprise Agent Capabilities With New Models",
-     "summary": "OpenAI showcased how its newest model integrations, including GPT-6 Astra and Sign in with ChatGPT, push the boundaries of what autonomous AI agents can accomplish.",
+     "id": "46ec98616fab",
+     "title": "NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+     "summary": "Geforce NOW updates bring new DLSS 4.5 control options to cloud gamers, allowing them to customize visual performance without upgrading local hardware.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-14T12:00:00Z",
+     "published": "2026-10-15T13:00:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "fa14b8f7db46",
+     "title": "OpenAI Launches Study Mode for Educators in Brazil",
+     "summary": "In celebration of Teachers' Day, OpenAI introduced Study Mode and educational tools in Brazilian Portuguese to support step-by-step student learning.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-15T13:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "OpenAI News",
-       "title": "Amp puts AI agents to work beyond code with OpenAI models",
-       "url": "https://openai.com/index/amp-beyond-coding",
+       "title": "Teaching students to think and learn through questions",
+       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
        "official": true
       }
      ]
     },
     {
-     "id": "672ebf75c430",
-     "title": "Hugging Face Releases HiRO-ACEv2 for Extreme Weather Simulation",
-     "summary": "Hugging Face introduced HiRO-ACEv2, an open model designed to simulate extreme weather events at a 3-kilometer resolution at a fraction of traditional computational costs.",
+     "id": "dedd228e3d66",
+     "title": "Hugging Face Releases Apertus 1.5 and FLUX.3 Image Klein",
+     "summary": "Hugging Face has published release notes for Apertus 1.5 and added support for the FLUX.3 Image Klein model in its Diffusers library.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-14T16:12:42Z",
+     "published": "2026-10-15T09:08:45Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Hugging Face Blog",
-       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-       "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+       "title": "Welcome FLUX.3 Image Klein in Diffusers",
+       "url": "https://huggingface.co/blog/flux-3",
        "official": true
-      }
-     ]
-    },
-    {
-     "id": "24cc989c02db",
-     "title": "SentinelOne Cuts Malware Analysis Time With OpenAI Integration",
-     "summary": "SentinelOne announced that leveraging OpenAI Daybreak has slashed malware analysis times from weeks to hours, allowing security teams to investigate exponentially more threats.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-14T12:00:00Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "OpenAI News",
-       "title": "SentinelOne cuts malware analysis from weeks to hours",
-       "url": "https://openai.com/index/sentinelone",
+       "outlet": "Hugging Face Blog",
+       "title": "Apertus 1.5 Release Notes",
+       "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
        "official": true
       }
      ]
     },
     {
-     "id": "c401765ed2d2",
-     "title": "OpenAI Reportedly Racing to Finalize New Flagship Model",
-     "summary": "Reports indicate OpenAI is working to finalize its next flagship model utilizing looped transformer techniques, though alignment and safety monitoring remain a challenge due to the complex architecture.",
-     "importance": 3,
+     "id": "0eea14ec0d88",
+     "title": "GPT-6-Astra Solves Complex Theoretical Physics Problems",
+     "summary": "On the TheoPhysEval benchmark, GPT-6-Astra reportedly solved 49 out of 50 unpublished theoretical physics calculation problems with high accuracy.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-14T16:14:16Z",
+     "published": "2026-10-15T15:24:15Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Decoder",
-       "title": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work",
-       "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+       "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
+       "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
        "official": false
       }
      ]
     },
     {
-     "id": "bb8da7cf13f6",
-     "title": "Scientists Successfully Rewarm Cryogenically Frozen Pig Kidneys",
-     "summary": "Researchers successfully rewarmed pig kidneys that had been cooled to -150°C and stored for a year, demonstrating cellular function post-thaw and offering hope for future human organ preservation.",
+     "id": "6388b3d480b1",
+     "title": "YouTube Music Rolls Out Generative AI Labels",
+     "summary": "YouTube Music is beginning to roll out new labeling features to clearly distinguish tracks generated using artificial intelligence.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-15T08:43:24Z",
+     "published": "2026-10-15T15:12:58Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "MIT Technology Review",
-       "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
-       "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
+       "outlet": "Ars Technica AI",
+       "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling",
+       "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
        "official": false
       }
      ]
@@ -365,241 +563,199 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "bbb34e142e6e",
-     "title": "OpenAI Engineer Arrested by FBI on Foreign Spy Charges",
-     "summary": "Federal authorities arrested an OpenAI engineer after discovering a recording device hidden inside a toilet paper roll in a top-secret meeting room, with filings indicating a planned flight to Saudi Arabia.",
+     "id": "70b818f310b1",
+     "title": "OpenAI Warns Staff of Espionage and Insider Threats",
+     "summary": "OpenAI executives have reportedly advised employees to adopt stricter operational security measures to guard against honey pots and industrial espionage.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-15T10:05:15Z",
-     "outlet_count": 3,
+     "published": "2026-10-15T12:00:46Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Ars Technica",
-       "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
-       "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
-       "url": "https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html",
-       "official": false
-      },
-      {
        "outlet": "Techmeme",
-       "title": "Filing: Abdulrahman Alfozan, his wife, and a family member booked one-way tickets from the US to Saudi Arabia for October 12; the FBI arrested him on October 9 (Rachel Metz/Bloomberg)",
-       "url": "https://www.techmeme.com/261015/p12#a261015p12",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "Abdulrahman Alfozan, who worked at Meta and gained US residency in 2020, advised Saudi organizations and is listed as a venture partner at Riyadh-based RAED (Emmy Martin/New York Times)",
-       "url": "https://www.techmeme.com/261015/p13#a261015p13",
+       "title": "Sources: OpenAI executives have warned staff over potential espionage like honey pots and insider threats and told them to adopt operational security measures (Wall Street Journal)",
+       "url": "https://www.techmeme.com/261015/p23#a261015p23",
        "official": false
       }
      ]
     },
     {
-     "id": "76d8c337fa91",
-     "title": "Zero-Click 'AdFection' Spyware Campaign Infects Dozens of Devices",
-     "summary": "Researchers at Citizen Lab revealed a zero-click spyware campaign operated by an Israeli ad company that covertly routed targets to malicious servers to infect mobile devices.",
+     "id": "a2dc121b6422",
+     "title": "Apple CEO John Ternus Dismisses Early Foldable Phones",
+     "summary": "In a wide-ranging interview with TIME, Apple CEO John Ternus criticized early foldable smartphones as feeling 'cheap and crappy' while defending Apple's deliberate approach.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-15T10:45:08Z",
-     "outlet_count": 2,
+     "published": "2026-10-15T15:32:26Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "Wired",
-       "title": "‘Nightmare Scenario’: Zero-Click Spyware Is Infecting Phones via Targeted Ads",
-       "url": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
+       "outlet": "Techmeme",
+       "title": "An interview with John Ternus on the iPhone Duo, memory shortages, more; he says \"all options should be on the table\" after reports Apple tested Chinese chips (Andrew R. Chow/Time)",
+       "url": "https://www.techmeme.com/261015/p29#a261015p29",
        "official": false
       },
       {
-       "outlet": "Techmeme",
-       "title": "Citizen Lab details AdFection, a zero-click spyware campaign where an Israeli ad company routed targets to spyware servers and infected dozens of devices (Wired)",
-       "url": "https://www.techmeme.com/261015/p17#a261015p17",
+       "outlet": "MacRumors",
+       "title": "Apple CEO John Ternus Featured on Cover of TIME Magazine: 'New Era'",
+       "url": "https://www.macrumors.com/2026/10/15/john-ternus-on-time-magazine-cover/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "John Ternus talks iPhone Duo, ‘cheap and crappy’ foldables in new interview",
+       "url": "https://9to5mac.com/2026/10/15/john-ternus-talks-iphone-duo-cheap-and-crappy-foldables-in-new-interview/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple CEO John Ternus on Early Foldables: 'Kind of Cheap and Crappy'",
+       "url": "https://www.macrumors.com/2026/10/15/john-ternus-cheap-and-crappy-foldables/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Ternus spent 15 years planning the iPhone Duo",
+       "url": "https://appleinsider.com/articles/26/10/15/ternus-spent-15-years-planning-the-iphone-duo?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "9eb295a80fa6",
-     "title": "Critical Vulnerabilities in Fridge Controllers Spark European Supermarket Fires",
-     "summary": "A mass cyberattack exploiting severe security flaws in three internet-connected refrigerator models impacted roughly 700 European supermarkets, causing millions in damages and sparking fires.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-15T10:35:13Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Ars Technica",
-       "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-       "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "A hack of Internet-connected fridge controllers across ~700 European supermarkets exploited critical vulnerabilities in three models flagged by Claroty and CISA (Dan Goodin/Ars Technica)",
-       "url": "https://www.techmeme.com/261015/p16#a261015p16",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "b4c333a1fc01",
-     "title": "Figma Introduces Markdown Specs and Agent-Ready Platform Features",
-     "summary": "Figma announced new platform capabilities, including Figma Specs and Markdown editing tools designed to help developers clearly define design languages for autonomous AI agents.",
+     "id": "d32dbd46d8e9",
+     "title": "NVIDIA and Apple Among Top Donors to White House Ballroom Project",
+     "summary": "Leaked documents reveal that Apple and Nvidia each contributed $25 million to the controversial White House demolition and ballroom project.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-15T06:20:01Z",
+     "published": "2026-10-15T14:40:01Z",
      "outlet_count": 2,
      "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple donated $25 million to White House ballroom project",
+       "url": "https://appleinsider.com/articles/26/10/15/apple-donated-25-million-to-white-house-ballroom-project?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Documents: Nvidia and Apple each committed $25M, the top contribution amount, to Trump's WH ballroom; Microsoft and Palantir committed $10M, Meta and Amazon $5M (Washington Post)",
+       "url": "https://www.techmeme.com/261015/p32#a261015p32",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a3f7cd60d423",
+     "title": "Windows Optimized for NVIDIA RTX Spark Laptops",
+     "summary": "Microsoft is heavily optimizing Windows to run local AI models, gaming features, and memory management efficiently on new ARM-based NVIDIA RTX Spark laptops.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T14:31:21Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+       "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c3631614eaba",
+     "title": "Google Universal Cart Shopping Tool Launches in the US",
+     "summary": "Google has launched its new universal shopping cart tool in the United States, integrating it across Google Search and the Gemini app.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T14:29:33Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge AI",
+       "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+       "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+       "official": false
+      },
       {
        "outlet": "TechCrunch",
-       "title": "Figma announces new features to define how agents work on its platform",
-       "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "Figma announces new features to define how AI agents work on its platform, including Figma Specs, a Markdown editor that lets users define their design language (Ivan Mehta/TechCrunch)",
-       "url": "https://www.techmeme.com/261015/p8#a261015p8",
+       "title": "Google’s Universal Cart shopping tool launches in the US",
+       "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
        "official": false
       }
      ]
     },
     {
-     "id": "1e083927c42f",
-     "title": "YouTube Music Adds Mandatory Labels for AI-Generated Songs",
-     "summary": "YouTube Music began rolling out clear on-screen labels for tracks containing fully or partially AI-generated content, appearing directly on the player page.",
-     "importance": 3,
+     "id": "15ad094c6d47",
+     "title": "Researchers Warn of Israeli Spyware Sent via Online Ads",
+     "summary": "A joint investigation by Citizen Lab and Confia reveals that an ad tech firm helped spyware operators infect mobile devices simply by showing users targeted online ads.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-14T18:23:46Z",
-     "outlet_count": 3,
+     "published": "2026-10-15T14:10:50Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Engadget",
-       "title": "YouTube Music adds new labels for AI-generated content",
-       "url": "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/",
+       "outlet": "Politico Europe",
+       "title": "Millions of phones exposed to Israeli spyware operation through online ads, researchers say",
+       "url": "https://www.politico.eu/article/israel-firm-advertising-spyware-mobile-phone-hacking/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
        "official": false
       },
       {
        "outlet": "The Verge",
-       "title": "YouTube sticks new labels on AI-generated songs",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
-       "official": false
-      },
-      {
-       "outlet": "TechCrunch",
-       "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-       "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+       "title": "An Israeli firm is sending spyware through online ads, researchers say",
+       "url": "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware",
        "official": false
       }
      ]
     },
     {
-     "id": "b83ae5ebfeb1",
-     "title": "Apple Confirms Original HomePod Mini Will Not Support Siri AI",
-     "summary": "Apple clarified that while the HomePod mini 2 and select Apple TV 4K models will receive Siri AI updates, the first-generation HomePod mini lacks the necessary hardware support.",
+     "id": "2aec67feffbd",
+     "title": "Microsoft Claims Windows 11 Runs Better on 8GB RAM",
+     "summary": "Microsoft says Windows 11 is now more responsive and resource-efficient on PCs with 8GB of RAM due to smarter memory management improvements.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-14T17:52:20Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "MacRumors",
-       "title": "No, HomePod Mini 1 Won't Support Siri AI as CNET Reported",
-       "url": "https://www.macrumors.com/2026/10/14/homepod-mini-1-to-support-siri-ai-says-cnet/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple confirms Siri AI is not coming to the original HomePod mini",
-       "url": "https://9to5mac.com/2026/10/14/no-siri-ai-is-not-coming-to-the-original-homepod-mini/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "No, Siri AI is not coming to the first-generation HomePod mini",
-       "url": "https://appleinsider.com/articles/26/10/14/no-siri-ai-is-not-coming-to-the-first-generation-homepod-mini?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "902bfb084056",
-     "title": "Apple Intelligence Reportedly Scheduled for China Launch in December",
-     "summary": "Reports indicate Apple plans to roll out initial Apple Intelligence features in China this December via the iOS 27.3 update following two years of regulatory delays, though Siri AI will initially be excluded.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-14T20:24:50Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple Intelligence reportedly coming to China in December, but without Siri AI",
-       "url": "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "Apple Intelligence finally gets a release window for its debut in China",
-       "url": "https://appleinsider.com/articles/26/10/14/apple-intelligence-finally-gets-a-release-window-for-its-debut-in-china?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Intelligence Coming to China in December With iOS 27.3",
-       "url": "https://www.macrumors.com/2026/10/14/apple-intelligence-china-ios-27-3/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "a9dc9ac9980d",
-     "title": "Apple Maps Detailed City Experience Launches in Austin",
-     "summary": "Apple expanded its overhaul of Apple Maps, introducing the Detailed City Experience to Austin, Texas, just ahead of the local F1 Grand Prix.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-14T23:03:45Z",
+     "published": "2026-10-15T13:41:43Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "AppleInsider",
-       "title": "Apple Maps Detailed City Experience comes to Austin, Texas ahead of F1 Grand Prix",
-       "url": "https://appleinsider.com/articles/26/10/14/apple-maps-detailed-city-experience-comes-to-austin-texas-ahead-of-f1-grand-prix?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple Maps launches Detailed City Experience in Austin, Texas",
-       "url": "https://9to5mac.com/2026/10/14/apple-maps-launches-detailed-city-experience-in-austin-texas/",
+       "outlet": "The Verge",
+       "title": "Microsoft says Windows 11 is now ‘more responsive’ and runs better on 8GB of RAM",
+       "url": "https://www.theverge.com/news/1011891/microsoft-windows-11-speed-memory-improvements",
        "official": false
       }
      ]
     },
     {
-     "id": "0ab6565afb13",
-     "title": "Signed Apple I Computer Fetches Record $1.15 Million at Auction",
-     "summary": "A rare Apple I 'Hatfield' computer personally signed by Steve Wozniak was sold at auction to an anonymous buyer for a record-breaking $1,148,200.",
-     "importance": 2,
+     "id": "ef0715c922d3",
+     "title": "Apple Preps Users for iPhone Duo Preorders",
+     "summary": "Apple has set a strict evening deadline for customers to complete its 'Get Ready' checkout setup ahead of tomorrow's iPhone Duo preorders.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-15T10:34:56Z",
-     "outlet_count": 1,
+     "published": "2026-10-15T14:07:33Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Engadget",
-       "title": "Apple I 'Hatfield' computer signed by Woz fetches a record $1.15 million at auction",
-       "url": "https://www.engadget.com/2287345/apple-i-hatfield-sells-for-1-15-million-at-auction/",
+       "outlet": "MacRumors",
+       "title": "Apple Announces Deadline to 'Get Ready' to Pre-Order the iPhone Duo",
+       "url": "https://www.macrumors.com/2026/10/15/apple-deadline-to-get-ready-iphone-duo-preorder/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple sets cutoff time for getting fastest iPhone Duo pre-order",
+       "url": "https://9to5mac.com/2026/10/15/apple-sets-cutoff-time-for-getting-fastest-iphone-duo-pre-order/",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Prep your cart before iPhone Duo preorders open tomorrow",
+       "url": "https://www.theverge.com/news/1011902/apple-iphone-duo-get-ready-preorder",
        "official": false
       }
      ]
@@ -610,301 +766,195 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "740902c7624c",
-     "title": "Big Walk Developer Skips Xbox Version to Protest Microsoft's Ties to Israel",
-     "summary": "House House, developers of the co-op puzzle game Big Walk, announced the game will not come to Xbox as an expression of support for the BDS movement's Microsoft boycott.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-15T10:27:34Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Insider Gaming",
-       "title": "Big Walk Not Coming to XBOX Due to Microsoft Boycott",
-       "url": "https://insider-gaming.com/big-walk-xbox-boycott/",
-       "official": false
-      },
-      {
-       "outlet": "IGN",
-       "title": "Big Walk Developer Explains Why the Game Isn't on Xbox",
-       "url": "https://www.ign.com/articles/big-walk-developer-explains-why-the-game-isnt-on-xbox",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Big Walk developer explains the lack of Xbox version is due to Microsoft's place on the BDS boycott",
-       "url": "https://www.eurogamer.net/big-walk-xbox-version-bds-boycott",
-       "official": false
-      },
-      {
-       "outlet": "The Verge",
-       "title": "Big Walk skipped Xbox to boycott Microsoft’s involvement with Israel",
-       "url": "https://www.theverge.com/games/1011785/big-walk-house-house-microsoft-xbox-bds-boycott",
-       "official": false
-      },
-      {
-       "outlet": "Rock Paper Shotgun",
-       "title": "Big Walk devs House House announce support for BDS Microsoft boycott, say the co-op puzzler isn't coming to Xbox",
-       "url": "https://www.rockpapershotgun.com/big-walk-devs-house-house-announce-support-for-bds-microsoft-boycott-say-the-co-op-puzzler-isnt-coming-to-xbox",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6187fd7fcb1e",
-     "title": "Monster Hunter Wilds Getting Free Switch 2 Prologue Demo Next Week",
-     "summary": "Capcom announced that a generous prologue demo for Monster Hunter Wilds will launch on the Switch 2 next week, allowing players to carry their progress over to the main game.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-15T09:36:23Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Nintendo Life",
-       "title": "Monster Hunter Wilds Free Prologue Demo Brings The Hunt To Switch 2 Next Week",
-       "url": "https://www.nintendolife.com/news/2026/10/monster-hunter-wilds-free-prologue-demo-brings-the-hunt-to-switch-2-next-week",
-       "official": false
-      },
-      {
-       "outlet": "Gematsu",
-       "title": "Monster Hunter Wilds Prologue Demo for Switch 2 launches October 19",
-       "url": "https://www.gematsu.com/2026/10/monster-hunter-wilds-prologue-demo-for-switch-2-launches-october-19",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Monster Hunter Wilds' fairly generous Prologue Demo comes to Switch 2 next week",
-       "url": "https://www.eurogamer.net/monster-hunter-wilds-switch-2-prologue-demo",
-       "official": false
-      },
-      {
-       "outlet": "VGC",
-       "title": "The Switch 2 version of Monster Hunter Wilds gets a Prologue Demo next week",
-       "url": "https://www.videogameschronicle.com/news/the-switch-2-version-of-monster-hunter-wilds-gets-a-prologue-demo-next-week/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "25ac49369e77",
-     "title": "007 First Light Locked In for March 2027 Switch 2 Release",
-     "summary": "IO Interactive confirmed that 007 First Light will launch on the Nintendo Switch 2 on March 18, 2027, following a delay to allow additional optimization and performance time.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-15T09:17:26Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Gematsu",
-       "title": "007 First Light for Switch 2 launches March 18, 2027",
-       "url": "https://www.gematsu.com/2026/10/007-first-light-for-switch-2-launches-march-18-2027",
-       "official": false
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "007 First Light Switch 2 Release Date Set for March 18",
-       "url": "https://insider-gaming.com/007-first-light-switch-2-release-date/",
-       "official": false
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "\"You're Late, 007\" - First Light Has Finally Locked In A Switch 2 Release Date",
-       "url": "https://www.nintendolife.com/news/2026/10/youre-late-007-first-light-has-finally-locked-in-a-switch-2-release-date",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "007 First Light gets Switch 2 release date, with IO Interactive saying time for \"optimisation and performance\" was needed",
-       "url": "https://www.eurogamer.net/007-first-light-switch-2-release-date-james-bond-game",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "a5a66a4e76f7",
-     "title": "Epic Games Launches Beta of Faster Vibe-Coded PC Launcher",
-     "summary": "Epic Games released a beta version of its redesigned PC launcher, boasting speeds up to 46% faster than Steam from a cold start to the store page.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-15T09:35:29Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Eurogamer",
-       "title": "Epic throws shade at Steam, admits to vibe-coding the new Epic Games Launcher with AI \"to be faster than the other guy\"",
-       "url": "https://www.eurogamer.net/epic-throws-shade-steam-vibe-coding-games-launcher-ai",
-       "official": false
-      },
-      {
-       "outlet": "Ars Technica",
-       "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-       "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "Epic Dunks On Steam With Vibe-Coded Storefront And Gets Roasted: ‘This Launcher Is So F*cking Vibeslopped Its Funny’",
-       "url": "https://kotaku.com/epic-dunks-on-steam-with-vibe-coded-storefront-and-gets-roasted-this-launcher-is-so-fucking-vibeslopped-its-funny-2000746031",
-       "official": false
-      },
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "Epic Games claims its new \"vibe coded\" launcher runs 46% faster than Steam from cold start to store page",
-       "url": "https://www.gamesindustry.biz/epic-games-claims-its-new-vibe-coded-launcher-runs-46-faster-than-steam-from-cold-start-to-store-page",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8e1d381bfbaa",
-     "title": "Fire Emblem: Fortune's Weave Expansion Pass Announced With Wave 1 Out Now",
-     "summary": "Nintendo surprised fans by announcing a three-wave paid Expansion Pass for the Switch 2 tactical RPG Fire Emblem: Fortune's Weave, with the first wave launching immediately.",
-     "importance": 3,
+     "id": "cf05fbb98f19",
+     "title": "ROG Xbox Ally X20 Officially Launches",
+     "summary": "ASUS has released the ROG Xbox Ally X20, featuring a larger OLED screen and hardware upgrades, with reviews flooding in today.",
+     "importance": 4,
      "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-15T01:05:00Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "GoNintendo",
-       "title": "Fire Emblem: Fortune's Weave Expansion Pass announced, Wave 1 of 3 launching today",
-       "url": "https://gonintendo.com/contents/66096-fire-emblem-fortune-s-weave-expansion-pass-announced-wave-1-of-3-launching-today",
-       "official": false
-      },
-      {
-       "outlet": "Wario64",
-       "title": "Fire Emblem: Fortune’s Weave Expansion Pass announced www.youtube.com/watch?v=9tDR... Wave 1: today (additional weapons) Wave 2: Holiday 2026 (additional outfits, allies) Wave 3: 2027 (new stories -…",
-       "url": "https://www.youtube.com/watch?v=9tDRjYdGrGs",
-       "official": false
-      },
-      {
-       "outlet": "Gematsu",
-       "title": "Fire Emblem: Fortune’s Weave Expansion Pass announced",
-       "url": "https://www.gematsu.com/2026/10/fire-emblem-fortunes-weave-expansion-pass-announced",
-       "official": false
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "Fire Emblem: Fortune's Weave Expansion Pass Announced, Wave 1 Launches Today",
-       "url": "https://www.nintendolife.com/news/2026/10/fire-emblem-fortunes-weave-expansion-pass-announced-wave-1-launches-today",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "b30c4c88615c",
-     "title": "Xbox Unveils Portable Nano Controller for Smaller Hands",
-     "summary": "Microsoft announced the official Xbox Nano Controller, a pocket-sized, $50 peripheral designed for younger players, travel, and smaller hands, available this November.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-15T08:47:47Z",
-     "outlet_count": 4,
+     "published": "2026-10-15T15:00:00Z",
+     "outlet_count": 3,
      "sources": [
       {
        "outlet": "Xbox Wire",
-       "title": "Meet the XBOX Nano Controller",
-       "url": "https://news.xbox.com/en-us/2026/10/14/xbox-nano-controller/",
+       "title": "ASUS Announces Availability of ROG XBOX Ally X20",
+       "url": "https://news.xbox.com/en-us/2026/10/15/asus-announces-availability-of-rog-xbox-ally-x20/",
        "official": true
       },
       {
-       "outlet": "Gematsu",
-       "title": "Xbox Nano Controller announced",
-       "url": "https://www.gematsu.com/2026/10/xbox-nano-controller-announced",
+       "outlet": "PC Gamer",
+       "title": "Asus ROG Xbox Ally X20 review",
+       "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/asus-rog-xbox-ally-x20-review/",
        "official": false
       },
       {
        "outlet": "Pure Xbox",
-       "title": "Xbox Unveils New Nano Controller Perfect For 'Smaller Hands'",
-       "url": "https://www.purexbox.com/news/2026/10/xbox-unveils-new-nano-controller-perfect-for-smaller-hands",
+       "title": "The Reviews Are Flooding In For The ROG Xbox Ally X20",
+       "url": "https://www.purexbox.com/news/2026/10/the-reviews-are-flooding-in-for-the-rog-xbox-ally-x20",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "93450ca1fb17",
+     "title": "Activision Discusses 'Call of Duty Tax' for Modern Warfare 4",
+     "summary": "Activision executives say Modern Warfare 4 faces a unique challenge from the franchise's massive baseline expectations as it prepares to launch next week.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T14:30:12Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Game Business (Christopher Dring)",
+       "title": "Fixing Call of Duty: Inside Activision’s Modern Warfare 4 comeback plan",
+       "url": "https://www.thegamebusiness.com/p/fixing-call-of-duty-inside-activisions",
        "official": false
       },
       {
        "outlet": "VGC",
-       "title": "Xbox reveals the Nano Controller, a smaller and cheaper alternative with a rechargeable battery",
-       "url": "https://www.videogameschronicle.com/news/xbox-reveals-the-nano-controller-a-smaller-and-cheaper-alternative-with-a-rechargeable-battery/",
+       "title": "‘No offense to Zelda’ but GTA 6 and COD Modern Warfare 4 are ‘the two biggest games of the year’, Activision exec says",
+       "url": "https://www.videogameschronicle.com/news/no-offense-to-zelda-but-gta-6-and-cod-modern-warfare-4-are-the-two-biggest-games-of-the-year-activision-exec-says/",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "The ‘Call of Duty tax’ means games media doesn’t cover COD the way it used to, Activision says",
+       "url": "https://www.videogameschronicle.com/news/the-call-of-duty-tax-means-games-media-doesnt-cover-cod-the-way-it-used-to-activision-says/",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Activision’s Head Marketer Says Modern Warfare 4 Faces A ‘Call Of Duty Tax’",
+       "url": "https://kotaku.com/activisions-head-marketer-says-modern-warfare-4-faces-a-call-of-duty-tax-2000746337",
        "official": false
       }
      ]
     },
     {
-     "id": "8891794ca7e4",
-     "title": "Ubisoft Proposes Voluntary Departures Affecting Roughly 100 Jobs Across German Studios",
-     "summary": "Ubisoft has initiated talks for voluntary buyouts affecting around 100 employees across its studios in Düsseldorf, Berlin, and Mainz.",
-     "importance": 3,
+     "id": "c6ace86d1788",
+     "title": "GTA 6 Confirmed Eligible for 2026 Game Awards",
+     "summary": "The Game Awards confirmed its eligibility cutoff date, securing Grand Theft Auto 6 a spot as a contender for 2026 Game of the Year.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-15T09:51:03Z",
-     "outlet_count": 4,
+     "published": "2026-10-15T15:30:29Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Game File (Stephen Totilo)",
-       "title": "Ubisoft plans cuts at German studios, adding to wave of workforce reductions",
-       "url": "https://www.gamefile.news/p/ubisoft-germany-cuts-xbox-labs-epic-ai",
+       "outlet": "IGN",
+       "title": "GTA 6 Will Make The Game Awards Cutoff Date for Eligibility by the Skin of Its Teeth, Confirming It Has a Chance at 2026 Game of the Year",
+       "url": "https://www.ign.com/articles/gta-6-will-make-the-game-awards-cutoff-date-for-eligibility-by-the-skin-of-its-teeth-confirming-it-has-a-chance-at-2026-game-of-the-year",
        "official": false
       },
       {
-       "outlet": "Insider Gaming",
-       "title": "Ubisoft Plans About 100 Cuts Across German Studios",
-       "url": "https://insider-gaming.com/ubisoft-germany-100-job-cuts-report/",
+       "outlet": "Push Square",
+       "title": "GTA 6 Barely Makes the Cut for The Game Awards' Game of the Year Vote",
+       "url": "https://www.pushsquare.com/news/2026/10/gta-6-barely-makes-the-cut-for-the-game-awards-game-of-the-year-vote",
        "official": false
       },
       {
-       "outlet": "Rock Paper Shotgun",
-       "title": "Ubisoft reportedly look to cut 100 more jobs by proposing voluntary redundancies at studios including lead Anno devs Ubisoft Mainz",
-       "url": "https://www.rockpapershotgun.com/ubisoft-reportedly-look-to-cut-100-more-jobs-by-proposing-voluntary-redundancies-at-studios-including-lead-anno-devs-ubisoft-mainz",
+       "outlet": "Kotaku",
+       "title": "GTA 6 Avoids A Very Awkward Situation By Officially Being Eligible For The 2026 Game Awards",
+       "url": "https://kotaku.com/gta-6-avoids-a-very-awkward-situation-by-officially-being-eligible-for-the-2026-game-awards-2000746320",
        "official": false
       }
      ]
     },
     {
-     "id": "08409708cf49",
-     "title": "Riot Games to End Support for League of Legends Classic in January",
-     "summary": "Just three months after its launch, Riot Games announced it will shut down the League of Legends Classic spin-off in January due to players migrating back to other versions of the game.",
+     "id": "eeeb40438e16",
+     "title": "Justice Composes Original Score for GTA 6",
+     "summary": "French electronic music duo Justice is confirmed to be composing the original score for Grand Theft Auto 6.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-15T10:43:19Z",
+     "published": "2026-10-15T15:13:13Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "PC Gamer",
-       "title": "3 months after launch, Riot announces League of Legends Classic will be killed in January: 'most have gone back to other parts of League'",
-       "url": "https://www.pcgamer.com/games/moba/3-months-after-launch-riot-announces-league-of-legends-classic-will-be-killed-in-january-most-have-gone-back-to-other-parts-of-league/",
+       "outlet": "Wario64",
+       "title": "Justice - Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI] www.youtube.com/watch?v=JWxo...",
+       "url": "https://www.youtube.com/watch?v=JWxoRY7AFSw",
        "official": false
       },
       {
-       "outlet": "Steam News",
-       "title": "Riot calls time on League of Legends Classic after almost 3 months",
-       "url": "https://store.steampowered.com/news/group/38509069/view/692023294602248945",
+       "outlet": "franceinfo (France)",
+       "title": "Electro group Justice scores soundtrack for GTA 6",
+       "url": "https://www.franceinfo.fr/culture/jeux-video/le-groupe-electro-justice-signe-la-musique-de-la-derniere-bande-annonce-du-jeu-gta-6-avec-tame-impala-sza-et-king-gizzard_8238919.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Le groupe électro Justice signe la bande originale de GTA 6"
+      }
+     ]
+    },
+    {
+     "id": "4500abba6148",
+     "title": "GTA 5 Leaving PlayStation Plus Catalog Ahead of GTA 6",
+     "summary": "Sony is reminding subscribers that GTA 5 will be removed from the PS Plus library just two days before Grand Theft Auto 6 arrives.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T12:19:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Sony Reminds PlayStation Plus Subscribers That GTA 5 Leaves the Library 2 Days Before GTA 6 Comes Out",
+       "url": "https://www.ign.com/articles/playstation-plus-losing-gta-5-ahead-of-gta-6",
        "official": false
       }
      ]
     },
     {
-     "id": "b6b8162a5b1d",
-     "title": "Legendary FPS Level Designer Richard 'Levelord' Gray Passes Away at 68",
-     "summary": "Industry veteran Richard Gray, celebrated for his iconic level design work on Duke Nukem 3D and other classic first-person shooters, has died at age 68.",
+     "id": "49cb0beab228",
+     "title": "Hitman: Absolution – Nintendo Switch 2 Edition Coming Next Week",
+     "summary": "Feral Interactive has announced that IO Interactive's stealth action title Hitman: Absolution is launching on Nintendo Switch 2 on October 22.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-14T19:45:48Z",
-     "outlet_count": 2,
+     "published": "2026-10-15T15:19:48Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Ars Technica",
-       "title": "Legendary FPS level designer Richard \"Levelord\" Gray dies at 68",
-       "url": "https://arstechnica.com/gaming/2026/10/legendary-fps-level-designer-richard-levelord-gray-passes-away-at-68/",
+       "outlet": "Gematsu",
+       "title": "Hitman: Absolution – Nintendo Switch 2 Edition launches October 22",
+       "url": "https://www.gematsu.com/2026/10/hitman-absolution-nintendo-switch-2-edition-launches-october-22",
        "official": false
-      },
+      }
+     ]
+    },
+    {
+     "id": "c3a4ad0bfed8",
+     "title": "007 First Light Secures Switch 2 Release Date",
+     "summary": "IO Interactive's James Bond game has received a new release window for the Nintendo Switch 2, arriving a year later than originally planned.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T12:27:32Z",
+     "outlet_count": 1,
+     "sources": [
       {
-       "outlet": "GamesIndustry.biz",
-       "title": "Duke Nukem 3D level designer Richard \"Levelord\" Gray dies aged 68",
-       "url": "https://www.gamesindustry.biz/duke-nukem-3d-level-designer-richard-levelord-gray-dies-aged-68",
+       "outlet": "VGC",
+       "title": "The Switch 2 version of 007 First Light finally gets a new release date",
+       "url": "https://www.videogameschronicle.com/news/the-switch-2-version-of-007-first-light-finally-gets-a-new-release-date/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "851e60d4c872",
+     "title": "Fire Emblem: Fortune's Weave Gets First Expansion Wave",
+     "summary": "Nintendo and Intelligent Systems have released the first wave of DLC and an expansion pass for tactical RPG Fire Emblem: Fortune's Weave.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T13:48:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Fire Emblem: Fortune's Weave gets its first wave of DLC today, and an expansion pass to include it",
+       "url": "https://www.eurogamer.net/fire-emblem-fortunes-weave-expansion-pass",
        "official": false
       }
      ]
@@ -915,113 +965,37 @@
    "name": "US",
    "stories": [
     {
-     "id": "2582b93bd1de",
-     "title": "White House Scrutinized Over New Press Secretary's Legal Credentials",
-     "summary": "The White House faced mounting questions regarding newly appointed press secretary Katie Zacharia after she gave evasive answers on her legal background and bar exam history during her first day.",
-     "importance": 3,
+     "id": "0b88f72885af",
+     "title": "Ukraine Resumes Attacks on Russian Oil Refineries",
+     "summary": "Ukrainian President Volodymyr Zelenskyy announced that military strikes on Russian energy sites are resuming after Moscow dismissed a US-declared energy ceasefire.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-15T09:55:39Z",
-     "outlet_count": 7,
+     "published": "2026-10-15T14:51:00Z",
+     "outlet_count": 4,
      "sources": [
       {
        "outlet": "CBC News: World",
-       "title": "Katie Zacharia fails to impress in brief debut as White House press secretary",
-       "url": "https://www.cbc.ca/news/world/white-house-press-secretary-zacharia-debut-9.7380732?cmp=rss",
+       "title": "Ukraine resumes attacks on Russian refineries, as Zelenskyy expresses frustration with U.S.",
+       "url": "https://www.cbc.ca/news/world/russia-ukraine-war-day-1695-9.7381475?cmp=rss",
        "official": false
       },
       {
-       "outlet": "CBC News: World",
-       "title": "New White House press secretary Katie Zacharia faces mounting questions about resume",
-       "url": "https://www.cbc.ca/news/world/katie-zacharia-resume-questions-9.7381095?cmp=rss",
+       "outlet": "Washington Examiner",
+       "title": "Ukraine launches new attacks against Russian oil refineries after brief truce declared by Trump",
+       "url": "https://www.washingtonexaminer.com/news/world/4766769/ukraine-attacks-russian-oil-refineries/",
        "official": false
       },
       {
-       "outlet": "The Wall Street Journal: U.S.",
-       "title": "White House Press Secretary Katie Zacharia Didn’t Pass Bar Exam",
-       "url": "https://www.wsj.com/business/media/white-house-press-secretary-katie-zacharia-didnt-pass-bar-exam-714a484e?mod=rss_usnews",
+       "outlet": "PBS NewsHour",
+       "title": "Ukraine resumes attacks on Russian oil refineries as relations with Trump sour",
+       "url": "https://www.pbs.org/newshour/world/ukraine-resumes-attacks-on-russian-oil-refineries-as-relations-with-trump-sour",
        "official": false
       },
       {
-       "outlet": "The Free Press",
-       "title": "How Long Will Katie Zacharia Last as Press Secretary? We Asked Anthony Scaramucci.",
-       "url": "https://www.thefp.com/p/katie-zacharia-anthony-scaramucci-trump-press",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "New White House press secretary Katie Zacharia's legal career draws scrutiny",
-       "url": "https://www.thehindu.com/news/international/new-white-house-press-secretary-katie-zacharias-legal-career-draws-scrutiny/article71586662.ece",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: Politics",
-       "title": "Katie Zacharia Is Trump’s New Press Secretary. But Is She a Lawyer?",
-       "url": "https://www.nytimes.com/2026/10/14/us/politics/trump-press-secretary-katie-zacharia-lawyer.html",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "White House defends new press secretary amid questions about her legal credentials",
-       "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Trump's new press secretary scrutinised over credentials",
-       "url": "https://www.rte.ie/news/2026/1015/1595479-katie-zacharia-donald-trump/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "7b50b6d2240f",
-     "title": "Prince Harry and Meghan Make First Joint Public Appearance Since UK Return",
-     "summary": "The Duke and Duchess of Sussex stepped out together publicly for the first time since relocating back to the UK earlier this summer.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-15T10:56:41Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "NBC News",
-       "title": "Harry and Meghan make first joint appearance since returning to U.K.",
-       "url": "https://www.nbcnews.com/world/united-kingdom/harry-meghan-make-first-joint-appearance-returning-uk-rcna603646",
-       "official": false
-      },
-      {
-       "outlet": "El País (Spain)",
-       "title": "Prince Harry and Meghan Markle make their first joint public appearance in the UK in six years",
-       "url": "https://elpais.com/gente/2026-10-15/enrique-de-inglaterra-y-meghan-markle-protagonizan-juntos-su-primer-acto-publico-en-seis-anos-en-el-reino-unido.html",
-       "official": false,
-       "translated_from": "es",
-       "original_title": "Enrique de Inglaterra y Meghan Markle protagonizan juntos su primer acto público en seis años en el Reino Unido"
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Harry and Meghan make first appearance since return",
-       "url": "https://orf.at/stories/3445161/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Harry und Meghan zeigen sich erstmals seit Rückkehr"
-      },
-      {
-       "outlet": "BBC News: UK",
-       "title": "Meghan makes first official public appearance since moving back to UK",
-       "url": "https://www.bbc.co.uk/news/articles/c6gelgd1lxv2o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Prince Harry and wife Meghan make first joint appearance since UK return",
-       "url": "https://www.straitstimes.com/world/europe/prince-harry-and-wife-meghan-make-first-joint-appearance-since-uk-return",
-       "official": false
-      },
-      {
-       "outlet": "New York Post",
-       "title": "Meghan Markle makes first official joint appearance with Prince Harry since UK move: ‘It’s great to be back’",
-       "url": "https://pagesix.com/2026/10/15/royal-family/meghan-markle-prince-harry-make-first-official-joint-outing-since-move-great-to-be-back/",
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
+       "url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-all-1573-rdf",
        "official": false
       }
      ]
@@ -1032,213 +1006,139 @@
    "name": "World",
    "stories": [
     {
-     "id": "58bc458866a1",
-     "title": "New Yalu River Bridge Opens After 12-Year Delay to Boost China-North Korea Trade",
-     "summary": "The long-awaited New Yalu River Bridge connecting China and North Korea officially opened to traffic, signaling efforts by Beijing to strengthen economic ties amid tight bilateral relations.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-15T11:00:42Z",
-     "outlet_count": 8,
-     "sources": [
-      {
-       "outlet": "The Japan Times",
-       "title": "New bridge between China and North Korea opens",
-       "url": "https://www.japantimes.co.jp/news/2026/10/15/asia-pacific/china-north-korea-bridge-open/",
-       "official": false
-      },
-      {
-       "outlet": "NK News (North Korea)",
-       "title": "North Korea, China officially open long-delayed New Yalu River Bridge",
-       "url": "https://www.nknews.org/2026/10/north-korea-china-officially-open-long-delayed-new-yalu-river-bridge/",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "North Korea, China open border bridge after 12-year delay",
-       "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "North Korea and China Open Their Biggest Border Bridge",
-       "url": "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
-       "official": false
-      },
-      {
-       "outlet": "South China Morning Post",
-       "title": "China keen to strengthen North Korea trade ties with New Yalu River Bridge opening",
-       "url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Long-delayed China-North Korea bridge officially opens",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens?traffic_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Yalu River Bridge connecting China and North Korea opens 12 years after completion amid tighter relations",
-       "url": "https://mainichi.jp/articles/20261015/k00/00m/030/271000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "中朝結ぶ「鴨緑江大橋」が開通 完成から12年、関係緊密化へ"
-      },
-      {
-       "outlet": "Nikkei Asia",
-       "title": "China-North Korea traffic to increase with new bridge opening",
-       "url": "https://asia.nikkei.com/politics/international-relations/china-north-korea-traffic-to-increase-with-new-bridge-opening",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bfc9c60a70ea",
-     "title": "Pakistan School Roof Collapse Claims at Least 28 Lives, Mostly Children",
-     "summary": "At least 28 people, predominantly children, were killed when a school roof collapsed in Peshawar, Pakistan, with rescue operations continuing as casualties are expected to rise.",
+     "id": "54e2590059a3",
+     "title": "China and North Korea Open New Border Bridge After Long Delay",
+     "summary": "The New Yalu River Bridge connecting Dandong, China, and Sinuiju, North Korea, has officially opened, boosting regional trade ties after a 12-year delay.",
      "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-15T10:53:23Z",
-     "outlet_count": 13,
+     "published": "2026-10-15T12:54:00Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "Sky News: World",
-       "title": "School owner arrested after dozens of children killed in roof collapse",
-       "url": "https://news.sky.com/story/at-least-17-children-killed-in-pakistan-school-collapse-13599466",
+       "outlet": "BBC News: World",
+       "title": "North Korea and China open new bridge after 12-year delay",
+       "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "The Hindu: International",
-       "title": "17 children, teacher killed, over 40 injured as school roof collapses in Pakistan’s Peshawar",
-       "url": "https://www.thehindu.com/news/international/students-teacher-killed-in-school-roof-collapse-in-pakistan-peshwar/article71586942.ece",
+       "outlet": "KBS World",
+       "title": "N. Korea, China Open New Bridge after 12-Year Delay",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204888",
        "official": false
       },
       {
-       "outlet": "New York Times: World",
-       "title": "At Least 20 Children Dead After School Roof Collapses in Pakistan",
-       "url": "https://www.nytimes.com/2026/10/15/world/asia/pakistan-school-collapse.html",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Pakistan school roof collapse kills 28; more deaths feared",
-       "url": "https://www.channelnewsasia.com/asia/pakistan-school-roof-collapse-dozens-students-dead-6461551",
-       "official": false
-      },
-      {
-       "outlet": "NPR News",
-       "title": "School roof collapse kills at least 29, injures more than 3 dozen in Pakistan",
-       "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
+       "outlet": "Semafor",
+       "title": "China and North Korea open new bridge as ties improve",
+       "url": "https://www.semafor.com/article/10/15/2026/north-korea-and-china-open-new-bridge-as-ties-improve",
        "official": false
       },
       {
        "outlet": "Al Jazeera",
-       "title": "School roof collapses in northwestern Pakistan, killing at least 29 people",
-       "url": "https://www.aljazeera.com/news/2026/10/15/school-roof-collapses-in-northwestern-pakistan-killing-at-least-29-people?traffic_source=rss",
+       "title": "Photos: China and North Korea open new border bridge amid deepening ties",
+       "url": "https://www.aljazeera.com/gallery/2026/10/15/photos-china-and-north-korea-open-new-border-bridge-amid-deepening-ties?traffic_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "715e35bde758",
+     "title": "School Roof Collapse in Pakistan Kills Dozens",
+     "summary": "At least 31 students and a teacher were killed when the roof of a school collapsed unexpectedly in northwestern Pakistan.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-15T15:28:29Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Pakistan school roof collapse kills at least 32 children and a teacher",
+       "url": "https://www.japantimes.co.jp/news/2026/10/15/asia-pacific/pakistan-school-roof-collapse/",
        "official": false
       },
       {
-       "outlet": "CBC News: World",
-       "title": "School roof collapses in Pakistan, killing at least 28 children and teacher",
-       "url": "https://www.cbc.ca/news/world/school-pakistan-roof-collapse-fatalities-9.7381454?cmp=rss",
+       "outlet": "BBC News: World",
+       "title": "Watch: Pupils heard 'cracking' sound heard moments before Pakistan school roof collapse",
+       "url": "https://www.bbc.co.uk/news/videos/cmq8n5gv1pnpo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Tagesschau (Germany)",
-       "title": "Many dead in school roof collapse in Pakistan",
-       "url": "https://www.tagesschau.de/ausland/asien/pakistan-schuldach-einsturz-tote-100.html",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Viele Tote bei Einsturz von Schuldach in Pakistan"
-      },
-      {
-       "outlet": "CBS News",
-       "title": "Pakistan school collapse kills almost 30 students and a teacher",
-       "url": "https://www.cbsnews.com/news/pakistan-school-collapse-peshawar-student-teacher-deaths/",
+       "outlet": "BBC News: World",
+       "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+       "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Yahoo News",
-       "title": "28 deaths in Pakistan school roof collapse as rescuers search for trapped children",
-       "url": "https://www.yahoo.com/news/articles/seventeen-students-one-teacher-killed-061214216.html",
+       "outlet": "ABC News",
+       "title": "Roof collapse at Pakistan school kills 31",
+       "url": "https://abcnews.com/International/33-killed-dozens-injured-roof-collapse-pakistan-school/story?id=137283984",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3862cea029ca",
+     "title": "Sally Rooney Withdraws Books From UK Over Palestine Action Support",
+     "summary": "Author Sally Rooney has withdrawn her books from sale in the UK in protest over the government's stance regarding Palestine Action support.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-15T13:06:12Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "New York Times: World",
+       "title": "Sally Rooney Withdraws Her Books From UK Over Her Support of Palestine Action",
+       "url": "https://www.nytimes.com/2026/10/14/world/europe/rooney-britain-palestine-book-sales.html",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Sally Rooney books withdrawn from sale in UK over Palestine Action support",
+       "url": "https://www.aljazeera.com/news/2026/10/15/sally-rooney-withdraws-books-from-uk-over-palestine-action-support?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "McEntee 'shocked' at UK decision on Sally Rooney books",
+       "url": "https://www.rte.ie/entertainment/2026/1015/1595509-mcentee-shocked-at-uk-decision-on-sally-rooney-books/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "35f281075d3c",
+     "title": "Tanker Fire Off Romanian Coast Leaves Crew Missing",
+     "summary": "A search and rescue operation is underway in the Black Sea after two chemical tankers caught fire in Romanian waters following reported Russian drone incursions.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-15T14:51:30Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Politico Europe",
+       "title": "Seven missing after tanker catches fire off Romanian coast",
+       "url": "https://www.politico.eu/article/seven-missing-after-tanker-catches-fire-off-romanian-coast/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "7 sailors missing as two ships off Romanian Black Sea coast catch fire amid drone incursion",
+       "url": "https://kyivindependent.com/7-sailors-missing-as-two-ships-off-romanian-black-sea-coast-catch-fire-amid-drone-incursion/",
        "official": false
       },
       {
        "outlet": "Deutsche Welle (Germany)",
-       "title": "School roof collapse in Pakistan's Peshawar kills dozens of students and one teacher",
-       "url": "https://www.dw.com/en/school-roof-collapse-in-pakistan-s-peshawar-kills-dozens-of-students-and-one-teacher/a-79666091?maca=en-rss-en-all-1573-rdf",
+       "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+       "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-all-1573-rdf",
        "official": false
       },
       {
-       "outlet": "Al Jazeera",
-       "title": "Dozens of children killed after roof collapses in Pakistani school",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-pak-school-collapse-sv?traffic_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "SRF News (Switzerland)",
-       "title": "Pakistan: School roof collapse claims numerous lives",
-       "url": "https://www.srf.ch/news/international/pakistan-einsturz-von-schuldach-fordert-zahlreiche-menschenleben",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Pakistan – Einsturz von Schuldach fordert zahlreiche Menschenleben"
-      },
-      {
-       "outlet": "Straight Arrow News",
-       "title": "Pakistan school roof collapse kills at least 28, children remain trapped",
-       "url": "https://san.com/cc/pakistan-school-roof-collapse-kills-at-least-28-children-remain-trapped/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "420703f24235",
-     "title": "Saudi Coalition Intercepts Missile Over Medina Region",
-     "summary": "A missile launched toward the Medina region was successfully intercepted by the Saudi-led coalition, while Houthi representatives denied targeting the area.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-15T10:53:16Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "franceinfo (France)",
-       "title": "Saudi-led coalition says it intercepted a missile in the Medina region",
-       "url": "https://www.franceinfo.fr/monde/proche-orient/tensions-entre-l-arabie-saoudite-et-l-iran/la-coalition-menee-par-l-arabie-saoudite-dit-avoir-intercepte-un-missile-dans-la-region-de-medine_8238514.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "La coalition menée par l'Arabie saoudite dit avoir intercepté un missile dans la région de Médine"
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Saudi coalition says missile intercepted in Medina region",
-       "url": "https://www.channelnewsasia.com/world/saudi-arabia-medina-missile-intercepted-houthi-6462156",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "755be2e5136f",
-     "title": "UK Threatens Entry Bans Over Eritrean Migrant Returns",
-     "summary": "The UK Home Secretary warned that sanctions and travel bans could be imposed on Eritrea and other nations refusing to cooperate with migrant deportation and return agreements.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-15T09:17:57Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Guardian: World",
-       "title": "UK threatens to ban Eritreans over returns policy",
-       "url": "https://www.theguardian.com/uk-news/2026/oct/15/uk-threatens-to-ban-eritreans-over-returns-policy",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: Africa",
-       "title": "UK threatens to ban Eritreans over migrant return policy",
-       "url": "https://www.bbc.co.uk/news/articles/c30rl1q1j200o?at_medium=RSS&at_campaign=rss",
+       "outlet": "BBC News: World",
+       "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+       "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
@@ -1249,122 +1149,134 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "3642320c1011",
-     "title": "Former DUP Leader Jeffrey Donaldson Sentenced to 15 Years for Child Sexual Abuse",
-     "summary": "Northern Ireland politician Jeffrey Donaldson was sentenced to 15 years in prison after being convicted on 18 counts of historical sexual abuse against two victims when they were children.",
+     "id": "011731296e50",
+     "title": "Pope Leo Recovers Well Following Lung Surgery",
+     "summary": "Vatican doctors report that Pope Leo XIV has recovered well from surgery to remove a cancerous lung nodule and has resumed light work from the hospital.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-15T10:50:34Z",
-     "outlet_count": 4,
+     "published": "2026-10-15T13:11:58Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Former DUP leader Jeffrey Donaldson sentenced to 15 years for multiple child sex offences",
-       "url": "https://www.thejournal.ie/jeffrey-donaldson-sentenced-court-7193988-Oct2026/",
+       "outlet": "BBC News: Latin America",
+       "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+       "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "The Guardian: UK",
-       "title": "Former DUP leader Jeffrey Donaldson sentenced to 15 years for child sexual offences",
-       "url": "https://www.theguardian.com/uk-news/2026/oct/15/jeffrey-donaldson-sentenced-to-15-years-for-child-sexual-offences",
+       "outlet": "PBS NewsHour",
+       "title": "Doctors say Pope Leo's lung has recovered well from surgery and say his post-operative tests normal",
+       "url": "https://www.pbs.org/newshour/nation/doctors-say-pope-leos-lung-has-recovered-well-from-surgery-and-say-his-post-operative-tests-normal",
        "official": false
       },
       {
-       "outlet": "The Guardian: World",
-       "title": "Former DUP leader Jeffrey Donaldson sentenced to 15 years for child sexual abuse",
-       "url": "https://www.theguardian.com/uk-news/live/2026/oct/15/former-dup-leader-jeffrey-donaldson-sentenced-child-sexual-abuse-latest-updates",
-       "official": false
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Northern Ireland’s Donaldson jailed for 15 years for child sex offences",
-       "url": "https://www.straitstimes.com/world/europe/northern-irelands-donaldson-jailed-for-15-years-for-child-sex-offences",
-       "official": false
-      },
-      {
-       "outlet": "Bloomberg: Politics",
-       "title": "Ex-DUP Leader Donaldson Gets 15 Years Jail for Rape, Child Abuse",
-       "url": "https://www.bloomberg.com/news/articles/2026-10-15/ex-dup-leader-donaldson-gets-15-years-jail-for-rape-child-abuse",
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Doctors say Pope has recovered well from surgery",
+       "url": "https://www.rte.ie/news/2026/1015/1595514-pope-leo-health/",
        "official": false
       }
      ]
     },
     {
-     "id": "975d8b5fe161",
-     "title": "EU and Gulf States Postpone Scheduled Summit Following Regional Attacks",
-     "summary": "The European Union and Gulf states mutually agreed to postpone their upcoming summit in Saudi Arabia in the wake of recent security incidents and missile interceptions in the region.",
+     "id": "2b3302d7b774",
+     "title": "Record Spread of West Nile Virus Recorded Across EU",
+     "summary": "European health agencies report their worst season ever for West Nile virus cases, with infections creeping northward into Belgium and the Netherlands.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-15T10:49:19Z",
+     "published": "2026-10-15T15:12:36Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Straits Times: World",
-       "title": "EU and Gulf states postpone summit due in Saudi Arabia",
-       "url": "https://www.straitstimes.com/world/middle-east/eu-and-gulf-states-postpone-summit-due-in-saudi-arabia",
+       "outlet": "Euronews",
+       "title": "West Nile virus: Europe records its worst season ever as cases spread north",
+       "url": "https://www.euronews.com/2026/10/15/west-nile-virus-europe-records-its-worst-season-ever-as-cases-spread-north",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "West Nile virus creeps north in record year for EU cases",
+       "url": "https://www.politico.eu/article/west-nile-virus-creeps-north-in-record-year-for-eu-cases/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "941f5c0f5b1a",
+     "title": "UK Culture Secretary Minded to Intervene in Sky's ITV Acquisition",
+     "summary": "Culture Secretary Lisa Nandy has stated she is minded to intervene in Sky's £1.6 billion purchase of ITV's entertainment arm, triggering deeper regulatory scrutiny.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-15T15:03:10Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "BBC News: UK",
+       "title": "Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm",
+       "url": "https://www.bbc.co.uk/news/articles/cm79pe5yej7no?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: World",
+       "title": "Lisa Nandy ‘minded to intervene’ in Sky’s £1.6bn purchase of ITV",
+       "url": "https://www.theguardian.com/business/2026/oct/15/lisa-nandy-culture-secretary-intervene-sky-purchase-itv",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "37639ab7b836",
+     "title": "Norway Wealth Fund Proposes Defense and Weapons Investments",
+     "summary": "An independent government commission recommends allowing Norway's massive sovereign wealth fund to invest in defense companies and nuclear weapon manufacturers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-15T14:50:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Norway should invest in defense companies again",
+       "url": "https://orf.at/stories/3445185/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Norwegen soll wieder in Rüstungskonzerne investieren"
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Norway: Wealth Fund Soon Allowed to Invest in Defense Companies",
+       "url": "https://www.spiegel.de/wirtschaft/norwegen-staatsfonds-statens-pensjonsfond-soll-bald-in-ruestungskonzerne-investieren-duerfen-a-66feaa8a-f631-44c7-9c48-08bd48b2a918#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Norwegen: Staatsfonds Statens pensjonsfond soll bald in Rüstungskonzerne investieren dürfen"
+      }
+     ]
+    },
+    {
+     "id": "53c16eae1974",
+     "title": "At Least Three Dead Following Record Rainfall and Floods in Istanbul",
+     "summary": "Severe weather and heavy downpours have caused flash floods in Istanbul, resulting in at least three fatalities and widespread damage.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-15T14:03:37Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Sky News: World",
+       "title": "Three dead as heavy rainfall and floods hit Istanbul",
+       "url": "https://news.sky.com/story/three-dead-and-2700-evacuated-as-heavy-rainfall-and-floods-shut-down-istanbul-13599536",
        "official": false
       },
       {
        "outlet": "ORF News (Austria)",
-       "title": "Attacks on Saudi Arabia: EU cancels summit with Gulf states",
-       "url": "https://orf.at/stories/3445163/",
+       "title": "At Least Three Dead Amid Record Rainfall in Istanbul",
+       "url": "https://orf.at/stories/3445194/",
        "official": false,
        "translated_from": "de",
-       "original_title": "Angriffe auf Saudi-Arabien: EU sagt Gipfel mit Golfstaaten ab"
-      }
-     ]
-    },
-    {
-     "id": "3dad6ea51784",
-     "title": "French Court Sentences Ultra-Right Figure Rémy Daillet to Six Years in Prison",
-     "summary": "Rémy Daillet, identified as the instigator of an ultra-right extremist group and orchestrator of a high-profile child abduction case, was handed a six-year prison sentence.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-15T10:38:51Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "franceinfo (France)",
-       "title": "Rémy Daillet, suspected leader of an ultra-right group, sentenced to six years in prison, court orders his continued detention",
-       "url": "https://www.franceinfo.fr/faits-divers/justice-proces/remy-daillet-chef-presume-d-un-groupuscule-d-ultradroite-condamne-a-six-ans-de-prison-ferme-le-tribunal-ordonne-son-maintien-en-detention_8238574.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Rémy Daillet, chef présumé d'un groupuscule d'ultradroite, condamné à six ans de prison ferme, le tribunal ordonne son maintien en détention"
-      },
-      {
-       "outlet": "Le Monde (France)",
-       "title": "Rémy Daillet, instigator of an ultra-right groupuscule, sentenced to six years in prison",
-       "url": "https://www.lemonde.fr/societe/article/2026/10/15/remy-daillet-instigateur-d-un-groupuscule-d-ultradroite-condamne-a-six-ans-de-prison_6794434_3224.html",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Rémy Daillet, instigateur d’un groupuscule d’ultradroite, condamné à six ans de prison"
-      }
-     ]
-    },
-    {
-     "id": "28220f480758",
-     "title": "Musk Suggests US Government Restricts Starlink Speeds in Ukraine",
-     "summary": "Elon Musk claimed during European meetings that restrictions and speed throttling affecting Starlink terminals in Ukraine may have originated from the US government rather than SpaceX.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-15T10:55:15Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "BBC News: World",
-       "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
-       "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Elon Musk suggests US government was behind Starlink restrictions in Ukraine",
-       "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
-       "official": false
+       "original_title": "Mindestens drei Tote bei Rekordregenfällen in Istanbul"
       }
      ]
     }
@@ -1374,66 +1286,80 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "9bfb0e004f66",
-     "title": "Japan Denies Spying Allegations After Russia Arrests Journalist",
-     "summary": "Prime Minister Sanae Takaichi rejected espionage accusations leveled by Moscow against a detained Hokkaido Shimbun reporter, calling the specific charges unclear.",
-     "importance": 3,
+     "id": "7865d8c9b068",
+     "title": "North Korea Tests Submarine-Launched Cruise Missiles",
+     "summary": "State media reported that North Korea conducted tests of two types of submarine-launched cruise missiles off its east coast, monitored by senior military officials.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-15T09:15:00Z",
-     "outlet_count": 3,
+     "published": "2026-10-15T02:55:00Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Japan denies spying after Russia arrests journalist",
-       "url": "https://www.channelnewsasia.com/east-asia/japan-denies-spying-russia-journalist-arrest-6459186",
+       "outlet": "NK News (North Korea)",
+       "title": "North Korea says it tested submarine-launched cruise missiles",
+       "url": "https://www.nknews.org/2026/10/north-korea-says-it-tested-submarine-launched-cruise-missiles/",
        "official": false
       },
       {
        "outlet": "The Japan Times",
-       "title": "Japan denies spying after Russia arrests journalist",
-       "url": "https://www.japantimes.co.jp/news/2026/10/15/japan/japan-denies-spying-in-russia/",
-       "official": false
-      },
-      {
-       "outlet": "Japan Forward",
-       "title": "Will Russia Use the Detained Japanese Journalist as a Bargaining Chip?",
-       "url": "https://japan-forward.com/russia-arrest-journalist-political-leverage-negotiations/",
+       "title": "North Korea tested two types of sub-launched cruise missiles, state media says",
+       "url": "https://www.japantimes.co.jp/news/2026/10/15/asia-pacific/north-korea-submarine-cruise-missiles/",
        "official": false
       }
      ]
     },
     {
-     "id": "d5b02e284bf0",
-     "title": "Takaichi Cabinet Approval Rate Falls to Record Low Amid Minister Scandal",
-     "summary": "A recent Jiji poll revealed that the approval rating for Prime Minister Sanae Takaichi's Cabinet dropped to a new low of 42.4%, driven by public discontent over retaining scandal-hit Agriculture Minister Kazuo Yana.",
+     "id": "c70942026008",
+     "title": "Japan Considers Tapping Foreign Ships for Emergency Fleet",
+     "summary": "Japan is moving forward with regulatory changes to enable foreign-flagged ships to be utilized as part of an emergency national transport fleet.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-15T10:54:25Z",
-     "outlet_count": 2,
+     "published": "2026-10-15T15:32:29Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Takaichi Cabinet’s approval rate drops to new low of 42.4%, Jiji poll shows",
-       "url": "https://www.japantimes.co.jp/news/2026/10/15/japan/politics/japan-pm-takaichi-public-support-rate-new-low/",
+       "outlet": "Nikkei Asia",
+       "title": "Japan to enable foreign-flagged ships to be tapped for emergency fleet",
+       "url": "https://asia.nikkei.com/business/transportation/japan-to-enable-foreign-flagged-ships-to-be-tapped-for-emergency-fleet",
        "official": false
-      },
+      }
+     ]
+    },
+    {
+     "id": "5a14114dceba",
+     "title": "Japan Targets 30 Rocket Launches Annually by 2030s",
+     "summary": "The Japanese space sector has outlined ambitious plans to scale up its launch cadence to 30 rockets per year by the 2030s.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-15T15:32:29Z",
+     "outlet_count": 1,
+     "sources": [
       {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Calls for former Agriculture Minister Yana to resign from parliament and hold local press conference in Tochigi",
-       "url": "https://mainichi.jp/articles/20261015/k00/00m/310/313000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "「地元で記者会見を」 簗前農相に議員辞職求める声も 栃木"
-      },
+       "outlet": "Nikkei Asia",
+       "title": "Japan targets 30 rocket launches a year by 2030s",
+       "url": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-targets-30-rocket-launches-a-year-by-2030s",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a4b75b987e8e",
+     "title": "Mazda Shifting Supply Chain Back to Japan Using Automation",
+     "summary": "Mazda is returning parts of its manufacturing supply chain back to domestic facilities aided by advanced industrial robotics.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-15T15:32:29Z",
+     "outlet_count": 1,
+     "sources": [
       {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Prime Minister Takaichi seeks to rebuild administration with agriculture minister reshuffle while opposition questions appointment responsibility",
-       "url": "https://mainichi.jp/articles/20261015/k00/00m/010/320000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "農相交代で政権立て直し図る高市首相 野党は任命責任を追及"
+       "outlet": "Nikkei Asia",
+       "title": "Mazda brings part of its supply chain back to Japan with help from robots",
+       "url": "https://asia.nikkei.com/business/automobiles/mazda-brings-part-of-its-supply-chain-back-to-japan-with-help-from-robots",
+       "official": false
       }
      ]
     }
@@ -1443,86 +1369,54 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "31021b989ed2",
-     "title": "South Korea Expresses Concerns Over USFK Chief's OPCON Remarks",
-     "summary": "Defense Minister Kang Shin-chul announced that Seoul formally conveyed its concerns to Washington regarding recent statements made by the US Forces Korea commander concerning wartime operational control.",
+     "id": "75dab8d32854",
+     "title": "South Korea Rejects North Korean Claims Over Hypersonic Missile Test",
+     "summary": "South Korea's defense ministry dismissed claims by North Korea's missile chief casting doubt on Seoul's recent successful test launch of a hypersonic glide vehicle.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-15T09:47:06Z",
+     "published": "2026-10-15T15:32:03Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Korea Herald",
-       "title": "Defense minister says Seoul ready for OPCON transfer despite USFK concerns",
-       "url": "https://www.koreaherald.com/article/10903907",
+       "outlet": "Yonhap News",
+       "title": "Defense ministry refutes Pyongyang's claim questioning Seoul's test of hypersonic glide vehicle",
+       "url": "https://en.yna.co.kr/view/AEN20261015011300320",
        "official": false
       },
       {
-       "outlet": "Yonhap News",
-       "title": "Defense minister says S. Korea conveys concerns over USFK chief's OPCON remarks",
-       "url": "https://en.yna.co.kr/view/AEN20261015010900315",
+       "outlet": "The Korea Times",
+       "title": "Defense ministry refutes Pyongyang's claim questioning Seoul's test of hypersonic glide vehicle",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261016/defense-ministry-refutes-pyongyangs-claim-questioning-seouls-test-of-hypersonic-glide-vehicle?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "dce8b9e306de",
-     "title": "President Lee Urges US Businesses to Expand Investments in South Korea",
-     "summary": "South Korean President Lee Jae Myung called on US corporate leaders during a business summit to increase investment and explore economic partnerships within South Korea.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-15T10:48:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "S. Korean, U.S. biz leaders call for support to accelerate Korean investment projects in U.S.",
-       "url": "https://en.yna.co.kr/view/AEN20261015010800320",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Lee calls for U.S. firms to explore investment, biz opportunities in S. Korea",
-       "url": "https://en.yna.co.kr/view/AEN20261015003351315",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d2938346bd40",
-     "title": "Special Counsel Finds Regional NEC Offices Falsified Voter Numbers",
-     "summary": "An investigation by a special counsel team revealed that approximately 30 regional National Election Commission offices falsified voter turnout figures during the June 3 local elections.",
+     "id": "f4b0af4fc044",
+     "title": "National Pension Fund Criticized Over Market Crash Response",
+     "summary": "Editorials in South Korea highlight concerns that the National Pension Fund failed to execute high-price sell-offs, losing its intended safety net during a market downturn.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-15T09:09:43Z",
+     "published": "2026-10-15T15:20:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "KBS World",
-       "title": "Special Counsel: 30 Regional NEC Offices Falsified Voter Numbers on June 3",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204896",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "87b5f838d4e6",
-     "title": "South Korean Army Outlines 2040 Vision for Robotic Battlefield Operations",
-     "summary": "The South Korean Army detailed a strategic roadmap for 2040 envisioning autonomous drones and robots leading reconnaissance and dangerous combat tasks before soldiers engage.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-15T09:04:23Z",
-     "outlet_count": 1,
-     "sources": [
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "National Pension Fund fails to sell at high prices, losing safety valve in market crash [Editorial]",
+       "url": "https://www.chosun.com/jp/opinion-jp/2026/10/16/EZD2HE3RLBEKLC6LFRCZZUWKXY/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "高値で売らず、暴落相場で安全弁失う国民年金【社説】"
+      },
       {
-       "outlet": "The Korea Herald",
-       "title": "Robots first, soldiers follow: A glimpse of battlefield tactics in 2040",
-       "url": "https://www.koreaherald.com/article/10904194",
-       "official": false
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "[Editorial] National Pension Fund failed to sell when prices were high, losing its safety net during market crash",
+       "url": "https://www.chosun.com/opinion/editorial/2026/10/16/K3R4LGNN55BAFBC2YCQYJUSOI4/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "[사설] 비쌀 때 안 팔더니, 폭락장에서 안전판 기능 잃은 국민연금"
       }
      ]
     }
@@ -1530,26 +1424,147 @@
   },
   {
    "name": "Deals",
-   "stories": []
+   "stories": [
+    {
+     "id": "397d27e89da5",
+     "title": "Kirby and the Forgotten Land on Switch Digital for $25.36",
+     "summary": "Walmart is offering digital copies of Kirby and the Forgotten Land on Nintendo Switch for a discounted price of $25.36.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T15:20:58Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Kirby and the Forgotten Land (Switch Digital) is $25.36 at Walmart buff.ly/Q7oirOX #ad If you get a cancellation, that's Walmart likely thinking it's a fraud order. Try again via site/app or try…",
+       "url": "https://buff.ly/Q7oirOX",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e362bbfd0385",
+     "title": "Orcatober Aquatic Horrors Steam Bundle Available for $10",
+     "summary": "Digiphile is featuring a 7-game Steam bundle that includes titles like Layers of Fear and Murky Divers for $10.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T15:05:58Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Orcatober Aquatic Horrors bundle up on Digiphile ($10 for 7 Steam games) buff.ly/D1jwmg4 #ad -Darkwater -Layers of Fear -Murky Divers -Static Dread:The Submarine -Static Dread: The Lighthouse…",
+       "url": "https://buff.ly/D1jwmg4",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f1470ab7d32a",
+     "title": "Castlevania Dominus Collection Available at VGP for $31.65",
+     "summary": "Video Games Plus has discounted the Castlevania Dominus Collection across multiple console platforms to $31.65.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T14:59:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Castlevania Dominus Collection (Switch/PS5/XSX) is $31.65 US Dollars at VGP buff.ly/hgxSDZs #ad",
+       "url": "https://buff.ly/hgxSDZs",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "680e60792d87",
+     "title": "Train to Busan 10th Anniversary 4K UHD Up for Preorder",
+     "summary": "GRUV has opened preorders for the Train to Busan 10th Anniversary Limited Edition 4K Ultra HD set for $49.99 with an extra discount code.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T14:27:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Train to Busan - 10th Anniversary (Limited Edition 4K Ultra HD + Blu-ray) up for preorder on GRUV - $49.99 (extra discount w/ code FIRSTGRUV15) buff.ly/5ya1r29 $79.99 Amazon amzn.to/47Ryhdc #ad",
+       "url": "https://buff.ly/5ya1r29",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2fabd6ea339f",
+     "title": "Amazon Discounts AirPods Max 2 and AirPods Pro 3",
+     "summary": "Amazon has launched temporary markdowns on Apple's AirPods lineup, taking $120 off AirPods Max 2 and $50 off AirPods Pro 3.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T14:12:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Amazon Offers $120 Discount on AirPods Max 2, $50 Off AirPods Pro 3",
+       "url": "https://www.macrumors.com/2026/10/15/airpods-max-2-airpods-pro-3-discounts/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d648881245b9",
+     "title": "Bethesda Classics Added to GOG Preservation Program at Deep Discounts",
+     "summary": "Classic Bethesda titles like Ghostwire: Tokyo and The Elder Scrolls IV: Oblivion GOTY Deluxe have been added to the GOG preservation catalog starting at $4.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T13:12:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Bethesda titles added to GOG Preservation Program: Ghostwire: Tokyo ($14.99) buff.ly/C7hTYvM The Elder Scrolls IV: Oblivion - Game of the Year Edition Deluxe ($4.99) buff.ly/JtrEIMK #ad",
+       "url": "https://buff.ly/C7hTYvM",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d9262c238c89",
+     "title": "Retroid Pocket Duo Handheld Discounted to $249",
+     "summary": "Retroid is offering its Pocket Duo handheld for $249 with a promotional discount code valid through October 31 ahead of shipping.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T13:04:26Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Retroid Pocket Duo is $249 w/ code DUO - discount ends Oct 31. Shipping begins Oct 21 buff.ly/GVWqlJh #ad",
+       "url": "https://buff.ly/GVWqlJh",
+       "official": false
+      }
+     ]
+    }
+   ]
   }
  ],
  "date": "2026-10-15",
- "generated_at": "2026-10-15T11:00:42Z",
+ "generated_at": "2026-10-15T15:32:29Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1175,
-  "clusters": 1016,
-  "feeds_ok": 173,
-  "feeds_failed": 3
+  "items": 941,
+  "clusters": 826,
+  "feeds_ok": 174,
+  "feeds_failed": 2
  },
  "feed_health": [
-  {
-   "key": "newsweek",
-   "title": "Newsweek",
-   "status": "error",
-   "detail": "HTTPError: 404 Client Error: Not Found for url: https://www.newsweek.com/rss"
-  },
   {
    "key": "wapo-politics",
    "title": "The Washington Post: Politics",
@@ -1557,10 +1572,10 @@
    "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
   },
   {
-   "key": "koreatimes",
-   "title": "The Korea Times",
+   "key": "err",
+   "title": "ERR News (Estonia)",
    "status": "error",
-   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.koreatimes.co.kr/www/rss/nation.xml"
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://news.err.ee/rss"
   }
  ]
 }
