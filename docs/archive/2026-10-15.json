@@ -1,0 +1,1566 @@
+{
+ "version": 1,
+ "headline": "Global markets react to tech earnings and soaring AI revenue while geopolitical tensions mount across Europe and Asia.",
+ "top": [
+  {
+   "id": "41b8af1f6a5d",
+   "title": "OpenAI Alleges Ex-Employee Stole Confidential Device Files and Shared Them With Apple",
+   "summary": "OpenAI filed court documents claiming an ex-employee stole sensitive trade secrets about an unreleased product and presented them to Apple. In response, OpenAI voluntarily agreed not to use any disputed information while the legal battle continues.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-15T10:27:38Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "9to5Mac",
+     "title": "OpenAI alleges ex-employee took ‘highly confidential’ device files to Apple",
+     "url": "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "OpenAI cries foul, says Apple stole secrets from it in 2026",
+     "url": "https://appleinsider.com/articles/26/10/14/openai-cries-foul-says-apple-stole-secrets-from-it-in-2026?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Verge AI",
+     "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "OpenAI Says Ex-Employee Showed Its Device Plans to Apple",
+     "url": "https://www.macrumors.com/2026/10/14/openai-apple-potential-counterclaim/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "OpenAI agrees not to use alleged Apple trade secrets amid ongoing lawsuit",
+     "url": "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "OpenAI swears it won't use the Apple trade secrets it seemingly admits it has",
+     "url": "https://appleinsider.com/articles/26/10/15/openai-swears-it-wont-use-the-apple-trade-secrets-it-seemingly-admits-it-has?utm_source=rss",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "0b506f863061",
+   "title": "Anthropic Reports Surge to $16.8 Billion in Q3 Revenue Ahead of November IPO",
+   "summary": "Anthropic announced its third-quarter revenue reached $16.8 billion, a 46% year-over-year increase, alongside an adjusted profit. The company is heading toward a planned November stock market debut that could value it at up to $2 trillion.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "AI",
+   "published": "2026-10-15T09:50:43Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "BBC News: World",
+     "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+     "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Anthropic revenue jumps 46% to $16.8bn as AI firm eyes record $2 trillion IPO valuation",
+     "url": "https://www.euronews.com/2026/10/15/anthropic-revenue-jumps-46-to-168bn-as-ai-firm-eyes-record-2-trillion-ipo-valuation",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Anthropic brings Wall Street an AI bull case",
+     "url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
+     "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "a08216ed8be3",
+   "title": "Eight US States Sue OpenAI, Alleging ChatGPT Endangers Children",
+   "summary": "Attorneys general from eight US states filed lawsuits against OpenAI, claiming that ChatGPT is unsafe for children and that the company ignored its own safety warnings for financial gain.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-15T09:40:36Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Iowa, Nebraska and six other states are suing OpenAI for endangering children",
+     "url": "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "State lawsuits accuse OpenAI of ignoring its own safety warnings for profit: 'All these harms were foreseeable and avoidable'",
+     "url": "https://www.pcgamer.com/software/ai/8-us-states-sue-openai/",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Eight states sue OpenAI claiming ChatGPT harms children",
+     "url": "https://www.nbcnews.com/video/eight-states-sue-openai-claiming-chatgpt-harms-children-271603269912",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Eight US states sue OpenAI",
+     "url": "https://orf.at/stories/3445151/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Acht US-Bundesstaaten klagen OpenAI"
+    }
+   ]
+  },
+  {
+   "id": "07f09d11087e",
+   "title": "TSMC Reports Record Q3 Profit on Massive AI Demand",
+   "summary": "TSMC posted a 50.9% jump in quarterly revenue to $46.36 billion and a 68.7% rise in net income, marking its sixth consecutive quarterly profit record driven by heavy demand for AI chips.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-15T05:56:47Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "TSMC reports Q3 revenue up 50.9% YoY to $46.36B, net income up 68.7% to $23.7B, both above est., marking a sixth straight quarterly profit record on AI demand (Jenny Lee/CNBC)",
+     "url": "https://www.techmeme.com/261015/p7#a261015p7",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "4cb69706bfb9",
+   "title": "Ukraine Resumes Strikes on Russian Oil Refineries Amid Rising Tensions With Trump Administration",
+   "summary": "Ukrainian forces resumed drone strikes targeting Russian oil refineries in the Ryazan region following a brief truce. The renewed attacks come amid growing friction with Washington over fuel prices and diplomatic pressure.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-15T10:59:09Z",
+   "outlet_count": 10,
+   "sources": [
+    {
+     "outlet": "France 24: Europe",
+     "title": "Ukraine live: Zelensky calls for US not to stand 'with the aggressor', asks for 'honesty'",
+     "url": "https://www.france24.com/en/europe/20261015-ukraine-live-romania-probes-possible-drone-attack-on-tanker",
+     "official": false
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "‘We’re done’: Zelensky says Ukraine will resume strikes on Russian oil refineries",
+     "url": "https://meduza.io/en/news/2026/10/15/we-re-done-zelensky-says-ukraine-will-resume-strikes-on-russian-oil-refineries",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Ukraine resumes strikes on Russian refineries as Zelensky says 'we're done'",
+     "url": "https://www.yahoo.com/news/articles/zelenskiy-says-ukraine-resume-strikes-060307306.html",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Zelensky lifts pause on Ukraine's strikes against Russian oil refineries",
+     "url": "https://kyivindependent.com/zelensky-lifts-pause-on-ukraines-strikes-against-russian-oil-refineries/",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger mounts with Trump",
+     "url": "https://www.nbcnews.com/world/ukraine/ukraine-resumes-strikes-russian-oil-refineries-trump-starlink-intel-rcna603648",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "LIVE, war in Ukraine: Volodymyr Zelensky asks the United States not to stand with \"the aggressor\"",
+     "url": "https://www.lemonde.fr/international/live/2026/10/15/en-direct-guerre-en-ukraine-volodymyr-zelensky-demande-aux-etats-unis-de-ne-pas-se-tenir-au-cote-de-l-agresseur_6791198_3210.html",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky demande aux Etats-Unis de ne pas se tenir au côté de « l’agresseur »"
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump",
+     "url": "https://www.nytimes.com/2026/10/15/world/europe/ukraine-russia-oil-strikes-zelensky-us-intelligence.html",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Russia says Ukraine resumes attacks on oil refineries",
+     "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+     "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+     "official": false
+    },
+    {
+     "outlet": "Semafor",
+     "title": "Ukraine to restart strikes on Russian refineries",
+     "url": "https://www.semafor.com/article/10/15/2026/ukraine-to-restart-strikes-on-russian-refineries",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "d91ead6950e7",
+     "title": "Anthropic's Scion Inspired by Mononoke",
+     "summary": "Discussions online highlighted that Anthropic's Scion project draws heavy design and conceptual inspiration from Studio Ghibli's Princess Mononoke.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-14T20:30:54Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "HN: Claude/Anthropic",
+       "title": "Anthropic's Scion is heavily inspired by Mononoke",
+       "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "617580dac72d",
+     "title": "NVIDIA Expands Advanced Computing Access for European Science",
+     "summary": "NVIDIA announced a major expansion of advanced technology access across Europe through new open learning resources, collaborations, and accelerated compute capacity.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-15T10:00:12Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+       "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+       "official": true
+      },
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+       "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "a0e0fec2c2b5",
+     "title": "OpenAI Unveils Enterprise Agent Capabilities With New Models",
+     "summary": "OpenAI showcased how its newest model integrations, including GPT-6 Astra and Sign in with ChatGPT, push the boundaries of what autonomous AI agents can accomplish.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-14T12:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "Amp puts AI agents to work beyond code with OpenAI models",
+       "url": "https://openai.com/index/amp-beyond-coding",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "672ebf75c430",
+     "title": "Hugging Face Releases HiRO-ACEv2 for Extreme Weather Simulation",
+     "summary": "Hugging Face introduced HiRO-ACEv2, an open model designed to simulate extreme weather events at a 3-kilometer resolution at a fraction of traditional computational costs.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-14T16:12:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hugging Face Blog",
+       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+       "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "24cc989c02db",
+     "title": "SentinelOne Cuts Malware Analysis Time With OpenAI Integration",
+     "summary": "SentinelOne announced that leveraging OpenAI Daybreak has slashed malware analysis times from weeks to hours, allowing security teams to investigate exponentially more threats.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-14T12:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "SentinelOne cuts malware analysis from weeks to hours",
+       "url": "https://openai.com/index/sentinelone",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "c401765ed2d2",
+     "title": "OpenAI Reportedly Racing to Finalize New Flagship Model",
+     "summary": "Reports indicate OpenAI is working to finalize its next flagship model utilizing looped transformer techniques, though alignment and safety monitoring remain a challenge due to the complex architecture.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-14T16:14:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work",
+       "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bb8da7cf13f6",
+     "title": "Scientists Successfully Rewarm Cryogenically Frozen Pig Kidneys",
+     "summary": "Researchers successfully rewarmed pig kidneys that had been cooled to -150°C and stored for a year, demonstrating cellular function post-thaw and offering hope for future human organ preservation.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-15T08:43:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MIT Technology Review",
+       "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
+       "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "bbb34e142e6e",
+     "title": "OpenAI Engineer Arrested by FBI on Foreign Spy Charges",
+     "summary": "Federal authorities arrested an OpenAI engineer after discovering a recording device hidden inside a toilet paper roll in a top-secret meeting room, with filings indicating a planned flight to Saudi Arabia.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T10:05:15Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+       "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
+       "url": "https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Filing: Abdulrahman Alfozan, his wife, and a family member booked one-way tickets from the US to Saudi Arabia for October 12; the FBI arrested him on October 9 (Rachel Metz/Bloomberg)",
+       "url": "https://www.techmeme.com/261015/p12#a261015p12",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Abdulrahman Alfozan, who worked at Meta and gained US residency in 2020, advised Saudi organizations and is listed as a venture partner at Riyadh-based RAED (Emmy Martin/New York Times)",
+       "url": "https://www.techmeme.com/261015/p13#a261015p13",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "76d8c337fa91",
+     "title": "Zero-Click 'AdFection' Spyware Campaign Infects Dozens of Devices",
+     "summary": "Researchers at Citizen Lab revealed a zero-click spyware campaign operated by an Israeli ad company that covertly routed targets to malicious servers to infect mobile devices.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T10:45:08Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "‘Nightmare Scenario’: Zero-Click Spyware Is Infecting Phones via Targeted Ads",
+       "url": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Citizen Lab details AdFection, a zero-click spyware campaign where an Israeli ad company routed targets to spyware servers and infected dozens of devices (Wired)",
+       "url": "https://www.techmeme.com/261015/p17#a261015p17",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9eb295a80fa6",
+     "title": "Critical Vulnerabilities in Fridge Controllers Spark European Supermarket Fires",
+     "summary": "A mass cyberattack exploiting severe security flaws in three internet-connected refrigerator models impacted roughly 700 European supermarkets, causing millions in damages and sparking fires.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T10:35:13Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
+       "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "A hack of Internet-connected fridge controllers across ~700 European supermarkets exploited critical vulnerabilities in three models flagged by Claroty and CISA (Dan Goodin/Ars Technica)",
+       "url": "https://www.techmeme.com/261015/p16#a261015p16",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b4c333a1fc01",
+     "title": "Figma Introduces Markdown Specs and Agent-Ready Platform Features",
+     "summary": "Figma announced new platform capabilities, including Figma Specs and Markdown editing tools designed to help developers clearly define design languages for autonomous AI agents.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T06:20:01Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Figma announces new features to define how agents work on its platform",
+       "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Figma announces new features to define how AI agents work on its platform, including Figma Specs, a Markdown editor that lets users define their design language (Ivan Mehta/TechCrunch)",
+       "url": "https://www.techmeme.com/261015/p8#a261015p8",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1e083927c42f",
+     "title": "YouTube Music Adds Mandatory Labels for AI-Generated Songs",
+     "summary": "YouTube Music began rolling out clear on-screen labels for tracks containing fully or partially AI-generated content, appearing directly on the player page.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T18:23:46Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "YouTube Music adds new labels for AI-generated content",
+       "url": "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "YouTube sticks new labels on AI-generated songs",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+       "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b83ae5ebfeb1",
+     "title": "Apple Confirms Original HomePod Mini Will Not Support Siri AI",
+     "summary": "Apple clarified that while the HomePod mini 2 and select Apple TV 4K models will receive Siri AI updates, the first-generation HomePod mini lacks the necessary hardware support.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T17:52:20Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "No, HomePod Mini 1 Won't Support Siri AI as CNET Reported",
+       "url": "https://www.macrumors.com/2026/10/14/homepod-mini-1-to-support-siri-ai-says-cnet/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple confirms Siri AI is not coming to the original HomePod mini",
+       "url": "https://9to5mac.com/2026/10/14/no-siri-ai-is-not-coming-to-the-original-homepod-mini/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "No, Siri AI is not coming to the first-generation HomePod mini",
+       "url": "https://appleinsider.com/articles/26/10/14/no-siri-ai-is-not-coming-to-the-first-generation-homepod-mini?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "902bfb084056",
+     "title": "Apple Intelligence Reportedly Scheduled for China Launch in December",
+     "summary": "Reports indicate Apple plans to roll out initial Apple Intelligence features in China this December via the iOS 27.3 update following two years of regulatory delays, though Siri AI will initially be excluded.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T20:24:50Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple Intelligence reportedly coming to China in December, but without Siri AI",
+       "url": "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple Intelligence finally gets a release window for its debut in China",
+       "url": "https://appleinsider.com/articles/26/10/14/apple-intelligence-finally-gets-a-release-window-for-its-debut-in-china?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Intelligence Coming to China in December With iOS 27.3",
+       "url": "https://www.macrumors.com/2026/10/14/apple-intelligence-china-ios-27-3/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a9dc9ac9980d",
+     "title": "Apple Maps Detailed City Experience Launches in Austin",
+     "summary": "Apple expanded its overhaul of Apple Maps, introducing the Detailed City Experience to Austin, Texas, just ahead of the local F1 Grand Prix.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-14T23:03:45Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple Maps Detailed City Experience comes to Austin, Texas ahead of F1 Grand Prix",
+       "url": "https://appleinsider.com/articles/26/10/14/apple-maps-detailed-city-experience-comes-to-austin-texas-ahead-of-f1-grand-prix?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple Maps launches Detailed City Experience in Austin, Texas",
+       "url": "https://9to5mac.com/2026/10/14/apple-maps-launches-detailed-city-experience-in-austin-texas/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0ab6565afb13",
+     "title": "Signed Apple I Computer Fetches Record $1.15 Million at Auction",
+     "summary": "A rare Apple I 'Hatfield' computer personally signed by Steve Wozniak was sold at auction to an anonymous buyer for a record-breaking $1,148,200.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T10:34:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Apple I 'Hatfield' computer signed by Woz fetches a record $1.15 million at auction",
+       "url": "https://www.engadget.com/2287345/apple-i-hatfield-sells-for-1-15-million-at-auction/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "740902c7624c",
+     "title": "Big Walk Developer Skips Xbox Version to Protest Microsoft's Ties to Israel",
+     "summary": "House House, developers of the co-op puzzle game Big Walk, announced the game will not come to Xbox as an expression of support for the BDS movement's Microsoft boycott.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T10:27:34Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Big Walk Not Coming to XBOX Due to Microsoft Boycott",
+       "url": "https://insider-gaming.com/big-walk-xbox-boycott/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Big Walk Developer Explains Why the Game Isn't on Xbox",
+       "url": "https://www.ign.com/articles/big-walk-developer-explains-why-the-game-isnt-on-xbox",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Big Walk developer explains the lack of Xbox version is due to Microsoft's place on the BDS boycott",
+       "url": "https://www.eurogamer.net/big-walk-xbox-version-bds-boycott",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Big Walk skipped Xbox to boycott Microsoft’s involvement with Israel",
+       "url": "https://www.theverge.com/games/1011785/big-walk-house-house-microsoft-xbox-bds-boycott",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Big Walk devs House House announce support for BDS Microsoft boycott, say the co-op puzzler isn't coming to Xbox",
+       "url": "https://www.rockpapershotgun.com/big-walk-devs-house-house-announce-support-for-bds-microsoft-boycott-say-the-co-op-puzzler-isnt-coming-to-xbox",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6187fd7fcb1e",
+     "title": "Monster Hunter Wilds Getting Free Switch 2 Prologue Demo Next Week",
+     "summary": "Capcom announced that a generous prologue demo for Monster Hunter Wilds will launch on the Switch 2 next week, allowing players to carry their progress over to the main game.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T09:36:23Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "Monster Hunter Wilds Free Prologue Demo Brings The Hunt To Switch 2 Next Week",
+       "url": "https://www.nintendolife.com/news/2026/10/monster-hunter-wilds-free-prologue-demo-brings-the-hunt-to-switch-2-next-week",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Monster Hunter Wilds Prologue Demo for Switch 2 launches October 19",
+       "url": "https://www.gematsu.com/2026/10/monster-hunter-wilds-prologue-demo-for-switch-2-launches-october-19",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Monster Hunter Wilds' fairly generous Prologue Demo comes to Switch 2 next week",
+       "url": "https://www.eurogamer.net/monster-hunter-wilds-switch-2-prologue-demo",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "The Switch 2 version of Monster Hunter Wilds gets a Prologue Demo next week",
+       "url": "https://www.videogameschronicle.com/news/the-switch-2-version-of-monster-hunter-wilds-gets-a-prologue-demo-next-week/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "25ac49369e77",
+     "title": "007 First Light Locked In for March 2027 Switch 2 Release",
+     "summary": "IO Interactive confirmed that 007 First Light will launch on the Nintendo Switch 2 on March 18, 2027, following a delay to allow additional optimization and performance time.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T09:17:26Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "007 First Light for Switch 2 launches March 18, 2027",
+       "url": "https://www.gematsu.com/2026/10/007-first-light-for-switch-2-launches-march-18-2027",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "007 First Light Switch 2 Release Date Set for March 18",
+       "url": "https://insider-gaming.com/007-first-light-switch-2-release-date/",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "\"You're Late, 007\" - First Light Has Finally Locked In A Switch 2 Release Date",
+       "url": "https://www.nintendolife.com/news/2026/10/youre-late-007-first-light-has-finally-locked-in-a-switch-2-release-date",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "007 First Light gets Switch 2 release date, with IO Interactive saying time for \"optimisation and performance\" was needed",
+       "url": "https://www.eurogamer.net/007-first-light-switch-2-release-date-james-bond-game",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a5a66a4e76f7",
+     "title": "Epic Games Launches Beta of Faster Vibe-Coded PC Launcher",
+     "summary": "Epic Games released a beta version of its redesigned PC launcher, boasting speeds up to 46% faster than Steam from a cold start to the store page.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T09:35:29Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Epic throws shade at Steam, admits to vibe-coding the new Epic Games Launcher with AI \"to be faster than the other guy\"",
+       "url": "https://www.eurogamer.net/epic-throws-shade-steam-vibe-coding-games-launcher-ai",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+       "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Epic Dunks On Steam With Vibe-Coded Storefront And Gets Roasted: ‘This Launcher Is So F*cking Vibeslopped Its Funny’",
+       "url": "https://kotaku.com/epic-dunks-on-steam-with-vibe-coded-storefront-and-gets-roasted-this-launcher-is-so-fucking-vibeslopped-its-funny-2000746031",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Epic Games claims its new \"vibe coded\" launcher runs 46% faster than Steam from cold start to store page",
+       "url": "https://www.gamesindustry.biz/epic-games-claims-its-new-vibe-coded-launcher-runs-46-faster-than-steam-from-cold-start-to-store-page",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8e1d381bfbaa",
+     "title": "Fire Emblem: Fortune's Weave Expansion Pass Announced With Wave 1 Out Now",
+     "summary": "Nintendo surprised fans by announcing a three-wave paid Expansion Pass for the Switch 2 tactical RPG Fire Emblem: Fortune's Weave, with the first wave launching immediately.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-15T01:05:00Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "GoNintendo",
+       "title": "Fire Emblem: Fortune's Weave Expansion Pass announced, Wave 1 of 3 launching today",
+       "url": "https://gonintendo.com/contents/66096-fire-emblem-fortune-s-weave-expansion-pass-announced-wave-1-of-3-launching-today",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Fire Emblem: Fortune’s Weave Expansion Pass announced www.youtube.com/watch?v=9tDR... Wave 1: today (additional weapons) Wave 2: Holiday 2026 (additional outfits, allies) Wave 3: 2027 (new stories -…",
+       "url": "https://www.youtube.com/watch?v=9tDRjYdGrGs",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Fire Emblem: Fortune’s Weave Expansion Pass announced",
+       "url": "https://www.gematsu.com/2026/10/fire-emblem-fortunes-weave-expansion-pass-announced",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Fire Emblem: Fortune's Weave Expansion Pass Announced, Wave 1 Launches Today",
+       "url": "https://www.nintendolife.com/news/2026/10/fire-emblem-fortunes-weave-expansion-pass-announced-wave-1-launches-today",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b30c4c88615c",
+     "title": "Xbox Unveils Portable Nano Controller for Smaller Hands",
+     "summary": "Microsoft announced the official Xbox Nano Controller, a pocket-sized, $50 peripheral designed for younger players, travel, and smaller hands, available this November.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-15T08:47:47Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Meet the XBOX Nano Controller",
+       "url": "https://news.xbox.com/en-us/2026/10/14/xbox-nano-controller/",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Xbox Nano Controller announced",
+       "url": "https://www.gematsu.com/2026/10/xbox-nano-controller-announced",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Xbox Unveils New Nano Controller Perfect For 'Smaller Hands'",
+       "url": "https://www.purexbox.com/news/2026/10/xbox-unveils-new-nano-controller-perfect-for-smaller-hands",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Xbox reveals the Nano Controller, a smaller and cheaper alternative with a rechargeable battery",
+       "url": "https://www.videogameschronicle.com/news/xbox-reveals-the-nano-controller-a-smaller-and-cheaper-alternative-with-a-rechargeable-battery/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8891794ca7e4",
+     "title": "Ubisoft Proposes Voluntary Departures Affecting Roughly 100 Jobs Across German Studios",
+     "summary": "Ubisoft has initiated talks for voluntary buyouts affecting around 100 employees across its studios in Düsseldorf, Berlin, and Mainz.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T09:51:03Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Game File (Stephen Totilo)",
+       "title": "Ubisoft plans cuts at German studios, adding to wave of workforce reductions",
+       "url": "https://www.gamefile.news/p/ubisoft-germany-cuts-xbox-labs-epic-ai",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Ubisoft Plans About 100 Cuts Across German Studios",
+       "url": "https://insider-gaming.com/ubisoft-germany-100-job-cuts-report/",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Ubisoft reportedly look to cut 100 more jobs by proposing voluntary redundancies at studios including lead Anno devs Ubisoft Mainz",
+       "url": "https://www.rockpapershotgun.com/ubisoft-reportedly-look-to-cut-100-more-jobs-by-proposing-voluntary-redundancies-at-studios-including-lead-anno-devs-ubisoft-mainz",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "08409708cf49",
+     "title": "Riot Games to End Support for League of Legends Classic in January",
+     "summary": "Just three months after its launch, Riot Games announced it will shut down the League of Legends Classic spin-off in January due to players migrating back to other versions of the game.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-15T10:43:19Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "3 months after launch, Riot announces League of Legends Classic will be killed in January: 'most have gone back to other parts of League'",
+       "url": "https://www.pcgamer.com/games/moba/3-months-after-launch-riot-announces-league-of-legends-classic-will-be-killed-in-january-most-have-gone-back-to-other-parts-of-league/",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Riot calls time on League of Legends Classic after almost 3 months",
+       "url": "https://store.steampowered.com/news/group/38509069/view/692023294602248945",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b6b8162a5b1d",
+     "title": "Legendary FPS Level Designer Richard 'Levelord' Gray Passes Away at 68",
+     "summary": "Industry veteran Richard Gray, celebrated for his iconic level design work on Duke Nukem 3D and other classic first-person shooters, has died at age 68.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-14T19:45:48Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Legendary FPS level designer Richard \"Levelord\" Gray dies at 68",
+       "url": "https://arstechnica.com/gaming/2026/10/legendary-fps-level-designer-richard-levelord-gray-passes-away-at-68/",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Duke Nukem 3D level designer Richard \"Levelord\" Gray dies aged 68",
+       "url": "https://www.gamesindustry.biz/duke-nukem-3d-level-designer-richard-levelord-gray-dies-aged-68",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "2582b93bd1de",
+     "title": "White House Scrutinized Over New Press Secretary's Legal Credentials",
+     "summary": "The White House faced mounting questions regarding newly appointed press secretary Katie Zacharia after she gave evasive answers on her legal background and bar exam history during her first day.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-15T09:55:39Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "CBC News: World",
+       "title": "Katie Zacharia fails to impress in brief debut as White House press secretary",
+       "url": "https://www.cbc.ca/news/world/white-house-press-secretary-zacharia-debut-9.7380732?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "New White House press secretary Katie Zacharia faces mounting questions about resume",
+       "url": "https://www.cbc.ca/news/world/katie-zacharia-resume-questions-9.7381095?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "White House Press Secretary Katie Zacharia Didn’t Pass Bar Exam",
+       "url": "https://www.wsj.com/business/media/white-house-press-secretary-katie-zacharia-didnt-pass-bar-exam-714a484e?mod=rss_usnews",
+       "official": false
+      },
+      {
+       "outlet": "The Free Press",
+       "title": "How Long Will Katie Zacharia Last as Press Secretary? We Asked Anthony Scaramucci.",
+       "url": "https://www.thefp.com/p/katie-zacharia-anthony-scaramucci-trump-press",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "New White House press secretary Katie Zacharia's legal career draws scrutiny",
+       "url": "https://www.thehindu.com/news/international/new-white-house-press-secretary-katie-zacharias-legal-career-draws-scrutiny/article71586662.ece",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: Politics",
+       "title": "Katie Zacharia Is Trump’s New Press Secretary. But Is She a Lawyer?",
+       "url": "https://www.nytimes.com/2026/10/14/us/politics/trump-press-secretary-katie-zacharia-lawyer.html",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "White House defends new press secretary amid questions about her legal credentials",
+       "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Trump's new press secretary scrutinised over credentials",
+       "url": "https://www.rte.ie/news/2026/1015/1595479-katie-zacharia-donald-trump/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7b50b6d2240f",
+     "title": "Prince Harry and Meghan Make First Joint Public Appearance Since UK Return",
+     "summary": "The Duke and Duchess of Sussex stepped out together publicly for the first time since relocating back to the UK earlier this summer.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-15T10:56:41Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "NBC News",
+       "title": "Harry and Meghan make first joint appearance since returning to U.K.",
+       "url": "https://www.nbcnews.com/world/united-kingdom/harry-meghan-make-first-joint-appearance-returning-uk-rcna603646",
+       "official": false
+      },
+      {
+       "outlet": "El País (Spain)",
+       "title": "Prince Harry and Meghan Markle make their first joint public appearance in the UK in six years",
+       "url": "https://elpais.com/gente/2026-10-15/enrique-de-inglaterra-y-meghan-markle-protagonizan-juntos-su-primer-acto-publico-en-seis-anos-en-el-reino-unido.html",
+       "official": false,
+       "translated_from": "es",
+       "original_title": "Enrique de Inglaterra y Meghan Markle protagonizan juntos su primer acto público en seis años en el Reino Unido"
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Harry and Meghan make first appearance since return",
+       "url": "https://orf.at/stories/3445161/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Harry und Meghan zeigen sich erstmals seit Rückkehr"
+      },
+      {
+       "outlet": "BBC News: UK",
+       "title": "Meghan makes first official public appearance since moving back to UK",
+       "url": "https://www.bbc.co.uk/news/articles/c6gelgd1lxv2o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Prince Harry and wife Meghan make first joint appearance since UK return",
+       "url": "https://www.straitstimes.com/world/europe/prince-harry-and-wife-meghan-make-first-joint-appearance-since-uk-return",
+       "official": false
+      },
+      {
+       "outlet": "New York Post",
+       "title": "Meghan Markle makes first official joint appearance with Prince Harry since UK move: ‘It’s great to be back’",
+       "url": "https://pagesix.com/2026/10/15/royal-family/meghan-markle-prince-harry-make-first-official-joint-outing-since-move-great-to-be-back/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "58bc458866a1",
+     "title": "New Yalu River Bridge Opens After 12-Year Delay to Boost China-North Korea Trade",
+     "summary": "The long-awaited New Yalu River Bridge connecting China and North Korea officially opened to traffic, signaling efforts by Beijing to strengthen economic ties amid tight bilateral relations.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-15T11:00:42Z",
+     "outlet_count": 8,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "New bridge between China and North Korea opens",
+       "url": "https://www.japantimes.co.jp/news/2026/10/15/asia-pacific/china-north-korea-bridge-open/",
+       "official": false
+      },
+      {
+       "outlet": "NK News (North Korea)",
+       "title": "North Korea, China officially open long-delayed New Yalu River Bridge",
+       "url": "https://www.nknews.org/2026/10/north-korea-china-officially-open-long-delayed-new-yalu-river-bridge/",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "North Korea, China open border bridge after 12-year delay",
+       "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "North Korea and China Open Their Biggest Border Bridge",
+       "url": "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
+       "official": false
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "China keen to strengthen North Korea trade ties with New Yalu River Bridge opening",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Long-delayed China-North Korea bridge officially opens",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Yalu River Bridge connecting China and North Korea opens 12 years after completion amid tighter relations",
+       "url": "https://mainichi.jp/articles/20261015/k00/00m/030/271000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "中朝結ぶ「鴨緑江大橋」が開通 完成から12年、関係緊密化へ"
+      },
+      {
+       "outlet": "Nikkei Asia",
+       "title": "China-North Korea traffic to increase with new bridge opening",
+       "url": "https://asia.nikkei.com/politics/international-relations/china-north-korea-traffic-to-increase-with-new-bridge-opening",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bfc9c60a70ea",
+     "title": "Pakistan School Roof Collapse Claims at Least 28 Lives, Mostly Children",
+     "summary": "At least 28 people, predominantly children, were killed when a school roof collapsed in Peshawar, Pakistan, with rescue operations continuing as casualties are expected to rise.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-15T10:53:23Z",
+     "outlet_count": 13,
+     "sources": [
+      {
+       "outlet": "Sky News: World",
+       "title": "School owner arrested after dozens of children killed in roof collapse",
+       "url": "https://news.sky.com/story/at-least-17-children-killed-in-pakistan-school-collapse-13599466",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "17 children, teacher killed, over 40 injured as school roof collapses in Pakistan’s Peshawar",
+       "url": "https://www.thehindu.com/news/international/students-teacher-killed-in-school-roof-collapse-in-pakistan-peshwar/article71586942.ece",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "At Least 20 Children Dead After School Roof Collapses in Pakistan",
+       "url": "https://www.nytimes.com/2026/10/15/world/asia/pakistan-school-collapse.html",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Pakistan school roof collapse kills 28; more deaths feared",
+       "url": "https://www.channelnewsasia.com/asia/pakistan-school-roof-collapse-dozens-students-dead-6461551",
+       "official": false
+      },
+      {
+       "outlet": "NPR News",
+       "title": "School roof collapse kills at least 29, injures more than 3 dozen in Pakistan",
+       "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "School roof collapses in northwestern Pakistan, killing at least 29 people",
+       "url": "https://www.aljazeera.com/news/2026/10/15/school-roof-collapses-in-northwestern-pakistan-killing-at-least-29-people?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "School roof collapses in Pakistan, killing at least 28 children and teacher",
+       "url": "https://www.cbc.ca/news/world/school-pakistan-roof-collapse-fatalities-9.7381454?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Many dead in school roof collapse in Pakistan",
+       "url": "https://www.tagesschau.de/ausland/asien/pakistan-schuldach-einsturz-tote-100.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Viele Tote bei Einsturz von Schuldach in Pakistan"
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Pakistan school collapse kills almost 30 students and a teacher",
+       "url": "https://www.cbsnews.com/news/pakistan-school-collapse-peshawar-student-teacher-deaths/",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "28 deaths in Pakistan school roof collapse as rescuers search for trapped children",
+       "url": "https://www.yahoo.com/news/articles/seventeen-students-one-teacher-killed-061214216.html",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "School roof collapse in Pakistan's Peshawar kills dozens of students and one teacher",
+       "url": "https://www.dw.com/en/school-roof-collapse-in-pakistan-s-peshawar-kills-dozens-of-students-and-one-teacher/a-79666091?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Dozens of children killed after roof collapses in Pakistani school",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-pak-school-collapse-sv?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "SRF News (Switzerland)",
+       "title": "Pakistan: School roof collapse claims numerous lives",
+       "url": "https://www.srf.ch/news/international/pakistan-einsturz-von-schuldach-fordert-zahlreiche-menschenleben",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Pakistan – Einsturz von Schuldach fordert zahlreiche Menschenleben"
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "Pakistan school roof collapse kills at least 28, children remain trapped",
+       "url": "https://san.com/cc/pakistan-school-roof-collapse-kills-at-least-28-children-remain-trapped/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "420703f24235",
+     "title": "Saudi Coalition Intercepts Missile Over Medina Region",
+     "summary": "A missile launched toward the Medina region was successfully intercepted by the Saudi-led coalition, while Houthi representatives denied targeting the area.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-15T10:53:16Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "franceinfo (France)",
+       "title": "Saudi-led coalition says it intercepted a missile in the Medina region",
+       "url": "https://www.franceinfo.fr/monde/proche-orient/tensions-entre-l-arabie-saoudite-et-l-iran/la-coalition-menee-par-l-arabie-saoudite-dit-avoir-intercepte-un-missile-dans-la-region-de-medine_8238514.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "La coalition menée par l'Arabie saoudite dit avoir intercepté un missile dans la région de Médine"
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Saudi coalition says missile intercepted in Medina region",
+       "url": "https://www.channelnewsasia.com/world/saudi-arabia-medina-missile-intercepted-houthi-6462156",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "755be2e5136f",
+     "title": "UK Threatens Entry Bans Over Eritrean Migrant Returns",
+     "summary": "The UK Home Secretary warned that sanctions and travel bans could be imposed on Eritrea and other nations refusing to cooperate with migrant deportation and return agreements.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-15T09:17:57Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Guardian: World",
+       "title": "UK threatens to ban Eritreans over returns policy",
+       "url": "https://www.theguardian.com/uk-news/2026/oct/15/uk-threatens-to-ban-eritreans-over-returns-policy",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: Africa",
+       "title": "UK threatens to ban Eritreans over migrant return policy",
+       "url": "https://www.bbc.co.uk/news/articles/c30rl1q1j200o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "3642320c1011",
+     "title": "Former DUP Leader Jeffrey Donaldson Sentenced to 15 Years for Child Sexual Abuse",
+     "summary": "Northern Ireland politician Jeffrey Donaldson was sentenced to 15 years in prison after being convicted on 18 counts of historical sexual abuse against two victims when they were children.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-15T10:50:34Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Former DUP leader Jeffrey Donaldson sentenced to 15 years for multiple child sex offences",
+       "url": "https://www.thejournal.ie/jeffrey-donaldson-sentenced-court-7193988-Oct2026/",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: UK",
+       "title": "Former DUP leader Jeffrey Donaldson sentenced to 15 years for child sexual offences",
+       "url": "https://www.theguardian.com/uk-news/2026/oct/15/jeffrey-donaldson-sentenced-to-15-years-for-child-sexual-offences",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: World",
+       "title": "Former DUP leader Jeffrey Donaldson sentenced to 15 years for child sexual abuse",
+       "url": "https://www.theguardian.com/uk-news/live/2026/oct/15/former-dup-leader-jeffrey-donaldson-sentenced-child-sexual-abuse-latest-updates",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Northern Ireland’s Donaldson jailed for 15 years for child sex offences",
+       "url": "https://www.straitstimes.com/world/europe/northern-irelands-donaldson-jailed-for-15-years-for-child-sex-offences",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg: Politics",
+       "title": "Ex-DUP Leader Donaldson Gets 15 Years Jail for Rape, Child Abuse",
+       "url": "https://www.bloomberg.com/news/articles/2026-10-15/ex-dup-leader-donaldson-gets-15-years-jail-for-rape-child-abuse",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "975d8b5fe161",
+     "title": "EU and Gulf States Postpone Scheduled Summit Following Regional Attacks",
+     "summary": "The European Union and Gulf states mutually agreed to postpone their upcoming summit in Saudi Arabia in the wake of recent security incidents and missile interceptions in the region.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-15T10:49:19Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "EU and Gulf states postpone summit due in Saudi Arabia",
+       "url": "https://www.straitstimes.com/world/middle-east/eu-and-gulf-states-postpone-summit-due-in-saudi-arabia",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Attacks on Saudi Arabia: EU cancels summit with Gulf states",
+       "url": "https://orf.at/stories/3445163/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Angriffe auf Saudi-Arabien: EU sagt Gipfel mit Golfstaaten ab"
+      }
+     ]
+    },
+    {
+     "id": "3dad6ea51784",
+     "title": "French Court Sentences Ultra-Right Figure Rémy Daillet to Six Years in Prison",
+     "summary": "Rémy Daillet, identified as the instigator of an ultra-right extremist group and orchestrator of a high-profile child abduction case, was handed a six-year prison sentence.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-15T10:38:51Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "franceinfo (France)",
+       "title": "Rémy Daillet, suspected leader of an ultra-right group, sentenced to six years in prison, court orders his continued detention",
+       "url": "https://www.franceinfo.fr/faits-divers/justice-proces/remy-daillet-chef-presume-d-un-groupuscule-d-ultradroite-condamne-a-six-ans-de-prison-ferme-le-tribunal-ordonne-son-maintien-en-detention_8238574.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Rémy Daillet, chef présumé d'un groupuscule d'ultradroite, condamné à six ans de prison ferme, le tribunal ordonne son maintien en détention"
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "Rémy Daillet, instigator of an ultra-right groupuscule, sentenced to six years in prison",
+       "url": "https://www.lemonde.fr/societe/article/2026/10/15/remy-daillet-instigateur-d-un-groupuscule-d-ultradroite-condamne-a-six-ans-de-prison_6794434_3224.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Rémy Daillet, instigateur d’un groupuscule d’ultradroite, condamné à six ans de prison"
+      }
+     ]
+    },
+    {
+     "id": "28220f480758",
+     "title": "Musk Suggests US Government Restricts Starlink Speeds in Ukraine",
+     "summary": "Elon Musk claimed during European meetings that restrictions and speed throttling affecting Starlink terminals in Ukraine may have originated from the US government rather than SpaceX.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-15T10:55:15Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "BBC News: World",
+       "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+       "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: World",
+       "title": "Elon Musk suggests US government was behind Starlink restrictions in Ukraine",
+       "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "9bfb0e004f66",
+     "title": "Japan Denies Spying Allegations After Russia Arrests Journalist",
+     "summary": "Prime Minister Sanae Takaichi rejected espionage accusations leveled by Moscow against a detained Hokkaido Shimbun reporter, calling the specific charges unclear.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-15T09:15:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Japan denies spying after Russia arrests journalist",
+       "url": "https://www.channelnewsasia.com/east-asia/japan-denies-spying-russia-journalist-arrest-6459186",
+       "official": false
+      },
+      {
+       "outlet": "The Japan Times",
+       "title": "Japan denies spying after Russia arrests journalist",
+       "url": "https://www.japantimes.co.jp/news/2026/10/15/japan/japan-denies-spying-in-russia/",
+       "official": false
+      },
+      {
+       "outlet": "Japan Forward",
+       "title": "Will Russia Use the Detained Japanese Journalist as a Bargaining Chip?",
+       "url": "https://japan-forward.com/russia-arrest-journalist-political-leverage-negotiations/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d5b02e284bf0",
+     "title": "Takaichi Cabinet Approval Rate Falls to Record Low Amid Minister Scandal",
+     "summary": "A recent Jiji poll revealed that the approval rating for Prime Minister Sanae Takaichi's Cabinet dropped to a new low of 42.4%, driven by public discontent over retaining scandal-hit Agriculture Minister Kazuo Yana.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-15T10:54:25Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Takaichi Cabinet’s approval rate drops to new low of 42.4%, Jiji poll shows",
+       "url": "https://www.japantimes.co.jp/news/2026/10/15/japan/politics/japan-pm-takaichi-public-support-rate-new-low/",
+       "official": false
+      },
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Calls for former Agriculture Minister Yana to resign from parliament and hold local press conference in Tochigi",
+       "url": "https://mainichi.jp/articles/20261015/k00/00m/310/313000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "「地元で記者会見を」 簗前農相に議員辞職求める声も 栃木"
+      },
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Prime Minister Takaichi seeks to rebuild administration with agriculture minister reshuffle while opposition questions appointment responsibility",
+       "url": "https://mainichi.jp/articles/20261015/k00/00m/010/320000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "農相交代で政権立て直し図る高市首相 野党は任命責任を追及"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "31021b989ed2",
+     "title": "South Korea Expresses Concerns Over USFK Chief's OPCON Remarks",
+     "summary": "Defense Minister Kang Shin-chul announced that Seoul formally conveyed its concerns to Washington regarding recent statements made by the US Forces Korea commander concerning wartime operational control.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-15T09:47:06Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Defense minister says Seoul ready for OPCON transfer despite USFK concerns",
+       "url": "https://www.koreaherald.com/article/10903907",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Defense minister says S. Korea conveys concerns over USFK chief's OPCON remarks",
+       "url": "https://en.yna.co.kr/view/AEN20261015010900315",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "dce8b9e306de",
+     "title": "President Lee Urges US Businesses to Expand Investments in South Korea",
+     "summary": "South Korean President Lee Jae Myung called on US corporate leaders during a business summit to increase investment and explore economic partnerships within South Korea.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-15T10:48:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "S. Korean, U.S. biz leaders call for support to accelerate Korean investment projects in U.S.",
+       "url": "https://en.yna.co.kr/view/AEN20261015010800320",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Lee calls for U.S. firms to explore investment, biz opportunities in S. Korea",
+       "url": "https://en.yna.co.kr/view/AEN20261015003351315",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d2938346bd40",
+     "title": "Special Counsel Finds Regional NEC Offices Falsified Voter Numbers",
+     "summary": "An investigation by a special counsel team revealed that approximately 30 regional National Election Commission offices falsified voter turnout figures during the June 3 local elections.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-15T09:09:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "Special Counsel: 30 Regional NEC Offices Falsified Voter Numbers on June 3",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204896",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "87b5f838d4e6",
+     "title": "South Korean Army Outlines 2040 Vision for Robotic Battlefield Operations",
+     "summary": "The South Korean Army detailed a strategic roadmap for 2040 envisioning autonomous drones and robots leading reconnaissance and dangerous combat tasks before soldiers engage.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-15T09:04:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Robots first, soldiers follow: A glimpse of battlefield tactics in 2040",
+       "url": "https://www.koreaherald.com/article/10904194",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": []
+  }
+ ],
+ "date": "2026-10-15",
+ "generated_at": "2026-10-15T11:00:42Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1175,
+  "clusters": 1016,
+  "feeds_ok": 173,
+  "feeds_failed": 3
+ },
+ "feed_health": [
+  {
+   "key": "newsweek",
+   "title": "Newsweek",
+   "status": "error",
+   "detail": "HTTPError: 404 Client Error: Not Found for url: https://www.newsweek.com/rss"
+  },
+  {
+   "key": "wapo-politics",
+   "title": "The Washington Post: Politics",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
+  },
+  {
+   "key": "koreatimes",
+   "title": "The Korea Times",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.koreatimes.co.kr/www/rss/nation.xml"
+  }
+ ]
+}
