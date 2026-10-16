@@ -55,6 +55,9 @@ struct BriefView: View {
             }
             .listStyle(.plain)
             .onChange(of: topic) { proxy.scrollTo(Self.headerID, anchor: .top) }
+            // Forget a topic once it has no stories, so it can't narrow the feed again on its own
+            // when a later refresh brings one back.
+            .onChange(of: selected) { _, now in if now == nil { topic = nil } }
             .onChange(of: sort) { proxy.scrollTo(Self.headerID, anchor: .top) }
             .sensoryFeedback(.selection, trigger: topic)
         }
