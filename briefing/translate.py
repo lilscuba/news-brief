@@ -7,6 +7,11 @@ their original headline (`original_title`) so the app can show it.
 Failure is never fatal: with no key, a rate limit or a bad response the items stay untranslated,
 are left out of the feed (`is_readable`) rather than shown in the wrong language, and are retried
 on the next run.
+
+The ingest runs every 10 minutes, so headlines are collected into batches (`min_batch`) rather
+than sent one or two at a time; none waits longer than `max_wait_minutes`. Translation runs on
+its own model list (`[translate] models`, Flash-Lite first), leaving the main model's free-tier
+quota for summaries.
 """
 from __future__ import annotations
 
@@ -63,7 +68,8 @@ def _translate_batch(batch: list[Item], cfg: dict) -> dict[int, _Translated]:
     payload = [{"i": n, "lang": it.feed.lang, "title": it.title, "summary": it.summary[:SNIPPET_CHARS]}
                for n, it in enumerate(batch)]
     text, usage = gemini_json(SYSTEM_PROMPT, json.dumps(payload, ensure_ascii=False),
-                              gemini_schema(_Batch), cfg, timeout=90)
+                              gemini_schema(_Batch), cfg, timeout=90,
+                              models=cfg.get("translate", {}).get("models"))
     out = {t.i: t for t in _Batch.model_validate_json(text).items if t.title.strip()}
     log.info("translated %d/%d items (%s in, %s out tokens)", len(out), len(batch),
              usage.get("input_tokens"), usage.get("output_tokens"))
@@ -95,6 +101,11 @@ def translate_items(items: list[Item], cfg: dict, st: dict, now: datetime) -> in
 
     if pending and not env("GEMINI_API_KEY"):
         log.warning("%d headlines need translating but GEMINI_API_KEY is not set", len(pending))
+        return translated
+    # A short batch waits for the next run, unless its oldest headline (the last) has waited enough.
+    max_wait = timedelta(minutes=settings.get("max_wait_minutes", 20))
+    if pending and len(pending) < settings.get("min_batch", 10) and now - pending[-1].published < max_wait:
+        log.info("%d headline(s) wait for a fuller translation batch", len(pending))
         return translated
 
     size = settings.get("batch_size", 40)

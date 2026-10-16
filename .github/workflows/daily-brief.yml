@@ -2,13 +2,19 @@ name: Daily brief
 
 on:
   schedule:
-    # 11:00 UTC = 7:00 New York (EDT) / 6:00 (EST). GitHub may start scheduled runs a few
-    # minutes late. Change to suit your morning.
-    - cron: "0 11 * * *"
+    # Backstop only. The Worker cron (server/wrangler.toml, "0 11 * * *") dispatches this at
+    # 11:00 UTC = 7:00 New York (EDT) / 6:00 (EST); change it there to suit your morning. GitHub's
+    # own schedule starts hours late, so this one just catches a day the Worker missed. Both
+    # run with --skip-if-sent, so the brief still goes out once a day.
+    - cron: "41 12 * * *"
   workflow_dispatch:
     inputs:
       no_llm:
         description: "Skip AI summary (plain article list)"
+        type: boolean
+        default: false
+      force:
+        description: "Send even if today's brief already went out"
         type: boolean
         default: false
 
@@ -38,8 +44,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Scheduled runs have no inputs, so --skip-if-sent applies to them too.
       - name: Build brief
-        run: python -m briefing digest ${{ inputs.no_llm && '--no-llm' || '' }}
+        run: python -m briefing digest ${{ inputs.no_llm && '--no-llm' || '' }} ${{ !inputs.force && '--skip-if-sent' || '' }}
         env:
           SUMMARIZE: ${{ vars.SUMMARIZE }}
           AI_PROVIDER: ${{ vars.AI_PROVIDER }}
@@ -62,6 +69,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
 
+      # When the digest skipped, there's nothing to commit and Pages redeploys the same site.
       - name: Commit archive and state
         run: |
           git config user.name "personal-feed-bot"

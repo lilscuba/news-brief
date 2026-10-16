@@ -81,7 +81,7 @@ $url = $m.Value + "/"
 # Remembered for launch.ps1 (not secret; ignored by git).
 [IO.File]::WriteAllText("$PSScriptRoot\.deployed.json", (@{ url = $url } | ConvertTo-Json))
 
-Step "Connecting GitHub (the 15-minute ingest job)"
+Step "Connecting GitHub (the ingest job)"
 $repo = (gh repo view --json nameWithOwner --jq .nameWithOwner 2>$null)
 if ($repo) {
     gh variable set WORKER_URL --repo $repo --body $url; Check "gh variable set"
@@ -92,6 +92,28 @@ if ($repo) {
     Write-Host "Not in a GitHub repo yet. Add variable WORKER_URL=$url and secret INGEST_SECRET by hand." -ForegroundColor Yellow
     Write-Host "INGEST_SECRET: $secret"
 }
+
+Step "Faster updates (optional)"
+Write-Host "GitHub starts scheduled runs hours late. With a GitHub token, the Worker starts the ingest every"
+Write-Host "10 minutes instead. Make a fine-grained token for this repo only, with Actions: Read and write"
+Write-Host "(server\README.md, 'Keeping the feed fresh')."
+# -AsSecureString keeps the token off the screen.
+$tokenInput = Read-Host "Paste a GitHub token for 10-minute refresh (Enter to skip)" -AsSecureString
+$ghToken = ""
+if ($tokenInput -and $tokenInput.Length -gt 0) {
+    $ghToken = (New-Object System.Management.Automation.PSCredential "token", $tokenInput).GetNetworkCredential().Password.Trim()
+}
+# The backend is already live, so a problem here only warns.
+if (-not $ghToken) {
+    Write-Host "Skipped (a token saved earlier stays in place). GitHub's own schedule keeps the feed updating, just later."
+    Write-Host "Add one any time:  cd server; npx wrangler secret put GITHUB_DISPATCH_TOKEN"
+} else {
+    # The Worker trims the newline PowerShell adds when piping.
+    $ghToken | npx wrangler secret put GITHUB_DISPATCH_TOKEN
+    if ($LASTEXITCODE -eq 0) { Write-Host "Saved. The Worker starts the ingest every 10 minutes from now on." }
+    else { Write-Host "Couldn't save the token. Try again:  cd server; npx wrangler secret put GITHUB_DISPATCH_TOKEN" -ForegroundColor Yellow }
+}
+$ghToken = $null
 
 Write-Host ""
 Write-Host "== Backend is live ==" -ForegroundColor Green

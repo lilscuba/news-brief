@@ -19,6 +19,25 @@ mute = [
   "how to ", "review:", "sponsored", "giveaway", "wordle", "connections hint",
   "contexto", "best gaming", "gift guide",
 ]
+# Same, as regular expressions (case-insensitive, Python syntax) for filler that needs whole words
+# or a shape: "codes" alone would also hide a story about stolen 2FA codes. Keep them anchored.
+mute_patterns = [
+  # Daily puzzles: "NYT Strands Hints and Answers for Game #945", "Slate Mini Crossword for Oct. 4"
+  '\b(?:wordle|quordle|octordle|spangram|crosswords?)\b',
+  '\b(?:hints?|answers?|clues?)\b.{0,40}\b(?:game|puzzle) #\d+',
+  # Puzzle names are ordinary words ("pinpoint clues", "connections"), so they need a puzzle cue.
+  '\b(?:nyt |linkedin )?(?:connections|strands|contexto|pinpoint|spelling bee)\b.{0,30}\bhints?\b.{0,30}\b(?:answers?|today|#\d+)',
+  '\b(?:nyt|linkedin) (?:connections|strands|pinpoint|spelling bee)\b',
+  # Game-code and promo-code pages: "Roblox Music Codes", "Mech Arena Codes and Free Rewards"
+  '\b(?:promo|coupon|redeem|redemption) codes?\b',
+  '\bcodes?\b.{0,12}\b(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{4}\b',
+  '\bcodes? (?:&|and) (?:free )?rewards\b',
+  '^all .{1,40}\bcodes\b',
+  '\broblox\b.{0,40}\bcodes\b',
+  # Recurring features: "Today in Korean history", "Latest news bulletin | October 5th"
+  '^(?:today in .{0,30}history|top headlines in|latest news bulletin|daily cartoon)\b',
+  'sponsors-only newsletter',
+]
 
 [digest.section_limits]
 # Plain-list mode (no AI) lists every story; the regional sections have hundreds, so keep the
@@ -36,17 +55,28 @@ Korea = 8
 enabled = true
 batch_size = 40
 max_calls_per_run = 3
+# The ingest runs every 10 minutes: wait until this many headlines need translating (fewer calls),
+# unless the oldest of them has waited this many minutes.
+min_batch = 10
+max_wait_minutes = 20
+# Models for translation, tried in order (instead of [gemini] below). Flash-Lite translates
+# headlines well and has the larger free daily allowance, leaving Flash for summaries.
+models = ["gemini-3.5-flash-lite", "gemini-3.7-flash"]
 
 [story_summaries]
 # The top stories in the app's shared feed get a 1-2 sentence AI summary (Gemini) written from
 # their outlets' headlines and feed snippets, instead of just the first outlet's snippet. Each
-# story is summarized once. Needs GEMINI_API_KEY; without it stories keep their snippet.
+# story is summarized once, and again when its coverage grows a lot (at most
+# max_refresh_per_run per run). Needs GEMINI_API_KEY; without it stories keep their snippet.
 enabled = true
 top_n = 40
-# Wait until this many new top stories are ready before calling Gemini (fewer calls).
+# Wait until this many top stories need a summary before calling Gemini (fewer calls); a story
+# in the top 10 is summarized right away.
 min_new = 4
 batch_size = 20
 max_calls_per_run = 2
+max_refresh_per_run = 5
+# Optional: models = [...] to use other models than [gemini] below, like [translate] does.
 
 [ai]
 # Which model writes the brief when summarize = true. Override with the AI_PROVIDER env var.
@@ -57,7 +87,9 @@ provider = "gemini"
 [gemini]
 # Override with the GEMINI_MODEL env var. Check aistudio.google.com for current free-tier models.
 model = "gemini-3.8-flash"
-# Tried in order when the model above is still overloaded (HTTP 429/5xx) after its retries.
+# Tried in order when the model above is still overloaded (HTTP 5xx) after its retries, or out
+# of quota (HTTP 429, not retried). A model that failed is skipped for 2 minutes within a run
+# and for 30 minutes by later ingest runs; the daily brief always tries the model above first.
 fallback_models = ["gemini-3.7-flash", "gemini-3.5-flash-lite"]
 
 [claude]
@@ -105,7 +137,8 @@ Europe = 0.5
 [alerts]
 # Hard cap on push alerts per (UTC) day, so this never turns back into a doomscroll.
 max_per_day = 5
-# Only items published within this many minutes are considered for alerts.
+# Only items published within this many minutes are considered for alerts. When the previous
+# run was longer ago, the lookback covers the gap since then (up to 4 hours).
 lookback_minutes = 90
 # A watchlist story needs at least this many distinct outlets (an official source counts as 2).
 min_sources = 2
@@ -145,5 +178,6 @@ name = "Apple event"
 match = [["apple"], ["event", "keynote", "wwdc"]]
 
 [health]
-# Feeds with no new items for this many days are flagged in the brief.
+# Feeds with no new items for this many days are flagged in the brief and marked "stale" in the
+# app's source list (journalists' Bluesky accounts can be quiet for 10+ days).
 stale_days = 14

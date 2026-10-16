@@ -2,9 +2,22 @@ name = "newsfeed-api"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
 
-# Bundle id(s) allowed to sign in (comma-separated). Must match the iOS app's bundle id.
 [vars]
+# Bundle id(s) allowed to sign in (comma-separated). Must match the iOS app's bundle id.
 APPLE_BUNDLE_IDS = "com.lilscuba.brief"
+# The repo and branch whose workflows the cron below starts (see "Keeping the feed fresh" in README.md).
+GITHUB_REPO = "lilscuba/news-brief"
+GITHUB_REF = "main"
+
+# Every 10 min: start the ingest workflow unless the feed is fresh (GitHub's own schedule runs hours
+# late). 11:00 UTC: start the daily brief (7:00 New York in summer, 6:00 in winter); to change it,
+# also change DAILY_BRIEF_CRON in src/index.js. Both do nothing until GITHUB_DISPATCH_TOKEN is set.
+[triggers]
+crons = ["*/10 * * * *", "0 11 * * *"]
+
+# Keeps the Worker's logs (e.g. "cron */10 * * * *: dispatched") in the Cloudflare dashboard.
+[observability]
+enabled = true
 
 # Created by `npx wrangler d1 create newsfeed`; paste the id it prints.
 [[d1_databases]]
@@ -17,4 +30,6 @@ database_id = "44aa23db-6bdb-4c3f-9eb8-6e1e480287c2"
 binding = "FEED"
 id = "1c4c1f3e5be346429e77302b916ef44d"
 
-# Secret (not in this file):  npx wrangler secret put INGEST_SECRET
+# Secrets (not in this file):
+#   npx wrangler secret put INGEST_SECRET
+#   npx wrangler secret put GITHUB_DISPATCH_TOKEN   (optional: fine-grained token, Actions read/write)

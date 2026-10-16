@@ -10,8 +10,13 @@
 //   DELETE /v1/me                    delete the account and everything attached to it
 //   POST   /v1/internal/ingest       (INGEST_SECRET) feed + alert candidates -> pushes to send
 //   POST   /v1/internal/push-results (INGEST_SECRET) {invalidTokens} -> forget dead devices
+//   GET    /v1/health                {ok, feed: {generatedAt, ageSeconds, stale}}
 //
-// Bindings (wrangler.toml): DB (D1), FEED (KV), APPLE_BUNDLE_IDS (var), INGEST_SECRET (secret).
+// Cron (wrangler.toml [triggers]): every 10 min, starts the ingest workflow on GitHub when the feed
+// is getting old; at 11:00 UTC, starts the daily brief. See onSchedule.
+//
+// Bindings (wrangler.toml): DB (D1), FEED (KV), APPLE_BUNDLE_IDS, GITHUB_REPO, GITHUB_REF (vars),
+// INGEST_SECRET, GITHUB_DISPATCH_TOKEN (secrets; the token is optional).
 
 import { APPLE_JWKS_URL, AuthError, verifyAppleToken } from "./apple.js";
 import { alertsForUser, briefPush } from "./matching.js";
@@ -95,13 +100,41 @@ const publicUser = (row) => ({ id: row.id, createdAt: row.created_at });
 
 // --- handlers --------------------------------------------------------------------------------
 
+/** True when If-None-Match names this (strong) etag. Weak comparison (RFC 9110): Cloudflare
+ *  turns the ETag into W/"..." when it compresses the feed, and clients echo that form back. */
+export function etagMatches(ifNoneMatch, etag) {
+  const sent = (ifNoneMatch ?? "").split(",").map((t) => t.trim().replace(/^W\//, ""));
+  return sent.includes(etag) || sent.includes("*");
+}
+
 async function getFeed(request, env) {
   const { value, metadata } = await env.FEED.getWithMetadata("feed", "text");
   if (!value) throw new HttpError(503, "feed not built yet");
   const etag = `"${metadata?.generatedAt ?? "0"}"`;
   const cache = { "cache-control": "public, max-age=60", etag };
-  if (request.headers.get("if-none-match") === etag) return new Response(null, { status: 304, headers: cache });
+  if (etagMatches(request.headers.get("if-none-match"), etag)) {
+    return new Response(null, { status: 304, headers: cache });
+  }
   return new Response(value, { headers: { ...JSON_HEADERS, ...cache } });
+}
+
+/** generatedAt of the stored feed, or null. Reads only the metadata, not the ~800 KB value. */
+async function feedGeneratedAt(env) {
+  const { value, metadata } = await env.FEED.getWithMetadata("feed", "stream");
+  await value?.cancel?.();
+  return metadata?.generatedAt ?? null;
+}
+
+const STALE_FEED_SECONDS = 30 * 60; // ingest is dispatched every 10 min; 30 min means runs are failing
+
+async function health(env, now = new Date()) {
+  const generatedAt = await feedGeneratedAt(env);
+  const t = Date.parse(generatedAt ?? "");
+  const ageSeconds = Number.isNaN(t) ? null : Math.max(0, Math.round((now.getTime() - t) / 1000));
+  return json({
+    ok: true,
+    feed: { generatedAt, ageSeconds, stale: ageSeconds === null || ageSeconds > STALE_FEED_SECONDS },
+  });
 }
 
 async function signInWithApple(request, env) {
@@ -269,13 +302,74 @@ everything above.</p>
 ${contact}`, { headers: { "content-type": "text/html; charset=utf-8" } });
 }
 
+// --- cron: keep the feed fresh -------------------------------------------------------------------
+// GitHub starts scheduled workflows hours late, but runs started through the API (workflow_dispatch)
+// start right away. So this cron starts them, and the workflows' own schedules are only backstops.
+
+// A backstop or manual run just landed: nothing to do this tick. Kept well under the 10-min cron:
+// a dispatched run builds its feed 1-3 min after its tick, so the next tick sees a 7-9 min old feed.
+const FRESH_MS = 5 * 60_000;
+const BROKEN_MS = 3 * 3600_000; // past this the pipeline is failing: retry hourly, not every 10 min
+// Must match the second cron in wrangler.toml. Not exported: workerd treats every named export of
+// this module as an entrypoint and refuses to start on a plain string.
+const DAILY_BRIEF_CRON = "0 11 * * *";
+
+/** Starts a workflow on GitHub (workflow_dispatch). Never throws; false (and a log line) on failure. */
+export async function dispatchWorkflow(env, workflow, fetchImpl = fetch) {
+  const url = `https://api.github.com/repos/${env.GITHUB_REPO}/actions/workflows/${workflow}/dispatches`;
+  try {
+    const r = await fetchImpl(url, {
+      method: "POST",
+      headers: {
+        authorization: `Bearer ${(env.GITHUB_DISPATCH_TOKEN ?? "").trim()}`,
+        accept: "application/vnd.github+json",
+        "x-github-api-version": "2022-11-28",
+        "user-agent": "newsfeed-api-worker", // GitHub rejects requests without one; Workers send none
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({ ref: env.GITHUB_REF || "main" }),
+    });
+    if (r.ok) return true; // 204 No Content
+    const text = await r.text().catch(() => "");
+    console.error(`dispatch ${workflow}: HTTP ${r.status} ${text.replace(/\s+/g, " ").slice(0, 200)}`);
+    return false;
+  } catch (e) {
+    console.error(`dispatch ${workflow}: ${e}`);
+    return false;
+  }
+}
+
+/** What one cron tick does: "unconfigured" | "fresh" | "backoff" | "dispatched" | "failed".
+ *  Never throws: a failed tick just waits for the next one (or GitHub's backstop schedule). */
+export async function onSchedule(cron, env, now = new Date(), fetchImpl = fetch) {
+  try {
+    if (!(env.GITHUB_DISPATCH_TOKEN ?? "").trim() || !env.GITHUB_REPO) {
+      console.warn("cron: GITHUB_DISPATCH_TOKEN or GITHUB_REPO not set; relying on GitHub's own schedule");
+      return "unconfigured";
+    }
+    if (cron === DAILY_BRIEF_CRON) {
+      // The workflow skips itself if today's brief already went out (--skip-if-sent).
+      return (await dispatchWorkflow(env, "daily-brief.yml", fetchImpl)) ? "dispatched" : "failed";
+    }
+    const t = Date.parse((await feedGeneratedAt(env)) ?? "");
+    const age = Number.isNaN(t) ? Infinity : now.getTime() - t;
+    if (age < FRESH_MS) return "fresh";
+    // Each failed run emails the token's owner, so a broken pipeline is retried once an hour.
+    if (age > BROKEN_MS && now.getUTCMinutes() >= 10) return "backoff";
+    return (await dispatchWorkflow(env, "ingest.yml", fetchImpl)) ? "dispatched" : "failed";
+  } catch (e) {
+    console.error(`cron ${cron}: ${e}`);
+    return "failed";
+  }
+}
+
 // --- router ----------------------------------------------------------------------------------
 
 export async function handle(request, env) {
   const url = new URL(request.url);
   const { pathname: path } = url;
   const m = request.method;
-  if (m === "GET" && path === "/v1/health") return json({ ok: true });
+  if (m === "GET" && path === "/v1/health") return health(env);
   if (m === "GET" && path === "/privacy") return privacyPage(env);
   if (m === "GET" && path === "/v1/feed") return getFeed(request, env);
   if (m === "POST" && path === "/v1/auth/apple") return signInWithApple(request, env);
@@ -300,5 +394,11 @@ export default {
       console.error(e);
       return json({ error: "internal error" }, 500);
     }
+  },
+
+  async scheduled(controller, env, ctx) {
+    ctx.waitUntil(onSchedule(controller.cron, env)
+      .then((outcome) => console.log(`cron ${controller.cron}: ${outcome}`))
+      .catch((e) => console.error("scheduled", e)));
   },
 };

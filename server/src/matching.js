@@ -8,13 +8,31 @@
 // Deals never alert, each story alerts a user at most once, and there's a per-user daily cap.
 
 const KEEP_ALERT_KEYS = 200;
+const BRIEF_GRACE_HOURS = 3;
 
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-function termMatches(lowered, term, wholeWord) {
+// Compiled once per term: each ingest checks every story against every user's muted words.
+const wordRes = new Map();
+
+function wordRegex(t, plural) {
+  const key = `${plural ? "p" : "w"}:${t}`;
+  let re = wordRes.get(key);
+  if (!re) {
+    if (wordRes.size >= 5000) wordRes.clear();
+    const body = t.split(/\s+/).filter(Boolean).map(escapeRe).join("\\s+"); // "call  of duty" too
+    const suffix = plural ? "(?:s|es)?" : "";
+    re = new RegExp(`(^|[^\\p{L}\\p{N}])${body}${suffix}($|[^\\p{L}\\p{N}])`, "u");
+    wordRes.set(key, re);
+  }
+  return re;
+}
+
+/** `plural` also accepts a trailing "s"/"es", so muting "game" hides "games" (as on the phone). */
+function termMatches(lowered, term, wholeWord, plural = false) {
   const t = term.toLowerCase();
   if (!wholeWord) return lowered.includes(t);
-  return new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRe(t)}($|[^\\p{L}\\p{N}])`, "u").test(lowered);
+  return wordRegex(t, plural).test(lowered);
 }
 
 /** Default rules use substrings on purpose ("introduc" = introduces/introducing); personal
@@ -48,7 +66,8 @@ function wanted(settings, item) {
   const keys = item.sourceKeys ?? item.sources?.map((s) => s.key) ?? [];
   if (keys.length && keys.every((k) => settings.disabledSources.includes(k))) return false;
   const text = (item.titles ?? [item.title]).join(" ").toLowerCase();
-  return !settings.mutedWords.some((w) => text.includes(w.toLowerCase()));
+  // Whole words, like the phone: muting "ICE" mustn't drop alerts about police or prices.
+  return !settings.mutedWords.some((w) => termMatches(text, w, true, true));
 }
 
 /** Which candidates to push to this user, and their updated alert state. */
@@ -100,11 +119,14 @@ export function personalStories(settings, feed, now) {
     .sort((a, b) => b.score - a.score);
 }
 
-/** The "your brief is ready" push, if it's this user's brief hour and it hasn't gone out today. */
+/** The "your brief is ready" push: sent by the first ingest in the BRIEF_GRACE_HOURS from the user's
+ *  brief hour, once per local day. A window rather than the exact hour, so one late or failed
+ *  ingest run doesn't skip the day's push. */
 export function briefPush(settings, userState, feed, now) {
   if (!settings.brief.notify || !feed) return null;
   const { date, hour } = localParts(now, settings.brief.timezone);
-  if (hour !== settings.brief.hour || userState.briefDay === date) return null;
+  const late = hour - settings.brief.hour;
+  if (late < 0 || late >= BRIEF_GRACE_HOURS || userState.briefDay === date) return null;
   const stories = personalStories(settings, feed, now);
   if (!stories.length) return null;
   return {

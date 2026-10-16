@@ -70,7 +70,7 @@ step_name() {
 step_what() {
   case "$1" in
     tools)      echo "Installs free command-line tools. Already-installed ones are skipped. Needs Xcode from the App Store.";;
-    github)     echo "Connects this Mac to GitHub, which stores the project and runs it every 15 minutes for free.";;
+    github)     echo "Connects this Mac to GitHub, which stores the project and runs it around the clock for free.";;
     repo)       echo "Creates your repo, uploads the project, turns on the web page and sets up ntfy alerts.";;
     team)       echo "Reads your Apple developer Team ID from Xcode, so you don't have to look it up.";;
     bundle)     echo "Picks the app's unique id (like com.you.brief) and fills it in everywhere.";;

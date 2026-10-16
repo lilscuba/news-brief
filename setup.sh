@@ -103,7 +103,7 @@ curl -fsS -H "Title: Personal Feed" -H "Tags: white_check_mark" \
 
 step "Running the first daily brief"
 sleep 3
-gh workflow run daily-brief.yml -R "$FULL" || echo "Couldn't start it yet; run it from the Actions tab."
+gh workflow run daily-brief.yml -R "$FULL" -f force=true || echo "Couldn't start it yet; run it from the Actions tab."
 
 echo
 echo "== Done =="

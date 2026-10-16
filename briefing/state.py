@@ -28,9 +28,12 @@ def parse_iso(value: str) -> datetime:
     return datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
 
 
-def prune(seen: dict[str, str], now: datetime, keep_days: int) -> dict[str, str]:
+def prune(seen: dict[str, str], now: datetime, keep_days: int,
+          keep: set[str] | frozenset[str] = frozenset()) -> dict[str, str]:
+    """Drop entries older than `keep_days`, except the ids in `keep` (items still in their feed
+    whose only time is when they were first seen: forgetting it would make them new again)."""
     cutoff = now - timedelta(days=keep_days)
-    return {k: v for k, v in seen.items() if parse_iso(v) >= cutoff}
+    return {k: v for k, v in seen.items() if k in keep or parse_iso(v) >= cutoff}
 
 
 def update_feed_health(health: dict, results, now: datetime, known_ids: set[str]) -> dict:
