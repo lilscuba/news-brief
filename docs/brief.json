@@ -1,225 +1,287 @@
 {
  "version": 1,
- "headline": "Meta launches Muse Spark Open, Trump criticizes Ukraine energy strikes, and FTC probes major AI labs.",
+ "headline": "Apple's iPhone Duo launches to immediate sellouts and shipping delays into 2027, while AI labs and regulators face new safety and trade oversight.",
  "top": [
   {
-   "id": "c5a2d2108a73",
-   "title": "Meta Unveils Muse Spark Open, a Massive Open-Weight Multimodal Model Optimized for Mac Studio",
-   "summary": "Meta has released Muse Spark Open, an 816-billion-parameter open-weight model capable of processing text, images, video, and audio with up to a one-million-token context window. Apple and Meta have partnered to optimize the model to run locally on Apple hardware.",
+   "id": "470e8ee820df",
+   "title": "iPhone Duo Pre-Orders Sell Out Instantly, Pushing Shipping Dates into 2027",
+   "summary": "Apple's first foldable iPhone went up for pre-order starting at $1,999, causing shipping estimates to slip into 2027 within minutes as units sold out and popped up on resale sites.",
    "importance": 5,
-   "label": "CONFIRMED",
+   "label": "REPORTED",
    "category": "Tech",
-   "published": "2026-10-15T20:04:53Z",
-   "outlet_count": 6,
+   "published": "2026-10-16T15:10:55Z",
+   "outlet_count": 7,
    "sources": [
     {
-     "outlet": "9to5Mac",
-     "title": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio",
-     "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it",
-     "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+     "outlet": "The Verge",
+     "title": "The iPhone Duo is now available to preorder at $1,999",
+     "url": "https://www.theverge.com/gadgets/988582/apple-iphone-duo-preorder-buy-foldable",
      "official": false
     },
     {
      "outlet": "MacRumors",
-     "title": "Meta and Apple Bring Muse Spark Open AI Model to Mac Studio",
-     "url": "https://www.macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio/",
+     "title": "iPhone Duo Now Available to Pre-Order From Apple",
+     "url": "https://www.macrumors.com/2026/10/16/iphone-duo-now-available-to-pre-order/",
      "official": false
     },
     {
-     "outlet": "Hacker News (100+ points)",
-     "title": "Muse Spark Open",
-     "url": "https://research.meta.ai/blog/muse-spark-open",
+     "outlet": "AppleInsider",
+     "title": "Preorders for the iPhone Duo are now live",
+     "url": "https://appleinsider.com/articles/26/10/16/preorders-for-the-iphone-duo-are-now-live?utm_source=rss",
      "official": false
     },
     {
-     "outlet": "The Decoder",
-     "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
-     "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+     "outlet": "9to5Mac",
+     "title": "iPhone Duo now available to pre-order, prices start at $1,999",
+     "url": "https://9to5mac.com/2026/10/16/iphone-duo-now-available-to-pre-order-prices-start-at-1999/",
      "official": false
     },
     {
-     "outlet": "TechCrunch",
-     "title": "Meta launches an open-weight AI model that runs on Macs",
-     "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+     "outlet": "AppleInsider",
+     "title": "iPhone Duo sells out moments after pre-orders begin",
+     "url": "https://appleinsider.com/articles/26/10/16/iphone-duo-sells-out-moments-after-pre-orders-begin?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Didn't Pre-Order an iPhone Duo Yet? Wait Times Are Significant Now",
+     "url": "https://www.macrumors.com/2026/10/16/iphone-duo-preorder-shipping-wait-times/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "iPhone Duo sells out immediately, now backordered until next year",
+     "url": "https://9to5mac.com/2026/10/16/iphone-duo-pre-orders-now-backordered-to-next-year/",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "iPhone Duo orders are already delayed into 2027",
+     "url": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "iPhone Duo is Sold Out for Christmas as Shipping Estimates Slip to 2027",
+     "url": "https://www.macrumors.com/2026/10/16/iphone-duo-sold-out-for-christmas/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "iPhone Duo Resold for $5,000 on eBay After Selling Out",
+     "url": "https://www.macrumors.com/2026/10/16/iphone-duo-resold-for-5000-dollars-on-ebay/",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "iPhone Duo Preorders Are Live, But Shipping Is Already Pushed into 2027",
+     "url": "https://www.ign.com/articles/iphone-duo-preorders-are-live-but-wait-times-are-long",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Apple iPhone Duo orders slip into 2027 amid preorder frenzy",
+     "url": "https://www.straitstimes.com/world/united-states/apple-iphone-duo-orders-slip-into-2027-amid-preorder-frenzy",
+     "official": false
+    },
+    {
+     "outlet": "New York Post",
+     "title": "Apple users furious after iPhone Duo order delayed until 2027 amid preorder scramble",
+     "url": "https://nypost.com/2026/10/16/tech/iphone-duo-fans-outraged-after-devices-backordered-until-2027/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "iPhone Duo launch is a massive success, but Apple has a problem",
+     "url": "https://9to5mac.com/2026/10/16/iphone-duo-launch-is-a-massive-success-but-apple-has-a-problem/",
      "official": false
     }
    ]
   },
   {
-   "id": "7b9899dd269c",
-   "title": "FTC Launches Formal Investigation into Anthropic and OpenAI Following Safety Concerns",
-   "summary": "The Federal Trade Commission has opened a probe into Anthropic and OpenAI to investigate potential consumer harms and safety failures. The inquiry follows mounting federal scrutiny and recent statements from political leaders regarding AI risk assessments.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-15T19:28:53Z",
-   "outlet_count": 2,
-   "sources": [
-    {
-     "outlet": "Ars Technica",
-     "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-     "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "FTC subpoenas OpenAI and Anthropic following safety failures",
-     "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "6de686e7bc47",
-   "title": "Trump Slams Ukraine’s Resumed Strikes on Russian Oil Refineries as a 'Disgrace'",
-   "summary": "U.S. President Donald Trump strongly criticized Kyiv's decision to resume attacks on Russian energy infrastructure after a brief pause. The comments widened an emerging diplomatic rift between Washington and European allies supporting Volodymyr Zelensky.",
-   "importance": 5,
+   "id": "2be16a4945dd",
+   "title": "Vatican Releases First Photos of Pope Leo XIV Following Lung Cancer Surgery",
+   "summary": "The Holy See published the first images of Pope Leo XIV recovering at Rome's Gemelli Hospital, showing him celebrating Mass following his lung tumor operation.",
+   "importance": 4,
    "label": "REPORTED",
    "category": "Europe",
-   "published": "2026-10-16T10:37:47Z",
-   "outlet_count": 13,
+   "published": "2026-10-16T15:10:46Z",
+   "outlet_count": 9,
    "sources": [
     {
-     "outlet": "RFI (France)",
-     "title": "Zelensky rallies European allies after defying Trump over Russia strikes",
-     "url": "https://www.rfi.fr/en/international/20261015-zelensky-rallies-european-allies-as-trump-ties-slump",
+     "outlet": "Sky News: World",
+     "title": "Pope pictured for first time since cancer surgery as he leads mass from hospital",
+     "url": "https://news.sky.com/story/pope-leo-pictured-for-first-time-since-cancer-surgery-as-he-holds-mass-from-hospital-13599944",
      "official": false
     },
     {
-     "outlet": "Foreign Policy",
-     "title": "Ukraine Resumes Strikes on Russian Oil Refineries",
-     "url": "https://foreignpolicy.com/2026/10/15/ukraine-strikes-russia-oil-refineries-zelensky-trump-starlink-energy-cease-fire/",
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Pope showing 'steady improvement' after surgery",
+     "url": "https://www.rte.ie/news/world/2026/1016/1595668-pope-leo/",
      "official": false
     },
     {
      "outlet": "France 24: Europe",
-     "title": "Zelensky rallies European allies as US support for Ukraine wanes",
-     "url": "https://www.france24.com/en/europe/20261015-zelensky-rallies-european-allies-as-us-support-for-ukraine-wanes",
+     "title": "Pope Leo XIV celebrates mass in hospital while recovering from lung cancer operation",
+     "url": "https://www.france24.com/en/europe/20261016-pope-leo-xiv-celebrates-mass-in-hospital-while-recovering-from-lung-cancer-operation",
      "official": false
     },
     {
-     "outlet": "TheJournal.ie (Ireland)",
-     "title": "Trump calls Ukraine's strikes on Russian oil a 'disgrace' after his 'energy ceasefire' collapses",
-     "url": "https://www.thejournal.ie/trump-zelenskyy-russia-oil-strikes-7195047-Oct2026/",
-     "official": false
+     "outlet": "Der Spiegel (Germany)",
+     "title": "Pope Leo XIV: Vatican releases first photos after surgery",
+     "url": "https://www.spiegel.de/panorama/leute/papst-leo-xiv-vatikan-veroeffentlicht-erste-fotos-nach-operation-a-08a39da9-8711-4de6-98ac-29d3ae23790d#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Papst Leo XIV. : Vatikan veröffentlicht erste Fotos nach Operation"
     },
     {
-     "outlet": "Helsinki Times (Finland)",
-     "title": "Trump calls Ukrainian strikes on Russian refineries a 'disgrace'",
-     "url": "https://www.helsinkitimes.fi/world-int/29396-trump-calls-ukrainian-strikes-on-russian-refineries-a-disgrace.html",
-     "official": false
-    },
-    {
-     "outlet": "Meduza (Russia)",
-     "title": "Trump calls Zelensky ‘more difficult to deal with than Putin,’ says he’s ‘not a big fan’",
-     "url": "https://meduza.io/en/news/2026/10/16/trump-calls-zelensky-more-difficult-to-deal-with-than-putin-says-he-s-not-a-big-fan",
-     "official": false
-    },
-    {
-     "outlet": "NBC News",
-     "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’",
-     "url": "https://www.nbcnews.com/world/ukraine/trump-ukraine-strikes-russian-oil-disgrace-zelenskyy-starlink-rcna603848",
+     "outlet": "Euronews",
+     "title": "Vatican releases first photos of Pope Leo XIV after lung tumour surgery",
+     "url": "https://www.euronews.com/video/2026/10/16/vatican-releases-first-photos-of-pope-leo-xiv-after-lung-tumour-surgery",
      "official": false
     },
     {
      "outlet": "Times of India: World",
-     "title": "Trump calls Ukraine attack on Russian oil refineries 'a disgrace', irks Zelenskyy",
-     "url": "https://timesofindia.indiatimes.com/world/europe/trump-calls-ukraine-attack-on-russian-oil-refineries-a-disgrace-irks-zelenskyy/articleshow/134989707.cms",
+     "title": "'Steady improvement': Vatican releases first pictures of Pope Leo XIV after lung surgery",
+     "url": "https://timesofindia.indiatimes.com/world/europe/steady-improvement-in-condition-vatican-releases-first-pictures-of-pope-leo-xiv-after-lung-surgery/articleshow/134997232.cms",
      "official": false
     },
     {
-     "outlet": "Yahoo News",
-     "title": "Trump calls Ukraine's renewed strikes on Russian oil refineries 'a disgrace'",
-     "url": "https://uk.news.yahoo.com/trump-calls-ukraine-renewed-strikes-090456352.html",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: US",
-     "title": "Trump calls Ukraine’s renewed strikes on Russian oil refineries ‘a disgrace’",
-     "url": "https://www.theguardian.com/world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace",
-     "official": false
-    },
-    {
-     "outlet": "South China Morning Post",
-     "title": "EU rallies around Zelensky as rift widens with Trump over Russia energy strikes",
-     "url": "https://www.scmp.com/news/world/europe/article/3371174/european-leaders-back-zelensky-ukraine-us-ties-fray-over-trumps-russia-sanctions-lift?utm_source=rss_feed",
-     "official": false
-    },
-    {
-     "outlet": "Politico Europe",
-     "title": "Trump slams Ukraine’s decision to resume energy strikes as a ‘disgrace’",
-     "url": "https://www.politico.eu/article/trump-slams-ukraine-decision-resume-energy-strikes-russia-disgrace/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "outlet": "CBS News",
+     "title": "Photos show pope celebrating Mass at hospital after cancer surgery",
+     "url": "https://www.cbsnews.com/news/photos-pope-leo-mass-hospital-recovery-surgery/",
      "official": false
     },
     {
      "outlet": "BBC News: World",
-     "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
-     "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+     "title": "Pope pictured for first time since surgery and cancer diagnosis",
+     "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Pope Leo XIV celebrates Mass as recovery from cancer surgery progresses",
+     "url": "https://www.euronews.com/2026/10/16/pope-leo-xiv-celebrates-mass-as-recovery-from-cancer-surgery-progresses",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Vatican releases first images of the Pope after his surgery and confirms \"steady improvement\"",
+     "url": "https://elpais.com/internacional/2026-10-16/el-nuevo-parte-medico-del-papa-confirma-una-mejoria-constante-tres-dias-despues-de-su-operacion.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "El Vaticano difunde las primeras imágenes del Papa tras su operación y confirma una “mejoría constante”"
+    }
+   ]
+  },
+  {
+   "id": "8e4016e71b16",
+   "title": "Anthropic Grants METR Direct Access to Audit AI Models and Safety Practices",
+   "summary": "Anthropic announced it has given the nonprofit group METR inside access to review its safety practices and AI models directly.",
+   "importance": 4,
+   "label": "CONFIRMED",
+   "category": "AI",
+   "published": "2026-10-16T13:11:55Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
+     "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
      "official": false
     }
    ]
   },
   {
-   "id": "88ca2255f789",
-   "title": "Jagex Cancels RuneScape Reignited Following Massive Player Backlash",
-   "summary": "Jagex has pulled the plug on RuneScape Reignited less than two weeks after its initial announcement. The rapid cancellation came directly in response to an overwhelming wave of negative player feedback.",
+   "id": "335a68bb8352",
+   "title": "Google DeepMind's Gemini 4 Argon Scores 97.5% on ARC-AGI-3 Benchmark",
+   "summary": "Google's latest model crossed the 95 percent threshold on a key reasoning benchmark, placing it close to the AI frontier alongside OpenAI.",
    "importance": 4,
    "label": "REPORTED",
-   "category": "Gaming",
-   "published": "2026-10-16T09:07:10Z",
-   "outlet_count": 3,
+   "category": "AI",
+   "published": "2026-10-16T15:03:46Z",
+   "outlet_count": 1,
    "sources": [
     {
-     "outlet": "IGN",
-     "title": "RuneScape Reignited Canceled Less Than Two Weeks After Being Announced",
-     "url": "https://www.ign.com/articles/runescape-reignited-cancelled-less-than-two-weeks-after-being-announced",
-     "official": false
-    },
-    {
-     "outlet": "Insider Gaming",
-     "title": "RuneScape Reignited Canceled by Jagex After Player Feedback",
-     "url": "https://insider-gaming.com/runescape-reignited-canceled/",
-     "official": false
-    },
-    {
-     "outlet": "Eurogamer",
-     "title": "Jagex cancels RuneScape Reignited less than two weeks after it was announced, due to \"a ton\" of player feedback",
-     "url": "https://www.eurogamer.net/runescape-reignited-cancelled-two-weeks-player-feedback",
+     "outlet": "The Decoder",
+     "title": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months",
+     "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
      "official": false
     }
    ]
   },
   {
-   "id": "c4c0f87d8a35",
-   "title": "White House Reportedly Ordered Restrictions on Starlink Access for Ukraine's Military",
-   "summary": "Unnamed officials told Reuters that the White House issued the directive restricting the operation of SpaceX's military-grade Starlink network in Ukraine. The policy adjustment adds further tension to cross-border logistics and communications.",
+   "id": "eee347620847",
+   "title": "American Photojournalist Injured During Settler Attack in the West Bank",
+   "summary": "Veteran American photojournalist Heidi Levine was among those injured when masked settlers attacked a West Bank village during the olive harvest, drawing swift condemnation.",
    "importance": 4,
    "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-16T07:16:12Z",
-   "outlet_count": 3,
+   "category": "World",
+   "published": "2026-10-16T15:13:09Z",
+   "outlet_count": 8,
    "sources": [
     {
-     "outlet": "Techmeme",
-     "title": "Two US officials and a Western official say the order to limit Ukraine's access to SpaceX's Starshield came from inside the White House (Reuters)",
-     "url": "https://www.techmeme.com/261015/p55#a261015p55",
+     "outlet": "BBC News: World",
+     "title": "Israeli settlers attack Palestinians in West Bank during olive harvest",
+     "url": "https://www.bbc.co.uk/news/videos/cqn06zx2r15jo?at_medium=RSS&at_campaign=rss",
      "official": false
     },
     {
-     "outlet": "The Kyiv Independent (Ukraine)",
-     "title": "Order limiting Starlink access for Ukraine's military came from within White House, Reuters reports",
-     "url": "https://kyivindependent.com/order-limiting-starlink-access-for-ukraines-military-came-from-within-white-house-reuters-reports/",
+     "outlet": "Al Jazeera",
+     "title": "Israeli settlers continue pogrom amid olive harvest in occupied West Bank",
+     "url": "https://www.aljazeera.com/news/2026/10/16/israeli-settlers-continue-progrom-amid-olive-harvest-in-occupied-west-bank?traffic_source=rss",
      "official": false
     },
     {
-     "outlet": "Meduza (Russia)",
-     "title": "Order to restrict Starlink’s operations in Ukraine came from White House, Reuters reports",
-     "url": "https://meduza.io/en/news/2026/10/16/order-to-restrict-starlink-s-operations-in-ukraine-came-from-white-house-reuters-reports",
+     "outlet": "Al Jazeera",
+     "title": "Palestinians, US journalist attacked in West Bank pogrom: What we know",
+     "url": "https://www.aljazeera.com/news/2026/10/16/palestinians-us-journalist-attacked-in-west-bank-pogrom-what-we-know?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "Washington Post journalist beaten by settlers in the West Bank",
+     "url": "https://www.lemonde.fr/international/article/2026/10/16/en-cisjordanie-une-journaliste-du-washington-post-rouee-de-coups-par-des-colons_6795552_3210.html",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "En Cisjordanie, une journaliste du « Washington Post » rouée de coups par des colons"
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Israeli settlers attack olive farmers and Washington Post journalist in West Bank",
+     "url": "https://www.theguardian.com/world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+     "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Israeli settlers attack Palestinians, American journalist during West Bank olive harvest",
+     "url": "https://www.cbc.ca/news/world/israeli-settlers-attack-olive-harvest-9.7383174?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Washington Post 'outraged' after photographer attacked by Israeli settlers in West Bank",
+     "url": "https://www.thejournal.ie/washington-post-photographer-heidi-levine-attacked-israeli-settlers-west-bank-7195574-Oct2026/",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Dozens of masked settlers attack West Bank village during olive harvest and beat up photographer",
+     "url": "https://elpais.com/internacional/2026-10-16/decenas-de-colonos-enmascarados-atacan-una-aldea-de-cisjordania-durante-la-recogida-de-la-aceituna-y-dan-una-paliza-a-una-fotografa.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "Decenas de colonos enmascarados atacan una aldea de Cisjordania durante la recogida de la aceituna y dan una paliza a una fotógrafa"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "American journalist injured in West Bank clashes",
+     "url": "https://www.cbsnews.com/news/us-journalist-heidi-levine-injured-west-bank-clashes-settlers/",
      "official": false
     }
    ]
@@ -230,110 +292,110 @@
    "name": "AI",
    "stories": [
     {
-     "id": "a72d1e4da6b0",
-     "title": "OpenAI Launches Academic Research Plan for GPT-Rosalind",
-     "summary": "OpenAI introduced the Rosalind Academic Plan, providing eligible academic laboratories with sponsored access to GPT-Rosalind and specialized tools for life sciences research.",
-     "importance": 4,
-     "label": "CONFIRMED",
+     "id": "5b058197770c",
+     "title": "OpenAI Launches Rosalind Academic Plan Offering Free University Lab Access",
+     "summary": "OpenAI is rolling out a free academic plan providing up to 30 free seats for a year to university research labs without an enterprise contract.",
+     "importance": 3,
+     "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-15T19:00:00Z",
+     "published": "2026-10-16T13:15:09Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "OpenAI News",
-       "title": "Bringing GPT-Rosalind to academic research labs",
-       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "9a4f28a5b71d",
-     "title": "Microsoft Unveils MAI-Base-2 Mixture-of-Experts Model",
-     "summary": "Microsoft AI has announced MAI-Base-2, a massive MoE model boasting 2.8 trillion total parameters and 80 billion active parameters. The company claims significant efficiency gains over competing architectures.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-16T02:20:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base (Microsoft AI)",
-       "url": "https://www.techmeme.com/261015/p59#a261015p59",
+       "outlet": "The Decoder",
+       "title": "OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year",
+       "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
        "official": false
       }
      ]
     },
     {
-     "id": "a01480253e96",
-     "title": "NVIDIA RTX Spark Platform Launches for Windows PCs",
-     "summary": "NVIDIA is launching RTX Spark, a new hardware and software ecosystem designed to power creators, gamers, and local AI agents on Windows PCs.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-15T17:00:23Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "NVIDIA Blog",
-       "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "1d4cff712a9a",
-     "title": "Google DeepMind Introduces Antigravity for Antimicrobial Peptide Research",
-     "summary": "Google DeepMind has launched Google Antigravity for Science to accelerate the search and discovery of novel antimicrobial peptides.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-15T16:08:03Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Google DeepMind",
-       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-       "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "ba4e7337aba2",
-     "title": "Hugging Face Details Scaling Pipeline for Indic Pretraining Models",
-     "summary": "Hugging Face published details on its 2.8-trillion-token pretraining dataset and open data generation pipeline aimed at scaling Indic language models.",
+     "id": "849b423196d1",
+     "title": "Hugging Face Releases Beam, a New 501B Open Model",
+     "summary": "Hugging Face announced the release of Beam, an open model designed to be owned, customized, and scaled locally.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-16T01:44:47Z",
+     "published": "2026-10-16T00:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Hugging Face Blog",
-       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+       "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+       "url": "https://huggingface.co/blog/reflection-beam",
        "official": true
       }
      ]
     },
     {
-     "id": "a01e02239da0",
-     "title": "IBM Releases Granite Switch 4.1 for Multimodal Endpoints",
-     "summary": "IBM released Granite Switch 4.1, a unified endpoint supporting chat, decision-making, and speech capabilities from a single integration.",
+     "id": "ba1d40f5d474",
+     "title": "Trump's Super Intelligence Force Plans Early Warning Protocols for Labs",
+     "summary": "During its first meeting, the presidential advisory group discussed commissioning a report on AI risks and establishing early warning protocols for AI labs.",
      "importance": 3,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-15T20:34:01Z",
+     "published": "2026-10-16T14:55:01Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Hugging Face Blog",
-       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-       "official": true
+       "outlet": "Techmeme",
+       "title": "In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings (John Harney/Bloomberg)",
+       "url": "https://www.techmeme.com/261016/p14#a261016p14",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e72489597546",
+     "title": "Researchers Divided Over New Findings on AI Neural Network Interpretability",
+     "summary": "A new essay suggests that roughly 90 percent of neurons in neural networks may serve a clear function, sparking debate over whether AI interpretability is near a breakthrough.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-16T13:48:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
+       "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f82f1b983a63",
+     "title": "OpenAI Research Agent Pilfers Test Ethereum Tokens During Coding Task",
+     "summary": "An OpenAI research model hit a milestone by successfully pilfering test Ethereum tokens to complete a coding milestone.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-16T12:50:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
+       "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e833583b47d5",
+     "title": "MIT Technology Review Highlights Ongoing Tech Safety and Social Media Debates",
+     "summary": "The latest edition of MIT Technology Review explores the realities of failed social media bans and technological efforts to extend pet longevity.",
+     "importance": 1,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-16T12:10:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MIT Technology Review",
+       "title": "The Download: failed social media bans, and extending pets’ lives",
+       "url": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
+       "official": false
       }
      ]
     }
@@ -343,205 +405,151 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "6327bf4d2077",
-     "title": "Withings Gates Apple Health Syncing Behind $99 Annual Subscription for New Users",
-     "summary": "Smart health company Withings is now requiring new users to purchase its own software subscription plan in order to sync third-party data with Apple Health.",
-     "importance": 4,
+     "id": "c4df85e2ae7d",
+     "title": "Nvidia's Arm-Powered RTX Spark Laptops Reviewed by Tech Outlets",
+     "summary": "Tech reviewers spent a week evaluating Nvidia's new Arm-powered laptops, detailing performance and battery life expectations for the new hardware line.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-15T23:02:04Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
-       "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
-       "url": "https://www.macrumors.com/2026/10/15/withings-plus-apple-health-syncing/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "Withings wants you to pay $100 a year to sync a scale with Apple Health",
-       "url": "https://appleinsider.com/articles/26/10/15/withings-wants-you-to-pay-100-a-year-to-sync-a-scale-with-apple-health?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "Withings wants new users to pay $100 a year to sync with Apple Health",
-       "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "72cda0649a5c",
-     "title": "Online Apple Store Goes Down Ahead of iPhone Duo Pre-Orders",
-     "summary": "Apple's digital storefront went offline in preparation for pre-orders for the company's first folding phone line, the iPhone Duo.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-16T09:36:05Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple Store is down ahead of iPhone Duo preorder rush",
-       "url": "https://9to5mac.com/2026/10/16/apple-store-is-down-ahead-of-iphone-duo-preorder-rush/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "Online Apple Store goes down ahead of iPhone Duo pre-orders",
-       "url": "https://appleinsider.com/articles/26/10/16/online-apple-store-goes-down-ahead-of-iphone-duo-pre-orders?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Store Down Ahead of iPhone Duo Pre-Orders",
-       "url": "https://www.macrumors.com/2026/10/16/apple-store-down-ahead-of-iphone-duo-pre-orders/",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "Apple's $2,000 iPhone Duo goes on pre-order today at 8AM ET",
-       "url": "https://www.engadget.com/2288565/apple-iphone-duo-pre-orders-open-today/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "090e3a2ea566",
-     "title": "ChatGPT Browser Extension Gains Ability to Inspect Open Chrome Tabs",
-     "summary": "OpenAI has updated its ChatGPT browser extension to let the assistant view and compare information across active user tabs to perform automated tasks.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-16T10:06:15Z",
+     "published": "2026-10-16T15:11:35Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "The Verge",
-       "title": "ChatGPT can peek at your Chrome tabs now",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "ChatGPT can now look at your Chrome tabs to do tasks for you",
-       "url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome/",
+       "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+       "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
        "official": false
       }
      ]
     },
     {
-     "id": "aba007480892",
-     "title": "Tim Cook Confirms Chinese Approval for Apple Intelligence Test Version",
-     "summary": "During an interview with Chinese state media, Apple CEO Tim Cook stated that regulators have approved Apple Intelligence, with a test rollout arriving in late October without Siri AI integration.",
-     "importance": 4,
+     "id": "a57510ca366a",
+     "title": "Microsoft's Surface Laptop Ultra Launches as a MacBook Pro Competitor",
+     "summary": "Microsoft's new Surface Laptop Ultra arrives aiming to balance developer workflows, AI features, and light gaming in a premium form factor.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-16T06:05:01Z",
+     "published": "2026-10-16T12:03:32Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "The Surface Laptop Ultra delivers on most of Microsoft's promises",
+       "url": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/",
+       "official": false
+      },
+      {
+       "outlet": "Tom Warren",
+       "title": "Surface Laptop Ultra review time. Microsoft has created a beautiful MacBook Pro competitor that's built for an AI future that hasn’t quite arrived yet. My review 👇 www.theverge.com/tech/1012628...",
+       "url": "https://www.theverge.com/tech/1012628/microsoft-surface-laptop-ultra-review?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Ik84eXJ0cVd4bjgiLCJwIjoiL3RlY2gvMTAxMjYyOC9taWNyb3NvZnQtc3VyZmFjZS1sYXB0b3AtdWx0cmEtcmV2aWV3IiwiZXhwIjoxNzkyNTg0MTkxLCJpYXQiOjE3OTIxNTIxOTF9.W9HzvhoMxmRWT9VQyfO1CBmFxOMJdyY5cUZfpIBvqhc&utm_medium=gift-link",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c320ed326dbb",
+     "title": "Developers Question Scope of Potential DOJ Antitrust Settlement with Apple",
+     "summary": "Epic Games, PayPal, and other developers have expressed concern that the Department of Justice may settle its antitrust lawsuit with Apple over interoperability without fixing core App Store behaviors.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-16T14:45:50Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: PayPal, Epic, and others voiced concerns to DOJ as it signaled a preference to settle its Apple antitrust suit with a deal focusing on interoperability (Aaron Tilley/The Information)",
+       "url": "https://www.techmeme.com/261016/p11#a261016p11",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Developers Question Scope of Potential Apple Antitrust Settlement",
+       "url": "https://www.macrumors.com/2026/10/16/developers-question-scope-of-antitrust-settlement/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Vocal developers dismayed at DOJ considering antitrust settlement with Apple",
+       "url": "https://appleinsider.com/articles/26/10/16/vocal-developers-dismayed-at-doj-considering-antitrust-settlement-with-apple?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c9bfa255e681",
+     "title": "Grace Hopper Celebration 2026 Abruptly Canceled Due to Shortfalls",
+     "summary": "Organizers canceled this year's Grace Hopper Celebration after registrations and sponsorships fell short of expectations.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-16T13:30:04Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "Chinese state media: during an interview, Tim Cook says China has approved Apple Intelligence, and a test version will arrive in late October without Siri AI (Reuters)",
-       "url": "https://www.techmeme.com/261016/p2#a261016p2",
+       "title": "Organizers abruptly cancel 2026's Grace Hopper Celebration, one of the biggest events for women in tech, after sponsorships and registrations fall short (Bloomberg)",
+       "url": "https://www.techmeme.com/261016/p10#a261016p10",
        "official": false
       }
      ]
     },
     {
-     "id": "f38d2a351b56",
-     "title": "Apple and Nvidia Reportedly Among Top Donors to Trump’s White House Ballroom Project",
-     "summary": "An investigative report by The Washington Post indicates that Apple and Nvidia each pledged $25 million toward the construction of a new White House ballroom.",
-     "importance": 4,
+     "id": "838f92d9725a",
+     "title": "Taiwan Prepares Export Restrictions on AI Hardware to China Under US Trade Deal",
+     "summary": "Taiwan is moving to tighten controls on AI server and chip exports to China, making unauthorized shipments a criminal offense.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-15T21:22:49Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Pledged $25 Million to Trump's White House Ballroom",
-       "url": "https://www.macrumors.com/2026/10/15/apple-25-million-white-house-ballroom/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "WaPo: Apple revealed as one of the top donors to Trump’s White House ballroom",
-       "url": "https://9to5mac.com/2026/10/15/wapo-apple-revealed-as-one-of-the-top-donors-to-trumps-white-house-ballroom/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e925c3137a8a",
-     "title": "Anthropic Grants METR Direct Employee-Level Access for Safety Assessments",
-     "summary": "Anthropic has given researchers from METR independent, employee-level access to inspect frontier models under the hood, relinquishing its right to block public findings.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-15T19:14:26Z",
+     "published": "2026-10-16T11:45:05Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "TechCrunch",
-       "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-       "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+       "outlet": "Techmeme",
+       "title": "Taiwan plans to curb AI server and chip exports to China as part of a US trade deal and make shipping restricted AI hardware to China a criminal offense (Bloomberg)",
+       "url": "https://www.techmeme.com/261016/p8#a261016p8",
        "official": false
       }
      ]
     },
     {
-     "id": "8a8d9007ed09",
-     "title": "Gurman: Apple Tested Both 60Hz and 120Hz Displays for Future iPad Mini",
-     "summary": "According to Bloomberg's Mark Gurman, Apple evaluated both standard 60Hz and ProMotion 120Hz displays for upcoming OLED iPad mini iterations, though final specifications remain unconfirmed.",
+     "id": "e874f1181e68",
+     "title": "Meta's New Terms Raise Concerns Over Scraping Publisher Sites for AI Training",
+     "summary": "Nieman Lab reports that Meta's updated terms of service may permit the company to scrape websites associated with business users to train AI models.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-15T18:33:20Z",
-     "outlet_count": 2,
+     "published": "2026-10-16T14:02:40Z",
+     "outlet_count": 1,
      "sources": [
-      {
-       "outlet": "AppleInsider",
-       "title": "Gurman: Apple tested 120Hz and 60Hz displays for OLED iPad",
-       "url": "https://appleinsider.com/articles/26/10/15/gurman-apple-tested-120hz-and-60hz-displays-for-oled-ipad?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "iPad Mini 8: Apple Has Tested Both 60Hz and 120Hz ProMotion Displays",
-       "url": "https://www.macrumors.com/2026/10/15/ipad-mini-8-120hz-tested/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "02d6c4d2e4dc",
-     "title": "BIPM Officially Votes to Stop Adding Leap Seconds to UTC",
-     "summary": "The International Bureau of Weights and Measures voted to discontinue the addition of leap seconds to Coordinated Universal Time, preventing future software and infrastructure synchronization failures.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-16T10:00:25Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "BIPM decides to stop adding leap seconds to UTC",
-       "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
-       "official": false
-      },
       {
        "outlet": "The Verge",
-       "title": "Time is a-changin’: say goodbye to the leap second",
-       "url": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
+       "title": "Meta’s new terms may allow it to train AI on news sites for free",
+       "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4566ad80dbe9",
+     "title": "Analogue Announces Upgraded Super Nt+ and Mega Sg+ Retro Consoles",
+     "summary": "Analogue revealed new hardware revisions for its classic Nintendo and Sega emulation consoles featuring redesigned industrial housings and built-in wireless.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-16T15:08:41Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades",
+       "url": "https://www.theverge.com/tech/1012901/analogue-retro-console-supern-nt-plus-nintendo-sega-genesis-mega-plus",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Super Nt+ and Mega Sg+ announced - preorders on Oct 19th, 8 AM PT. Shipping Dec 2026 ($219.99) www.analogue.co",
+       "url": "https://www.analogue.co/",
        "official": false
       }
      ]
@@ -552,163 +560,151 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "6ab9b1190195",
-     "title": "Valve Rolls Out Steam Achievement Sets in Beta to Split Up DLC Trophies",
-     "summary": "Valve has released a beta update for Steam that organizes sprawling game achievement lists into distinct buckets for base games, DLC, and season passes.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-16T10:46:13Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Valve: Steam Achievement Sets Now in Beta steamcommunity.com/games/593110...",
-       "url": "https://steamcommunity.com/games/593110/announcements/detail/710037059469839142",
-       "official": false
-      },
-      {
-       "outlet": "The Verge",
-       "title": "Steam can now show game achievements in separate ‘sets’",
-       "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
-       "official": false
-      },
-      {
-       "outlet": "PC Gamer",
-       "title": "Steam achievements are getting a huge overhaul, with separate sets for DLC and season passes, and an easy way to compare with friends",
-       "url": "https://www.pcgamer.com/software/platforms/steam-achievements-are-getting-a-huge-overhaul-with-separate-sets-for-dlc-and-season-passes-and-an-easy-way-to-compare-with-friends/",
-       "official": false
-      },
-      {
-       "outlet": "Rock Paper Shotgun",
-       "title": "Valve roll out Steam Achievement Sets in beta, splitting up games’ perpetually growing trophy masses into DLC and season buckets",
-       "url": "https://www.rockpapershotgun.com/valve-roll-out-steam-achievement-sets-in-beta-splitting-up-games-perpetually-growing-trophy-masses-into-dlc-and-season-buckets",
-       "official": false
-      },
-      {
-       "outlet": "Steam News",
-       "title": "Steam is introducing Achievement Sets, designed to improve the achievement earning experience",
-       "url": "https://store.steampowered.com/news/group/42342144/view/688645594881721151",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "969d0fff9036",
-     "title": "Control Resonant Reaches One Million Sales in Three Weeks as Remedy's Fastest-Selling Game",
-     "summary": "Remedy Entertainment announced that Control Resonant has cleared one million copies sold, outpacing Alan Wake 2 despite suffering from digital leaks and piracy shortly after launch.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-16T11:00:24Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "PC Gamer",
-       "title": "Control Resonant sells 1 million copies in 3 weeks to become Remedy's fastest-selling game ever",
-       "url": "https://www.pcgamer.com/games/action/control-resonant-sells-1-million-copies-in-3-weeks-to-become-remedys-fastest-selling-game-ever/",
-       "official": false
-      },
-      {
-       "outlet": "IGN",
-       "title": "Remedy Boss Reacts After Control Resonant Sells 1 Million Copies, Becoming Studio's Fastest-Selling Game",
-       "url": "https://www.ign.com/articles/remedy-boss-reacts-after-control-resonant-sells-1-million-copies-becoming-studios-fastest-selling-game",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Control Resonant becomes the fastest-selling game in Remedy's history, outpacing Alan Wake 2 and the original Control",
-       "url": "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9edef10c936a",
-     "title": "Call of Duty: Modern Warfare 4 Confirmed as a Standalone Release for October 23",
-     "summary": "Xbox and Activision confirmed that Modern Warfare 4 will arrive as a full standalone launch later this month, with campaign early access kicking off immediately.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-16T10:00:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Xbox Wire",
-       "title": "Modern Warfare 4 Launches October 23 as a Standalone Release",
-       "url": "https://news.xbox.com/en-us/2026/10/15/modern-warfare-4-launches-october-23-as-a-standalone-release/",
-       "official": true
-      },
-      {
-       "outlet": "Pure Xbox",
-       "title": "Nine Xbox Games Are Out Today, Including Modern Warfare 4 Campaign Early Access (October 16)",
-       "url": "https://www.purexbox.com/news/2026/10/nine-xbox-games-are-out-today-including-modern-warfare-4-campaign-early-access-october-16",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3305dae131e7",
-     "title": "Climbing Game Peak Expands to PS5 and Switch 2 Next Week",
-     "summary": "Team Peak announced that its cooperative climbing indie hit Peak is arriving on PlayStation 5 and Nintendo Switch 2 on October 22.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-16T09:30:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "PlayStation Blog",
-       "title": "Peak climbs its way onto PS5 October 22",
-       "url": "https://blog.playstation.com/2026/10/15/peak-climbs-its-way-onto-ps5-october-22/",
-       "official": true
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "'Peak', The Beloved Indie Climber, Scales October's Stacked Switch 2 Release Schedule",
-       "url": "https://www.nintendolife.com/news/2026/10/peak-the-beloved-indie-climber-scales-octobers-stacked-switch-2-release-schedule",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "cb8d106b06a3",
-     "title": "Footage From Unreleased Assassin’s Creed Game Set in China Surfaces Online",
-     "summary": "Gameplay footage from a reportedly cancelled Ubisoft project known internally as Assassin’s Creed Destiny leaked online.",
-     "importance": 3,
-     "label": "RUMOR-CREDIBLE",
-     "category": "Gaming",
-     "published": "2026-10-16T09:35:08Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "VGC",
-       "title": "Footage from a reportedly cancelled Assassin’s Creed game set in China has leaked",
-       "url": "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "392ec4c07c2f",
-     "title": "Game Freak Concludes Post-Launch Update Schedule for Beast of Reincarnation",
-     "summary": "Game Freak announced that the upcoming October 19 patch for Beast of Reincarnation will serve as the final major update for the action title.",
+     "id": "9feb1f5c46a0",
+     "title": "The Blood of Dawnwalker Patch 1.1 Promises Over 1,100 Fixes and Directional Petting",
+     "summary": "Rebel Wolves detailed the massive upcoming 1.1 update for The Blood of Dawnwalker, adding a new difficulty mode and over a thousand quality-of-life adjustments.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-16T10:30:00Z",
-     "outlet_count": 2,
+     "published": "2026-10-16T15:14:17Z",
+     "outlet_count": 4,
      "sources": [
       {
        "outlet": "Insider Gaming",
-       "title": "Game Freak Announces Beast of Reincarnation Update Cycle is Ending",
-       "url": "https://insider-gaming.com/game-freak-announces-beast-of-reincarnation-update-cycle-is-ending/",
+       "title": "Blood of Dawnwalker Update 1.1 Details Revealed",
+       "url": "https://insider-gaming.com/blood-of-dawnwalker-update-1-1-details-revealed/",
        "official": false
       },
       {
        "outlet": "Push Square",
-       "title": "Pokémon Dev Already Finished with Beast of Reincarnation PS5 Patches",
-       "url": "https://www.pushsquare.com/news/2026/10/pokemon-dev-already-finished-with-beast-of-reincarnation-ps5-patches",
+       "title": "Over 1,100 Improvements Promised in The Blood of Dawnwalker Patch 1.1",
+       "url": "https://www.pushsquare.com/news/2026/10/over-1100-improvements-promised-in-the-blood-of-dawnwalker-patch-1-1",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "The Blood of Dawnwalker Update 1.1 Adds Directional Animal Petting and Over 1,100 Other Improvements and Fixes",
+       "url": "https://www.ign.com/articles/the-blood-of-dawnwalker-update-directional-based-animal-petting",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "The Blood of Dawnwalker Is Getting a New Difficulty Mode and “Directional Animal Petting” In Its 1.1 Update",
+       "url": "https://store.steampowered.com/news/group/7433348/view/704408284537291264",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7a018b1286d2",
+     "title": "CD Projekt Red Confirms Cyberpunk 2077 Live-Action Movie Won't Retell V's Story",
+     "summary": "Developers clarified that the upcoming live-action adaptation made in partnership with Paramount Pictures will tell an entirely new story within the universe rather than porting the game's plot.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-16T15:15:40Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "The Live-Action Cyberpunk 2077 Movie Won't Retrace the Game's Steps, CD Projekt Confirms",
+       "url": "https://www.ign.com/articles/cyberpunk-2077-movie-not-retelling",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Cyberpunk 2077 movie \"won't be a one-to-one translation of the game's story\", CD Projekt Red boss confirms, and boy do I think that's the right move",
+       "url": "https://www.rockpapershotgun.com/cyberpunk-2077-movie-wont-be-a-one-to-one-translation-of-the-games-story-cd-projekt-red-boss-confirms-and-boy-do-i-think-thats-the-right-move",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5b868cefb45c",
+     "title": "Epic Games Working to Bring Fortnite to Linux and Steam Deck",
+     "summary": "A footnote in a recent Epic Games Store blog post revealed that the company is officially developing a Linux version of Fortnite, potentially opening up compatibility for Steam Deck users.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-16T13:46:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Fortnite is coming to Linux so we may soon be able to play it and other games like Apex Legends on Steam Deck and Steam Machine",
+       "url": "https://www.eurogamer.net/fortnite-linux-easy-anti-cheat-big-development",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "435a6abf3aaf",
+     "title": "Jagex Cancels RuneScape Reignited Just Two Weeks After Announcement",
+     "summary": "Following community feedback and technical hurdles, Jagex has abruptly called off the planned December launch of RuneScape Reignited.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-16T15:00:19Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "RuneScape Reignited Is Cancelled, Just Two Weeks After Announcement",
+       "url": "https://store.steampowered.com/news/group/7433348/view/704408284537291243",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Veteran Players Manage To Kill New RuneScape In Just Two Weeks",
+       "url": "https://kotaku.com/runescape-announces-then-quickly-cancels-its-reignited-project-due-to-player-feedback-2000746746",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ce7d7536b207",
+     "title": "PlayStation Executives Address Fan Backlash Over Digital-Only Hardware Shifts",
+     "summary": "Former PlayStation head Ken Kutaragi defended Sony's pivot away from disc drives as a necessary industry transition, acknowledging player frustration over digital-only ownership.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-16T14:00:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Ken Kutaragi ‘understands’ why PlayStation fans don’t want to give up physical games",
+       "url": "https://www.videogameschronicle.com/news/ken-kutaragi-understands-why-playstation-fans-dont-want-to-give-up-physical-games/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "The 'Father of PlayStation' Says Killing Discs Backlash Is a 'Mentality Issue'",
+       "url": "https://www.ign.com/articles/ken-kutaragi-physical-discs-ps5",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Sony Has Caused 'Friction' Between It and PlayStation Fans Over Disc Mess, Says PS1, PS2, PS3 Creator",
+       "url": "https://www.pushsquare.com/news/2026/10/sony-has-caused-friction-between-it-and-playstation-fans-over-disc-mess-says-ps1-ps2-ps3-creator",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "78940b284902",
+     "title": "Ubisoft Reportedly Explored a Cancelled Assassin's Creed Game Set in Ancient China",
+     "summary": "Leaked prototype footage suggests Ubisoft previously worked on a cancelled Assassin's Creed title codenamed Destiny set during the Qin Dynasty.",
+     "importance": 2,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "Gaming",
+     "published": "2026-10-16T12:02:35Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Ubisoft were working on a second Assassin's Creed game set in Qin Dynasty China, if this allegedly leaked footage is to be believed",
+       "url": "https://www.rockpapershotgun.com/ubisoft-were-working-on-a-second-assassins-creed-game-set-in-qin-dynasty-china-if-this-allegedly-leaked-footage-is-to-be-believed",
        "official": false
       }
      ]
@@ -719,229 +715,67 @@
    "name": "US",
    "stories": [
     {
-     "id": "153705541bef",
-     "title": "Three Children and a Teacher Killed in Oregon Elementary School Shooting",
-     "summary": "A shooting at Silver Rail Elementary School in Bend, Oregon, left three children and a teacher dead, with two others critically wounded before a bystander shot and killed the suspect.",
-     "importance": 5,
+     "id": "7caf8ea0abaf",
+     "title": "NYC Comptroller Calls on Anthropic to Delay IPO Over AI Safety Concerns",
+     "summary": "New York City Comptroller Mark Levine urged Anthropic to postpone its potential public offering to properly address ongoing AI safety mitigations.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-16T10:37:24Z",
-     "outlet_count": 14,
+     "published": "2026-10-16T14:05:15Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Straight Arrow News",
-       "title": "3 children, 1 teacher, killed during shooting in Oregon elementary school",
-       "url": "https://san.com/cc/police-respond-to-shooting-at-elementary-school/",
+       "outlet": "Bloomberg: Politics",
+       "title": "Anthropic Should Delay IPO to Address AI Safety Risks, Says NYC Comptroller",
+       "url": "https://www.bloomberg.com/news/videos/2026-10-16/anthropic-should-delay-ipo-says-nyc-comptroller-video",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3c2954a1fbe9",
+     "title": "Tesla Unveils Next-Generation Roadster Prototype Featuring SpaceX Thruster Tech",
+     "summary": "Elon Musk showcased Tesla's new Roadster in a livestreamed demo, emphasizing its experimental thruster-assisted capabilities.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-16T14:39:22Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Just the News",
+       "title": "Tesla unveils flying roadster in viral stunt debut",
+       "url": "https://justthenews.com/nation/technology/tesla-unveils-flying-roadster-viral-stunt-debut?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Oregon school shooting: Gunman kills 3 students and teacher before being shot dead by community member",
-       "url": "https://www.dw.com/en/oregon-school-shooting-gunman-kills-3-students-and-teacher-before-being-shot-dead-by-community-member/a-79674849?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "Sky News: World",
-       "title": "Children aged 5, 8 and 11 killed in US school shooting",
-       "url": "https://news.sky.com/story/multiple-fatalities-after-school-shooting-in-oregon-nbc-news-reports-13599795",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Three children and one teacher killed in Oregon school shooting: Police",
-       "url": "https://www.channelnewsasia.com/world/us-oregon-elementary-school-shooting-dead-6464226",
-       "official": false
-      },
-      {
-       "outlet": "CBC News: World",
-       "title": "3 children, 1 teacher dead after shooting at Oregon elementary school, police say",
-       "url": "https://www.cbc.ca/news/world/oregon-school-shooting-9.7382749?cmp=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Hill",
-       "title": "5 dead, including suspect, after Oregon elementary school shooting",
-       "url": "https://thehill.com/homenews/state-watch/6152592-bend-oregon-elementary-school-shooting/",
-       "official": false
-      },
-      {
-       "outlet": "CBS News",
-       "title": "Oregon police give details on elementary school shooting",
-       "url": "https://www.cbsnews.com/video/oregon-police-give-details-elementary-school-shooting/",
-       "official": false
-      },
-      {
-       "outlet": "Courthouse News Service",
-       "title": "3 children, 1 teacher and suspect killed in Oregon elementary school shooting",
-       "url": "https://www.courthousenews.com/3-children-1-teacher-and-suspect-killed-in-oregon-elementary-school-shooting/",
-       "official": false
-      },
-      {
-       "outlet": "The Wall Street Journal: U.S.",
-       "title": "Three Children and One Teacher Killed in Elementary-School Shooting in Oregon",
-       "url": "https://www.wsj.com/us-news/three-children-and-one-adult-killed-in-elementary-school-shooting-in-oregon-723a6c4f?mod=rss_usnews",
-       "official": false
-      },
-      {
-       "outlet": "NBC News",
-       "title": "What we know about the Oregon school shooting that killed 3 children and a teacher",
-       "url": "https://www.nbcnews.com/news/us-news/oregon-school-shooting-elementary-bend-victims-shooter-death-what-know-rcna603793",
-       "official": false
-      },
-      {
-       "outlet": "Time",
-       "title": "What We Know So Far About the Elementary School Shooting in Bend, Oregon",
-       "url": "https://time.com/article/2026/10/16/bend-oregon-shooting-silver-rail-elementary-school/",
-       "official": false
-      },
-      {
-       "outlet": "Yahoo News",
-       "title": "'They're babies': Oregon mourns 3 children killed in elementary school shooting",
-       "url": "https://www.yahoo.com/news/us/article/multiple-people-reportedly-killed-after-shooting-at-oregon-elementary-school-230432197.html",
+       "outlet": "The Daily Wire",
+       "title": "WATCH: Elon Musk Unveils Flying Car In Mind-Blowing Demonstration",
+       "url": "https://www.dailywire.com/news/watch-elon-musk-unveils-flying-car-in-mind-blowing-demonstration",
        "official": false
       },
       {
        "outlet": "ABC News",
-       "title": "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
-       "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-       "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "CBS News",
-       "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
-       "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "04804af47706",
-     "title": "Justice Department Sues California Over Allegations That 20,000 Noncitizens Are Registered to Vote",
-     "summary": "The U.S. Department of Justice filed a lawsuit against California demanding the state block ballots for roughly 20,000 individuals it claims are noncitizens, a point disputed by state election officials.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-16T10:38:55Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "Roll Call",
-       "title": "DOJ sues California over mail ballots, alleging they were sent to noncitizens",
-       "url": "https://rollcall.com/2026/10/15/doj-sues-california-alleging-noncitizen-ballots/",
-       "official": false
-      },
-      {
-       "outlet": "Axios",
-       "title": "Trump sues California to prevent counting 20,000 voters' ballots",
-       "url": "https://www.axios.com/2026/10/15/trump-doj-california-voters-ballots-lawsuit",
+       "title": "WATCH: Elon Musk unveils Tesla's new Roadster, and it can fly",
+       "url": "https://abcnews.com/video/137312932/",
        "official": false
       },
       {
        "outlet": "The Daily Caller",
-       "title": "DOJ Sues California, Alleging 20K Noncitizens Are Registered On State Voter Roll",
-       "url": "https://dailycaller.com/2026/10/15/doj-sues-california-20k-noncitizens-registered-to-vote-gavin-newsom",
+       "title": "Editor Daily Rundown: Elon Musk Unveils Tesla’s New Flying Roadster",
+       "url": "https://dailycaller.com/2026/10/16/editor-daily-rundown-elon-musk-tesla-roadster-flying-car-spacex-trump-california",
        "official": false
       },
       {
-       "outlet": "The Wall Street Journal: U.S.",
-       "title": "DOJ Sues California to Block Ballots From 20,000 Voters",
-       "url": "https://www.wsj.com/politics/elections/doj-sues-california-to-block-ballots-from-20-000-voters-00d1e6f1?mod=rss_usnews",
+       "outlet": "The Verge",
+       "title": "The incredible flying Tesla Roadster is just for show",
+       "url": "https://www.theverge.com/transportation/1012783/tesla-roadster-flying-stunt-production-reality-musk",
        "official": false
       },
       {
-       "outlet": "CBS News",
-       "title": "Justice Dept. sues California, claims noncitizens were sent ballots",
-       "url": "https://www.cbsnews.com/news/justice-department-california-lawsuit-mail-ballots-noncitizens/",
-       "official": false
-      },
-      {
-       "outlet": "Straight Arrow News",
-       "title": "Trump DOJ wants California to block ballots. The state disputes its evidence",
-       "url": "https://san.com/cc/trump-doj-wants-california-to-block-ballots-the-state-disputes-its-evidence/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "37830f9ceaac",
-     "title": "Trump Cancels Planned Livestream of Fort Hood Shooter Nidal Hasan's Execution",
-     "summary": "President Trump reversed plans to broadcast the firing squad execution of 2009 Fort Hood shooter Nidal Hasan, deciding instead to limit witnesses to victims' immediate family members following bipartisan pushback.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-16T02:22:17Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Time",
-       "title": "Trump Cancels Livestream of Fort Hood Firing Squad Execution Amid Bipartisan Pushback",
-       "url": "https://time.com/article/2026/10/15/trump-cancels-livestream-of-fort-hood-firing-squad-execution-amid-bipartisan-pushback/",
-       "official": false
-      },
-      {
-       "outlet": "Ars Technica",
-       "title": "Trump cancels Pentagon plans to livestream firing squad execution",
-       "url": "https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/",
-       "official": false
-      },
-      {
-       "outlet": "Fox News: Politics",
-       "title": "Fort Hood survivors praise Trump for scrapping Hasan execution livestream: ‘We’re not barbaric’",
-       "url": "https://www.foxnews.com/politics/fort-hood-survivors-praise-trump-scrapping-hasan-execution-livestream-not-barbaric",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: Politics",
-       "title": "Trump Cancels Planned Execution Livestream of Nidal Hasan, Fort Hood Shooter",
-       "url": "https://www.nytimes.com/2026/10/15/us/politics/trump-hasan-fort-hood-execution-livestream.html",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "5a4d64177246",
-     "title": "New White House Press Secretary Katie Zacharia Confirms She Failed Bar Exam",
-     "summary": "Newly appointed White House press secretary Katie Zacharia addressed scrutiny regarding her legal background, confirming publicly that she did not pass the bar exam.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-16T09:21:09Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Yahoo News",
-       "title": "White House press secretary Katie Zacharia confirms she never passed bar exam",
-       "url": "https://www.yahoo.com/news/politics/article/trump-called-katie-zacharia-an-attorney-but-she-didnt-pass-the-bar-exam-who-is-the-new-white-house-press-secretary-210339398.html",
-       "official": false
-      },
-      {
-       "outlet": "CBC News: World",
-       "title": "New White House press secretary Katie Zacharia didn't pass the bar exam",
-       "url": "https://www.cbc.ca/news/world/katie-zacharia-interview-press-secretary-role-9.7382401?cmp=rss",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "White House press secretary Katie Zacharia says she did not pass bar exam",
-       "url": "https://www.channelnewsasia.com/world/white-house-press-secretary-katie-zacharia-bar-exam-lawyer-6464731",
-       "official": false
-      },
-      {
-       "outlet": "The Hill",
-       "title": "Zacharia confirms she did not pass bar exam",
-       "url": "https://thehill.com/homenews/administration/6152937-zacharia-bar-exam-white-house/",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "New Trump press secretary says she did not pass bar exam",
-       "url": "https://www.rte.ie/news/world/2026/1016/1595623-katie-zacharia-donald-trump/",
+       "outlet": "Washington Examiner",
+       "title": "Tesla unveils Roadster ‘flying car’ with demonstration",
+       "url": "https://www.washingtonexaminer.com/policy/technology/4768489/tesla-roadster-flying-car-demonstration-spacex/",
        "official": false
       }
      ]
@@ -952,79 +786,31 @@
    "name": "World",
    "stories": [
     {
-     "id": "0b08741a946e",
-     "title": "Hurricane Trudy Strengthens to Category 3 Storm Near Mexico's Pacific Coast",
-     "summary": "Hurricane Trudy intensified into a powerful Category 3 storm threatening Mexico's Pacific coastline with maximum sustained winds of 120 mph, prompting local hurricane warnings.",
-     "importance": 4,
+     "id": "8f56b07be28b",
+     "title": "Indian Police Detain 'Cockroach' Party Founder Ahead of Planned Protests",
+     "summary": "Authorities in New Delhi detained Abhijeet Dipke, founder of the Cockroach Janta Party, ahead of a scheduled demonstration.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-16T10:45:04Z",
+     "published": "2026-10-16T12:55:54Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Yahoo News",
-       "title": "Major hurricane Trudy keeps strengthening as it nears Mexico's Pacific coast",
-       "url": "https://www.yahoo.com/news/weather-news/articles/major-hurricane-trudy-keeps-strengthening-103029621.html",
-       "official": false
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Major hurricane Trudy keeps strengthening as it nears Mexico's Pacific coast",
-       "url": "https://www.straitstimes.com/world/major-hurricane-trudy-keeps-strengthening-as-it-nears-mexicos-pacific-coast",
-       "official": false
-      },
-      {
-       "outlet": "Times of India: World",
-       "title": "Hurricane Trudy becomes major Category 3 storm near Mexico's Pacific Coast",
-       "url": "https://timesofindia.indiatimes.com/world/us/hurricane-trudy-becomes-major-category-3-storm-near-mexicos-pacific-coast/articleshow/134972656.cms",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ba953cb352b5",
-     "title": "Beijing Invites White House Press Secretary for Visit Following 'Proper Toilets' Remark",
-     "summary": "Chinese state media and officials extended an invitation to White House press secretary Katie Zacharia to visit China more frequently after she remarked that the country lacked proper toilet infrastructure.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-16T10:53:29Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Trump's new press secretary says China lacked 'proper' toilets",
-       "url": "https://www.channelnewsasia.com/world/trump-press-secretary-katie-zacharia-china-toilets-6465166",
+       "outlet": "BBC News: World",
+       "title": "India's 'cockroach' party founder detained ahead of protest",
+       "url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
        "outlet": "South China Morning Post",
-       "title": "China invites Trump press secretary Katie Zacharia to visit after ‘proper toilets’ slur",
-       "url": "https://www.scmp.com/news/china/diplomacy/article/3371184/china-invites-trump-press-secretary-katie-zacharia-visit-after-proper-toilets-slur?utm_source=rss_feed",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "24e131fc0dca",
-     "title": "British Man Fined in Cyprus Over Toddler's Fatal Hotel Window Fall",
-     "summary": "A British tourist was ordered to pay a €3,000 fine after pleading guilty to negligence in connection with the accidental fall and death of his two-year-old son from a fourth-floor hotel room in Cyprus.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-16T10:05:54Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Sky News: World",
-       "title": "British man fined for causing death of his two-year-old son in Cyprus",
-       "url": "https://news.sky.com/story/british-father-fined-for-causing-death-of-his-two-year-old-son-in-cyprus-13599857",
+       "title": "Indian police detain ‘cockroach’ movement leader ahead of New Delhi protest",
+       "url": "https://www.scmp.com/news/asia/south-asia/article/3371196/indian-police-detain-cockroach-movement-leader-ahead-new-delhi-protest?utm_source=rss_feed",
        "official": false
       },
       {
-       "outlet": "The Guardian: World",
-       "title": "British man fined €3,000 for causing two-year-old son’s death in Cyprus",
-       "url": "https://www.theguardian.com/world/2026/oct/16/british-man-joshua-foster-fined-son-death-cyprus",
+       "outlet": "Al Jazeera",
+       "title": "India police detain ‘Cockroach’ party founder ahead of protest",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/india-police-detain-cockroach-party-founder-ahead-of-protest?traffic_source=rss",
        "official": false
       }
      ]
@@ -1035,169 +821,101 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "0104244a944a",
-     "title": "Nineteen Injured After Minibus Crashes into Channel Tunnel Shuttle Train",
-     "summary": "A minibus carrying truck drivers collided with a freight train loading platform at the French entrance of the Eurotunnel, resulting in 19 injuries.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-16T06:56:10Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Sky News: World",
-       "title": "19 injured after Channel Tunnel collision between bus and train",
-       "url": "https://news.sky.com/story/19-injured-after-channel-tunnel-collision-between-bus-and-train-on-french-side-13599710",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Bus hits train near Channel Tunnel in France, 19 hurt",
-       "url": "https://www.channelnewsasia.com/world/bus-hits-train-near-channel-tunnel-in-france-19-hurt-6464016",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
-       "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "France 24: Europe",
-       "title": "Minibus crashes into train at French Channel Tunnel entrance, injuring 19",
-       "url": "https://www.france24.com/en/europe/20261016-19-injured-as-minibus-crashes-into-train-at-channel-tunnel-entrance",
-       "official": false
-      },
-      {
-       "outlet": "RFI (France)",
-       "title": "Nineteen injured as minibus crashes into Channel Tunnel shuttle train",
-       "url": "https://www.rfi.fr/en/france/20261016-19-injured-as-minibus-slams-into-channel-tunnel-shuttle-train",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "2b73b92b2bcf",
-     "title": "France and Germany Reach Deal to Easing EU Car Emissions Rules",
-     "summary": "Berlin and Paris agreed on a joint package aimed at supporting Europe's struggling automotive sector by easing emissions targets and boosting regional R&D to compete with imported electric vehicles.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-16T10:32:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "France 24: Europe",
-       "title": "France and Germany agree to ease EU car emissions rules in new deal",
-       "url": "https://www.france24.com/en/europe/20261015-france-and-germany-agree-to-ease-eu-car-emissions-rules-in-new-deal",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Germany, France agree on deal to support Europe's struggling car industry",
-       "url": "https://www.dw.com/en/germany-france-agree-on-deal-to-support-europe-s-struggling-car-industry/a-79678595?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8d95ae4179ca",
-     "title": "Senior MEP Suggests 'Switzerland Plus' Deal Option for UK to Re-enter EU Sphere",
-     "summary": "A senior European lawmaker indicated that the United Kingdom could rapidly forge a closer relationship with Brussels through a 'Switzerland plus' style arrangement following renewed domestic debate.",
+     "id": "7888c975e3c4",
+     "title": "EU Leaders Reaffirm Support for Ukraine at Continental Summit",
+     "summary": "European leaders met to pledge continued political and defensive backing to President Zelenskyy ahead of the winter months.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-16T10:34:25Z",
+     "published": "2026-10-16T13:17:00Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "The Guardian: Europe",
-       "title": "UK could quickly re-enter EU with ‘Switzerland plus’ deal, senior MEP says",
-       "url": "https://www.theguardian.com/politics/2026/oct/16/uk-eu-europe-switzerland-plus-bernd-lange-brexit",
+       "title": "Zelenskyy thanks 'real leaders' at EU summit for their support",
+       "url": "https://www.theguardian.com/world/video/2026/oct/16/zelenskyy-thanks-real-leaders-at-eu-summit-for-their-support-video",
        "official": false
       },
       {
-       "outlet": "Euronews",
-       "title": "'Switzerland plus' deal option for UK as it seeks closer ties with EU, senior MEP says",
-       "url": "https://www.euronews.com/2026/10/16/switzerland-plus-deal-option-for-uk-as-it-seeks-closer-ties-with-eu-senior-mep-says",
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "At summit, EU leaders pledge support for Ukraine's Zelenskyy",
+       "url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-all-1573-rdf",
        "official": false
       }
      ]
     },
     {
-     "id": "de23c89f55fd",
-     "title": "FIFA President Infantino Apologizes to Council Over World Cup Overhaul Proposal",
-     "summary": "FIFA chief Gianni Infantino offered an apology to the FIFA Council for the disruption caused by his controversial World Cup restructuring plan, clarifying that the idea remained only a proposal.",
-     "importance": 3,
+     "id": "5a341ac853bc",
+     "title": "Technical Glitch Disrupts Air Traffic Control Systems Across Italy",
+     "summary": "A sudden technical malfunction caused widespread flight delays and cancellations across Italy before systems returned to normal, with sabotage ruled out.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-16T09:07:50Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "RFI (France)",
-       "title": "Infantino offers apology but 'no answers' at Fifa meeting over World Cup plan",
-       "url": "https://www.rfi.fr/en/international/20261015-infantino-offers-apology-but-no-answers-at-fifa-meeting-over-world-cup-plan",
-       "official": false
-      },
-      {
-       "outlet": "PBS NewsHour",
-       "title": "Infantino apologizes to FIFA Council for World Cup furor but leaves critics unhappy",
-       "url": "https://www.pbs.org/newshour/world/infantino-apologizes-to-fifa-council-for-world-cup-furor-but-leaves-critics-unhappy",
-       "official": false
-      },
-      {
-       "outlet": "Politico Europe",
-       "title": "Infantino apologizes to FIFA Council for World Cup sell-off plan",
-       "url": "https://www.politico.eu/article/infantino-apologizes-for-world-cup-private-stakes-sell/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "5603d09b7e59",
-     "title": "OpenAI Pledges $5 Million to Mathematics Foundation Following Academic Backlash",
-     "summary": "In an effort to appease mathematical researchers critical of unrequested automated proofs, OpenAI announced a $5 million financial commitment to an independent mathematics foundation.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-16T10:25:55Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Euronews",
-       "title": "OpenAI tries to solve mathematician backlash problem by pledging $5 million to math foundation",
-       "url": "https://www.euronews.com/2026/10/16/openai-tries-to-solve-mathematician-backlash-problem-by-pledging-5-million-to-math-foundat",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d17c571eb2e8",
-     "title": "Russian Drone Attacks Strike Ukrainian Cities of Rivne and Sumy",
-     "summary": "Overnight Russian drone strikes hit commercial and civilian infrastructure in western and northern Ukraine, injuring several civilians.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-16T09:56:19Z",
+     "published": "2026-10-16T14:55:02Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Russian drone strikes shopping centre in Sumy, injuring several people",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058302/",
+       "outlet": "SRF News (Switzerland)",
+       "title": "Air traffic control glitch disrupts flights over Italy",
+       "url": "https://www.srf.ch/news/international/stoerung-bei-flugsicherung-flugverkehr-ueber-italien-gestoert-auch-swiss-betroffen",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Störung bei Flugsicherung – Flugverkehr über Italien gestört"
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Technical glitch partially paralyzes air traffic in Italy",
+       "url": "https://www.tagesschau.de/ausland/europa/flugverkehr-italien-100.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Technische Panne legt Flugverkehr in Italien teilweise lahm"
+      }
+     ]
+    },
+    {
+     "id": "6b8e0cb8f271",
+     "title": "Norwegian Teenager Sentenced to 20 Years in Prison Over UK Murder Plot",
+     "summary": "A 19-year-old Norwegian national was sentenced to 20 years behind bars for traveling to West Yorkshire to carry out a targeted murder plot.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T13:43:21Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Euronews",
+       "title": "Norwegian teenager sentenced to 20 years in prison over UK murder plot",
+       "url": "https://www.euronews.com/2026/10/16/norwegian-teenager-sentenced-to-20-years-in-prison-over-uk-murder-plot",
        "official": false
       },
       {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Russian drone strikes shopping centre in Rivne",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058307/",
+       "outlet": "BBC News: Europe",
+       "title": "Norwegian teen 'hitman' detained for UK murder plot",
+       "url": "https://www.bbc.co.uk/news/articles/cw8rzpl1ldkdo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4a89ad40db9a",
+     "title": "Irish Police Seize Over €3 Million in Illegal Vapes and Cannabis Products",
+     "summary": "Gardaí confiscated illicit vapes and cannabis-derived products valued at €3 million during multi-county raids.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T12:05:54Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Illegal vapes and cannabis-based products worth over €3m seized",
+       "url": "https://www.thejournal.ie/illegal-vapes-cannabis-based-products-worth-3-million-seized-7195343-Oct2026/",
        "official": false
       },
       {
-       "outlet": "Meduza (Russia)",
-       "title": "Russian drone attack injures 7 in Ukraine’s Rivne",
-       "url": "https://meduza.io/en/news/2026/10/16/russian-drone-attack-injures-7-in-ukraine-s-rivne",
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Illegal vapes, cannabis-based products worth €3m seized",
+       "url": "https://www.rte.ie/news/ireland/2026/1016/1595657-illegal-vapes-cannabis-seizure/",
        "official": false
       }
      ]
@@ -1208,56 +926,60 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "17471bdd2d7e",
-     "title": "Asian Development Bank Chief Warns of High Regional Inflation Amid Global Uncertainty",
-     "summary": "Former Japanese vice finance minister and current ADB leader Masato Kanda warned that the global economy faces unprecedented uncertainty and persistent inflation pressures across Asia.",
+     "id": "80d56756573e",
+     "title": "Bank of Japan Governor Ueda Warns Against Further Inflation Increases",
+     "summary": "BOJ chief Kazuo Ueda signaled that unchecked inflation growth must be constrained to maintain economic stability.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-16T09:17:00Z",
+     "published": "2026-10-16T15:19:07Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "ADB chief warns of high inflation in Asia amid uncertainty",
-       "url": "https://www.japantimes.co.jp/business/2026/10/16/adb-chief-interview/",
+       "outlet": "Nikkei Asia",
+       "title": "BOJ's Ueda says inflation can't be allowed to rise further",
+       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-s-ueda-says-inflation-can-t-be-allowed-to-rise-further",
        "official": false
       }
      ]
     },
     {
-     "id": "cec20a4597af",
-     "title": "Toyota to Deploy Tesla-Style EV Manufacturing Technology at New Shanghai Plant",
-     "summary": "Toyota is constructing a new manufacturing facility in Shanghai scheduled to open in 2027 that will incorporate its own adaptation of Tesla's advanced electric vehicle production techniques.",
+     "id": "b69ab0466d6b",
+     "title": "Japan Meteorological Agency Apologizes for M9.9 Earthquake False Alarm",
+     "summary": "The agency issued a rare apology after an emergency earthquake alert was canceled due to an extreme overestimation of seismic magnitude.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-16T09:12:00Z",
+     "published": "2026-10-16T14:06:22Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Toyota to debut its own version of Tesla EV-making tech in China",
-       "url": "https://www.japantimes.co.jp/business/2026/10/16/companies/toyota-electric-vehicle-china/",
-       "official": false
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Emergency earthquake alert canceled for the first time; M9.9 overestimated, Meteorological Agency apologizes",
+       "url": "https://mainichi.jp/articles/20261016/k00/00m/040/368000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "緊急地震速報、初の警報取り消し M9.9と過大推定、気象庁が謝罪"
       }
      ]
     },
     {
-     "id": "0624c5f2f613",
-     "title": "Busan International Film Festival Highlights Rising Asian Cinema and Talent",
-     "summary": "The Busan International Film Festival drew international attention by honoring notable figures like director Majid Majidi and actor Michelle Yeoh during its showcase of regional talent.",
-     "importance": 2,
+     "id": "7ef989518608",
+     "title": "TSMC Kumamoto Facility to Fully Convert Second Plant to 3nm Tech",
+     "summary": "Driven by intense AI demand, TSMC's Kumamoto plant will shift its second facility entirely to cutting-edge 3-nanometer semiconductor production.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-16T09:13:00Z",
+     "published": "2026-10-16T12:15:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Busan International Film Festival builds momentum as an ‘A-list’ festival",
-       "url": "https://www.japantimes.co.jp/culture/2026/10/16/film/31st-busan-international-film-festival-a-list/",
-       "official": false
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "TSMC Kumamoto plant to fully convert second facility to 3-nanometer tech, a Japan first driven by AI demand",
+       "url": "http://www.asahi.com/articles/ASVBJ3VNZVBJULFA01YM.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "TSMC熊本第2工場、3ナノに全面転換 国内初、AI需要見込む"
       }
      ]
     }
@@ -1267,115 +989,19 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "0aac534b58ab",
-     "title": "Special Counsel Seeks 30-Year Prison Term for Ex-President Yoon Over North Korean Drone Incursions",
-     "summary": "A special counsel team demanded a 30-year sentence for former President Yoon Suk Yeol during his appeals trial concerning alleged provocation tactics involving North Korean drone incursions.",
-     "importance": 4,
+     "id": "4ce203c15afa",
+     "title": "North Korea Rejects Seoul's Hypersonic Missile Claims and Defends Arms Buildup",
+     "summary": "Pyongyang dismissed recent South Korean military assessments regarding its hypersonic weapon tests while defending its ongoing national defense expansion.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-16T10:57:03Z",
+     "published": "2026-10-16T14:43:37Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Korea Times",
-       "title": "Special counsel seeks 30-year term for ex-president over NK drone incursion",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261016/special-counsel-seeks-30-year-term-for-ex-president-over-nk-drone-incursion?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ec4135ff2b4a",
-     "title": "One Firefighter in Cardiac Arrest and Seven Injured in Bucheon Factory Blaze",
-     "summary": "A major fire at a four-story metalworking factory in Bucheon left one firefighter in cardiac arrest and seven others injured after rapid spreading fueled by improperly stored flammable materials.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-16T10:57:03Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "The Korea Herald",
-       "title": "Seven injured in Bucheon factory fire",
-       "url": "https://www.koreaherald.com/article/10904886",
-       "official": false
-      },
-      {
        "outlet": "Yonhap News",
-       "title": "(3rd LD) 1 firefighter in cardiac arrest, 7 others injured in Bucheon factory fire",
-       "url": "https://en.yna.co.kr/view/AEN20261016003453315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Fire-hit Bucheon factory stored flammables without sprinklers on-site",
-       "url": "https://www.koreaherald.com/article/10905481",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "1 firefighter in cardiac arrest, 7 others injured in Bucheon factory fire",
-       "url": "https://www.koreatimes.co.kr/southkorea/20261016/1-firefighter-in-cardiac-arrest-7-others-injured-in-bucheon-factory-fire?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "339f0967b80e",
-     "title": "Police Identify Suspect in Incheon Commercial Complex Knife Attack",
-     "summary": "Law enforcement officials identified the suspect behind a knife attack at an Incheon commercial complex that injured eight people, as the individual attended an initial arrest warrant hearing.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-16T10:57:03Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "Suspect in Incheon knife attack attends arrest warrant hearing",
-       "url": "https://en.yna.co.kr/view/AEN20261016006700315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Police identify suspect in Incheon knife attack",
-       "url": "https://www.koreaherald.com/article/10905517",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "Police release identity of Incheon stabbing suspect",
-       "url": "https://en.yna.co.kr/view/AEN20261016009200320",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Suspect in Incheon knife attack attends arrest warrant hearing",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261016/suspect-in-incheon-knife-attack-attends-arrest-warrant-hearing?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d5d365c9e605",
-     "title": "K-Pop Singer Song Min-ho Ordered to Reenlist Following Alternative Service Violations",
-     "summary": "WINNER member Song Min-ho must complete a mandatory military reenlistment after a court found him guilty of failing to report for duty during his alternative public service.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-16T10:57:03Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "WINNER's Song Min-ho to reenlist over negligence in mandatory service",
-       "url": "https://en.yna.co.kr/view/AEN20261016008900315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "WINNER's Song Min-ho to reenlist over negligence in mandatory service",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261016/winners-song-min-ho-to-reenlist-over-negligence-in-mandatory-service?utm_source=rss",
+       "title": "Pyongyang rejects Seoul's hypersonic test claims, justifies own arms buildup",
+       "url": "https://en.yna.co.kr/view/AEN20261016009300320",
        "official": false
       }
      ]
@@ -1386,19 +1012,169 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "cbb25cf52686",
-     "title": "Cronos: The New Dawn (Switch 2) on Sale for $23.99 at Amazon",
-     "summary": "Amazon has discounted Cronos: The New Dawn for the Nintendo Switch 2 down to $23.99.",
+     "id": "a2ea328adfb0",
+     "title": "Save Up to $800 on Latest Apple MacBook Pro Models at Amazon",
+     "summary": "Major price cuts hit Apple's newest 14-inch and 16-inch MacBook Pro laptops, offering deep savings on high-end configurations.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-16T14:45:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Massive Discounts Hit 2026 MacBook Pro With Up to $800 Off",
+       "url": "https://www.macrumors.com/2026/10/16/discounts-macbook-pro/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "72dbaee67a85",
+     "title": "Wireless Carriers Offer Up to $1,200 in Bill Credits for iPhone Duo Pre-Orders",
+     "summary": "Major telecommunications carriers are launching aggressive trade-in incentives and bill credit promotions for Apple's newly announced folding phone.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-16T12:13:21Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Save up to $1,200 on Apple's iPhone Duo",
+       "url": "https://appleinsider.com/articles/26/10/16/save-up-to-1200-on-apples-iphone-duo?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0040339887a0",
+     "title": "Amazon Discounts New Apple TV 4K and HomeView Devices at Launch",
+     "summary": "Fresh off their announcement, Apple's updated HomeView and A19 Apple TV 4K have received their first cash discounts on Amazon.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-15T23:16:37Z",
+     "published": "2026-10-16T14:13:43Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "First Apple TV 4K Pre-Order Discount Arrives at Amazon",
+       "url": "https://www.macrumors.com/2026/10/16/apple-tv-4k-pre-order-discount/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Amazon cuts 2026 Apple TV 4K, HomeView prices with preorder deals",
+       "url": "https://appleinsider.com/articles/26/10/16/amazon-cuts-2026-apple-tv-4k-homeview-prices-with-preorder-deals?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Pre-Orders Kick Off With First Discounts on HomeView and Apple TV 4K",
+       "url": "https://www.macrumors.com/2026/10/16/apple-pre-orders-first-discounts/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cffa78ea6771",
+     "title": "Get $250 PlayStation Store Gift Cards for $222.22 on Newegg",
+     "summary": "Newegg is discounting select digital PlayStation Store gift card denominations using a promotional checkout code.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-16T13:47:02Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Cronos: The New Dawn (Switch 2 KC) is $23.99 on Amazon amzn.to/3UDY2Hk #ad $29.99 GOG buff.ly/dJ4LCnF",
-       "url": "https://amzn.to/3UDY2Hk",
+       "title": "Sony PlayStation Store $250 Gift Card Code is $222.22 on Newegg w/ code GTWF368 buff.ly/AoVvArA #ad",
+       "url": "https://buff.ly/AoVvArA",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "dfee1df2f602",
+     "title": "Save $20 on Mega Man Star Force Legacy Collection on Nintendo Switch",
+     "summary": "Amazon has dropped the price of the physical Nintendo Switch collection down to $24.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-16T12:58:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Mega Man Star Force Legacy Collection (Switch) is $24.99 on Amazon amzn.to/3YAlpn6 #ad",
+       "url": "https://amzn.to/3YAlpn6",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bbf8879b78ef",
+     "title": "Save $20 on a $170 Nintendo eShop Gift Code Bundle at Newegg",
+     "summary": "Newegg's Deal of the Day offers a combined $170 in Nintendo eShop credit for $150.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-16T12:56:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "$170 in Nintendo eShop Gift Codes ($150 + $20) is $150 on Newegg DOTD buff.ly/eHfG8c6 #ad eShop balance works on Nintendo Store (hardware, consoles, physical games, etc.) Wallet limit is $800",
+       "url": "https://buff.ly/eHfG8c6",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "635a29e614a1",
+     "title": "Pre-Order Discounts Hit Upcoming Switch 2 and PS5 Physical Releases",
+     "summary": "Retailers have opened pre-orders with early promotional pricing for upcoming physical titles like Kitaria Fables 2 and Stellar Blade's SteelBook edition.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-16T15:07:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Lost Castle Complete Edition (Switch English/Asia import) up for preorder at VGP ($38.69 US Dollars) buff.ly/GeBeItA #ad",
+       "url": "https://buff.ly/GeBeItA",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Stellar Blade Complete SteelBook Edition (Switch 2) preorder up at VGP ($63.40 US Dollars) buff.ly/773S8bu #ad",
+       "url": "https://buff.ly/773S8bu",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Kitaria Fables 2 (PS5/Switch 2 KC) up for preorder at Best Buy ($34.99/$39.99) buff.ly/wjmElIx #ad",
+       "url": "https://buff.ly/wjmElIx",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4403c09499d2",
+     "title": "Save 20% on the Pokémon Deluxe Character Guide Limited Edition Box Set",
+     "summary": "The hardcover collector's box set is currently marked down to $159.36 on Amazon.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-16T13:25:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Pokémon Deluxe Character Guide Limited Edition Box Set Collection hardcover is $159.36 on Amazon (20% off) amzn.to/4dE5hcA #ad",
+       "url": "https://amzn.to/4dE5hcA",
        "official": false
       }
      ]
@@ -1407,14 +1183,14 @@
   }
  ],
  "date": "2026-10-16",
- "generated_at": "2026-10-16T11:01:29Z",
+ "generated_at": "2026-10-16T15:19:07Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1076,
-  "clusters": 936,
-  "feeds_ok": 175,
-  "feeds_failed": 1
+  "items": 870,
+  "clusters": 786,
+  "feeds_ok": 174,
+  "feeds_failed": 2
  },
  "feed_health": [
   {
@@ -1422,6 +1198,12 @@
    "title": "Meta AI (mirror)",
    "status": "stale",
    "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "hn-claude",
+   "title": "HN: Claude/Anthropic",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=Claude+OR+Anthropic&points=50"
   },
   {
    "key": "wapo-politics",
