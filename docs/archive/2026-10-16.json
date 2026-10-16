@@ -1,0 +1,1445 @@
+{
+ "version": 1,
+ "headline": "Meta launches Muse Spark Open, Trump criticizes Ukraine energy strikes, and FTC probes major AI labs.",
+ "top": [
+  {
+   "id": "c5a2d2108a73",
+   "title": "Meta Unveils Muse Spark Open, a Massive Open-Weight Multimodal Model Optimized for Mac Studio",
+   "summary": "Meta has released Muse Spark Open, an 816-billion-parameter open-weight model capable of processing text, images, video, and audio with up to a one-million-token context window. Apple and Meta have partnered to optimize the model to run locally on Apple hardware.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-15T20:04:53Z",
+   "outlet_count": 6,
+   "sources": [
+    {
+     "outlet": "9to5Mac",
+     "title": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio",
+     "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it",
+     "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Meta and Apple Bring Muse Spark Open AI Model to Mac Studio",
+     "url": "https://www.macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio/",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Muse Spark Open",
+     "url": "https://research.meta.ai/blog/muse-spark-open",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+     "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Meta launches an open-weight AI model that runs on Macs",
+     "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "7b9899dd269c",
+   "title": "FTC Launches Formal Investigation into Anthropic and OpenAI Following Safety Concerns",
+   "summary": "The Federal Trade Commission has opened a probe into Anthropic and OpenAI to investigate potential consumer harms and safety failures. The inquiry follows mounting federal scrutiny and recent statements from political leaders regarding AI risk assessments.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-15T19:28:53Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+     "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "FTC subpoenas OpenAI and Anthropic following safety failures",
+     "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "6de686e7bc47",
+   "title": "Trump Slams Ukraine’s Resumed Strikes on Russian Oil Refineries as a 'Disgrace'",
+   "summary": "U.S. President Donald Trump strongly criticized Kyiv's decision to resume attacks on Russian energy infrastructure after a brief pause. The comments widened an emerging diplomatic rift between Washington and European allies supporting Volodymyr Zelensky.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-16T10:37:47Z",
+   "outlet_count": 13,
+   "sources": [
+    {
+     "outlet": "RFI (France)",
+     "title": "Zelensky rallies European allies after defying Trump over Russia strikes",
+     "url": "https://www.rfi.fr/en/international/20261015-zelensky-rallies-european-allies-as-trump-ties-slump",
+     "official": false
+    },
+    {
+     "outlet": "Foreign Policy",
+     "title": "Ukraine Resumes Strikes on Russian Oil Refineries",
+     "url": "https://foreignpolicy.com/2026/10/15/ukraine-strikes-russia-oil-refineries-zelensky-trump-starlink-energy-cease-fire/",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "Zelensky rallies European allies as US support for Ukraine wanes",
+     "url": "https://www.france24.com/en/europe/20261015-zelensky-rallies-european-allies-as-us-support-for-ukraine-wanes",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Trump calls Ukraine's strikes on Russian oil a 'disgrace' after his 'energy ceasefire' collapses",
+     "url": "https://www.thejournal.ie/trump-zelenskyy-russia-oil-strikes-7195047-Oct2026/",
+     "official": false
+    },
+    {
+     "outlet": "Helsinki Times (Finland)",
+     "title": "Trump calls Ukrainian strikes on Russian refineries a 'disgrace'",
+     "url": "https://www.helsinkitimes.fi/world-int/29396-trump-calls-ukrainian-strikes-on-russian-refineries-a-disgrace.html",
+     "official": false
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "Trump calls Zelensky ‘more difficult to deal with than Putin,’ says he’s ‘not a big fan’",
+     "url": "https://meduza.io/en/news/2026/10/16/trump-calls-zelensky-more-difficult-to-deal-with-than-putin-says-he-s-not-a-big-fan",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’",
+     "url": "https://www.nbcnews.com/world/ukraine/trump-ukraine-strikes-russian-oil-disgrace-zelenskyy-starlink-rcna603848",
+     "official": false
+    },
+    {
+     "outlet": "Times of India: World",
+     "title": "Trump calls Ukraine attack on Russian oil refineries 'a disgrace', irks Zelenskyy",
+     "url": "https://timesofindia.indiatimes.com/world/europe/trump-calls-ukraine-attack-on-russian-oil-refineries-a-disgrace-irks-zelenskyy/articleshow/134989707.cms",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump calls Ukraine's renewed strikes on Russian oil refineries 'a disgrace'",
+     "url": "https://uk.news.yahoo.com/trump-calls-ukraine-renewed-strikes-090456352.html",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: US",
+     "title": "Trump calls Ukraine’s renewed strikes on Russian oil refineries ‘a disgrace’",
+     "url": "https://www.theguardian.com/world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace",
+     "official": false
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "EU rallies around Zelensky as rift widens with Trump over Russia energy strikes",
+     "url": "https://www.scmp.com/news/world/europe/article/3371174/european-leaders-back-zelensky-ukraine-us-ties-fray-over-trumps-russia-sanctions-lift?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "Trump slams Ukraine’s decision to resume energy strikes as a ‘disgrace’",
+     "url": "https://www.politico.eu/article/trump-slams-ukraine-decision-resume-energy-strikes-russia-disgrace/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
+     "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "88ca2255f789",
+   "title": "Jagex Cancels RuneScape Reignited Following Massive Player Backlash",
+   "summary": "Jagex has pulled the plug on RuneScape Reignited less than two weeks after its initial announcement. The rapid cancellation came directly in response to an overwhelming wave of negative player feedback.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-16T09:07:10Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "IGN",
+     "title": "RuneScape Reignited Canceled Less Than Two Weeks After Being Announced",
+     "url": "https://www.ign.com/articles/runescape-reignited-cancelled-less-than-two-weeks-after-being-announced",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "RuneScape Reignited Canceled by Jagex After Player Feedback",
+     "url": "https://insider-gaming.com/runescape-reignited-canceled/",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "Jagex cancels RuneScape Reignited less than two weeks after it was announced, due to \"a ton\" of player feedback",
+     "url": "https://www.eurogamer.net/runescape-reignited-cancelled-two-weeks-player-feedback",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "c4c0f87d8a35",
+   "title": "White House Reportedly Ordered Restrictions on Starlink Access for Ukraine's Military",
+   "summary": "Unnamed officials told Reuters that the White House issued the directive restricting the operation of SpaceX's military-grade Starlink network in Ukraine. The policy adjustment adds further tension to cross-border logistics and communications.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-16T07:16:12Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Two US officials and a Western official say the order to limit Ukraine's access to SpaceX's Starshield came from inside the White House (Reuters)",
+     "url": "https://www.techmeme.com/261015/p55#a261015p55",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Order limiting Starlink access for Ukraine's military came from within White House, Reuters reports",
+     "url": "https://kyivindependent.com/order-limiting-starlink-access-for-ukraines-military-came-from-within-white-house-reuters-reports/",
+     "official": false
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "Order to restrict Starlink’s operations in Ukraine came from White House, Reuters reports",
+     "url": "https://meduza.io/en/news/2026/10/16/order-to-restrict-starlink-s-operations-in-ukraine-came-from-white-house-reuters-reports",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "a72d1e4da6b0",
+     "title": "OpenAI Launches Academic Research Plan for GPT-Rosalind",
+     "summary": "OpenAI introduced the Rosalind Academic Plan, providing eligible academic laboratories with sponsored access to GPT-Rosalind and specialized tools for life sciences research.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-15T19:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "Bringing GPT-Rosalind to academic research labs",
+       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "9a4f28a5b71d",
+     "title": "Microsoft Unveils MAI-Base-2 Mixture-of-Experts Model",
+     "summary": "Microsoft AI has announced MAI-Base-2, a massive MoE model boasting 2.8 trillion total parameters and 80 billion active parameters. The company claims significant efficiency gains over competing architectures.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-16T02:20:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FLOPs-efficiency than DeepSeek-V4-Pro-Base (Microsoft AI)",
+       "url": "https://www.techmeme.com/261015/p59#a261015p59",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a01480253e96",
+     "title": "NVIDIA RTX Spark Platform Launches for Windows PCs",
+     "summary": "NVIDIA is launching RTX Spark, a new hardware and software ecosystem designed to power creators, gamers, and local AI agents on Windows PCs.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-15T17:00:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "1d4cff712a9a",
+     "title": "Google DeepMind Introduces Antigravity for Antimicrobial Peptide Research",
+     "summary": "Google DeepMind has launched Google Antigravity for Science to accelerate the search and discovery of novel antimicrobial peptides.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-15T16:08:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Google DeepMind",
+       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+       "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "ba4e7337aba2",
+     "title": "Hugging Face Details Scaling Pipeline for Indic Pretraining Models",
+     "summary": "Hugging Face published details on its 2.8-trillion-token pretraining dataset and open data generation pipeline aimed at scaling Indic language models.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-16T01:44:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hugging Face Blog",
+       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "a01e02239da0",
+     "title": "IBM Releases Granite Switch 4.1 for Multimodal Endpoints",
+     "summary": "IBM released Granite Switch 4.1, a unified endpoint supporting chat, decision-making, and speech capabilities from a single integration.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-15T20:34:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hugging Face Blog",
+       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+       "official": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "6327bf4d2077",
+     "title": "Withings Gates Apple Health Syncing Behind $99 Annual Subscription for New Users",
+     "summary": "Smart health company Withings is now requiring new users to purchase its own software subscription plan in order to sync third-party data with Apple Health.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T23:02:04Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+       "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+       "url": "https://www.macrumors.com/2026/10/15/withings-plus-apple-health-syncing/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Withings wants you to pay $100 a year to sync a scale with Apple Health",
+       "url": "https://appleinsider.com/articles/26/10/15/withings-wants-you-to-pay-100-a-year-to-sync-a-scale-with-apple-health?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Withings wants new users to pay $100 a year to sync with Apple Health",
+       "url": "https://www.engadget.com/2288346/withings-wants-new-users-to-pay-100-a-year-to-sync-with-apple-health/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "72cda0649a5c",
+     "title": "Online Apple Store Goes Down Ahead of iPhone Duo Pre-Orders",
+     "summary": "Apple's digital storefront went offline in preparation for pre-orders for the company's first folding phone line, the iPhone Duo.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-16T09:36:05Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple Store is down ahead of iPhone Duo preorder rush",
+       "url": "https://9to5mac.com/2026/10/16/apple-store-is-down-ahead-of-iphone-duo-preorder-rush/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Online Apple Store goes down ahead of iPhone Duo pre-orders",
+       "url": "https://appleinsider.com/articles/26/10/16/online-apple-store-goes-down-ahead-of-iphone-duo-pre-orders?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Store Down Ahead of iPhone Duo Pre-Orders",
+       "url": "https://www.macrumors.com/2026/10/16/apple-store-down-ahead-of-iphone-duo-pre-orders/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Apple's $2,000 iPhone Duo goes on pre-order today at 8AM ET",
+       "url": "https://www.engadget.com/2288565/apple-iphone-duo-pre-orders-open-today/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "090e3a2ea566",
+     "title": "ChatGPT Browser Extension Gains Ability to Inspect Open Chrome Tabs",
+     "summary": "OpenAI has updated its ChatGPT browser extension to let the assistant view and compare information across active user tabs to perform automated tasks.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-16T10:06:15Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "ChatGPT can peek at your Chrome tabs now",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "ChatGPT can now look at your Chrome tabs to do tasks for you",
+       "url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aba007480892",
+     "title": "Tim Cook Confirms Chinese Approval for Apple Intelligence Test Version",
+     "summary": "During an interview with Chinese state media, Apple CEO Tim Cook stated that regulators have approved Apple Intelligence, with a test rollout arriving in late October without Siri AI integration.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-16T06:05:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Chinese state media: during an interview, Tim Cook says China has approved Apple Intelligence, and a test version will arrive in late October without Siri AI (Reuters)",
+       "url": "https://www.techmeme.com/261016/p2#a261016p2",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f38d2a351b56",
+     "title": "Apple and Nvidia Reportedly Among Top Donors to Trump’s White House Ballroom Project",
+     "summary": "An investigative report by The Washington Post indicates that Apple and Nvidia each pledged $25 million toward the construction of a new White House ballroom.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T21:22:49Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Pledged $25 Million to Trump's White House Ballroom",
+       "url": "https://www.macrumors.com/2026/10/15/apple-25-million-white-house-ballroom/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "WaPo: Apple revealed as one of the top donors to Trump’s White House ballroom",
+       "url": "https://9to5mac.com/2026/10/15/wapo-apple-revealed-as-one-of-the-top-donors-to-trumps-white-house-ballroom/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e925c3137a8a",
+     "title": "Anthropic Grants METR Direct Employee-Level Access for Safety Assessments",
+     "summary": "Anthropic has given researchers from METR independent, employee-level access to inspect frontier models under the hood, relinquishing its right to block public findings.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T19:14:26Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+       "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8a8d9007ed09",
+     "title": "Gurman: Apple Tested Both 60Hz and 120Hz Displays for Future iPad Mini",
+     "summary": "According to Bloomberg's Mark Gurman, Apple evaluated both standard 60Hz and ProMotion 120Hz displays for upcoming OLED iPad mini iterations, though final specifications remain unconfirmed.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-15T18:33:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Gurman: Apple tested 120Hz and 60Hz displays for OLED iPad",
+       "url": "https://appleinsider.com/articles/26/10/15/gurman-apple-tested-120hz-and-60hz-displays-for-oled-ipad?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "iPad Mini 8: Apple Has Tested Both 60Hz and 120Hz ProMotion Displays",
+       "url": "https://www.macrumors.com/2026/10/15/ipad-mini-8-120hz-tested/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "02d6c4d2e4dc",
+     "title": "BIPM Officially Votes to Stop Adding Leap Seconds to UTC",
+     "summary": "The International Bureau of Weights and Measures voted to discontinue the addition of leap seconds to Coordinated Universal Time, preventing future software and infrastructure synchronization failures.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-16T10:00:25Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "BIPM decides to stop adding leap seconds to UTC",
+       "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Time is a-changin’: say goodbye to the leap second",
+       "url": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "6ab9b1190195",
+     "title": "Valve Rolls Out Steam Achievement Sets in Beta to Split Up DLC Trophies",
+     "summary": "Valve has released a beta update for Steam that organizes sprawling game achievement lists into distinct buckets for base games, DLC, and season passes.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-16T10:46:13Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Valve: Steam Achievement Sets Now in Beta steamcommunity.com/games/593110...",
+       "url": "https://steamcommunity.com/games/593110/announcements/detail/710037059469839142",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Steam can now show game achievements in separate ‘sets’",
+       "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Steam achievements are getting a huge overhaul, with separate sets for DLC and season passes, and an easy way to compare with friends",
+       "url": "https://www.pcgamer.com/software/platforms/steam-achievements-are-getting-a-huge-overhaul-with-separate-sets-for-dlc-and-season-passes-and-an-easy-way-to-compare-with-friends/",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Valve roll out Steam Achievement Sets in beta, splitting up games’ perpetually growing trophy masses into DLC and season buckets",
+       "url": "https://www.rockpapershotgun.com/valve-roll-out-steam-achievement-sets-in-beta-splitting-up-games-perpetually-growing-trophy-masses-into-dlc-and-season-buckets",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Steam is introducing Achievement Sets, designed to improve the achievement earning experience",
+       "url": "https://store.steampowered.com/news/group/42342144/view/688645594881721151",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "969d0fff9036",
+     "title": "Control Resonant Reaches One Million Sales in Three Weeks as Remedy's Fastest-Selling Game",
+     "summary": "Remedy Entertainment announced that Control Resonant has cleared one million copies sold, outpacing Alan Wake 2 despite suffering from digital leaks and piracy shortly after launch.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-16T11:00:24Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "Control Resonant sells 1 million copies in 3 weeks to become Remedy's fastest-selling game ever",
+       "url": "https://www.pcgamer.com/games/action/control-resonant-sells-1-million-copies-in-3-weeks-to-become-remedys-fastest-selling-game-ever/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Remedy Boss Reacts After Control Resonant Sells 1 Million Copies, Becoming Studio's Fastest-Selling Game",
+       "url": "https://www.ign.com/articles/remedy-boss-reacts-after-control-resonant-sells-1-million-copies-becoming-studios-fastest-selling-game",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Control Resonant becomes the fastest-selling game in Remedy's history, outpacing Alan Wake 2 and the original Control",
+       "url": "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9edef10c936a",
+     "title": "Call of Duty: Modern Warfare 4 Confirmed as a Standalone Release for October 23",
+     "summary": "Xbox and Activision confirmed that Modern Warfare 4 will arrive as a full standalone launch later this month, with campaign early access kicking off immediately.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-16T10:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Modern Warfare 4 Launches October 23 as a Standalone Release",
+       "url": "https://news.xbox.com/en-us/2026/10/15/modern-warfare-4-launches-october-23-as-a-standalone-release/",
+       "official": true
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Nine Xbox Games Are Out Today, Including Modern Warfare 4 Campaign Early Access (October 16)",
+       "url": "https://www.purexbox.com/news/2026/10/nine-xbox-games-are-out-today-including-modern-warfare-4-campaign-early-access-october-16",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3305dae131e7",
+     "title": "Climbing Game Peak Expands to PS5 and Switch 2 Next Week",
+     "summary": "Team Peak announced that its cooperative climbing indie hit Peak is arriving on PlayStation 5 and Nintendo Switch 2 on October 22.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-16T09:30:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "Peak climbs its way onto PS5 October 22",
+       "url": "https://blog.playstation.com/2026/10/15/peak-climbs-its-way-onto-ps5-october-22/",
+       "official": true
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "'Peak', The Beloved Indie Climber, Scales October's Stacked Switch 2 Release Schedule",
+       "url": "https://www.nintendolife.com/news/2026/10/peak-the-beloved-indie-climber-scales-octobers-stacked-switch-2-release-schedule",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cb8d106b06a3",
+     "title": "Footage From Unreleased Assassin’s Creed Game Set in China Surfaces Online",
+     "summary": "Gameplay footage from a reportedly cancelled Ubisoft project known internally as Assassin’s Creed Destiny leaked online.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Gaming",
+     "published": "2026-10-16T09:35:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Footage from a reportedly cancelled Assassin’s Creed game set in China has leaked",
+       "url": "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "392ec4c07c2f",
+     "title": "Game Freak Concludes Post-Launch Update Schedule for Beast of Reincarnation",
+     "summary": "Game Freak announced that the upcoming October 19 patch for Beast of Reincarnation will serve as the final major update for the action title.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-16T10:30:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Game Freak Announces Beast of Reincarnation Update Cycle is Ending",
+       "url": "https://insider-gaming.com/game-freak-announces-beast-of-reincarnation-update-cycle-is-ending/",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Pokémon Dev Already Finished with Beast of Reincarnation PS5 Patches",
+       "url": "https://www.pushsquare.com/news/2026/10/pokemon-dev-already-finished-with-beast-of-reincarnation-ps5-patches",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "153705541bef",
+     "title": "Three Children and a Teacher Killed in Oregon Elementary School Shooting",
+     "summary": "A shooting at Silver Rail Elementary School in Bend, Oregon, left three children and a teacher dead, with two others critically wounded before a bystander shot and killed the suspect.",
+     "importance": 5,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-16T10:37:24Z",
+     "outlet_count": 14,
+     "sources": [
+      {
+       "outlet": "Straight Arrow News",
+       "title": "3 children, 1 teacher, killed during shooting in Oregon elementary school",
+       "url": "https://san.com/cc/police-respond-to-shooting-at-elementary-school/",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Oregon school shooting: Gunman kills 3 students and teacher before being shot dead by community member",
+       "url": "https://www.dw.com/en/oregon-school-shooting-gunman-kills-3-students-and-teacher-before-being-shot-dead-by-community-member/a-79674849?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "Sky News: World",
+       "title": "Children aged 5, 8 and 11 killed in US school shooting",
+       "url": "https://news.sky.com/story/multiple-fatalities-after-school-shooting-in-oregon-nbc-news-reports-13599795",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Three children and one teacher killed in Oregon school shooting: Police",
+       "url": "https://www.channelnewsasia.com/world/us-oregon-elementary-school-shooting-dead-6464226",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "3 children, 1 teacher dead after shooting at Oregon elementary school, police say",
+       "url": "https://www.cbc.ca/news/world/oregon-school-shooting-9.7382749?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "5 dead, including suspect, after Oregon elementary school shooting",
+       "url": "https://thehill.com/homenews/state-watch/6152592-bend-oregon-elementary-school-shooting/",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Oregon police give details on elementary school shooting",
+       "url": "https://www.cbsnews.com/video/oregon-police-give-details-elementary-school-shooting/",
+       "official": false
+      },
+      {
+       "outlet": "Courthouse News Service",
+       "title": "3 children, 1 teacher and suspect killed in Oregon elementary school shooting",
+       "url": "https://www.courthousenews.com/3-children-1-teacher-and-suspect-killed-in-oregon-elementary-school-shooting/",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "Three Children and One Teacher Killed in Elementary-School Shooting in Oregon",
+       "url": "https://www.wsj.com/us-news/three-children-and-one-adult-killed-in-elementary-school-shooting-in-oregon-723a6c4f?mod=rss_usnews",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "What we know about the Oregon school shooting that killed 3 children and a teacher",
+       "url": "https://www.nbcnews.com/news/us-news/oregon-school-shooting-elementary-bend-victims-shooter-death-what-know-rcna603793",
+       "official": false
+      },
+      {
+       "outlet": "Time",
+       "title": "What We Know So Far About the Elementary School Shooting in Bend, Oregon",
+       "url": "https://time.com/article/2026/10/16/bend-oregon-shooting-silver-rail-elementary-school/",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "'They're babies': Oregon mourns 3 children killed in elementary school shooting",
+       "url": "https://www.yahoo.com/news/us/article/multiple-people-reportedly-killed-after-shooting-at-oregon-elementary-school-230432197.html",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "Teen shooter kills 3 children, 1 teacher at elementary school in Bend, Oregon: Police",
+       "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
+       "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
+       "url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "04804af47706",
+     "title": "Justice Department Sues California Over Allegations That 20,000 Noncitizens Are Registered to Vote",
+     "summary": "The U.S. Department of Justice filed a lawsuit against California demanding the state block ballots for roughly 20,000 individuals it claims are noncitizens, a point disputed by state election officials.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-16T10:38:55Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Roll Call",
+       "title": "DOJ sues California over mail ballots, alleging they were sent to noncitizens",
+       "url": "https://rollcall.com/2026/10/15/doj-sues-california-alleging-noncitizen-ballots/",
+       "official": false
+      },
+      {
+       "outlet": "Axios",
+       "title": "Trump sues California to prevent counting 20,000 voters' ballots",
+       "url": "https://www.axios.com/2026/10/15/trump-doj-california-voters-ballots-lawsuit",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Caller",
+       "title": "DOJ Sues California, Alleging 20K Noncitizens Are Registered On State Voter Roll",
+       "url": "https://dailycaller.com/2026/10/15/doj-sues-california-20k-noncitizens-registered-to-vote-gavin-newsom",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "DOJ Sues California to Block Ballots From 20,000 Voters",
+       "url": "https://www.wsj.com/politics/elections/doj-sues-california-to-block-ballots-from-20-000-voters-00d1e6f1?mod=rss_usnews",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Justice Dept. sues California, claims noncitizens were sent ballots",
+       "url": "https://www.cbsnews.com/news/justice-department-california-lawsuit-mail-ballots-noncitizens/",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "Trump DOJ wants California to block ballots. The state disputes its evidence",
+       "url": "https://san.com/cc/trump-doj-wants-california-to-block-ballots-the-state-disputes-its-evidence/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "37830f9ceaac",
+     "title": "Trump Cancels Planned Livestream of Fort Hood Shooter Nidal Hasan's Execution",
+     "summary": "President Trump reversed plans to broadcast the firing squad execution of 2009 Fort Hood shooter Nidal Hasan, deciding instead to limit witnesses to victims' immediate family members following bipartisan pushback.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-16T02:22:17Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Time",
+       "title": "Trump Cancels Livestream of Fort Hood Firing Squad Execution Amid Bipartisan Pushback",
+       "url": "https://time.com/article/2026/10/15/trump-cancels-livestream-of-fort-hood-firing-squad-execution-amid-bipartisan-pushback/",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "Trump cancels Pentagon plans to livestream firing squad execution",
+       "url": "https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/",
+       "official": false
+      },
+      {
+       "outlet": "Fox News: Politics",
+       "title": "Fort Hood survivors praise Trump for scrapping Hasan execution livestream: ‘We’re not barbaric’",
+       "url": "https://www.foxnews.com/politics/fort-hood-survivors-praise-trump-scrapping-hasan-execution-livestream-not-barbaric",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: Politics",
+       "title": "Trump Cancels Planned Execution Livestream of Nidal Hasan, Fort Hood Shooter",
+       "url": "https://www.nytimes.com/2026/10/15/us/politics/trump-hasan-fort-hood-execution-livestream.html",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5a4d64177246",
+     "title": "New White House Press Secretary Katie Zacharia Confirms She Failed Bar Exam",
+     "summary": "Newly appointed White House press secretary Katie Zacharia addressed scrutiny regarding her legal background, confirming publicly that she did not pass the bar exam.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-16T09:21:09Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "White House press secretary Katie Zacharia confirms she never passed bar exam",
+       "url": "https://www.yahoo.com/news/politics/article/trump-called-katie-zacharia-an-attorney-but-she-didnt-pass-the-bar-exam-who-is-the-new-white-house-press-secretary-210339398.html",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "New White House press secretary Katie Zacharia didn't pass the bar exam",
+       "url": "https://www.cbc.ca/news/world/katie-zacharia-interview-press-secretary-role-9.7382401?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "White House press secretary Katie Zacharia says she did not pass bar exam",
+       "url": "https://www.channelnewsasia.com/world/white-house-press-secretary-katie-zacharia-bar-exam-lawyer-6464731",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Zacharia confirms she did not pass bar exam",
+       "url": "https://thehill.com/homenews/administration/6152937-zacharia-bar-exam-white-house/",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "New Trump press secretary says she did not pass bar exam",
+       "url": "https://www.rte.ie/news/world/2026/1016/1595623-katie-zacharia-donald-trump/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "0b08741a946e",
+     "title": "Hurricane Trudy Strengthens to Category 3 Storm Near Mexico's Pacific Coast",
+     "summary": "Hurricane Trudy intensified into a powerful Category 3 storm threatening Mexico's Pacific coastline with maximum sustained winds of 120 mph, prompting local hurricane warnings.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-16T10:45:04Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "Major hurricane Trudy keeps strengthening as it nears Mexico's Pacific coast",
+       "url": "https://www.yahoo.com/news/weather-news/articles/major-hurricane-trudy-keeps-strengthening-103029621.html",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Major hurricane Trudy keeps strengthening as it nears Mexico's Pacific coast",
+       "url": "https://www.straitstimes.com/world/major-hurricane-trudy-keeps-strengthening-as-it-nears-mexicos-pacific-coast",
+       "official": false
+      },
+      {
+       "outlet": "Times of India: World",
+       "title": "Hurricane Trudy becomes major Category 3 storm near Mexico's Pacific Coast",
+       "url": "https://timesofindia.indiatimes.com/world/us/hurricane-trudy-becomes-major-category-3-storm-near-mexicos-pacific-coast/articleshow/134972656.cms",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ba953cb352b5",
+     "title": "Beijing Invites White House Press Secretary for Visit Following 'Proper Toilets' Remark",
+     "summary": "Chinese state media and officials extended an invitation to White House press secretary Katie Zacharia to visit China more frequently after she remarked that the country lacked proper toilet infrastructure.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-16T10:53:29Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Trump's new press secretary says China lacked 'proper' toilets",
+       "url": "https://www.channelnewsasia.com/world/trump-press-secretary-katie-zacharia-china-toilets-6465166",
+       "official": false
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "China invites Trump press secretary Katie Zacharia to visit after ‘proper toilets’ slur",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3371184/china-invites-trump-press-secretary-katie-zacharia-visit-after-proper-toilets-slur?utm_source=rss_feed",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "24e131fc0dca",
+     "title": "British Man Fined in Cyprus Over Toddler's Fatal Hotel Window Fall",
+     "summary": "A British tourist was ordered to pay a €3,000 fine after pleading guilty to negligence in connection with the accidental fall and death of his two-year-old son from a fourth-floor hotel room in Cyprus.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-16T10:05:54Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Sky News: World",
+       "title": "British man fined for causing death of his two-year-old son in Cyprus",
+       "url": "https://news.sky.com/story/british-father-fined-for-causing-death-of-his-two-year-old-son-in-cyprus-13599857",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: World",
+       "title": "British man fined €3,000 for causing two-year-old son’s death in Cyprus",
+       "url": "https://www.theguardian.com/world/2026/oct/16/british-man-joshua-foster-fined-son-death-cyprus",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "0104244a944a",
+     "title": "Nineteen Injured After Minibus Crashes into Channel Tunnel Shuttle Train",
+     "summary": "A minibus carrying truck drivers collided with a freight train loading platform at the French entrance of the Eurotunnel, resulting in 19 injuries.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T06:56:10Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Sky News: World",
+       "title": "19 injured after Channel Tunnel collision between bus and train",
+       "url": "https://news.sky.com/story/19-injured-after-channel-tunnel-collision-between-bus-and-train-on-french-side-13599710",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Bus hits train near Channel Tunnel in France, 19 hurt",
+       "url": "https://www.channelnewsasia.com/world/bus-hits-train-near-channel-tunnel-in-france-19-hurt-6464016",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+       "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "France 24: Europe",
+       "title": "Minibus crashes into train at French Channel Tunnel entrance, injuring 19",
+       "url": "https://www.france24.com/en/europe/20261016-19-injured-as-minibus-crashes-into-train-at-channel-tunnel-entrance",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "Nineteen injured as minibus crashes into Channel Tunnel shuttle train",
+       "url": "https://www.rfi.fr/en/france/20261016-19-injured-as-minibus-slams-into-channel-tunnel-shuttle-train",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2b73b92b2bcf",
+     "title": "France and Germany Reach Deal to Easing EU Car Emissions Rules",
+     "summary": "Berlin and Paris agreed on a joint package aimed at supporting Europe's struggling automotive sector by easing emissions targets and boosting regional R&D to compete with imported electric vehicles.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T10:32:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "France 24: Europe",
+       "title": "France and Germany agree to ease EU car emissions rules in new deal",
+       "url": "https://www.france24.com/en/europe/20261015-france-and-germany-agree-to-ease-eu-car-emissions-rules-in-new-deal",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Germany, France agree on deal to support Europe's struggling car industry",
+       "url": "https://www.dw.com/en/germany-france-agree-on-deal-to-support-europe-s-struggling-car-industry/a-79678595?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8d95ae4179ca",
+     "title": "Senior MEP Suggests 'Switzerland Plus' Deal Option for UK to Re-enter EU Sphere",
+     "summary": "A senior European lawmaker indicated that the United Kingdom could rapidly forge a closer relationship with Brussels through a 'Switzerland plus' style arrangement following renewed domestic debate.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T10:34:25Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Guardian: Europe",
+       "title": "UK could quickly re-enter EU with ‘Switzerland plus’ deal, senior MEP says",
+       "url": "https://www.theguardian.com/politics/2026/oct/16/uk-eu-europe-switzerland-plus-bernd-lange-brexit",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "'Switzerland plus' deal option for UK as it seeks closer ties with EU, senior MEP says",
+       "url": "https://www.euronews.com/2026/10/16/switzerland-plus-deal-option-for-uk-as-it-seeks-closer-ties-with-eu-senior-mep-says",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "de23c89f55fd",
+     "title": "FIFA President Infantino Apologizes to Council Over World Cup Overhaul Proposal",
+     "summary": "FIFA chief Gianni Infantino offered an apology to the FIFA Council for the disruption caused by his controversial World Cup restructuring plan, clarifying that the idea remained only a proposal.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T09:07:50Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "RFI (France)",
+       "title": "Infantino offers apology but 'no answers' at Fifa meeting over World Cup plan",
+       "url": "https://www.rfi.fr/en/international/20261015-infantino-offers-apology-but-no-answers-at-fifa-meeting-over-world-cup-plan",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Infantino apologizes to FIFA Council for World Cup furor but leaves critics unhappy",
+       "url": "https://www.pbs.org/newshour/world/infantino-apologizes-to-fifa-council-for-world-cup-furor-but-leaves-critics-unhappy",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Infantino apologizes to FIFA Council for World Cup sell-off plan",
+       "url": "https://www.politico.eu/article/infantino-apologizes-for-world-cup-private-stakes-sell/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5603d09b7e59",
+     "title": "OpenAI Pledges $5 Million to Mathematics Foundation Following Academic Backlash",
+     "summary": "In an effort to appease mathematical researchers critical of unrequested automated proofs, OpenAI announced a $5 million financial commitment to an independent mathematics foundation.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T10:25:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Euronews",
+       "title": "OpenAI tries to solve mathematician backlash problem by pledging $5 million to math foundation",
+       "url": "https://www.euronews.com/2026/10/16/openai-tries-to-solve-mathematician-backlash-problem-by-pledging-5-million-to-math-foundat",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d17c571eb2e8",
+     "title": "Russian Drone Attacks Strike Ukrainian Cities of Rivne and Sumy",
+     "summary": "Overnight Russian drone strikes hit commercial and civilian infrastructure in western and northern Ukraine, injuring several civilians.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-16T09:56:19Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Russian drone strikes shopping centre in Sumy, injuring several people",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058302/",
+       "official": false
+      },
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Russian drone strikes shopping centre in Rivne",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058307/",
+       "official": false
+      },
+      {
+       "outlet": "Meduza (Russia)",
+       "title": "Russian drone attack injures 7 in Ukraine’s Rivne",
+       "url": "https://meduza.io/en/news/2026/10/16/russian-drone-attack-injures-7-in-ukraine-s-rivne",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "17471bdd2d7e",
+     "title": "Asian Development Bank Chief Warns of High Regional Inflation Amid Global Uncertainty",
+     "summary": "Former Japanese vice finance minister and current ADB leader Masato Kanda warned that the global economy faces unprecedented uncertainty and persistent inflation pressures across Asia.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-16T09:17:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "ADB chief warns of high inflation in Asia amid uncertainty",
+       "url": "https://www.japantimes.co.jp/business/2026/10/16/adb-chief-interview/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cec20a4597af",
+     "title": "Toyota to Deploy Tesla-Style EV Manufacturing Technology at New Shanghai Plant",
+     "summary": "Toyota is constructing a new manufacturing facility in Shanghai scheduled to open in 2027 that will incorporate its own adaptation of Tesla's advanced electric vehicle production techniques.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-16T09:12:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Toyota to debut its own version of Tesla EV-making tech in China",
+       "url": "https://www.japantimes.co.jp/business/2026/10/16/companies/toyota-electric-vehicle-china/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0624c5f2f613",
+     "title": "Busan International Film Festival Highlights Rising Asian Cinema and Talent",
+     "summary": "The Busan International Film Festival drew international attention by honoring notable figures like director Majid Majidi and actor Michelle Yeoh during its showcase of regional talent.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-16T09:13:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Busan International Film Festival builds momentum as an ‘A-list’ festival",
+       "url": "https://www.japantimes.co.jp/culture/2026/10/16/film/31st-busan-international-film-festival-a-list/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "0aac534b58ab",
+     "title": "Special Counsel Seeks 30-Year Prison Term for Ex-President Yoon Over North Korean Drone Incursions",
+     "summary": "A special counsel team demanded a 30-year sentence for former President Yoon Suk Yeol during his appeals trial concerning alleged provocation tactics involving North Korean drone incursions.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-16T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Special counsel seeks 30-year term for ex-president over NK drone incursion",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261016/special-counsel-seeks-30-year-term-for-ex-president-over-nk-drone-incursion?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ec4135ff2b4a",
+     "title": "One Firefighter in Cardiac Arrest and Seven Injured in Bucheon Factory Blaze",
+     "summary": "A major fire at a four-story metalworking factory in Bucheon left one firefighter in cardiac arrest and seven others injured after rapid spreading fueled by improperly stored flammable materials.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-16T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Seven injured in Bucheon factory fire",
+       "url": "https://www.koreaherald.com/article/10904886",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(3rd LD) 1 firefighter in cardiac arrest, 7 others injured in Bucheon factory fire",
+       "url": "https://en.yna.co.kr/view/AEN20261016003453315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Fire-hit Bucheon factory stored flammables without sprinklers on-site",
+       "url": "https://www.koreaherald.com/article/10905481",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "1 firefighter in cardiac arrest, 7 others injured in Bucheon factory fire",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261016/1-firefighter-in-cardiac-arrest-7-others-injured-in-bucheon-factory-fire?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "339f0967b80e",
+     "title": "Police Identify Suspect in Incheon Commercial Complex Knife Attack",
+     "summary": "Law enforcement officials identified the suspect behind a knife attack at an Incheon commercial complex that injured eight people, as the individual attended an initial arrest warrant hearing.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-16T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Suspect in Incheon knife attack attends arrest warrant hearing",
+       "url": "https://en.yna.co.kr/view/AEN20261016006700315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Police identify suspect in Incheon knife attack",
+       "url": "https://www.koreaherald.com/article/10905517",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Police release identity of Incheon stabbing suspect",
+       "url": "https://en.yna.co.kr/view/AEN20261016009200320",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Suspect in Incheon knife attack attends arrest warrant hearing",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261016/suspect-in-incheon-knife-attack-attends-arrest-warrant-hearing?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d5d365c9e605",
+     "title": "K-Pop Singer Song Min-ho Ordered to Reenlist Following Alternative Service Violations",
+     "summary": "WINNER member Song Min-ho must complete a mandatory military reenlistment after a court found him guilty of failing to report for duty during his alternative public service.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-16T10:57:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "WINNER's Song Min-ho to reenlist over negligence in mandatory service",
+       "url": "https://en.yna.co.kr/view/AEN20261016008900315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "WINNER's Song Min-ho to reenlist over negligence in mandatory service",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261016/winners-song-min-ho-to-reenlist-over-negligence-in-mandatory-service?utm_source=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "cbb25cf52686",
+     "title": "Cronos: The New Dawn (Switch 2) on Sale for $23.99 at Amazon",
+     "summary": "Amazon has discounted Cronos: The New Dawn for the Nintendo Switch 2 down to $23.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-15T23:16:37Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Cronos: The New Dawn (Switch 2 KC) is $23.99 on Amazon amzn.to/3UDY2Hk #ad $29.99 GOG buff.ly/dJ4LCnF",
+       "url": "https://amzn.to/3UDY2Hk",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16T11:01:29Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1076,
+  "clusters": 936,
+  "feeds_ok": 175,
+  "feeds_failed": 1
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "wapo-politics",
+   "title": "The Washington Post: Politics",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
+  },
+  {
+   "key": "corriere",
+   "title": "Corriere della Sera (Italy)",
+   "status": "stale",
+   "detail": "no new items since 2024-05-13"
+  },
+  {
+   "key": "nhk",
+   "title": "NHK News (Japanese)",
+   "status": "stale",
+   "detail": "no new items since 2026-08-08"
+  }
+ ]
+}
