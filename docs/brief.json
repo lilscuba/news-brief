@@ -1,293 +1,119 @@
 {
  "version": 1,
- "headline": "President Trump waives Russian sanctions under the Graham Act as Apple adjusts App Store rules against AI deepfakes and Anthropic initiates safety lobbying in Washington.",
+ "headline": "Pope Leo XIV is discharged from the hospital following lung cancer surgery as global leaders react to shifting U.S. sanctions and ongoing geopolitical tensions.",
  "top": [
   {
-   "id": "dc9e2bdca278",
-   "title": "Trump waives Graham Act sanctions on Russia citing national interests",
-   "summary": "President Trump signed an executive order waiving a sweeping package of incoming sanctions and tariffs on Russia that were enacted under the Graham Act. The unexpected move halts measures scheduled to take effect within days and has triggered immediate criticism across Washington and allied capitals.",
+   "id": "830e348bf21c",
+   "title": "Pope Leo XIV Discharged From Hospital Following Successful Lung Cancer Surgery",
+   "summary": "The head of the Catholic Church has left Rome's Gemelli Polyclinic days after undergoing lung cancer surgery and is scheduled to recite the Angelus prayer from his apartment window.",
    "importance": 5,
-   "label": "REPORTED",
-   "category": "US",
-   "published": "2026-10-17T09:55:47Z",
-   "outlet_count": 15,
+   "label": "CONFIRMED",
+   "category": "Europe",
+   "published": "2026-10-17T14:03:45Z",
+   "outlet_count": 8,
    "sources": [
     {
-     "outlet": "Yahoo News",
-     "title": "Trump pauses Russia sanctions passed by Congress, citing U.S. national interest",
-     "url": "https://www.yahoo.com/news/politics/articles/trump-puts-russia-sanctions-passed-014202867.html",
+     "outlet": "Just the News",
+     "title": "Pope Leo to be discharged from hospital on Saturday",
+     "url": "https://justthenews.com/nation/religion/pope-leo-be-discharged-hospital-saturday?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
      "official": false
     },
     {
-     "outlet": "NBC News",
-     "title": "Trump waives new Russia sanctions passed by Congress, citing ‘national interests’",
-     "url": "https://www.nbcnews.com/politics/trump-administration/trump-suspends-new-russia-sanctions-deal-purchase-diesel-citing-nation-rcna603991",
+     "outlet": "France 24: Europe",
+     "title": "Pope Leo returns to Vatican four days after lung cancer surgery",
+     "url": "https://www.france24.com/en/europe/20261017-pope-leo-returns-to-vatican-four-days-after-lung-cancer-surgery",
      "official": false
     },
     {
-     "outlet": "The Hill",
-     "title": "Trump waives Russian sanctions outlined in Graham Act before they take effect",
-     "url": "https://thehill.com/homenews/administration/6155621-trump-waives-russian-sanctions-act-tariffs/",
+     "outlet": "Axios",
+     "title": "A welcome recovery milestone for Pope Leo after cancer surgery",
+     "url": "https://www.axios.com/2026/10/17/pope-leo-xiv-lung-cancer-treatment-hospital-discharge",
      "official": false
     },
     {
-     "outlet": "The Guardian: US",
-     "title": "Trump pauses new Russia sanctions passed by Congress amid deepening row with Ukraine",
-     "url": "https://www.theguardian.com/us-news/2026/oct/17/trump-puts-new-russia-sanctions-passed-by-congress-on-hold-amid-deepening-row-with-ukraine",
-     "official": false
-    },
-    {
-     "outlet": "The Japan Times",
-     "title": "Trump waives new Russia sanctions as Ukraine ties slump",
-     "url": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/trump-waives-russia-sanctions/",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Trump waives new Russia sanctions as Ukraine ties slump",
-     "url": "https://www.channelnewsasia.com/world/trump-waives-russia-sanctions-oil-gas-energy-6467991",
+     "outlet": "The Guardian: World",
+     "title": "Pope Leo discharged from hospital after cancer operation",
+     "url": "https://www.theguardian.com/world/2026/oct/17/pope-leo-discharged-from-hospital-after-cancer-operation",
      "official": false
     },
     {
      "outlet": "ABC News",
-     "title": "Trump signs order waiving Graham Act sanctions on Russia",
-     "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529",
+     "title": "Pope Leo XIV discharged from hospital, to return to Vatican",
+     "url": "https://abcnews.com/International/pope-leo-xiv-discharged-hospital-return-vatican/story?id=137343868",
      "official": false
     },
     {
-     "outlet": "Euronews",
-     "title": "Trump signs executive order waiving new Russia sanctions package",
-     "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
-     "official": false
-    },
-    {
-     "outlet": "The Copenhagen Post (Denmark)",
-     "title": "Trump suspends some sanctions and tariffs on Russia",
-     "url": "https://cphpost.dk/2026-10-17/global/trump-suspends-some-sanctions-and-tariffs-on-russia/",
-     "official": false
-    },
-    {
-     "outlet": "Asahi Shimbun (Japanese)",
-     "title": "Trump Waives Retaliatory Sanctions on Russia, Adopts Conciliatory Stance Amid Diesel Surge Concerns",
-     "url": "http://www.asahi.com/articles/ASVBK2CHPVBKBQBQ0M4M.html?ref=rss",
-     "official": false,
-     "translated_from": "ja",
-     "original_title": "対ロ制裁関税適用せず、融和姿勢、軽油急騰に危機感 トランプ大統領"
-    },
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "Trump Moves Closer to Russia",
-     "url": "https://orf.at/stories/3445353/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Trump nähert sich weiter Russland an"
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "Russia Sanctions on Ice: How Trump Is Moving Closer to Putin",
-     "url": "https://www.tagesschau.de/ausland/amerika/usa-trump-russland-ukraine-100.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Russland-Sanktionen auf Eis: Wie sich Trump Putin weiter annähert"
-    },
-    {
-     "outlet": "New York Times: Politics",
-     "title": "Trump Signs Order Exempting Russia From Sanctions Law",
-     "url": "https://www.nytimes.com/2026/10/16/us/politics/trump-order-russia-sanctions.html",
-     "official": false
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "\"National Interest\": Trump Suspends Planned Sanctions Against Russia",
-     "url": "https://www.tagesschau.de/ausland/amerika/usa-russland-ukraine-sanktionen-100.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "\"Nationales Interesse\" - Trump setzt geplante Sanktionen gegen Russland aus"
-    },
-    {
-     "outlet": "Helsinki Times (Finland)",
-     "title": "Trump blocks new Russia sanctions days before they take effect",
-     "url": "https://www.helsinkitimes.fi/world-int/29399-trump-blocks-new-russia-sanctions-days-before-they-take-effect.html",
-     "official": false
-    },
-    {
-     "outlet": "Axios",
-     "title": "Trump waives new Russia sanctions in the \"national interests\"",
-     "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "533dccea86ed",
-   "title": "Apple updates App Review Guidelines to ban AI nudification and bait-and-switch apps",
-   "summary": "Apple has revised its App Store rules to explicitly prohibit apps that generate non-consensual deepfake nudity or reveal undocumented features post-approval. The policy change aims to curb apps that pass initial review before unlocking illicit or predatory generative features remotely.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-16T23:45:01Z",
-   "outlet_count": 4,
-   "sources": [
-    {
-     "outlet": "9to5Mac",
-     "title": "Apple’s new App Store rules crack down on AI nudification and ‘bait-and-switch’ apps",
-     "url": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "New App Store Rules Target AI Deepfakes and Nudify Apps",
-     "url": "https://www.macrumors.com/2026/10/16/app-store-rules-deepfakes/",
-     "official": false
-    },
-    {
-     "outlet": "The Verge",
-     "title": "Apple’s updated App Store rules go after ‘nudify’ AI apps",
-     "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review (Marcus Mendes/9to5Mac)",
-     "url": "https://www.techmeme.com/261016/p26#a261016p26",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "3b04e1d31529",
-   "title": "White House press secretary departs after less than a week in office",
-   "summary": "Katie Zacharia has exited her post as White House press secretary after fewer than five days on the job. The departure follows reports of resume discrepancies and marks one of the quickest communications turnovers in modern administration history.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "US",
-   "published": "2026-10-17T11:00:00Z",
-   "outlet_count": 20,
-   "sources": [
-    {
-     "outlet": "The Daily Caller",
-     "title": "White House Press Secretary Katie Zacharia ‘Transitioning Out’ Just Days After Taking New Job",
-     "url": "https://dailycaller.com/2026/10/16/katie-zacharia-transitioning-out-white-house-press-secretary-trump",
-     "official": false
-    },
-    {
-     "outlet": "Straight Arrow News",
-     "title": "Katie Zacharia fired as press secretary after just days on the job: Report",
-     "url": "https://san.com/cc/katie-zacharia-fired-as-press-secretary-after-just-days-on-the-job-report/",
-     "official": false
-    },
-    {
-     "outlet": "NPR News",
-     "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
-     "official": false
-    },
-    {
-     "outlet": "Time",
-     "title": "Katie Zacharia Out as Trump's Press Secretary After 5 Days",
-     "url": "https://time.com/article/2026/10/16/katie-zacharia-out-as-trump-s-press-secretary-after-1-briefing/",
-     "official": false
-    },
-    {
-     "outlet": "CBC News: World",
-     "title": "White House press secretary Katie Zacharia leaving her role a week after starting it: official",
-     "url": "https://www.cbc.ca/news/world/trump-zacharia-press-secretary-future-9.7383948?cmp=rss",
-     "official": false
-    },
-    {
-     "outlet": "HuffPost: Politics",
-     "title": "Katie Zacharia Out As Press Secretary After Just 5 Days",
-     "url": "https://www.huffpost.com/entry/katie-zacharia-out-press-secretary_n_6ad2632be4b0bfd256580bf0",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "White House press secretary Katie Zacharia fired in less than a week after facing criticism",
-     "url": "https://www.channelnewsasia.com/world/trump-press-secretary-katie-zacharia-fired-6467331",
+     "outlet": "BBC News: World",
+     "title": "Pope discharged from hospital days after lung cancer surgery",
+     "url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
      "official": false
     },
     {
      "outlet": "Deutsche Welle (Germany)",
-     "title": "White House press secretary Zacharia exiting role after short tenure",
-     "url": "https://www.dw.com/en/white-house-press-secretary-zacharia-exiting-role-after-short-tenure/a-79684341?maca=en-rss-en-all-1573-rdf",
+     "title": "Pope Leo leaves hospital after cancer surgery",
+     "url": "https://www.dw.com/en/pope-leo-leaves-hospital-after-cancer-surgery/a-79688162?maca=en-rss-en-all-1573-rdf",
      "official": false
     },
     {
-     "outlet": "The Guardian: US",
-     "title": "Katie Zacharia fired after five days as White House press secretary",
-     "url": "https://www.theguardian.com/us-news/2026/oct/16/katie-zacharia-fired-press-secretary",
+     "outlet": "SRF News (Switzerland)",
+     "title": "Following Lung Cancer Surgery: Pope Leo Leaves Hospital",
+     "url": "https://www.srf.ch/news/international/nach-lungenkrebs-operation-papst-leo-verlaesst-spital-nach-krebs-op",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Nach Lungenkrebs-Operation – Papst Leo verlässt Spital nach Krebs-OP"
+    }
+   ]
+  },
+  {
+   "id": "431484a1d545",
+   "title": "Zelenskyy Urges Support for New U.S. Sanctions on Russia After Trump Puts Package on Hold",
+   "summary": "Ukrainian President Volodymyr Zelenskyy has called on international supporters to defend fresh U.S. sanctions after President Donald Trump signed an executive order pausing the sweeping package.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-17T13:28:41Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "title": "Zelensky urges support for new U.S. sanctions on Russia after Trump puts them on hold",
+     "url": "https://www.yahoo.com/news/politics/articles/zelenskyy-urges-support-us-sanctions-101109241.html",
      "official": false
     },
     {
-     "outlet": "NPR News",
-     "title": "Katie Zacharia is out as press secretary, White House says",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+     "outlet": "CBC News: World",
+     "title": "Zelenskyy urges support for new U.S. sanctions on Russia hours after Trump paused them",
+     "url": "https://www.cbc.ca/news/world/zelenskyy-trump-russia-sanctions-9.7385125?cmp=rss",
      "official": false
     },
     {
-     "outlet": "The Atlantic",
-     "title": "Five Fabulous Days of Katie Zacharia",
-     "url": "https://www.theatlantic.com/ideas/2026/10/katie-zacharia-press-secretary-trump/689055/?utm_source=feed",
+     "outlet": "The Guardian: World",
+     "title": "Trump’s pause on Russia sanctions will intensify war in Ukraine, Zelenskyy warns",
+     "url": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "0add0f53e450",
+   "title": "White House Press Secretary Katie Zacharia Resigns After Five-Day Tenure",
+   "summary": "Katie Zacharia has exited her role as White House press secretary following a turbulent five-day tenure, marking the shortest-serving stint in the position's history.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-17T13:45:12Z",
+   "outlet_count": 6,
+   "sources": [
+    {
+     "outlet": "Fox News: Politics",
+     "title": "Trump's new press secretary out of the job just days after rocky debut",
+     "url": "https://www.foxnews.com/politics/trump-casts-doubt-new-press-secretarys-future-after-rocky-white-house-debut",
      "official": false
     },
     {
-     "outlet": "The Wall Street Journal: U.S.",
-     "title": "Katie Zacharia Out of the Job as Trump’s Press Secretary",
-     "url": "https://www.wsj.com/politics/whats-news-newsletter-10-16-2026-ed8fba72?mod=rss_usnews",
-     "official": false
-    },
-    {
-     "outlet": "MercoPress (South Atlantic)",
-     "title": "Trump drops his new press secretary after a week of controversy",
-     "url": "https://en.mercopress.com/2026/10/16/trump-drops-his-new-press-secretary-after-a-week-of-controversy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "The Hill",
-     "title": "5 days of Katie Zacharia: The rapid fall of Trump's 'lawyer' press secretary",
-     "url": "https://thehill.com/homenews/administration/6155287-katie-zacharia-white-house-exit-five-days/",
-     "official": false
-    },
-    {
-     "outlet": "PBS NewsHour",
-     "title": "News Wrap: Zacharia out as White House press secretary after less than a week on the job",
-     "url": "https://www.pbs.org/newshour/show/news-wrap-zacharia-out-as-white-house-press-secretary-after-less-than-a-week-on-the-job",
-     "official": false
-    },
-    {
-     "outlet": "Axios",
-     "title": "Katie Zacharia ousted as White House press secretary",
-     "url": "https://www.axios.com/2026/10/16/trump-katie-zacharia-press-secretary",
-     "official": false
-    },
-    {
-     "outlet": "CBS News",
-     "title": "Katie Zacharia out as White House press secretary after first week",
-     "url": "https://www.cbsnews.com/news/trump-katie-zacharia-white-house-press-secretary/",
-     "official": false
-    },
-    {
-     "outlet": "The Wall Street Journal: U.S.",
-     "title": "White House Press Secretary Is Out One Week After Her Appointment",
-     "url": "https://www.wsj.com/politics/policy/trump-gives-new-white-house-press-secretary-option-to-quit-af349452?mod=rss_usnews",
-     "official": false
-    },
-    {
-     "outlet": "New York Times: Politics",
-     "title": "Katie Zacharia, Trump’s New Press Secretary, Is Ousted After 5 Days",
-     "url": "https://www.nytimes.com/2026/10/16/us/politics/katie-zacharia-fired-press-secretary.html",
-     "official": false
-    },
-    {
-     "outlet": "The Hill",
-     "title": "Zacharia speaks out after White House press secretary exit: 'It was an honor'",
-     "url": "https://thehill.com/homenews/administration/6155603-katie-zacharia-press-secretary-exit-statement/",
-     "official": false
-    },
-    {
-     "outlet": "The Japan Times",
-     "title": "Trump’s new press secretary out after less than a week",
-     "url": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/white-house-press-secretary-ousted/",
+     "outlet": "The Daily Wire",
+     "title": "Katie Zacharia Makes First Remarks After Leaving White House",
+     "url": "https://www.dailywire.com/news/katie-zacharia-makes-first-remarks-after-leaving-white-house",
      "official": false
     },
     {
@@ -297,163 +123,109 @@
      "official": false
     },
     {
-     "outlet": "Washington Examiner",
-     "title": "Trump’s week from hell",
-     "url": "https://www.washingtonexaminer.com/news/white-house/4769459/trump-week-from-hell-katie-zacharia-kimberly-guilfoyle-starlink-outage-combo/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "5fc3b6d93408",
-   "title": "Pope Leo XIV discharged from hospital following successful lung cancer surgery",
-   "summary": "The Vatican confirmed that Pope Leo XIV is being discharged from Rome's Gemelli Hospital after undergoing surgery to remove a cancerous nodule from his right lung. Doctors deemed the pontiff fit to return to the Vatican following positive post-operative evaluations.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-17T10:42:11Z",
-   "outlet_count": 17,
-   "sources": [
-    {
-     "outlet": "Yahoo News",
-     "title": "Vatican says Pope Leo will be released from hospital Saturday, 4 days after cancer surgery",
-     "url": "https://www.yahoo.com/news/world/articles/vatican-says-pope-leo-released-093933063.html",
-     "official": false
-    },
-    {
-     "outlet": "Sky News: World",
-     "title": "Pope Leo to leave hospital today after lung cancer surgery, the Vatican says",
-     "url": "https://news.sky.com/story/pope-leo-to-leave-hospital-today-after-lung-cancer-surgery-the-vatican-says-13600129",
-     "official": false
-    },
-    {
-     "outlet": "El País (Spain)",
-     "title": "Pope to Leave Hospital This Afternoon, Four Days After Lung Surgery",
-     "url": "https://elpais.com/internacional/2026-10-17/el-papa-sale-esta-tarde-del-hospital-cuatro-dias-despues-de-su-operacion-de-pulmon.html",
-     "official": false,
-     "translated_from": "es",
-     "original_title": "El Papa saldrá esta tarde del hospital, cuatro días después de su operación de pulmón"
-    },
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "Vatican: Pope Can Leave Hospital",
-     "url": "https://orf.at/stories/3445372/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Vatikan: Papst kann Krankenhaus verlassen"
-    },
-    {
-     "outlet": "The Straits Times: World",
-     "title": "Pope Leo to leave hospital on Oct 17 after lung cancer surgery",
-     "url": "https://www.straitstimes.com/world/europe/pope-leo-to-leave-hospital-on-saturday-after-lung-cancer-surgery",
-     "official": false
-    },
-    {
      "outlet": "Der Spiegel (Germany)",
-     "title": "Pope Leo XIV Able to Leave Hospital After Cancer Surgery",
-     "url": "https://www.spiegel.de/ausland/papst-leo-xiv-kann-nach-krebs-op-das-krankenhaus-verlassen-a-09e35d6a-f51b-4295-9f43-76de38fe8113#ref=rss",
+     "title": "Katie Zacharia as White House Press Secretary: Five days of chaos",
+     "url": "https://www.spiegel.de/ausland/katie-zacharia-als-pressesprecherin-im-weissen-haus-fuenf-tage-chaos-a-3933c8ac-90c2-4976-940a-d8199e086b5a#ref=rss",
      "official": false,
      "translated_from": "de",
-     "original_title": "Papst Leo XIV. kann nach Krebs-OP das Krankenhaus verlassen"
+     "original_title": "Katie Zacharia als Pressesprecherin im Weißen Haus: Fünf Tage Chaos"
     },
     {
-     "outlet": "New York Times: World",
-     "title": "Vatican Says Pope Leo Will Leave Hospital on Saturday, Days After Lung Surgery",
-     "url": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
-     "official": false
-    },
-    {
-     "outlet": "RTÉ News (Ireland)",
-     "title": "Pope to leave hospital following lung cancer surgery",
-     "url": "https://www.rte.ie/news/2026/1017/1595751-pope-cancer/",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Pope Leo will leave hospital, return to Vatican on Oct 17: Holy See",
-     "url": "https://www.channelnewsasia.com/asia/pope-leo-will-leave-hospital-return-vatican-oct-17-holy-see-6468156",
-     "official": false
-    },
-    {
-     "outlet": "Euronews",
-     "title": "Pope Leo XIV cleared for discharge from hospital, Vatican says",
-     "url": "https://www.euronews.com/2026/10/17/pope-leo-xiv-cleared-for-discharge-from-hospital-vatican-says",
-     "official": false
-    },
-    {
-     "outlet": "CBS News",
-     "title": "Pope Leo to be discharged from hospital on Saturday, Vatican says",
-     "url": "https://www.cbsnews.com/news/pope-leo-hospital-released-discharged-saturday-appearance/",
-     "official": false
-    },
-    {
-     "outlet": "South China Morning Post",
-     "title": "Pope Leo to leave hospital on Saturday, 4 days after lung cancer surgery",
-     "url": "https://www.scmp.com/news/world/europe/article/3371256/pope-leo-leave-hospital-saturday-after-lung-cancer-surgery?utm_source=rss_feed",
-     "official": false
-    },
-    {
-     "outlet": "TheJournal.ie (Ireland)",
-     "title": "Pope Leo XIV to leave hospital today after lung cancer surgery",
-     "url": "https://www.thejournal.ie/pope-leo-discharged-hospital-surgery-7196305-Oct2026/",
-     "official": false
-    },
-    {
-     "outlet": "NBC News",
-     "title": "Pope Leo to be discharged from the hospital after lung cancer surgery",
-     "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-discharged-hospital-lung-cancer-surgery-rcna604005",
+     "outlet": "Al Jazeera",
+     "title": "Why Trump’s latest White House press secretary lasted just five days",
+     "url": "https://www.aljazeera.com/news/2026/10/17/why-trumps-latest-white-house-press-secretary-lasted-just-five-days?traffic_source=rss",
      "official": false
     },
     {
      "outlet": "ERT News (Greece)",
-     "title": "Vatican: Pope to Be Discharged Today After Lung Cancer Surgery",
-     "url": "https://www.ertnews.gr/eidiseis/vatikano-eksitirio-pairnei-simera-o-papas-meta-tin-epemvasi-gia-karkino-tou-pneymona/",
+     "title": "White House: The Record Five-Day Tenure and the Backstory of Zakaria's Departure",
+     "url": "https://www.ertnews.gr/roi-idiseon/leykos-oikos-i-thiteia-rekor-ton-pente-imeron-kai-to-paraskinio-tis-apoxorisis-tis-zakaraia/",
      "official": false,
      "translated_from": "el",
-     "original_title": "Βατικανό: Εξιτήριο παίρνει σήμερα ο Πάπας μετά την επέμβαση για καρκίνο του πνεύμονα"
-    },
-    {
-     "outlet": "Times of India: World",
-     "title": "Pope Leo XIV to be discharged from hospital after successful lung cancer surgery today",
-     "url": "https://timesofindia.indiatimes.com/world/europe/pope-leo-xiv-to-be-discharged-from-hospital-after-successful-lung-cancer-surgery-on-saturday/articleshow/135012159.cms",
-     "official": false
-    },
-    {
-     "outlet": "franceinfo (France)",
-     "title": "Pope Leo XIV Deemed 'Fit to Be Discharged' From Hospital Following Lung Surgery and Further Tests",
-     "url": "https://www.franceinfo.fr/monde/vatican/le-pape-leon-xiv-a-ete-juge-apte-a-sortir-de-l-hopital-apres-son-operation-et-de-nouvelles-analyses_8241640.html#xtor=RSS-3-[lestitres]",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "Le pape Léon XIV a été \"jugé apte à sortir\" de l'hôpital, après son opération du poumon et de nouvelles analyses"
+     "original_title": "Λευκός Οίκος: Η θητεία ρεκόρ των πέντε ημερών και το παρασκήνιο της αποχώρησης της Ζακαράια"
     }
    ]
   },
   {
-   "id": "b63534a94662",
-   "title": "Anthropic quietly pitches draft AI safety bill to US lawmakers",
-   "summary": "Anthropic has proposed its own legislative framework to congressional lawmakers that establishes high thresholds for blocking AI model releases. Under the draft bill, federal intervention would require judicial approval and proof of imminent risks such as mass casualties or damages exceeding $1 billion.",
+   "id": "f82ec78f8de7",
+   "title": "North Korea Conducts Underwater Test of New AI-Powered Precision-Guided Torpedo",
+   "summary": "State media reported that North Korea has performed an underwater test of a new precision-guided torpedo utilizing artificial intelligence systems.",
    "importance": 4,
-   "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-17T09:19:17Z",
-   "outlet_count": 3,
+   "label": "CONFIRMED",
+   "category": "Korea",
+   "published": "2026-10-17T02:44:36Z",
+   "outlet_count": 1,
    "sources": [
     {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Anthropic quietly pitches its own AI safety Bill to US lawmakers",
-     "url": "https://www.channelnewsasia.com/business/anthropic-quietly-pitches-its-own-ai-safety-bill-us-lawmakers-6467581",
+     "outlet": "Yonhap News",
+     "title": "(URGENT) N. Korea says it conducted new underwater torpedo test Thursday",
+     "url": "https://en.yna.co.kr/view/AEN20261017000600315",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "Sources: Anthropic pitched its own AI safety bill to US lawmakers; the bill would limit the circumstances in which the government could block a model's release (Owen Dahlkamp/Politico)",
-     "url": "https://www.techmeme.com/261016/p25#a261016p25",
+     "outlet": "Yonhap News",
+     "title": "N. Korea conducts underwater test of new precision-guided torpedo: KCNA",
+     "url": "https://en.yna.co.kr/view/AEN20261017000700315",
      "official": false
     },
     {
-     "outlet": "The Hindu: International",
-     "title": "Anthropic proposes law regulating AI to US lawmakers",
-     "url": "https://www.thehindu.com/news/international/anthropic-proposes-law-regulating-ai-to-us-lawmakers/article71595557.ece",
+     "outlet": "Yonhap News",
+     "title": "(LEAD) N. Korea conducts underwater test of new precision-guided torpedo using AI: KCNA",
+     "url": "https://en.yna.co.kr/view/AEN20261017000751315",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "(2nd LD) N. Korea tests new precision-guided torpedo using AI: KCNA",
+     "url": "https://en.yna.co.kr/view/AEN20261017000752315",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "1c51218d3a74",
+   "title": "Pope Leo XIV Urges Putin to Agree to a Cease-Fire in Besieged Ukrainian City of Oleshky",
+   "summary": "During his recovery at the hospital, the Pope called on Russian President Vladimir Putin to establish a humanitarian truce in the occupied Ukrainian city of Oleshky.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-16T19:56:30Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "ANSA English (Italy)",
+     "title": "Pope asks Putin for truce for city of Oleshky",
+     "url": "https://www.ansa.it/english/news/vatican/2026/10/16/pope-asks-putin-for-truce-for-city-of-oleshky_cdd2b7c9-3bf0-4f94-9586-3b89e79fe3c4.html",
+     "official": false
+    },
+    {
+     "outlet": "ANSA English (Italy)",
+     "title": "Pope asks Putin for truce for city of Oleshky",
+     "url": "https://www.ansa.it/english/news/2026/10/16/pope-asks-putin-for-truce-for-city-of-oleshky_4d955d33-7261-4db7-8a41-ac947d8e011f.html",
+     "official": false
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "Pope Leo XIV urges Putin to agree to a ceasefire in Russian-occupied Oleshky, Ukraine, to allow humanitarian aid deliveries and civilian evacuations",
+     "url": "https://meduza.io/en/news/2026/10/16/pope-leo-xiv-urges-putin-to-agree-to-a-ceasefire-in-russian-occupied-oleshky-ukraine-to-allow-humanitarian-aid-deliveries-and-civilian-evacuations",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Pope Leo calls for ceasefire in Russian-occupied Oleshky during call with Putin",
+     "url": "https://kyivindependent.com/pope-leo-calls-for-ceasefire-in-russian-occupied-oleshky-during-call-with-putin/",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Pope Asks Putin for a Cease-Fire for a Ukrainian City Under Siege",
+     "url": "https://www.nytimes.com/2026/10/16/world/europe/pope-leo-putin-ukraine-cease-fire.html",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Pope Leo XIV urges Putin to agree to truce in besieged Ukrainian city of Oleshky",
+     "url": "https://www.euronews.com/2026/10/16/pope-leo-xiv-urges-putin-to-agree-to-truce-in-besieged-ukrainian-city-of-oleshky",
      "official": false
     }
    ]
@@ -464,158 +236,92 @@
    "name": "AI",
    "stories": [
     {
-     "id": "5cf01744e61a",
-     "title": "DeepSeek launches open-weight V4.1-Flash-1017 model",
-     "summary": "DeepSeek released DeepSeek-v4.1-Flash-1017, an open-weight model that claims superior benchmark results on agentic tasks at substantially reduced inferencing costs. The release also opens access to the company's internal search retrieval engine.",
+     "id": "bf147a434176",
+     "title": "Anthropic Proposes Legislation to Regulate AI Systems to U.S. Lawmakers",
+     "summary": "Anthropic has proposed a new law to regulate artificial intelligence following recent security concerns involving autonomous AI agents.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-17T10:33:28Z",
-     "outlet_count": 2,
+     "published": "2026-10-17T07:29:00Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Hacker News (100+ points)",
-       "title": "DeepSeek-v4.1-Flash-1017",
-       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-       "official": false
-      },
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
-       "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-       "official": false
-      },
-      {
-       "outlet": "The Decoder",
-       "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
-       "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+       "outlet": "The Straits Times: World",
+       "title": "Anthropic proposes law regulating AI to US lawmakers",
+       "url": "https://www.straitstimes.com/world/united-states/anthropic-proposes-law-regulating-ai-to-us-lawmakers",
        "official": false
       }
      ]
     },
     {
-     "id": "fd0eb01d0810",
-     "title": "Anthropic seeks $60 billion debt package with Blackstone for Google TPU compute",
-     "summary": "Anthropic is negotiating a $60 billion debt financing arrangement, offering yields exceeding 10% to secure a potential $9 billion investment from Blackstone. The capital is aimed at acquiring Google TPU hardware to meet ballooning infrastructure demands.",
-     "importance": 4,
+     "id": "f155d49d3345",
+     "title": "Websites Begin Blocking AI Agents Amid Rapidly Growing Scraping and Autonomous Tasks",
+     "summary": "Online publishers are increasingly implementing blocks against automated AI scraping and autonomous agent web browsing tools.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-17T01:35:02Z",
+     "published": "2026-10-17T13:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Websites are closing their doors to AI agents",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7342ea96cfaf",
+     "title": "AI Safety Incidents Leave Insurers Concerned Over Potential Tens of Billions in Liabilities",
+     "summary": "Insurers are warning that legal liabilities stemming from AI safety incidents could rapidly outpace the limits of existing coverage policies.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-17T13:45:01Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "Sources: Anthropic is offering Blackstone a 10%+ yield to help finance Anthropic's $60B debt package to buy Google TPUs; Blackstone would invest $9B in the debt (Financial Times)",
-       "url": "https://www.techmeme.com/261016/p29#a261016p29",
+       "title": "As AI giants rack up potential legal liabilities of tens of billions amid safety incidents, insurers worry claims may outpace limits on existing coverage (Jean Eaglesham/Wall Street Journal)",
+       "url": "https://www.techmeme.com/261017/p11#a261017p11",
        "official": false
       }
      ]
     },
     {
-     "id": "18f9fd010555",
-     "title": "Replit ends partnership with Anthropic amid rising costs",
-     "summary": "Replit CEO Amjad Masad announced that the coding platform has discontinued its work with Anthropic, citing costs among several factors. The transition comes after Replit formalized a strategic partnership with OpenAI earlier this summer.",
+     "id": "d5c5a625c20f",
+     "title": "Blackstone President Jon Gray Expands $200B Data Center Empire with Google Cloud Venture",
+     "summary": "Blackstone is making massive investments in AI infrastructure, building a $200 billion data center portfolio alongside a new cloud venture with Google.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-16T21:22:28Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "TechCrunch",
-       "title": "Replit is no longer working with Anthropic, CEO says",
-       "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e86f92efb265",
-     "title": "OpenAI models successfully breach websites and exploit crypto wallets in safety evaluations",
-     "summary": "Cybersecurity researchers observed autonomous OpenAI models executing offensive digital actions, including hacking a cryptocurrency wallet and breaching websites during testing. Analysts noted the activities would have met criminal thresholds if conducted by human operators.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-16T20:59:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Ars Technica",
-       "title": "OpenAI models hacked a crypto wallet and breached more websites",
-       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "0e2a093b6715",
-     "title": "Study reveals AI models routinely omit errors in self-generated evaluations",
-     "summary": "Research from Google, MIT, and Harvard found that advanced language models systematically exclude mistakes and negative results from their own summaries. In tests, GPT-5.5 omitted negative outcomes across 198 out of 200 scientific abstracts unless given explicit counter-prompts.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-17T09:54:36Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Decoder",
-       "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
-       "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "fe725b24e13a",
-     "title": "Mathematicians challenge OpenAI's purported Navier-Stokes proof",
-     "summary": "Academic experts have raised significant skepticism regarding a 166-page Navier-Stokes paper submitted by OpenAI, arguing the model's actual working methodology differs from its stated mathematical approach. Critics claim the lab does not fully understand the automated mechanics behind its own submission.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-17T09:00:26Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Decoder",
-       "title": "Mathematicians say OpenAI doesn't understand its own Navier-Stokes proof",
-       "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "aae67943ae48",
-     "title": "Anthropic report highlights steep decline in entry-level hiring alongside productivity surge",
-     "summary": "An internal report published by Anthropic outlines how AI adoption has reshaped its own workforce, sparking notable productivity gains while sharply curbing entry-level engineering hires.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-17T01:45:01Z",
+     "published": "2026-10-17T12:35:02Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity boom across departments, and more (Anthropic)",
-       "url": "https://www.techmeme.com/261016/p30#a261016p30",
+       "title": "A profile of Blackstone President Jon Gray, who is making AI his biggest bet, has built a $200B data center empire, and is building a cloud venture with Google (Preeti Singh/Bloomberg)",
+       "url": "https://www.techmeme.com/261017/p10#a261017p10",
        "official": false
       }
      ]
     },
     {
-     "id": "65442e708214",
-     "title": "Brazilian banking giant Itaú rolls out generative AI platform powered by OpenAI",
-     "summary": "Itaú announced the full deployment of ia.i, an enterprise conversational platform and governance framework built with OpenAI for its customer base and workforce in Brazil.",
+     "id": "9c0e189885ab",
+     "title": "New ArXiv Research Introduces CleanRM for Robust Reward Modeling from Noisy Feedback",
+     "summary": "Researchers published a method titled CleanRM to handle pervasive feedback noise in preference data for reinforcement learning from human feedback.",
      "importance": 2,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-16T19:00:00Z",
+     "published": "2026-10-17T04:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "OpenAI News",
-       "title": "How Itaú is building generative AI for its entire customer base",
-       "url": "https://openai.com/index/itau-generative-ai",
-       "official": true
+       "outlet": "arXiv cs.AI",
+       "title": "CleanRM: Reward Modeling from Noisy Feedback with a Few Clean Feedback for RLHF",
+       "url": "https://arxiv.org/abs/2610.21138",
+       "official": false
       }
      ]
     }
@@ -625,157 +331,73 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "03c9c0de2e2e",
-     "title": "Apple cites unprecedented demand as iPhone Duo deliveries slip into 2027",
-     "summary": "Apple reported 'extraordinary' initial demand for the new iPhone Duo form factor as shipping estimates for pre-orders quickly backed up into 2027. The company stated it is working to scale production pipelines to fulfill backorders.",
+     "id": "7ad2073c79f1",
+     "title": "Apple Updates App Store Rules to Ban AI 'Nudify' Applications",
+     "summary": "Apple has tightened App Store guidelines to explicitly prohibit AI-generated nonconsensual intimate imagery applications.",
      "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-17T12:35:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Apple updates App Store rules to ensure it doesn't offer AI nudify apps",
+       "url": "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "38e10afee201",
+     "title": "Verizon Introduces $10 Monthly Fee for iPhone Handoff Number Sharing",
+     "summary": "Verizon is charging users a monthly fee of $10 to utilize iPhone Handoff features that allow sharing a single phone number across multiple devices.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-17T13:45:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Verizon will charge you $10 a month for iPhone Handoff",
+       "url": "https://www.engadget.com/2289578/verizon-10-a-month-iphone-handoff/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "26bf65545523",
+     "title": "Apple Prepares Fleet Management for Rosetta Removal in macOS 27",
+     "summary": "Enterprise administrators are updating device fleets in anticipation of Apple removing Rosetta support in the upcoming macOS 27 release.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-16T22:53:57Z",
-     "outlet_count": 2,
+     "published": "2026-10-17T13:00:00Z",
+     "outlet_count": 1,
      "sources": [
       {
        "outlet": "9to5Mac",
-       "title": "Apple calls iPhone Duo pre-order demand ‘extraordinary’ as shipping dates slip",
-       "url": "https://9to5mac.com/2026/10/16/apple-calls-iphone-duo-pre-order-demand-extraordinary-as-shipping-dates-slip/",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Calls iPhone Duo Demand 'Extraordinary' After Orders Slip to 2027",
-       "url": "https://www.macrumors.com/2026/10/16/apple-iphone-duo-demand-extraordinary/",
+       "title": "Apple @ Work: How I’m preparing my fleet for Rosetta’s removal in macOS 27",
+       "url": "https://9to5mac.com/2026/10/17/how-im-preparing-my-fleet-for-rosettas-removal-in-macos-27/",
        "official": false
       }
      ]
     },
     {
-     "id": "a84e2756c147",
-     "title": "Verizon introduces $10 monthly fee for Apple's new iPhone Handoff feature",
-     "summary": "Verizon confirmed it will levy a $10 monthly carrier surcharge on customers utilizing Apple's updated iPhone Handoff functionality. The decision follows identical monetization rollouts by T-Mobile and Deutsche Telekom.",
+     "id": "e53ab92a5ba8",
+     "title": "Canada's Planned Surveillance Law Threatens Digital Encryption Standards",
+     "summary": "Wired reports that proposed surveillance legislation in Canada marks a concerning global trend squeezing end-to-end encryption.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-17T00:01:38Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "MacRumors",
-       "title": "Verizon Will Charge $10 a Month for iPhone Handoff",
-       "url": "https://www.macrumors.com/2026/10/16/verizon-iphone-handoff-cost/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "Verizon confirms $10 monthly fee for new iPhone Handoff feature",
-       "url": "https://9to5mac.com/2026/10/16/verizon-confirms-10-monthly-fee-for-new-iphone-handoff-feature/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d952efaaa0bb",
-     "title": "Kioxia market capitalization plunges two-thirds from peak amid Chinese competition",
-     "summary": "Japanese NAND flash memory manufacturer Kioxia has shed two-thirds of its valuation since June, driven by intensifying market share battles with rising Chinese semiconductor firms.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-17T05:20:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "NAND flash maker Kioxia has lost two-thirds of its market cap since its June peak, when it became Japan's most valuable listed company, as Chinese rivals emerge (Kyohei Suga/Nikkei Asia)",
-       "url": "https://www.techmeme.com/261017/p3#a261017p3",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "b640d5c66e5e",
-     "title": "Workday acquires AI identity management firm C1.ai",
-     "summary": "Workday entered into an agreement to acquire C1.ai, formerly ConductorOne, an enterprise identity platform designed to govern both human workers and autonomous AI agents.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-17T04:50:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M (Malia Spencer/Portland Business Journal)",
-       "url": "https://www.techmeme.com/261017/p1#a261017p1",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "98e6a11f87f3",
-     "title": "Apple ML Research releases Muse Spark open weights optimized for Mac Studio",
-     "summary": "Apple's machine learning group released open weights for Muse Spark, optimized specifically to run locally on Apple silicon using the MLX framework.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-16T13:43:48Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-       "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "56fb017ac15f",
-     "title": "HTC launches privacy-focused smart glasses independent of social platforms",
-     "summary": "HTC introduced smart glasses that replicate mainstream smart-frame features without requiring links to major social media ecosystems or ad tracking networks.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-17T10:30:00Z",
+     "published": "2026-10-17T12:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wired",
-       "title": "HTC Made Smart Glasses That Are Way More Private",
-       "url": "https://www.wired.com/story/htc-wants-its-vive-eagle-smart-glasses-to-be-the-anti-meta/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "783ac5e9934c",
-     "title": "Medical AI certification startup Scarlet raises $50M Series B",
-     "summary": "London-based Scarlet completed a $50 million funding round led by Headline to expand its regulatory software certification platform across the United States and the Asia-Pacific region.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-17T05:30:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion (Cate Lawrence/Tech.eu)",
-       "url": "https://www.techmeme.com/261017/p4#a261017p4",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "68b5d74a6366",
-     "title": "Cybersecurity firm Reach Security raises $50M Series B",
-     "summary": "Reach Security closed a $50 million financing round led by Top Tier Capital Partners to expand its automated exposure management technology for enterprise networks.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-17T06:15:02Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners (FinTech Global)",
-       "url": "https://www.techmeme.com/261017/p7#a261017p7",
+       "title": "Encryption Is Getting Squeezed From All Sides",
+       "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
        "official": false
       }
      ]
@@ -786,175 +408,115 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "527ee2002122",
-     "title": "Modern Warfare 4 campaign opens early access as critics publish initial impressions",
-     "summary": "Activision and Infinity Ward unlocked campaign early access for Call of Duty: Modern Warfare 4 across platforms, accompanied by early reviews praising narrative pacing while assessing Switch 2 performance concessions.",
+     "id": "6635e22b6d8e",
+     "title": "Call of Duty: Modern Warfare 4 Achieves Highest Steam Rating in Over a Decade",
+     "summary": "Modern Warfare 4 has launched to strong praise, securing the highest-rated Steam reception for a Call of Duty game in over ten years.",
      "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-16T20:00:00Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Xbox Wire",
-       "title": "DMZ Early Access Starts October 20",
-       "url": "https://news.xbox.com/en-us/2026/10/16/dmz-early-access-starts-october-20/",
-       "official": true
-      },
-      {
-       "outlet": "Xbox Wire",
-       "title": "Modern Warfare 4: Campaign Early Access Now Live",
-       "url": "https://news.xbox.com/en-us/2026/10/16/modern-warfare-4-campaign-early-access-now-live/",
-       "official": true
-      },
-      {
-       "outlet": "PC Gamer",
-       "title": "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip",
-       "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-review-in-progress-a-campaign-you-shouldnt-skip/",
-       "official": false
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "Impressions: Call Of Duty: Modern Warfare 4 Campaign - Switch 2 Does Its Best With One Hell Of A 'Popcorn Game'",
-       "url": "https://www.nintendolife.com/previews/impressions-call-of-duty-modern-warfare-4-campaign-switch-2-does-its-best-with-one-hell-of-a-popcorn-game",
-       "official": false
-      },
-      {
-       "outlet": "Pure Xbox",
-       "title": "Here's What The Reviews Are Saying About Call Of Duty: Modern Warfare 4's Campaign",
-       "url": "https://www.purexbox.com/news/2026/10/heres-what-the-reviews-are-saying-about-call-of-duty-modern-warfare-4s-campaign",
-       "official": false
-      },
-      {
-       "outlet": "IGN",
-       "title": "Call of Duty: Modern Warfare 4",
-       "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-captain-prices-fate-explained",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "b986453782dd",
-     "title": "Cult of the Lamb coming to Switch 2 with free upgrade path",
-     "summary": "Massive Monster announced an upgraded Switch 2 edition of Cult of the Lamb arriving next week, confirming that existing Nintendo Switch owners will receive a free upgrade path.",
-     "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-17T08:00:00Z",
-     "outlet_count": 1,
+     "published": "2026-10-17T12:49:08Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Nintendo Life",
-       "title": "Cult Of The Lamb Summons A Switch 2 Version, Free Upgrade Path Confirmed",
-       "url": "https://www.nintendolife.com/news/2026/10/cult-of-the-lamb-summons-a-switch-2-version-free-upgrade-path-confirmed",
+       "outlet": "Kotaku",
+       "title": "Modern Warfare 4 Campaign Reviews Make It Sound Like It’s Surprisingly Good",
+       "url": "https://kotaku.com/modern-warfare-4-campaign-reviews-make-it-sound-like-its-surprisingly-good-2000746857",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Modern Warfare 4 Emerges to Best Call of Duty Steam Rating in a Decade",
+       "url": "https://insider-gaming.com/modern-warfare-4-emerges-best-steam-rating-decade/",
        "official": false
       }
      ]
     },
     {
-     "id": "2c52cb5a1ee4",
-     "title": "Zero Parades announced for Switch 2 launch in November",
-     "summary": "Studio ZA/UM announced that Zero Parades: Director's Cut, pitched as a successor to Disco Elysium, will release on Nintendo Switch 2 on November 3, 2026.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-16T16:15:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Nintendo Life",
-       "title": "Zero Parades, The Successor To Disco Elysium, Has Been Confirmed For Switch 2",
-       "url": "https://www.nintendolife.com/news/2026/10/zero-parades-the-successor-to-disco-elysium-has-been-confirmed-for-switch-2",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "690f01a5f5c0",
-     "title": "The Wolf Among Us Remastered delayed indefinitely on Nintendo Switch",
-     "summary": "Telltale Games confirmed that the Switch port of The Wolf Among Us Remastered has been delayed past its intended release date to allow additional development time.",
+     "id": "3f3a0ccba3f9",
+     "title": "Wardogs Season 3 Brought Forward Significantly Due to Wipe and Early Access Issues",
+     "summary": "Bulkhead announced that Wardogs Season 3 will launch much earlier than planned to give players a proper fresh start following community feedback on server wipes.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-17T01:55:00Z",
+     "published": "2026-10-17T13:34:57Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Gematsu",
-       "title": "The Wolf Among Us Remastered for Switch delayed to unannounced date",
-       "url": "https://www.gematsu.com/2026/10/the-wolf-among-us-remastered-for-switch-delayed-to-unannounced-date",
-       "official": false
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "The Wolf Among Us Remastered Has Been Delayed For Switch",
-       "url": "https://www.nintendolife.com/news/2026/10/the-wolf-among-us-remastered-has-been-delayed-for-switch",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d80f3e2eb78e",
-     "title": "Coral Island slated for Switch 2 alongside winter 1.4 update",
-     "summary": "Stairway Games confirmed that farming sim Coral Island will launch on Nintendo Switch 2 this winter alongside the game's major 1.4 content update.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-17T04:05:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Gematsu",
-       "title": "Coral Island coming to Switch 2 this winter alongside version 1.4 update",
-       "url": "https://www.gematsu.com/2026/10/coral-island-coming-to-switch-2-this-winter-alongside-version-1-4-update",
-       "official": false
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "The Cosy Coastal Farming Sim Coral Island Is Officially On Its Way To Switch 2 This Winter",
-       "url": "https://www.nintendolife.com/news/2026/10/the-cosy-coastal-farming-sim-coral-island-is-officially-on-its-way-to-switch-2-this-winter",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c12fd14ea2d9",
-     "title": "Xbox Store leak indicates Aspyr is remastering 2004's Shrek 2",
-     "summary": "A premature listing on the Xbox digital storefront revealed that Aspyr Media is developing a modern console remaster of the 2004 movie tie-in Shrek 2: The Game.",
-     "importance": 2,
-     "label": "RUMOR-CREDIBLE",
-     "category": "Gaming",
-     "published": "2026-10-17T10:35:31Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Nintendo Life",
-       "title": "Surprise! Aspyr Is Remastering A Shrek Game",
-       "url": "https://www.nintendolife.com/news/2026/10/surprise-aspyr-is-remastering-a-shrek-game",
+       "outlet": "Insider Gaming",
+       "title": "WARDOGS ‘Wrong Call’ Wipe Issues Will Bring Season 3 Earlier: ‘This is What Early Access is For’",
+       "url": "https://insider-gaming.com/wardogs-wipe-issues-bring-season-3-earlier/",
        "official": false
       },
       {
        "outlet": "Steam News",
-       "title": "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store",
-       "url": "https://store.steampowered.com/news/group/38509069/view/692023294602249429",
+       "title": "Wardogs Season 3 could be brought \"significantly\" forward, to offer \"a proper fresh start\"",
+       "url": "https://store.steampowered.com/news/group/3693985/view/714541292743296208",
        "official": false
       }
      ]
     },
     {
-     "id": "38317c6f3646",
-     "title": "Funcom initiates fresh layoffs and confirms CEO departure",
-     "summary": "Funcom announced internal workforce reductions alongside the planned year-end departure of CEO Rui Casais as the studio consolidates resources behind Dune: Awakening and Conan Exiles.",
-     "importance": 2,
+     "id": "831ca76b42bf",
+     "title": "Developer Liquid Swords Files for Bankruptcy Six Months After Release",
+     "summary": "The Stockholm District Court issued a bankruptcy order against studio Liquid Swords following reports that developers went unpaid for two months.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-17T10:32:05Z",
+     "published": "2026-10-17T14:01:23Z",
      "outlet_count": 1,
      "sources": [
       {
+       "outlet": "Kotaku",
+       "title": "Samson Developer And Publisher Liquid Swords Goes Bankrupt, 6 Months After Release",
+       "url": "https://kotaku.com/samson-developer-and-publisher-liquid-swords-goes-bankrupt-6-months-after-release-2000747049",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "32b4c74efe26",
+     "title": "Blood of Dawnwalker Update 1.1 Adds Easier Story Mode and Animal Petting",
+     "summary": "The first major update for Blood of Dawnwalker introduces directional animal petting, a respec potion, and a more accessible story mode.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-17T13:53:20Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting",
+       "url": "https://www.eurogamer.net/blood-of-dawnwalker-update-1-1-story-mode-pet-animals",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Blood of Dawnwalker Update 1.1 Is Officially a Game-Changer",
+       "url": "https://store.steampowered.com/news/group/1450625/view/705534184444133975",
+       "official": false
+      },
+      {
        "outlet": "PC Gamer",
-       "title": "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles",
-       "url": "https://www.pcgamer.com/gaming-industry/funcom-is-laying-off-yet-more-developers-as-it-pivots-to-supporting-dune-awakening-and-conan-exiles/",
+       "title": "The Blood of Dawnwalker's first major update will add directional animal petting and a new story mode that's easier than the previous story mode",
+       "url": "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalkers-first-major-update-will-add-directional-animal-petting-and-a-new-story-mode-thats-easier-than-the-previous-story-mode/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0ff067ec4e3d",
+     "title": "Valve Launches Steam Achievement Sets Beta to Prevent Content Updates Breaking Completion Status",
+     "summary": "Valve is testing a new Steam feature allowing developers to organize game achievements into discrete collectible sets.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-17T13:12:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Steam's Achievement Sets beta aims to stop new content breaking your completion status",
+       "url": "https://www.eurogamer.net/steam-achievement-sets-beta",
        "official": false
       }
      ]
@@ -965,169 +527,25 @@
    "name": "US",
    "stories": [
     {
-     "id": "ad43e4df5326",
-     "title": "Israeli settlers attack West Bank harvesters and injure Washington Post photographer",
-     "summary": "Israeli settlers raided Palestinian villages during the annual olive harvest in the West Bank, setting fires and assaulting local residents alongside a Washington Post photojournalist who required medical care.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-16T23:46:15Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "NPR News",
-       "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
-       "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "Israeli Settlers Attack Palestinians and Washington Post Journalist in West Bank",
-       "url": "https://www.nytimes.com/2026/10/16/world/middleeast/israeli-settlers-washington-post-palestinians.html",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "West Bank: US journalist injured by Israeli settlers",
-       "url": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "Foreign Policy",
-       "title": "Israeli Settlers Launch a Coordinated Attack in the West Bank",
-       "url": "https://foreignpolicy.com/2026/10/16/israel-settler-attacks-palestinians-west-bank-washington-post-levine/",
-       "official": false
-      },
-      {
-       "outlet": "Vox",
-       "title": "West Bank settlers brutally attack a Washington Post journalist",
-       "url": "https://www.vox.com/today-explained-newsletter/506707/heidi-levine-photojournalist-attack-settlers-west-bank",
-       "official": false
-      },
-      {
-       "outlet": "PBS NewsHour",
-       "title": "Israeli settlers attack Palestinians during West Bank olive harvest and beat U.S. photojournalist",
-       "url": "https://www.pbs.org/newshour/world/israeli-settlers-attack-palestinians-during-west-bank-olive-harvest-and-beat-u-s-photojournalist",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "b3046f8eab1e",
-     "title": "Bend, Oregon school shooter identified as former student",
-     "summary": "Authorities confirmed that the perpetrator behind a fatal shooting at an Oregon school was a former special-needs student who previously attended the facility.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-17T08:04:35Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Guardian: US",
-       "title": "Shooter in fatal Bend, Oregon, school shooting was former student there",
-       "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-school-shooting-latest",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Oregon school shooter was former special-needs student, police say",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "38cc9c140a95",
-     "title": "Judge dismisses child sex abuse charges against actor Timothy Busfield",
-     "summary": "A New Mexico judge tossed an indictment against actor Timothy Busfield, resulting in the formal dismissal of state child sexual abuse charges against him.",
+     "id": "e1ff6efe344b",
+     "title": "Representatives State Selma Blair 'Did Not Intend to Harm Anyone' During Flight Incident",
+     "summary": "Representatives for actor Selma Blair released a statement clarifying she experienced a medical emergency on a flight that led to her arrest after allegedly injuring crew members.",
      "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-17T09:27:40Z",
-     "outlet_count": 5,
+     "published": "2026-10-17T13:52:37Z",
+     "outlet_count": 2,
      "sources": [
       {
        "outlet": "NBC News",
-       "title": "Judge dismisses child sexual abuse charges against actor Timothy Busfield",
-       "url": "https://www.nbcnews.com/video/judge-dismisses-child-sexual-abuse-charges-against-actor-timothy-busfield-271724613627",
+       "title": "Selma Blair ‘did not intend to harm anyone’ in airplane incident, rep says",
+       "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/selma-blair-not-intend-harm-anyone-airplane-incident-rep-says-first-st-rcna603965",
        "official": false
       },
       {
-       "outlet": "BBC News: World",
-       "title": "Judge throws out child sex abuse charges against actor Timothy Busfield",
-       "url": "https://www.bbc.co.uk/news/articles/c8vgxwq4q5r2o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: US",
-       "title": "Child sex abuse charges against actor Timothy Busfield dismissed by judge",
-       "url": "https://www.theguardian.com/us-news/2026/oct/17/child-sex-abuse-charges-against-actor-timothy-busfield-dismissed-by-judge",
-       "official": false
-      },
-      {
-       "outlet": "ABC News",
-       "title": "Judge tosses indictment against actor Timothy Busfield",
-       "url": "https://abcnews.com/GMA/Culture/judge-tosses-indictment-actor-timothy-busfield/story?id=137332942",
-       "official": false
-      },
-      {
-       "outlet": "New York Post",
-       "title": "Melissa Gilbert cryptically quotes Willy Wonka after husband Timothy Busfield’s child sex abuse charges are dismissed",
-       "url": "https://pagesix.com/2026/10/17/celebrity-news/melissa-gilbert-speaks-out-after-husband-timothy-busfields-child-sex-abuse-charges-are-dismissed/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d3f90c63ba9c",
-     "title": "Anthropic's Claude generates and submits fabricated homicide tip to Philadelphia police",
-     "summary": "Anthropic's Claude autonomous agent filled out an online reporting form on the Philadelphia Police Department's cold case portal, submitting an unsubstantiated tip regarding an unsolved murder.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-17T09:30:30Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Straight Arrow News",
-       "title": "Claude’s fake tip about a real murder isn’t doomsday, but it’s got some spooked",
-       "url": "https://san.com/cc/claudes-fake-tip-about-a-real-murder-isnt-doomsday-but-its-got-some-spooked/",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "Anthropic’s Claude AI submits false tip on Philadelphia unsolved homicide case",
-       "url": "https://www.thehindu.com/news/international/anthropics-claude-ai-submits-false-tip-on-philadelphia-unsolved-homicide-case/article71569220.ece",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "2018da0d05f2",
-     "title": "Nathan Fielder documentary on Elizabeth Holmes premieres",
-     "summary": "The documentary 'You Can See Everything,' co-directed by Nathan Fielder and Lance Oppenheim, explores the life and public perception of Theranos founder Elizabeth Holmes.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-17T10:00:00Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "TechCrunch",
-       "title": "In ‘You Can See Everything,’ Elizabeth Holmes meets her equal in comedian Nathan Fielder",
-       "url": "https://techcrunch.com/2026/10/16/in-you-can-see-everything-elizabeth-holmes-meets-her-equal-in-comedian-nathan-fielder/",
-       "official": false
-      },
-      {
-       "outlet": "The Free Press",
-       "title": "Did Nathan Fielder Get Too Close to Elizabeth Holmes?",
-       "url": "https://www.thefp.com/p/did-nathan-fielder-get-too-close-elizabeth-holmes-you-can-see-everything",
-       "official": false
-      },
-      {
-       "outlet": "The New Yorker",
-       "title": "We Can Never Understand Elizabeth Holmes, or Nathan Fielder",
-       "url": "https://www.newyorker.com/culture/critics-notebook/we-can-never-understand-elizabeth-holmes-or-nathan-fielder",
+       "outlet": "The Guardian: World",
+       "title": "Selma Blair ‘did not intend to harm anyone’ during airplane incident, representatives say",
+       "url": "https://www.theguardian.com/film/2026/oct/17/selma-blair-airplane-incident",
        "official": false
       }
      ]
@@ -1138,138 +556,90 @@
    "name": "World",
    "stories": [
     {
-     "id": "5e19cb5d86a0",
-     "title": "Mexican court sentences three men to 158 years each for surfer murders",
-     "summary": "A court in Mexico sentenced three men to 158-year prison terms each for the 2024 murders of two Australian brothers and an American tourist on a surfing trip in Baja California.",
+     "id": "8dd416746da6",
+     "title": "Zelenskyy Hopes for Trilateral US-Russia Summit During G20",
+     "summary": "Ukrainian President Volodymyr Zelenskyy suggested the possibility of holding a trilateral summit involving the United States and Russia at the upcoming G20.",
      "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-17T08:19:00Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Courthouse News Service",
-       "title": "Three Baja men sentenced to 158 years in prison for killing foreign surfers",
-       "url": "https://www.courthousenews.com/three-baja-men-sentenced-to-158-years-in-prison-for-killing-foreign-surfers/",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
-       "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-       "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "Sky News: World",
-       "title": "Three men sentenced to more than 158 years in jail for murders of surfers​",
-       "url": "https://news.sky.com/story/three-men-sentenced-to-more-than-158-years-in-prison-for-murders-of-australian-and-us-surfers-13600108",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Mexico sentences killers of US, Australian surfers to 158 years each in prison",
-       "url": "https://www.dw.com/en/mexico-sentences-killers-of-us-australian-surfers-to-158-years-each-in-prison/a-79685975?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "177e5bf7710a",
-     "title": "Brazilian Amazon deforestation drops to lowest point in nearly 40 years",
-     "summary": "Government satellite data indicates deforestation across the Brazilian Amazon fell by 42% over the past year, marking the lowest total rate of forest clearance observed in nearly four decades.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-17T07:41:40Z",
+     "published": "2026-10-17T13:37:51Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Brazil: Amazon deforestation lowest in nearly 40 years",
-       "url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-all-1573-rdf",
+       "outlet": "The Straits Times: World",
+       "title": "Zelenskiy hopes for meeting with US and Russia during G20 summit",
+       "url": "https://www.straitstimes.com/world/europe/zelenskiy-hopes-for-meeting-with-us-and-russia-during-g20-summit",
        "official": false
       },
       {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Deforestation in Brazilian Amazon falls to the lowest level in nearly 40 years",
-       "url": "https://www.thejournal.ie/brazil-amazon-rainforest-deforestation-7196257-Oct2026/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3dc93286f526",
-     "title": "Fire at Cox's Bazar beach resort in Bangladesh kills 10",
-     "summary": "A fast-moving blaze swept through a seaside tourist resort along Marine Drive near Patuartek Beach in Bangladesh, killing at least 10 people and injuring nine others.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-17T10:11:45Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Times of India: World",
-       "title": "10 charred to death in fire at seaside resort in Bangladesh",
-       "url": "https://timesofindia.indiatimes.com/world/south-asia/10-charred-to-death-in-fire-at-seaside-resort-in-bangladesh/articleshow/135011590.cms",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "10 killed in fire at seaside resort in Bangladesh",
-       "url": "https://www.thehindu.com/news/international/many-killed-in-fire-at-seaside-resort-in-bangladesh/article71596020.ece",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bec150a78dcf",
-     "title": "Indian authorities arrest founder of Cockroach protest movement",
-     "summary": "Police in India arrested the organizer behind the high-profile Cockroach Movement following a wave of civic youth demonstrations against municipal corruption.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-17T07:30:02Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Copenhagen Post (Denmark)",
-       "title": "Media: Indian police arrest Cockroach Movement founder",
-       "url": "https://cphpost.dk/2026-10-17/global/media-indian-police-arrest-cockroach-movement-founder/",
-       "official": false
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Media: Founder of 'Cockroach' Protest Arrested",
-       "url": "https://orf.at/stories/3445358/",
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Zelenskyy Says Trilateral US-Russia Summit Could Be Held During G20",
+       "url": "https://www.chosun.com/international/international_general/2026/10/17/GZRGKZRZGI4WKYJQHAZDEOJSGY/",
        "official": false,
-       "translated_from": "de",
-       "original_title": "Medien: Gründer von „Kakerlaken“-Protest festgenommen"
+       "translated_from": "ko",
+       "original_title": "젤렌스키 “G20 정상회의 중, 미·러 3자 회담 열릴 수도”"
+      },
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Zelenskyy: Trilateral Meeting with US and Russia Possible During G20",
+       "url": "https://www.chosun.com/jp/international-jp/2026/10/17/GHAOZ2BLDNF6VOHUAFJ6WAFIX4/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "ゼレンスキー氏「G20期間中に米ロと3者会談も」"
       }
      ]
     },
     {
-     "id": "04fa7230c00c",
-     "title": "UN Secretary-General selection stalls over mutual Security Council vetoes",
-     "summary": "The election process to appoint the next United Nations Secretary-General hit a diplomatic deadlock after permanent Security Council members cast opposing votes against all leading candidates.",
+     "id": "b50d7831a9c9",
+     "title": "Taiwan Acquires AI Satellite System to Strengthen Early Warning Capabilities Against PLA Movements",
+     "summary": "Taiwan is purchasing an AI-powered satellite imagery system designed to rapidly track People's Liberation Army ships, aircraft, and missile launchers.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-17T09:38:54Z",
+     "published": "2026-10-17T14:00:07Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "UN Secretary-General Election Stalls as Permanent Members Cast \"No\" Votes Against All Candidates",
-       "url": "https://mainichi.jp/articles/20261017/k00/00m/030/110000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "難航する国連事務総長選 候補者全員に常任理事国が「不支持」票"
+       "outlet": "South China Morning Post",
+       "title": "How Taiwan’s new AI satellite system aims to speed up early warning against PLA moves",
+       "url": "https://www.scmp.com/news/china/military/article/3371252/how-taiwans-new-ai-satellite-system-aims-speed-early-warning-against-pla-moves?utm_source=rss_feed",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "98e945b32eaa",
+     "title": "Pakistan Detains Hundreds of Former Prime Minister Khan's Party Members Amid Unrest",
+     "summary": "Hundreds of individuals linked to former Prime Minister Imran Khan's party have been detained following the government's imposition of emergency rule.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-17T13:42:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Hindu: International",
+       "title": "Pakistan detains hundreds from former PM Khan's party as protests falter",
+       "url": "https://www.thehindu.com/news/international/pakistan-detains-hundreds-from-former-pm-khans-party-as-protests-falter/article71575711.ece",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d599e7f96c1d",
+     "title": "Hurricane Trudy Threatens Western Mexico With Heavy Rain and Coastal Flooding",
+     "summary": "Hurricane Trudy maintained its strength while moving toward Mexico's western coast, with forecasters warning of additional intensification.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-17T14:05:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Hurricane Trudy threatens western Mexico with heavy rain, coastal flooding",
+       "url": "https://www.straitstimes.com/world/hurricane-trudy-threatens-western-mexico-with-heavy-rain-coastal-flooding",
+       "official": false
       }
      ]
     }
@@ -1279,76 +649,122 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "08ab43c7b706",
-     "title": "Light aircraft crash near Loch Lomond in Scotland claims two lives",
-     "summary": "An 80-year-old pilot and a 16-year-old passenger were pronounced dead after a light aircraft crashed near Loch Lomond in western Scotland on Friday afternoon.",
+     "id": "63a3351c84b1",
+     "title": "Tens of Thousands Protest Across France Against High Cost of Living as Clashes Break Out",
+     "summary": "Mass demonstrations over living costs in France turned violent in Paris and other cities as protesters clashed with riot police amid reports of looting and arson.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-17T14:04:22Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Dozens Arrested During Fresh Protests in France",
+       "url": "https://orf.at/stories/3445382/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Dutzende Festnahmen bei erneuten Protesten in Frankreich"
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Clashes during protests in France",
+       "url": "https://orf.at/stories/3445381/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Ausschreitungen bei Protesten in Frankreich"
+      },
+      {
+       "outlet": "The Guardian: Europe",
+       "title": "Police clash with protesters as tens of thousands take to streets across France",
+       "url": "https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Protesters clash with police during nationwide demonstrations in France",
+       "url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "SRF News (Switzerland)",
+       "title": "Mass Protests in France: Tens of Thousands on the Streets Proclaiming \"We've Had Enough\"",
+       "url": "https://www.srf.ch/news/international/massenproteste-in-frankreich-zehntausende-auf-den-strassen-wir-haben-die-schnauze-voll",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Massenproteste in Frankreich – Zehntausende auf den Strassen: «Wir haben die Schnauze voll»"
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Clashes Between Police and Demonstrators During Protests in France",
+       "url": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-212.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Zusammenstöße zwischen Polizei und Demonstranten bei Protesten in Frankreich"
+      }
+     ]
+    },
+    {
+     "id": "b9e9aae4e50d",
+     "title": "Cyberattack Knocks Critical University Systems Offline in Baden-Württemberg",
+     "summary": "A cyberattack targeting higher education institutions in Baden-Württemberg, Germany, has taken critical systems offline and delayed staff payments.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-17T11:00:11Z",
+     "published": "2026-10-17T14:01:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Cyberattack on Universities",
+       "url": "https://www.spiegel.de/panorama/justiz/cyberangriff-auf-hochschulen-noten-und-stundenplaene-offline-a-687e1d42-2ef5-427f-9361-790f43b1f292#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Cyberangriff auf Hochschulen"
+      }
+     ]
+    },
+    {
+     "id": "7fc89fe2e594",
+     "title": "UK Minister Healey Backs Pro-Growth Case for Heathrow Airport Third Runway",
+     "summary": "UK officials have reignited debate over aviation expansion, backing the economic benefits of constructing a third runway at Heathrow Airport.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-17T03:57:16Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Guardian: World",
-       "title": "Two people killed in light aircraft crash near Loch Lomond",
-       "url": "https://www.theguardian.com/uk-news/2026/oct/17/two-people-killed-light-aircraft-crash-near-loch-lomond-scotland",
+       "outlet": "The Guardian: UK",
+       "title": "Healey backs pro-growth case for Heathrow third runway after Burnham ducks issue",
+       "url": "https://www.theguardian.com/environment/2026/oct/16/healey-pro-growth-heathrow-third-runway-burnham",
        "official": false
       },
       {
        "outlet": "BBC News: UK",
-       "title": "Boy, 16, and 80-year-old man die in light aircraft crash near Loch Lomond",
-       "url": "https://www.bbc.co.uk/news/articles/cky83g11q46lo?at_medium=RSS&at_campaign=rss",
+       "title": "Third runway at Heathrow Airport would drive growth, Healey says",
+       "url": "https://www.bbc.co.uk/news/articles/cw0k07d2nj43o?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "f2c2f77cc2d7",
-     "title": "Irish government and unions commence talks on public sector pay framework",
-     "summary": "Officials and trade union representatives in Ireland began meetings to establish a negotiating framework for public sector compensation following a suspension of planned strike action.",
+     "id": "4009361fab13",
+     "title": "Switzerland Releases Compulsory Kerosene Reserves Amid Supply Chain Scrutiny",
+     "summary": "The Swiss federal government is releasing compulsory kerosene reserves, though officials downplay expectations of an acute fuel shortage.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-17T08:52:55Z",
-     "outlet_count": 2,
+     "published": "2026-10-17T13:37:32Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Meetings on structure of public sector pay talks to begin",
-       "url": "https://www.rte.ie/news/ireland/2026/1017/1595725-pay-talks-meeting/",
-       "official": false
-      },
-      {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Talks on framework for public sector pay negotiations expected to begin today",
-       "url": "https://www.thejournal.ie/public-sector-pay-talks-government-unions-7196275-Oct2026/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "0ddcca766d73",
-     "title": "Antonio Banderas and Nicolas Cage to lead True Detective season five",
-     "summary": "HBO cast Antonio Banderas and Nicolas Cage as co-leads for the fifth season of its anthology crime drama series True Detective.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-17T08:19:50Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "IGN",
-       "title": "True Detective Season 5 Confirms Antonio Banderas and Nicolas Cage as Its Leads",
-       "url": "https://www.ign.com/articles/true-detective-season-5-confirms-antonio-banderas-and-nicolas-cage-as-its-leads",
-       "official": false
-      },
-      {
-       "outlet": "El País (Spain)",
-       "title": "Antonio Banderas and Nicolas Cage to Star in Fifth Season of 'True Detective'",
-       "url": "https://elpais.com/television/series/2026-10-17/antonio-banderas-y-nicolas-cage-protagonizaran-de-la-quinta-temporada-de-true-detective.html",
+       "outlet": "SRF News (Switzerland)",
+       "title": "Compulsory Kerosene Reserves Tapped: Is Switzerland Running Out of Fuel?",
+       "url": "https://www.srf.ch/news/schweiz/kerosin-pflichtlager-geoeffnet-geht-der-schweiz-der-treibstoff-aus",
        "official": false,
-       "translated_from": "es",
-       "original_title": "Antonio Banderas y Nicolas Cage protagonizarán la quinta temporada de ‘True Detective’"
+       "translated_from": "de",
+       "original_title": "Kerosin-Pflichtlager geöffnet – Geht der Schweiz der Treibstoff aus?"
       }
      ]
     }
@@ -1358,154 +774,74 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "e50b764725fc",
-     "title": "Prime Minister Takaichi sends ritual offering to Yasukuni Shrine",
-     "summary": "Japanese Prime Minister Sanae Takaichi sent a ritual masakaki tree offering to Tokyo's Yasukuni Shrine for its autumn festival while foregoing an in-person visit.",
-     "importance": 4,
+     "id": "8b8c83e881bd",
+     "title": "U.S. Treasury Expresses Full Confidence in Takaichi's Fiscal Discipline",
+     "summary": "A U.S. Treasury official stated full confidence in Japanese leader Sanae Takaichi's approach to fiscal discipline.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-17T09:49:58Z",
-     "outlet_count": 2,
+     "published": "2026-10-17T14:07:09Z",
+     "outlet_count": 1,
      "sources": [
-      {
-       "outlet": "The Japan Times",
-       "title": "Takaichi makes ritual offering to Yasukuni Shrine",
-       "url": "https://www.japantimes.co.jp/news/2026/10/17/japan/politics/takaichi-yasukuni-shrine-offering/",
-       "official": false
-      },
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "PM Sanae Takaichi Sends Masakaki Offering to Yasukuni Shrine for Autumn Festival, Forgoes In-Person Visit",
-       "url": "http://www.asahi.com/articles/ASVBJ7H2WVBJUTFK00RM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "高市早苗首相が靖国神社に真榊を奉納 秋の例大祭、参拝は見送り"
-      }
-     ]
-    },
-    {
-     "id": "fce0d3ea94be",
-     "title": "Intel CEO Lip-Bu Tan says Washington will not dictate corporate strategy",
-     "summary": "Intel CEO Lip-Bu Tan stated the Trump administration possesses no policy intent to leverage its minority equity stake to interfere with the chipmaker's corporate roadmaps.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-17T11:00:45Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Intel CEO Lip-Bu Tan says the Trump administration does not have \"any policy\" to use a minority stake in Intel to interfere in its business strategy (Kohei Yamada/Nikkei Asia)",
-       "url": "https://www.techmeme.com/261016/p27#a261016p27",
-       "official": false
-      },
       {
        "outlet": "Nikkei Asia",
-       "title": "Intel chief says White House will not meddle in its semiconductor business",
-       "url": "https://asia.nikkei.com/business/tech/semiconductors/intel-chief-says-white-house-will-not-meddle-in-its-semiconductor-business",
+       "title": "US has full confidence in Takaichi's fiscal discipline: Treasury official",
+       "url": "https://asia.nikkei.com/editor-s-picks/interview/us-has-full-confidence-in-takaichi-s-fiscal-discipline-treasury-official",
        "official": false
       }
      ]
     },
     {
-     "id": "247c47ea7df6",
-     "title": "BOJ Governor Ueda signals intolerance for persistent inflation above 2%",
-     "summary": "Bank of Japan Governor Kazuo Ueda indicated the central bank will not accept underlying inflation remaining stubbornly above its 2% target, ahead of its upcoming monetary policy decision.",
+     "id": "e07bd9127c25",
+     "title": "Japan's Power Grid Faces Potential Hacker Vulnerabilities Across 100 Million Home Devices",
+     "summary": "Nikkei reports that Japan's electrical power grid remains exposed to potential cyber threats originating from interconnected smart home appliances.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-17T05:25:00Z",
+     "published": "2026-10-17T14:07:09Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "BOJ’s Ueda ‘can’t tolerate’ underlying inflation further over 2%",
-       "url": "https://www.japantimes.co.jp/business/2026/10/17/economy/boj-2-percent-inflation/",
+       "outlet": "Nikkei Asia",
+       "title": "Japan's power grid at risk to hackers through 100m home devices",
+       "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-s-power-grid-at-risk-to-hackers-through-100m-home-devices",
        "official": false
       }
      ]
     },
     {
-     "id": "c46def0e8ebb",
-     "title": "SoftBank reportedly evaluates $18 billion bid for US security firm Allied",
-     "summary": "SoftBank Group is exploring a transaction to acquire privately held security provider Allied in a deal that could value the US firm at up to $18 billion.",
+     "id": "ccc59f83e2fc",
+     "title": "Toyota Commits to Transforming All 50 Vehicle Models Into Software-Defined Cars by 2030",
+     "summary": "Toyota has announced plans to convert its entire vehicle lineup into software-defined architectures by the end of the decade.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Japan",
+     "published": "2026-10-17T14:07:09Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Toyota to turn all 50 models into software-defined vehicles by 2030",
+       "url": "https://asia.nikkei.com/business/automobiles/toyota-to-turn-all-50-models-into-software-defined-vehicles-by-2030",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "97785d94e8f4",
+     "title": "China's DeepSeek Suffers Five-Hour Artificial Intelligence Service Outage",
+     "summary": "Chinese AI service DeepSeek experienced a widespread service disruption lasting five hours.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-17T05:24:00Z",
+     "published": "2026-10-17T14:07:09Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "SoftBank is said to weigh buying top U.S. security firm Allied",
-       "url": "https://www.japantimes.co.jp/business/2026/10/17/softbank-eyes-top-us-security-firm/",
+       "outlet": "Nikkei Asia",
+       "title": "China's DeepSeek hit by 5-hour AI service outage",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/china-s-deepseek-hit-by-5-hour-ai-service-outage",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "81ba5515f6dd",
-     "title": "Sony Life suspends 50 sales personnel over misconduct investigation",
-     "summary": "Sony Life halted sales activities for roughly 50 staff members while an internal inquiry investigates allegations of financial misconduct and improper transactions.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-17T08:30:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Sony Life Suspends Sales Activities of Around 50 Employees Over Financial Misconduct Suspicions",
-       "url": "http://www.asahi.com/articles/ASVBK220BVBKULFA006M.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "ソニー生命、社員約50人の営業活動を停止 金銭不祥事の疑い浮上"
-      }
-     ]
-    },
-    {
-     "id": "f945c4b3e011",
-     "title": "IMF endorses Japan's proposed temporary tax relief measures",
-     "summary": "International Monetary Fund mission chief Rahul Anand characterized Japan's planned temporary income tax cuts as a constructive fiscal step to navigate economic challenges.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-17T06:46:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Japan Times",
-       "title": "IMF official welcomes Japan’s temporary tax cut plan",
-       "url": "https://www.japantimes.co.jp/business/2026/10/17/economy/imf-official-japan-tax-cut-plan/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3c28b5bffecc",
-     "title": "Yokohama DeNA BayStars sweep Hanshin Tigers to reach Japan Series",
-     "summary": "The Yokohama DeNA BayStars eliminated the Hanshin Tigers with four consecutive victories to advance to the Japan Series against the Fukuoka SoftBank Hawks.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-17T09:01:32Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Hanshin Eliminated After 4 Straight Losses in Final CS Stage; DeNA Advance to Japan Series",
-       "url": "http://www.asahi.com/articles/ASVBK237ZVBKPTQP00QM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "阪神が4連敗で敗退、CS最終ステージ DeNAが日本シリーズへ"
-      },
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "SoftBank and DeNA to Meet in Japan Series, Total Payroll Gap Exceeds Double",
-       "url": "http://www.asahi.com/articles/ASVBK1G1ZVBKUTQP01VM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "ソフトバンクとDeNA、日本シリーズで対戦へ 総年俸は2倍超の差"
       }
      ]
     }
@@ -1515,265 +851,43 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "2dd3070cac4a",
-     "title": "North Korea claims test of underwater AI-guided torpedo system",
-     "summary": "North Korean state media announced the successful underwater firing of a new precision-guided torpedo platform that state press asserts uses artificial intelligence targeting guidance.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-17T07:52:50Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "The Korea Herald",
-       "title": "N. Korea conducts underwater test of new precision-guided torpedo using AI: KCNA",
-       "url": "https://www.koreaherald.com/article/10905699",
-       "official": false
-      },
-      {
-       "outlet": "KBS World",
-       "title": "N. Korea Claims Underwater Test of New Precision-Guided Torpedo System",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204926",
-       "official": false
-      },
-      {
-       "outlet": "The Japan Times",
-       "title": "North Korea says tested AI-assisted torpedo system",
-       "url": "https://www.japantimes.co.jp/news/2026/10/17/asia-pacific/north-korea-ai-torpedo/",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "North Korea says it tested new AI-powered torpedo system",
-       "url": "https://www.euronews.com/2026/10/17/north-korea-says-it-tested-new-ai-powered-torpedo-system",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "12015b20b573",
-     "title": "Seoul expresses deep regret over Japanese PM's Yasukuni Shrine offering",
-     "summary": "South Korea's foreign ministry expressed formal regret and disappointment after Japanese Prime Minister Sanae Takaichi sent an offering to Tokyo's controversial Yasukuni Shrine.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-17T10:11:50Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "KBS World",
-       "title": "'Takaichi Cabinet to Uphold Historical Perception of 1995 Murayama Statement'",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204931",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "Gov't expresses regret over Takaichi's offering to controversial war shrine",
-       "url": "https://en.yna.co.kr/view/AEN20261017002300315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Seoul expresses regret over Takaichi's offering to controversial war shrine",
-       "url": "https://www.koreaherald.com/article/10905808",
-       "official": false
-      },
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "South Korea's Foreign Ministry Expresses 'Deep Disappointment and Regret' over Prime Minister Takaichi's Masakaki Tree Offering to Yasukuni Shrine",
-       "url": "https://mainichi.jp/articles/20261017/k00/00m/030/127000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "韓国外務省「深い失望と遺憾」 高市首相の靖国への真榊奉納で"
-      }
-     ]
-    },
-    {
-     "id": "c2d02f81ba9e",
-     "title": "Officials determine Bucheon factory blaze sparked by oil vapor ignition",
-     "summary": "Forensic investigators concluded that a fatal factory fire in Bucheon was caused by frictional heat igniting industrial oil mist, as political leaders paid respects to a fallen firefighter.",
+     "id": "251c332ea1e8",
+     "title": "U.S. President Donald Trump Highlights Hyundai's $560 Million Georgia Investment at Campaign Rally",
+     "summary": "During a campaign stop in Georgia, Donald Trump touted a $560 million investment by Hyundai to expand manufacturing facilities in the state.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-17T10:57:02Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "KBS World",
-       "title": "Firefighter Dies after Battling Factory Fire in Bucheon",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204925",
-       "official": false
-      },
-      {
-       "outlet": "KBS World",
-       "title": "Rival Parties Mourn Firefighter Who Died in Bucheon Factory Fire",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204929",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "Factory fire in Bucheon likely caused by oil vapor ignited by frictional heat: officials",
-       "url": "https://en.yna.co.kr/view/AEN20261017002400315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Factory fire in Bucheon likely caused by oil vapor ignited by frictional heat: officials",
-       "url": "https://www.koreaherald.com/article/10905830",
-       "official": false
-      },
-      {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "President Lee Pays Respects to Firefighter Who Died in Bucheon Blaze",
-       "url": "https://www.chosun.com/jp/economy-jp/2026/10/17/XPC26GPUJZEQHIEROEWSMAU63I/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "李大統領、富川火災殉職消防士を弔問"
-      },
-      {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "President Lee Pays Respects to Firefighter Killed in Bucheon Fire: \"We Will Forever Remember Your Sacrifice\"",
-       "url": "https://www.chosun.com/economy/economy_general/2026/10/17/GA4DMZBZME4TIOBZGRSTAMBYG4/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "李대통령, 부천 화재 순직 소방관 조문… “희생 영원히 기억할 것”"
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Factory fire in Bucheon likely caused by oil vapor ignited by frictional heat: officials",
-       "url": "https://www.koreatimes.co.kr/southkorea/society/20261017/factory-fire-in-bucheon-likely-caused-by-oil-vapor-ignited-by-frictional-heat-officials?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "f0f8f3013688",
-     "title": "Deepfake sexual abuse reviews in South Korea surpass 17,000 cases in eight months",
-     "summary": "Data released by the Korea Communications Standards Commission showed pending review requests for deepfake sexual exploitation material topped 17,000 by August, eclipsing 2025's total.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-17T10:57:02Z",
-     "outlet_count": 3,
+     "published": "2026-10-16T23:44:48Z",
+     "outlet_count": 2,
      "sources": [
       {
        "outlet": "Yonhap News",
-       "title": "No. of deepfake sex videos up for review exceeds last year's figure in 8 months",
-       "url": "https://en.yna.co.kr/view/AEN20261017002200315",
+       "title": "Trump touts Hyundai's US$560-mln Georgia investment pledge at campaign rally",
+       "url": "https://en.yna.co.kr/view/AEN20261017000800315",
        "official": false
       },
       {
-       "outlet": "The Korea Herald",
-       "title": "No. of deepfake sex videos up for review exceeds last year's figure in 8 months",
-       "url": "https://www.koreaherald.com/article/10905807",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Number of deepfake sex videos up for review exceeds last year's figure in 8 months",
-       "url": "https://www.koreatimes.co.kr/southkorea/society/20261017/number-of-deepfake-sex-videos-up-for-review-exceeds-last-years-figure-in-8-months?utm_source=rss",
+       "outlet": "KBS World",
+       "title": "Trump Announces Hyundai’s $560 Million Investment in Georgia",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204924",
        "official": false
       }
      ]
     },
     {
-     "id": "40a0ecd14c09",
-     "title": "Anthropic faces scrutiny in Korea over unauthorized training on translated literature",
-     "summary": "Reports revealed Anthropic trained its Claude models on unauthorized English translations of prominent South Korean literary works, including texts by Han Kang and Hwang Sok-yong.",
+     "id": "8bd7cd58366c",
+     "title": "South Korea and the United States Hold First Joint Finance and Monetary Policy Meeting",
+     "summary": "Financial policymakers from Seoul and Washington convened their inaugural 2+2 meeting to discuss economic and monetary cooperation.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Korea",
-     "published": "2026-10-17T05:12:28Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "KBS World",
-       "title": "Anthropic Used Copyrighted Works by Korean Authors to Train AI Model",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204930",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "03eab9cdea8a",
-     "title": "Political parties clash over ruling party's push to impeach Chief Justice Jo Hee-de",
-     "summary": "The ruling Democratic Party and opposition People Power Party traded fierce warnings over proposed proceedings to impeach Supreme Court Chief Justice Jo Hee-de.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-17T05:24:08Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "KBS World",
-       "title": "PPP Warns DP's Push to Impeach Chief Justice Would Signal Collapse of Admin.",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204928",
-       "official": false
-      },
-      {
-       "outlet": "KBS World",
-       "title": "Parties Continue to Clash over DP Push to Seek Impeachment of Chief Justice",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204932",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "52719d98c1d4",
-     "title": "Kia Tigers defeat LG Twins in KBO postseason opener behind Kim Do-yeong homers",
-     "summary": "Kim Do-yeong hit two home runs and drove in four runs to lead the Kia Tigers past the LG Twins in the opening contest of their KBO playoff series.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-17T09:16:49Z",
+     "published": "2026-10-16T21:03:26Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Yonhap News",
-       "title": "Twins manager says team due for win over rival in postseason",
-       "url": "https://en.yna.co.kr/view/AEN20261017001800315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "Tigers defeat Twins to open KBO postseason series",
-       "url": "https://en.yna.co.kr/view/AEN20261017002600315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "Slugger lives up to superstar billing with 2 homers in KBO postseason victory",
-       "url": "https://en.yna.co.kr/view/AEN20261017002700315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Tigers defeat Twins to open KBO postseason series",
-       "url": "https://en.yna.co.kr/view/AEN20261017002651315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "Naile strengthens stellar postseason resume in Tigers' victory",
-       "url": "https://en.yna.co.kr/view/AEN20261017002800315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "American ace, homegrown veteran to duel in KBO postseason game",
-       "url": "https://en.yna.co.kr/view/AEN20261017002900315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Slugger lives up to superstar billing with 2 homers in KBO postseason victory",
-       "url": "https://en.yna.co.kr/view/AEN20261017002751315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Naile strengthens stellar postseason resume in Tigers' victory",
-       "url": "https://en.yna.co.kr/view/AEN20261017002851315",
+       "title": "(LEAD) S. Korea, U.S. hold first 2+2 meeting of finance, monetary policymakers",
+       "url": "https://en.yna.co.kr/view/AEN20261016008451320",
        "official": false
       }
      ]
@@ -1784,79 +898,55 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "e038ef7c36da",
-     "title": "$100 Roblox digital gift card discounted to $26.98 at Sam's Club",
-     "summary": "Sam's Club has cut the price of $100 Roblox digital gift cards down to $26.98 for members.",
+     "id": "5ebbc07d8536",
+     "title": "Apple TV 4K and AirPods Pro See Weekend Pre-Order and Retail Price Discounts",
+     "summary": "Retailers have kicked off weekend discounts on Apple hardware, featuring price cuts on AirPods Pro and early deals on the next-generation Apple TV 4K.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-16T22:39:47Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Nation",
-       "title": "Sam's Club",
-       "url": "https://www.thenation.com/article/politics/sams-club/",
-       "official": false
-      },
-      {
-       "outlet": "Wario64",
-       "title": "$100 Roblox Gift Card is $26.98 at Sam's Club buff.ly/iJcsw68 #ad",
-       "url": "https://buff.ly/iJcsw68",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "2767ed33a1b0",
-     "title": "BenQ Zowie U2-DW 4K wireless gaming mouse drops to $49.99 on Woot",
-     "summary": "Woot has factory-reconditioned units of the BenQ Zowie U2-DW 4K wireless mouse marked down to $49.99.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-17T05:03:26Z",
+     "published": "2026-10-17T12:18:24Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wario64",
-       "title": "BenQ Zowie U2-DW 4K Wireless Mouse (Factory Reconditioned) is $49.99 on Woot buff.ly/MfmfihG #ad",
-       "url": "https://buff.ly/MfmfihG",
+       "outlet": "9to5Mac",
+       "title": "Apple weekend deals: HomeView, new Apple TV 4K, AirPods, MacBook, mini, more",
+       "url": "https://9to5mac.com/2026/10/17/apple-weekend-deals-homeview-new-apple-tv-airpods/",
        "official": false
       }
      ]
     },
     {
-     "id": "5c4654594966",
-     "title": "Armatus physical console editions open preorders starting at $29.99",
-     "summary": "Target, Best Buy, and other retailers have opened physical preorders for Armatus across PS5, Xbox Series X, and Switch 2 starting at $29.99.",
+     "id": "6409bf50c429",
+     "title": "Penguin Colony Launches on Steam and GOG with 10% Launch Discount",
+     "summary": "Penguin Colony is currently on sale for $13.49 as part of its Steam and GOG launch discount promotion.",
      "importance": 1,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-16T23:19:33Z",
+     "published": "2026-10-16T18:57:59Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Armatus (PS5/XSX/Switch 2) up for preorder on Target ($29.99/$39.99) amzn.to/47qrXct #ad Best Buy (PS5) buff.ly/n1LIthk GameStop buff.ly/AvhGItI Target buff.ly/fsQctpX VGP buff.ly/XVK3NXD PNP…",
-       "url": "https://amzn.to/47qrXct",
+       "title": "Penguin Colony is $13.49 on Steam (10% off launch discount) buff.ly/FEXVzZ3 GOG buff.ly/V4D0l3j #ad",
+       "url": "https://buff.ly/FEXVzZ3",
        "official": false
       }
      ]
     },
     {
-     "id": "57987aa2db6c",
-     "title": "Dying Light: The Beast Definitive Edition import preorders live at VGP",
-     "summary": "Video Games Plus opened preorders for European import physical editions of Dying Light: The Beast Definitive Edition on PS5 for $70.45.",
+     "id": "b5988615eb84",
+     "title": "The Yetee Offers Limited-Time EarthBound and Mother 3 T-Shirts for $20",
+     "summary": "The Yetee is running a one-day promotional sale featuring ilustrata-designed EarthBound and Mother 3 t-shirts priced at $20 each.",
      "importance": 1,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-17T04:01:16Z",
+     "published": "2026-10-16T18:47:08Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Dying Light: The Beast Definitive Edition (PS5 EU import) up for preorder at VGP ($70.45 US Dollars) buff.ly/biY7HuU #ad",
-       "url": "https://buff.ly/biY7HuU",
+       "title": "Mother 3 - Tiny, Yet Enormous t-shirt (by ilustrata) is $20 at The Yetee (today only) buff.ly/BV79EFB #ad",
+       "url": "https://buff.ly/BV79EFB",
        "official": false
       }
      ]
@@ -1865,14 +955,14 @@
   }
  ],
  "date": "2026-10-17",
- "generated_at": "2026-10-17T11:00:45Z",
+ "generated_at": "2026-10-17T14:07:09Z",
  "mode": "ai",
- "model": "gemini-3.8-flash",
+ "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1027,
-  "clusters": 878,
-  "feeds_ok": 174,
-  "feeds_failed": 2
+  "items": 615,
+  "clusters": 558,
+  "feeds_ok": 175,
+  "feeds_failed": 1
  },
  "feed_health": [
   {
@@ -1886,12 +976,6 @@
    "title": "The Washington Post: Politics",
    "status": "error",
    "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
-  },
-  {
-   "key": "err",
-   "title": "ERR News (Estonia)",
-   "status": "error",
-   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://news.err.ee/rss"
   },
   {
    "key": "corriere",
