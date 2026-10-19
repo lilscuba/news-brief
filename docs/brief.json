@@ -1,297 +1,239 @@
 {
  "version": 1,
- "headline": "Global developments highlight surging AI agent milestones, international border tensions, and major infrastructure security challenges.",
+ "headline": "Apple announces an October 28 event for its expected touchscreen MacBook and M6 hardware, while the US bans DeepSeek in federal agencies and AI labs grapple with societal and labor pressures.",
  "top": [
   {
-   "id": "1ee0cb0c72db",
-   "title": "Google DeepMind Agents Defeat Minecraft Without Human Assistance",
-   "summary": "Google DeepMind announced that four Gemini 4 Argon AI agents successfully beat Minecraft without human help in just over 27 hours.",
+   "id": "7061d2328a56",
+   "title": "Apple announces 'Pro and tell' hardware event for October 28",
+   "summary": "Apple has scheduled a product event for October 28 in Los Angeles, where it is expected to reveal its first touchscreen MacBook alongside a 14-inch MacBook Pro powered by the M6 chip.",
    "importance": 5,
    "label": "CONFIRMED",
    "category": "Tech",
-   "published": "2026-10-19T10:58:21Z",
-   "outlet_count": 3,
+   "published": "2026-10-19T16:57:26Z",
+   "outlet_count": 6,
    "sources": [
     {
+     "outlet": "9to5Mac",
+     "title": "Apple announces special event for October 28: ‘Pro and tell’",
+     "url": "https://9to5mac.com/2026/10/19/apple-announces-special-event-for-october-28/",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Apple teases MacBook Pro event next week",
+     "url": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Announcing New Products Next Week: 'Pro and Tell'",
+     "url": "https://www.macrumors.com/2026/10/19/apple-pro-and-tell/",
+     "official": false
+    },
+    {
      "outlet": "Engadget",
-     "title": "Google Gemini 4 agents just beat Minecraft with no human intervention",
-     "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+     "title": "Apple is set to hold another product event on October 28",
+     "url": "https://www.engadget.com/2290401/apple-pro-and-tell-event-october-28-announcement/",
      "official": false
     },
     {
      "outlet": "Techmeme",
-     "title": "Google DeepMind says four Gemini 4 Argon agents beat Minecraft without any human help in 27 hours and 14 minutes, costing $1,620 at Argon's planned 2027 price (Matthias Bastian/The Decoder)",
-     "url": "https://www.techmeme.com/261019/p14#a261019p14",
+     "title": "Apple announces a \"Pro and tell\" event on October 28 at 10am PT in LA, where its first touchscreen MacBook, a 14-inch MacBook Pro with M6, and more are expected (Chance Miller/9to5Mac)",
+     "url": "https://www.techmeme.com/261019/p33#a261019p33",
      "official": false
     },
     {
-     "outlet": "Steam News",
-     "title": "It Took 4 Google AI Agents Over 27 Hours to Defeat the Ender Dragon in Minecraft Without Help From Humans",
-     "url": "https://store.steampowered.com/news/group/9869/view/693149194510140777",
+     "outlet": "AppleInsider",
+     "title": "OLED iPad mini and touchscreen MacBook Pro: What to expect from 'Pro and Tell'",
+     "url": "https://appleinsider.com/articles/26/10/19/oled-ipad-mini-and-touchscreen-macbook-pro-what-to-expect-from-pro-and-tell?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "RIP, MacBook Ultra",
+     "url": "https://www.macrumors.com/2026/10/19/rip-macbook-ultra/",
      "official": false
     }
    ]
   },
   {
-   "id": "caed45946d3d",
-   "title": "Anthropic Commits 5 Percent of Shares to Public-Benefit Fund",
-   "summary": "Anthropic is dedicating a portion of its equity to a public-benefit fund ahead of its anticipated IPO, alongside giving external watchdogs employee-like access.",
+   "id": "bfd1bf1457f6",
+   "title": "US Department of Homeland Security bans DeepSeek across federal civilian agencies",
+   "summary": "The Trump administration has ordered all federal civilian agencies to remove DeepSeek technology from their IT systems and prohibited future procurement, citing sensitive data transfer risks.",
    "importance": 5,
    "label": "CONFIRMED",
-   "category": "US",
-   "published": "2026-10-19T10:48:33Z",
+   "category": "Korea",
+   "published": "2026-10-19T17:23:09Z",
    "outlet_count": 4,
    "sources": [
     {
-     "outlet": "Ars Technica",
-     "title": "Anthropic gives outside AI watchdog “employee-like” access",
-     "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+     "outlet": "Techmeme",
+     "title": "The US DHS orders all federal civilian agencies to remove DeepSeek's tech from their IT systems and prohibits future procurement of its products and services (Connor Hart/Wall Street Journal)",
+     "url": "https://www.techmeme.com/261019/p28#a261019p28",
      "official": false
     },
     {
-     "outlet": "TechCrunch",
-     "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-     "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+     "outlet": "Chosun Ilbo (Korean)",
+     "title": "Trump administration completely bans federal agencies from using DeepSeek… \"Risk of sensitive data transfer\"",
+     "url": "https://www.chosun.com/international/international_general/2026/10/20/MFTDENLDMUZDQODDGQZDSZRTMI/",
+     "official": false,
+     "translated_from": "ko",
+     "original_title": "트럼프 행정부, 연방기관 딥시크 사용 전면 금지… “민감 데이터 이전 위험”"
+    },
+    {
+     "outlet": "Chosun Ilbo (Korean)",
+     "title": "Trump administration totally bans DeepSeek in federal agencies",
+     "url": "https://www.chosun.com/jp/international-jp/2026/10/20/YAJQM7NFSFFQZDK47TD5V3IFGM/",
+     "official": false,
+     "translated_from": "ko",
+     "original_title": "トランプ政権、連邦機関でディープシーク全面禁止"
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+     "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
      "official": false
     },
     {
-     "outlet": "The Guardian: UK",
-     "title": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
-     "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
-     "official": false
-    },
-    {
-     "outlet": "Semafor",
-     "title": "Anthropic pledges at least 5% of shares to public-benefit fund",
-     "url": "https://www.semafor.com/article/10/19/2026/anthropic-pledges-at-least-5-of-shares-to-public-benefit-fund",
+     "outlet": "Nikkei Asia",
+     "title": "China's DeepSeek debuts improved low-cost AI as tech doubts swirl",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/china-s-deepseek-debuts-improved-low-cost-ai-as-tech-doubts-swirl",
      "official": false
     }
    ]
   },
   {
-   "id": "0b8ab13846c9",
-   "title": "Australian Lawmaker Helen Haines Seriously Injured in Suspected Car Attack",
-   "summary": "Australian MP Helen Haines is in critical condition following a deliberate vehicle strike outside her office, prompting counterterrorism activation.",
+   "id": "e8df9dc28cba",
+   "title": "Kenyan cult leader Paul Mackenzie convicted of murdering 190 children in mass starvation",
+   "summary": "A Kenyan court found starvation cult leader Paul Mackenzie and about 30 assistants guilty of murder over the deaths of 190 children and one adult.",
    "importance": 5,
    "label": "REPORTED",
    "category": "World",
-   "published": "2026-10-19T10:52:29Z",
-   "outlet_count": 16,
+   "published": "2026-10-19T17:08:56Z",
+   "outlet_count": 8,
    "sources": [
     {
      "outlet": "Sky News: World",
-     "title": "Australian MP in critical condition after being hit by car - as counter-terror police investigate",
-     "url": "https://news.sky.com/story/australian-mp-attacked-outside-her-office-says-pm-13600871",
+     "title": "Doomsday cult leader found guilty of murdering 190 children and one adult",
+     "url": "https://news.sky.com/story/cult-leader-found-guilty-of-ordered-followers-to-starve-their-children-to-death-13600891",
      "official": false
     },
     {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Australian lawmaker 'critically' hurt in attack, officials say",
-     "url": "https://www.channelnewsasia.com/world/australia-mp-helen-haines-attacked-6471311",
-     "official": false
-    },
-    {
-     "outlet": "Bloomberg: Politics",
-     "title": "Australian Lawmaker Critically Injured in Suspected Attack",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-19/australian-lawmaker-helen-haines-injured-in-suspected-attack",
-     "official": false
-    },
-    {
-     "outlet": "South China Morning Post",
-     "title": "Australian lawmaker Helen Haines in critical condition after vehicle attack",
-     "url": "https://www.scmp.com/news/asia/australasia/article/3371376/australian-lawmaker-helen-haines-critical-condition-after-vehicle-attack?utm_source=rss_feed",
-     "official": false
-    },
-    {
-     "outlet": "TheJournal.ie (Ireland)",
-     "title": "Australian MP Helen Haines critically injured in car ramming attack outside her office",
-     "url": "https://www.thejournal.ie/australian-mp-attacked-helen-haines-7197833-Oct2026/",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: World",
-     "title": "‘Deeply appalled’: politicians condemn alleged attack after independent MP Helen Haines critically injured",
-     "url": "https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb",
-     "official": false
-    },
-    {
-     "outlet": "RTÉ News (Ireland)",
-     "title": "Australian MP Haines critical after vehicle attack",
-     "url": "https://www.rte.ie/news/world/2026/1019/1595945-australia-helen-haines/",
-     "official": false
-    },
-    {
-     "outlet": "Newsweek",
-     "title": "Helen Haines 'Attack': Australia MP Hit by Car, in Critical Condition",
-     "url": "https://www.newsweek.com/helen-haines-attack-australia-mp-hit-by-car-in-critical-condition-12587051",
-     "official": false
-    },
-    {
-     "outlet": "Euronews",
-     "title": "Australian MP Helen Haines 'critically' hurt in car ramming attack, officials say",
-     "url": "https://www.euronews.com/2026/10/19/australian-mp-helen-haines-critically-hurt-in-car-ramming-attack-officials-say",
-     "official": false
-    },
-    {
-     "outlet": "franceinfo (France)",
-     "title": "Australian MP Seriously Injured in Attack; Suspect Arrested",
-     "url": "https://www.franceinfo.fr/monde/asie/une-deputee-australienne-gravement-blessee-lors-d-une-attaque-un-suspect-interpelle_8243767.html#xtor=RSS-3-[lestitres]",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "Une députée australienne gravement blessée lors d'une attaque, un suspect interpellé"
-    },
-    {
-     "outlet": "Yahoo News",
-     "title": "Australian lawmaker critically injured after being deliberately hit by car",
-     "url": "https://www.yahoo.com/news/articles/australia-pm-says-independent-mp-082202107.html",
-     "official": false
-    },
-    {
-     "outlet": "The Hindu: International",
-     "title": "Australian lawmaker ‘critically’ hurt in attack, officials say",
-     "url": "https://www.thehindu.com/news/international/australian-lawmaker-critically-hurt-in-attack-officials-say/article71602412.ece",
+     "outlet": "Al Jazeera",
+     "title": "Kenyan court convicts starvation cult leader for murder of 191 people",
+     "url": "https://www.aljazeera.com/news/2026/10/19/kenyan-court-convicts-starvation-cult-leader-for-murder-of-191-people?traffic_source=rss",
      "official": false
     },
     {
      "outlet": "Deutsche Welle (Germany)",
-     "title": "Australian MP seriously hurt in suspected car attack",
-     "url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-all-1573-rdf",
+     "title": "Kenya: Cult leader guilty of murdering 190 children, 1 adult",
+     "url": "https://www.dw.com/en/kenya-cult-leader-guilty-of-murdering-190-children-1-adult/a-79706279?maca=en-rss-en-all-1573-rdf",
      "official": false
     },
     {
-     "outlet": "CBC News: World",
-     "title": "Australian MP Helen Haines in critical condition after deliberate vehicle attack, prime minister says",
-     "url": "https://www.cbc.ca/news/world/helen-haines-car-attack-9.7386359?cmp=rss",
+     "outlet": "South China Morning Post",
+     "title": "Kenyan starvation cult leader found guilty of murder of 191 children, 1 adult",
+     "url": "https://www.scmp.com/news/world/africa/article/3371417/kenyan-starvation-cult-leader-found-guilty-murder-191-children-1-adult?utm_source=rss_feed",
      "official": false
     },
     {
-     "outlet": "El País (Spain)",
-     "title": "Australian MP Helen Haines in Critical Condition After Being Deliberately Struck by Vehicle",
-     "url": "https://elpais.com/internacional/2026-10-19/la-diputada-australiana-helen-haines-en-estado-critico-tras-ser-atropellada-de-forma-deliberada.html",
-     "official": false,
-     "translated_from": "es",
-     "original_title": "La diputada australiana Helen Haines en estado crítico tras ser atropellada de forma deliberada"
+     "outlet": "The Guardian: World",
+     "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
+     "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
+     "official": false
     },
     {
-     "outlet": "New York Times: World",
-     "title": "Australian Lawmaker Helen Haines Injured After Attack, Prime Minister Says",
-     "url": "https://www.nytimes.com/2026/10/19/world/australia/helen-haines-mp-attacked-wangaratta-australia.html",
+     "outlet": "CBS News",
+     "title": "Starvation cult leader found guilty of murder of 190 children",
+     "url": "https://www.cbsnews.com/news/kenya-starvation-cult-leader-paul-mackenzie-guilty/",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "Kenyan cult leader, assistants guilty on all charges over 191 starvation deaths",
+     "url": "https://www.rfi.fr/en/africa/20261019-kenyan-cult-leader-assistants-guilty-on-all-charges-over-191-starvation-deaths",
+     "official": false
+    },
+    {
+     "outlet": "New York Post",
+     "title": "Kenyan doomsday cult leader and followers convicted of murdering 190 children in mass starvation",
+     "url": "https://nypost.com/2026/10/19/world-news/kenyan-doomsday-cult-leader-and-followers-convicted-of-murdering-190-children-in-mass-starvation/",
      "official": false
     }
    ]
   },
   {
-   "id": "f7cc0c1c75e1",
-   "title": "World Food Programme Cuts Gaza Aid Drastically Amid Funding Shortfall",
-   "summary": "Severe funding shortfalls, driven by cuts from major donors like the US and Germany, have forced the WFP to end food support for 500,000 Palestinians in Gaza.",
+   "id": "c59b7ca50d27",
+   "title": "Houthi missile strike on Yemen military training camp kills over 50",
+   "summary": "Three missiles struck a training camp for new security recruits in the government-controlled Shabwa province of Yemen, resulting in at least 50 deaths in the single largest loss of life since the civil war reignited.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-19T10:37:00Z",
-   "outlet_count": 8,
+   "category": "World",
+   "published": "2026-10-19T16:20:51Z",
+   "outlet_count": 7,
    "sources": [
     {
-     "outlet": "NPR: World",
-     "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
-     "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+     "outlet": "ORF News (Austria)",
+     "title": "Authorities: More than 50 dead in Houthi attack in Yemen",
+     "url": "https://orf.at/stories/3445545/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Behörden: Mehr als 50 Tote bei Huthi-Angriff im Jemen"
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Houthi attack on Yemeni government forces kills 53: officials",
+     "url": "https://www.cbc.ca/news/world/houthi-attack-yemen-government-forces-camp-9.7386538?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Houthi strike on Yemen government military camp kills at least 50",
+     "url": "https://www.dw.com/en/houthi-strike-on-yemen-government-military-camp-kills-at-least-50/a-79702163?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "SVT Nyheter (Sweden)",
+     "title": "Houthi attack on military camp in Yemen",
+     "url": "https://www.svt.se/nyheter/utrikes/huthiattack-mot-militarlager-i-jemen-minst-53-dodades",
+     "official": false,
+     "translated_from": "sv",
+     "original_title": "Huthiattack mot militärläger i Jemen"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Houthi attack kills 53 at Yemen government training camp",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3371416/houthi-attack-kills-53-yemen-government-training-camp?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+     "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
      "official": false
     },
     {
      "outlet": "BBC News: World",
-     "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-     "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+     "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+     "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
      "official": false
-    },
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "World Food Programme Significantly Reduces Gaza Aid",
-     "url": "https://orf.at/stories/3445521/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Welternährungsprogramm reduziert Gaza-Hilfe deutlich"
-    },
-    {
-     "outlet": "Asahi Shimbun (Japanese)",
-     "title": "WFP Sharply Cuts Gaza Aid 'Due to Funding Shortage', Affecting Rations for 500,000",
-     "url": "http://www.asahi.com/articles/ASVBM34DVVBMUHBI00ZM.html?ref=rss",
-     "official": false,
-     "translated_from": "ja",
-     "original_title": "WFPがガザ支援を大幅縮小「資金不足のため」 50万人分の食糧"
-    },
-    {
-     "outlet": "The Guardian: World",
-     "title": "Cuts force World Food Programme to end support for half a million Palestinians in Gaza",
-     "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza",
-     "official": false
-    },
-    {
-     "outlet": "Le Monde (France)",
-     "title": "In Gaza, World Food Programme's Lack of Funds Leads to Drastic Cuts in Humanitarian Aid",
-     "url": "https://www.lemonde.fr/international/article/2026/10/19/a-gaza-le-manque-de-moyens-du-programme-alimentaire-mondial-entraine-une-reduction-drastique-de-l-aide-humanitaire_6797512_3210.html",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "A Gaza, le manque de moyens du Programme alimentaire mondial entraîne une réduction drastique de l’aide humanitaire"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "title": "WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages",
-     "url": "https://www.aljazeera.com/news/2026/10/19/wfp-cuts-aid-to-500000-palestinians-in-gaza-amid-funding-shortages?traffic_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "Der Spiegel (Germany)",
-     "title": "Gaza: World Food Programme Cuts Aid by a Third",
-     "url": "https://www.spiegel.de/ausland/gaza-welternaehrungsprogramm-reduziert-hilfe-um-ein-drittel-a-d06980bf-ada9-4dbb-aa16-fdaa920f4cb1#ref=rss",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Gaza: Welternährungsprogramm reduziert Hilfe um ein Drittel"
     }
    ]
   },
   {
-   "id": "a64df7d6f9ad",
-   "title": "North Korea Threatens Loudspeaker Broadcasts Amid Border Tensions",
-   "summary": "Kim Yo-jong warned that North Korea is considering resuming loudspeaker propaganda broadcasts and deploying tactical weapons along the southern border.",
-   "importance": 5,
+   "id": "94432ed39730",
+   "title": "US Supreme Court rejects copyright appeal, upholding global application of termination rights",
+   "summary": "The Supreme Court declined to hear an appeal from major music labels including Sony, Universal, and Warner, leaving in place a ruling that copyright termination rights apply globally rather than exclusively in the US.",
+   "importance": 4,
    "label": "REPORTED",
-   "category": "Korea",
-   "published": "2026-10-19T10:31:52Z",
-   "outlet_count": 4,
+   "category": "Tech",
+   "published": "2026-10-19T16:20:00Z",
+   "outlet_count": 1,
    "sources": [
     {
-     "outlet": "Yonhap News",
-     "title": "(URGENT) N.K. leader's sister calls situation at southern border 'very unstable,' mentions resumption of loudspeaker broadcasts",
-     "url": "https://en.yna.co.kr/view/AEN20261019010800315",
-     "official": false
-    },
-    {
-     "outlet": "Yonhap News",
-     "title": "N.K. leader's sister calls situation at southern border 'very unstable'",
-     "url": "https://en.yna.co.kr/view/AEN20261019010900315",
-     "official": false
-    },
-    {
-     "outlet": "Yonhap News",
-     "title": "(LEAD) N.K. leader's sister calls situation at southern border 'very unstable'",
-     "url": "https://en.yna.co.kr/view/AEN20261019010951315",
-     "official": false
-    },
-    {
-     "outlet": "KBS World",
-     "title": "Kim Yo-jong: N. Korea Mulling Resumption of Loudspeaker Propaganda Broadcasts",
-     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204970",
-     "official": false
-    },
-    {
-     "outlet": "NK News (North Korea)",
-     "title": "Kim Yo Jong threatens restart of North Korean loudspeakers amid border tensions",
-     "url": "https://www.nknews.org/2026/10/kim-yo-jong-threatens-restart-of-north-korean-loudspeakers-amid-border-tensions/",
-     "official": false
-    },
-    {
-     "outlet": "The Korea Herald",
-     "title": "Kim Yo-jong threatens loudspeaker broadcast resumption, more tactical weapons along border",
-     "url": "https://www.koreaherald.com/article/10907760",
+     "outlet": "Techmeme",
+     "title": "SCOTUS rejects an appeal by BMG, Sony Music, UMG, and Warner Music, upholding a decision that copyright termination rights apply globally, not just in the US (Blake Brittain/Reuters)",
+     "url": "https://www.techmeme.com/261019/p34#a261019p34",
      "official": false
     }
    ]
@@ -302,43 +244,133 @@
    "name": "AI",
    "stories": [
     {
-     "id": "5374dd749ab3",
-     "title": "AI Safety Bill Leaks Reveal High Thresholds for Government Intervention",
-     "summary": "An unverified leaked safety bill attributed to Anthropic reportedly only mandates government intervention if 50 injuries or $1 billion in damages are at risk.",
-     "importance": 3,
-     "label": "RUMOR-UNVERIFIED",
+     "id": "79749a8fc547",
+     "title": "Anthropic prepares reasoning model with improved intuition and intent-parsing",
+     "summary": "Reports indicate Anthropic is developing a new AI model focused on better reasoning, out-of-the-box thinking, and discerning underlying user intentions.",
+     "importance": 4,
+     "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-18T18:44:11Z",
-     "outlet_count": 2,
+     "published": "2026-10-19T14:15:01Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "HN: Claude/Anthropic",
-       "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-       "official": false
-      },
-      {
-       "outlet": "PC Gamer",
-       "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
-       "url": "https://www.pcgamer.com/software/ai/leaked-ai-safety-bill-from-anthropic-only-lets-government-act-if-50-deaths-or-usd1-billion-are-on-the-line/",
+       "outlet": "Techmeme",
+       "title": "Source: Anthropic is preparing a model with better intuition and reasoning that can discern underlying intentions and is better at thinking outside of the box (Stephanie Palazzolo/The Information)",
+       "url": "https://www.techmeme.com/261019/p25#a261019p25",
        "official": false
       }
      ]
     },
     {
-     "id": "048da226d17e",
-     "title": "AI Researchers Study Autonomous Agent Behavior on Virtual Island",
-     "summary": "MIT Technology Review highlights an experiment where AI agents stranded on a virtual island for 30 hours began engaging in play-like behaviors.",
-     "importance": 3,
+     "id": "55aa4a596ef1",
+     "title": "Anthropic proposes public benefit fund and worker protections amid AI backlash",
+     "summary": "Anthropic is committing 5 percent of its shares to a new public benefit fund designed to study direct payments to workers displaced by AI, while Elon Musk separately pledged SpaceX shares to US children.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-19T09:08:05Z",
+     "published": "2026-10-19T16:15:00Z",
+     "outlet_count": 8,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Anthropic plans fund for workers threatened by AI, Musk counters with SpaceX shares for children",
+       "url": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Elon Musk says he plans to give SpaceX stock away to 'every kid in America'",
+       "url": "https://finance.yahoo.com/markets/stocks/article/elon-musk-says-hes-giving-spacex-stock-to-every-kid-in-america-131435467.html",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
+       "url": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year",
+       "url": "https://www.pbs.org/newshour/nation/musk-pledges-to-give-a-share-of-his-spacex-company-to-every-kid-in-america-next-year",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Elon Musk promises to give one SpaceX share to every child in the US",
+       "url": "https://www.theverge.com/tech/1013667/elon-musk-space-x-shares-us-children",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Elon Musk and Anthropic make promises to give the public a piece of the AI pie",
+       "url": "https://www.nbcnews.com/tech/tech-news/elon-musk-anthropic-make-promises-give-public-piece-ai-pie-rcna604313",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Anthropic pledges 5 percent of stock to public benefit initiative",
+       "url": "https://thehill.com/policy/technology/6157787-anthropic-commits-shares-public-benefit/",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Caller",
+       "title": "Anthropic Floats Bill That Would Let Feds Step In Only When More Than 50 Lives Are On The Line",
+       "url": "https://dailycaller.com/2026/10/19/anthropic-artificial-intelligence-governance-incident-safety-bill-aegis-act-anthony-cimino",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e9fbdca8458a",
+     "title": "MiniMax launches M3.1 Flash with stated generational leap in agentic tasks",
+     "summary": "MiniMax announced its M3.1 Flash model, claiming massive performance improvements in agentic operations, coding, and computer use.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-19T15:30:01Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "MIT Technology Review",
-       "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+       "outlet": "Techmeme",
+       "title": "MiniMax launches M3.1 Flash, saying it delivers \"a generational leap\" in agentic tasks, coding, computer use, and cybersecurity, with weights due October 23 (MiniMax)",
+       "url": "https://www.techmeme.com/261019/p30#a261019p30",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c33a66b4df03",
+     "title": "Nvidia introduces open models for enterprise data centers and on-device agents",
+     "summary": "Nvidia is leaning into local enterprise deployments by launching new open models designed to run private AI agents locally and in corporate server infrastructure.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-19T15:37:09Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+       "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "98a8bbd4ceac",
+     "title": "Chinese-speaking hacker group allegedly uses AI agents to breach over 100 entities",
+     "summary": "Security researchers report that a hacker utilized automated AI agents to target more than 1,200 websites and successfully breach over 100 corporate entities for a modest token expenditure.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-19T12:30:10Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, like Deere and SharkNinja, spending ~$5,000 in tokens (Raphael Satter/Reuters)",
+       "url": "https://www.techmeme.com/261019/p22#a261019p22",
        "official": false
       }
      ]
@@ -349,79 +381,139 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "eda0b506f4a6",
-     "title": "Apple Reveals True Battery Capacity for iPhone Duo in Regulatory Filing",
-     "summary": "An EU regulatory document uncovered after pre-orders opened shows the iPhone Duo packs a 4883mAh battery.",
+     "id": "34d9eee9f39f",
+     "title": "Amazon funds 1-gigawatt nuclear power plant in Indiana for energy needs",
+     "summary": "Amazon and X-energy have reached an agreement to deploy twelve small modular nuclear reactors at a former Indiana coal plant to supply nearly a gigawatt of clean energy.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-19T16:55:56Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Amazon is funding a new nuclear plant in Indiana",
+       "url": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "Amazon to fund 12 small nuclear reactors at former Indiana coal plant",
+       "url": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5c6e3d217d5d",
+     "title": "Amazon launches TorchNeuron open-source framework for Trainium chips",
+     "summary": "Amazon has released a public beta of TorchNeuron, enabling developers to run native PyTorch code directly on Trainium chips without requiring code rewrites.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-19T01:32:09Z",
+     "published": "2026-10-19T15:55:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Amazon launches TorchNeuron, an open-source framework that lets developers run PyTorch code on Amazon's Trainium chips with no rewriting needed, in public beta (Todd Bishop/GeekWire)",
+       "url": "https://www.techmeme.com/261019/p32#a261019p32",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "922a9e387ff4",
+     "title": "Microsoft introduces AI agent threat assessments in security updates",
+     "summary": "Microsoft is rolling out security tools within Microsoft 365 E7 and Project Perception that treat autonomous AI agents as potential insider threats via risk evaluation.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-19T13:25:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Microsoft debuts new security tools in Microsoft 365 E7 and its Project Perception system that treat AI agents as potential insider threats via risk assessments (Todd Bishop/GeekWire)",
+       "url": "https://www.techmeme.com/261019/p24#a261019p24",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f99355a56896",
+     "title": "GM brings Apple Wallet car keys to Cadillac, Chevrolet, and GMC fleets",
+     "summary": "General Motors announced upcoming support for Apple Wallet car keys across a wide variety of vehicles spanning three of its core automotive brands.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-19T14:31:06Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "MacRumors",
-       "title": "Apple Reveals iPhone Duo's Battery Capacity",
-       "url": "https://www.macrumors.com/2026/10/18/iphone-duo-battery-capacity/",
+       "title": "GM Says Apple Wallet Car Keys Coming to These Vehicles",
+       "url": "https://www.macrumors.com/2026/10/19/gm-vehicles-iphone-apple-wallet-car-keys/",
        "official": false
       },
       {
        "outlet": "9to5Mac",
-       "title": "Here’s how iPhone Duo’s battery capacity compares to other iPhones",
-       "url": "https://9to5mac.com/2026/10/18/iphone-duo-battery-capacity-comparison/",
+       "title": "Car Keys in Apple Wallet coming soon to three popular vehicle brands",
+       "url": "https://9to5mac.com/2026/10/19/car-keys-in-apple-wallet-coming-soon-to-three-popular-vehicle-brands/",
        "official": false
       }
      ]
     },
     {
-     "id": "47761555be0d",
-     "title": "Foxconn Acquires 50 Percent Stake in Mitsubishi Automotive Components Unit",
-     "summary": "Foxconn has agreed to buy half of Mitsubishi's automotive components business for approximately $727 million to bolster its electric vehicle platforms.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-19T10:00:49Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Foxconn agrees to acquire a 50% stake in Mitsubishi's automotive components unit for ~$727M; Mitsubishi will provide autonomous tech for Foxconn's EV platforms (Reed Stevenson/Bloomberg)",
-       "url": "https://www.techmeme.com/261019/p12#a261019p12",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "7b7b8adec35b",
-     "title": "Chatbot Gender Adoption Gap Closes Among US Adults",
-     "summary": "Pew Research Center data indicates that the adoption gap between men and women using chatbots has closed since 2024.",
+     "id": "190687157a4d",
+     "title": "Meta chatbot instructions accidentally exposed on WhatsApp help pages",
+     "summary": "Roughly 80 internal help pages on WhatsApp exposed unredacted instructions for Meta's chatbot, including behavioral boundaries, which Meta attributed to a software bug.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-19T10:15:00Z",
+     "published": "2026-10-19T16:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Techmeme",
-       "title": "Survey: the chatbot gender adoption gap among US adults has closed since 2024, though men are more likely to use them daily; ChatGPT has identical use rates (Pew Research Center)",
-       "url": "https://www.techmeme.com/261019/p13#a261019p13",
+       "outlet": "Wired",
+       "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+       "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
        "official": false
       }
      ]
     },
     {
-     "id": "5bab75960006",
-     "title": "US Cybersecurity Job Postings Drop to Four-Year Low",
-     "summary": "CyberSN data shows US cybersecurity job postings fell 26.4 percent year-over-year while demand for AI security engineers surged.",
+     "id": "9a8b643bbc88",
+     "title": "TP-Link moves router assembly to Missouri following import restrictions",
+     "summary": "Network hardware manufacturer TP-Link is establishing a domestic production line in Missouri, with routers expected to roll out by early 2027.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-19T08:00:46Z",
+     "published": "2026-10-19T15:31:22Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Techmeme",
-       "title": "CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+ (Kevin Townsend/SecurityWeek)",
-       "url": "https://www.techmeme.com/261019/p7#a261019p7",
+       "outlet": "Engadget",
+       "title": "TP-Link moves to assemble routers in the US following an import ban",
+       "url": "https://www.engadget.com/2290313/tp-link-moves-to-assemble-routers-in-the-us-following-an-import-ban/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f39e4c398bad",
+     "title": "Florida DMV hit by massive data breach linked to ShinyHunters ring",
+     "summary": "State officials in Florida issued alerts regarding a massive database breach affecting current and former residents, tied to investigations into the ShinyHunters threat group.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-19T16:38:13Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Huge DMV data breach impacted current and former Florida residents",
+       "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
        "official": false
       }
      ]
@@ -432,103 +524,181 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "b0e709e5404e",
-     "title": "Call of Duty: Modern Warfare 4 Pays Tribute to Late Co-Creator Vince Zampella",
-     "summary": "The newly released title includes dedicated in-game tributes honoring the late Infinity Ward co-founder.",
-     "importance": 3,
-     "label": "CONFIRMED",
+     "id": "a9d453ba16c7",
+     "title": "Moonlighter developer delays public demo out of fear of generative AI code cloning",
+     "summary": "Digital Sun Games has postponed public Steam playtests for its upcoming game ReVamp, warning that platforms need stronger protections against automated generative AI cloning.",
+     "importance": 4,
+     "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-19T10:58:22Z",
-     "outlet_count": 2,
+     "published": "2026-10-19T17:14:52Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "Call of Duty: Modern Warfare 4 pays tribute to late COD co-creator and Infinity Ward co-founder Vince Zampella",
-       "url": "https://www.videogameschronicle.com/news/call-of-duty-modern-warfare-4-pays-tribute-to-late-cod-co-creator-and-infinity-ward-co-founder-vince-zampella/",
+       "outlet": "Kotaku",
+       "title": "AI Cloning Threatens To End Public Playtests For Video Games",
+       "url": "https://kotaku.com/revamp-public-playtest-cancelled-digital-sun-claude-ai-clones-2000747558",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica AI",
+       "title": "AI game clones are making indie developers afraid to show their work",
+       "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "\"Too big a risk\": Moonlighter devs delay new game's demo for fear of genAI cloning, calling on platforms to \"keep strengthening protections for original work\"",
+       "url": "https://www.rockpapershotgun.com/too-big-a-risk-moonlighter-devs-delay-new-games-demo-for-fear-of-genai-cloning-calling-on-platforms-to-keep-strengthening-protections-for-original-work",
        "official": false
       },
       {
        "outlet": "Steam News",
-       "title": "Modern Warfare 4 Pays Tribute to Call of Duty Co-Creator Vince Zampella",
-       "url": "https://store.steampowered.com/news/group/9869/view/693149194510140781",
+       "title": "\"Too big a risk\": Moonlighter devs delay new game's demo for fear of genAI cloning, calling on platforms to \"keep strengthening protections for original work\"",
+       "url": "https://store.steampowered.com/news/group/33526/view/703282384630449749",
        "official": false
       }
      ]
     },
     {
-     "id": "4d4e5a108157",
-     "title": "Street Fighter Live-Action Movie Tops Worldwide Box Office in Opening Weekend",
-     "summary": "Despite lackluster reviews, the new live-action Street Fighter film pulled in $51.1 million internationally during its opening weekend.",
-     "importance": 4,
-     "label": "REPORTED",
+     "id": "a5d81eec6cfc",
+     "title": "Hideo Kojima's Cyberpunk 2077 character to appear in Edgerunners Season 2",
+     "summary": "Game creator Hideo Kojima is officially slated to make a cameo appearance as his Cyberpunk 2077 character in the upcoming second season of Cyberpunk: Edgerunners.",
+     "importance": 3,
+     "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-18T23:00:00Z",
-     "outlet_count": 2,
+     "published": "2026-10-19T15:30:00Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "IGN",
-       "title": "Street Fighter Tops the Box Office With $51 Million Opening Weekend Amid Lackluster Reviews",
-       "url": "https://www.ign.com/articles/street-fighter-tops-the-box-office-with-51-million-opening-weekend-amid-lackluster-reviews",
+       "outlet": "VGC",
+       "title": "After making a cameo appearance in Cyberpunk 2077, Hideo Kojima is coming to Cyberpunk Edgerunners 2",
+       "url": "https://www.videogameschronicle.com/news/after-making-a-cameo-appearance-in-cyberpunk-2077-hideo-kojima-is-coming-to-cyberpunk-edgerunners-2/",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Edgerunners Season 2 Brings Back Hideo Kojima’s Cyberpunk 2077 Character",
+       "url": "https://kotaku.com/cyberpunk-edgerunners-season-2-hideo-kojima-cameo-character-2000747537",
        "official": false
       },
       {
        "outlet": "Push Square",
-       "title": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
-       "url": "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend",
+       "title": "Hideo Kojima Back in the Cyberpunk Universe for Edgerunners Season 2",
+       "url": "https://www.pushsquare.com/news/2026/10/hideo-kojima-back-in-the-cyberpunk-universe-for-edgerunners-season-2",
        "official": false
       }
      ]
     },
     {
-     "id": "14c2c870bf84",
-     "title": "Activision Quality Assurance Union Votes to Authorize Strike",
-     "summary": "Members of the AQAU-CWA union voted to authorize a strike, citing a failure by Activision to bargain in good faith over key contract issues.",
-     "importance": 4,
+     "id": "b3085fc50c7f",
+     "title": "Housemarque releases massive 'Zenith' update for PS5 shooter Saros",
+     "summary": "Housemarque has launched a free 3.5 GB update for Saros on PlayStation 5, introducing a Boss Rush mode, New Game+ features, and new crown items.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-19T15:57:20Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "The Saros: Zenith update out today, brings more ways to play for newcomers and veterans alike",
+       "url": "https://blog.playstation.com/2026/10/19/the-saros-zenith-update-out-today-brings-more-ways-to-play-for-newcomers-and-veterans-alike/",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Saros ‘Zenith’ update now available",
+       "url": "https://www.gematsu.com/2026/10/saros-zenith-update-now-available",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Saros' Massive Zenith Update Is Available Now on PS5, Free for All Players",
+       "url": "https://www.pushsquare.com/news/2026/10/saros-massive-zenith-update-is-available-now-on-ps5-free-for-all-players",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "PlayStation Shadowdrops Saros Zenith Update With Boss Rush, New Game+ and Fancy Golden Crown Powerups",
+       "url": "https://www.ign.com/articles/saros-zenith-update-boss-rush-new-game-plus",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7333d61b76b1",
+     "title": "Witcher 3 Wild Hunt Remastered patch rolls out with Switch 2 enhancements",
+     "summary": "CD Projekt Red has deployed a new update for The Witcher 3, bringing resolution tuning, visual clarity improvements, and specific optimizations for the Switch 2 platform.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-19T16:15:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Witcher 3 Switch 2 patch rolls out today with a number of changes, including alterations to resolution and \"visual clarity\"",
+       "url": "https://www.eurogamer.net/witcher-3-switch-2-patch-update-resolution-brightness",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "The Witcher 3 Remastered's Latest Update Is Now Live, Here Are The Full Patch Notes",
+       "url": "https://www.nintendolife.com/news/2026/10/the-witcher-3-remastereds-latest-update-is-now-live-here-are-the-full-patch-notes",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5d576ac9f3e2",
+     "title": "Wizards of the Coast declines voluntary recognition for D&D union drive",
+     "summary": "Wizards of the Coast has refused voluntary union recognition for its Dungeons & Dragons and Studio X teams, pushing the decision to a secret-ballot election overseen by the National Labor Relations Board.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-19T10:13:55Z",
+     "published": "2026-10-19T16:36:11Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "GamesIndustry.biz",
-       "title": "Activision QA United-CWA union vote to authorise strike, claims publisher has \"failed to bargain in good faith over key issues\"",
-       "url": "https://www.gamesindustry.biz/activision-qa-united-cwa-union-vote-to-authorise-strike-claims-publisher-has-failed-to-bargain-in-good-faith-over-key-issues",
+       "title": "Wizards of the Coast declines to voluntarily recognize D&D and Studio X union drive",
+       "url": "https://www.gamesindustry.biz/wizards-of-the-coast-declines-to-voluntarily-recognize-dd-and-studio-x-union-drive",
        "official": false
       }
      ]
     },
     {
-     "id": "8c9777616c02",
-     "title": "Dune: Awakening Developer Funcom Faces Layoffs Amid Restructuring",
-     "summary": "Norwegian developer Funcom is restructuring following its console release, leading to incoming layoffs.",
+     "id": "60ab07ee7add",
+     "title": "Japanese acting union implements strict bans on AI-generated voice cloning",
+     "summary": "The Japan Actors Union has established new protective guidelines that include an outright ban on replicating the voices of deceased actors without prior authorization.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-19T10:47:29Z",
+     "published": "2026-10-19T15:12:17Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Eurogamer",
-       "title": "Dune: Awakening studio faces layoffs as it restructures following console release",
-       "url": "https://www.eurogamer.net/funcom-dune-awakening-layoffs-restructuring",
+       "title": "Japanese acting union fights back against AI-generated voice use, proposing strict new guidelines, especially regarding the use of a deceased actor's voice",
+       "url": "https://www.eurogamer.net/japanese-voice-acting-union-generative-ai",
        "official": false
       }
      ]
     },
     {
-     "id": "ce0541d9c269",
-     "title": "Vampire: The Masquerade - Bloodlines Remake Rumors Surface",
-     "summary": "Rumors regarding a potential remaster or remake of the classic RPG have begun circulating, reportedly spurred by original score contributors.",
-     "importance": 2,
-     "label": "RUMOR-UNVERIFIED",
+     "id": "e303b426dece",
+     "title": "Two pallets of RTX 5090 graphics cards stolen from Brazilian airport",
+     "summary": "Authorities are investigating the theft of two entire pallets containing roughly $495,000 worth of RTX 5090 graphics cards from a Brazilian airport facility.",
+     "importance": 3,
+     "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-19T10:41:01Z",
+     "published": "2026-10-19T15:00:43Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Rock Paper Shotgun",
-       "title": "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score",
-       "url": "https://www.rockpapershotgun.com/vampire-the-masquerade-bloodlines-remaster-or-remake-rumours-begin-to-flow-reportedly-in-part-thanks-to-a-metal-band-from-the-originals-score",
+       "outlet": "PC Gamer",
+       "title": "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large",
+       "url": "https://www.pcgamer.com/hardware/graphics-cards/two-entire-pallets-of-rtx-5090s-have-gone-missing-from-a-brazilian-airport-usd495-000-worth-of-unobtanium-graphics-cards-now-presumably-at-large/",
        "official": false
       }
      ]
@@ -539,19 +709,139 @@
    "name": "US",
    "stories": [
     {
-     "id": "ca481e8ae280",
-     "title": "Maricopa County Becomes Focal Point for Early Election Integrity Claims",
-     "summary": "Ahead of upcoming midterms, political figures are reviving conspiracy narratives centered on Maricopa County, Arizona.",
-     "importance": 3,
+     "id": "85b5ae431417",
+     "title": "Supreme Court denies Khalid Sheikh Mohammed's bid to revive 9/11 plea deal",
+     "summary": "The US Supreme Court rejected an appeal by self-proclaimed 9/11 mastermind Khalid Sheikh Mohammed to reinstate his revoked plea agreement, paving the way for a 2028 trial.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-19T10:30:00Z",
-     "outlet_count": 1,
+     "published": "2026-10-19T16:53:45Z",
+     "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Wired",
-       "title": "Maricopa County, Arizona, Is Again Ground Zero of Election Conspiracy Theories",
-       "url": "https://www.wired.com/story/maricopa-county-arizona-is-again-ground-zero-of-election-conspiracy-theories/",
+       "outlet": "Just the News",
+       "title": "Supreme Court upholds Pentagon decision to toss plea deal for alleged 9/11 conspirators",
+       "url": "https://justthenews.com/government/courts-law/supreme-court-upholds-pentagon-decision-toss-plea-deal-alleged-911?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Supreme Court rejects alleged 9/11 mastermind’s attempt to revive plea deal",
+       "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-rejects-alleged-911-masterminds-attempt-revive-plea-deal-rcna603448",
+       "official": false
+      },
+      {
+       "outlet": "Axios",
+       "title": "Supreme Court won't revive accused 9/11 mastermind's plea deal",
+       "url": "https://www.axios.com/2026/10/19/supreme-court-khalid-sheikh-mohammed-911-plea-deal",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "Supreme court rejects effort to revive plea deal for Khalid Sheikh Mohammed in 9/11 attacks",
+       "url": "https://www.theguardian.com/us-news/2026/oct/19/khalid-sheikh-mohammed-september-11-plea-deal",
+       "official": false
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "US Supreme Court denies bid by accused 9/11 mastermind to revive plea deal",
+       "url": "https://www.scmp.com/news/world/united-states-canada/article/3371419/us-supreme-court-denies-bid-accused-9/11-mastermind-revive-plea-deal?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "US Supreme Court denies bid by 9/11 mastermind to revive plea deal",
+       "url": "https://www.channelnewsasia.com/world/sep-11-attack-khalid-mohammed-court-reject-plea-6472846",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c4558d8639cf",
+     "title": "President Trump and First Lady launch new women's health division at NIH",
+     "summary": "The administration announced the creation of a specialized women's health division and accompanying task force within the National Institutes of Health ahead of upcoming midterms.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "US",
+     "published": "2026-10-19T16:58:44Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Hill",
+       "title": "Trump creates new women’s health division within NIH",
+       "url": "https://thehill.com/policy/healthcare/6158037-trump-signs-womens-health-order/",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Trump signs executive order on women's health",
+       "url": "https://www.cbsnews.com/news/trump-executive-order-on-womens-health/",
+       "official": false
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "Trump to create new NIH division, task force for women’s health",
+       "url": "https://www.scmp.com/news/world/united-states-canada/article/3371418/trump-create-new-nih-division-task-force-womens-health?utm_source=rss_feed",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Trump signs order aimed at boosting women’s health research",
+       "url": "https://www.euronews.com/2026/10/19/trump-signs-order-aimed-at-boosting-womens-health-research",
+       "official": false
+      },
+      {
+       "outlet": "Washington Examiner",
+       "title": "Trump creates NIH women’s health office ahead of midterm elections",
+       "url": "https://www.washingtonexaminer.com/policy/healthcare/4770676/trump-creates-nih-women-health-office/",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Trump launches women's health division within NIH alongside Melania Trump",
+       "url": "https://www.cbsnews.com/video/trump-launches-womens-health-division-within-nih/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ed481bdb0873",
+     "title": "Prosecutors claim OpenAI data leak suspect maintained frequent contact with Saudi royalty",
+     "summary": "Court filings allege that former OpenAI engineer Abdulrahman Alfozan was in frequent communication with an unnamed Saudi royal family member and searched internal records prior to his arrest.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-19T16:22:12Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Just the News",
+       "title": "Saudi officials helped family of OpenAI engineer accused of illegal bugging flee, prosecutors say",
+       "url": "https://justthenews.com/nation/crime/saudi-officials-helped-family-openai-engineer-accused-illegal-bugging-flee-prosecutors?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Filing: US prosecutors say OpenAI suspect Abdulrahman Alfozan maintained frequent WhatsApp contact in 2025 and 2026 with an unnamed Saudi Royal Family member (Dan Mangan/CNBC)",
+       "url": "https://www.techmeme.com/261019/p26#a261019p26",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Ex-OpenAI employee accused of planting device appears to have Saudi backing, court filing shows",
+       "url": "https://www.thehindu.com/news/international/ex-openai-employee-accused-of-planting-device-appears-to-have-saudi-backing-court-filing-shows/article71602972.ece",
+       "official": false
+      },
+      {
+       "outlet": "Fox News: Politics",
+       "title": "How a foreign government helped accused Saudi spy's family flee US after OpenAI bug scandal",
+       "url": "https://www.foxnews.com/politics/foreign-government-helped-accused-saudi-spy-family-flee-us-openai-bug-scandal",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
+       "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
@@ -562,25 +852,85 @@
    "name": "World",
    "stories": [
     {
-     "id": "9ca353046537",
-     "title": "Four Soldiers Killed in Grass Fire at Canadian Military Base",
-     "summary": "Strong winds fueled an unexpected grass fire at a Canadian military base, resulting in one of the worst peacetime tragedies for the nation's military.",
-     "importance": 4,
+     "id": "32a58d4b60a8",
+     "title": "Search for Amelia Earhart's missing plane off remote Pacific island finds only trees",
+     "summary": "An expedition investigating a satellite anomaly thought to potentially mark the wreckage of Amelia Earhart's aircraft concluded that the formation consists of large trees.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-19T09:12:31Z",
-     "outlet_count": 2,
+     "published": "2026-10-19T14:45:00Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Strong winds fuelled grass fire at Canadian military base that killed four",
-       "url": "https://www.channelnewsasia.com/world/strong-winds-fuelled-grass-fire-canadian-military-base-killed-four-6469826",
+       "outlet": "BBC News: World",
+       "title": "Possible wreckage of Amelia Earhart's plane likely to be trees, say researchers",
+       "url": "https://www.bbc.co.uk/news/articles/cmq5n8x106jdo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Al Jazeera",
-       "title": "How a grass fire at a Canadian military base killed four soldiers",
-       "url": "https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers?traffic_source=rss",
+       "outlet": "Straight Arrow News",
+       "title": "Search for Amelia Earhart’s plane comes up empty, but researchers did find something",
+       "url": "https://san.com/cc/search-for-amelia-earharts-plane-comes-up-empty-but-researchers-did-find-something/",
+       "official": false
+      },
+      {
+       "outlet": "Sky News: World",
+       "title": "Object thought to be Amelia Earhart’s missing plane likely just 'large trees', researchers find",
+       "url": "https://news.sky.com/story/object-thought-to-be-amelia-earharts-missing-plane-likely-a-collection-of-large-trees-researchers-find-13601021",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ff1820ace6bc",
+     "title": "Israeli police detain ten individuals following West Bank settler attacks",
+     "summary": "Law enforcement arrested ten suspects in connection with weekend attacks by West Bank settlers targeting a foreign journalist and diplomats amid the annual olive harvest season.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-19T14:39:39Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "CBC News: World",
+       "title": "Israel arrests 10 people after West Bank settler attacks on diplomats, journalist",
+       "url": "https://www.cbc.ca/news/world/israel-west-bank-settlers-arrests-9.7386445?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "Israeli Police Detain 10 Over Violent Settler Attacks in West Bank",
+       "url": "https://www.nytimes.com/2026/10/19/world/middleeast/israel-west-bank-settlers-palestinians.html",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Israeli police arrest 10 following weekend attacks by West Bank settlers on journalist and diplomats",
+       "url": "https://www.pbs.org/newshour/world/israeli-police-arrest-10-following-weekend-attacks-by-west-bank-settlers-on-journalist-and-diplomats",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d4ceee7ce5b8",
+     "title": "US extends temporary protected status for migrants from Ukraine and Sudan",
+     "summary": "The Department of Homeland Security announced that eligible immigrants from Ukraine and Sudan will maintain their temporary protected status in the United States past the initial expiration date.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "World",
+     "published": "2026-10-19T16:00:59Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "US to maintain temporary protected status for migrants from Ukraine and Sudan",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058785/",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "US says immigrants from Ukraine, Sudan can keep protected status for now",
+       "url": "https://www.straitstimes.com/world/europe/us-says-immigrants-from-ukraine-sudan-can-keep-protected-status-for-now",
        "official": false
       }
      ]
@@ -591,193 +941,91 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "a25adc20a22b",
-     "title": "French Interior Minister Admits Police Lost Control of Violent Protests",
-     "summary": "Following widespread riots and thousands of damaged shops, French officials announced local curfews and promised a massive criminal response.",
+     "id": "08c5b1fd25cf",
+     "title": "French Prime Minister announces localized curfews to combat widespread rioting",
+     "summary": "Following days of civil unrest and looting over the cost of living and state education, Prime Minister Sébastien Lecornu has instructed regional authorities to implement localized curfews.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Europe",
-     "published": "2026-10-19T10:52:19Z",
-     "outlet_count": 6,
+     "published": "2026-10-19T17:19:39Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Police 'lost control' of some protests",
-       "url": "https://www.rte.ie/news/2026/1019/1595915-france-protests/",
+       "outlet": "PBS NewsHour",
+       "title": "French Prime Minister Lecornu calls for localized curfews in cities to curb rioting and looting",
+       "url": "https://www.pbs.org/newshour/world/french-prime-minister-lecornu-calls-for-localized-curfews-in-cities-to-curb-rioting-and-looting",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "French PM orders ‘localized’ curfews in response to looting and unrest",
+       "url": "https://www.politico.eu/article/france-sebastien-lecornu-partial-curfews-riots-protests/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
        "official": false
       },
       {
        "outlet": "RFI (France)",
-       "title": "France’s interior minister admits police lost control during violent protests",
-       "url": "https://www.rfi.fr/en/france/20261019-france-s-interior-minister-admits-police-lost-control-during-violent-protests",
+       "title": "French PM calls for partial curfews after weekend of violence, looting",
+       "url": "https://www.rfi.fr/en/france/20261019-french-pm-calls-for-partial-curfews-after-weekend-of-violence-looting",
        "official": false
       },
       {
-       "outlet": "franceinfo (France)",
-       "title": "\"Something Serious Happened\": In Joint Op-Ed, Mayors of Paris, Marseille, and Lyon Demand Government Accountability After October 17 Violence",
-       "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/il-s-est-passe-quelque-chose-de-grave-les-maires-de-paris-marseille-et-lyon-demandent-des-comptes-au-gouvernement-apres-les-violences-du-17-octobre_8243617.html#xtor=RSS-3-[lestitres]",
+       "outlet": "Tagesschau (Germany)",
+       "title": "French Prime Minister Lecornu announces curfews",
+       "url": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-ausschreitungen-ausgangssperren-100.html",
        "official": false,
-       "translated_from": "fr",
-       "original_title": "\"Il s'est passé quelque chose de grave\" : dans une tribune commune, les maires de Paris, Marseille et Lyon demandent des comptes au gouvernement, après les violences du 17 octobre"
-      },
-      {
-       "outlet": "Le Monde (France)",
-       "title": "Following October 17 Destruction, Outraged Mayors Demand Accountability",
-       "url": "https://www.lemonde.fr/politique/article/2026/10/19/apres-les-saccages-du-17-octobre-les-maires-indignes-demandent-des-comptes_6797507_823448.html",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Après les saccages du 17 octobre, les maires, indignés, demandent des comptes"
-      },
-      {
-       "outlet": "Le Monde (France)",
-       "title": "LIVE, October 17 Protests: Sébastien Lecornu Asks Prefects to Introduce \"Partial and Highly Localized\" Curfews",
-       "url": "https://www.lemonde.fr/societe/live/2026/10/19/en-direct-mobilisation-sociale-les-rassemblements-interdits-de-12-heures-a-20-heures-a-marseille-ou-laurent-nunez-est-attendu-cet-apres-midi_6795855_3224.html",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "EN DIRECT, manifestations du 17 octobre : Sébastien Lecornu demande aux préfets d’instaurer des couvre-feux « partiels et très localisés »"
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "Police ‘lost control’ during French protests, says Interior Minister",
-       "url": "https://www.thehindu.com/news/international/police-lost-control-during-french-protests-says-interior-minister/article71602409.ece",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "'We tore it up': French looters brag online as minister admits police 'lost control'",
-       "url": "https://www.euronews.com/2026/10/19/we-tore-it-up-french-looters-brag-online-as-minister-admits-police-lost-control",
-       "official": false
-      },
-      {
-       "outlet": "franceinfo (France)",
-       "title": "17 October Protests: Prime Minister Asks Prefects to Impose 'Partial and Localised Curfews' in Certain City Centres",
-       "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/direct-mobilisation-du-17-octobre-paris-lyon-et-nantes-touches-par-de-nouveaux-heurts-et-pillages-dimanche-au-moins-108-interpellations-dans-la-capitale_8243455.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Mobilisation du 17 octobre : le Premier ministre annonce avoir demandé aux préfets des \"couvre-feux partiels et localisés\" dans certains centres-villes"
+       "translated_from": "de",
+       "original_title": "Frankreichs Premierminister Lecornu kündigt Ausgangssperren an"
       }
      ]
     },
     {
-     "id": "24c2b400e8cb",
-     "title": "Israel Arrests Ten Suspects Over Settler Attacks in West Bank",
-     "summary": "Israeli police arrested ten individuals following violent assaults targeting an American journalist and European diplomats.",
+     "id": "e42f012c1b9f",
+     "title": "German citizens arrested in Bulgaria over arson attack on Starlink antennas",
+     "summary": "Bulgarian authorities issued arrest warrants for two 19-year-old German nationals accused of setting fire to multiple Starlink satellite communication antennas before fleeing.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-19T09:48:37Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "Sky News: World",
-       "title": "Arrests over Israeli settler attacks on US photojournalist and European diplomats in West Bank",
-       "url": "https://news.sky.com/story/arrests-over-israeli-settler-attacks-on-us-photojournalist-and-european-diplomats-in-west-bank-13600842",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Israeli police arrest 10 following settler attacks",
-       "url": "https://www.rte.ie/news/world/2026/1019/1595913-israel-arrests/",
-       "official": false
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "West Bank: Ten Arrests Following Settler Attacks",
-       "url": "https://orf.at/stories/3445510/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Westjordanland: Zehn Festnahmen nach Siedlerangriffen"
-      },
-      {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Israel arrests 10 people after settler attacks on reporter and European politicians in West Bank",
-       "url": "https://www.thejournal.ie/israeli-police-arrest-10-people-in-connection-with-settler-attacks-on-european-politicians-7197760-Oct2026/",
-       "official": false
-      },
-      {
-       "outlet": "Le Monde (France)",
-       "title": "Settler Violence in the West Bank: Ten People Arrested, Israeli Police Announce",
-       "url": "https://www.lemonde.fr/international/article/2026/10/19/violences-de-colons-en-cisjordanie-dix-personnes-arretees-annonce-la-police-israelienne_6797499_3210.html",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Violences de colons en Cisjordanie : dix personnes arrêtées, annonce la police israélienne"
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "West Bank: Israel arrests 10 suspects over settler attacks on US journalist, European diplomats",
-       "url": "https://www.dw.com/en/west-bank-israel-arrests-10-suspects-over-settler-attacks-on-us-journalist-european-diplomats/a-79696514?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Ten Arrests Following Settler Attacks",
-       "url": "https://orf.at/stories/3445516/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Zehn Festnahmen nach Siedlerangriffen"
-      }
-     ]
-    },
-    {
-     "id": "f1d60b2692cf",
-     "title": "Twelve Migrants Die in Aegean Sea Shipwreck Incidents off Greece",
-     "summary": "Greek authorities report that at least 12 migrants, including an infant, died in separate maritime accidents while attempting to reach Europe.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-19T09:59:20Z",
+     "published": "2026-10-19T17:08:00Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Le Monde (France)",
-       "title": "Greece: Twelve Migrants, Including an Infant, Die After Two Aegean Sea Accidents",
-       "url": "https://www.lemonde.fr/international/article/2026/10/19/grece-douze-migrants-dont-un-nourrisson-morts-apres-deux-accidents-en-mer-egee_6797504_3210.html",
+       "outlet": "ORF News (Austria)",
+       "title": "Starlink attack in Bulgaria: German suspects",
+       "url": "https://orf.at/stories/3445568/",
        "official": false,
-       "translated_from": "fr",
-       "original_title": "Grèce : douze migrants, dont un nourrisson, morts après deux accidents en mer Egée"
+       "translated_from": "de",
+       "original_title": "Starlink-Anschlag in Bulgarien: Deutsche Verdächtige"
       },
       {
-       "outlet": "franceinfo (France)",
-       "title": "At Least 12 Migrants Die in Two Aegean Sea Incidents off Greece",
-       "url": "https://www.franceinfo.fr/monde/grece/en-grece-au-moins-12-migrants-meurent-lors-de-deux-accidents-en-mer-egee_8243614.html#xtor=RSS-3-[lestitres]",
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Bulgaria: Attack on Starlink antennas – arrest warrant issued for German citizens",
+       "url": "https://www.spiegel.de/panorama/justiz/bulgarien-angriff-auf-starlink-antennen-haftbefehl-gegen-deutsche-erlassen-a-a87afb25-0598-44ed-9e6b-6bf567bc3ad3#ref=rss",
        "official": false,
-       "translated_from": "fr",
-       "original_title": "En Grèce, au moins 12 migrants meurent lors de deux accidents en mer Egée"
+       "translated_from": "de",
+       "original_title": "Bulgarien: Angriff auf Starlink-Antennen – Haftbefehl gegen Deutsche erlassen"
       }
      ]
     },
     {
-     "id": "1ece06397f2f",
-     "title": "Pope Leo XIV Continues Recovery and Plans General Audience",
-     "summary": "Following recent lung-cancer surgery, Pope Leo XIV is set to hold his weekly general audience in Saint Peter's Square.",
-     "importance": 3,
-     "label": "CONFIRMED",
+     "id": "8b5e307b03b1",
+     "title": "Russian drone strike on Kharkiv park kills several children and infant",
+     "summary": "A Russian drone hit a central park in a town within Ukraine's Kharkiv region, resulting in the deaths of multiple civilians, including an infant in a stroller and three children.",
+     "importance": 4,
+     "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-19T09:44:08Z",
-     "outlet_count": 3,
+     "published": "2026-10-19T16:38:40Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "BBC News: Latin America",
-       "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
-       "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
        "outlet": "The Straits Times: World",
-       "title": "Pope Leo to hold general audience for first time since lung cancer surgery",
-       "url": "https://www.straitstimes.com/world/europe/pope-leo-to-hold-wednesday-audience-for-first-time-since-cancer-surgery",
+       "title": "Russian attack kills six at park in Kharkiv region, including three children, Ukraine says",
+       "url": "https://www.straitstimes.com/world/europe/russian-attack-kills-six-at-park-in-kharkiv-region-including-three-children-ukraine-says",
        "official": false
       },
       {
-       "outlet": "ANSA English (Italy)",
-       "title": "Pope to hold general audience on Wednesday",
-       "url": "https://www.ansa.it/english/news/2026/10/19/pope-to-hold-general-audience-on-wednesday_3d1a9873-8357-48ea-a643-dd8b89a6f06f.html",
-       "official": false
-      },
-      {
-       "outlet": "ANSA English (Italy)",
-       "title": "Pope to hold general audience on Wednesday",
-       "url": "https://www.ansa.it/english/news/vatican/2026/10/19/pope-to-hold-general-audience-on-wednesday_c827aed6-5c2c-4be1-b05e-0e6482cb7ac8.html",
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Russian drone strike on park in Kharkiv Oblast kills children and infant",
+       "url": "https://kyivindependent.com/russian-drone-strike-on-park-in-kharkiv-oblast-kills-children-and-infant/",
        "official": false
       }
      ]
@@ -788,38 +1036,68 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "eb3213357227",
-     "title": "Japan Faces Security Risks From Stolen Data and Cyber Threats",
-     "summary": "Trend Micro warns that Japanese entities face a wave of cyberattacks utilizing compromised data.",
+     "id": "105f697198b9",
+     "title": "Japan plans new data center and cloud service certifications to mitigate China risks",
+     "summary": "The Japanese government is introducing a formal certification framework for domestic data centers and cloud services to enhance security and curb supply chain vulnerabilities.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-19T11:01:51Z",
+     "published": "2026-10-19T17:23:09Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan faces 'next big storm' as hackers use stolen data, warns Trend Micro",
-       "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-faces-next-big-storm-as-hackers-use-stolen-data-warns-trend-micro",
+       "title": "Japan plans certifications for data centers, cloud services to curb China risk",
+       "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-plans-certifications-for-data-centers-cloud-services-to-curb-china-risk",
        "official": false
       }
      ]
     },
     {
-     "id": "2064fe620f51",
-     "title": "Agriculture Minister Resignation Leaves Prime Minister Takaichi Pressured",
-     "summary": "Prime Minister Takaichi faces political pressure to rebuild public trust following the sudden resignation of her agriculture minister ahead of tax reforms.",
-     "importance": 3,
+     "id": "6564c324bff8",
+     "title": "Empress Emerita Michiko marks 92nd birthday in quiet celebration",
+     "summary": "Empress Emerita Michiko celebrated her 92nd birthday, spending peaceful days walking with Emperor Emeritus Akihito and maintaining artistic exchanges with musicians.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-19T10:30:00Z",
+     "published": "2026-10-19T15:18:34Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Empress Emerita Michiko turns 92, spends peaceful days walking with Emperor Emeritus",
+       "url": "http://www.asahi.com/articles/ASVBM0BKPVBMUQIP05QM.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "上皇后美智子さま、92歳に 上皇さまと散策、穏やかな日々過ごす"
+      },
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Empress Michiko turns 92, lives peacefully with Emperor Emeritus, continues exchanges with musicians",
+       "url": "https://mainichi.jp/articles/20261019/k00/00m/040/170000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "美智子さま92歳に 上皇さまと穏やかな暮らし、音楽家との交流も"
+      }
+     ]
+    },
+    {
+     "id": "6bf06e4849b4",
+     "title": "Researchers uncover biological mechanics behind snake rolling locomotion",
+     "summary": "Japanese researchers at Toho University and partner institutions published findings solving the mechanics behind how certain snakes achieve high-speed movement through rolling.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-19T15:00:13Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Japan Forward",
-       "title": "Takaichi Must Rebuild Public Trust After Agriculture Minister Resigns",
-       "url": "https://japan-forward.com/takaichi-agriculture-minister-yanagi-resigns-rebuild-trust/",
-       "official": false
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Rolling to escape: Toho University and other researchers solve mystery of snake's high-speed movement",
+       "url": "https://mainichi.jp/articles/20261019/k00/00m/100/114000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "転がりながら逃げるヘビ 高速移動の謎を解明 東邦大など研究"
       }
      ]
     }
@@ -829,122 +1107,42 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "2667060ed352",
-     "title": "South Korea Conveys Concerns to US Over Comments on Sovereign Territory",
-     "summary": "Seoul formally expressed concern to Washington regarding US Forces Korea Commander Gen. Xavier Brunson's remarks concerning the DMZ.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-19T10:57:03Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "KBS World",
-       "title": "USFK Chief Stirs Sovereignty Controversy in S. Korea with DMZ Remarks",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204964",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "S. Korea conveys concerns to US over USFK commander's DMZ remarks",
-       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261019/s-korea-conveys-concerns-to-us-over-usfk-commanders-dmz-remarks?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "0f0355c0e664",
-     "title": "President Lee Reaffirms Push to Regain Wartime OPCON by 2028",
-     "summary": "President Lee Jae Myung stressed that South Korea must swiftly reclaim wartime operational control from the United States to safeguard national sovereignty.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Korea",
-     "published": "2026-10-19T10:57:03Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "(URGENT) Lee says wartime OPCON must be retaken at early date, cannot continue to leave in hands of another country",
-       "url": "https://en.yna.co.kr/view/AEN20261019010400315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "Lee says wartime operational control must be retaken at early date",
-       "url": "https://en.yna.co.kr/view/AEN20261019010500315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Lee says wartime operational control must be retaken at early date",
-       "url": "https://en.yna.co.kr/view/AEN20261019010551315",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(2nd LD) Lee says wartime operational control must be retaken at early date",
-       "url": "https://en.yna.co.kr/view/AEN20261019010552315",
-       "official": false
-      },
-      {
-       "outlet": "KBS World",
-       "title": "Lee: S. Korea Must Regain OPCON from US Swiftly, without Fail",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204968",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Lee calls for swift ‘restoration,’ not ‘transfer,’ of wartime command from US",
-       "url": "https://www.koreaherald.com/article/10907766",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "President reaffirms push to reclaim wartime OPCON by 2028",
-       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261019/president-reaffirms-push-to-reclaim-wartime-opcon-by-2028?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "4162400e68c2",
-     "title": "Collision in Daegu Leaves One KATUSA Soldier Dead and Three Injured",
-     "summary": "A military vehicle rollover crash in Daegu resulted in the death of a South Korean soldier attached to USFK alongside three injured service members.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-19T10:57:03Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Korea Herald",
-       "title": "1 KATUSA soldier killed, 3 USFK soldiers injured in rollover crash in Daegu",
-       "url": "https://www.koreaherald.com/article/10907757",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "1 KATUSA killed, 3 USFK soldiers injured in rollover crash in Daegu",
-       "url": "https://www.koreatimes.co.kr/southkorea/20261019/1-katusa-killed-3-usfk-soldiers-injured-in-rollover-crash-in-daegu?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e93ce233b3d4",
-     "title": "Religious Sect Leader Sentenced to 33 Years in Prison for Sexual Assault",
-     "summary": "A district court sentenced the leader of the Jesus Morning Star sect to 33 years behind bars for sexually assaulting female followers.",
+     "id": "c7c1d57dc43a",
+     "title": "KT Wiz manager Lee Kang-chul signs record 11-year extension",
+     "summary": "KT Wiz manager Lee Kang-chul agreed to a new three-year contract extension worth 3.4 billion won starting in the 2027 season, continuing his leadership tenure.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "Korea",
-     "published": "2026-10-19T10:57:03Z",
+     "published": "2026-10-19T16:17:08Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Korea Times",
-       "title": "Religious sect leader sentenced to 33 years in prison for sexual assault",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261019/religious-sect-leader-sentenced-to-33-yrs-in-prison-for-sexual-assault?utm_source=rss",
-       "official": false
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Manager, did you hit free agency? It's an 11-year, 8.7 billion won contract... Skippers can also become 'baseball tycoons'",
+       "url": "https://www.chosun.com/sports/baseball/2026/10/20/GVRTANDCMNRGMMZVGY2DKMLDGY/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "감독님, FA 하셨어요? 11년 87억 계약이네...사령탑도 '야구 재벌' 될 수 있다"
+      }
+     ]
+    },
+    {
+     "id": "8bcfa3911787",
+     "title": "Samsung Lions captain Koo Ja-wook returns successfully from hiatus",
+     "summary": "Samsung Lions captain Koo Ja-wook made a strong return to competitive play after a 20-day absence, recording a clean single in his first at-bat.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-19T16:27:14Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "'20-day hiatus was unnoticeable': Koo Ja-wook hits a solid single off Jurado in his first at-bat back, raising expectations for joining the playoffs",
+       "url": "https://www.chosun.com/sports/baseball/2026/10/20/GRRDOM3GMNSTEZRTGJSTMYJXME/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "'20일 공백 무색했다' 구자욱 복귀 첫 타석 후라도 상대 안타 폭발, PO 합류 '쾌청'"
       }
      ]
     }
@@ -954,55 +1152,183 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "60abac5d122e",
-     "title": "Final Fantasy VII Rebirth Day One Edition for Switch 2 on Sale for $34.99",
-     "summary": "Best Buy is offering the Final Fantasy VII Rebirth Day One Edition for Nintendo Switch 2 with an exclusive card for $34.99.",
-     "importance": 2,
+     "id": "aa96630b0092",
+     "title": "Save $900 on Apple's 16-inch MacBook Pro with M5 Max",
+     "summary": "Amazon has dropped the price of the Space Black M5 Max 16-inch MacBook Pro by $900, hitting its lowest seasonal price while supplies last.",
+     "importance": 3,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-19T05:00:57Z",
-     "outlet_count": 1,
+     "published": "2026-10-19T14:47:18Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Wario64",
-       "title": "FINAL FANTASY VII REBIRTH Day One Edition (Switch 2 KC) w/ exclusive MtG Zack Fair card is $34.99 at Best Buy buff.ly/g6qaK9T #ad",
-       "url": "https://buff.ly/g6qaK9T",
+       "outlet": "MacRumors",
+       "title": "Amazon Offers $900 Off 2026 16-Inch MacBook Pro With M5 Max Chip",
+       "url": "https://www.macrumors.com/2026/10/19/900-off-2026-macbook-pro/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Save $900 on Apple's M5 Max 16-inch MacBook Pro while supplies last",
+       "url": "https://appleinsider.com/articles/26/10/19/save-900-on-apples-m5-max-16-inch-macbook-pro-while-supplies-last?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "ce6f286298a1",
-     "title": "Apple Mac mini with M4 Chip Discounted to $649 at Best Buy",
-     "summary": "The desktop built for Apple Intelligence is on sale as a Deal of the Day at Best Buy for $649.",
+     "id": "38349ae93058",
+     "title": "Cyberpunk 2077 Ultimate Edition discounted across digital storefronts",
+     "summary": "Cyberpunk 2077: Ultimate Edition is on sale for $27.99 on the Nintendo eShop, with matching discounts available on Xbox, GOG, and Steam.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-19T05:03:13Z",
+     "published": "2026-10-19T16:12:09Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Apple - Mac mini Desktop - M4 chip - Built for Apple Intelligence - 16GB Memory - 256GB SSD - Silver - $649 at Best Buy DOTD buff.ly/181hhn1 #ad",
-       "url": "https://buff.ly/181hhn1",
+       "title": "Cyberpunk 2077: Ultimate Edition is $27.99 on US eShop buff.ly/o5bWuYf $31.99 Xbox buff.ly/zdYV02P $31.99 GOG buff.ly/ej20Arl #ad $33.10 Steam buff.ly/7MYgw2X",
+       "url": "https://buff.ly/o5bWuYf",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "54fd3a5b8e50",
+     "title": "Civilization VII Settlers Edition discounted on Fanatical",
+     "summary": "Sid Meier's Civilization VII Settlers Edition for Steam is currently discounted to $50.39 on Fanatical.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T15:01:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Sid Meier's Civilization VII Settlers Edition (Steam) is $50.39 on Fanatical buff.ly/mgAgNDj #ad",
+       "url": "https://buff.ly/mgAgNDj",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1cbb384dd0d3",
+     "title": "Amazon discounts Square Enix titles including Final Fantasy 7 Rebirth",
+     "summary": "Amazon and Best Buy launched early Black Friday sales featuring record-low prices on select Square Enix games like Final Fantasy 7 Rebirth and Remake Intergrade.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T15:31:39Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Amazon Discounts Final Fantasy 7 Rebirth and More to Record Lows in Early Black Friday Sale",
+       "url": "https://www.ign.com/articles/square-enix-early-black-friday-sales",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b9923269027b",
+     "title": "GameFly offers used console discounts on Pragmata and Helldivers 2",
+     "summary": "GameFly has discounted pre-owned physical copies of Pragmata and Helldivers 2 for PlayStation 5 and Xbox Series X.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T16:35:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Helldivers 2 (PS5 used) is $17.99 at GameFly buff.ly/M4tP8x5 #ad",
+       "url": "https://buff.ly/M4tP8x5",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Pragmata (PS5/XSX used) is $34.99/$39.99 at GameFly buff.ly/h3p5IJg #ad Xbox disc to digital eligible",
+       "url": "https://buff.ly/h3p5IJg",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "244637307ba9",
+     "title": "Amazon offers Audible subscription deal with $20 credit",
+     "summary": "New and returning Audible subscribers can secure a $0.99 per month subscription alongside a $20 promotional credit through Amazon's fall promotion.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T15:55:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Don't Miss Out on Amazon's Fall Audible Deal: Pay $0.99 Per Month Plus Get $20 Credit",
+       "url": "https://www.ign.com/articles/amazon-audible-deal-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b14aac011064",
+     "title": "Final Fantasy XIV 60-day time cards on sale at Newegg",
+     "summary": "Newegg is offering 60-day time card codes for Final Fantasy XIV Online for $24.99 using a checkout promo code.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T15:39:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Final Fantasy XIV Online: 60 Day Time Card Code is $24.99 on Newegg w/ code EP523 buff.ly/xfqfNdA #ad",
+       "url": "https://buff.ly/xfqfNdA",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4067518785fa",
+     "title": "Steam weeklong sales feature discounts on indie and publisher titles",
+     "summary": "Steam's weeklong sales event includes deep price drops on titles like Life Below, Empires of the Undergrowth, and Tropico 6.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T17:11:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Empires of the Undergrowth is $7.49 on Steam buff.ly/TCO486P The Last Caretaker $22.90 AllYouPlay buff.ly/AX8pJf6 Tropico 6 $9.99 buff.ly/UpTxpKP Dead Estate $4.94 buff.ly/9cBv5u5",
+       "url": "https://buff.ly/TCO486P",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Life Below is $22.49 on Steam buff.ly/VI268f9 Headup publisher sale buff.ly/O5XXBaB IndieArk publisher sale buff.ly/YM3RP0o Lawn Mowing Simulator $3.99 buff.ly/QW1gUfG",
+       "url": "https://buff.ly/VI268f9",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Steam weeklong deals buff.ly/WSLc61p",
+       "url": "https://buff.ly/WSLc61p",
        "official": false
       }
      ]
     }
    ]
-  },
-  {
-   "name": "Japan & Korea",
-   "stories": []
   }
  ],
  "date": "2026-10-19",
- "generated_at": "2026-10-19T11:01:51Z",
+ "generated_at": "2026-10-19T17:23:09Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 966,
-  "clusters": 849,
+  "items": 924,
+  "clusters": 808,
   "feeds_ok": 173,
   "feeds_failed": 3
  },
