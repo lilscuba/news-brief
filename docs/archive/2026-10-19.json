@@ -1,0 +1,1047 @@
+{
+ "version": 1,
+ "headline": "Global developments highlight surging AI agent milestones, international border tensions, and major infrastructure security challenges.",
+ "top": [
+  {
+   "id": "1ee0cb0c72db",
+   "title": "Google DeepMind Agents Defeat Minecraft Without Human Assistance",
+   "summary": "Google DeepMind announced that four Gemini 4 Argon AI agents successfully beat Minecraft without human help in just over 27 hours.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-19T10:58:21Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Engadget",
+     "title": "Google Gemini 4 agents just beat Minecraft with no human intervention",
+     "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Google DeepMind says four Gemini 4 Argon agents beat Minecraft without any human help in 27 hours and 14 minutes, costing $1,620 at Argon's planned 2027 price (Matthias Bastian/The Decoder)",
+     "url": "https://www.techmeme.com/261019/p14#a261019p14",
+     "official": false
+    },
+    {
+     "outlet": "Steam News",
+     "title": "It Took 4 Google AI Agents Over 27 Hours to Defeat the Ender Dragon in Minecraft Without Help From Humans",
+     "url": "https://store.steampowered.com/news/group/9869/view/693149194510140777",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "caed45946d3d",
+   "title": "Anthropic Commits 5 Percent of Shares to Public-Benefit Fund",
+   "summary": "Anthropic is dedicating a portion of its equity to a public-benefit fund ahead of its anticipated IPO, alongside giving external watchdogs employee-like access.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "US",
+   "published": "2026-10-19T10:48:33Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "title": "Anthropic gives outside AI watchdog “employee-like” access",
+     "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+     "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: UK",
+     "title": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
+     "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+     "official": false
+    },
+    {
+     "outlet": "Semafor",
+     "title": "Anthropic pledges at least 5% of shares to public-benefit fund",
+     "url": "https://www.semafor.com/article/10/19/2026/anthropic-pledges-at-least-5-of-shares-to-public-benefit-fund",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "0b8ab13846c9",
+   "title": "Australian Lawmaker Helen Haines Seriously Injured in Suspected Car Attack",
+   "summary": "Australian MP Helen Haines is in critical condition following a deliberate vehicle strike outside her office, prompting counterterrorism activation.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-19T10:52:29Z",
+   "outlet_count": 16,
+   "sources": [
+    {
+     "outlet": "Sky News: World",
+     "title": "Australian MP in critical condition after being hit by car - as counter-terror police investigate",
+     "url": "https://news.sky.com/story/australian-mp-attacked-outside-her-office-says-pm-13600871",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Australian lawmaker 'critically' hurt in attack, officials say",
+     "url": "https://www.channelnewsasia.com/world/australia-mp-helen-haines-attacked-6471311",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg: Politics",
+     "title": "Australian Lawmaker Critically Injured in Suspected Attack",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/australian-lawmaker-helen-haines-injured-in-suspected-attack",
+     "official": false
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Australian lawmaker Helen Haines in critical condition after vehicle attack",
+     "url": "https://www.scmp.com/news/asia/australasia/article/3371376/australian-lawmaker-helen-haines-critical-condition-after-vehicle-attack?utm_source=rss_feed",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Australian MP Helen Haines critically injured in car ramming attack outside her office",
+     "url": "https://www.thejournal.ie/australian-mp-attacked-helen-haines-7197833-Oct2026/",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "‘Deeply appalled’: politicians condemn alleged attack after independent MP Helen Haines critically injured",
+     "url": "https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Australian MP Haines critical after vehicle attack",
+     "url": "https://www.rte.ie/news/world/2026/1019/1595945-australia-helen-haines/",
+     "official": false
+    },
+    {
+     "outlet": "Newsweek",
+     "title": "Helen Haines 'Attack': Australia MP Hit by Car, in Critical Condition",
+     "url": "https://www.newsweek.com/helen-haines-attack-australia-mp-hit-by-car-in-critical-condition-12587051",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Australian MP Helen Haines 'critically' hurt in car ramming attack, officials say",
+     "url": "https://www.euronews.com/2026/10/19/australian-mp-helen-haines-critically-hurt-in-car-ramming-attack-officials-say",
+     "official": false
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Australian MP Seriously Injured in Attack; Suspect Arrested",
+     "url": "https://www.franceinfo.fr/monde/asie/une-deputee-australienne-gravement-blessee-lors-d-une-attaque-un-suspect-interpelle_8243767.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Une députée australienne gravement blessée lors d'une attaque, un suspect interpellé"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Australian lawmaker critically injured after being deliberately hit by car",
+     "url": "https://www.yahoo.com/news/articles/australia-pm-says-independent-mp-082202107.html",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Australian lawmaker ‘critically’ hurt in attack, officials say",
+     "url": "https://www.thehindu.com/news/international/australian-lawmaker-critically-hurt-in-attack-officials-say/article71602412.ece",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Australian MP seriously hurt in suspected car attack",
+     "url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Australian MP Helen Haines in critical condition after deliberate vehicle attack, prime minister says",
+     "url": "https://www.cbc.ca/news/world/helen-haines-car-attack-9.7386359?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Australian MP Helen Haines in Critical Condition After Being Deliberately Struck by Vehicle",
+     "url": "https://elpais.com/internacional/2026-10-19/la-diputada-australiana-helen-haines-en-estado-critico-tras-ser-atropellada-de-forma-deliberada.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "La diputada australiana Helen Haines en estado crítico tras ser atropellada de forma deliberada"
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Australian Lawmaker Helen Haines Injured After Attack, Prime Minister Says",
+     "url": "https://www.nytimes.com/2026/10/19/world/australia/helen-haines-mp-attacked-wangaratta-australia.html",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "f7cc0c1c75e1",
+   "title": "World Food Programme Cuts Gaza Aid Drastically Amid Funding Shortfall",
+   "summary": "Severe funding shortfalls, driven by cuts from major donors like the US and Germany, have forced the WFP to end food support for 500,000 Palestinians in Gaza.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-19T10:37:00Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "NPR: World",
+     "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+     "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+     "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "World Food Programme Significantly Reduces Gaza Aid",
+     "url": "https://orf.at/stories/3445521/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Welternährungsprogramm reduziert Gaza-Hilfe deutlich"
+    },
+    {
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "WFP Sharply Cuts Gaza Aid 'Due to Funding Shortage', Affecting Rations for 500,000",
+     "url": "http://www.asahi.com/articles/ASVBM34DVVBMUHBI00ZM.html?ref=rss",
+     "official": false,
+     "translated_from": "ja",
+     "original_title": "WFPがガザ支援を大幅縮小「資金不足のため」 50万人分の食糧"
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Cuts force World Food Programme to end support for half a million Palestinians in Gaza",
+     "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "In Gaza, World Food Programme's Lack of Funds Leads to Drastic Cuts in Humanitarian Aid",
+     "url": "https://www.lemonde.fr/international/article/2026/10/19/a-gaza-le-manque-de-moyens-du-programme-alimentaire-mondial-entraine-une-reduction-drastique-de-l-aide-humanitaire_6797512_3210.html",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "A Gaza, le manque de moyens du Programme alimentaire mondial entraîne une réduction drastique de l’aide humanitaire"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages",
+     "url": "https://www.aljazeera.com/news/2026/10/19/wfp-cuts-aid-to-500000-palestinians-in-gaza-amid-funding-shortages?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "Gaza: World Food Programme Cuts Aid by a Third",
+     "url": "https://www.spiegel.de/ausland/gaza-welternaehrungsprogramm-reduziert-hilfe-um-ein-drittel-a-d06980bf-ada9-4dbb-aa16-fdaa920f4cb1#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Gaza: Welternährungsprogramm reduziert Hilfe um ein Drittel"
+    }
+   ]
+  },
+  {
+   "id": "a64df7d6f9ad",
+   "title": "North Korea Threatens Loudspeaker Broadcasts Amid Border Tensions",
+   "summary": "Kim Yo-jong warned that North Korea is considering resuming loudspeaker propaganda broadcasts and deploying tactical weapons along the southern border.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Korea",
+   "published": "2026-10-19T10:31:52Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "Yonhap News",
+     "title": "(URGENT) N.K. leader's sister calls situation at southern border 'very unstable,' mentions resumption of loudspeaker broadcasts",
+     "url": "https://en.yna.co.kr/view/AEN20261019010800315",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "N.K. leader's sister calls situation at southern border 'very unstable'",
+     "url": "https://en.yna.co.kr/view/AEN20261019010900315",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "(LEAD) N.K. leader's sister calls situation at southern border 'very unstable'",
+     "url": "https://en.yna.co.kr/view/AEN20261019010951315",
+     "official": false
+    },
+    {
+     "outlet": "KBS World",
+     "title": "Kim Yo-jong: N. Korea Mulling Resumption of Loudspeaker Propaganda Broadcasts",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204970",
+     "official": false
+    },
+    {
+     "outlet": "NK News (North Korea)",
+     "title": "Kim Yo Jong threatens restart of North Korean loudspeakers amid border tensions",
+     "url": "https://www.nknews.org/2026/10/kim-yo-jong-threatens-restart-of-north-korean-loudspeakers-amid-border-tensions/",
+     "official": false
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Kim Yo-jong threatens loudspeaker broadcast resumption, more tactical weapons along border",
+     "url": "https://www.koreaherald.com/article/10907760",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "5374dd749ab3",
+     "title": "AI Safety Bill Leaks Reveal High Thresholds for Government Intervention",
+     "summary": "An unverified leaked safety bill attributed to Anthropic reportedly only mandates government intervention if 50 injuries or $1 billion in damages are at risk.",
+     "importance": 3,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "AI",
+     "published": "2026-10-18T18:44:11Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "HN: Claude/Anthropic",
+       "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
+       "url": "https://www.pcgamer.com/software/ai/leaked-ai-safety-bill-from-anthropic-only-lets-government-act-if-50-deaths-or-usd1-billion-are-on-the-line/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "048da226d17e",
+     "title": "AI Researchers Study Autonomous Agent Behavior on Virtual Island",
+     "summary": "MIT Technology Review highlights an experiment where AI agents stranded on a virtual island for 30 hours began engaging in play-like behaviors.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-19T09:08:05Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MIT Technology Review",
+       "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "eda0b506f4a6",
+     "title": "Apple Reveals True Battery Capacity for iPhone Duo in Regulatory Filing",
+     "summary": "An EU regulatory document uncovered after pre-orders opened shows the iPhone Duo packs a 4883mAh battery.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-19T01:32:09Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Reveals iPhone Duo's Battery Capacity",
+       "url": "https://www.macrumors.com/2026/10/18/iphone-duo-battery-capacity/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Here’s how iPhone Duo’s battery capacity compares to other iPhones",
+       "url": "https://9to5mac.com/2026/10/18/iphone-duo-battery-capacity-comparison/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "47761555be0d",
+     "title": "Foxconn Acquires 50 Percent Stake in Mitsubishi Automotive Components Unit",
+     "summary": "Foxconn has agreed to buy half of Mitsubishi's automotive components business for approximately $727 million to bolster its electric vehicle platforms.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-19T10:00:49Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Foxconn agrees to acquire a 50% stake in Mitsubishi's automotive components unit for ~$727M; Mitsubishi will provide autonomous tech for Foxconn's EV platforms (Reed Stevenson/Bloomberg)",
+       "url": "https://www.techmeme.com/261019/p12#a261019p12",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7b7b8adec35b",
+     "title": "Chatbot Gender Adoption Gap Closes Among US Adults",
+     "summary": "Pew Research Center data indicates that the adoption gap between men and women using chatbots has closed since 2024.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-19T10:15:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Survey: the chatbot gender adoption gap among US adults has closed since 2024, though men are more likely to use them daily; ChatGPT has identical use rates (Pew Research Center)",
+       "url": "https://www.techmeme.com/261019/p13#a261019p13",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5bab75960006",
+     "title": "US Cybersecurity Job Postings Drop to Four-Year Low",
+     "summary": "CyberSN data shows US cybersecurity job postings fell 26.4 percent year-over-year while demand for AI security engineers surged.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-19T08:00:46Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+ (Kevin Townsend/SecurityWeek)",
+       "url": "https://www.techmeme.com/261019/p7#a261019p7",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "b0e709e5404e",
+     "title": "Call of Duty: Modern Warfare 4 Pays Tribute to Late Co-Creator Vince Zampella",
+     "summary": "The newly released title includes dedicated in-game tributes honoring the late Infinity Ward co-founder.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-19T10:58:22Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Call of Duty: Modern Warfare 4 pays tribute to late COD co-creator and Infinity Ward co-founder Vince Zampella",
+       "url": "https://www.videogameschronicle.com/news/call-of-duty-modern-warfare-4-pays-tribute-to-late-cod-co-creator-and-infinity-ward-co-founder-vince-zampella/",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Modern Warfare 4 Pays Tribute to Call of Duty Co-Creator Vince Zampella",
+       "url": "https://store.steampowered.com/news/group/9869/view/693149194510140781",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4d4e5a108157",
+     "title": "Street Fighter Live-Action Movie Tops Worldwide Box Office in Opening Weekend",
+     "summary": "Despite lackluster reviews, the new live-action Street Fighter film pulled in $51.1 million internationally during its opening weekend.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-18T23:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Street Fighter Tops the Box Office With $51 Million Opening Weekend Amid Lackluster Reviews",
+       "url": "https://www.ign.com/articles/street-fighter-tops-the-box-office-with-51-million-opening-weekend-amid-lackluster-reviews",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
+       "url": "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "14c2c870bf84",
+     "title": "Activision Quality Assurance Union Votes to Authorize Strike",
+     "summary": "Members of the AQAU-CWA union voted to authorize a strike, citing a failure by Activision to bargain in good faith over key contract issues.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-19T10:13:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Activision QA United-CWA union vote to authorise strike, claims publisher has \"failed to bargain in good faith over key issues\"",
+       "url": "https://www.gamesindustry.biz/activision-qa-united-cwa-union-vote-to-authorise-strike-claims-publisher-has-failed-to-bargain-in-good-faith-over-key-issues",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8c9777616c02",
+     "title": "Dune: Awakening Developer Funcom Faces Layoffs Amid Restructuring",
+     "summary": "Norwegian developer Funcom is restructuring following its console release, leading to incoming layoffs.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-19T10:47:29Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Dune: Awakening studio faces layoffs as it restructures following console release",
+       "url": "https://www.eurogamer.net/funcom-dune-awakening-layoffs-restructuring",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ce0541d9c269",
+     "title": "Vampire: The Masquerade - Bloodlines Remake Rumors Surface",
+     "summary": "Rumors regarding a potential remaster or remake of the classic RPG have begun circulating, reportedly spurred by original score contributors.",
+     "importance": 2,
+     "label": "RUMOR-UNVERIFIED",
+     "category": "Gaming",
+     "published": "2026-10-19T10:41:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score",
+       "url": "https://www.rockpapershotgun.com/vampire-the-masquerade-bloodlines-remaster-or-remake-rumours-begin-to-flow-reportedly-in-part-thanks-to-a-metal-band-from-the-originals-score",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "ca481e8ae280",
+     "title": "Maricopa County Becomes Focal Point for Early Election Integrity Claims",
+     "summary": "Ahead of upcoming midterms, political figures are reviving conspiracy narratives centered on Maricopa County, Arizona.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-19T10:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Maricopa County, Arizona, Is Again Ground Zero of Election Conspiracy Theories",
+       "url": "https://www.wired.com/story/maricopa-county-arizona-is-again-ground-zero-of-election-conspiracy-theories/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "9ca353046537",
+     "title": "Four Soldiers Killed in Grass Fire at Canadian Military Base",
+     "summary": "Strong winds fueled an unexpected grass fire at a Canadian military base, resulting in one of the worst peacetime tragedies for the nation's military.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-19T09:12:31Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Strong winds fuelled grass fire at Canadian military base that killed four",
+       "url": "https://www.channelnewsasia.com/world/strong-winds-fuelled-grass-fire-canadian-military-base-killed-four-6469826",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "How a grass fire at a Canadian military base killed four soldiers",
+       "url": "https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers?traffic_source=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "a25adc20a22b",
+     "title": "French Interior Minister Admits Police Lost Control of Violent Protests",
+     "summary": "Following widespread riots and thousands of damaged shops, French officials announced local curfews and promised a massive criminal response.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-19T10:52:19Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Police 'lost control' of some protests",
+       "url": "https://www.rte.ie/news/2026/1019/1595915-france-protests/",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "France’s interior minister admits police lost control during violent protests",
+       "url": "https://www.rfi.fr/en/france/20261019-france-s-interior-minister-admits-police-lost-control-during-violent-protests",
+       "official": false
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "\"Something Serious Happened\": In Joint Op-Ed, Mayors of Paris, Marseille, and Lyon Demand Government Accountability After October 17 Violence",
+       "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/il-s-est-passe-quelque-chose-de-grave-les-maires-de-paris-marseille-et-lyon-demandent-des-comptes-au-gouvernement-apres-les-violences-du-17-octobre_8243617.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "\"Il s'est passé quelque chose de grave\" : dans une tribune commune, les maires de Paris, Marseille et Lyon demandent des comptes au gouvernement, après les violences du 17 octobre"
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "Following October 17 Destruction, Outraged Mayors Demand Accountability",
+       "url": "https://www.lemonde.fr/politique/article/2026/10/19/apres-les-saccages-du-17-octobre-les-maires-indignes-demandent-des-comptes_6797507_823448.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Après les saccages du 17 octobre, les maires, indignés, demandent des comptes"
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "LIVE, October 17 Protests: Sébastien Lecornu Asks Prefects to Introduce \"Partial and Highly Localized\" Curfews",
+       "url": "https://www.lemonde.fr/societe/live/2026/10/19/en-direct-mobilisation-sociale-les-rassemblements-interdits-de-12-heures-a-20-heures-a-marseille-ou-laurent-nunez-est-attendu-cet-apres-midi_6795855_3224.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "EN DIRECT, manifestations du 17 octobre : Sébastien Lecornu demande aux préfets d’instaurer des couvre-feux « partiels et très localisés »"
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Police ‘lost control’ during French protests, says Interior Minister",
+       "url": "https://www.thehindu.com/news/international/police-lost-control-during-french-protests-says-interior-minister/article71602409.ece",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "'We tore it up': French looters brag online as minister admits police 'lost control'",
+       "url": "https://www.euronews.com/2026/10/19/we-tore-it-up-french-looters-brag-online-as-minister-admits-police-lost-control",
+       "official": false
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "17 October Protests: Prime Minister Asks Prefects to Impose 'Partial and Localised Curfews' in Certain City Centres",
+       "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/direct-mobilisation-du-17-octobre-paris-lyon-et-nantes-touches-par-de-nouveaux-heurts-et-pillages-dimanche-au-moins-108-interpellations-dans-la-capitale_8243455.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Mobilisation du 17 octobre : le Premier ministre annonce avoir demandé aux préfets des \"couvre-feux partiels et localisés\" dans certains centres-villes"
+      }
+     ]
+    },
+    {
+     "id": "24c2b400e8cb",
+     "title": "Israel Arrests Ten Suspects Over Settler Attacks in West Bank",
+     "summary": "Israeli police arrested ten individuals following violent assaults targeting an American journalist and European diplomats.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-19T09:48:37Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Sky News: World",
+       "title": "Arrests over Israeli settler attacks on US photojournalist and European diplomats in West Bank",
+       "url": "https://news.sky.com/story/arrests-over-israeli-settler-attacks-on-us-photojournalist-and-european-diplomats-in-west-bank-13600842",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Israeli police arrest 10 following settler attacks",
+       "url": "https://www.rte.ie/news/world/2026/1019/1595913-israel-arrests/",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "West Bank: Ten Arrests Following Settler Attacks",
+       "url": "https://orf.at/stories/3445510/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Westjordanland: Zehn Festnahmen nach Siedlerangriffen"
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Israel arrests 10 people after settler attacks on reporter and European politicians in West Bank",
+       "url": "https://www.thejournal.ie/israeli-police-arrest-10-people-in-connection-with-settler-attacks-on-european-politicians-7197760-Oct2026/",
+       "official": false
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "Settler Violence in the West Bank: Ten People Arrested, Israeli Police Announce",
+       "url": "https://www.lemonde.fr/international/article/2026/10/19/violences-de-colons-en-cisjordanie-dix-personnes-arretees-annonce-la-police-israelienne_6797499_3210.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Violences de colons en Cisjordanie : dix personnes arrêtées, annonce la police israélienne"
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "West Bank: Israel arrests 10 suspects over settler attacks on US journalist, European diplomats",
+       "url": "https://www.dw.com/en/west-bank-israel-arrests-10-suspects-over-settler-attacks-on-us-journalist-european-diplomats/a-79696514?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Ten Arrests Following Settler Attacks",
+       "url": "https://orf.at/stories/3445516/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Zehn Festnahmen nach Siedlerangriffen"
+      }
+     ]
+    },
+    {
+     "id": "f1d60b2692cf",
+     "title": "Twelve Migrants Die in Aegean Sea Shipwreck Incidents off Greece",
+     "summary": "Greek authorities report that at least 12 migrants, including an infant, died in separate maritime accidents while attempting to reach Europe.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-19T09:59:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Le Monde (France)",
+       "title": "Greece: Twelve Migrants, Including an Infant, Die After Two Aegean Sea Accidents",
+       "url": "https://www.lemonde.fr/international/article/2026/10/19/grece-douze-migrants-dont-un-nourrisson-morts-apres-deux-accidents-en-mer-egee_6797504_3210.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Grèce : douze migrants, dont un nourrisson, morts après deux accidents en mer Egée"
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "At Least 12 Migrants Die in Two Aegean Sea Incidents off Greece",
+       "url": "https://www.franceinfo.fr/monde/grece/en-grece-au-moins-12-migrants-meurent-lors-de-deux-accidents-en-mer-egee_8243614.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "En Grèce, au moins 12 migrants meurent lors de deux accidents en mer Egée"
+      }
+     ]
+    },
+    {
+     "id": "1ece06397f2f",
+     "title": "Pope Leo XIV Continues Recovery and Plans General Audience",
+     "summary": "Following recent lung-cancer surgery, Pope Leo XIV is set to hold his weekly general audience in Saint Peter's Square.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Europe",
+     "published": "2026-10-19T09:44:08Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "BBC News: Latin America",
+       "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
+       "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Pope Leo to hold general audience for first time since lung cancer surgery",
+       "url": "https://www.straitstimes.com/world/europe/pope-leo-to-hold-wednesday-audience-for-first-time-since-cancer-surgery",
+       "official": false
+      },
+      {
+       "outlet": "ANSA English (Italy)",
+       "title": "Pope to hold general audience on Wednesday",
+       "url": "https://www.ansa.it/english/news/2026/10/19/pope-to-hold-general-audience-on-wednesday_3d1a9873-8357-48ea-a643-dd8b89a6f06f.html",
+       "official": false
+      },
+      {
+       "outlet": "ANSA English (Italy)",
+       "title": "Pope to hold general audience on Wednesday",
+       "url": "https://www.ansa.it/english/news/vatican/2026/10/19/pope-to-hold-general-audience-on-wednesday_c827aed6-5c2c-4be1-b05e-0e6482cb7ac8.html",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "eb3213357227",
+     "title": "Japan Faces Security Risks From Stolen Data and Cyber Threats",
+     "summary": "Trend Micro warns that Japanese entities face a wave of cyberattacks utilizing compromised data.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-19T11:01:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan faces 'next big storm' as hackers use stolen data, warns Trend Micro",
+       "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-faces-next-big-storm-as-hackers-use-stolen-data-warns-trend-micro",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2064fe620f51",
+     "title": "Agriculture Minister Resignation Leaves Prime Minister Takaichi Pressured",
+     "summary": "Prime Minister Takaichi faces political pressure to rebuild public trust following the sudden resignation of her agriculture minister ahead of tax reforms.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-19T10:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Japan Forward",
+       "title": "Takaichi Must Rebuild Public Trust After Agriculture Minister Resigns",
+       "url": "https://japan-forward.com/takaichi-agriculture-minister-yanagi-resigns-rebuild-trust/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "2667060ed352",
+     "title": "South Korea Conveys Concerns to US Over Comments on Sovereign Territory",
+     "summary": "Seoul formally expressed concern to Washington regarding US Forces Korea Commander Gen. Xavier Brunson's remarks concerning the DMZ.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-19T10:57:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "USFK Chief Stirs Sovereignty Controversy in S. Korea with DMZ Remarks",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204964",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "S. Korea conveys concerns to US over USFK commander's DMZ remarks",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261019/s-korea-conveys-concerns-to-us-over-usfk-commanders-dmz-remarks?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0f0355c0e664",
+     "title": "President Lee Reaffirms Push to Regain Wartime OPCON by 2028",
+     "summary": "President Lee Jae Myung stressed that South Korea must swiftly reclaim wartime operational control from the United States to safeguard national sovereignty.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Korea",
+     "published": "2026-10-19T10:57:03Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "(URGENT) Lee says wartime OPCON must be retaken at early date, cannot continue to leave in hands of another country",
+       "url": "https://en.yna.co.kr/view/AEN20261019010400315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Lee says wartime operational control must be retaken at early date",
+       "url": "https://en.yna.co.kr/view/AEN20261019010500315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Lee says wartime operational control must be retaken at early date",
+       "url": "https://en.yna.co.kr/view/AEN20261019010551315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(2nd LD) Lee says wartime operational control must be retaken at early date",
+       "url": "https://en.yna.co.kr/view/AEN20261019010552315",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Lee: S. Korea Must Regain OPCON from US Swiftly, without Fail",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204968",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Lee calls for swift ‘restoration,’ not ‘transfer,’ of wartime command from US",
+       "url": "https://www.koreaherald.com/article/10907766",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "President reaffirms push to reclaim wartime OPCON by 2028",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261019/president-reaffirms-push-to-reclaim-wartime-opcon-by-2028?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4162400e68c2",
+     "title": "Collision in Daegu Leaves One KATUSA Soldier Dead and Three Injured",
+     "summary": "A military vehicle rollover crash in Daegu resulted in the death of a South Korean soldier attached to USFK alongside three injured service members.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-19T10:57:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "1 KATUSA soldier killed, 3 USFK soldiers injured in rollover crash in Daegu",
+       "url": "https://www.koreaherald.com/article/10907757",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "1 KATUSA killed, 3 USFK soldiers injured in rollover crash in Daegu",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261019/1-katusa-killed-3-usfk-soldiers-injured-in-rollover-crash-in-daegu?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e93ce233b3d4",
+     "title": "Religious Sect Leader Sentenced to 33 Years in Prison for Sexual Assault",
+     "summary": "A district court sentenced the leader of the Jesus Morning Star sect to 33 years behind bars for sexually assaulting female followers.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Korea",
+     "published": "2026-10-19T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Religious sect leader sentenced to 33 years in prison for sexual assault",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261019/religious-sect-leader-sentenced-to-33-yrs-in-prison-for-sexual-assault?utm_source=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "60abac5d122e",
+     "title": "Final Fantasy VII Rebirth Day One Edition for Switch 2 on Sale for $34.99",
+     "summary": "Best Buy is offering the Final Fantasy VII Rebirth Day One Edition for Nintendo Switch 2 with an exclusive card for $34.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T05:00:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "FINAL FANTASY VII REBIRTH Day One Edition (Switch 2 KC) w/ exclusive MtG Zack Fair card is $34.99 at Best Buy buff.ly/g6qaK9T #ad",
+       "url": "https://buff.ly/g6qaK9T",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ce6f286298a1",
+     "title": "Apple Mac mini with M4 Chip Discounted to $649 at Best Buy",
+     "summary": "The desktop built for Apple Intelligence is on sale as a Deal of the Day at Best Buy for $649.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-19T05:03:13Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Apple - Mac mini Desktop - M4 chip - Built for Apple Intelligence - 16GB Memory - 256GB SSD - Silver - $649 at Best Buy DOTD buff.ly/181hhn1 #ad",
+       "url": "https://buff.ly/181hhn1",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan & Korea",
+   "stories": []
+  }
+ ],
+ "date": "2026-10-19",
+ "generated_at": "2026-10-19T11:01:51Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 966,
+  "clusters": 849,
+  "feeds_ok": 173,
+  "feeds_failed": 3
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "wapo-politics",
+   "title": "The Washington Post: Politics",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
+  },
+  {
+   "key": "helsinkitimes",
+   "title": "Helsinki Times (Finland)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:141: not well-formed (invalid token)"
+  },
+  {
+   "key": "cphpost",
+   "title": "The Copenhagen Post (Denmark)",
+   "status": "error",
+   "detail": "ValueError: unparseable feed: <unknown>:2:119: not well-formed (invalid token)"
+  },
+  {
+   "key": "corriere",
+   "title": "Corriere della Sera (Italy)",
+   "status": "stale",
+   "detail": "no new items since 2024-05-13"
+  },
+  {
+   "key": "nhk",
+   "title": "NHK News (Japanese)",
+   "status": "stale",
+   "detail": "no new items since 2026-08-08"
+  }
+ ]
+}
