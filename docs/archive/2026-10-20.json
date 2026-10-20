@@ -1,183 +1,171 @@
 {
  "version": 1,
- "headline": "Tech giants race for low-resource AI and legacy modernization while international diplomacy sees fresh friction over North Korea and Ukraine.",
+ "headline": "Tech and world events shape today's brief, highlighted by major Apple manufacturing expansions, a massive Google Cloud outage hitting European banks, and escalating geopolitical tensions.",
  "top": [
   {
-   "id": "7a364f356aab",
-   "title": "OpenAI Highlights Major AI Performance Leaps in Low-Resource Legacy Languages",
-   "summary": "OpenAI has officially announced that its latest models demonstrate major performance leaps in low-resource legacy languages such as COBOL, Fortran, and Visual Basic. These tools are critical for modernizing legacy codebases used heavily by banks and governments.",
-   "importance": 5,
-   "label": "CONFIRMED",
-   "category": "Tech",
-   "published": "2026-10-20T09:50:04Z",
-   "outlet_count": 2,
-   "sources": [
-    {
-     "outlet": "OpenAI News",
-     "title": "Advancing coding in low‑resource programming languages",
-     "url": "https://openai.com/index/low-resource-programming-languages",
-     "official": true
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "OpenAI says its new models show major performance leaps in low-resource legacy languages like COBOL, Fortran, and Visual Basic, used by banks and governments (OpenAI)",
-     "url": "https://www.techmeme.com/261020/p5#a261020p5",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "ebe478da065b",
-   "title": "Chinese Tech Giants Order Over 3 Million Nvidia Export-Compliant RTX PRO 5500 GPUs",
-   "summary": "ByteDance, Alibaba, and Tencent have reportedly placed massive orders for over 3 million of Nvidia's new RTX PRO 5500 GPUs worth over $35 billion in an aggressive push to secure export-compliant chips.",
+   "id": "80dab6a33382",
+   "title": "Google Cloud Outage Disrupts European Banks and Services",
+   "summary": "A power outage at a Google Cloud data centre in London caused widespread network disruptions for platforms like Revolut and several European banks. Google reported that the issue has since been mitigated for most customers.",
    "importance": 5,
    "label": "REPORTED",
    "category": "Tech",
-   "published": "2026-10-20T10:20:01Z",
-   "outlet_count": 1,
-   "sources": [
-    {
-     "outlet": "Techmeme",
-     "title": "Sources: ByteDance, Alibaba, and Tencent ordered 3M+ of Nvidia's new RTX PRO 5500 GPUs worth $35B+, in a rush to secure less powerful, export-compliant chips (Reuters)",
-     "url": "https://www.techmeme.com/261020/p9#a261020p9",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "5d38d83fc068",
-   "title": "Anthropic's Leaked Federal AI Bill Sparks Major Backlash From Safety Advocates",
-   "summary": "A leaked draft of an AI bill backed by Anthropic has drawn widespread criticism from safety advocates for being significantly weaker than the bipartisan FRONTIER Act. Meanwhile, reports indicate Anthropic is in talks for another massive $45 billion compute deal with Nscale.",
-   "importance": 5,
-   "label": "RUMOR-CREDIBLE",
-   "category": "Tech",
-   "published": "2026-10-20T10:55:00Z",
+   "published": "2026-10-20T12:56:28Z",
    "outlet_count": 3,
    "sources": [
     {
-     "outlet": "TechCrunch",
-     "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
-     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-     "official": false
-    },
-    {
-     "outlet": "Semafor",
-     "title": "Anthropic’s leaked AI bill sparks backlash",
-     "url": "https://www.semafor.com/article/10/20/2026/anthropics-leaked-ai-bill-sparks-backlash",
+     "outlet": "Hacker News (100+ points)",
+     "title": "Google cloud outage takes down banks",
+     "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
      "official": false
     },
     {
      "outlet": "Techmeme",
-     "title": "Anthropic's leaked federal AI bill draws widespread criticism from AI safety advocates for being significantly weaker than the bipartisan FRONTIER Act (Shakeel Hashim/Transformer)",
-     "url": "https://www.techmeme.com/261020/p12#a261020p12",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "1e8488b9716b",
-   "title": "Japan Launches MMX Probe on Three-Year Mission to Mars Moon Phobos",
-   "summary": "Japan successfully launched its H3 rocket carrying the Martian Moon Exploration (MMX) probe on Tuesday. The spacecraft begins a three-year mission to collect surface samples from Phobos to shed light on the origins of the Solar System.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-20T11:01:08Z",
-   "outlet_count": 6,
-   "sources": [
-    {
-     "outlet": "Sky News: World",
-     "title": "Japan launches mission to Mars to bring back samples from its moon",
-     "url": "https://news.sky.com/story/japan-launches-mission-to-mars-to-bring-back-samples-from-one-of-its-moons-13601139",
-     "official": false
-    },
-    {
-     "outlet": "Ars Technica",
-     "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
-     "url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
-     "official": false
-    },
-    {
-     "outlet": "Japan Forward",
-     "title": "Japan Sends Probe to Bring Back First Mars Moon Samples",
-     "url": "https://japan-forward.com/jaxa-sends-mmx-probe-mars-moon-samples/",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "Japan probe sets course for Mars moon",
-     "url": "https://www.dw.com/en/japan-probe-sets-course-for-mars-moon/a-79708491?maca=en-rss-en-all-1573-rdf",
+     "title": "Google says Cloud services in its London region are recovering after a \"power event\" caused a multi-hour outage that affected Revolut and several European banks (Bloomberg)",
+     "url": "https://www.techmeme.com/261020/p13#a261020p13",
      "official": false
     },
     {
      "outlet": "Euronews",
-     "title": "Japan launches mission to bring back samples from Mars’s moon Phobos",
-     "url": "https://www.euronews.com/video/2026/10/20/japan-launches-mission-to-bring-back-samples-from-marss-moon-phobos",
-     "official": false
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "title": "Japan's mission to Mars moon Phobos: 5 things to know",
-     "url": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-s-mission-to-mars-moon-phobos-5-things-to-know",
+     "title": "Power outage hits Google Cloud services disrupting UK banks",
+     "url": "https://www.euronews.com/2026/10/20/power-outage-hits-google-cloud-services-disrupting-uk-banks",
      "official": false
     }
    ]
   },
   {
-   "id": "55b7072a3c85",
-   "title": "Apple Seeds iOS and macOS 27.2 Release Candidates to Developers",
-   "summary": "Apple has rolled out the first release candidate builds for iOS 27.2 and macOS 27.2 ahead of their official public release in the coming weeks. The updates bring new features like HomePod touch control toggles and Sound Glow support.",
-   "importance": 4,
-   "label": "REPORTED",
+   "id": "039566ad67a8",
+   "title": "Apple Expands U.S. Manufacturing for iPhone 18 Pro and Mac Mini",
+   "summary": "Apple has announced new and expanded partnerships with U.S. companies to manufacture components, titanium enclosures, and camera tech for the iPhone 18 Pro and iPhone Duo, alongside plans to begin domestic Mac mini assembly later this year.",
+   "importance": 5,
+   "label": "CONFIRMED",
    "category": "Tech",
-   "published": "2026-10-19T21:37:09Z",
-   "outlet_count": 3,
+   "published": "2026-10-20T14:42:22Z",
+   "outlet_count": 4,
    "sources": [
     {
-     "outlet": "9to5Mac",
-     "title": "Apple releases iOS 27.2 RC for iPhone",
-     "url": "https://9to5mac.com/2026/10/19/apple-releases-ios-27-2-rc-for-iphone/",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "Apple Releases iOS 27.2 Release Candidate",
-     "url": "https://www.macrumors.com/2026/10/19/apple-releases-ios-27-2-rc/",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "Apple Seeds macOS Golden Gate 27.2 Release Candidate to Developers",
-     "url": "https://www.macrumors.com/2026/10/19/apple-seeds-macos-golden-gate-27-2-rc/",
+     "outlet": "Techmeme",
+     "title": "Apple commits up to $100M over three years to Pennsylvania-based Perryman Company, a titanium supplier for the iPhone Duo, and expands its Qnity partnership (MacKenzie Sigalos/CNBC)",
+     "url": "https://www.techmeme.com/261020/p18#a261020p18",
      "official": false
     },
     {
      "outlet": "9to5Mac",
-     "title": "First Release Candidate for macOS 27.2 Golden Gate now available",
-     "url": "https://9to5mac.com/2026/10/19/first-release-candidate-for-macos-27-2-golden-gate-now-available/",
+     "title": "Apple says American suppliers make almost 100 parts for iPhone 18 Pro and iPhone Duo",
+     "url": "https://9to5mac.com/2026/10/20/apple-says-american-suppliers-make-almost-100-parts-for-iphone-18-pro-and-iphone-duo/",
      "official": false
     },
     {
      "outlet": "AppleInsider",
-     "title": "Release candidates of iOS 27.2, macOS 27.2 land as public version nears",
-     "url": "https://appleinsider.com/articles/26/10/19/release-candidates-of-ios-272-macos-272-land-as-release-nears?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "iOS 27.2 adds new setting to fix common HomePod annoyance",
-     "url": "https://9to5mac.com/2026/10/19/ios-27-2-adds-new-setting-to-fix-common-homepod-annoyance/",
+     "title": "iPhone camera and titanium chassis manufacturing expands in US",
+     "url": "https://appleinsider.com/articles/26/10/20/iphone-camera-and-titanium-chassis-manufacturing-expands-in-us?utm_source=rss",
      "official": false
     },
     {
      "outlet": "MacRumors",
-     "title": "HomePod 27.2 Adds Sound Glow to Existing HomePod Models",
-     "url": "https://www.macrumors.com/2026/10/19/homepod-27-2-sound-glow/",
+     "title": "Apple Says Nearly 100 iPhone Duo and iPhone 18 Pro Parts Made in USA",
+     "url": "https://www.macrumors.com/2026/10/20/apple-touts-iphone-duo-18-pro-parts-made-in-usa/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Apple now selling repair parts for iPhone 18 Pro, latest Mac Studio and Mac mini models",
+     "url": "https://9to5mac.com/2026/10/20/apple-now-selling-repair-parts-for-iphone-18-pro-latest-mac-studio-and-mac-mini-models/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Says Mac Mini Assembly in U.S. to Begin Later This Year",
+     "url": "https://www.macrumors.com/2026/10/20/mac-mini-assembly-in-us-later-this-year/",
      "official": false
     },
     {
      "outlet": "AppleInsider",
-     "title": "HomePod mini 2's Sound Glow feature is coming to other HomePod models",
-     "url": "https://appleinsider.com/articles/26/10/19/homepod-mini-2s-sound-glow-feature-is-coming-to-other-homepod-models?utm_source=rss",
+     "title": "Repair parts for iPhone 18 Pro, M6 Mac mini, Mac Studio are now available",
+     "url": "https://appleinsider.com/articles/26/10/20/repair-parts-for-iphone-18-pro-m6-mac-mini-mac-studio-are-now-available?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Now Sells DIY Repair Parts for iPhone 18 Pro and Two New Macs",
+     "url": "https://www.macrumors.com/2026/10/20/apple-iphone-18-pro-m6-mac-mini-repair-parts/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "1eb0bd0a7879",
+   "title": "Defense Secretary Pete Hegseth Makes Unannounced Visit to Israel",
+   "summary": "U.S. Defense Secretary Pete Hegseth traveled to Israel for unannounced talks with Prime Minister Benjamin Netanyahu and defense officials regarding Iran, occurring just a week ahead of a pivotal election.",
+   "importance": 4,
+   "label": "RUMOR-CREDIBLE",
+   "category": "US",
+   "published": "2026-10-20T15:21:16Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "HuffPost: Politics",
+     "title": "Hegseth Meets Netanyahu In Unannounced Visit To Israel, Axios Reports",
+     "url": "https://www.huffpost.com/entry/hegseth-meet-netanyahu-unannounced-visit-israel-axios-reports_n_6ad69f23e4b05354557f953f",
+     "official": false
+    },
+    {
+     "outlet": "Straight Arrow News",
+     "title": "Hegseth makes unannounced visit to Israel, meets with Netanyahu ahead of election: Reports",
+     "url": "https://san.com/cc/hegseth-makes-unannounced-visit-to-israel-meets-with-netanyahu-ahead-of-election-reports/",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
+     "url": "https://www.yahoo.com/news/politics/articles/hegseth-meets-netanyahu-unannounced-visit-224727487.html",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu",
+     "url": "https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "a77238f6d60b",
+   "title": "Japan Launches Unprecedented Mission to Mars' Moons",
+   "summary": "A Japanese spacecraft has successfully launched on a historic mission to explore the mysterious moons of Mars and return soil samples back to Earth.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-20T12:42:21Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Japan launches spacecraft to Mars' moon in mission to bring back soil samples",
+     "url": "https://www.pbs.org/newshour/science/japan-launches-spacecraft-to-mars-moon-in-mission-to-bring-back-soil-samples",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Japan launches spacecraft to mysterious moons of Mars",
+     "url": "https://www.cbc.ca/news/science/japan-phobos-mission-9.7388022?cmp=rss",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "5b6885c6efbc",
+   "title": "Spotify Removes Over 50 Million AI Slop and Spam Tracks",
+   "summary": "Spotify announced that it has pulled more than 50 million AI-generated slop and spam tracks from user recommendation feeds over the past year.",
+   "importance": 4,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-20T14:18:37Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+     "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
      "official": false
     }
    ]
@@ -188,121 +176,73 @@
    "name": "AI",
    "stories": [
     {
-     "id": "49b7aba6891b",
-     "title": "MiniMax M3.1 Flash Lowers the Cost Floor for Chinese AI Models",
-     "summary": "MiniMax's new M3.1 Flash model has jumped 13 points on the Artificial Analysis Intelligence Index while cutting task costs in half. The model delivers strong coding benchmarks for under $0.30 per task.",
+     "id": "59252d156fbe",
+     "title": "Army Cyber Command Developing Self-Spreading AI Cyberweapons",
+     "summary": "Internal documents reveal that the U.S. Army Cyber Command is developing a program codenamed ECHOTRIBBLE, featuring AI agents designed to propagate like computer worms to neutralize network targets.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-19T18:22:30Z",
-     "outlet_count": 2,
+     "published": "2026-10-20T12:32:56Z",
+     "outlet_count": 1,
      "sources": [
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "MiniMax M3.1 Flash",
-       "url": "https://www.minimax.io/blog/minimax-m31f",
-       "official": false
-      },
       {
        "outlet": "The Decoder",
-       "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight",
-       "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+       "title": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
+       "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
        "official": false
       }
      ]
     },
     {
-     "id": "89c00000db4e",
-     "title": "Inception Debuts Mercury 3 Diffusion LLM Claiming Agentic Benchmark Leadership",
-     "summary": "Inception has launched Mercury 3, a diffusion-based large language model that reportedly outperforms several leading models on agentic benchmarks while operating four to eight times faster.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-20T01:45:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Inception debuts Mercury 3, a diffusion LLM that it says tops GPT-6 Luna, Claude Haiku 5.5, and GLM-5.3 Flash on agentic benchmarks while being 4x to 8x faster (Jason Hiner/The Deep View)",
-       "url": "https://www.techmeme.com/261019/p51#a261019p51",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3ffcf004c729",
-     "title": "DeepSeek Open-Sources Its Inference Engine Following Federal Civilian Ban",
-     "summary": "DeepSeek has officially open-sourced its inference engine, arriving shortly after the U.S. Department of Homeland Security issued an order banning its deployment across federal civilian agencies.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-20T09:08:54Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-       "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-       "official": false
-      },
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "DeepSeek just open-sourced its inference engine",
-       "url": "https://github.com/deepseek-ai/DeepInfer",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "da0190405639",
-     "title": "NVIDIA and Barcelona Supercomputing Center Expand Spanish Startup AI Accelerator",
-     "summary": "The Barcelona Supercomputing Center's AI Factory Accelerator Programme is now fully operational, granting regional Spanish startups access to sovereign compute infrastructure, technical support, and training.",
+     "id": "9e8beb00c177",
+     "title": "OpenAI Models Gain Enhanced Capabilities for Migrating COBOL Systems",
+     "summary": "OpenAI announced that its models now feature improved native capabilities to help banks migrate legacy COBOL software to modern architectures.",
      "importance": 3,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-20T05:00:00Z",
+     "published": "2026-10-20T12:01:59Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "NVIDIA Blog",
-       "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-       "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
-       "official": true
+       "outlet": "Engadget",
+       "title": "OpenAI says its models can help banks migrate from old COBOL programs",
+       "url": "https://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol/",
+       "official": false
       }
      ]
     },
     {
-     "id": "037c22a3c293",
-     "title": "Germany Outlines Industrial AI Roadmap with NVIDIA Partnership in Berlin",
-     "summary": "German Chancellor Friedrich Merz and NVIDIA CEO Jensen Huang met in Berlin to discuss Germany's ambitious roadmap to lead the world in industrial AI applications.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-19T19:27:08Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "NVIDIA Blog",
-       "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-       "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "0e27f9a18573",
-     "title": "Samsung Expands Advanced Semiconductor Memory Hub to Power Generative AI Chips",
-     "summary": "Samsung is constructing a massive new semiconductor hub to manufacture specialized high-bandwidth memory stacks required by modern AI graphical processing units.",
+     "id": "46760e6e2892",
+     "title": "Perplexity Adds Local-First Mode to Mac App for Offline Tasks",
+     "summary": "Perplexity is updating its Mac app with a local-first mode that allows its computer agent to execute tasks entirely on-device without requiring an active internet connection.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-20T09:00:00Z",
+     "published": "2026-10-20T15:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "MIT Technology Review",
-       "title": "A visit to Samsung’s massive new semiconductor hub",
-       "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+       "outlet": "9to5Mac",
+       "title": "Perplexity’s Computer can now run entirely on your Mac, even offline",
+       "url": "https://9to5mac.com/2026/10/20/perplexitys-computer-can-now-run-entirely-on-your-mac-even-offline/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "add383da2fc0",
+     "title": "Meta Muse Exposes Personal and Business Secrets in Shared Conversations",
+     "summary": "A security vulnerability in Meta Muse allows users to uncover thousands of private conversations simply by executing a single query on titles listed publicly.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-20T12:33:13Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+       "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
        "official": false
       }
      ]
@@ -313,115 +253,127 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "660673a3d3ca",
-     "title": "UK CMA Proposes Measures Force Apple to Provide Easier Contactless Tech Access",
-     "summary": "Britain's competition regulator has proposed new measures requiring Apple to open up its contactless technology infrastructure and lower access fees, with a consultation running until November 17.",
+     "id": "996935b35f41",
+     "title": "Apple TV 4K Gains 'Whole Room Audio' Supporting Four HomePods",
+     "summary": "The newly announced fourth-generation Apple TV 4K can connect to up to four HomePods arranged in a surround configuration to build an all-Apple home theater audio setup.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-20T10:35:02Z",
+     "published": "2026-10-20T14:49:32Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Techmeme",
-       "title": "The UK CMA proposes measures requiring Apple to provide easier access to its contactless tech and reduce access fees, with a consultation until November 17 (Paul Sandle/Reuters)",
-       "url": "https://www.techmeme.com/261020/p11#a261020p11",
+       "outlet": "MacRumors",
+       "title": "New Apple TV 4K Features 'Whole Room Audio' With Four HomePods",
+       "url": "https://www.macrumors.com/2026/10/20/new-apple-tv-4k-whole-room-audio/",
        "official": false
       }
      ]
     },
     {
-     "id": "ae409ab06df5",
-     "title": "Blackwall Secures $100M Series C at a $2.2B Valuation",
-     "summary": "Estonia-based web traffic security firm Blackwall has raised a $100 million Series C funding round led by AVP, quadrupling its valuation to $2.2 billion amid an increasingly congested internet landscape.",
-     "importance": 3,
+     "id": "00cf3e8dd8c0",
+     "title": "TikTok Executives Ignored Internal Warnings Regarding Child Safety Issues",
+     "summary": "Newly unsealed court documents show that TikTok employees raised alarms with executives regarding child safety risks and exposure on Live features, but leadership allegedly failed to act.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-20T10:30:02Z",
-     "outlet_count": 2,
+     "published": "2026-10-20T15:03:41Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "TechCrunch",
-       "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
-       "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
+       "outlet": "The Verge",
+       "title": "TikTok employees said they knew about child safety issues, but execs failed to act",
+       "url": "https://www.theverge.com/tech/1014250/tiktok-employees-internal-child-safety-warnings",
        "official": false
       },
       {
        "outlet": "Techmeme",
-       "title": "Estonia-based web traffic security company Blackwall raised a $100M Series C led by AVP at a $2.2B valuation, after raising a $49.2M Series B in March 2025 (Ram Iyer/TechCrunch)",
-       "url": "https://www.techmeme.com/261020/p10#a261020p10",
+       "title": "TikTok staff depositions: TikTok executives ignored internal warnings over child sexual exploitation on Live, where staff said minors appeared in livestreams (Katie McQue/NPR)",
+       "url": "https://www.techmeme.com/261020/p24#a261020p24",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "TikTok staff raised child safety concerns, but executives reportedly failed to act",
+       "url": "https://techcrunch.com/2026/10/20/tiktok-staff-raised-child-safety-concerns-but-executives-reportedly-failed-to-act/",
        "official": false
       }
      ]
     },
     {
-     "id": "865b752890df",
-     "title": "US Sanctions Chinese VC Firm Over Alleged Ties to Google AI Secret Theft",
-     "summary": "Washington has blacklisted MiraclePlus, a Chinese venture capital firm founded by a former Microsoft executive, citing alleged links to Zhisuan, an entity accused of stealing proprietary Google AI secrets.",
+     "id": "61b1adcf0170",
+     "title": "Salesforce Agrees to Acquire Marketing Platform Braze for Nearly $5.7B",
+     "summary": "Salesforce has agreed to buy AI-powered marketing platform Braze at $47.50 per share in an enterprise deal valued at nearly $5.7 billion, slated to close in February 2027.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-20T09:40:02Z",
+     "published": "2026-10-20T12:35:01Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "The US sanctions MiraclePlus, a Chinese VC firm founded by ex-Microsoft executive Lu Qi, over alleged ties to Zhisuan, accused of stealing Google's AI secrets (Bloomberg)",
-       "url": "https://www.techmeme.com/261020/p4#a261020p4",
+       "title": "Salesforce agrees to acquire AI-powered marketing platform Braze for nearly $5.7B in enterprise value, paying $47.50 per share, set to close from February 2027 (Dana Wollman/Bloomberg)",
+       "url": "https://www.techmeme.com/261020/p20#a261020p20",
        "official": false
       }
      ]
     },
     {
-     "id": "7735fb6e45f2",
-     "title": "Amazon Pledges Over €16 Billion in Germany for 2027 Infrastructure and AI",
-     "summary": "Amazon announced a sweeping €16 billion investment plan in Germany for 2027, targeting AWS infrastructure, AI data centers, its Leo satellite initiative, Prime Video, and a Berlin robotics lab.",
+     "id": "4922bfa72a89",
+     "title": "Adobe Lightroom Mobile Adds One-Tap AI Eye-Opening Feature",
+     "summary": "Adobe updated Lightroom mobile for iOS, iPadOS, and Android to feature a generative AI tool that automatically opens closed eyes in portrait photographs with a single tap.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-20T10:10:02Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Amazon pledges to spend €16B+ in Germany in 2027 on AWS and AI data centers, its Leo satellite program, Prime Video media production, and a Berlin robotics lab (Mark Bergen/Bloomberg)",
-       "url": "https://www.techmeme.com/261020/p7#a261020p7",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "12f0ee4f6f30",
-     "title": "Mercury Fintech Hits $1B Annualized Revenue and Launches New Payroll Service",
-     "summary": "Fintech platform Mercury announced it has surpassed $1 billion in annualized revenue with over 450,000 customers, while expanding its business offerings with a new payroll service.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-20T03:05:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Mercury CEO Immad Akhund says the fintech hit $1B in annualized revenue, up ~50% YoY, now has 450K+ customers, and is launching a payroll service (Eric Newcomer/Newcomer)",
-       "url": "https://www.techmeme.com/261019/p52#a261019p52",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "05d434eaac88",
-     "title": "Google Home Speaker Bug Causes Hundreds of Gigabytes of Background Data Downloads",
-     "summary": "Several Google Home Speaker owners are experiencing an ongoing bug where devices continuously download hundreds of gigabytes of data in the background.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-20T10:16:47Z",
+     "published": "2026-10-20T13:06:44Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Verge",
-       "title": "Some Google Home Speakers caught downloading hundreds of gigs of data",
-       "url": "https://www.theverge.com/tech/1014209/google-home-speaker-bug-continuous-download",
+       "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+       "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f742d94e8927",
+     "title": "Spotify Launches Paid Podcast Memberships Across 34 Markets",
+     "summary": "Spotify has rolled out paid podcast memberships in the US and 33 other markets, letting creators offer perks like bonus content while keeping 90% of revenue.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-10-20T12:25:01Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Spotify launches paid podcast memberships with perks beyond bonus content",
+       "url": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Spotify launches paid podcast memberships in 34 markets, including the US; creators can offer perks like bonus content or fewer ads and keep 90% of revenue (Sarah Perez/TechCrunch)",
+       "url": "https://www.techmeme.com/261020/p19#a261020p19",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c27a621956be",
+     "title": "UK Antitrust Regulator Targets Apple Over NFC Payment Access",
+     "summary": "The UK's competition watchdog is taking aim at Apple's near-monopoly on contactless iPhone payments by pushing for broader third-party access to device NFC functionality.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-20T12:42:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "UK antitrust regulator wants Apple to open up iPhone NFC access",
+       "url": "https://www.engadget.com/2291486/uk-antitrust-regulartor-wants-apple-to-open-up-iphone-nfc-access/",
        "official": false
       }
      ]
@@ -432,127 +384,187 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "be2f8a509490",
-     "title": "Monster Hunter Wilds Nintendo Switch 2 Prologue Demo Released on eShop",
-     "summary": "Nintendo Switch 2 owners can now download the Monster Hunter Wilds prologue demo on the eShop, with save data carrying over to the full game and full support for local play.",
+     "id": "11023c32a3bd",
+     "title": "CD Projekt RED Announces Surprise Cyberpunk 2077 Update 2.5",
+     "summary": "CD Projekt RED has surprised players with an official announcement for Cyberpunk 2077 Update 2.5, launching alongside the second season of its Edgerunners anime.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-20T00:31:07Z",
-     "outlet_count": 2,
+     "published": "2026-10-20T15:15:00Z",
+     "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Nintendo Life",
-       "title": "Reminder: Monster Hunter Wilds Switch 2 Prologue Demo Now Available",
-       "url": "https://www.nintendolife.com/news/2026/10/reminder-monster-hunter-wilds-switch-2-prologue-demo-now-available",
+       "outlet": "Gematsu",
+       "title": "Cyberpunk 2077 version 2.5 update launches October 22",
+       "url": "https://www.gematsu.com/2026/10/cyberpunk-2077-version-2-5-update-launches-october-22",
        "official": false
       },
       {
-       "outlet": "Wario64",
-       "title": "Monster Hunter Wilds - Nintendo Switch 2 Prologue Demo out now on eShop www.youtube.com/watch?v=CL-t... -save data carries to full game -supports local play",
-       "url": "https://www.youtube.com/watch?v=CL-tUwfgCi4",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3f9e368d15c0",
-     "title": "Helldivers 2 Drops GameGuard to Implement Easy Anti-Cheat",
-     "summary": "Arrowhead Studios has officially migrated Helldivers 2 over to Easy Anti-Cheat to crack down on unauthorized cheat modifications, acknowledging past limitations with GameGuard policing.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-20T10:58:54Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Rock Paper Shotgun",
-       "title": "Helldivers 2's GameGuard cheat policing \"wasn't as effective as it could have been\", cue a switch to Easy Anti-Cheat as part of a crackdown on cheat mods",
-       "url": "https://www.rockpapershotgun.com/helldivers-2s-gameguard-cheat-policing-wasnt-as-effective-as-it-could-have-been-cue-a-switch-to-easy-anti-cheat-as-part-of-a-crackdown-on-cheat-mods",
+       "outlet": "IGN",
+       "title": "Cyberpunk 2077 Gets Surprise Official New Update Announcement From CD Projekt",
+       "url": "https://www.ign.com/articles/cyberpunk-2077-gets-surprise-official-new-update-announcement-from-cd-projekt",
        "official": false
       },
       {
-       "outlet": "Steam News",
-       "title": "Helldivers 2 switches over from GameGuard to Easy Anti-Cheat",
-       "url": "https://store.steampowered.com/news/group/4218320/view/669505296465398062",
+       "outlet": "Insider Gaming",
+       "title": "Cyberpunk 2077 Update 2.5 Announced by CD Projekt RED",
+       "url": "https://insider-gaming.com/cyberpunk-2077-update-2-5/",
        "official": false
       },
       {
-       "outlet": "Steam News",
-       "title": "Helldivers 2 is getting new anti-cheat, targeting \"modifications that create unfair advantages\"",
-       "url": "https://store.steampowered.com/news/group/38509069/view/692023294602250729",
+       "outlet": "Kotaku",
+       "title": "Six Years Later, Cyberpunk 2077 Is Still Getting Updates",
+       "url": "https://kotaku.com/cyberpunk-2077-edgerunners-season-2-patch-update-netflix-2000747931",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "c48dc443e421",
-     "title": "Japan Actors Union Issues Guidelines Against Unauthorized AI Voice Replication",
-     "summary": "The Japan Actors Union has released official industry guidelines aimed at curbing the unauthorized use of generative AI to replicate human voice performances.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-20T10:42:26Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "Japan Actors Union announces guidelines addressing unauthorised use of generative AI to replicate voice performances",
-       "url": "https://www.gamesindustry.biz/japan-actors-union-announces-guidelines-addressing-unauthorised-use-of-generative-ai-for-voice-acting",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e418cf0fff7d",
-     "title": "Subnautica 2 Heading to Early Access 2.0 with Terrifying New Biome",
-     "summary": "Developer Unknown Worlds has announced that Subnautica 2 is heading toward an Early Access 2.0 launch, introducing one of the darkest and scariest underwater regions in the franchise's history.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-20T10:32:58Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
        "outlet": "PC Gamer",
-       "title": "Subnautica 2 is heading for 'Early access 2.0,' which brings 'one of our scariest regions we've ever done'",
-       "url": "https://www.pcgamer.com/games/survival-crafting/subnautica-2-is-heading-for-early-access-2-0-which-brings-one-of-our-scariest-regions-weve-ever-done/",
+       "title": "Of course a new Edgerunners series means a new Cyberpunk 2077 patch",
+       "url": "https://www.pcgamer.com/games/rpg/of-course-a-new-edgerunners-series-means-a-new-cyberpunk-2077-patch/",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Cyberpunk 2077 PS5 Patch 2.5 Leaks, Get the Big Details and Updates Here",
+       "url": "https://www.pushsquare.com/news/2026/10/cyberpunk-2077-ps5-patch-2-5-leaks-get-the-big-details-and-updates-here",
        "official": false
       }
      ]
     },
     {
-     "id": "64514835381f",
-     "title": "DICE and Bungie Reportedly Interested in Developing Star Wars Battlefront 3",
-     "summary": "Both DICE and Bungie are reportedly preparing separate pitches to Disney in hopes of securing the greenlight to develop Star Wars Battlefront 3.",
+     "id": "b97107996adc",
+     "title": "Final Fantasy Resonance Launches to High Praise for SNES Era Style",
+     "summary": "Square Enix's Final Fantasy Resonance is arriving later this week on October 22, pulling in highly positive reviews for its cinematic HD-2D visuals and classic turn-based throwback gameplay.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-20T08:58:02Z",
-     "outlet_count": 1,
+     "published": "2026-10-20T15:00:00Z",
+     "outlet_count": 7,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "DICE and Bungie are reportedly both interested in developing Star Wars Battlefront 3",
-       "url": "https://www.videogameschronicle.com/news/dice-and-bungie-are-reportedly-both-interested-in-developing-star-wars-battlefront-3/",
+       "outlet": "PlayStation Blog",
+       "title": "How Final Fantasy Resonance uses Visions to change how we see the series",
+       "url": "https://blog.playstation.com/2026/10/20/how-final-fantasy-resonance-uses-visions-to-change-how-we-see-the-series/",
+       "official": true
+      },
+      {
+       "outlet": "IGN",
+       "title": "Final Fantasy Resonance Review",
+       "url": "https://www.ign.com/articles/final-fantasy-resonance-review",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Final Fantasy dips back into the SNES golden era with Resonance",
+       "url": "https://www.theverge.com/games/1013958/final-fantasy-resonance-review",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Final Fantasy Resonance Feels Like Comfort Food, But I Want Cuisine",
+       "url": "https://kotaku.com/final-fantasy-resonance-brave-exvius-review-rpg-square-enix-2000747599",
+       "official": false
+      },
+      {
+       "outlet": "Jason Schreier",
+       "title": "Pleased to report that the new game Final Fantasy Resonance is *tremendous*, a must-play for anyone who loves the SNES Final Fantasy games and hopefully the beginning of a new Square strategy to…",
+       "url": "https://bsky.app/profile/jasonschreier.bsky.social/post/3mycoy5uhqs2t",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Final Fantasy Resonance Is Launching On Xbox To Extremely Impressive Reviews",
+       "url": "https://www.purexbox.com/news/2026/10/final-fantasy-resonance-is-launching-on-xbox-to-extremely-impressive-reviews",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Round Up: The Reviews Are In For Final Fantasy Resonance",
+       "url": "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-are-in-for-final-fantasy-resonance",
        "official": false
       }
      ]
     },
     {
-     "id": "1c4993ed9f00",
-     "title": "Umusume: Pretty Derby LA Concert Cancelled Due to Unresolved US Visa Delays",
-     "summary": "The developers of Umamusume: Pretty Derby were forced to cancel their upcoming Los Angeles concert at the last minute after failing to secure the necessary US visas despite exhausting all options.",
+     "id": "97c17be8ed4a",
+     "title": "Helldivers 2 Drops Gameguard for Easy Anti-Cheat After Effectiveness Concerns",
+     "summary": "Arrowhead Game Studios has acknowledged that Gameguard failed to meet expectations, prompting a switch to Easy anti-cheat for Helldivers 2.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-20T09:00:11Z",
+     "published": "2026-10-20T13:13:19Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Eurogamer",
-       "title": "Umamusume: Pretty Derby Los Angeles concert cancelled last minute due to US visa issues, despite exploring \"every possible option\"",
-       "url": "https://www.eurogamer.net/umamusume-pretty-derby-la-concert-cancelled-visa-issues",
+       "title": "Helldivers 2 swaps over to Easy anti-cheat, with developers admitting Gameguard \"wasn't as effective as it could have been\"",
+       "url": "https://www.eurogamer.net/helldivers-2-easy-anti-cheat-switch-game-guard",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aa3d5d26a19b",
+     "title": "Pocketpair Details Next Major Palworld Update 'Side by Side' for Winter",
+     "summary": "Developer Pocketpair has announced that the next major content update for Palworld, titled 'Side by Side', will release this winter.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-20T13:23:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Palworld update ‘Side by Side’ launches this winter",
+       "url": "https://www.gematsu.com/2026/10/palworld-update-side-by-side-launches-this-winter",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9c80f7222141",
+     "title": "Sony Removing GTA 5 and Nine Other Games From PS Plus in November",
+     "summary": "PlayStation Plus is losing 10 titles in its November catalog refresh, notably including Rockstar Games' Grand Theft Auto V.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-20T14:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "GTA 5 Among 10 Games Leaving PlayStation Plus in November",
+       "url": "https://insider-gaming.com/gta-5-among-10-games-leaving-playstation-plus-in-november/",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "11 PS Plus Extra Game Removals for November 2026 Confirmed",
+       "url": "https://www.pushsquare.com/news/2026/10/11-ps-plus-extra-game-removals-for-november-2026-confirmed",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5481646b899d",
+     "title": "Ys VIII: Lacrimosa of DANA Coming to Nintendo Switch 2 in Early 2027",
+     "summary": "NIS America and Falcom have announced an enhanced Nintendo Switch 2 version of action RPG Ys VIII: Lacrimosa of DANA, featuring 120 FPS support and GameShare co-op.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-20T13:14:26Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Ys VIII: Lacrimosa of DANA - Announcement Trailer (Nintendo Switch 2) - out Feb 25, 2027 www.youtube.com/watch?v=-Ii8... -120 FPS -Co-op via GameShare",
+       "url": "https://www.youtube.com/watch?v=-Ii8LYe00Fg",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Ys VIII: Lacrimosa of DANA coming to Switch 2 on February 25, 2027",
+       "url": "https://www.gematsu.com/2026/10/ys-viii-lacrimosa-of-dana-coming-to-switch-2-on-february-25-2027",
        "official": false
       }
      ]
@@ -561,260 +573,91 @@
   },
   {
    "name": "US",
-   "stories": [
-    {
-     "id": "4bee44c6cb15",
-     "title": "Trump Open to Trilateral Denuclearization Summit with Putin and Xi",
-     "summary": "President Trump stated that he is open to participating in a trilateral summit next month with Russian President Vladimir Putin and Chinese President Xi Jinping.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "US",
-     "published": "2026-10-20T10:00:05Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "Axios",
-       "title": "Trump open to summit with Xi and Putin",
-       "url": "https://www.axios.com/2026/10/19/trump-summit-xi-putin-denuclearization-ukraine",
-       "official": false
-      },
-      {
-       "outlet": "Politico Europe",
-       "title": "Trump says he is open to trilateral summit with Putin and Xi",
-       "url": "https://www.politico.eu/article/trump-says-he-is-open-to-trilateral-summit-with-putin-and-xi/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-       "official": false
-      },
-      {
-       "outlet": "Yahoo News",
-       "title": "Trump says he's open to idea of joint meeting with Xi and Putin next month",
-       "url": "https://www.yahoo.com/news/politics/articles/trump-says-open-joining-trilateral-194029621.html",
-       "official": false
-      },
-      {
-       "outlet": "Time",
-       "title": "Trump Open to ‘Denuclearization’ Summit with Putin and Xi",
-       "url": "https://time.com/article/2026/10/20/trump-summit-putin-xi-russia-china-ukraine-nuclear-weapons/",
-       "official": false
-      }
-     ]
-    }
-   ]
+   "stories": []
   },
   {
    "name": "World",
    "stories": [
     {
-     "id": "2d5fc024ffb4",
-     "title": "Alberta Voters Reject Independence Referendum in Win for Remaining in Canada",
-     "summary": "More than 76% of voters in Alberta rejected a proposed referendum to begin the process of separating from Canada, choosing instead to remain within the federation.",
+     "id": "f38aa69e0165",
+     "title": "EU Unveils New Arctic Strategy to Counter Russian and Chinese Influence",
+     "summary": "The European Union has introduced a security-focused Arctic strategy pledging increased satellite surveillance and protection of undersea communications cables in the region.",
      "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-20T10:55:21Z",
-     "outlet_count": 13,
+     "published": "2026-10-20T15:01:10Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "CBS News",
-       "title": "Voters reject separation of Alberta from Canada in referendum",
-       "url": "https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/",
+       "outlet": "South China Morning Post",
+       "title": "EU unveils Arctic strategy to counter increasing Russia, China influence",
+       "url": "https://www.scmp.com/news/world/europe/article/3371549/eu-unveils-arctic-strategy-counter-increasing-russia-china-influence",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Canada: Alberta rejects separation bid, CBC projects",
-       "url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Alberta voters reject separation from Canada, early results show",
-       "url": "https://www.aljazeera.com/news/2026/10/20/alberta-voters-reject-separation-from-canada-early-results-show?traffic_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Alberta separatists lose vote on leaving Canada",
-       "url": "https://www.rte.ie/news/world/2026/1020/1596059-alberta-canada-referendum/",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "Voters in Oil-Rich Alberta Reject Leaving Canada",
-       "url": "https://www.nytimes.com/2026/10/19/world/canada/alberta-secession-canada-referendum.html",
-       "official": false
-      },
-      {
-       "outlet": "MercoPress (South Atlantic)",
-       "title": "Alberta overwhelmingly rejects starting the path to an independence referendum from Canada",
-       "url": "https://en.mercopress.com/2026/10/20/alberta-overwhelmingly-rejects-starting-the-path-to-an-independence-referendum-from-canada?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "Alberta voters reject separation from Canada in referendum",
-       "url": "https://www.thehindu.com/news/international/alberta-referendum-voters-reject-separatism/article71603617.ece",
-       "official": false
-      },
-      {
-       "outlet": "Yahoo News",
-       "title": "Alberta voters reject independence from Canada in decisive vote",
-       "url": "https://www.yahoo.com/news/politics/articles/oil-rich-alberta-votes-canada-014307600.html",
-       "official": false
-      },
-      {
-       "outlet": "RFI (France)",
-       "title": "Alberta rejects plan for referendum on independence from Canada",
-       "url": "https://www.rfi.fr/en/international/20261020-alberta-rejects-plan-for-referendum-on-independence-from-canada",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Alberta voters reject plan for referendum to leave Canada",
-       "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Albertans reject referendum on independence from Canada",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/10-20-alberta-referendum-vote-sv?traffic_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "Alberta rejects independence referendum plan, but separatists vow to keep fighting",
-       "url": "https://www.euronews.com/video/2026/10/20/alberta-rejects-independence-referendum-plan-but-separatists-vow-to-keep-fighting",
-       "official": false
-      },
-      {
-       "outlet": "Times of India: World",
-       "title": "'They chose Canada': Alberta rejects separation bid in win for Carney",
-       "url": "https://timesofindia.indiatimes.com/world/rest-of-world/they-chose-canada-alberta-rejects-separation-bid-in-win-for-carney/articleshow/135067820.cms",
-       "official": false
-      },
-      {
-       "outlet": "Straight Arrow News",
-       "title": "Alberta voters reject proposal that could lead to separation from Canada",
-       "url": "https://san.com/cc/alberta-voters-reject-proposal-that-could-lead-to-separation-from-canada/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "91382fbfa8db",
-     "title": "France Imposes Curfews Following Severe Rioting and Civil Unrest",
-     "summary": "Prime Minister Sébastien Lecornu announced that France will enforce localized curfews to stem ongoing rioting and looting tied to high-end cost-of-living protests.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-20T10:39:54Z",
-     "outlet_count": 7,
-     "sources": [
-      {
-       "outlet": "PBS NewsHour",
-       "title": "French authorities impose curfews after weekend rioting",
-       "url": "https://www.pbs.org/newshour/show/french-authorities-impose-curfews-after-weekend-rioting",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "France to impose new curfews where necessary, says PM",
-       "url": "https://www.rte.ie/news/world/2026/1020/1596065-france-protests/",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "France to impose new curfews where necessary: PM",
-       "url": "https://www.channelnewsasia.com/world/france-impose-new-protest-curfews-curb-rioting-6474841",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "France to impose new curfews where necessary: PM Sebastien Lecornu",
-       "url": "https://www.thehindu.com/news/international/france-to-impose-new-curfews-where-necessary-pm-sebastien-lecornu/article71603703.ece",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "French authorities impose partial curfews in Paris, Nice",
-       "url": "https://www.dw.com/en/french-authorities-impose-partial-curfews-in-paris-nice/live-79707186?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "France to Extend Curfews After a Night of Calm, Prime Minister Says",
-       "url": "https://www.nytimes.com/2026/10/20/world/europe/france-curfews-riots-protests-extended.html",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "French cities ‘calm overnight’ after targeted curfews, prime minister says",
-       "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ce0fe1d15b01",
-     "title": "Google Cloud Outage Causes Major Service Disruptions in London and Financial Apps",
-     "summary": "A significant Google Cloud infrastructure outage in London disrupted local cloud operations and impacted financial platforms like Revolut, leaving various services temporarily unavailable.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-20T10:10:50Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Revolut services affected due to Google Cloud outage",
-       "url": "https://www.rte.ie/news/business/2026/1020/1596063-some-revolut-services-down/",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Google Cloud services face outage in London, Revolut services down too",
-       "url": "https://www.channelnewsasia.com/business/google-cloud-service-outage-london-revolut-6475076",
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "EU puts security at center of new Arctic strategy",
+       "url": "https://cphpost.dk/2026-10-20/news/round-up/eu-puts-security-at-center-of-new-arctic-strategy/",
        "official": false
       },
       {
        "outlet": "The Straits Times: World",
-       "title": "Google Cloud services face outage in London; some Revolut services in S’pore affected",
-       "url": "https://www.straitstimes.com/world/europe/google-cloud-services-face-outage-in-london-revolut-services-down-too",
+       "title": "EU unveils strategy to boost Arctic security in face of US, Russia threats",
+       "url": "https://www.straitstimes.com/world/europe/eu-unveils-strategy-to-boost-arctic-security-in-face-of-us-russia-threats",
        "official": false
       },
       {
-       "outlet": "Insider Gaming",
-       "title": "Major Google Cloud Outage Hits Europe and Could Impact Gaming",
-       "url": "https://insider-gaming.com/major-google-cloud-outage-hits-europe-impact-gaming/",
+       "outlet": "The Straits Times: World",
+       "title": "EU unveils new Arctic strategy with focus on security",
+       "url": "https://www.straitstimes.com/world/europe/eu-unveils-new-arctic-strategy-with-focus-on-security",
        "official": false
       }
      ]
     },
     {
-     "id": "6dcaad184fe2",
-     "title": "Former OpenAI Engineer Accused of Planting Office Bug With Alleged Saudi Ties",
-     "summary": "Prosecutors and FBI filings claim a former OpenAI engineer accused of planting an office bug possessed documents pointing to Saudi government ties, raising flight risk concerns.",
-     "importance": 4,
+     "id": "aedda847a388",
+     "title": "Prince Harry Expresses Desire to Reconcile With Family",
+     "summary": "Prince Harry stated in a London interview that he hopes to mend relations with King Charles and his family after moving to the United States six years ago.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-20T09:40:15Z",
-     "outlet_count": 3,
+     "published": "2026-10-20T14:56:15Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Ars Technica",
-       "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-       "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+       "outlet": "BBC News: UK",
+       "title": "Harry says he wants to 'reconcile' with his family",
+       "url": "https://www.bbc.co.uk/news/articles/cry4xj79zxd1o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Prince Harry says he wants to reconcile with family",
+       "url": "https://www.straitstimes.com/world/europe/prince-harry-says-he-wants-to-reconcile-with-family",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b9f03f43438c",
+     "title": "French Police Arrest Suspect Following Limoges City Hall Fire",
+     "summary": "Authorities in France have arrested a suspect after a dramatic weekend blaze gutted the clock tower spire of the historic Limoges city hall.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-20T15:31:51Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Sky News: World",
+       "title": "Suspect arrested in France after fire at historic city hall",
+       "url": "https://news.sky.com/story/suspect-arrested-in-france-after-fire-at-limoges-city-hall-13601372",
        "official": false
       },
       {
        "outlet": "BBC News: World",
-       "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-       "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "Times of India: World",
-       "title": "Ex-OpenAI engineer, accused of planting office bug, had ties with Saudi royal family",
-       "url": "https://timesofindia.indiatimes.com/world/us/former-openai-engineer-accused-of-planting-office-bug-had-ties-with-saudi-royal-family-us-prosecutors/articleshow/135066681.cms",
+       "title": "Suspect arrested after historic town hall set alight",
+       "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
@@ -825,109 +668,157 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "c6ad558b8c3c",
-     "title": "Zelenskyy Meets US Envoy Witkoff in Oslo Amid Tensions Over Missile Deliveries",
-     "summary": "Ukrainian President Volodymyr Zelenskyy met with U.S. Special Envoy Steve Witkoff in Oslo for high-level talks, following criticism from Kyiv that Washington has intentionally delayed pre-paid Patriot missile shipments.",
+     "id": "a2a8e3ccc3cf",
+     "title": "UK to Deploy Typhoon Fighter Jets to Protect Saudi Arabia From Houthi Attacks",
+     "summary": "The United Kingdom is deploying Typhoon fighter jets to defend Saudi Arabia following a deadly Houthi drone strike on a Yemeni government training camp.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-20T10:50:05Z",
-     "outlet_count": 7,
+     "published": "2026-10-20T15:20:11Z",
+     "outlet_count": 8,
      "sources": [
       {
-       "outlet": "France 24: Europe",
-       "title": "Zelensky accuses US of delaying missile deliveries as tensions rise",
-       "url": "https://www.france24.com/en/europe/20261020-zelensky-accuses-us-of-delaying-missile-deliveries-as-tensions-rise",
+       "outlet": "CNA: World (Singapore)",
+       "title": "UK to deploy fighter jets to help protect Saudi from Houthi attacks",
+       "url": "https://www.channelnewsasia.com/world/uk-deploy-fighter-jets-protect-saudi-houthi-attacks-6475431",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Zelenskyy accuses US of delaying Patriot missile shipment",
-       "url": "https://www.dw.com/en/zelenskyy-accuses-us-of-delaying-patriot-missile-shipment/a-79707951?maca=en-rss-en-all-1573-rdf",
+       "outlet": "The Guardian: World",
+       "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
+       "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
        "official": false
       },
       {
-       "outlet": "Meduza (Russia)",
-       "title": "Zelensky accuses US of deliberately delaying Patriot missile deliveries",
-       "url": "https://meduza.io/en/news/2026/10/20/zelensky-accuses-us-of-deliberately-delaying-patriot-missile-deliveries",
+       "outlet": "Politico Europe",
+       "title": "UK to deploy fighter jets to help Saudis against Houthi attacks",
+       "url": "https://www.politico.eu/article/uk-to-deploy-fighter-jets-to-help-saudis-against-houthi-attacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
        "official": false
       },
       {
-       "outlet": "Le Monde (France)",
-       "title": "LIVE, war in Ukraine: US envoy Steve Witkoff arrives in Oslo to meet Volodymyr Zelensky",
-       "url": "https://www.lemonde.fr/international/live/2026/10/20/en-direct-guerre-en-ukraine-volodymyr-zelensky-dit-avoir-eu-un-echange-substantiel-avec-marco-rubio-sur-le-retablissement-du-systeme-starlink-et-les-intercepteurs-de-missiles_6796922_3210.html",
+       "outlet": "New York Times: World",
+       "title": "UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks",
+       "url": "https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html",
+       "official": false
+      },
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "73 new recruits of Yemen's provisional government killed, UK to send fighter jets to Saudi Arabia",
+       "url": "https://mainichi.jp/articles/20261020/k00/00m/030/336000c",
        "official": false,
-       "translated_from": "fr",
-       "original_title": "EN DIRECT, guerre en Ukraine : l’émissaire américain Steve Witkoff est arrivé à Oslo pour rencontrer Volodymyr Zelensky"
+       "translated_from": "ja",
+       "original_title": "イエメン暫定政権の新兵73人死亡 英国は戦闘機をサウジ派遣へ"
       },
       {
-       "outlet": "SRF News (Switzerland)",
-       "title": "War in Ukraine – Zelensky and US Special Envoy Witkoff hold talks in Oslo",
-       "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-selenski-und-us-sondergesandter-witkoff-zu-gespraechen-in-oslo",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Krieg in der Ukraine – Selenski und US-Sondergesandter Witkoff zu Gesprächen in Oslo"
-      },
-      {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Witkoff arrives in Oslo for meeting with Zelenskyy",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/20/8058892/",
+       "outlet": "BBC News: UK",
+       "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
+       "url": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Tagesschau (Germany)",
-       "title": "Zelenskyy meets with US Envoy Witkoff for talks in Oslo",
-       "url": "https://www.tagesschau.de/ausland/europa/ukraine-treffen-witkoff-100.html",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Selenskyj trifft sich mit US-Gesandtem Witkoff zu Gesprächen in Oslo"
+       "outlet": "Washington Examiner",
+       "title": "UK deploying fighter jets to defend Saudi Arabia from Houthi attacks",
+       "url": "https://www.washingtonexaminer.com/news/world/4771938/uk-fighter-jets-saudi-arabia-houthi-attacks/",
+       "official": false
+      },
+      {
+       "outlet": "New York Post",
+       "title": "UK will deploy Typhoon fighter jets to defend Saudi Arabia from Houthi attacks",
+       "url": "https://nypost.com/2026/10/20/world-news/uk-will-deploy-typhoon-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks/",
+       "official": false
       }
      ]
     },
     {
-     "id": "eab62cbcd353",
-     "title": "UK Chancellor Rejects Calls to Equalize Capital Gains Tax in Upcoming Budget",
-     "summary": "British Chancellor Rachel Reeves has rejected internal party pushes to raise Capital Gains Tax to match income tax levels, citing risks of driving wealthy individuals out of the country.",
+     "id": "fa1722986685",
+     "title": "Zelensky Meets U.S. Envoys in Norway Amid Diplomatic Strains",
+     "summary": "Ukrainian President Volodymyr Zelensky traveled to Oslo to meet U.S. representatives in an effort to stabilize diplomatic ties following reported holdups in air defense and intelligence.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-20T14:11:29Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Axios",
+       "title": "Trump isn't out to hurt Ukraine, Rubio tells Zelensky",
+       "url": "https://www.axios.com/2026/10/20/rubio-zelensky-trump-directive-harm-ukraine-putin",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
+       "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Rubio insists the US isn’t trying to hurt Ukraine",
+       "url": "https://www.politico.eu/article/marco-rubio-denies-us-withholding-ukraine-missile-warnings-air-defense/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "France 24: Europe",
+       "title": "Zelensky in Oslo for talks with US envoys as Ukraine claims missile holdup",
+       "url": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b71eedc73314",
+     "title": "Ukrainian Forces Complete First-Ever Frontline Drone Medical Evacuation",
+     "summary": "The Ukrainian military released footage celebrating the first successful aerial drone evacuation of a wounded soldier directly from the front line.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-20T10:06:34Z",
+     "published": "2026-10-20T14:49:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "BBC News: World",
+       "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
+       "url": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "Aerial Drone Used to Evacuate Wounded Soldier in Ukraine for the First Time, According to Kyiv",
+       "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-un-combattant-blesse-evacue-du-champ-de-bataille-par-un-drone-aerien-une-premiere_8245759.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Un drone aérien utilisé pour évacuer un soldat blessé en Ukraine, une première selon Kiev"
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Ukraine War: Drone Evacuates Wounded Soldier from Frontline for First Time",
+       "url": "https://www.spiegel.de/ausland/ukraine-krieg-drohne-rettet-erstmals-verletzten-soldaten-von-der-front-a-49ed8d13-0bf5-4188-8052-d60d11feee5b#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Ukraine-Krieg: Drohne rettet erstmals verletzten Soldaten von der Front"
+      }
+     ]
+    },
+    {
+     "id": "cebc4e6882f5",
+     "title": "Paddy Power Cuts 1,400 Jobs Following Government Betting Tax Increases",
+     "summary": "Flutter Entertainment's Paddy Power plans to shed up to 1,400 roles, directly blaming tax hikes implemented on online sports betting and casino operations in the recent budget.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-20T14:53:02Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "The Guardian: UK",
-       "title": "Healey to reject calls to raise capital gains tax in budget",
-       "url": "https://www.theguardian.com/uk-news/2026/oct/20/john-healey-no-capital-gains-tax-rise-budget",
+       "title": "Paddy Power owner blames tax rises for plan to shed up to 1,400 jobs",
+       "url": "https://www.theguardian.com/society/2026/oct/20/paddy-power-owner-flutter-tax-rises-jobs-cuts-gambling",
        "official": false
       },
       {
        "outlet": "BBC News: UK",
-       "title": "Chancellor rejects calls to raise Capital Gains Tax in Budget",
-       "url": "https://www.bbc.co.uk/news/articles/c50me4w4x1vyo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "203354c045e1",
-     "title": "Ireland Issues Weather Warnings as First Named Storm of the Season Approaches",
-     "summary": "Meteorological authorities in Ireland have issued a Status Yellow rain warning ahead of Storm Austen hitting the country later this week.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-20T10:19:37Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Storm Austen: Rain warning for Ireland on Thursday for first named storm of the season",
-       "url": "https://www.thejournal.ie/storm-austen-rain-7198982-Oct2026/",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Rain warnings issued as Storm Austen to hit Ireland",
-       "url": "https://www.rte.ie/news/ireland/2026/1020/1596103-storm-austen/",
+       "title": "Paddy Power cuts 1,400 jobs and blames betting tax rises",
+       "url": "https://www.bbc.co.uk/news/articles/cqzrdpkm3g84o?at_medium=RSS&at_campaign=rss",
        "official": false
       }
      ]
@@ -938,70 +829,58 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "4c618b453612",
-     "title": "Japan Demands Immediate Release of Journalist Detained in Russia on Espionage Suspicions",
-     "summary": "Japan's Foreign Ministry strongly protested Moscow's detention of a Hokkaido Shimbun reporter arrested on Sakhalin Island on suspicion of espionage.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-20T11:00:38Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Japan slams lack of access to journalist detained in Russia",
-       "url": "https://www.channelnewsasia.com/world/japan-slams-russia-journalist-detained-6474546",
-       "official": false
-      },
-      {
-       "outlet": "The Japan Times",
-       "title": "Japan slams lack of access to journalist detained in Russia",
-       "url": "https://www.japantimes.co.jp/news/2026/10/20/japan/politics/russia-japanese-journalist-arrest-lack-of-access/",
-       "official": false
-      },
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Foreign Minister Motegi demands Russia immediately release detained Hokkaido Shimbun reporter",
-       "url": "https://mainichi.jp/articles/20261020/k00/00m/010/297000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "茂木外相、ロシアに「即時解放」要求 拘束の北海道新聞記者巡り"
-      }
-     ]
-    },
-    {
-     "id": "30ef7b751778",
-     "title": "Polaris to Launch One of Japan's Largest Private Credit Funds at $630 Million",
-     "summary": "Japanese investment firm Polaris is preparing to roll out a major private credit fund valued at approximately $630 million to expand financing options in the domestic market.",
+     "id": "8dbaf16490b2",
+     "title": "Toyota to Build Hydrogen-Powered Hilux Pickup Trucks in Thailand",
+     "summary": "Toyota Motor has announced plans to manufacture hydrogen fuel-cell variants of its popular Hilux pickup truck at its production facilities in Thailand.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-20T11:01:08Z",
+     "published": "2026-10-20T15:35:49Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Polaris to launch $630m private credit fund, one of Japan's largest",
-       "url": "https://asia.nikkei.com/business/finance/polaris-to-launch-630m-private-credit-fund-one-of-japan-s-largest",
+       "title": "Toyota to build hydrogen-powered Hilux pickup in Thailand",
+       "url": "https://asia.nikkei.com/business/automobiles/toyota-to-build-hydrogen-powered-hilux-pickup-in-thailand",
        "official": false
       }
      ]
     },
     {
-     "id": "7bd675ced1fc",
-     "title": "Panasonic Speeds Up Development of Power-Generating Window Glass",
-     "summary": "Panasonic is accelerating commercialization efforts for customizable transparent glass panels that can transform building windows and exterior walls into functional solar energy generators.",
+     "id": "32c770496f1a",
+     "title": "Japan Explores Private-Sector H3 Rocket Launches to Challenge SpaceX",
+     "summary": "Japanese authorities are looking into commercializing and handing over H3 rocket operations to private aerospace companies to better compete with global players like SpaceX.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-20T10:27:00Z",
+     "published": "2026-10-20T15:35:49Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Panasonic speeds up efforts to turn windows into solar panels",
-       "url": "https://www.japantimes.co.jp/business/2026/10/20/tech/panasonic-window-solar-panels/",
+       "outlet": "Nikkei Asia",
+       "title": "Japan eyes private-sector H3 launches to compete with SpaceX",
+       "url": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-eyes-private-sector-h3-launches-to-compete-with-spacex",
        "official": false
+      }
+     ]
+    },
+    {
+     "id": "40a7b48ecf4a",
+     "title": "Nidec Investigation Finds Former Executives Liable for ¥27.6B Loss",
+     "summary": "An independent investigation committee has held former Nidec executives legally accountable for damages totaling 27.6 billion yen.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-20T12:51:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Nidec former executives held liable for damages, 27.6 billion yen loss found by investigation committee",
+       "url": "http://www.asahi.com/articles/ASVBN42RTVBNPLFA004M.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "ニデック旧役員9人に賠償責任、損害276億円 不正会計で調査委"
       }
      ]
     }
@@ -1011,145 +890,103 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "5926e6df6d82",
-     "title": "South Korea to Withdraw Embassy Staff from Kyiv Following Prisoner Disclosure Dispute",
-     "summary": "Seoul announced it is withdrawing half of its embassy staff from Ukraine following a diplomatic falling out triggered by President Zelenskyy publicly disclosing a North Korean prisoner transfer.",
+     "id": "b5f1b6d5a3b8",
+     "title": "South Korea Withdraws Embassy Staff From Ukraine Amid POW Dispute",
+     "summary": "Seoul is pulling a portion of its diplomatic personnel out of Ukraine to address an ongoing dispute over North Korean prisoners of war and restore bilateral trust.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-20T09:26:02Z",
-     "outlet_count": 5,
+     "published": "2026-10-20T11:30:16Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "CNA: World (Singapore)",
-       "title": "South Korea to withdraw some Ukraine embassy staff after POW row",
-       "url": "https://www.channelnewsasia.com/east-asia/south-korea-withdraw-ukraine-embassy-staff-6474651",
+       "outlet": "KBS World",
+       "title": "S. Korea to Withdraw Some Embassy Staff from Ukraine",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204990",
        "official": false
       },
       {
        "outlet": "Yonhap News",
-       "title": "(2nd LD) S. Korea to withdraw some embassy staff from Ukraine amid N.K. POW dispute",
-       "url": "https://en.yna.co.kr/view/AEN20261020006752315",
+       "title": "(3rd LD) S. Korea to withdraw some embassy staff from Ukraine amid N.K. POW dispute",
+       "url": "https://en.yna.co.kr/view/AEN20261020006753315",
        "official": false
       },
       {
-       "outlet": "The Korea Herald",
-       "title": "Seoul to withdraw half of embassy staff from Ukraine as POW disclosure dispute deepens",
-       "url": "https://www.koreaherald.com/article/10909026",
-       "official": false
-      },
-      {
-       "outlet": "The Japan Times",
-       "title": "Seoul to pull embassy staff from Kyiv over North Korea prisoner disclosure",
-       "url": "https://www.japantimes.co.jp/news/2026/10/20/asia-pacific/politics/south-korea-embassy-staff-ukraine/",
-       "official": false
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "South Korea to pull more embassy staff from Ukraine after POW row",
-       "url": "https://www.aljazeera.com/news/2026/10/20/south-korea-to-pull-more-embassy-staff-from-ukraine-after-pow-row?traffic_source=rss",
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "South Korea to withdraw some diplomatic staff from Ukraine amid POW dispute",
+       "url": "https://kyivindependent.com/south-korea-to-withdraw-some-diplomatic-staff-from-ukraine-amid-pow-dispute/",
        "official": false
       }
      ]
     },
     {
-     "id": "c51a6e3debed",
-     "title": "North Korea Vows Tit-for-Tat Action Against U.S.-South Korea Military Exercises",
-     "summary": "Pyongyang denounced ongoing joint military drills between South Korea, the U.S., and Japan, threatening strict retaliatory measures and potential border escalation.",
-     "importance": 4,
+     "id": "82ac27223ec1",
+     "title": "Tigers Sweep Twins to Win KBO Postseason Championship",
+     "summary": "The Tigers routed the Twins to clinch a sweep of the KBO postseason series, with superstar Kim Do-yeong taking home the postseason MVP award.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-20T10:57:03Z",
-     "outlet_count": 5,
+     "published": "2026-10-20T14:16:11Z",
+     "outlet_count": 1,
      "sources": [
       {
        "outlet": "Yonhap News",
-       "title": "N. Korea vows 'tit-for-tat' action against S. Korea-U.S. military exercise",
-       "url": "https://en.yna.co.kr/view/AEN20261020009600315",
+       "title": "Tigers rout Twins to complete KBO postseason series sweep",
+       "url": "https://en.yna.co.kr/view/AEN20261020010100315",
        "official": false
       },
       {
-       "outlet": "NK News (North Korea)",
-       "title": "Seoul vows to ‘punish’ North Korean ‘provocations’ after loudspeaker threat",
-       "url": "https://www.nknews.org/2026/10/seoul-vows-to-punish-north-korean-provocations-after-loudspeaker-threat/",
+       "outlet": "Yonhap News",
+       "title": "With massive homer in clinching game, Tigers superstar Kim Do-yeong voted KBO postseason series MVP",
+       "url": "https://en.yna.co.kr/view/AEN20261020010200315",
        "official": false
       },
+      {
+       "outlet": "Yonhap News",
+       "title": "Japanese right-hander pitches Tigers to KBO postseason series win",
+       "url": "https://en.yna.co.kr/view/AEN20261020010300315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Tigers rout Twins to complete KBO postseason series sweep",
+       "url": "https://en.yna.co.kr/view/AEN20261020010151315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Tigers manager pleased with complete effort in KBO postseason win",
+       "url": "https://en.yna.co.kr/view/AEN20261020010600315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) With massive homer in clinching game, Tigers superstar Kim Do-yeong voted KBO postseason series MVP",
+       "url": "https://en.yna.co.kr/view/AEN20261020010251315",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "db00254c9a39",
+     "title": "Nineteen Injured in Simultaneous Fires at Two Seoul Buildings",
+     "summary": "A total of 19 people sustained injuries when two separate structural fires broke out almost simultaneously in the Yeoksam-dong area of Gangnam, Seoul.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-20T06:04:29Z",
+     "outlet_count": 2,
+     "sources": [
       {
        "outlet": "The Korea Herald",
-       "title": "N. Korea vows 'tit-for-tat' action against S. Korea-US military exercise",
-       "url": "https://www.koreaherald.com/article/10909081",
+       "title": "2 buildings catch fire in Gangnam; 19 injured",
+       "url": "https://www.koreaherald.com/article/10908665",
        "official": false
       },
       {
        "outlet": "KBS World",
-       "title": "Defense Ministry Vows Stern Response if N. Korea Acts on Threats along Border",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205001",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "S. Korea warns of 'decisive retaliation' as N. Korea threatens to deploy strike assets to border",
-       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261020/s-korea-warns-of-decisive-retaliation-as-n-korea-threatens-to-deploy-strike-assets-to-border-1?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c775e31c41e3",
-     "title": "Supreme Court Upholds Four-Year Sentence for Aricell CEO Over Deadly Battery Plant Fire",
-     "summary": "South Korea's Supreme Court finalized a four-year prison sentence for Aricell CEO Park Soon-kwan over a catastrophic lithium battery plant fire that claimed 23 lives.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-20T10:57:03Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Korea Times",
-       "title": "Battery CEO's 4-year sentence upheld over fire that killed 23, mostly foreigners",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261020/battery-ceos-4-year-sentence-upheld-over-fire-that-killed-23-mostly-foreigners?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "dabe7d511a65",
-     "title": "Seoul Court Orders Mitsubishi Materials to Compensate Wartime Forced Labor Victims",
-     "summary": "A Seoul appellate court ruled once again in favor of Korean victims of wartime forced labor, ordering Japanese firm Mitsubishi Materials to provide financial compensation.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-20T10:57:03Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Korea Times",
-       "title": "Seoul court again orders Japanese firm to pay forced labor victims",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261020/seoul-court-again-orders-japanese-firm-to-pay-forced-labor-victims?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d0572a17641d",
-     "title": "South Korean Police to Transfer Major Bank Hacking Cases to Serious Crimes Agency",
-     "summary": "Police authorities announced plans to hand over a series of recent financial institution and bank hacking probes to the newly established Serious Crimes Investigation Agency.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-20T10:28:52Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "Police to report hacking cases at financial institutions to SCIA",
-       "url": "https://en.yna.co.kr/view/AEN20261020009800315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Korea's bank hacking cases may move to serious crimes agency",
-       "url": "https://www.koreaherald.com/article/10909099",
+       "title": "19 Injured in Separate Fires at 2 Buildings in Seoul’s Gangnam District",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204987",
        "official": false
       }
      ]
@@ -1160,37 +997,79 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "1bc51f742c5c",
-     "title": "Save on Final Fantasy VII Rebirth, Switch 2 Accessories, and Sony Earbuds",
-     "summary": "Major discounts are live on Final Fantasy VII Rebirth, 512GB Switch 2 memory cards, Sony noise-canceling earbuds, selected Square Enix titles, and LG OLED displays.",
+     "id": "d7f38a7e649d",
+     "title": "Apple Watch Ultra 3 Drops to All-Time Low of $599 on Amazon",
+     "summary": "Amazon is offering a massive $299 discount on the Black Apple Watch Ultra 3 paired with the Black Milanese Loop, bringing the price down to $599.97.",
      "importance": 3,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-19T20:10:00Z",
+     "published": "2026-10-20T13:29:19Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "IGN",
-       "title": "Today’s Top Deals: Final Fantasy VII Rebirth, 512GB Switch 2 Memory Card, Sony Noise Canceling Earbuds",
-       "url": "https://www.ign.com/articles/best-deals-for-october-19-2026",
+       "outlet": "MacRumors",
+       "title": "Apple Watch Ultra 3 Hits New Low Price With Amazon's $299 Discount [Updated]",
+       "url": "https://www.macrumors.com/2026/10/20/apple-watch-ultra-3-new-low-2/",
        "official": false
       }
      ]
     },
     {
-     "id": "8b5598c2c7bc",
-     "title": "Get 20 Percent Off Essentia Organic Mattresses Through November 2",
-     "summary": "Essentia is offering a 20 percent discount on its organic mattresses in a winter sale running through November 2.",
+     "id": "c090bac1a5e8",
+     "title": "Nintendo Switch Sports Resort Preorders Discounted by $10",
+     "summary": "Physical preorders for Nintendo Switch Sports Resort on the Switch 2 are discounted to $49.94 on Amazon ahead of its release this week.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-20T10:30:00Z",
+     "published": "2026-10-20T13:02:36Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Nintendo Switch Sports Resort Review",
+       "url": "https://www.ign.com/articles/nintendo-switch-sports-resort-review",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Nintendo Switch Sports Resort (Switch 2) preorder is $49.94 on Amazon ($10 off physical MSRP) amzn.to/3SgD4Al #ad out this week (will likely go back to full price once released)",
+       "url": "https://amzn.to/3SgD4Al",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2dde09fc177f",
+     "title": "Sony PlayStation Store $100 Gift Card Code Available for $89",
+     "summary": "Newegg is discounting $100 PlayStation Store digital gift card codes down to $89 using promotional checkout code GTWF822.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-20T12:52:03Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wired",
-       "title": "Organic Mattress Sale: 20 Percent Off Essentia Beds",
-       "url": "https://www.wired.com/story/essentia-sale-october-2026/",
+       "outlet": "Wario64",
+       "title": "Sony PlayStation Store $100 Gift Card Code is $89 at Newegg w/ code GTWF822 buff.ly/PZ60zyx #ad",
+       "url": "https://buff.ly/PZ60zyx",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9ff527cb2ca3",
+     "title": "PlayStation 5 Pro 2TB Consoles In Stock Directly From PlayStation",
+     "summary": "The PS5 Pro 2 TB console is currently in stock and available for purchase directly through PlayStation Direct for $899.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-20T15:06:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "PlayStation 5 Pro Console - 2 TB in-stock at PS Direct ($899) buff.ly/az8y0Nz #ad",
+       "url": "https://buff.ly/az8y0Nz",
        "official": false
       }
      ]
@@ -1199,14 +1078,14 @@
   }
  ],
  "date": "2026-10-20",
- "generated_at": "2026-10-20T11:01:08Z",
+ "generated_at": "2026-10-20T15:35:49Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1064,
-  "clusters": 960,
-  "feeds_ok": 174,
-  "feeds_failed": 2
+  "items": 861,
+  "clusters": 768,
+  "feeds_ok": 175,
+  "feeds_failed": 1
  },
  "feed_health": [
   {
@@ -1214,12 +1093,6 @@
    "title": "Meta AI (mirror)",
    "status": "stale",
    "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
-  },
-  {
-   "key": "psblog",
-   "title": "PlayStation Blog",
-   "status": "error",
-   "detail": "ReadTimeout: HTTPSConnectionPool(host='blog.playstation.com', port=443): Read timed out. (read timeout=20)"
   },
   {
    "key": "wapo-politics",
