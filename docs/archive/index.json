@@ -1,6 +1,11 @@
 {
  "briefs": [
   {
+   "date": "2026-10-22",
+   "headline": "Global digital infrastructure faces widespread disruptions from a critical PHP security vulnerability as Electronic Arts shutters BioWare and cuts 400 jobs.",
+   "story_count": 42
+  },
+  {
    "date": "2026-10-21",
    "headline": "Critical PHP memory-management vulnerabilities disrupt websites globally as AI agents independently uncover zero-day flaws.",
    "story_count": 44

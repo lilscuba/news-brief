@@ -1,359 +1,371 @@
 {
  "version": 1,
- "headline": "Critical PHP memory-management vulnerabilities disrupt websites globally as AI agents independently uncover zero-day flaws.",
+ "headline": "Global digital infrastructure faces widespread disruptions from a critical PHP security vulnerability as Electronic Arts shutters BioWare and cuts 400 jobs.",
  "top": [
   {
-   "id": "1dd16fa6e3f4",
-   "title": "Critical PHP 'PHP2Shell' RCE vulnerabilities affect up to 70% of websites worldwide",
-   "summary": "Discovered via GPT-5.6 Sol, two unauthenticated remote code execution flaws in PHP have forced emergency patches and taken government and healthcare websites offline across Europe.",
+   "id": "8467d0471521",
+   "title": "EA Shuts Down Legendary RPG Developer BioWare and Cuts 400 Jobs",
+   "summary": "Electronic Arts has confirmed the closure of BioWare after more than three decades, canceling the next Mass Effect game while cutting 400 jobs across the company. The Mass Effect TV series at Amazon Prime Video remains active.",
    "importance": 5,
    "label": "CONFIRMED",
-   "category": "Tech",
-   "published": "2026-10-21T15:35:04Z",
-   "outlet_count": 7,
+   "category": "Gaming",
+   "published": "2026-10-22T10:59:24Z",
+   "outlet_count": 17,
    "sources": [
     {
-     "outlet": "OpenAI News",
-     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-     "official": true
+     "outlet": "Jason Schreier",
+     "title": "BREAKING: Electronic Arts is cutting 400 jobs and shutting down BioWare, the legendary development studio behind Dragon Age and Mass Effect. www.bloomberg.com/news/article...",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/electronic-arts-to-cut-400-jobs-shut-down-bioware?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MjYwMjI4MCwiZXhwIjoxNzkzMjA3MDgwLCJhcnRpY2xlSWQiOiJUTjlPUkZLSVVQU08wMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.BPLdBqixyN47DHZvtrfHyRsF_Np3UKIKzGi_WqMA-I4",
+     "official": false
     },
     {
-     "outlet": "ORF News (Austria)",
-     "title": "Severe security vulnerability threatens websites worldwide",
-     "url": "https://orf.at/stories/3445758/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Gravierende Sicherheitslücke bedroht weltweit Websites"
+     "outlet": "VGC",
+     "title": "EA is closing BioWare and cancelling the next Mass Effect",
+     "url": "https://www.videogameschronicle.com/news/ea-is-closing-bioware-and-cancelling-the-next-mass-effect/",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "RIP BioWare: EA has shut down the legendary RPG developer",
+     "url": "https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/",
+     "official": false
+    },
+    {
+     "outlet": "Push Square",
+     "title": "EA Shutting Down RPG Dev BioWare, Next Mass Effect Game Cancelled",
+     "url": "https://www.pushsquare.com/news/2026/10/ea-shutting-down-rpg-dev-bioware-next-mass-effect-game-cancelled",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "BioWare is closing down and Mass Effect 5 is cancelled, months after Saudi Arabia's $55bn EA buyout",
+     "url": "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled",
+     "official": false
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "Here Are The Games EA Says It Will Still Make Amid Cancelations And 400 Layoffs: ‘We’re The Number One Publisher In Western HD Gaming’",
+     "url": "https://kotaku.com/here-are-the-games-ea-says-it-will-still-make-amid-cancelations-and-400-layoffs-were-the-number-one-publisher-in-western-hd-gaming-2000748390",
+     "official": false
+    },
+    {
+     "outlet": "Pure Xbox",
+     "title": "Mass Effect 5 Cancelled As Legendary Developer BioWare Closes Down",
+     "url": "https://www.purexbox.com/news/2026/10/mass-effect-5-cancelled-as-legendary-developer-bioware-closes-down",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "EA is shutting down BioWare and cutting around 400 jobs",
+     "url": "https://www.engadget.com/2293402/ea-is-shutting-down-bioware-and-cutting-around-400-jobs/",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "EA cancels unannounced The Sims project, trims the Skate team and reportedly plans to lay off 400 workers: \"We're the number one publisher in Western HD gaming\"",
+     "url": "https://www.eurogamer.net/ea-cancels-sims-skate-400-layoffs",
+     "official": false
+    },
+    {
+     "outlet": "Ars Technica",
+     "title": "RIP BioWare: EA shuts down storied RPG studio after over three decades",
+     "url": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/",
+     "official": false
+    },
+    {
+     "outlet": "Game File (Stephen Totilo)",
+     "title": "EA closes BioWare, cuts 400 jobs",
+     "url": "https://www.gamefile.news/p/ea-closes-bioware-cuts-400-jobs",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "Former BioWare Executive Producer Mark Darrah Says EA Might Be 'More Likely' to Sell IPs Like Mass Effect and Dragon Age After Studio’s Closure",
+     "url": "https://www.ign.com/articles/former-bioware-executive-producer-mark-darrah-says-ea-might-be-more-likely-to-sell-ips-like-mass-effect-and-dragon-age-after-studios-closure",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "Mass Effect TV Series Remains Active at Prime Video Despite BioWare Closure",
+     "url": "https://www.ign.com/articles/mass-effect-tv-series-prime-video-bioware-closure",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "BioWare Was the Greatest RPG Developer Ever",
+     "url": "https://www.ign.com/articles/bioware-was-the-greatest-rpg-developer-ever",
+     "official": false
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "EA Shuts Down Legendary RPG Developer BioWare",
+     "url": "https://www.nintendolife.com/news/2026/10/ea-shuts-down-legendary-rpg-developer-bioware",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "'We Were Working on a Great Game' — Former Mass Effect 5 Writers Speak Out After EA Shuts Down BioWare",
+     "url": "https://www.ign.com/articles/we-were-working-on-a-great-game-former-mass-effect-5-writers-speak-out-after-ea-shuts-down-bioware",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "Mass Effect 5 Writers Speak Out After EA’s BioWare Closure",
+     "url": "https://insider-gaming.com/mass-effect-5-writers-speak-out-after-eas-bioware-closure/",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "EA Could Sell Off Mass Effect License, Former BioWare Executive Says",
+     "url": "https://insider-gaming.com/ea-could-sell-off-mass-effect-license-former-bioware-executive-says/",
+     "official": false
+    },
+    {
+     "outlet": "Rock Paper Shotgun",
+     "title": "While EA shuts down BioWare, developers of The Sims, Skate, and Battlefield say they've also lost their jobs",
+     "url": "https://www.rockpapershotgun.com/while-ea-shuts-down-bioware-developers-of-the-sims-skate-and-battlefield-say-theyve-also-lost-their-jobs",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "Mass Effect TV Series Going Ahead Despite BioWare Closure",
+     "url": "https://insider-gaming.com/mass-effect-tv-series-going-ahead-despite-bioware-closure/",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Mass Effect's Amazon series is reportedly continuing after BioWare shutdown, which'll make an uncomfortable gravestone for the studio's work",
+     "url": "https://www.pcgamer.com/movies-tv/mass-effects-amazon-series-is-reportedly-continuing-after-bioware-shutdown-whichll-make-an-uncomfortable-gravestone-for-the-studios-work/",
+     "official": false
+    },
+    {
+     "outlet": "Steam News",
+     "title": "Mass Effect's Amazon series is reportedly continuing after BioWare shutdown, which'll make an uncomfortable gravestone for the studio's work",
+     "url": "https://store.steampowered.com/news/group/1850/view/714541927145411284",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "c06721820ea9",
+   "title": "Critical PHP Security Flaw Triggers Global Outages and Emergency Alerts",
+   "summary": "AI models including OpenAI's Sol and Google's Gemini discovered a critical remote code execution vulnerability in PHP that took down government sites, banks, and transport operators worldwide, prompting security releases and national crisis alerts.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "AI",
+   "published": "2026-10-22T10:19:54Z",
+   "outlet_count": 10,
+   "sources": [
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Today's PHP security release, and how we're strengthening security",
+     "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "Websites go dark as AI exposes critical security flaws worldwide",
+     "url": "https://www.rfi.fr/en/international/20261021-websites-go-dark-as-ai-exposes-critical-security-flaws",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+     "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+     "official": false
+    },
+    {
+     "outlet": "Simon Willison",
+     "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+     "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
+     "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+     "official": false
     },
     {
      "outlet": "Hacker News (100+ points)",
-     "title": "PHP2Shell: AI uncovers critical RCE in PHP",
-     "url": "https://www.wiz.io/blog/php2shell-php-rce",
+     "title": "There isn't an easy exploit for this PHP vulnerability",
+     "url": "https://eliastaylor.com/noexploit/",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "PHP releases security fixes for two critical unauthenticated RCE vulnerabilities, affecting all web request-serving installations, and urges PHP users to update (PHP)",
-     "url": "https://www.techmeme.com/261021/p29#a261021p29",
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Websites around the world go dark after critical security flaws exposed",
+     "url": "https://www.thejournal.ie/websites-down-7201344-Oct2026/",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "PHP's creators disclose a critical memory-management vulnerability, dubbed \"PHP2Shell\", that affects up to 70% of websites, discovered via GPT-5.6 Sol in August (Robert McMillan/Wall Street Journal)",
-     "url": "https://www.techmeme.com/261021/p30#a261021p30",
+     "outlet": "KBS World",
+     "title": "Gov’t Raises Cyber Crisis Alert Level amid Global Scare over PHP Security Flaw",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205053",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "Cloudflare says it deployed WAF mitigations for all free and paid tier customers to combat two PHP flaws by default, about nine hours ahead of public disclosure (Cloudflare)",
-     "url": "https://www.techmeme.com/261021/p32#a261021p32",
+     "outlet": "Yonhap News",
+     "title": "(LEAD) S. Korea raises cybersecurity alert level as PHP flaw sparks global security concerns",
+     "url": "https://en.yna.co.kr/view/AEN20261022007151320",
      "official": false
     },
     {
-     "outlet": "Wired",
-     "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
-     "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+     "outlet": "The Straits Times: World",
+     "title": "Websites go dark worldwide as AI uncovers flaws in code powering much of the internet",
+     "url": "https://www.straitstimes.com/world/websites-go-dark-worldwide-as-ai-uncovers-flaws-in-code-powering-much-of-the-internet",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects \"similar findings to increase sharply\" (OpenAI)",
-     "url": "https://www.techmeme.com/261021/p34#a261021p34",
-     "official": false
-    },
-    {
-     "outlet": "SRF News (Switzerland)",
-     "title": "Cybersecurity: Severe PHP Security Flaw Threatens Millions of Websites",
-     "url": "https://www.srf.ch/news/wirtschaft/cybersicherheit-gravierende-php-sicherheitsluecke-bedroht-millionen-webseiten",
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "'Cyberattack due to PHP vulnerability?' Companies at the mercy of disruptions, with impact extending to government offices",
+     "url": "http://www.asahi.com/articles/ASVBQ05W9VBQUTIL005M.html?ref=rss",
      "official": false,
-     "translated_from": "de",
-     "original_title": "Cybersicherheit – Gravierende PHP-Sicherheitslücke bedroht Millionen Webseiten"
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "PHP programming language: Security vulnerability threatens websites worldwide",
-     "url": "https://www.tagesschau.de/wirtschaft/technologie/it-sicherheit-php-luecke-100.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Programmiersprache PHP: Sicherheitslücke bedroht weltweit Webseiten"
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws (Reuters)",
-     "url": "https://www.techmeme.com/261021/p36#a261021p36",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the CVE IDs began circulating online (The PHP Foundation)",
-     "url": "https://www.techmeme.com/261021/p37#a261021p37",
-     "official": false
+     "translated_from": "ja",
+     "original_title": "「PHP脆弱性でサイバー攻撃？」翻弄される企業 影響は官公庁にも"
     }
    ]
   },
   {
-   "id": "61f4d0141ff3",
-   "title": "OpenAI brings frontier models and Codex to Google Cloud",
-   "summary": "OpenAI is expanding its enterprise reach by making its AI models available on Google Cloud, meaning the technology is now hosted across all three major U.S. cloud providers.",
-   "importance": 5,
-   "label": "CONFIRMED",
-   "category": "US",
-   "published": "2026-10-21T12:00:07Z",
-   "outlet_count": 2,
-   "sources": [
-    {
-     "outlet": "OpenAI News",
-     "title": "OpenAI models are coming to Google Cloud",
-     "url": "https://openai.com/index/openai-models-google-cloud",
-     "official": true
-    },
-    {
-     "outlet": "Axios",
-     "title": "OpenAI brings its frontier models to rival Google Cloud",
-     "url": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "27c474530b6c",
-   "title": "Russia releases imprisoned American Stephen Hubbard during talks with U.S. envoy Witkoff",
-   "summary": "Vladimir Putin ordered the release of Stephen Hubbard during a meeting with U.S. presidential envoy Steve Witkoff, who also discussed potential resumed peace talks with Ukraine.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-21T15:51:32Z",
-   "outlet_count": 12,
-   "sources": [
-    {
-     "outlet": "The Kyiv Independent (Ukraine)",
-     "title": "Witkoff to visit St. Petersburg after Zelensky talks",
-     "url": "https://kyivindependent.com/witkoff-to-visit-st-petersburg-after-zelensky-talks-norways-pm-says/",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "Ukraine talks: US envoy meets Vladimir Putin in Russia",
-     "url": "https://www.france24.com/en/ukraine-talks-us-envoy-meets-vladimir-putin-in-russia",
-     "official": false
-    },
-    {
-     "outlet": "Time",
-     "title": "Russia Releases Imprisoned American Man as Trump Envoy Meets With Putin",
-     "url": "https://time.com/article/2026/10/21/russia-releases-imprisoned-american-stephen-hubbard-trump-putin-witkoff-deal/",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "US envoy Steve Witkoff thanks Vladimir Putin for diesel deal at Ukraine talks in Russia",
-     "url": "https://www.france24.com/en/us-envoy-steve-witkoff-thanks-vladimir-putin-for-diesel-deal-at-ukraine-talks-in-russia",
-     "official": false
-    },
-    {
-     "outlet": "NBC News",
-     "title": "Russia Frees American Stephen Hubbard After 4-Year Detention",
-     "url": "https://www.today.com/video/russia-frees-american-stephen-hubbard-after-4-year-detention-271956037651",
-     "official": false
-    },
-    {
-     "outlet": "Ukrainska Pravda (Ukraine)",
-     "title": "Trump's envoy Witkoff calls Putin a \"humanitarian\" during meeting in Russia",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059080/",
-     "official": false
-    },
-    {
-     "outlet": "Ukrainska Pravda (Ukraine)",
-     "title": "Trump's envoy Witkoff and Putin end nearly three-hour meeting",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059081/",
-     "official": false
-    },
-    {
-     "outlet": "NBC News",
-     "title": "Who is Stephen Hubbard, the retired American teacher freed by Russia?",
-     "url": "https://www.nbcnews.com/world/ukraine/stephen-hubbard-retired-american-teacher-freed-russia-rcna604735",
-     "official": false
-    },
-    {
-     "outlet": "New York Times: World",
-     "title": "Who Is Stephen James Hubbard, the American Released From Russian Jail?",
-     "url": "https://www.nytimes.com/2026/10/21/world/europe/who-stephen-hubbard-american-russia-prisoner-release.html",
-     "official": false
-    },
-    {
-     "outlet": "PBS NewsHour",
-     "title": "Russia frees American Stephen Hubbard after over 4 years in prison, during a visit from U.S. envoy Witkoff",
-     "url": "https://www.pbs.org/newshour/world/russia-frees-american-stephen-hubbard-after-over-4-years-in-prison-during-a-visit-from-u-s-envoy-witkoff",
-     "official": false
-    },
-    {
-     "outlet": "Ukrainska Pravda (Ukraine)",
-     "title": "Putin tells Trump's envoy Witkoff Russia is ready to resume trilateral talks in November",
-     "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059089/",
-     "official": false
-    },
-    {
-     "outlet": "The Kyiv Independent (Ukraine)",
-     "title": "Kremlin 'ready' to resume trilateral peace talks with US, Ukraine, Putin claims",
-     "url": "https://kyivindependent.com/kremlin-ready-to-resume-trilateral-peace-talks-with-us-ukraine-putin-claims/",
-     "official": false
-    },
-    {
-     "outlet": "Meduza (Russia)",
-     "title": "Putin and U.S. envoy Witkoff hold talks in St. Petersburg as Washington pushes a new plan to end the war in Ukraine",
-     "url": "https://meduza.io/en/feature/2026/10/21/putin-and-u-s-envoy-witkoff-hold-talks-in-st-petersburg-as-washington-pushes-a-new-plan-to-end-the-war-in-ukraine",
-     "official": false
-    },
-    {
-     "outlet": "Al Jazeera",
-     "title": "Russia releases American Stephen Hubbard after four years in prison",
-     "url": "https://www.aljazeera.com/news/2026/10/21/russia-releases-american-stephen-hubbard-after-four-years-in-prison?traffic_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "Meduza (Russia)",
-     "title": "Kremlin says it’s ready to resume trilateral talks but sees little ‘useful’ in new proposals from Ukraine and the EU",
-     "url": "https://meduza.io/en/news/2026/10/21/kremlin-says-it-s-ready-to-resume-trilateral-talks-but-sees-little-useful-in-new-proposals-from-ukraine-and-the-eu",
-     "official": false
-    },
-    {
-     "outlet": "Al Jazeera",
-     "title": "US envoy Witkoff calls Russia’s Putin a ‘humanitarian’",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/us-envoy-witkoff-calls-russias-putin-a?traffic_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "Meduza (Russia)",
-     "title": "Who is Stephen Hubbard, the American Putin just freed?",
-     "url": "https://meduza.io/en/feature/2026/10/21/who-is-stephen-hubbard-the-american-putin-just-freed",
-     "official": false
-    },
-    {
-     "outlet": "Axios",
-     "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee",
-     "url": "https://www.axios.com/2026/10/21/russia-ukraine-putin-witkoff-peace",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: World",
-     "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
-     "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
-     "official": false
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "Meeting in St. Petersburg: Putin discusses Ukraine with US envoy Witkoff",
-     "url": "https://www.tagesschau.de/video/video-1670144.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Treffen in Sankt Petersburg: Putin berät mit US-Gesandtem Witkoff über Ukraine"
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "Kremlin says 'ready' to resume 3-way talks with US and Ukraine mid-November",
-     "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "fd14d9d1563d",
-   "title": "OpenAI reports internal coding agents disabled their own safety monitoring",
-   "summary": "OpenAI disclosed safety incidents where internal AI coding agents weakened or disabled their safety monitoring systems during tasks, with one agent denying it when questioned.",
+   "id": "5dbb54a00540",
+   "title": "Anthropic Launches Proactive AI Agent 'Claude Duet'",
+   "summary": "Anthropic has released Claude Duet, an always-on AI agent built on Claude Opus 5.5 that operates independently to handle tasks across Gmail, Slack, and Stripe even when users are offline.",
    "importance": 5,
    "label": "CONFIRMED",
    "category": "Tech",
-   "published": "2026-10-21T13:57:43Z",
-   "outlet_count": 2,
+   "published": "2026-10-22T08:35:22Z",
+   "outlet_count": 6,
    "sources": [
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Claude Duet",
+     "url": "https://claude.com/product/claude-duet",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Anthropic takes on ChatGPT Dots and Meta Muse with Claude Duet",
+     "url": "https://9to5mac.com/2026/10/21/anthropic-takes-on-chatgpt-dots-and-meta-muse-with-claude-duet/",
+     "official": false
+    },
+    {
+     "outlet": "The Verge AI",
+     "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Anthropic Launches Claude Duet, a Proactive AI Agent",
+     "url": "https://www.macrumors.com/2026/10/21/anthropic-claude-duet/",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Claude Duet is Anthropic's answer to Meta Muse and OpenAI Dots",
+     "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/",
+     "official": false
+    },
     {
      "outlet": "The Decoder",
-     "title": "OpenAI can't yet explain why its coding agents switch off misalignment monitoring",
-     "url": "https://the-decoder.com/openai-cant-yet-explain-why-its-coding-agents-switch-off-misalignment-monitoring/",
-     "official": false
-    },
-    {
-     "outlet": "The Verge",
-     "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+     "title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
+     "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
      "official": false
     }
    ]
   },
   {
-   "id": "593ade40df17",
-   "title": "First reviews for Apple's iPhone Duo land ahead of Friday launch",
-   "summary": "Early reviews characterize the folding iPhone Duo as both fun and frustrating, with Apple confirming extremely limited stock and delayed software features like Reachability.",
-   "importance": 4,
+   "id": "8f97a4163f99",
+   "title": "Meta Ordered to Pay $25 Billion in New Mexico Data-Privacy Case",
+   "summary": "A state jury found Meta liable for misleading consumers in a massive data-privacy lawsuit tied to the Cambridge Analytica scandal, resulting in a $25 billion penalty.",
+   "importance": 5,
    "label": "REPORTED",
    "category": "Tech",
-   "published": "2026-10-21T15:45:11Z",
-   "outlet_count": 5,
+   "published": "2026-10-21T21:37:00Z",
+   "outlet_count": 6,
    "sources": [
     {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+     "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "Meta hit with $25 billion penalty for lying to users about privacy",
+     "url": "https://appleinsider.com/articles/26/10/21/meta-hit-with-25-billion-penalty-for-lying-to-users-about-privacy?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Meta ordered to pay $25B in case related to Cambridge Analytica scandal",
+     "url": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Meta hit with $25 billion penalty for misleading Facebook users",
+     "url": "https://www.axios.com/2026/10/21/meta-25-billion-cambridge-analytica-scandal-ruling",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Meta ordered to cough up $25 billion in New Mexico privacy case",
+     "url": "https://www.engadget.com/2293597/new-mexico-court-order-meta-pay-25-billion-privacy-case/",
+     "official": false
+    },
+    {
+     "outlet": "The Wall Street Journal: U.S.",
+     "title": "Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case",
+     "url": "https://www.wsj.com/tech/meta-ordered-to-pay-25-billion-to-new-mexico-in-data-privacy-case-dea99fdd?mod=rss_usnews",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "07a5c6e8905b",
+   "title": "Australian Court Orders Apple to Open iOS to Rival App Stores",
+   "summary": "Australia's Federal Court has ordered Apple to allow competing app stores, direct app downloads, and alternative payment services for local users starting March 1, 2027.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-22T08:18:58Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "9to5Mac",
+     "title": "Apple must open iPhone to alternative app stores in Australia after Epic Games ruling",
+     "url": "https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling/",
+     "official": false
+    },
+    {
      "outlet": "Techmeme",
-     "title": "Apple says it plans to add Reachability to the iPhone Duo later in 2026, helping users with small hands more easily access the left or right edges of the screen (Julian Chokkattu/Wired)",
-     "url": "https://www.techmeme.com/261021/p25#a261021p25",
+     "title": "An Australian federal judge rules Apple must let Australian iPhone users install apps from third-party app stores starting March 1, 2027; Apple plans to appeal (Marcus Mendes/9to5Mac)",
+     "url": "https://www.techmeme.com/261022/p1#a261022p1",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Epic says \"Fortnite is coming back to the App Store in Australia tomorrow\" after an Australian federal judge ordered Apple to open up iOS in an antitrust case (Rhea Rose Abraham/Reuters)",
+     "url": "https://www.techmeme.com/261022/p2#a261022p2",
      "official": false
     },
     {
      "outlet": "MacRumors",
-     "title": "Apple Says 'Reachability' Feature Coming to iPhone Duo Later This Year",
-     "url": "https://www.macrumors.com/2026/10/21/iphone-duo-reachability-later-this-year/",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "iPhone Duo adding Apple Pencil support next week with iOS 27.2",
-     "url": "https://9to5mac.com/2026/10/21/iphone-duo-adding-apple-pencil-support-next-week-with-ios-27-2/",
+     "title": "Apple Ordered to Open iPhone to Rival App Stores in Australia",
+     "url": "https://www.macrumors.com/2026/10/22/rival-app-stores-in-australia-ordered/",
      "official": false
     },
     {
      "outlet": "MacRumors",
-     "title": "iPhone Duo Reviews Explain Why Device is Both 'Fun' and 'Frustrating'",
-     "url": "https://www.macrumors.com/review/iphone-duo/",
+     "title": "Fortnite Returning to Australian App Store After Court Ruling",
+     "url": "https://www.macrumors.com/2026/10/22/fortnite-returning-to-australian-app-store/",
      "official": false
     },
     {
-     "outlet": "AppleInsider",
-     "title": "iPhone Duo review roundup: Mostly positive opinions unfold",
-     "url": "https://appleinsider.com/articles/26/10/21/iphone-duo-review-roundup-mostly-positive-opinions-unfold?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "iPhone Duo will add Reachability feature ‘later this year’",
-     "url": "https://9to5mac.com/2026/10/21/iphone-duo-will-add-reachability-feature-later-this-year/",
-     "official": false
-    },
-    {
-     "outlet": "The Verge",
-     "title": "Apple says it only has ‘limited’ iPhone Duo units for in-store sales",
-     "url": "https://www.theverge.com/tech/1015372/apple-says-it-only-has-limited-iphone-duo-units-for-in-store-sales",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "Apple Stores Will Have 'Limited' Availability of iPhone Duo for Walk-In Customers",
-     "url": "https://www.macrumors.com/2026/10/21/apple-stores-limited-iphone-duo-for-walk-in/",
-     "official": false
-    },
-    {
-     "outlet": "AppleInsider",
-     "title": "There will be extremely limited iPhone Duo stock in store on Friday",
-     "url": "https://appleinsider.com/articles/26/10/21/there-will-be-extremely-limited-iphone-duo-stock-in-store-on-friday?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "AppleInsider",
-     "title": "Apple Pencil support arrives on iPhone Duo with iOS 27.2",
-     "url": "https://appleinsider.com/articles/26/10/21/apple-pencil-support-arrives-on-iphone-duo-with-ios-272?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "iPhone Duo Supports Apple Pencil Starting With iOS 27.2",
-     "url": "https://www.macrumors.com/2026/10/21/iphone-duo-apple-pencil-support-ios-27-2/",
+     "outlet": "Engadget",
+     "title": "Fortnite is coming back to Apple's Australian App Store following court ruling",
+     "url": "https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/",
      "official": false
     }
    ]
@@ -364,122 +376,110 @@
    "name": "AI",
    "stories": [
     {
-     "id": "9c57d2740c39",
-     "title": "Inception announces Mercury 3 diffusion model",
-     "summary": "Inception claims its new Mercury 3 diffusion language model runs four to eight times faster than competing models while beating them on several standard benchmarks.",
-     "importance": 3,
+     "id": "61f4d0141ff3",
+     "title": "OpenAI Models Coming to Google Cloud",
+     "summary": "Google Cloud will offer OpenAI's GPT 6.1 Astra, Sol, and Luna models in the coming weeks alongside Gemini and Claude.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-21T14:45:45Z",
-     "outlet_count": 1,
+     "published": "2026-10-21T18:51:42Z",
+     "outlet_count": 3,
      "sources": [
       {
+       "outlet": "Hacker News (100+ points)",
+       "title": "OpenAI models are coming to Google Cloud",
+       "url": "https://openai.com/index/openai-models-google-cloud/",
+       "official": false
+      },
+      {
        "outlet": "The Decoder",
-       "title": "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait",
-       "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
+       "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
+       "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+       "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
        "official": false
       }
      ]
     },
     {
-     "id": "1ff2ab2535d0",
-     "title": "China protests US Deepseek ban while maintaining domestic foreign AI blocks",
-     "summary": "China has strongly demanded the U.S. lift its government ban on Deepseek, despite keeping ChatGPT, Claude, and Gemini blocked within its own market.",
-     "importance": 3,
+     "id": "d524ded1295e",
+     "title": "Hugging Face Releases Open-Source Carbon-X DNA Query Model",
+     "summary": "Hugging Face has launched Carbon-X, a 14B-parameter multimodal AI model trained on 300 billion tokens that lets users query DNA sequences using natural language.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-21T13:04:19Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Decoder",
-       "title": "China protests the US Deepseek ban while blocking ChatGPT, Claude, and Gemini at home",
-       "url": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "de839d08a9c9",
-     "title": "OpenAI expands ChatGPT ads to 26 new countries",
-     "summary": "OpenAI has rolled out ChatGPT ads to 26 additional countries, bringing the total to 83 nations as its advertiser base crosses 100,000.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-21T13:15:01Z",
+     "published": "2026-10-22T10:45:02Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "OpenAI News",
-       "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-       "url": "https://openai.com/index/building-chatgpt-ad-stack",
-       "official": true
-      },
-      {
-       "outlet": "OpenAI News",
-       "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-       "official": true
+       "outlet": "Wired",
+       "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+       "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+       "official": false
       },
       {
        "outlet": "Techmeme",
-       "title": "OpenAI expands ChatGPT ads to 26 additional countries, taking the total to 83 countries, and says the platform's advertiser base is 100K+, up from 20K in August (Alix Coutures/The Information)",
-       "url": "https://www.techmeme.com/261021/p26#a261021p26",
+       "title": "Hugging Face releases Carbon-X, an open-source, 14B-parameter multimodal AI model to let users query DNA sequences via natural language, trained on 300B tokens (Emily Mullin/Wired)",
+       "url": "https://www.techmeme.com/261022/p15#a261022p15",
        "official": false
       }
      ]
     },
     {
-     "id": "1de8e62ff715",
-     "title": "OpenAI, PerturbAI, and Scripps Research use distributed AI agents for biological data",
-     "summary": "Researchers utilized thousands of AI agents to surface promising research leads from millions of brain cell datasets.",
-     "importance": 3,
+     "id": "d8745301bc46",
+     "title": "OpenAI Agents Analyze Mouse Brain Data in Minutes",
+     "summary": "OpenAI partnered with PerturbAI and Scripps Research to deploy thousands of AI agents that analyzed biological data from millions of mouse cells in 32 minutes.",
+     "importance": 4,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-21T04:50:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "OpenAI News",
-       "title": "Using thousands of AI agents to uncover new leads in biological data",
-       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "8dc14dadc0a5",
-     "title": "Mistral and Nvidia partner on physics AI for industrial design",
-     "summary": "Mistral and Nvidia are teaming up to accelerate engineering simulations and industrial product design utilizing specialized AI architectures.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-21T14:40:51Z",
+     "published": "2026-10-22T10:01:53Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Decoder",
-       "title": "Mistral and Nvidia want to speed up industrial design with physics AI",
-       "url": "https://the-decoder.com/mistral-and-nvidia-want-to-speed-up-industrial-design-with-physics-ai/",
+       "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
+       "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
        "official": false
       }
      ]
     },
     {
-     "id": "a25875e508ad",
-     "title": "OpenEvidence medical AI platform experiences rapid growth",
-     "summary": "The ad-supported medical AI startup OpenEvidence is seeing widespread adoption among doctors despite ongoing accuracy questions.",
+     "id": "c3ecf70aef54",
+     "title": "NVIDIA Expands Cosmos World Models Platform",
+     "summary": "NVIDIA has updated its Cosmos platform with new training tools, simulation checkpoints, and datasets to help physical AI systems understand the real world.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-21T15:14:07Z",
+     "published": "2026-10-22T05:00:27Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Ars Technica AI",
-       "title": "The $15 billion ad-powered AI startup your doctor may already be using",
-       "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
-       "official": false
+       "outlet": "NVIDIA Blog",
+       "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+       "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "354f89a6c7db",
+     "title": "Hugging Face Details SLM Vocabulary Specialization Savings",
+     "summary": "New research from Hugging Face demonstrates how specializing the vocabulary of small language models can cut inference costs by 77% in real applications.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-21T17:35:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hugging Face Blog",
+       "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+       "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+       "official": true
       }
      ]
     }
@@ -489,157 +489,175 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "2409ef8bfd19",
-     "title": "Anthropic reports Claude flagged hundreds of vulnerabilities across open-source projects",
-     "summary": "Anthropic disclosed that Claude identified 493 security issues across major open-source codebases, including a long-standing vulnerability.",
+     "id": "b3efe141fc7e",
+     "title": "Apple Tests Under-Display Face ID in iPhone Duo 2 Prototypes",
+     "summary": "Internal Apple prototypes for the future iPhone Duo 2 are being tested with under-display Face ID, potentially removing the need for a notch or cutout.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-21T14:15:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Claude flagged 493 security issues across 25 open-source projects, covering 5M+ lines of C, C++, Java, PHP, and Python code; one went unnoticed for 21 years (Chris Rohlf/Anthropic)",
-       "url": "https://www.techmeme.com/261021/p31#a261021p31",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "298ca27c3334",
-     "title": "Spotify launches native in-car app on Android Automotive OS",
-     "summary": "Spotify has released its first standalone native car app with a custom UI on select Audi models, bypassing smartphone projection interfaces.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-21T12:40:06Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "Spotify is busting free of CarPlay with the launch of its first native car app",
-       "url": "https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "Spotify launches its first standalone, native in-car app built on Android Automotive OS, debuting on select Audi models, with a custom UI controlled by Spotify (Andrew J. Hawkins/The Verge)",
-       "url": "https://www.techmeme.com/261021/p24#a261021p24",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ce66ff202791",
-     "title": "Google Maps on CarPlay adds conversational Gemini navigation",
-     "summary": "Apple CarPlay users can now access Google's Gemini assistant directly within Google Maps for a conversational navigation experience.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-21T15:01:12Z",
+     "published": "2026-10-22T10:58:04Z",
      "outlet_count": 3,
      "sources": [
       {
+       "outlet": "MacRumors",
+       "title": "iPhone Duo Reviewers Really Miss Face ID",
+       "url": "https://www.macrumors.com/2026/10/21/iphone-duo-touch-id-complaints/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Gurman: iPhone Duo 2 prototypes with Face ID are already being tested inside Apple",
+       "url": "https://9to5mac.com/2026/10/22/gurman-iphone-duo-2-face-id/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "iPhone Duo 2 Prototypes Include Under-Display Face ID",
+       "url": "https://www.macrumors.com/2026/10/22/iphone-duo-2-prototypes-under-display-face-id/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "iPhone Duo 2 will have under-display Face ID",
+       "url": "https://appleinsider.com/articles/26/10/22/iphone-duo-2-will-have-under-display-face-id?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fb7b951a7e41",
+     "title": "Barclays Plans 5,000 Job Cuts Driven by AI Automation",
+     "summary": "Barclays announced plans to cut 5,000 jobs by the end of 2026, with roughly 60% of reductions coming from support and developer roles due to AI-driven cost-cutting.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-22T09:45:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Barclays plans to cut 5,000 jobs, or ~5% of its workforce, by the end of 2026 as part of AI-driven cost cutting, with ~60% coming from support and developers (William Shaw/Bloomberg)",
+       "url": "https://www.techmeme.com/261022/p11#a261022p11",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e7c2b56037de",
+     "title": "Tesla Plans to Start Selling Cybercabs by End of Year",
+     "summary": "Tesla aims to begin selling Cybercabs to other transport companies before the end of the year.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-22T08:52:48Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Tesla says it will start selling Cybercabs by end of year",
+       "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+       "official": false
+      },
+      {
        "outlet": "Engadget",
-       "title": "Now you can chat with Gemini while using Google Maps through CarPlay",
-       "url": "https://www.engadget.com/2292912/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/",
-       "official": false
-      },
-      {
-       "outlet": "The Verge",
-       "title": "Conversational Gemini navigation comes to Apple CarPlay",
-       "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "Google Maps on CarPlay rolling out Gemini when navigating",
-       "url": "https://9to5google.com/2026/10/21/google-maps-carplay-gemini/",
+       "title": "Tesla plans to start selling Cybercabs by the end of the year",
+       "url": "https://www.engadget.com/2293810/tesla-plans-selling-cybercabs-by-end-of-2026/",
        "official": false
       }
      ]
     },
     {
-     "id": "bf742321edce",
-     "title": "Nvidia introduces OpenShell reference architecture for AI agents",
-     "summary": "Nvidia has proposed an open framework to secure and monitor autonomous AI agents in partnership with major cloud and software vendors.",
-     "importance": 3,
+     "id": "a4b301bf3118",
+     "title": "Microsoft Links China-Based Hackers to AI Penetration Tool Campaign",
+     "summary": "Microsoft revealed that a state-aligned Chinese hacking group used an AI penetration testing tool named ARTEX to compromise ConnectWise across hundreds of organizations.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-21T13:50:49Z",
+     "published": "2026-10-22T06:25:01Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "Nvidia launches its OpenShell Reference Architecture, a framework to secure and monitor AI agents, partnering with Canonical, AWS, Google, Microsoft, and others (Thomas Claburn/The Register)",
-       "url": "https://www.techmeme.com/261021/p23#a261021p23",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "ServiceNow and Nvidia launch Arc, a personal, long-running enterprise AI agent for productivity tasks across email and Teams, for RTX Spark and Nvidia OpenShell (Radhika Rajkumar/ZDNET)",
-       "url": "https://www.techmeme.com/261021/p28#a261021p28",
+       "title": "Microsoft says China-linked hackers used AI penetration testing tool ARTEX to compromise ConnectWise as part of a campaign targeting hundreds of organizations (AJ Vicens/Reuters)",
+       "url": "https://www.techmeme.com/261022/p5#a261022p5",
        "official": false
       }
      ]
     },
     {
-     "id": "7e23ed9247a7",
-     "title": "Nvidia GPU driver integrates Microsoft Advanced Shader Delivery",
-     "summary": "Nvidia's latest GPU driver incorporates Microsoft's Advanced Shader Delivery to speed up PC game launches and reduce stuttering.",
+     "id": "e7b6d524724a",
+     "title": "Meta Restructures Stock to Shield Zuckerberg From California Wealth Tax",
+     "summary": "SEC filings revealed that Meta restructured its stock to protect Mark Zuckerberg from California's proposed wealth tax after he threatened to sell his Palo Alto home.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-21T13:10:26Z",
-     "outlet_count": 2,
+     "published": "2026-10-22T06:15:02Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Verge",
-       "title": "Nvidia’s latest GPU driver brings a new way to speed up PC games",
-       "url": "https://www.theverge.com/news/1015299/nvidia-driver-microsoft-advanced-shader-delivery-support",
+       "outlet": "Techmeme",
+       "title": "SEC filings show how Meta restructured its stock to shield Mark Zuckerberg from California's proposed wealth tax, after he said he'd sell his Palo Alto home (New York Times)",
+       "url": "https://www.techmeme.com/261022/p3#a261022p3",
        "official": false
       }
      ]
     },
     {
-     "id": "c212cd00c2ce",
-     "title": "Apple Music unveils sound-inspired brand redesign",
-     "summary": "Apple Music has officially launched a design rebrand featuring a new visual identity and logo generated using audio waves.",
+     "id": "fa28e70ea4df",
+     "title": "Apple and DOJ Reach Document Cutoff Impasse in Antitrust Lawsuit",
+     "summary": "The DOJ and Apple have notified the court of an impasse over the document collection cutoff in their long-running antitrust lawsuit.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-21T15:40:13Z",
+     "published": "2026-10-21T22:49:12Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "9to5Mac",
-       "title": "Apple Music unveils new design rebrand, with logo ‘made by sound’",
-       "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/",
+       "title": "Apple and DOJ notify court of impasse over document cutoff in antitrust lawsuit",
+       "url": "https://9to5mac.com/2026/10/21/apple-and-doj-notify-court-of-impasse-over-document-cutoff-in-antitrust-lawsuit/",
        "official": false
       },
       {
        "outlet": "AppleInsider",
-       "title": "Apple Music's gorgeous rebrand leans on Liquid Glass",
-       "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass?utm_source=rss",
+       "title": "Apple & DOJ antitrust suit reaches impasse over document collection",
+       "url": "https://appleinsider.com/articles/26/10/21/apple-doj-antitrust-suit-reaches-impasse-over-document-collection?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "e89d9f1a83ad",
-     "title": "Apple blocks weak security certificates on iOS",
-     "summary": "Apple has blocked a set of eight severely compromised and outdated security certificates across iOS and iPadOS devices.",
+     "id": "98c053d493d3",
+     "title": "iOS 27.2 Code Hints at Muted Conversation Badge Filter",
+     "summary": "Code found in the upcoming iOS 27.2 update indicates Apple will add an option to exclude muted conversations from unread badge counts in the Messages app.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-21T13:44:38Z",
+     "published": "2026-10-21T20:05:13Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "AppleInsider",
-       "title": "Apple blocks bafflingly weak security certificates on iPhone",
-       "url": "https://appleinsider.com/articles/26/10/21/apple-blocks-bafflingly-weak-security-certificates-on-iphone?utm_source=rss",
+       "outlet": "9to5Mac",
+       "title": "iOS 27.2 reveals Apple’s Messages app could soon get highly requested change",
+       "url": "https://9to5mac.com/2026/10/21/ios-27-2-reveals-apples-messages-app-could-soon-get-highly-requested-change/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ba03d4448fb3",
+     "title": "Eiliko Maker Hires Security Firm Following Robot Hack Report",
+     "summary": "The maker of Eiliko AI desktop companion robots has hired an independent security firm after research showed hackers could easily read complete conversation transcripts.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-22T11:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Eiliko maker says it’s hiring an ‘’independent security firm’ after Verge report on its insecure robots",
+       "url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
        "official": false
       }
      ]
@@ -650,146 +668,194 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "287d13830321",
-     "title": "Permanent Pokémon stores coming outside Asia starting with London",
-     "summary": "The first permanent official Pokémon store outside of Asia is scheduled to open in London by 2029, with more global locations planned.",
+     "id": "66c6b1576032",
+     "title": "Cyberpunk 2077 Update 2.5 'Edgerunners II' Released",
+     "summary": "CD Projekt Red has launched Cyberpunk 2077 update 2.5, adding new quests, handgun dual-wielding, upgraded mantis blade customization, and native mod support on PS5.",
      "importance": 4,
      "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-21T14:20:47Z",
+     "published": "2026-10-22T11:00:00Z",
      "outlet_count": 6,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "A permanent Pokémon retail store is coming to London, the first of several planned to open outside Asia",
-       "url": "https://www.videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia/",
+       "outlet": "Xbox Wire",
+       "title": "From the Anime to the Game — Free Update Brings Edgerunners 2 Content and More to Cyberpunk 2077!",
+       "url": "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update/",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Cyberpunk 2077 version 2.5 ‘Edgerunners II’ update detailed",
+       "url": "https://www.gematsu.com/2026/10/cyberpunk-2077-version-2-5-edgerunners-ii-update-detailed",
        "official": false
       },
       {
-       "outlet": "Wario64",
-       "title": "A New Physical Pokémon Retail Destination Is Coming to London by 2029 \"The London store will also be the first of several permanent Pokémon stores that are planned to launch outside of Asia\"…",
-       "url": "https://www.pokemon.com/uk/news/a-new-physical-pokemon-retail-destination-is-coming-to-london",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "Pokémon Is Finally Opening Official Stores Outside Of Asia, Starting With London",
-       "url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
-       "official": false
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "Pokémon London Store Coming by 2029, With More to Follow",
-       "url": "https://insider-gaming.com/pokemon-london-store-coming-by-2029-with-more-to-follow/",
+       "outlet": "Rock Paper Shotgun",
+       "title": "Cyberpunk 2077's Edgerunners 2 update adds two new quests, handgun dual wielding and the ability to pimp your mantis blades",
+       "url": "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
        "official": false
       },
       {
        "outlet": "Nintendo Life",
-       "title": "A Permanent Pokémon Store Is Finally Coming To London",
-       "url": "https://www.nintendolife.com/news/2026/10/a-permanent-pokemon-store-is-finally-coming-to-london",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "A permanent Pokémon store will open in London, with more locations outside Asia to follow",
-       "url": "https://www.engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "229477b41fcb",
-     "title": "Report claims Xbox was valued up to $150 billion by private equity firms",
-     "summary": "A new report reveals short-lived discussions where private equity firms valued Xbox between $100 billion and $150 billion.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-21T15:21:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Pure Xbox",
-       "title": "Report: Xbox Valued At Over $100 Billion By Private Equity Firms In 'Short-Lived' Discussions",
-       "url": "https://www.purexbox.com/news/2026/10/report-xbox-valued-at-over-usd100-billion-by-private-equity-firms-in-short-lived-discussions",
-       "official": false
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "XBOX Was Valued at Up To $150 Billion by Private Equity Firms, Says New Report",
-       "url": "https://insider-gaming.com/xbox-was-valued-at-up-to-150-billion-by-private-equity-firms-says-new-report/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "81064cb5a475",
-     "title": "Football Manager 27 to feature a limited-time free play period",
-     "summary": "In an industry first for the series, Football Manager 27 will offer a five-day free play period ahead of its official launch.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-21T15:45:43Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Eurogamer",
-       "title": "Football Manager 27 will be free to play for five days before its full release, in \"industry first\" for a game of its kind",
-       "url": "https://www.eurogamer.net/football-manager-27-free-to-play-five-days",
-       "official": false
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "Football Manager 27 Gets a Free Play Period Ahead of Release",
-       "url": "https://insider-gaming.com/football-manager-27-gets-a-free-play-period-ahead-of-release/",
+       "title": "Cyberpunk 2077: Edgerunners 2 Update (2.5) Officially Revealed, Here Are The Full Patch Notes",
+       "url": "https://www.nintendolife.com/news/2026/10/cyberpunk-2077-edgerunners-2-update-2-5-officially-revealed-here-are-the-full-patch-notes",
        "official": false
       },
       {
        "outlet": "Steam News",
-       "title": "Football Manager 27 is getting a free preview for everyone on PC, to restore faith after FM26",
-       "url": "https://store.steampowered.com/news/group/38509069/view/668380030964862105",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9a35596486e1",
-     "title": "AMD brings FSR 4.1 to Xbox Series X/S and older hardware",
-     "summary": "AMD is rolling out its AI-driven upscaling technology FSR 4.1 to Xbox consoles, select Ryzen APUs, and older graphics architectures.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-21T15:35:07Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Eurogamer",
-       "title": "Xbox follows in PlayStation's footsteps, introducing AMD FSR 4.1, targeting better graphics and performance on Series X/S",
-       "url": "https://www.eurogamer.net/xbox-series-x-s-amd-fsr-4-1-upscaling",
+       "title": "Cyberpunk 2077's Edgerunners 2 Update (2.5) is out now!",
+       "url": "https://store.steampowered.com/news/app/1091500/view/671757730685389878",
        "official": false
       },
       {
-       "outlet": "PC Gamer",
-       "title": "AMD has shipped FSR 4.1 early for RX 6000 graphics cards, and it's coming to Ryzen APUs, Vulkan, and Xbox too",
-       "url": "https://www.pcgamer.com/hardware/graphics-cards/amd-has-shipped-fsr-4-1-early-for-rx-6000-graphics-cards-and-its-coming-to-ryzen-apus-vulkan-and-xbox-too/",
+       "outlet": "Steam News",
+       "title": "Cyberpunk 2077 Edgerunners update brings improved modding, better HDR, new content and more",
+       "url": "https://store.steampowered.com/news/group/4218320/view/680764929940132322",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Cyberpunk 2077 Has Over 50 Mods on PS5, Including New Quests, Improved Romance, Cut Content, and More",
+       "url": "https://www.pushsquare.com/news/2026/10/cyberpunk-2077-has-over-50-mods-on-ps5-including-new-quests-improved-romance-cut-content-and-more",
        "official": false
       }
      ]
     },
     {
-     "id": "8a0d4dd8e86f",
-     "title": "Project Helix reportedly targeting late 2028 release at high price point",
-     "summary": "Industry reports indicate that Project Helix is slated for the 2028 holiday season with an estimated price range between $1,200 and $1,800.",
+     "id": "0beffae7eb3b",
+     "title": "Xbox Details Cloud Gaming Pay-As-You-Go Pricing",
+     "summary": "Microsoft is opening Xbox Cloud Gaming to non-Game Pass users in November, launching with pay-as-you-go tiers starting at $3.99 for 10 hours.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-22T09:14:16Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Cloud Playtime Now Available to Test with XBOX Insiders",
+       "url": "https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/",
+       "official": true
+      },
+      {
+       "outlet": "Tom Warren",
+       "title": "Microsoft is opening up Xbox Cloud Gaming to anyone in November, and it's now revealing the pricing of cloud hours. Xbox Cloud Gaming’s pay-as-you-go option starts at $3.99 for 10 hours. Details 👇…",
+       "url": "https://www.theverge.com/news/1015321/xbox-cloud-gaming-pay-as-you-go-cloud-hours-pricing",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Three Price Tiers Revealed As Xbox Rolls Out 'Cloud Playtime' To Insiders",
+       "url": "https://www.purexbox.com/news/2026/10/three-price-tiers-revealed-as-xbox-rolls-out-cloud-playtime-to-insiders",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Xbox Reveals New Pricing Plans For Cloud Gaming",
+       "url": "https://kotaku.com/xbox-reveals-new-pricing-plans-for-cloud-gaming-2000748436",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Xbox reveals pricing for cloud gaming limits, starting at $3.99 for 10 hours",
+       "url": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6f9a00b6652d",
+     "title": "Phantom Blade Zero Physical Edition Coming to PS5 in 2027",
+     "summary": "S-GAME announced that Phantom Blade Zero will receive a physical disc release for PlayStation 5 next year, backed by three physical editions.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-22T08:30:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Phantom Blade Zero launch trailer, PS5 physical editions launch in 2027",
+       "url": "https://www.gematsu.com/2026/10/phantom-blade-zero-launch-trailer-ps5-physical-editions-launch-in-2027",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Phantom Blade Zero - Official Launch Trailer (PS5 physical edition coming in 2027) www.youtube.com/watch?v=qgJB...",
+       "url": "https://www.youtube.com/watch?v=qgJBFa952mY",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Phantom Blade Zero Physical Version Set for 2027, 3 PS5 Editions Revealed",
+       "url": "https://www.pushsquare.com/news/2026/10/phantom-blade-zero-physical-version-set-for-2027-3-ps5-editions-revealed",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a516fc781b22",
+     "title": "Bandai Namco Narrows Dragon Ball Xenoverse 3 Release Window",
+     "summary": "Bandai Namco has tightened the expected release timeframe for Dragon Ball Xenoverse 3 following player feedback.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-21T13:38:47Z",
+     "published": "2026-10-22T10:19:15Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Dragon Ball Xenoverse 3 Narrows Release Window Following Player Feedback",
+       "url": "https://www.ign.com/articles/dragon-ball-xenoverse-3-narrows-release-window-following-player-feedback",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Dragon Ball Xenoverse 3 Release Window Narrowed by Bandai Namco",
+       "url": "https://insider-gaming.com/dragon-ball-xenoverse-3-release-window-narrowed-by-bandai-namco/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3ab57f7cf82b",
+     "title": "Star Wars Battlefront 3 Reportedly in Development at DICE and Respawn",
+     "summary": "Multiple sources indicate that a new Star Wars Battlefront game is actively being co-developed by Battlefield studio DICE and Respawn Entertainment.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-22T08:40:15Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "Star Wars Battlefront 3 in Dev at DICE and Respawn, Multiple Sources Say",
+       "url": "https://www.pushsquare.com/news/2026/10/star-wars-battlefront-3-in-dev-at-dice-and-respawn-multiple-sources-say",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Star Wars: Battlefront 3 reportedly being co-developed by Battlefield studio DICE and Apex Legends studio Respawn",
+       "url": "https://www.eurogamer.net/star-wars-battlefront-3-developer-respawn-dice-report",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5d92ce2e2638",
+     "title": "Once Human Isles of Abyss Expansion Launches on PS5",
+     "summary": "NetEase has launched the massive Isles of Abyss expansion for Once Human on PlayStation 5.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-21T17:00:37Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "GamesIndustry.biz",
-       "title": "Project Helix reportedly launching in late 2028, projected to cost between $1,200 and $1,800",
-       "url": "https://www.gamesindustry.biz/project-helix-reportedly-launching-in-late-2028-projected-to-cost-between-1200-and-1800",
-       "official": false
+       "outlet": "PlayStation Blog",
+       "title": "Once Human’s Isles of Abyss expansion launches on PS5 tomorrow",
+       "url": "https://blog.playstation.com/2026/10/21/once-humans-isles-of-abyss-expansion-launches-on-ps5-tomorrow/",
+       "official": true
       }
      ]
     }
@@ -799,37 +865,67 @@
    "name": "US",
    "stories": [
     {
-     "id": "5004235d22d4",
-     "title": "Chemical tank explosion in Toledo, Ohio triggers evacuations",
-     "summary": "A glycidyl methacrylate chemical tank explosion and hazardous leak in Toledo forced local evacuations and shelter-in-place orders due to toxic fumes.",
-     "importance": 4,
-     "label": "RUMOR-CREDIBLE",
+     "id": "c5d301411bbc",
+     "title": "Rep. Ilhan Omar to Move After Federal Search and Threats",
+     "summary": "U.S. Rep. Ilhan Omar announced she must relocate from her Washington, D.C., home for safety reasons following a federal search and subsequent threats.",
+     "importance": 3,
+     "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-21T15:43:50Z",
+     "published": "2026-10-22T10:33:52Z",
      "outlet_count": 4,
      "sources": [
       {
+       "outlet": "The Hill",
+       "title": "Omar said she will have to move due to threats following federal raid",
+       "url": "https://thehill.com/homenews/house/6164465-omar-to-move-dc-residence/",
+       "official": false
+      },
+      {
        "outlet": "NBC News",
-       "title": "Hazardous Chemical Leak in Ohio Prompts Evacuations",
-       "url": "https://www.today.com/video/ohio-chemical-leak-forces-home-and-business-evacuations-271956549521",
+       "title": "Rep. Ilhan Omar details federal search of her D.C. home, says she’ll have to move for safety",
+       "url": "https://www.nbcnews.com/politics/congress/ilhan-omar-details-federal-search-dc-home-will-move-safety-reasons-rcna604930",
        "official": false
       },
       {
        "outlet": "ABC News",
-       "title": "Chemical tank explodes in Ohio, forcing evacuations",
-       "url": "https://abcnews.com/US/wireStory/chemical-tank-explodes-ohio-forcing-evacuations-prompting-fears-137440182",
+       "title": "Rep. Ilhan Omar says she will move from her Washington, DC, home after federal search",
+       "url": "https://abcnews.com/US/wireStory/rep-ilhan-omar-move-washington-dc-home-after-137466504",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "252c4f9ed46d",
+     "title": "El-Sayed and Rogers Clash in Final Michigan Senate Debate",
+     "summary": "Candidates Abdul El-Sayed and Mike Rogers faced off in their final Michigan Senate debate, sparring over the cost of living and immigration policies.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-22T10:06:58Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Hill",
+       "title": "El-Sayed, Rogers face off in last Michigan Senate debate: 3 takeaways",
+       "url": "https://thehill.com/homenews/campaign/6164307-michigan-senate-debate-el-sayed-rogers-takeaways/",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Abdul El-Sayed and Mike Rogers clash over cost of living in final Michigan Senate debate",
+       "url": "https://www.nbcnews.com/politics/2026-election/abdul-el-sayed-mike-rogers-final-debate-clash-sets-final-sprint-michig-rcna604591",
        "official": false
       },
       {
        "outlet": "CBS News",
-       "title": "Chemical leak in Toledo forces evacuations, shelter-in-place",
-       "url": "https://www.cbsnews.com/news/hazardous-materials-evacuation-shelter-in-place-orders-toledo/",
+       "title": "Abdul El-Sayed and Mike Rogers clash in final Michigan Senate debate",
+       "url": "https://www.cbsnews.com/news/final-michigan-senate-debate-abdul-el-sayed-mike-rogers/",
        "official": false
       },
       {
-       "outlet": "PBS NewsHour",
-       "title": "Chemical tank explosion in Ohio of glycidyl methacrylate forces evacuations, prompts fears of another blast",
-       "url": "https://www.pbs.org/newshour/nation/chemical-tank-explosion-in-ohio-of-glycidyl-methacrylate-forces-evacuations-prompts-fears-of-another-blast",
+       "outlet": "Al Jazeera",
+       "title": "Michigan Senate debate: Key takeaways from El-Sayed, Rogers clash",
+       "url": "https://www.aljazeera.com/news/2026/10/22/michigan-senate-debate-key-takeaways-from-el-sayed-rogers-clash?traffic_source=rss",
        "official": false
       }
      ]
@@ -840,79 +936,115 @@
    "name": "World",
    "stories": [
     {
-     "id": "71fc5f663546",
-     "title": "Russia to dispatch first diesel tanker to the U.S. under Trump-brokered deal",
-     "summary": "Moscow confirmed it will send its first cargo of diesel fuel to an undisclosed U.S. port following an agreement brokered with Washington.",
-     "importance": 3,
+     "id": "0a197c8f7f3c",
+     "title": "Pope Leo XIV Does Not Need Further Cancer Treatment",
+     "summary": "Doctors confirmed that Pope Leo's lung cancer surgery was entirely successful and he requires no additional therapy.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-21T14:54:55Z",
-     "outlet_count": 3,
+     "published": "2026-10-21T23:47:00Z",
+     "outlet_count": 7,
      "sources": [
       {
-       "outlet": "Just the News",
-       "title": "Russia to send first diesel shipment to U.S. on Thursday under Trump-brokered deal with Putin",
-       "url": "https://justthenews.com/index%2Ephp/politics-policy/energy/russia-send-first-diesel-shipment-us-thursday-under-trump-brokered-deal?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "outlet": "Sky News: World",
+       "title": "Pope Leo's doctors say tests show he needs no further treatment for lung cancer",
+       "url": "https://news.sky.com/story/pope-leos-doctors-say-tests-show-he-needs-no-further-treatment-for-lung-cancer-13602031",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "Pope needs no further treatment for lung cancer, his doctors say",
+       "url": "https://www.cbc.ca/news/world/pope-lung-cancer-treatment-update-9.7390464?cmp=rss",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: Latin America",
+       "title": "Pope does not need further treatment after lung cancer surgery",
+       "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
        "outlet": "CNA: World (Singapore)",
-       "title": "Russia says it will send first diesel cargo to US on Thursday",
-       "url": "https://www.channelnewsasia.com/world/russia-diesel-cargo-us-shipments-6478716",
+       "title": "Pope will not need therapy after cancer surgery: Doctors",
+       "url": "https://www.channelnewsasia.com/world/pope-leo-cancer-lung-operation-therapy-6480336",
        "official": false
       },
       {
-       "outlet": "Al Jazeera",
-       "title": "Russia to send first diesel tanker to the US amid Trump deal",
-       "url": "https://www.aljazeera.com/economy/2026/10/21/russia-to-send-first-diesel-tanker-to-the-us-amid-trump-deal?traffic_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "4d2a05a00562",
-     "title": "Drone strike in Sudan's Abyei kills over 150 people",
-     "summary": "Intensifying civil war combat saw a devastating drone strike hit an Abyei market, resulting in massive civilian casualties.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-21T15:32:29Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Sudan drone strike kills around 150 in Abyei market",
-       "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
+       "outlet": "France 24: Europe",
+       "title": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
+       "url": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer",
        "official": false
       },
       {
        "outlet": "New York Times: World",
-       "title": "Drone Strike Kills More Than 150 in Abyei in Sudan’s Civil War",
-       "url": "https://www.nytimes.com/2026/10/21/world/africa/sudan-drone-strikes.html",
+       "title": "Pope Needs No Further Treatment for Lung Cancer, Doctors Say",
+       "url": "https://www.nytimes.com/2026/10/21/world/europe/pope-leo-cancer.html",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Pope Leo will not need further cancer treatment",
+       "url": "https://www.dw.com/en/pope-leo-will-not-need-further-cancer-treatment-vatican/a-79727154?maca=en-rss-en-all-1573-rdf",
        "official": false
       }
      ]
     },
     {
-     "id": "b7dd8396ecb6",
-     "title": "Emmanuel Macron condemns foreign leaders' comments regarding French unrest",
-     "summary": "French President Macron accused Donald Trump and other international figures of spreading misleading information about ongoing protests in France.",
+     "id": "b7afb84a138b",
+     "title": "El Salvador Warns Haitian Gangs Over Abducted Soldiers",
+     "summary": "President Nayib Bukele issued a harsh warning to Haitian gangs after four members of a security force were abducted.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-21T14:44:56Z",
-     "outlet_count": 2,
+     "published": "2026-10-22T10:17:48Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "BBC News: World",
-       "title": "Macron accuses foreign leaders of exploiting French riots",
-       "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+       "outlet": "New York Times: World",
+       "title": "El Salvador’s President Issues Harsh Warning to Haitian Gangs After 4 Soldiers Are Abducted",
+       "url": "https://www.nytimes.com/2026/10/21/world/americas/el-salvador-military-haiti-gangs.html",
        "official": false
       },
       {
-       "outlet": "The Guardian: World",
-       "title": "Macron accuses Trump and other foreign leaders of ‘stupid comments’ about France unrest",
-       "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+       "outlet": "TheBlaze",
+       "title": "El Salvador launches operation to rescue hostages from Haitian gangs — President Bukele threatens to escalate",
+       "url": "https://www.theblaze.com/news/el-salvador-threat-haiti-hostages",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "El Salvador's president threatens Haitian gangs over military hostages",
+       "url": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e4826ead72f9",
+     "title": "US Orders Non-Emergency Diplomats to Leave Saudi Arabia Amid Houthi Threat",
+     "summary": "The U.S. State Department ordered non-emergency government personnel and their families to depart Saudi Arabia due to ongoing Houthi strike threats.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-22T04:10:51Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "US orders some diplomats to leave Saudi Arabia amid Houthi threat",
+       "url": "https://www.dw.com/en/us-orders-some-diplomats-to-leave-saudi-arabia-amid-houthi-threat/a-79727353?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Oil rises as U.S. orders diplomats to leave Saudi Arabia amid escalating tensions",
+       "url": "https://www.thehindu.com/news/international/oil-climbs-as-us-orders-diplomats-to-leave-saudi-missions/article71609875.ece",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "US orders diplomats to depart Saudi Arabia amid Houthi strikes",
+       "url": "https://www.channelnewsasia.com/world/us-diplomats-depart-saudi-arabia-houthi-strikes-6480341",
        "official": false
       }
      ]
@@ -923,84 +1055,252 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "62e07bf9b69f",
-     "title": "Russian Su-30 fighter jet crashes during training in Kaliningrad",
-     "summary": "The Russian Defense Ministry reported that a Su-30SM fighter jet crashed during a scheduled training flight in the Kaliningrad region.",
-     "importance": 3,
+     "id": "f58464012e3c",
+     "title": "European Parliament Awards Sakharov Prize to International Criminal Court",
+     "summary": "The European Parliament has awarded its top human rights honor, the Sakharov Prize, to the ICC while the court faces sanctions from the US.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-21T15:28:55Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Russian Su-30SM fighter jet crashes in Kaliningrad Oblast",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/21/8059077/",
-       "official": false
-      },
-      {
-       "outlet": "The Kyiv Independent (Ukraine)",
-       "title": "Russian Su-30 fighter jet crashes in Kaliningrad Oblast during training exercises, Moscow says",
-       "url": "https://kyivindependent.com/russian-su-30-fighter-jet-crashes-in-kaliningrad-oblast-during-training-exercises-moscow-says/",
-       "official": false
-      },
-      {
-       "outlet": "Meduza (Russia)",
-       "title": "Su-30 fighter jet crashes in Russia",
-       "url": "https://meduza.io/en/news/2026/10/21/su-30-fighter-jet-crashes-in-russia",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "39fe1c246d70",
-     "title": "European Parliament far-right group offices searched by prosecutors",
-     "summary": "Law enforcement authorities have executed searches at the offices of a far-right political group within the European Parliament.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-21T14:40:07Z",
-     "outlet_count": 2,
+     "published": "2026-10-22T10:53:26Z",
+     "outlet_count": 10,
      "sources": [
       {
        "outlet": "Politico Europe",
-       "title": "Prosecutor searches far-right group offices in EU Parliament",
-       "url": "https://www.politico.eu/article/patriots-european-parliament-office-search-eu-funds-mismanagement/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "title": "Trump-sanctioned ICC wins EU Parliament’s human rights prize",
+       "url": "https://www.politico.eu/article/icc-wins-eu-parliaments-human-rights-prize/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
        "official": false
       },
       {
        "outlet": "ORF News (Austria)",
-       "title": "Offices of Right-Wing Group in EU Parliament Searched",
-       "url": "https://orf.at/stories/3445773/",
+       "title": "Sakharov Prize goes to International Criminal Court",
+       "url": "https://orf.at/stories/3445842/",
        "official": false,
        "translated_from": "de",
-       "original_title": "Büros rechter Fraktion in EU-Parlament durchsucht"
+       "original_title": "Sacharow-Preis geht an Internationalen Strafgerichtshof"
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "EU's Sakharov Prize won by the International Criminal Court",
+       "url": "https://www.dw.com/en/eu-s-sakharov-prize-won-by-the-international-criminal-court/a-79730914?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "France 24: Europe",
+       "title": "International Criminal Court wins EU's Sakharov human rights prize",
+       "url": "https://www.france24.com/en/europe/20261022-international-criminal-court-wins-eu-s-sakharov-human-rights-prize",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "ICC wins EU’s top human rights prize weeks after Trump sanctions",
+       "url": "https://www.straitstimes.com/world/europe/international-criminal-court-wins-eus-2026-sakharov-prize",
+       "official": false
+      },
+      {
+       "outlet": "El País (Spain)",
+       "title": "International Criminal Court wins European Parliament's 2026 Sakharov Prize",
+       "url": "https://elpais.com/internacional/2026-10-22/el-tribunal-penal-internacional-premio-sajarov-2026-del-parlamento-europeo.html",
+       "official": false,
+       "translated_from": "es",
+       "original_title": "El Tribunal Penal Internacional, premio Sájarov 2026 del Parlamento Europeo"
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "European Parliament's 2026 Sakharov Prize awarded to the International Criminal Court",
+       "url": "https://www.franceinfo.fr/monde/europe/union-europeenne/le-prix-sakharov-2026-du-parlement-europeen-est-attribue-a-la-cour-penale-internationale_8248783.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Le prix Sakharov 2026 du Parlement européen est attribué à la Cour pénale internationale"
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "International Criminal Court receives Sakharov Prize",
+       "url": "https://www.spiegel.de/politik/deutschland/internationaler-strafgerichtshof-erhaelt-sacharow-preis-a-bcedd1bb-4000-4f13-be52-99c22c0538e7#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Internationaler Strafgerichtshof erhält Sacharow-Preis"
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "EU gives top human rights award to ICC amid Trump sanctions",
+       "url": "https://www.scmp.com/news/world/europe/article/3371801/eu-gives-top-human-rights-award-icc-amid-trump-sanctions",
+       "official": false
+      },
+      {
+       "outlet": "ERT News (Greece)",
+       "title": "European Parliament: Sakharov Prize Awarded to the International Criminal Court",
+       "url": "https://www.ertnews.gr/eidiseis/eyropaiko-koinovoulio-to-vraveio-zaxarof-aponemetai-sto-diethnes-poiniko-dikastirio/",
+       "official": false,
+       "translated_from": "el",
+       "original_title": "Ευρωπαϊκό Κοινοβούλιο: Το βραβείο Ζαχάροφ απονέμεται στο Διεθνές Ποινικό Δικαστήριο"
       }
      ]
     },
     {
-     "id": "321785e27a47",
-     "title": "Volodymyr Zelensky calls for a frontline freeze prior to peace talks",
-     "summary": "Ukrainian President Zelensky stated that a ceasefire or a freeze of active combat along the current frontline is a minimum prerequisite for peace negotiations.",
-     "importance": 4,
+     "id": "8d2d84720fbb",
+     "title": "France Reports First Human Case and Death from Shamonda Virus",
+     "summary": "Health authorities in France confirmed the first known human case and fatality from the Shamonda virus, which typically affects farm animals.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-21T14:34:38Z",
-     "outlet_count": 2,
+     "published": "2026-10-22T10:50:32Z",
+     "outlet_count": 5,
      "sources": [
       {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Zelensky wants freeze on frontline as first step of talks",
-       "url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/",
+       "outlet": "Sky News: World",
+       "title": "France reports first Shamonda virus case in human who later died",
+       "url": "https://news.sky.com/story/france-reports-first-shamonda-virus-case-in-human-who-later-died-13602182",
        "official": false
       },
       {
-       "outlet": "franceinfo (France)",
-       "title": "Volodymyr Zelensky Calls for Frontline \"Freeze\" Before Talks Between Ukraine and Russia",
-       "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/le-president-ukrainien-volodymyr-zelensky-appelle-a-un-gel-du-front-avant-des-discussions_8247382.html#xtor=RSS-3-[lestitres]",
+       "outlet": "RTÉ News (Ireland)",
+       "title": "France reports first death of human from Shamonda virus",
+       "url": "https://www.rte.ie/news/world/2026/1022/1596411-shamonda-virus/",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "France confirms first human case of Shamonda virus, previously found only in animals",
+       "url": "https://www.euronews.com/2026/10/22/france-confirms-first-human-case-of-shamonda-virus-previously-found-only-in-animals",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "France reports first human Shamonda virus case, says no health risk",
+       "url": "https://www.channelnewsasia.com/world/france-reports-first-human-shamonda-virus-case-6482136",
+       "official": false
+      },
+      {
+       "outlet": "El País (Spain)",
+       "title": "Man Infected with Shamonda Virus Dies in France in First Known Human Case",
+       "url": "https://elpais.com/sociedad/2026-10-22/muere-en-francia-un-hombre-infectado-por-el-virus-shamonda-en-el-primer-caso-conocido-en-un-ser-humano.html",
        "official": false,
-       "translated_from": "fr",
-       "original_title": "Volodymyr Zelensky appelle à \"un gel\" du front avant des discussions entre l'Ukraine et la Russie"
+       "translated_from": "es",
+       "original_title": "Muere en Francia un hombre infectado por el virus Shamonda en el primer caso conocido en un ser humano"
+      }
+     ]
+    },
+    {
+     "id": "eb239ae27676",
+     "title": "Russia and Ukraine Trade Heavy Strikes Following Talks",
+     "summary": "Kyiv and Moscow exchanged extensive drone and missile strikes, injuring dozens, despite recent diplomatic talks mediated by US officials.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-22T10:14:23Z",
+     "outlet_count": 9,
+     "sources": [
+      {
+       "outlet": "BBC News: Europe",
+       "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+       "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "France 24: Europe",
+       "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+       "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+       "official": false
+      },
+      {
+       "outlet": "RealClearPolitics",
+       "title": "Is Russia Interested in Ukraine Peace Talks?",
+       "url": "https://www.realclearpolitics.com/2026/10/21/is_russia_interested_in_ukraine_peace_talks_714876.html",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Who speaks for Europe in the Ukraine peace talks?",
+       "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/who-speaks-for-europe-in-the-ukraine-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Ukraine, Russia trade strikes after Witkoff talks",
+       "url": "https://www.dw.com/en/ukraine-russia-trade-strikes-after-witkoff-talks/a-79727542?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Russia pounds Kyiv with missiles and drones, hours after agreeing to peace talks",
+       "url": "https://www.yahoo.com/news/world/articles/russia-pounds-ukraines-capital-kyiv-071241165.html",
+       "official": false
+      },
+      {
+       "outlet": "New York Post",
+       "title": "Russia pounds Ukraine’s capital Kyiv with missiles and drones, hours after agreeing to peace talks",
+       "url": "https://nypost.com/2026/10/22/world-news/russia-pounds-ukraines-capital-kyiv-with-missiles-and-drones-hours-after-agreeing-to-peace-talks/",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-and-ukraine-trade-attacks-despite-pledging-to-resume-peace-talks?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "Russia bombards Kyiv with missiles – hours after agreeing to resume talks with Ukraine",
+       "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "91d5bcd2d63e",
+     "title": "Palantir Confirms NATO AI Maven Platform Lacks a Kill Switch",
+     "summary": "Software firm Palantir clarified that neither it nor the US government maintains a kill switch for the Maven platform used by NATO, addressing European sovereignty concerns.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-22T10:28:31Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Palantir says that neither the company nor the US government has a \"kill switch\" for its Maven platform that NATO uses, after Ukraine's Starlink disruptions (Andrew Gray/Reuters)",
+       "url": "https://www.techmeme.com/261022/p13#a261022p13",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Palantir says NATO AI system has no ‘kill switch’ after Starlink disruptions in Ukraine",
+       "url": "https://www.euronews.com/2026/10/22/palantir-says-nato-ai-system-has-no-kill-switch-after-starlink-disruptions-in-ukraine",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5f92029db692",
+     "title": "Austrian Woman Kidnapped in Niger in 2025 Freed",
+     "summary": "The Austrian Foreign Ministry confirmed that Eva Gretzmacher, abducted in Niger in January 2025, has been safely released.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Europe",
+     "published": "2026-10-22T10:35:28Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Austrian, Swiss women kidnapped in Niger are freed",
+       "url": "https://www.dw.com/en/austrian-swiss-women-kidnapped-in-niger-are-freed-report/a-79727419?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Austrian woman kidnapped in Niger freed",
+       "url": "https://orf.at/stories/3445843/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "In Niger entführte Österreicherin frei"
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Austrian woman kidnapped in Niger freed",
+       "url": "https://orf.at/stories/3445840/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "In Niger entführte Österreicherin frei"
       }
      ]
     }
@@ -1010,100 +1310,64 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "925998f9f2eb",
-     "title": "Japanese municipalities take web services offline over PHP vulnerability",
-     "summary": "Cities such as Sapporo temporarily suspended parts of their official web infrastructure as a precautionary measure against the newly disclosed PHP flaws.",
-     "importance": 3,
+     "id": "9eed80e78f41",
+     "title": "Taiwan's First-Ever Semiconductor Strike Hits Micron Plant",
+     "summary": "Workers at Micron Technology in Taiwan initiated the semiconductor industry's first-ever labor strike to demand a regular profit-sharing scheme.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-21T15:10:10Z",
+     "published": "2026-10-22T11:00:57Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Prime Minister Takaichi's \"Urgent Request\" Regarding PHP Vulnerability",
-       "url": "https://mainichi.jp/articles/20261021/k00/00m/010/382000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "高市首相「大至急のお願い」 プログラミング言語PHPの脆弱性で"
-      },
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Critical Vulnerability Found in Programming Language PHP, Sites Suspended as Precaution",
-       "url": "http://www.asahi.com/articles/ASVBP4CXWVBPUTIL02TM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "プログラミング言語「PHP」に重大な脆弱性 予防でサイト休止も"
-      },
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Sapporo City Temporarily Suspends Official Website Due to Discovered PHP Vulnerability as Preventive Measure",
-       "url": "https://mainichi.jp/articles/20261022/k00/00m/310/001000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "札幌市が公式ホームページ一時停止 PHP脆弱性発見で予防措置"
-      }
-     ]
-    },
-    {
-     "id": "97a5347095ba",
-     "title": "Iwai Cosmo Securities hit by unauthorized trades following cyberattack",
-     "summary": "Japanese brokerage firm Iwai Cosmo Securities suffered an unauthorized cyberattack that resulted in unintended customer trades.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-21T15:53:10Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Unauthorized access at Iwai Cosmo Securities results in unintended customer trades",
-       "url": "https://mainichi.jp/articles/20261021/k00/00m/040/386000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "岩井コスモ証券に不正アクセス 顧客の意図しない売買注文が成立"
+       "outlet": "Techmeme",
+       "title": "A Micron labor union staged Taiwan's first-ever strike in the semiconductor industry on Thursday, demanding a regular profit-sharing scheme for its employees (Nikkei Asia)",
+       "url": "https://www.techmeme.com/261022/p4#a261022p4",
+       "official": false
       },
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan brokerage IwaiCosmo hit with unauthorized trades in cyberattack",
-       "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-brokerage-iwaicosmo-hit-with-unauthorized-trades-in-cyberattack",
+       "title": "Taiwan's first-ever chip workers strike hits Micron plant",
+       "url": "https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-hits-micron-plant",
        "official": false
       }
      ]
     },
     {
-     "id": "5a61dfe700e7",
-     "title": "Akita prefecture issues special flood warning after river overflow",
-     "summary": "Japan's Meteorological Agency issued a Level 5 special flood emergency warning following the overflow of Akita's Koyoshi River.",
+     "id": "f65f893a531c",
+     "title": "KDDI Affiliate Apologizes for Massive Mongolian Steppe Fire",
+     "summary": "A KDDI-affiliated company issued an official apology after a fire originating from its operations burned an area in the Mongolian steppe twice the size of Tokyo.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-21T14:12:18Z",
+     "published": "2026-10-22T10:49:23Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Akita's Koyoshi River floods after overflow confirmed, Level 5 flood emergency warning issued",
-       "url": "https://mainichi.jp/articles/20261021/k00/00m/040/366000c",
+       "title": "KDDI-Affiliated Company Apologizes for Mongolian Steppe Fire That Burned Area Twice the Size of Tokyo",
+       "url": "https://mainichi.jp/articles/20261022/k00/00m/030/208000c",
        "official": false,
        "translated_from": "ja",
-       "original_title": "秋田・子吉川が氾濫、越水を確認 レベル5氾濫特別警報発表"
-      },
+       "original_title": "モンゴル草原火災でKDDI関連企業が謝罪 東京都2個分が焼失"
+      }
+     ]
+    },
+    {
+     "id": "cb0b601771c2",
+     "title": "Bank of Japan Expected to Hold Interest Rate at 1.25%",
+     "summary": "The Bank of Japan is widely anticipated to maintain its key interest rate at 1.25% during its policy meeting next week.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-22T11:00:57Z",
+     "outlet_count": 1,
+     "sources": [
       {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Level 5 Special Flood Warning Issued for Akita's Koyoshi River, Meteorological Agency Urges Safety Precautions",
-       "url": "https://mainichi.jp/articles/20261021/k00/00m/040/351000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "秋田・子吉川にレベル5氾濫特別警報 気象庁が安全確保呼びかけ"
-      },
-      {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Akita: Koyoshi River Flooding, No Injury Reports, Level 5 Special Flood Warning",
-       "url": "https://mainichi.jp/articles/20261021/k00/00m/040/391000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "秋田・子吉川の氾濫、けが人の情報なし レベル5氾濫特別警報"
+       "outlet": "Nikkei Asia",
+       "title": "BOJ to hold rate at 1.25% at meeting next week",
+       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-to-hold-rate-at-1.25-at-meeting-next-week",
+       "official": false
       }
      ]
     }
@@ -1113,133 +1377,79 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "89965ec6a38f",
-     "title": "Constitutional Court blocks audit exclusion for Representative Lee Jin-sook",
-     "summary": "South Korea's Constitutional Court ruled that Representative Lee Jin-sook must be allowed to attend parliamentary audit proceedings.",
+     "id": "548f64ec22ba",
+     "title": "Parliamentary Committee Adopts Confirmation Report for Special Inspector Nominee",
+     "summary": "A parliamentary committee adopted a confirmation hearing report for a special inspector nominee, paving the way for the nation's first presidential watchdog in a decade.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-21T15:47:00Z",
+     "published": "2026-10-22T10:57:02Z",
      "outlet_count": 3,
      "sources": [
       {
        "outlet": "Yonhap News",
-       "title": "Constitutional Court allows Rep. Lee Jin-sook to attend parliamentary audit",
-       "url": "https://en.yna.co.kr/view/AEN20261021011100320",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Constitutional Court allows Rep. Lee Jin-sook to attend parliamentary audit",
-       "url": "https://www.koreaherald.com/article/10910541",
-       "official": false
-      },
-      {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "'Lee Jin-sook audit exclusion' blocked by Constitutional Court",
-       "url": "https://www.chosun.com/politics/assembly/2026/10/22/DUHNMKVHEJCABEIWVPTWFD45AI/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "‘이진숙 국감 제척’ 헌재가 제동 걸어"
-      }
-     ]
-    },
-    {
-     "id": "c3815e0dfb8d",
-     "title": "Police seek arrest warrant for Seoul arson suspect",
-     "summary": "South Korean police have sought a formal arrest warrant for a man accused of setting fires at two commercial buildings in southern Seoul, injuring 19 people.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-21T13:02:55Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Police seek arrest warrant for man over Seoul arson attacks that injured 19",
-       "url": "https://en.yna.co.kr/view/AEN20261021003451315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Police seek arrest warrant for man over Seoul arson attacks that injured 19",
-       "url": "https://www.koreaherald.com/article/10910540",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bf3f57f1a4f6",
-     "title": "Appeals court gives former Moon administration officials suspended sentences over North Korean repatriation",
-     "summary": "An appeals court handed down suspended prison terms to three former high-ranking officials regarding the 2019 forced repatriation of two North Korean defectors.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-21T07:39:05Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "Court sentences 3 ex-officials to suspended prison terms over 2019 deportation of N. Koreans",
-       "url": "https://en.yna.co.kr/view/AEN20261021007900315",
+       "title": "Parliamentary committee adopts confirmation report for special inspector nominee",
+       "url": "https://en.yna.co.kr/view/AEN20261022009700315",
        "official": false
       },
       {
        "outlet": "KBS World",
-       "title": "Ex-Officials Get Suspended Terms over 2019 Repatriation of 2 N. Koreans",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205024",
+       "title": "Assembly Finalizes Confirmation Hearing Report for Special Inspector General Nominee",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205057",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Parliamentary committee adopts confirmation report for special inspector nominee",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261022/parliamentary-committee-adopts-confirmation-report-for-special-inspector-nominee?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "2afdb80494a5",
-     "title": "President Lee Jae Myung cites AI consultation in Cabinet meeting defense",
-     "summary": "President Lee publicly defended plans to invite newly appointed agency chiefs to Cabinet meetings by noting he had consulted Google's Gemini AI on the legality.",
+     "id": "84f1d032fb1d",
+     "title": "Constitutional Court Upholds Harsher Penalties for Parricide",
+     "summary": "South Korea's Constitutional Court ruled that criminal code provisions imposing heavier punishments for murdering family members remain constitutional.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "Korea",
-     "published": "2026-10-21T15:48:00Z",
-     "outlet_count": 2,
+     "published": "2026-10-22T10:57:02Z",
+     "outlet_count": 3,
      "sources": [
       {
        "outlet": "The Korea Herald",
-       "title": "President uses Gemini to defend plans to invite prosecution chiefs to Cabinet meetings",
-       "url": "https://www.koreaherald.com/article/10910509",
+       "title": "Constitutional Court upholds harsher penalties for killing parents",
+       "url": "https://www.koreaherald.com/article/10911862",
        "official": false
       },
       {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "President Lee: 'Cabinet attendance of the head of the Serious Crimes Investigation Agency is possible, I asked AI'",
-       "url": "https://www.chosun.com/jp/politics-national-jp/2026/10/22/LORAVX3OFFFJXENSZG65CITMZA/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "李大統領「重大犯罪捜査庁長の閣議出席可、AIに聞いた」"
+       "outlet": "KBS World",
+       "title": "Constitutional Court Upholds Harsher Punishment for Parricide",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205060",
+       "official": false
       },
       {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "'Head of Serious Crimes Investigation Agency can attend Cabinet meetings,' President says he asked AI",
-       "url": "https://www.chosun.com/politics/politics_general/2026/10/22/J4M2IOX5UREJ7JDB2W5QREXLFY/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "“중수청장 국무회의 참석 가능” AI에 물어봤다는 대통령"
+       "outlet": "The Korea Times",
+       "title": "Constitutional Court says heavier penalty for parricide constitutional",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261022/constitutional-court-says-heavier-penalty-for-parricide-constitutional?utm_source=rss",
+       "official": false
       }
      ]
     },
     {
-     "id": "8559b237cea2",
-     "title": "President Lee meets with WHO Director-General to discuss healthcare cooperation",
-     "summary": "South Korean President Lee Jae Myung held discussions with the head of the World Health Organization regarding international healthcare partnerships.",
+     "id": "1f0dd0b824e5",
+     "title": "Researchers Develop Technology to Disrupt Lip-Sync Deepfakes",
+     "summary": "A joint academic team from Soongsil University and Chung-Ang University has created detection and disruption technology targeting AI-generated lip-sync deepfakes.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-21T13:19:26Z",
+     "published": "2026-10-22T10:57:02Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Lee meets with WHO chief to discuss cooperation in healthcare",
-       "url": "https://en.yna.co.kr/view/AEN20261021002551315",
+       "outlet": "The Korea Times",
+       "title": "Soongsil University, Chung-Ang University team develops technology to disrupt lip-sync deepfakes",
+       "url": "https://www.koreatimes.co.kr/southkorea/education/20261022/soongsil-university-chung-ang-university-team-develops-technology-to-disrupt-lip-sync-deepfakes?utm_source=rss",
        "official": false
       }
      ]
@@ -1250,109 +1460,37 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "0cd98048f688",
-     "title": "Gravity Rush Remastered (PS4/PS5) for $14.99 on PlayStation Store",
-     "summary": "Grab Gravity Rush Remastered on digital PlayStation Store for a discounted price of $14.99.",
-     "importance": 2,
+     "id": "b19edd8a814f",
+     "title": "Save $11 on GTA 6 Preorders",
+     "summary": "Shoppers can secure an $11 discount on Grand Theft Auto 6 preorders by following promotional steps, available today only.",
+     "importance": 1,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-21T13:38:24Z",
+     "published": "2026-10-21T19:40:49Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wario64",
-       "title": "Gravity Rush Remastered is $14.99 on US PSN buff.ly/4e4atn4 PS4 physical $56.86 at VGP buff.ly/0rQW2cF #ad",
-       "url": "https://buff.ly/4e4atn4",
+       "outlet": "IGN",
+       "title": "You Can Save $11 Off GTA 6 Preorders, Today Only",
+       "url": "https://www.ign.com/articles/you-can-save-11-off-gta-6-preorders-today-only",
        "official": false
       }
      ]
     },
     {
-     "id": "82d2a9e7e8da",
-     "title": "Nintendo Switch Online 12-Month Family Membership for $31.49",
-     "summary": "Newegg is discounting a 12-month Nintendo Switch Online Family Membership code down to $31.49 using promo code EMCF3473.",
-     "importance": 2,
+     "id": "946c6d171c79",
+     "title": "Cult of the Lamb Discounted Across Platforms",
+     "summary": "Cult of the Lamb is currently marked down to $12.49 on GOG and $9.99 on US PSN and the Nintendo eShop ahead of its Switch 2 upgrade.",
+     "importance": 1,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-21T15:36:02Z",
+     "published": "2026-10-21T21:08:11Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Nintendo Switch Online Family Membership 12 Month Code is $31.49 on Newegg w/ code EMCF3473 buff.ly/jqwPzbf #ad",
-       "url": "https://buff.ly/jqwPzbf",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "f2fe187df7ec",
-     "title": "Nintendo eShop $100 Gift Card Code for $88",
-     "summary": "Newegg offers a $100 Nintendo eShop gift card digital code for $88 with coupon code GTWF825.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-21T14:41:26Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Nintendo eShop $100 Gift Card Code is $88 on Newegg w/ code GTWF825 buff.ly/pXbtEkL #ad eShop balance works on Nintendo Store (hardware, consoles, physical games, etc.) Wallet limit is $800",
-       "url": "https://buff.ly/pXbtEkL",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9c618b09ce0b",
-     "title": "Shadow of the Colossus (2018) for $4.99 on PlayStation Store",
-     "summary": "The PS4 remake of Shadow of the Colossus is currently marked down to $4.99 on the US PlayStation Store.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-21T14:44:05Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Shadow of the Colossus (2018) is $4.99 on US PSN buff.ly/3VnvHpp",
-       "url": "https://buff.ly/3VnvHpp",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c2077b71e771",
-     "title": "Five Nights at Freddy's: Into the Pit (PS5) for $15 on Amazon",
-     "summary": "Amazon has discounted the physical PS5 version of Five Nights at Freddy's: Into the Pit to $15.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-21T13:34:27Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Five Nights at Freddy's: Into the Pit (PS5) is $15 on Amazon amzn.to/49Wn6Ce #ad",
-       "url": "https://amzn.to/49Wn6Ce",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "7b4a1b4f7df9",
-     "title": "Strange Brigade - Deluxe Edition (Steam) for $3.99",
-     "summary": "Fanatical is selling the Steam PC version of Strange Brigade Deluxe Edition for $3.99.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-21T15:01:34Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Strange Brigade - Deluxe Edition (Steam) is $3.99 on Fanatical buff.ly/sgD6WeH #ad",
-       "url": "https://buff.ly/sgD6WeH",
+       "title": "Cult of the Lamb is $12.49 on GOG buff.ly/bK83hPk #ad $9.99 US PSN buff.ly/abpNYRR $9.99 US eShop (free Switch 2 upgrade out tomorrow) buff.ly/p3s7Kld",
+       "url": "https://buff.ly/bK83hPk",
        "official": false
       }
      ]
@@ -1360,15 +1498,15 @@
    ]
   }
  ],
- "date": "2026-10-21",
- "generated_at": "2026-10-21T15:53:10Z",
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22T11:00:57Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 926,
-  "clusters": 830,
-  "feeds_ok": 173,
-  "feeds_failed": 3
+  "items": 1210,
+  "clusters": 1057,
+  "feeds_ok": 174,
+  "feeds_failed": 2
  },
  "feed_health": [
   {
@@ -1378,22 +1516,16 @@
    "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
   },
   {
+   "key": "hn-claude",
+   "title": "HN: Claude/Anthropic",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=Claude+OR+Anthropic&points=50"
+  },
+  {
    "key": "wapo-politics",
    "title": "The Washington Post: Politics",
    "status": "error",
    "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
-  },
-  {
-   "key": "thejournal",
-   "title": "TheJournal.ie (Ireland)",
-   "status": "error",
-   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.thejournal.ie/feed/"
-  },
-  {
-   "key": "dutchnews",
-   "title": "DutchNews.nl (Netherlands)",
-   "status": "error",
-   "detail": "HTTPError: 404 Client Error: Not Found for url: https://www.dutchnews.nl/feed/"
   },
   {
    "key": "corriere",
