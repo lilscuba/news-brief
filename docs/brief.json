@@ -1,261 +1,327 @@
 {
  "version": 1,
- "headline": "Mass Effect's cancelled universe trailer leaks following BioWare's closure, OpenAI targets a $1.25 trillion valuation in a massive $30 billion raise, and major geopolitical tensions grip Europe and Asia.",
+ "headline": "Apple launches the foldable iPhone Duo as global markets react to tech developments, regulatory actions, and major industry shifts.",
  "top": [
   {
-   "id": "23afc5a16a89",
-   "title": "Leaked Internal Trailer Confirms Cancelled Mass Effect Project Following BioWare's Closure",
-   "summary": "An internal trailer for the cancelled Mass Effect game developed at BioWare before its studio closure has surfaced online and been verified as real, giving fans a glimpse of what was lost.",
+   "id": "0c2beb5105dc",
+   "title": "Apple Releases the Foldable iPhone Duo and iOS 27.1",
+   "summary": "Apple has officially released its first foldable smartphone, the iPhone Duo, alongside an exclusive iOS 27.1 software update. The launch has driven lines at Apple Stores worldwide and pushed Apple to reclaim the title of the world's most valuable company.",
    "importance": 5,
-   "label": "REPORTED",
-   "category": "Gaming",
-   "published": "2026-10-23T09:11:49Z",
-   "outlet_count": 10,
-   "sources": [
-    {
-     "outlet": "Kotaku",
-     "title": "A Convincing Trailer For What May Have Been Mass Effect 5 Has Leaked [UPDATE: It’s Real]",
-     "url": "https://kotaku.com/mass-effect-5-universe-leaked-trailer-liara-bioware-2000748858",
-     "official": false
-    },
-    {
-     "outlet": "Gematsu",
-     "title": "Rumor: Canceled Mass Effect: Universe trailer leaked",
-     "url": "https://www.gematsu.com/2026/10/rumor-canceled-mass-effect-universe-trailer-leaked",
-     "official": false
-    },
-    {
-     "outlet": "PC Gamer",
-     "title": "Someone leaked a Mass Effect 5 trailer and now I feel even worse, because it looks really good",
-     "url": "https://www.pcgamer.com/games/mass-effect/someone-leaked-a-mass-effect-5-trailer-and-now-i-feel-even-worse-because-it-looks-really-good/",
-     "official": false
-    },
-    {
-     "outlet": "Pure Xbox",
-     "title": "'Mass Effect Universe' Trailer Suddenly Appears Online Following BioWare Closure",
-     "url": "https://www.purexbox.com/news/2026/10/mass-effect-universe-trailer-suddenly-appears-online-following-bioware-closure",
-     "official": false
-    },
-    {
-     "outlet": "VGC",
-     "title": "Mass Effect Universe trailer leaks online, showcases what BioWare was working on before being shut down",
-     "url": "https://www.videogameschronicle.com/news/mass-effect-universe-trailer-leaks-online-showcases-what-bioware-was-working-on-before-being-shut-down/",
-     "official": false
-    },
-    {
-     "outlet": "Kotaku",
-     "title": "Mass Effect 5’s Leaked Trailer: 9 Things We Noticed",
-     "url": "https://kotaku.com/mass-effect-5-universe-leak-trailer-breakdown-liara-bioware-2000748896",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "The trailer for Mass Effect 5 has leaked and unfortunately it looks good",
-     "url": "https://www.engadget.com/2294768/the-trailer-for-mass-effect-5-has-leaked-and-unfortunately-it-looks-good/",
-     "official": false
-    },
-    {
-     "outlet": "Ars Technica",
-     "title": "Leaked Mass Effect: Universe trailer gives a taste of what we're all missing",
-     "url": "https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/",
-     "official": false
-    },
-    {
-     "outlet": "Push Square",
-     "title": "Leaked Mass Effect 5 Trailer Is Real, Offers Glimpse of Cancelled Game",
-     "url": "https://www.pushsquare.com/news/2026/10/leaked-mass-effect-5-trailer-is-real-offers-glimpse-of-cancelled-game",
-     "official": false
-    },
-    {
-     "outlet": "Nintendo Life",
-     "title": "Mass Effect: Universe Trailer Leaked Online As BioWare Shuts Down",
-     "url": "https://www.nintendolife.com/news/2026/10/mass-effect-universe-trailer-leaked-online-as-bioware-shuts-down",
-     "official": false
-    },
-    {
-     "outlet": "Eurogamer",
-     "title": "Flashy internal trailer for now-cancelled Mass Effect Universe appears online, following EA's closure of BioWare",
-     "url": "https://www.eurogamer.net/mass-effect-universe-trailer-leak-real",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "4c585eb6c93a",
-   "title": "OpenAI Seeks Up to $30 Billion at a Lowered $1.25 Trillion Valuation Ahead of Potential IPO",
-   "summary": "OpenAI has lowered its valuation target to $1.25 trillion after meeting resistance from investors, as it closes in on a massive funding round of up to $30 billion.",
-   "importance": 5,
-   "label": "REPORTED",
+   "label": "CONFIRMED",
    "category": "Tech",
-   "published": "2026-10-23T09:49:38Z",
+   "published": "2026-10-23T15:35:00Z",
    "outlet_count": 3,
    "sources": [
     {
-     "outlet": "TechCrunch",
-     "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "outlet": "MacRumors",
+     "title": "iPhone Duo Says 'Hello' to You Personally",
+     "url": "https://www.macrumors.com/2026/10/23/iphone-duo-says-hello-to-you-personally/",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors (Financial Times)",
-     "url": "https://www.techmeme.com/261022/p55#a261022p55",
+     "outlet": "9to5Mac",
+     "title": "iPhone Duo launch day: Lines form at Apple Stores, walk-in availability limited",
+     "url": "https://9to5mac.com/2026/10/23/iphone-duo-launch-day-lines-form-at-apple-stores-walk-in-availability-limited/",
      "official": false
     },
     {
-     "outlet": "The Decoder",
-     "title": "OpenAI lowers valuation target, raises up to $30 billion",
-     "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+     "outlet": "9to5Mac",
+     "title": "Apple overtakes Nvidia as most valuable company in the world on iPhone Duo launch day",
+     "url": "https://9to5mac.com/2026/10/23/apple-overtakes-nvidia-as-most-valuable-company-in-the-world-on-iphone-duo-launch-day/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "iOS 27.1 is exclusive to iPhone Duo, here’s why",
+     "url": "https://9to5mac.com/2026/10/23/ios-27-1-is-exclusive-to-iphone-duo-heres-why/",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "John Ternus welcomes iPhone Duo line at Austin Apple Store",
+     "url": "https://appleinsider.com/articles/26/10/23/john-ternus-welcomes-iphone-duo-line-at-austin-apple-store?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Released iOS 27.1 for iPhone Duo Only",
+     "url": "https://www.macrumors.com/2026/10/23/apple-releases-ios-27-1/",
      "official": false
     }
    ]
   },
   {
-   "id": "f6021d3ca181",
-   "title": "Powerful Magnitude-7 Earthquake Hits Northern Tibet, Leaving At Least 16 Dead",
-   "summary": "A powerful magnitude-7 earthquake struck Tibet, killing at least 16 people, injuring over 50 others, and destroying hundreds of homes as search and rescue operations continue.",
+   "id": "4ead7a54f3ce",
+   "title": "Melania Trump Brokers Localized Russia-Ukraine Ceasefire in Oleshky",
+   "summary": "The White House announced that First Lady Melania Trump's office has successfully secured a temporary, localized ceasefire for the Russian-occupied Ukrainian city of Oleshky.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-23T07:53:58Z",
-   "outlet_count": 6,
+   "category": "Europe",
+   "published": "2026-10-23T15:33:39Z",
+   "outlet_count": 16,
    "sources": [
     {
-     "outlet": "CBC News: World",
-     "title": "Tibet earthquake kills at least 16",
-     "url": "https://www.cbc.ca/news/world/tibet-earthquake-9.7392563?cmp=rss",
+     "outlet": "Just the News",
+     "title": "Melania Trump brokers local humanitarian ceasefire in Ukrainian city",
+     "url": "https://justthenews.com/index%2ephp/politics-policy/melania-trump-brokers-local-humanitarian-ceasefire-ukrainian-city?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
      "official": false
     },
     {
-     "outlet": "The Copenhagen Post (Denmark)",
-     "title": "At least 16 killed and 32 injured as magnitude 7.0 earthquake strikes Tibet",
-     "url": "https://cphpost.dk/2026-10-23/global/at-least-16-killed-and-32-injured-as-magnitude-7-0-earthquake-strikes-tibet/",
+     "outlet": "Yahoo News",
+     "title": "Melania Trump secures ceasefire in Russian-held Ukrainian city, White House says",
+     "url": "https://www.newsmax.com/World/globaltalk/melania-trump-ukraine-russia/2026/10/23/id/1273765",
      "official": false
     },
     {
-     "outlet": "CBS News",
-     "title": "At least 16 people killed by powerful earthquake in Tibet",
-     "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/",
-     "official": false
-    },
-    {
-     "outlet": "BBC News: World",
-     "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-     "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "New York Times: World",
-     "title": "Powerful Earthquake in Tibet Kills at Least 16",
-     "url": "https://www.nytimes.com/2026/10/22/world/asia/earthquake-tibet-china.html",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: World",
-     "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
-     "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "9628a12df6b9",
-   "title": "Suspect Arrested in Paris Suburb Following Deadly Shooting Prompting Anti-Terrorism Probe",
-   "summary": "One person was killed and at least four others were wounded in a shooting west of Paris, prompting the national anti-terrorism prosecutor's office to take over the investigation.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-23T10:48:56Z",
-   "outlet_count": 6,
-   "sources": [
-    {
-     "outlet": "Sky News: World",
-     "title": "Terror probe after one killed and several wounded in shooting in Paris suburb",
-     "url": "https://news.sky.com/story/one-dead-and-several-wounded-after-shooting-in-paris-suburb-13602320",
-     "official": false
-    },
-    {
-     "outlet": "Le Monde (France)",
-     "title": "One Dead and Three Wounded in Automatic Weapon Shooting in Trappes and La Verrière; National Anti-Terrorism Prosecutor's Office Takes Over",
-     "url": "https://www.lemonde.fr/societe/article/2026/10/23/dans-les-yvelines-un-mort-et-quatre-blesses-dans-une-fusillade-le-parquet-national-antiterroriste-en-observation-annonce-sebastien-lecornu_6799057_3224.html",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "A Trappes et à La Verrière, un tireur tue une personne et en blesse quatre autres à l’arme automatique ; le Parquet national antiterroriste se saisit de l’enquête"
-    },
-    {
-     "outlet": "ERT News (Greece)",
-     "title": "France: One Dead and Four Injured in Shooting in Paris Suburbs, Suspect Arrested by Anti-Terrorism Police",
-     "url": "https://www.ertnews.gr/eidiseis/diethni/gallia-enas-nekros-kai-tesseris-traymaties-apo-pyrovolismous-sta-proastia-tou-parisiou-synelifthi-o-drastis-anelave-i-antitromokratiki/",
-     "official": false,
-     "translated_from": "el",
-     "original_title": "Γαλλία: Ένας νεκρός και τέσσερις τραυματίες από πυροβολισμούς στα προάστια του Παρισιού – Συνελήφθη ο δράστης, ανέλαβε η Αντιτρομοκρατική"
-    },
-    {
-     "outlet": "Euronews",
-     "title": "Suspect arrested after 1 killed and several injured in a shooting in Paris suburb",
-     "url": "https://www.euronews.com/2026/10/23/suspect-arrested-after-1-killed-and-several-injured-in-a-shooting-in-paris-suburb",
-     "official": false
-    },
-    {
-     "outlet": "The Straits Times: World",
-     "title": "One killed, four injured in drive-by shooting near Paris",
-     "url": "https://www.straitstimes.com/world/europe/one-killed-four-injured-in-drive-by-shooting-near-paris",
-     "official": false
-    },
-    {
-     "outlet": "franceinfo (France)",
-     "title": "Shootings in Trappes: National Antiterrorism Prosecutor's Office takes over the investigation",
-     "url": "https://www.franceinfo.fr/faits-divers/direct-coups-de-feu-dans-les-yvelines-le-parquet-national-antiterroriste-se-place-en-observation-annonce-sebastien-lecornu_8250646.html#xtor=RSS-3-[lestitres]",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "Coups de feu à Trappes : le Parquet national antiterroriste se saisit de l'enquête"
-    }
-   ]
-  },
-  {
-   "id": "7c8371be3660",
-   "title": "South Korea Proposes Military Talks with North Korea to Ease Border Tensions",
-   "summary": "Seoul has officially proposed military talks with Pyongyang to prevent accidental clashes along the Military Demarcation Line amidst rising regional friction.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Korea",
-   "published": "2026-10-23T10:57:04Z",
-   "outlet_count": 6,
-   "sources": [
-    {
-     "outlet": "Yonhap News",
-     "title": "(2nd LD) S. Korea proposes military talks with N. Korea to ease tensions along border",
-     "url": "https://en.yna.co.kr/view/AEN20261023005752315",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "South Korea proposes military talks with North again",
-     "url": "https://www.dw.com/en/south-korea-proposes-military-talks-with-north-again/a-79739208?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "NK News (North Korea)",
-     "title": "Seoul again proposes talks with North Korea on border lines amid rising tensions",
-     "url": "https://www.nknews.org/2026/10/seoul-again-proposes-talks-with-north-korea-on-border-lines-amid-rising-tensions/",
-     "official": false
-    },
-    {
-     "outlet": "The Korea Herald",
-     "title": "S. Korea proposes military talks with N. Korea to ease tensions along border",
-     "url": "https://www.koreaherald.com/article/10913265",
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Breaking: Russia, Ukraine agree to Oleshky ceasefire mediated by Melania Trump, White House says",
+     "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
      "official": false
     },
     {
      "outlet": "Al Jazeera",
-     "title": "South Korea invites North for military talks over border",
-     "url": "https://www.aljazeera.com/news/2026/10/23/south-korea-invites-north-for-military-talks-over-border?traffic_source=rss",
+     "title": "Melania Trump ‘secured ceasefire’ in Ukrainian city of Oleshky: White House",
+     "url": "https://www.aljazeera.com/news/2026/10/23/white-house-says-melania-trump-secured-a-ceasefire-in-ukraines-oleshky?traffic_source=rss",
      "official": false
     },
     {
-     "outlet": "The Korea Times",
-     "title": "S. Korea proposes military talks with N. Korea over border conflict issue",
-     "url": "https://www.koreatimes.co.kr/southkorea/defense/20261023/s-korea-proposes-military-talks-with-n-korea-over-border-conflict-issue?utm_source=rss",
+     "outlet": "Ukrainska Pravda (Ukraine)",
+     "title": "White House claims Melania Trump has secured ceasefire in Oleshky",
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059437/",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "White House: Melania Trump mediated in Oleshky",
+     "url": "https://orf.at/stories/3445987/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Weißes Haus: Melania Trump vermittelte in Oleschky"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Melania Trump secures ceasefire in Russian-occupied Ukrainian city of Oleshky, White House says",
+     "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
+     "official": false
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "Russia, Ukraine agree to ceasefire to evacuate Oleshky residents",
+     "url": "https://meduza.io/en/news/2026/10/23/russia-ukraine-agree-to-ceasefire-to-evacuate-oleshky-residents",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Melania Trump helps secure a ceasefire deal in Russian-occupied Oleshky, the White House says",
+     "url": "https://www.pbs.org/newshour/world/melania-trump-helps-secure-a-ceasefire-deal-in-russian-occupied-oleshky-the-white-house-says",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "Melania Trump says she’s secured ceasefire between Russia and Ukraine in Oleshky",
+     "url": "https://www.washingtonexaminer.com/news/white-house/4777263/melania-trump-ceasefire-russia-ukraine-oleshky/",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Melania Trump claims ceasefire in Russian-held Oleshky",
+     "url": "https://www.rte.ie/news/world/2026/1023/1596633-russia-ukraine/",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Russia and Ukraine agree to local ceasefire in Oleshky amid deepening humanitarian crisis",
+     "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "Melania Trump brokers localized Russia-Ukraine ceasefire, White House says",
+     "url": "https://thehill.com/policy/international/6167822-melania-trump-oleshky-ceasefire/",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+     "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Russia, Ukraine agree to Oleshky ceasefire brokered by Melania Trump, White House says",
+     "url": "https://www.thehindu.com/news/international/russia-ukraine-agree-to-oleshky-ceasefire-brokered-by-melania-trump-white-house-says/article71616736.ece",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Melania Trump secures \"temporary ceasefire\" in Ukrainian city",
+     "url": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "10d1642fff9d",
+   "title": "Deadly Church Shooting in Jordan Leaves at Least Seven Dead",
+   "summary": "Gunmen opened fire during a funeral at a church in Jordan, killing at least seven people and injuring dozens. King Abdullah II vowed the harshest retaliation against the perpetrators.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-23T15:36:20Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "Sky News: World",
+     "title": "Six dead and 28 injured after shooting at church in Jordan",
+     "url": "https://news.sky.com/story/at-least-seven-dead-after-shooting-at-church-in-jordan-reports-13602679",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "At least seven killed after gunmen open fire at church in Jordan",
+     "url": "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Seven killed, 28 injured after gunmen open fire inside a church in Jordan",
+     "url": "https://www.thehindu.com/news/international/gunmen-open-fire-inside-a-church-in-jordan-causing-deaths-and-injuries/article71616413.ece",
+     "official": false
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "At least six dead after church shooting in Jordan",
+     "url": "https://www.franceinfo.fr/monde/moyen-orient/au-moins-sept-morts-apres-une-fusillade-dans-une-eglise-en-jordanie_8250901.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Au moins six morts après une fusillade dans une église en Jordanie"
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Six shot dead by gunmen at church funeral in Jordan, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+     "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Gunmen Open Fire at Church in Jordan, Killing at Least Six",
+     "url": "https://www.nytimes.com/2026/10/23/world/middleeast/jordan-church-shooting.html",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
+     "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "ee5e969f89f4",
+   "title": "France Deploys 70,000 Police Nationwide Ahead of Weekend Protests",
+   "summary": "Following severe urban violence on the fringes of recent cost-of-living demonstrations, French authorities are deploying approximately 70,000 security personnel and extending curtails to prevent further unrest.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-23T15:16:22Z",
+   "outlet_count": 7,
+   "sources": [
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "French authorities seek to ban or curb fresh protests",
+     "url": "https://www.channelnewsasia.com/world/france-weekend-protests-macron-ban-security-police-6483456",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "In the Wake of Riots, the French Authorities Ban Some Protests",
+     "url": "https://www.nytimes.com/2026/10/22/world/europe/france-protests-macron.html",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "France mobilises 70,000 police and gendarmes for Saturday protests",
+     "url": "https://www.rfi.fr/en/france/20261023-france-mobilises-70-000-police-and-gendarmes-for-saturday-protests",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "France deploys 70,000 security personnel ahead of protests",
+     "url": "https://cphpost.dk/2026-10-23/global/france-deploys-70000-security-personnel-ahead-of-protests/",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "French authorities tighten restrictions and ban specific protests",
+     "url": "https://www.france24.com/en/french-authorities-tighten-restrictions-and-ban-specific-protests",
+     "official": false
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "France deploys 70,000 police for new protests as Macron delays Africa trip",
+     "url": "https://www.scmp.com/news/world/europe/article/3371973/france-deploys-70000-police-new-protests-macron-delays-africa-trip",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: Europe",
+     "title": "France to deploy 70,000 police across country on Saturday to prevent unrest",
+     "url": "https://www.theguardian.com/world/2026/oct/23/france-police-demonstrations-civil-unrest",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "b7538bb09be3",
+   "title": "Netanyahu Orders Extensive West Bank Operation Following Fatal Attack",
+   "summary": "Israeli Prime Minister Netanyahu ordered a major military operation and a West Bank closure after a shooting attack left two Israeli soldiers and two suspected gunmen dead.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-23T15:06:27Z",
+   "outlet_count": 6,
+   "sources": [
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Israel orders home demolitions after soldiers killed in West Bank",
+     "url": "https://www.dw.com/en/israel-orders-home-demolitions-after-soldiers-killed-in-west-bank/a-79739292?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "Straight Arrow News",
+     "title": "Netanyahu threatens military operation in West Bank after two Israeli soldiers are killed",
+     "url": "https://san.com/cc/netanyahu-threatens-military-operation-in-west-bank-after-two-israeli-soldiers-are-killed/",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Netanyahu orders West Bank closure, warns of major military operation after attack kills Israeli soldiers",
+     "url": "https://www.thehindu.com/news/international/netanyahu-orders-west-bank-closure-as-attack-wounds-israelis-before-election/article71615850.ece",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Netanyahu orders ‘very extensive’ operation in West Bank after two Israeli soldiers killed",
+     "url": "https://www.theguardian.com/world/2026/oct/23/netanyahu-orders-very-extensive-operation-west-bank-two-israeli-soldiers-killed",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Netanyahu orders major operation in West Bank after two soldiers killed in Palestinian attack",
+     "url": "https://elpais.com/internacional/2026-10-23/el-ejercito-israeli-mata-a-dos-palestinos-armados-tras-un-tiroteo-en-cisjordania.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "Netanyahu ordena una gran operación en Cisjordania tras la muerte de dos soldados en un ataque palestino"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Israeli military says 2 soldiers were killed in the West Bank attack that also left 2 gunmen dead",
+     "url": "https://www.pbs.org/newshour/world/israeli-military-says-2-soldiers-were-killed-in-the-west-bank-attack-that-also-left-2-gunmen-dead",
      "official": false
     }
    ]
@@ -266,74 +332,74 @@
    "name": "AI",
    "stories": [
     {
-     "id": "15c1f8ef7a58",
-     "title": "OpenAI and Poland's NASK Partner on AI Safety and Technical Research",
-     "summary": "OpenAI and Poland's NASK have announced a formal partnership to advance AI safety, security, and digital resilience.",
+     "id": "eec452a718cc",
+     "title": "Anthropic's Claude Automatically Generates Millions of Lines of Proof Code",
+     "summary": "Anthropic demonstrated a new capability where Claude generates mathematical proofs verifying the correctness of existing code, successfully producing roughly 180 million lines of proof code and catching underlying bugs.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-23T11:32:19Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Anthropic's Claude now writes code and proves it safe automatically",
+       "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7909cc8ce05e",
+     "title": "OpenAI Launches Decisions API with Voice and Visual Modalities",
+     "summary": "OpenAI made its Decisions API generally available, featuring new voice and visual modalities priced at $0.10 per million input tokens with no output token charges.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-23T13:25:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "OpenAI makes Decisions API, its Jev competitor, generally available with new voice and visual modalities, at $0.10/1M input tokens and no output-token charges (Tim Fernholz/TechCrunch)",
+       "url": "https://www.techmeme.com/261023/p10#a261023p10",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e9ac2fb87e5d",
+     "title": "Precision Oncology Biotech Pathos AI Raises $237M Series E",
+     "summary": "Pathos AI, a firm utilizing artificial intelligence to develop oncology drugs, has raised a $237 million Series E round at a $3 billion post-money valuation.",
      "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-23T12:40:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Pathos AI, which uses AI to develop oncology drugs, raised a $237M Series E at a $3B post-money valuation, up from $1.6B after its $365M Series D in May 2025 (Katherine Davis/Axios)",
+       "url": "https://www.techmeme.com/261023/p9#a261023p9",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6430909168b5",
+     "title": "Hugging Face Details Model Compatibility with AWS Trainium",
+     "summary": "Hugging Face published a formal guide allowing developers to look up whether their specific machine learning models run on AWS Trainium infrastructure.",
+     "importance": 2,
      "label": "CONFIRMED",
      "category": "AI",
      "published": "2026-10-23T00:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "OpenAI News",
-       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+       "outlet": "Hugging Face Blog",
+       "title": "Does Your Model Run on AWS Trainium? Look It Up",
+       "url": "https://huggingface.co/blog/torch-neuronx-model-support",
        "official": true
-      }
-     ]
-    },
-    {
-     "id": "27825e300358",
-     "title": "OpenAI Launches Decisions App Component API",
-     "summary": "OpenAI has released its new Decisions API, aiming to provide fast, focused, and low-cost decision-making capabilities for software applications.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-22T19:00:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "OpenAI News",
-       "title": "Build more responsive apps with the Decisions API",
-       "url": "https://openai.com/index/decisions-api",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "822412740c4f",
-     "title": "Kazakhstan Expands Infrastructure for AI Deployment",
-     "summary": "Kazakhstan is expanding its compute capabilities, moving its national AI ecosystem from basic infrastructure plans to full model and application deployment.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-23T02:00:13Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "NVIDIA Blog",
-       "title": "Kazakhstan Expands Compute for Its AI Future",
-       "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "49b6eb261a64",
-     "title": "AI Labs Hit Record Lobbying Spends Over Summer",
-     "summary": "Federal disclosures reveal that Anthropic, OpenAI, and Nvidia all posted their highest-spending lobbying quarters between July and September.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-22T15:50:30Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Verge AI",
-       "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-       "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-       "official": false
       }
      ]
     }
@@ -343,151 +409,163 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "4e9bfd07ae02",
-     "title": "Anthropic Partners with Theorem to Formally Verify Assembly-Level Security",
-     "summary": "Anthropic has partnered with Theorem to use Claude to formally prove security properties at the assembly level across more than 100 open-source libraries.",
-     "importance": 4,
+     "id": "9174a0a001c9",
+     "title": "Swedish Government Offices Reportedly Plan to Ban ChatGPT and Claude",
+     "summary": "Reports indicate that Swedish government offices are moving to ban the use of AI tools like ChatGPT and Claude amid security and data concerns.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-23T09:15:03Z",
-     "outlet_count": 2,
+     "published": "2026-10-23T11:39:54Z",
+     "outlet_count": 1,
      "sources": [
       {
        "outlet": "Hacker News (100+ points)",
-       "title": "LLMs are making formal software verification feasible at a much larger scale",
-       "url": "https://www.anthropic.com/research/formal-verification",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "Anthropic says it partnered with Theorem to use Claude to formally prove security properties at the assembly level across 100+ real-world open-source libraries (Anthropic)",
-       "url": "https://www.techmeme.com/261023/p5#a261023p5",
+       "title": "Swedish government offices to ban ChatGPT and Claude",
+       "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
        "official": false
       }
      ]
     },
     {
-     "id": "e3480502faea",
-     "title": "Oura Files Fresh Lawsuit Against Ultrahuman to Block US Ring Pro Sales",
-     "summary": "Oura has filed a new federal lawsuit in Texas against rival smart ring maker Ultrahuman in an effort to block imports of its Ring Pro.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-23T09:59:15Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "TechCrunch",
-       "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback",
-       "url": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "Oura sues Indian smart ring rival Ultrahuman again to block US sales of Ring Pro, months after a redesign helped Ultrahuman return following an import ban (Jagmeet Singh/TechCrunch)",
-       "url": "https://www.techmeme.com/261023/p3#a261023p3",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "Oura sues Ultrahuman (again) to block its latest smart ring from the US market",
-       "url": "https://www.engadget.com/2295042/oura-sues-ultrahuman-yet-again-ring-pro/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "dbed37418bb1",
-     "title": "The Browser Company Announces Arc Browser Will Sunset on December 22",
-     "summary": "The Browser Company has confirmed that the Arc browser will officially shut down on December 22 as the firm shifts its focus entirely toward Dia.",
+     "id": "0f726f8d530a",
+     "title": "Shein Agrees to $100M Settlement Over FTC Delivery Delay Investigation",
+     "summary": "Chinese fast-fashion retailer Shein has reportedly agreed to pay $100 million to settle a U.S. Federal Trade Commission investigation concerning delivery delays and customer complaints.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-22T20:01:51Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Engadget",
-       "title": "The Browser Company is officially killing Arc on December 22",
-       "url": "https://www.engadget.com/2294643/the-browser-company-is-officially-killing-arc-on-december-22/",
-       "official": false
-      },
-      {
-       "outlet": "TechCrunch",
-       "title": "Arc browser sunsets December 22 as The Browser Company doubles down on Dia",
-       "url": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "f1e3223b685c",
-     "title": "Apple Adds Intelligent Assistant and iPhone Duo Support to iWork Suite",
-     "summary": "Apple updated Keynote, Numbers, and Pages with an Intelligent Assistant beta feature for Creator Studio subscribers, alongside new iPhone Duo support.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-22T20:15:24Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Updates More Apps With iPhone Duo Support",
-       "url": "https://www.macrumors.com/2026/10/22/apple-iphone-duo-apps-garageband/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "Intelligent Assistant added to iWork apps for Creative Studio subscribers",
-       "url": "https://appleinsider.com/articles/26/10/22/intelligent-assistant-added-to-iwork-apps-for-creative-studio-subscribers?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple's iWork Apps Get 'Intelligent Assistant' and iPhone Duo Support",
-       "url": "https://www.macrumors.com/2026/10/22/iwork-apps-intelligent-assistant/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "accb9dee0bd2",
-     "title": "MacBook Neo Helps Apple Outpace Rivals Amid PC Market Decline",
-     "summary": "Counterpoint Research reports that Apple grew its global PC market share in Q3 2026, cushioned by the strong performance of the MacBook Neo.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-23T07:30:09Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "9to5Mac",
-       "title": "MacBook Neo helps Apple soften the blow of global PC market downturn, per report",
-       "url": "https://9to5mac.com/2026/10/22/macbook-neo-helps-apple-soften-the-blow-of-global-pc-market-downturn-per-report/",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "MacBook Neo Helps Apple Outpace Rivals as Market Declines",
-       "url": "https://www.macrumors.com/2026/10/23/macbook-neo-helps-apple-outpace-rivals-as-market-declines/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "f0567295df84",
-     "title": "US Treasury Proposes Tighter Rules on Outbound Tech Investments",
-     "summary": "The U.S. Treasury Department proposed strict new regulations limiting American investments in sensitive sectors like AI and supercomputing in countries of concern.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-23T01:10:01Z",
+     "published": "2026-10-23T14:20:01Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "US Treasury proposes rules tightening restrictions on US investments in areas including AI and supercomputing in China, Russia, and other \"countries of concern\" (Associated Press)",
-       "url": "https://www.techmeme.com/261022/p59#a261022p59",
+       "title": "Source: Shein has agreed to pay $100M, equivalent to 44% of its Q2 profit, to settle a US FTC investigation over delivery delays and other customer complaints (Reuters)",
+       "url": "https://www.techmeme.com/261023/p11#a261023p11",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "73c24ff8f422",
+     "title": "SpaceX Reportedly Talks with Partners to Access 80,000 Cell Sites for Mobile Network",
+     "summary": "According to industry reports, SpaceX is in discussions to tap into at least 80,000 cell sites to compete directly with traditional major wireless carriers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T15:16:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "SpaceX’s mobile carrier push reportedly involves tapping into 80,000 cell sites",
+       "url": "https://www.theverge.com/science/1017477/spacex-cell-sites-major-us-carrier",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6541738e421c",
+     "title": "NHTSA Mandates Cyan-Colored Lights to Signal Autonomous Vehicles Are Driving",
+     "summary": "Federal regulators have finalized a standard requiring autonomous robotaxis to use cyan-colored external lights to clearly indicate when no human driver is operating the vehicle.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T15:24:45Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Feds want robotaxis to signal ‘I’m driving’ with cyan-colored lights",
+       "url": "https://www.theverge.com/transportation/1017435/nhtsa-autonomous-vehicle-cyan-lighting-fmvss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6e395679877e",
+     "title": "Quest Diagnostics Confirms Patient Data Breach",
+     "summary": "Laboratory testing giant Quest Diagnostics confirmed that sensitive personal and health data belonging to patients was compromised in a recent cyberattack.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T15:00:09Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
+       "url": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "47740c8fb238",
+     "title": "Meta Delays New Business Terms Following Publisher Scrape Backlash",
+     "summary": "Meta is postponing the enforcement of updated business terms after news publishers raised strong objections over potential data scraping provisions for AI model training.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T14:47:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Meta delays new business terms after publisher pushback on AI scraping",
+       "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "da756938b93d",
+     "title": "Apple Music Hides Interactive Original iPod Easter Egg for Anniversary",
+     "summary": "To celebrate the 25th anniversary of the original iPod, Apple has hidden a fully functional, interactive virtual first-generation iPod model on its Apple Music web pages.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T14:50:53Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Apple revives the original iPod as an Apple Music easter egg",
+       "url": "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Music Has a Hidden iPod You Can Play With",
+       "url": "https://www.macrumors.com/2026/10/23/apple-music-has-a-hidden-ipod-you-can-play-with/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple Music has hidden a classic & interactive iPod online",
+       "url": "https://appleinsider.com/articles/26/10/23/apple-music-has-hidden-a-classic-interactive-ipod-online?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple’s website has fun new easter egg: a fully interactive iPod",
+       "url": "https://9to5mac.com/2026/10/23/apples-website-has-fun-new-easter-egg-a-fully-interactive-ipod/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d2b3daf1458c",
+     "title": "Greece Enacts Social Media Ban for Children Under 15",
+     "summary": "The Greek government has officially enacted legislation banning children under the age of 15 from using social media platforms.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T13:12:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Greece enacts social media ban for kids under 15",
+       "url": "https://www.engadget.com/2295143/greece-enacts-social-media-ban-for-kids-under-15/",
        "official": false
       }
      ]
@@ -498,121 +576,169 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "15ba6b7b7bfc",
-     "title": "Call of Duty: Modern Warfare 4 Launches Officially Across Platforms",
-     "summary": "Call of Duty: Modern Warfare 4 is out now globally, bringing a full campaign, multiplayer, and DMZ modes following its early access period.",
+     "id": "fbcf036d5bc7",
+     "title": "Arkane Lyon Facing Mid-November Deadline to Find Buyer or Risk Closure",
+     "summary": "Reports indicate that Arkane Studios has until November 13 to secure a buyer or face potential studio closure as part of ongoing restructuring following Xbox's strategy changes.",
      "importance": 4,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-23T10:29:20Z",
-     "outlet_count": 4,
+     "published": "2026-10-23T14:45:00Z",
+     "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Xbox Wire",
-       "title": "Call of Duty: Modern Warfare 4 w/Devs – Campaign, Multiplayer, DMZ, and More",
-       "url": "https://news.xbox.com/en-us/2026/10/22/call-of-duty-modern-warfare-4-w-devs-campaign-multiplayer-dmz-and-more-official-xbox-podcast/",
-       "official": true
+       "outlet": "Push Square",
+       "title": "'We're Victims of Xbox's Change in Strategy': Dishonored Dev Has Weeks to Save Itself",
+       "url": "https://www.pushsquare.com/news/2026/10/were-victims-of-xboxs-change-in-strategy-dishonored-dev-has-weeks-to-save-itself",
+       "official": false
       },
       {
-       "outlet": "GamesIndustry.biz",
-       "title": "Call of Duty: Modern Warfare 4",
-       "url": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
+       "outlet": "Gematsu",
+       "title": "Report: Arkane Studios has until November 13 to find a buyer",
+       "url": "https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Arkane Lyon Has Until Mid-November To Find A Buyer Or It Risks Closure",
+       "url": "https://insider-gaming.com/arkane-lyon-mid-november-to-find-a-buyer-or-it-risks-closure/",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Arkane survival negotiations reportedly seeing \"several forms of takeover\" considered ahead of November deadline, as Marvel's Blade production nears end",
+       "url": "https://www.rockpapershotgun.com/arkane-survival-negotiations-reportedly-seeing-several-forms-of-takeover-considered-ahead-of-november-deadline-as-marvels-blade-production-nears-end",
        "official": false
       },
       {
        "outlet": "Pure Xbox",
-       "title": "10+ Xbox Games Are Out Today, Including Modern Warfare 4's Full Release (October 23)",
-       "url": "https://www.purexbox.com/news/2026/10/10plus-xbox-games-are-out-today-including-modern-warfare-4s-full-release-october-23",
-       "official": false
-      },
-      {
-       "outlet": "PC Gamer",
-       "title": "I've tested every graphics setting in Call of Duty: Modern Warfare 4—tweak these four options for the best performance",
-       "url": "https://www.pcgamer.com/games/call-of-duty/ive-tested-every-graphics-setting-in-call-of-duty-modern-warfare-4-tweak-these-four-options-for-the-best-performance/",
+       "title": "Report: Microsoft Is Running Out Of Time To Save Xbox Studio Arkane",
+       "url": "https://www.purexbox.com/news/2026/10/report-microsoft-is-running-out-of-time-to-save-xbox-studio-arkane",
        "official": false
       }
      ]
     },
     {
-     "id": "12a5673623e5",
-     "title": "Nintendo Switch 2 Security Compromised by Software-Only Jailbreak",
-     "summary": "Hackers have reportedly achieved userland homebrew access on the Nintendo Switch 2 using an integer overflow exploit in the SmileBASIC interpreter, prompting Nintendo to delist the software.",
+     "id": "496461985883",
+     "title": "Capcom Reports Data Breach Compromising Over 11.7 Million Accounts",
+     "summary": "Capcom suffered a security incident that resulted in the compromise of over 11.7 million Capcom ID accounts.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-23T02:55:00Z",
-     "outlet_count": 3,
+     "published": "2026-10-23T13:26:11Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "GoNintendo",
-       "title": "SmileBASIC 4 being delisted due to Switch 2 jailbreak entry point discovery",
-       "url": "https://gonintendo.com/contents/66393-smilebasic-4-being-delisted-due-to-switch-2-jailbreak-entry-point-discovery",
+       "outlet": "GamesIndustry.biz",
+       "title": "Capcom affected by data breach, over 11.7m Capcom ID accounts compromised",
+       "url": "https://www.gamesindustry.biz/capcom-affected-by-data-breach-over-117m-capcom-id-accounts-compromised",
        "official": false
       },
       {
-       "outlet": "Ars Technica",
-       "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
-       "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-       "official": false
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "Switch 2 Supposedly Jailbroken Via Software-Only Exploit",
-       "url": "https://www.nintendolife.com/news/2026/10/switch-2-supposedly-jailbroken-via-software-only-exploit",
+       "outlet": "Insider Gaming",
+       "title": "Capcom Data Breach Compromises Over 11.7 Million Accounts",
+       "url": "https://insider-gaming.com/capcom-data-breach-compromises-over-11-7-million-accounts/",
        "official": false
       }
      ]
     },
     {
-     "id": "c86236e0fb99",
-     "title": "Shadow of the Tomb Raider and Cult of the Lamb Drop on Switch 2",
-     "summary": "Shadow of the Tomb Raider: Definitive Edition and Cult of the Lamb have both received surprise shadow drops for the Nintendo Switch 2.",
-     "importance": 3,
+     "id": "7188e4dfd021",
+     "title": "Nintendo's Shigeru Miyamoto to Receive Japan's Prestigious Order of Culture Award",
+     "summary": "Shigeru Miyamoto is set to become the first video game developer to receive Japan's esteemed Order of Culture award for contributions to the industry and arts.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-22T17:45:00Z",
+     "published": "2026-10-23T13:06:01Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Gematsu",
-       "title": "Shadow of the Tomb Raider: Definitive Edition now available for Switch 2",
-       "url": "https://www.gematsu.com/2026/10/shadow-of-the-tomb-raider-definitive-edition-now-available-for-switch-2",
-       "official": false
-      },
-      {
-       "outlet": "Gematsu",
-       "title": "Cult of the Lamb – Nintendo Switch 2 Edition now available",
-       "url": "https://www.gematsu.com/2026/10/cult-of-the-lamb-nintendo-switch-2-edition-now-available",
-       "official": false
-      },
-      {
        "outlet": "Nintendo Life",
-       "title": "Surprise! 'Shadow Of The Tomb Raider: Definitive Edition' Has Shadow Dropped On Switch 2",
-       "url": "https://www.nintendolife.com/news/2026/10/surprise-shadow-of-the-tomb-raider-definitive-edition-has-shadow-dropped-on-switch-2",
+       "title": "Shigeru Miyamoto Becomes First Game Dev To Receive Japan's Prestigious Culture Award",
+       "url": "https://www.nintendolife.com/news/2026/10/shigeru-miyamoto-becomes-first-game-dev-to-receive-japans-prestigious-culture-award",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Nintendo veteran Shigeru Miyamoto to receive Japan's Order of Culture award",
+       "url": "https://www.gamesindustry.biz/nintendo-veteran-shigeru-miyamoto-to-receive-japans-order-of-culture-award",
        "official": false
       }
      ]
     },
     {
-     "id": "5a15b52adcb6",
-     "title": "Cyberpunk 2's Quest Team Heavily Composed of Former Community Modders",
-     "summary": "The associate director for Cyberpunk 2 revealed that roughly half of the game's quest design team were hired directly out of the community due to their modding work on past CDPR titles.",
+     "id": "b03e2a6f3046",
+     "title": "Battlefield Quietly Removes Mass Effect Collaboration Following BioWare Closure",
+     "summary": "Following EA's closure of BioWare, developers of Battlefield have unceremoniously pulled a planned Mass Effect crossover event from the game's store.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-23T09:15:07Z",
+     "published": "2026-10-23T15:19:57Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "IGN",
-       "title": "Cyberpunk 2 Associate Director Says Half of Game's Quest Team Are Former Modders",
-       "url": "https://www.ign.com/articles/cyberpunk-2-associate-director-says-half-of-games-quest-team-are-former-modders",
+       "outlet": "Kotaku",
+       "title": "Battlefield 6 Quietly Yanks Planned Mass Effect Collab From Its Store After BioWare Closure",
+       "url": "https://kotaku.com/battlefield-6-mass-effect-cosmetics-n7-day-store-2000749091",
        "official": false
       },
       {
-       "outlet": "VGC",
-       "title": "Cyberpunk 2 associate director says half the quest team were hired for their modding work on other CDPR games",
-       "url": "https://www.videogameschronicle.com/news/cyberpunk-2-associate-director-says-half-the-quest-team-were-hired-for-their-modding-work-on-other-cdpr-games/",
+       "outlet": "Steam News",
+       "title": "Battlefield Unceremoniously Pulls Mass Effect Collab After BioWare’s Closure",
+       "url": "https://store.steampowered.com/news/group/7433348/view/713416027239618147",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a1a5349a6966",
+     "title": "Call of Duty: Modern Warfare 4 Launches Early to Mixed Fan and Player Feedback",
+     "summary": "Call of Duty: Modern Warfare 4 rolled out its campaign and DMZ extraction modes early, drawing intense community debate over matchmaking, self-revive mechanics, and gameplay changes.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-23T15:26:07Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "Call of Duty: Modern Warfare 4's Multiplayer Unlocked Early, But Feedback Has Been Brutal So Far",
+       "url": "https://www.pushsquare.com/news/2026/10/call-of-duty-modern-warfare-4s-multiplayer-unlocked-early-but-feedback-has-been-brutal-so-far",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "\"Why the f**k would they add a perk like that?\" - Modern Warfare 4 DMZ players are up in arms over the ability to self-revive",
+       "url": "https://www.eurogamer.net/modern-warfare-4-dmz-playing-possum-perk-broke",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Modern Warfare 4 has received a DMZ change that was \"so badly needed\"",
+       "url": "https://store.steampowered.com/news/group/38509069/view/668380030964864780",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Does Modern Warfare 4 Have SBMM or Open Matchmaking?",
+       "url": "https://insider-gaming.com/modern-warfare-4-sbmm-open-matchmaking/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7614bef47207",
+     "title": "GameMaker Engine to Make Next-Gen Runtime GMRT Free for Commercial Use",
+     "summary": "Engine developer GameMaker announced that its upcoming GMRT runtime will be made completely free for commercial developers starting January 1, 2027.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-23T13:52:52Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "GameMaker to make its \"next-generation runtime\" GMRT free for commercial use in January 2027",
+       "url": "https://www.gamesindustry.biz/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for-commercial-use-in-january-2027",
        "official": false
       }
      ]
@@ -623,55 +749,73 @@
    "name": "US",
    "stories": [
     {
-     "id": "681336ad71dd",
-     "title": "Wall Street Urges AI Startups to Accelerate IPO Plans",
-     "summary": "Financial firms are reportedly encouraging leading AI labs to execute their public offerings this year before market conditions shift.",
-     "importance": 3,
+     "id": "9d907527596b",
+     "title": "Two Former FBI Officials Charged with Lying to Congress Over Hunter Biden Probe",
+     "summary": "Federal prosecutors charged two former FBI officials with making false statements to Congress regarding their involvement in investigations into Hunter Biden.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-23T11:00:00Z",
-     "outlet_count": 1,
+     "published": "2026-10-23T15:38:00Z",
+     "outlet_count": 7,
      "sources": [
       {
-       "outlet": "New York Post",
-       "title": "Wall Street urging Anthropic, OpenAI to do their IPOs this year ‘before things get crazy’",
-       "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
+       "outlet": "Just the News",
+       "title": "Two ex-FBI officials charged with making false statements about Hunter Biden's laptop",
+       "url": "https://justthenews.com/index%2ephp/nation/crime/two-ex-fbi-officials-charged-making-false-statements-about-hunter-bidens-laptop?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Wire",
+       "title": "Former FBI Officials Charged With Lying About Hunter Biden Case",
+       "url": "https://www.dailywire.com/news/former-fbi-officials-charged-with-lying-about-hunter-biden-case",
+       "official": false
+      },
+      {
+       "outlet": "Fox News: Politics",
+       "title": "Ex-FBI officials arrested in Hunter Biden laptop probe as testimony comes under scrutiny",
+       "url": "https://www.foxnews.com/politics/ex-fbi-officials-arrested-hunter-biden-laptop-probe-testimony-scrutiny",
+       "official": false
+      },
+      {
+       "outlet": "Washington Examiner",
+       "title": "Former FBI officials charged with lying to Congress about Hunter Biden investigations",
+       "url": "https://www.washingtonexaminer.com/news/justice/4777364/former-fbi-officials-charged-with-lying-to-congress-about-hunter-biden-investigations/",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "2 ex-FBI officials charged with making false statements about Hunter Biden's laptop",
+       "url": "https://www.pbs.org/newshour/politics/2-ex-fbi-officials-charged-with-making-false-statements-about-hunter-bidens-laptop",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "2 ex-FBI officials charged with lying about Hunter Biden laptop probe",
+       "url": "https://www.cbsnews.com/news/fbi-officials-charged-lying-to-congress-hunter-biden-laptop/",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "Former FBI Officials Charged With Lying to Congress About Hunter Biden Probe",
+       "url": "https://www.wsj.com/politics/policy/former-fbi-officials-charged-with-lying-to-congress-about-hunter-biden-probe-3974fdd1?mod=rss_usnews",
        "official": false
       }
      ]
     },
     {
-     "id": "932a83d9f253",
-     "title": "Supreme Court Upholds New Hampshire Student ID Voting Ban for Midterms",
-     "summary": "The Supreme Court allowed New Hampshire to fully reject student IDs at polling places for upcoming midterm elections, siding with Republican officials.",
+     "id": "2ba96a37d23e",
+     "title": "Senate Candidate Dan Osborn Pledges Against AI Donations After Fundraiser Controversy",
+     "summary": "Nebraska Senate candidate Dan Osborn declared he would never accept campaign contributions from AI donors just a day after attending a fundraiser co-hosted by an Anthropic lobbyist.",
      "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-23T06:44:19Z",
-     "outlet_count": 4,
+     "published": "2026-10-23T15:25:49Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yahoo News",
-       "title": "Supreme Court sides with Republicans in New Hampshire student ID voting fight",
-       "url": "https://www.usatoday.com/story/news/politics/2026/10/22/supreme-court-student-id-vote-republican-new-hampshire/92335101007/",
-       "official": false
-      },
-      {
-       "outlet": "Courthouse News Service",
-       "title": "Supreme Court signs off on GOP officials’ student ID voting ban in New Hampshire",
-       "url": "https://www.courthousenews.com/supreme-court-signs-off-on-gop-officials-student-id-voting-ban-in-new-hampshire/",
-       "official": false
-      },
-      {
-       "outlet": "ABC News",
-       "title": "Supreme Court allows New Hampshire to fully ban student IDs for voting in midterms",
-       "url": "https://abcnews.com/Politics/wireStory/supreme-court-allows-new-hampshire-fully-ban-student-137494305",
-       "official": false
-      },
-      {
-       "outlet": "Fox News: Politics",
-       "title": "Supreme Court blocks use of student IDs as voter identification in New Hampshire",
-       "url": "https://www.foxnews.com/politics/supreme-court-blocks-student-ids-voter-identification-new-hampshire",
+       "outlet": "Washington Free Beacon",
+       "title": "Dan Osborn Pledged To ‘Never’ Accept Contributions From AI Donors Just Hours After an Anthropic Lobbyist Threw Him a Fundraiser",
+       "url": "https://freebeacon.com/democrats/dan-osborn-pledged-to-never-accept-contributions-from-ai-donors-just-hours-after-an-anthropic-lobbyist-threw-him-a-fundraiser/",
        "official": false
       }
      ]
@@ -682,163 +826,167 @@
    "name": "World",
    "stories": [
     {
-     "id": "480257b1b026",
-     "title": "Netanyahu Orders West Bank Lockdown Following Shooting Incident",
-     "summary": "Following an attack near Hebron that injured five Israelis, Prime Minister Netanyahu has ordered a total lockdown of the West Bank ahead of upcoming elections.",
+     "id": "e0a56a097fca",
+     "title": "Fatal Shooting Near Paris Described as a Terrorist Act by French Authorities",
+     "summary": "French Interior Minister Laurent Nuñez confirmed that a car-based shooting attack across several Paris suburbs, leaving one dead and multiple injured, is being treated as a terrorist act.",
      "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-23T10:10:00Z",
-     "outlet_count": 13,
+     "published": "2026-10-23T15:15:56Z",
+     "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Yahoo News",
-       "title": "Israel orders army to prepare for full closure of West Bank after alleged attack",
-       "url": "https://www.yahoo.com/news/world/articles/israel-military-says-killed-2-064424157.html",
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "France: 1 killed, 4 wounded after shooting near Paris",
+       "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
        "official": false
       },
       {
-       "outlet": "Sky News: World",
-       "title": "Israel orders army to prepare to fully close West Bank after 'thwarting terror attack'",
-       "url": "https://news.sky.com/story/israel-orders-army-to-prepare-to-fully-close-west-bank-after-attack-13602577",
+       "outlet": "The Hindu: International",
+       "title": "Suspect arrested after one killed, several wounded in Paris suburb shooting",
+       "url": "https://www.thehindu.com/news/international/suspect-arrested-after-one-killed-several-wounded-in-paris-suburb-shooting/article71616087.ece",
        "official": false
       },
       {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Netanyahu orders lockdown of West Bank after fatal attack",
-       "url": "https://www.rte.ie/news/world/2026/1023/1596560-israel-west-ban-gaza/",
+       "outlet": "RFI (France)",
+       "title": "Deadly shooting west of Paris ‘clearly terrorist’ attack, interior minister says",
+       "url": "https://www.rfi.fr/en/france/20261023-one-killed-four-injured-in-drive-by-shooting-in-paris-suburb",
+       "official": false
+      },
+      {
+       "outlet": "SRF News (Switzerland)",
+       "title": "France: \"Terrorist act\": One dead after shootings near Paris",
+       "url": "https://www.srf.ch/news/international/frankreich-terroristische-tat-ein-toter-nach-schuessen-bei-paris",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Frankreich – «Terroristische Tat»: Ein Toter nach Schüssen bei Paris"
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Fatal shooting near Paris is a \"terrorist act,\" says interior minister",
+       "url": "https://orf.at/stories/3445992/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Todesschüsse bei Paris laut Innenminister „terroristische Tat“"
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "One dead and injured: Interior minister speaks of terrorist act near Paris",
+       "url": "https://www.tagesschau.de/ausland/frankreich-schuesse-terrorverdacht-100.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Ein Toter und Verletze: Innenminister spricht von Terror-Tat bei Paris"
+      }
+     ]
+    },
+    {
+     "id": "6deb3fe4664a",
+     "title": "Drone Strike Hits Cargo Ship in Black Sea Near Romania",
+     "summary": "A drone strike struck a cargo ship in the western Black Sea near Romania, killing at least one sailor amid a sharp rise in Russian attacks on grain and cargo vessels.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-23T14:25:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Politico Europe",
+       "title": "Drone hits another ship in Black Sea near Romania, killing at least 1 sailor",
+       "url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Romania blames Russia for new deadly attack on ship",
+       "url": "https://www.thehindu.com/news/international/romania-blames-russia-for-new-deadly-attack-on-ship/article71616091.ece",
        "official": false
       },
       {
        "outlet": "Deutsche Welle (Germany)",
-       "title": "Israel preparing 'full closure' of West Bank, Netanyahu says",
-       "url": "https://www.dw.com/en/israel-preparing-full-closure-of-west-bank-netanyahu-says/a-79739292?maca=en-rss-en-all-1573-rdf",
+       "title": "Romania blames Russia for ship attack in the Black Sea",
+       "url": "https://www.dw.com/en/romania-blames-russia-for-ship-attack-in-the-black-sea/a-79743425?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "56b6ee4048d4",
+     "title": "Multi-Storey Building Collapse in Nairobi Raises Fears of Casualties",
+     "summary": "A multi-storey residential and commercial building collapsed in a densely populated area of Nairobi, prompting rescue efforts and fears of widespread casualties.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-23T14:09:07Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "RFI (France)",
+       "title": "Casualties feared as multi-storey building collapses in Nairobi",
+       "url": "https://www.rfi.fr/en/africa/20261023-casualties-feared-as-multi-storey-building-collapses-in-nairobi",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Casualties feared as multi-storey building collapses in Nairobi",
+       "url": "https://www.thehindu.com/news/international/possible-deaths-in-building-collapse-in-nairobi-kenya/article71616572.ece",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c7c871780c23",
+     "title": "Duchess of Sussex Expresses Distress Over Child Abuse Allegations Against Father",
+     "summary": "Meghan Markle stated she was deeply distressed by ongoing investigative reports and claims regarding child sexual abuse images linked to her father, Thomas Markle.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-23T14:47:18Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Child abuse images: Allegations against Meghan's father",
+       "url": "https://orf.at/stories/3445971/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Kindesmissbrauchsbilder: Vorwürfe gegen Vater von Meghan"
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Meghan Markle says she was 'deeply distressed' by allegations against her father",
+       "url": "https://www.yahoo.com/news/world/article/meghan-markle-deeply-distressed-as-father-thomas-is-investigated-over-alleged-child-sexual-abuse-material-120023185.html",
        "official": false
       },
       {
        "outlet": "NBC News",
-       "title": "Israel orders ‘full lockdown’ of West Bank after military kills 2 accused of attack",
-       "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176",
+       "title": "Meghan Markle Speaks Out About Accusations Against Her Father",
+       "url": "https://www.today.com/video/meghan-markle-speaks-out-about-accusations-against-her-father-272096837878",
        "official": false
       },
       {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Netanyahu orders West Bank closure as attack wounds Israelis before election",
-       "url": "https://www.channelnewsasia.com/world/netanyahu-orders-west-bank-closure-attack-wounds-israelis-election-6485546",
-       "official": false
+       "outlet": "SRF News (Switzerland)",
+       "title": "Investigation in the Philippines: Duchess Meghan shaken by allegations against her father",
+       "url": "https://www.srf.ch/news/international/ermittlungen-auf-philippinen-herzogin-meghan-erschuettert-ueber-vorwuerfe-gegen-ihren-vater",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Ermittlungen auf Philippinen – Herzogin Meghan erschüttert über Vorwürfe gegen ihren Vater"
       },
       {
        "outlet": "Times of India: World",
-       "title": "Hebron Lockdown Ordered: Netanyahu plans full West Bank closure; attack heightens election fears",
-       "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-orders-hebron-lockdown-prepares-to-shut-entire-west-bank-after-shooting-from-friday/articleshow/135141135.cms",
+       "title": "Meghan Markle ‘deeply distressed’ over claims her father had child abuse images",
+       "url": "https://timesofindia.indiatimes.com/world/uk/meghan-markle-deeply-distressed-over-claims-her-father-had-child-abuse-images/articleshow/135147854.cms",
        "official": false
       },
       {
-       "outlet": "franceinfo (France)",
-       "title": "Benjamin Netanyahu orders the \"closure\" of the occupied West Bank following an attack that left five injured, \"counter-terrorism operations\" underway",
-       "url": "https://www.franceinfo.fr/monde/israel/en-cisjordanie-cinq-blesses-dans-une-attaque-avant-les-elections-en-israel_8250235.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Benyamin Nétanyahou ordonne le \"bouclage\" de la Cisjordanie occupée après une attaque qui a fait cinq blessés, des \"opérations antiterroristes\" en cours"
-      },
-      {
-       "outlet": "NPR News",
-       "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-       "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+       "outlet": "South China Morning Post",
+       "title": "Meghan Markle ‘distressed’ as Philippines probes father over child sexual abuse images",
+       "url": "https://www.scmp.com/news/asia/southeast-asia/article/3371976/meghan-markle-distressed-philippines-probes-father-over-child-sexual-abuse-images",
        "official": false
       },
       {
-       "outlet": "Tagesschau (Germany)",
-       "title": "Following attack in Hebron: Israel prepares lockdown of the West Bank",
-       "url": "https://www.tagesschau.de/ausland/asien/westjordanland-abriegelung-100.html",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Nach Angriff in Hebron: Israel bereitet Abriegelung des Westjordanlands vor"
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Israel prepares total lockdown",
-       "url": "https://orf.at/stories/3445944/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Israel bereitet vollständige Abriegelung vor"
-      },
-      {
-       "outlet": "The Copenhagen Post (Denmark)",
-       "title": "Netanyahu orders West Bank lockdown after shooting near Hebron",
-       "url": "https://cphpost.dk/2026-10-23/news/round-up/netanyahu-orders-west-bank-lockdown-after-shooting-near-hebron/",
-       "official": false
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Netanyahu orders West Bank closure as attack wounds five Israelis before election",
-       "url": "https://www.straitstimes.com/world/middle-east/netanyahu-orders-west-bank-closure-as-attack-wounds-israelis-before-election",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "61892b9bfbc9",
-     "title": "Ukraine Reports Starlink Restrictions Remain Despite Claims of Resumed Access",
-     "summary": "Defense officials in Ukraine have confirmed that Starlink speeds remain capped, contradicting assertions from former U.S. President Trump that limits were fully lifted.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-23T10:52:49Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "Meduza (Russia)",
-       "title": "Starlink speed restrictions remain in place in Ukraine despite Trump’s claim they were lifted",
-       "url": "https://meduza.io/en/news/2026/10/23/starlink-speed-restrictions-remain-in-place-in-ukraine-despite-trump-s-claim-they-were-lifted",
-       "official": false
-      },
-      {
-       "outlet": "Politico Europe",
-       "title": "Starlink still restricted for Ukraine despite Trump saying Musk lifted speed limits",
-       "url": "https://www.politico.eu/article/starlink-still-restricted-for-ukraine-donald-trump-elon-musk-lifted-speed-limits/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: World",
-       "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-       "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "Starlink restrictions not lifted in Ukraine despite Trump's claims, defence officials say",
-       "url": "https://www.euronews.com/2026/10/23/starlink-restrictions-not-lifted-in-ukraine-despite-trumps-claims-defence-officials-say",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: Europe",
-       "title": "Starlink access for Ukraine limited after Trump’s claims satellite service restored, officials say",
-       "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c4606557d398",
-     "title": "Cargo Ship Sinks Off Romania After Suspected Russian Drone Strike",
-     "summary": "A cargo ship sank off the Romanian Black Sea coast following a drone strike, killing at least one crew member and leaving three missing, escalating regional tensions.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-23T10:51:58Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Vessel struck by drone sinks near Romania, one killed and three missing",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059390/",
-       "official": false
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Romania blames Russia for drone that sinks cargo ship; 1 killed, 3 missing",
-       "url": "https://www.straitstimes.com/world/europe/romania-blames-russia-for-drone-that-sinks-cargo-ship-1-killed-3-missing",
+       "outlet": "New York Times: World",
+       "title": "Meghan Says She Is ‘Distressed’ by Claim Her Father Kept Child Abuse Images",
+       "url": "https://www.nytimes.com/2026/10/23/world/europe/meghan-markle-father-thomas-child-sexual-abuse.html",
        "official": false
       }
      ]
@@ -849,92 +997,74 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "6f939c0020d1",
-     "title": "First Tanker of Russian Diesel Heads to US Under Temporary Sanctions Relief",
-     "summary": "A tanker carrying nearly 300,000 barrels of Russian diesel is en route to the United States following a controversial trade arrangement aimed at lowering domestic fuel prices.",
+     "id": "c40e8c509836",
+     "title": "Renowned Irish Traditional Musician Dónal Lunny Dies at Age 79",
+     "summary": "Dónal Lunny, one of Ireland's most celebrated and pioneering traditional musicians, has passed away at the age of 79.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-23T10:33:41Z",
-     "outlet_count": 4,
+     "published": "2026-10-23T14:52:02Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Kyiv Independent (Ukraine)",
-       "title": "First tanker with Russian diesel under Trump deal heads to US, Reuters reports",
-       "url": "https://kyivindependent.com/first-tanker-with-russian-diesel-under-trump-deal-heads-to-us-reuters-reports/",
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Pioneering Irish traditional musician Dónal Lunny has died aged 79",
+       "url": "https://www.thejournal.ie/irish-trad-musician-donal-lunny-dies-aged-79-7203307-Oct2026/",
        "official": false
       },
       {
-       "outlet": "Der Spiegel (Germany)",
-       "title": "Donald Trump: First tanker with Russian diesel reportedly on its way to the US",
-       "url": "https://www.spiegel.de/wirtschaft/donald-trump-erster-tanker-mit-russischem-diesel-offenbar-auf-dem-weg-in-die-usa-a-78f87406-615b-4951-9a13-c55710f503df#ref=rss",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Donald Trump: Erster Tanker mit russischem Diesel offenbar auf dem Weg in die USA"
-      },
-      {
-       "outlet": "Times of India: World",
-       "title": "Tanker carrying Russian diesel heads to US days after Trump’s surprise deal with Moscow",
-       "url": "https://timesofindia.indiatimes.com/world/us/tanker-carrying-40000-metric-tons-of-russian-diesel-heads-to-us-after-trumps-surprise-deal-with-moscow/articleshow/135142717.cms",
-       "official": false
-      },
-      {
-       "outlet": "Euronews",
-       "title": "First Russian diesel shipment is heading to US under Trump-Putin deal",
-       "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Renowned Irish musician Dónal Lunny dies aged 79",
+       "url": "https://www.rte.ie/entertainment/2026/1023/1596634-donal-lunny-dead/",
        "official": false
       }
      ]
     },
     {
-     "id": "3d3717795587",
-     "title": "Austria Expels Four Russian Diplomats Over Incompatible Activities",
-     "summary": "The Austrian Foreign Ministry expelled four Russian diplomatic and delegate personnel, prompting Moscow to vow a swift retaliatory response.",
-     "importance": 3,
+     "id": "3f7157bf764b",
+     "title": "Spanish Police Investigate Break-in at Footballer Troy Parrott's Home",
+     "summary": "Law enforcement officials in Seville are actively investigating a residential break-in at the home of footballer Troy Parrott during a recent match.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-23T10:18:49Z",
+     "published": "2026-10-23T13:48:28Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Austria expels four Russian diplomats",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059384/",
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Spanish police investigate break-in at Troy Parrott's Seville home",
+       "url": "https://www.thejournal.ie/troy-parrott-burglary-home-7202979-Oct2026/",
        "official": false
       },
       {
-       "outlet": "The Kyiv Independent (Ukraine)",
-       "title": "Austria expels 4 Russian diplomats, Moscow vows response",
-       "url": "https://kyivindependent.com/austria-expels-4-russian-diplomats-moscow-vows-response/",
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Spanish police investigate break-in to Parrott's home",
+       "url": "https://www.rte.ie/sport/soccer/2026/1023/1596619-spanish-police-investigate-break-in-to-parrotts-home/",
        "official": false
       }
      ]
     },
     {
-     "id": "2e949ace1283",
-     "title": "France Mobilizes 70,000 Law Enforcement Officers for Nationwide Protests",
-     "summary": "Interior Minister Laurent Nuñez announced a massive security deployment of 70,000 police and gendarmerie officers ahead of scheduled weekend demonstrations.",
-     "importance": 3,
+     "id": "9f548a8c99d5",
+     "title": "County Westmeath Village Named Ireland's Tidiest Town",
+     "summary": "The small village of Ballinahown in County Westmeath, with a population of just 160, has officially been awarded Ireland's tidiest town and village title.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-23T10:58:03Z",
+     "published": "2026-10-23T12:53:00Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Le Monde (France)",
-       "title": "LIVE, demonstrations on October 24: Laurent Nuñez promises to be \"uncompromising\" with rioters; 70,000 law enforcement officers mobilized on Saturday",
-       "url": "https://www.lemonde.fr/societe/live/2026/10/23/en-direct-manifestations-du-24-octobre-plusieurs-partis-et-syndicats-denoncent-les-interdictions-de-manifester_6795855_3224.html",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "EN DIRECT, manifestations du 24 octobre : Laurent Nuñez promet d’être « intraitable » avec les casseurs ; 70 000 forces de l’ordre mobilisées samedi"
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Ballinahown in Co Westmeath named Ireland's tidiest town",
+       "url": "https://www.rte.ie/news/leinster/2026/1023/1596612-tidy-towns-ballinahown-westmeath/",
+       "official": false
       },
       {
-       "outlet": "franceinfo (France)",
-       "title": "October 24 Demonstrations: Laurent Nuñez Announces 70,000 Police and Gendarmerie Officers Mobilized for Saturday",
-       "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/direct-manifestations-du-24-octobre-emmanuel-macron-preside-un-conseil-de-defense-a-9-heures-avant-de-recevoir-les-lyceens-dans-l-apres-midi_8250124.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Manifestations du 24 octobre : Laurent Nuñez annonce que 70 000 policiers et gendarmes seront mobilisés samedi"
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Ballinahown, Co Westmeath named Ireland's tidiest town (and village)",
+       "url": "https://www.thejournal.ie/ballinahown-co-westmeath-named-irelands-tidiest-town-7203047-Oct2026/",
+       "official": false
       }
      ]
     }
@@ -944,55 +1074,55 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "c99a7dc3781f",
-     "title": "Japan to Reorganize Defense Research Focus Toward AI and Cyber Capabilities",
-     "summary": "Japan is reportedly restructuring its defense research framework to prioritize cutting-edge artificial intelligence and cyber warfare capabilities.",
+     "id": "db21c91a4c45",
+     "title": "Japan Considers Rebranding Energy and AI Outlays as Defense Spending",
+     "summary": "Under mounting international pressure, Japanese officials are considering categorizing energy and AI investments under defense spending budgets.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-23T11:01:08Z",
+     "published": "2026-10-23T15:40:36Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan to reorganize defense research around AI, cyber",
-       "url": "https://asia.nikkei.com/politics/defense/japan-to-reorganize-defense-research-around-ai-cyber",
+       "title": "Japan weighs rebranding energy, AI as defense spending under Trump pressure",
+       "url": "https://asia.nikkei.com/politics/defense/japan-weighs-rebranding-energy-ai-as-defense-spending-under-trump-pressure",
        "official": false
       }
      ]
     },
     {
-     "id": "1cc449280dd9",
-     "title": "Regional Banks in Western Japan Enter Merger Talks to Form Industry Giant",
-     "summary": "Regional financial institutions in western Japan have initiated discussions regarding a management integration to build one of the country's largest banking groups.",
+     "id": "fe4f2dbfbce1",
+     "title": "JFE Steel to Build Large Blast Furnace in India with Local Partner",
+     "summary": "Japan's JFE Steel has announced plans to construct a major new blast furnace facility in India in partnership with a local industrial operator.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-23T11:01:08Z",
+     "published": "2026-10-23T15:40:36Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan's regional banks in merger talks to form largest in nation's west",
-       "url": "https://asia.nikkei.com/business/business-deals/japan-s-regional-banks-in-merger-talks-to-form-largest-in-nation-s-west",
+       "title": "Japan's JFE Steel to build huge blast furnace in India with local partner",
+       "url": "https://asia.nikkei.com/business/materials/japan-s-jfe-steel-to-build-huge-blast-furnace-in-india-with-local-partner",
        "official": false
       }
      ]
     },
     {
-     "id": "98e461fb0617",
-     "title": "Japan Urges Social Media Platforms to Stem Election Misinformation",
-     "summary": "Japanese authorities have strongly urged major social media operators to implement tighter controls against misinformation campaigns during election cycles.",
-     "importance": 3,
+     "id": "569f0cc35221",
+     "title": "Car-Sharing Operator Offers User Compensation Following Data Leak",
+     "summary": "A Japanese car-sharing operator announced a financial compensation plan for users affected by a recent customer data breach.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-23T11:01:08Z",
+     "published": "2026-10-23T15:40:36Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan urges social media platforms to curb misinformation in elections",
-       "url": "https://asia.nikkei.com/politics/japan-urges-social-media-platforms-to-curb-misinformation-in-elections",
+       "title": "Japan car-sharing operator to offer users $19 each after data breach",
+       "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-car-sharing-operator-to-offer-users-19-each-after-data-breach",
        "official": false
       }
      ]
@@ -1003,91 +1133,97 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "470e4924556b",
-     "title": "Appeals Court Acquits Seoul Mayor Oh Se-hoon in Political Funds Trial",
-     "summary": "An appeals court overturned a previous conviction against Seoul Mayor Oh Se-hoon in a high-stakes political funding trial, revitalizing his political standing.",
+     "id": "91655b936d06",
+     "title": "South Korean President Lee Jae Myung Calls for Close Supply Chain Ties with Japan",
+     "summary": "President Lee Jae Myung urged closer economic cooperation and shared supply chain management for advanced industries during a meeting with a Japanese business delegation.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-23T10:57:04Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "The Korea Herald",
-       "title": "Seoul mayor acquitted on appeal in political funds case",
-       "url": "https://www.koreaherald.com/article/10912901",
-       "official": false
-      },
-      {
-       "outlet": "Yonhap News",
-       "title": "(LEAD) Main opposition hails Seoul mayor's acquittal in political funds trial; ruling party calls for appeal",
-       "url": "https://en.yna.co.kr/view/AEN20261023006151315",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Main opposition welcomes Seoul mayor's acquittal in political funds trial",
-       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261023/main-opposition-welcomes-seoul-mayors-acquittal-in-political-funds-trial?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Appeals court to rule on Seoul mayor's high-stakes political funds trial",
-       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261023/appeals-court-to-rule-on-seoul-mayors-high-stakes-political-funds-trial?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Seoul Mayor Oh Se-hoon acquitted in political funds case",
-       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261023/seoul-mayor-oh-se-hoon-acquitted-in-political-funds-case?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "[COVER STORY] Acquittal revives Seoul mayor's presidential prospects",
-       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261023/cover-story-acquittal-revives-seoul-mayors-presidential-prospects?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "7560d5e2ea39",
-     "title": "South Korean Police Investigate First Case of North Korean IT Worker Using False Identity",
-     "summary": "Authorities are investigating allegations that North Korean IT workers successfully infiltrated a South Korean corporation using fabricated credentials.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-23T10:57:04Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Korea Times",
-       "title": "Suspected N. Korean IT worker found at S. Korean firm under false identity for 1st time",
-       "url": "https://www.koreatimes.co.kr/southkorea/society/20261023/suspected-n-korean-it-worker-found-at-s-korean-firm-under-false-identity-for-1st-time?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "da1fb7b34631",
-     "title": "South Korean Spy Agency Dismisses Rumors of N. Korean Leader's Death",
-     "summary": "South Korea's National Intelligence Service informed lawmakers that viral social media rumors regarding the death of North Korean leader Kim Jong-un are entirely false.",
-     "importance": 3,
-     "label": "RUMOR-CREDIBLE",
-     "category": "Korea",
-     "published": "2026-10-23T09:52:12Z",
+     "published": "2026-10-23T12:15:50Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "Yonhap News",
-       "title": "Spy agency said to assess that social media rumors of N. Korean leader's death are false",
-       "url": "https://en.yna.co.kr/view/AEN20261023010000315",
+       "title": "(LEAD) Lee calls for closer S. Korea-Japan supply chain cooperation at meeting with Japanese biz delegation",
+       "url": "https://en.yna.co.kr/view/AEN20261023002351315",
        "official": false
       },
       {
        "outlet": "The Korea Herald",
-       "title": "Social media rumors of N. Korean leader's death are false: spy agency",
-       "url": "https://www.koreaherald.com/article/10913272",
+       "title": "Lee calls for closer S. Korea-Japan supply chain cooperation",
+       "url": "https://www.koreaherald.com/article/10913316",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5f5cb5c2e4cb",
+     "title": "South Korea Proposes Military Talks with North Korea on Demarcation Line",
+     "summary": "Seoul renewed its official proposal to hold inter-Korean military talks aimed at clarifying and resolving border demarcation location issues.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-23T06:50:50Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "S. Korea Proposes Military Talks with N. Korea to Clarify Demarcation Line",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205073",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "S. Korea Proposes Inter-Korean Military Talks on Demarcation Line between 2 Sides",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205075",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) S. Korea proposes military talks with N. Korea to resolve border location issue",
+       "url": "https://en.yna.co.kr/view/AEN20261023005751315",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "941ec90657c9",
+     "title": "German Chancellor Friedrich Merz Scheduled to Visit Seoul for Bilateral Summit",
+     "summary": "German Chancellor Friedrich Merz will travel to South Korea for official talks with President Lee Jae Myung and to participate in a German-Asian business conference.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-23T12:41:54Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "German Chancellor Merz to visit S. Korea next week for summit with Lee",
+       "url": "https://en.yna.co.kr/view/AEN20261023010100315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Merz to visit Seoul for talks with Lee, German business forum",
+       "url": "https://www.koreaherald.com/article/10913322",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b04142ba62ce",
+     "title": "Climate Change Shifts Seasonal Forest Foliage Timelines in South Korea",
+     "summary": "The Korea Forest Service reported that ongoing climate change is altering natural forest patterns, causing spring to arrive earlier and peak autumn foliage to shift later.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-23T15:32:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Spring comes earlier, autumn foliage later as climate change alters forests",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261024/spring-comes-earlier-autumn-foliage-later-as-climate-change-alters-forests?utm_source=rss",
        "official": false
       }
      ]
@@ -1096,18 +1232,91 @@
   },
   {
    "name": "Deals",
-   "stories": []
+   "stories": [
+    {
+     "id": "0cf67cf235cc",
+     "title": "Persona 3 Reload Launch Edition Discounted on Amazon and Best Buy",
+     "summary": "Persona 3 Reload Launch Edition is seeing steep discounts, dropping to $24.99 on Amazon and Best Buy.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-23T12:50:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Persona 3 Reload: Launch Edition (Switch 2 KC) is $24.99 on Amazon amzn.to/4siYdIh Best Buy buff.ly/h7RDPWd PS5 $14.28 VGP buff.ly/nr0rmPc #ad",
+       "url": "https://amzn.to/4siYdIh",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3edf5a821d94",
+     "title": "Resident Evil 4 Gold Edition on Sale via Fanatical",
+     "summary": "Resident Evil 4 Gold Edition for Steam is discounted to $12.49 on Fanatical.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-23T15:01:10Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Resident Evil 4 Gold Edition (Steam) is $12.49 on Fanatical buff.ly/ym6TY5X #ad",
+       "url": "https://buff.ly/ym6TY5X",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "59a9c5e75955",
+     "title": "Forspoken for PlayStation 5 Marked Down",
+     "summary": "Forspoken on PS5 is currently discounted to $9.97 at select retailers including Amazon.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-23T13:07:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Forspoken (PS5) is $9.97 on Amazon amzn.to/3EKdGHr Walmart (local stock) buff.ly/AGLZE39 #ad",
+       "url": "https://amzn.to/3EKdGHr",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e2a062bef23d",
+     "title": "Fanatical Halloween Build Your Own Frightmare Bundle Available",
+     "summary": "Fanatical has launched its Halloween bundle featuring titles like Prey, Doom, and The Evil Within starting at multiple game tiers.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-23T13:00:28Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Build your own Frightmare Bundle on Fanatical (starting at 2 games for $6.66) buff.ly/Kj3FSEn #ad",
+       "url": "https://buff.ly/Kj3FSEn",
+       "official": false
+      }
+     ]
+    }
+   ]
   }
  ],
  "date": "2026-10-23",
- "generated_at": "2026-10-23T11:01:08Z",
+ "generated_at": "2026-10-23T15:40:36Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1191,
-  "clusters": 1052,
-  "feeds_ok": 174,
-  "feeds_failed": 2
+  "items": 876,
+  "clusters": 768,
+  "feeds_ok": 175,
+  "feeds_failed": 1
  },
  "feed_health": [
   {
@@ -1121,12 +1330,6 @@
    "title": "The Washington Post: Politics",
    "status": "error",
    "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
-  },
-  {
-   "key": "france24",
-   "title": "France 24: Europe",
-   "status": "error",
-   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/europe/rss"
   },
   {
    "key": "corriere",
