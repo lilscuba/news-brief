@@ -1,0 +1,1429 @@
+{
+ "version": 1,
+ "headline": "Xbox restructures as COO Helen Chiang steps down, North Korea's Kim Jong Un visits China via a newly opened bridge, and major AI labs overhaul training safety measures.",
+ "top": [
+  {
+   "id": "ec10704829a6",
+   "title": "Xbox Chief Operating Officer Helen Chiang Steps Down Amid Major Restructuring",
+   "summary": "Xbox's first-ever Chief Operating Officer, Helen Chiang, is departing the company after just three months in the role, following an internal memo from Xbox CEO Asha Sharma amid ongoing massive restructuring.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-24T01:27:12Z",
+   "outlet_count": 6,
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "title": "Xbox’s first chief operating officer is out after just a few months",
+     "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Memo: Helen Chiang, Xbox's first COO, is leaving Microsoft on October 23, just months after the role was created; she spent 21 years at the company (Tom Warren/The Verge)",
+     "url": "https://www.techmeme.com/261023/p23#a261023p23",
+     "official": false
+    },
+    {
+     "outlet": "Gematsu",
+     "title": "Xbox chief operating officer Helen Chiang steps down after three months",
+     "url": "https://www.gematsu.com/2026/10/xbox-chief-operating-officer-helen-chiang-steps-down-after-three-months",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "Xbox's First-Ever Chief Operating Officer Leaves Role Just Three Months After It Was Created",
+     "url": "https://www.ign.com/articles/xboxs-first-ever-chief-operating-officer-leaves-role-just-three-months-after-it-was-created",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "10bc4b43ebcc",
+   "title": "North Korean Leader Kim Jong Un Visits China Via Newly Inaugurated Bridge",
+   "summary": "North Korean leader Kim Jong Un has arrived in China via a newly opened bridge for his first visit to the country in over a year, as both nations move to deepen bilateral ties.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-24T10:25:29Z",
+   "outlet_count": 12,
+   "sources": [
+    {
+     "outlet": "The Korea Herald",
+     "title": "Kim Jong-un arrives in China's Dandong via new Yalu River bridge: Unification Ministry",
+     "url": "https://www.koreaherald.com/article/10913496",
+     "official": false
+    },
+    {
+     "outlet": "KBS World",
+     "title": "N. Korean Leader Kim Jong-un Makes Surprise Visit to China",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205097",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "N. Korea's Kim arrives in China's Dandong via newly opened bridge: gov't source",
+     "url": "https://en.yna.co.kr/view/AEN20261024001951320",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg: Politics",
+     "title": "Kim Jong Un Visits China for Second Trip in Just Over a Year",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-24/kim-jong-un-arrives-in-china-s-dandong-city-yonhap-reports",
+     "official": false
+    },
+    {
+     "outlet": "SVT Nyheter (Sweden)",
+     "title": "North Korean Leader Kim Jong-un Visits China",
+     "url": "https://www.svt.se/nyheter/utrikes/nordkoreas-ledare-kim-jong-un-besoker-kina",
+     "official": false,
+     "translated_from": "sv",
+     "original_title": "Nordkoreas ledare Kim Jong-un besöker Kina"
+    },
+    {
+     "outlet": "NK News (North Korea)",
+     "title": "North Korea’s Kim Jong Un visits Chinese border city of Dandong: ROK",
+     "url": "https://www.nknews.org/2026/10/north-koreas-kim-jong-un-visits-chinese-border-city-seoul/",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "(LEAD) N. Korea's Kim arrives in China's Dandong via newly opened bridge: gov't source",
+     "url": "https://en.yna.co.kr/view/AEN20261024001952320",
+     "official": false
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Kim Jong-un makes surprise visit to China via new Yalu River bridge",
+     "url": "https://www.koreaherald.com/article/10913525",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "North Korean leader Kim Jong Un visits China, South Korean media reports",
+     "url": "https://www.thehindu.com/news/international/north-korean-leader-kim-jong-un-visits-china-south-korean-media-reports/article71619300.ece",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "North Korean leader Kim Jong Un arrives in Chinese border city",
+     "url": "https://www.dw.com/en/north-korean-leader-kim-jong-un-arrives-in-chinese-border-city/a-79748580?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "(2nd LD) N. Korea's Kim arrives in China's Dandong via newly opened bridge",
+     "url": "https://en.yna.co.kr/view/AEN20261024001953320",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Kim Jong Un Reportedly Makes Surprise Visit to China",
+     "url": "https://orf.at/stories/3446036/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Kim Jong Un laut Berichten überraschend auf China-Besuch"
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "North Korea’s Kim visits China ahead of key anniversary",
+     "url": "https://www.japantimes.co.jp/news/2026/10/24/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "(3rd LD) N. Korea's Kim arrives in China's Dandong via newly opened bridge",
+     "url": "https://en.yna.co.kr/view/AEN20261024001954320",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "North Korea: Kim Jong Un visits China via newly inaugurated bridge",
+     "url": "https://www.spiegel.de/ausland/nordkorea-kim-jong-un-besucht-china-ueber-neu-eingeweihte-bruecke-a-28c0c951-22fd-42ea-94b7-dc5eb0c898cb#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Nordkorea: Kim Jong Un besucht China über neu eingeweihte Brücke"
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "(4th LD) N. Korea's Kim arrives in China's Dandong via newly opened bridge",
+     "url": "https://en.yna.co.kr/view/AEN20261024001955320",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "North Korea’s Kim Jong-un Arrives in China, South Korea Says",
+     "url": "https://www.nytimes.com/2026/10/24/world/asia/north-korea-kim-jong-un-china.html",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "615804d282e3",
+   "title": "OpenAI Eliminates Live Internet Access for Frontier Model Training",
+   "summary": "OpenAI announced it will no longer allow its frontier models to access the live internet during training, instead building an 'offline world' from cached web content to train models in an isolated environment.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-24T00:30:01Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "OpenAI News",
+     "title": "Securing our frontier model training environment",
+     "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+     "official": true
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established (Rachel Metz/Bloomberg)",
+     "url": "https://www.techmeme.com/261023/p20#a261023p20",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "OpenAI now trains its frontier AI models with no internet access",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "OpenAI says it's cutting off internet access for frontier model training",
+     "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+     "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "OpenAI says it built an \"offline world\" from cached web content to train isolated frontier models to browse, search for information, and use web apps (OpenAI)",
+     "url": "https://www.techmeme.com/261023/p25#a261023p25",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "7d1a693da119",
+   "title": "UK Announces £100M Investment for AI Biosecurity Lab With Lab Support",
+   "summary": "The UK is investing £100 million to establish the AI Biosecurity Lab to strengthen national defenses against biological threats, with backing from leading AI developers including OpenAI, Anthropic, and Google DeepMind.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-24T01:20:01Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "BBC News: UK",
+     "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+     "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "The UK plans to invest £100M to create the AI Biosecurity Lab to boost defenses against biological threats, supported by OpenAI, Anthropic, and Google DeepMind (Liv McMahon/BBC)",
+     "url": "https://www.techmeme.com/261023/p26#a261023p26",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "d87cc8a056b8",
+   "title": "Arkane Lyon Reportedly Faces November Deadline to Find Buyer or Face Closure",
+   "summary": "Following recent layoffs and corporate restructuring under Xbox leadership, immersive sim studio Arkane Lyon reportedly has until November to find a new buyer before being closed.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-23T18:09:03Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "VGC",
+     "title": "Arkane has until November to find a buyer or face closure, it’s claimed",
+     "url": "https://www.videogameschronicle.com/news/arkane-has-until-november-to-find-a-buyer-or-face-closure-its-claimed/",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "As devastating Xbox \"reset\" continues, Dishonored studio Arkane Lyon reportedly only has until November to find a new buyer before it's closed",
+     "url": "https://www.eurogamer.net/xbox-layoffs-marvels-blade-arkane-lyon-closure",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "94af14e8eccd",
+     "title": "Moonshot Releases Kimi K3.1 Pro and Removes Cyber Data From Training",
+     "summary": "Moonshot has launched Kimi K3.1 Pro on its API, promising full model weights by November 4 while stripping cyber-related data from early training stages to minimize misuse risks.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-23T19:40:54Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+       "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+       "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Moonshot says it removed cyber-related data from training phases for Kimi K3.1 Pro \"to reduce potential misuse risk while preserving general usefulness\" (Matthias Bastian/The Decoder)",
+       "url": "https://www.techmeme.com/261023/p19#a261023p19",
+       "official": false
+      },
+      {
+       "outlet": "Simon Willison",
+       "title": "Introducing Kimi K3.1 Pro",
+       "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fd2784d8397a",
+     "title": "Anthropic Internal Model Outperforms Mythos 5.1 in Safety and Capability",
+     "summary": "Anthropic reported that its unreleased internal model exceeds the capabilities and alignment of Mythos 5.1, which previously encountered security flaws during external UK AISI testing.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-23T17:19:49Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+       "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7892ff4b949a",
+     "title": "External Audit at OpenAI Reveals Significant Gaps in Agent Monitoring",
+     "summary": "Independent auditors from METR and Redwood Research spent three weeks examining OpenAI's internal monitoring systems, discovering that up to 25 percent of agent traffic displayed significant oversight gaps.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-23T18:00:32Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+       "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "acef104e3f5e",
+     "title": "OpenAI CEO Sam Altman Warns Sandbox Escapes Are Inevitable",
+     "summary": "OpenAI CEO Sam Altman stated that advanced AI models will eventually escape static sandboxes, emphasizing that robust model alignment remains the only long-term safety solution.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-23T15:42:18Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
+       "url": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b81b0e146ea8",
+     "title": "Coding Agent Harness Study Shows Minimal Gain With Tripled Costs",
+     "summary": "A controlled academic study revealed that swapping between popular coding-agent harnesses like Claude Code and OpenCode barely improves success rates while tripling task costs.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-24T09:21:39Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
+       "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "97597de85741",
+     "title": "Google Updates Privacy Policy to Clarify Ad Targeting via Personal Intelligence",
+     "summary": "Google updated its terms to specify that data shared through Personal Intelligence from linked applications like Gmail and Photos may be used for targeted advertising.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-24T03:45:01Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+       "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Google updates its privacy policy to clarify it could use data shared via Personal Intelligence from connected apps, including Gmail and Photos, to target ads (Shimul Sood/Android Authority)",
+       "url": "https://www.techmeme.com/261023/p28#a261023p28",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9686d76bd1dd",
+     "title": "AWS Cloud Capacity for 2027 Largely Sold Out, Says Andy Jassy",
+     "summary": "Amazon CEO Andy Jassy revealed that AWS compute capacity for 2027 is largely sold out, with substantial portions of 2028 already reserved as cloud demand continues to surge.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-24T02:55:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Andy Jassy says AWS capacity for 2027 is \"largely sold out\" and a \"good chunk\" of 2028 capacity is also sold, though AWS reserves some capacity for on-demand (Catherine Perloff/The Information)",
+       "url": "https://www.techmeme.com/261023/p27#a261023p27",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "299c44e6df22",
+     "title": "Instacart Reportedly Explores Sale and Holds Preliminary Talks with DoorDash and Uber",
+     "summary": "Grocery delivery platform Instacart, valued at approximately $12 billion, has reportedly held preliminary conversations with companies including DoorDash and Uber regarding a potential sale.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T20:25:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: Instacart, currently valued at $12B, is in talks to sell itself and held preliminary conversations with DoorDash and Uber; CART jumps 9%+ (The Information)",
+       "url": "https://www.techmeme.com/261023/p21#a261023p21",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "06e87b05d119",
+     "title": "Global PC Shipments Drop 21 Percent in Q3 as Component Costs Rise",
+     "summary": "Counterpoint Research reports that global PC shipments fell 21 percent year-over-year in the third quarter to 57 million units, driven by rising memory and manufacturing expenses.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-23T19:15:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Global PC shipments fell 21% YoY in Q3 to 57M units, as memory and other costs pushed prices up; Lenovo retained its market leadership despite a 23% decline (Minsoo Kang/Counterpoint Research)",
+       "url": "https://www.techmeme.com/261023/p17#a261023p17",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "17216075e92d",
+     "title": "Meta Pauses Controversial Business Scraping Terms Amid Pushback",
+     "summary": "Meta is temporarily delaying proposed updates to its business terms that would have permitted the company to scrape commercial account content for internal AI training models.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-24T10:18:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Meta is delaying its controversial new business terms amid scraping concerns",
+       "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a0af2af3f1cc",
+     "title": "Apple Resists DOJ Request for Additional Evidence in Ongoing Antitrust Case",
+     "summary": "Court filings indicate that Apple and the U.S. Department of Justice are currently clashing over the scope of newer internal evidence Apple must hand over in their ongoing antitrust litigation.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-24T04:02:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Pushes Back on DOJ Request for More Evidence",
+       "url": "https://www.macrumors.com/2026/10/24/apple-pushes-back-on-doj-request/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "a80e91af6b7b",
+     "title": "Call of Duty: Modern Warfare 4 Launches Worldwide",
+     "summary": "Activision's latest blockbuster shooter, Call of Duty: Modern Warfare 4, is now live globally with smooth launch performance and robust multiplayer maps.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-23T17:01:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Call of Duty: Modern Warfare 4 – Kill Block is Must-Play Multiplayer at Launch",
+       "url": "https://news.xbox.com/en-us/2026/10/23/call-of-duty-modern-warfare-4-kill-block-must-play-multiplayer/",
+       "official": true
+      },
+      {
+       "outlet": "Xbox Wire",
+       "title": "Call of Duty: Modern Warfare 4 is Live Worldwide",
+       "url": "https://news.xbox.com/en-us/2026/10/23/call-of-duty-modern-warfare-4-is-live-worldwide-play-now/",
+       "official": true
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Call of Duty: Modern Warfare 4 actually runs pretty smoothly with Activision's 'recommended' RTX 3060 Ti graphics card, and here are the settings I use to get the best performance from it",
+       "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-actually-runs-pretty-smoothly-with-activisions-recommended-rtx-3060-ti-graphics-card-and-here-are-the-settings-i-use-to-get-the-best-performance-from-it/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "416a75d0b4d4",
+     "title": "Grand Theft Auto VI Official Launch Trailer Highlights Leonida Before November Release",
+     "summary": "Rockstar Games released the official launch trailer for Grand Theft Auto VI, offering players a fresh look at Leonida ahead of the game's scheduled November 19 release.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-23T21:50:48Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Watch the Official Grand Theft Auto VI Launch Trailer – Explore Leonida Before the Game Arrives November 19",
+       "url": "https://news.xbox.com/en-us/2026/10/23/watch-the-official-grand-theft-auto-vi-launch-trailer-explore-leonida-before-the-game-arrives-november-19/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "6575f2558882",
+     "title": "Cult of the Lamb Confirms Switch 2 Version with Free Upgrade Path",
+     "summary": "Developer Massive Monster announced that Cult of the Lamb is heading to Nintendo's successor console, complete with a free upgrade path for existing owners.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-24T03:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "ICYMI: Cult Of The Lamb Summons A Switch 2 Version, Includes Free Upgrade Path",
+       "url": "https://www.nintendolife.com/news/2026/10/icymi-cult-of-the-lamb-summons-a-switch-2-version-includes-free-upgrade-path",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3f05b7b5ab84",
+     "title": "The Legend of Zelda: Ocarina of Time Remake Rated E10+ by ESRB",
+     "summary": "An official ESRB rating summary for the upcoming remake of The Legend of Zelda: Ocarina of Time confirms an E10+ rating due to animated blood and fantasy violence.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-23T23:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "The Legend Of Zelda: Ocarina Of Time Switch 2 ESRB Rating Summary Published",
+       "url": "https://www.nintendolife.com/news/2026/10/the-legend-of-zelda-ocarina-of-time-switch-2-esrb-rating-summary-published",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6d0095ffc9d4",
+     "title": "Valve Introduces Steam Personal Calendar to Improve Game Discovery",
+     "summary": "Valve has unveiled a new Personal Calendar feature on Steam designed to help players discover tailored games without trapping them inside algorithmic filter bubbles.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-24T09:58:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "Steam's new Personal Calendar aims to solve game discovery without trapping you in a bubble",
+       "url": "https://store.steampowered.com/news/group/3693985/view/710038327520138748",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "938933edd543",
+     "title": "DOJ Sues to Block Alaska Senate Certification if Republican Loses",
+     "summary": "The Department of Justice filed a lawsuit aiming to prevent the certification of the Alaska Senate election if incumbent Republican Dan Sullivan loses to Democrat Mary Peltola.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-24T02:42:42Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Roll Call",
+       "title": "DOJ sues to prevent Sullivan loss in Alaska",
+       "url": "https://rollcall.com/2026/10/23/doj-sues-to-prevent-sullivan-loss-in-alaska/",
+       "official": false
+      },
+      {
+       "outlet": "HuffPost: Politics",
+       "title": "Trump Administration Sues To Block Certification Of Alaska Senate Race",
+       "url": "https://www.huffpost.com/entry/alaska-senate-race-trump-sues_n_6adb7620e4b096020fa15ac9",
+       "official": false
+      },
+      {
+       "outlet": "Vox",
+       "title": "Can Trump block the Alaska Senate election?",
+       "url": "https://www.vox.com/the-logoff-newsletter-trump/507722/trump-alaska-senate-lawsuit-dans-sullivan-peltola",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Trump says he ordered suit to block Alaska Senate results if GOP loses",
+       "url": "https://www.pbs.org/newshour/show/trump-says-he-ordered-suit-to-block-alaska-senate-results-if-gop-loses",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg: Politics",
+       "title": "Trump Pushes DOJ Lawsuit Over Alaska Senate Race",
+       "url": "https://www.bloomberg.com/news/videos/2026-10-23/balance-of-power-late-edition-10-23-2026-video",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Justice Department attempts to block certification of Alaska Senate race if Republican loses",
+       "url": "https://www.cbsnews.com/video/justice-department-attempts-to-block-certification-of-alaska-senate-race-if-republican-loses-1/",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "DOJ sues to block Alaska Senate certification if Sullivan loses",
+       "url": "https://www.cbsnews.com/news/trump-admin-sues-to-block-alaska-senate-certification-if-sen-dan-sullivan-loses/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1e2afdf4a928",
+     "title": "U.S. Intelligence Warns Iran Has Increased Direct Plots Against Americans Abroad",
+     "summary": "A fresh U.S. intelligence warning indicates that Iran has substantially escalated efforts and advanced active plots to target American personnel overseas.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-24T08:28:06Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Axios",
+       "title": "Scoop: U.S. intel memo warns of \"advanced\" Iranian plots to kill officials abroad",
+       "url": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Iran has \"increased efforts to target U.S. personnel,\" intel chief warns",
+       "url": "https://www.cbsnews.com/news/iran-target-u-s-personnel/",
+       "official": false
+      },
+      {
+       "outlet": "Fox News: Politics",
+       "title": "Iran has 'substantially increased' efforts to target Americans abroad, US intelligence memo warns",
+       "url": "https://www.foxnews.com/politics/iran-substantially-increased-efforts-target-americans-abroad-us-intelligence-memo-warns",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "U.S. spy chief warns Iran has ramped up efforts to target Americans",
+       "url": "https://www.thehindu.com/news/international/us-spy-chief-warns-iran-has-ramped-up-efforts-to-target-americans/article71619239.ece",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "964073f5fd49",
+     "title": "Two Former FBI Employees Charged With Lying to Congress Over Hunter Biden Probe",
+     "summary": "Federal prosecutors charged two former FBI officials with making false statements to congressional investigators regarding inquiries into Hunter Biden's business dealings.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-23T19:00:01Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "HuffPost: Politics",
+       "title": "2 Ex-FBI Officials Charged With Making False Statements About Hunter Biden's Laptop",
+       "url": "https://www.huffpost.com/entry/biden-laptop-fbi-officials-charged_n_6adb7d0ee4b096020fa16325",
+       "official": false
+      },
+      {
+       "outlet": "NPR News",
+       "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
+       "url": "https://www.npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
+       "official": false
+      },
+      {
+       "outlet": "Roll Call",
+       "title": "DOJ says former FBI officials lied to Congress about Hunter Biden probe",
+       "url": "https://rollcall.com/2026/10/23/doj-former-fbi-lied-to-congress-hunter-biden-probe/",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "2 ex-FBI officials charged with lying to Congress about Hunter Biden’s laptop",
+       "url": "https://san.com/cc/2-ex-fbi-officials-charged-with-lying-to-congress-about-hunter-bidens-laptop/",
+       "official": false
+      },
+      {
+       "outlet": "The Federalist",
+       "title": "Former FBI Officials Charged With Lying To Congress About Hunter Biden Probes",
+       "url": "https://thefederalist.com/2026/10/23/former-fbi-officials-charged-with-lying-to-congress-about-hunter-biden-probes/?utm_source=rss&utm_medium=rss&utm_campaign=former-fbi-officials-charged-with-lying-to-congress-about-hunter-biden-probes",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ee44d8e1ca72",
+     "title": "DOJ Demands California Counties Cooperate in Identifying Noncitizen Voters",
+     "summary": "The DOJ issued formal warnings to local election officials in California, demanding cooperation in identifying and setting aside likely noncitizen ballots or face potential legal action.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-24T05:13:12Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "DOJ gives California counties 48 hours to help identify suspected noncitizen voters",
+       "url": "https://www.yahoo.com/news/politics/articles/doj-orders-california-counties-verify-012927044.html",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "California officials ordered by DoJ to set aside ‘likely’ noncitizen ballots",
+       "url": "https://www.theguardian.com/us-news/2026/oct/23/california-ballots-trump",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "DOJ demands that some California counties set aside alleged noncitizen ballots",
+       "url": "https://www.cbsnews.com/news/doj-california-counties-set-aside-verify-certain-ballots-noncitizens/",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "DOJ demands that California counties help identify noncitizen voters",
+       "url": "https://www.nbcnews.com/politics/2026-election/doj-demands-california-counties-help-identify-noncitizen-voters-rcna605356",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "7be2c7834a58",
+     "title": "Suspect Arrested After Fire Engulfs Hitler's Eagle's Nest Retreat in Germany",
+     "summary": "German emergency personnel deployed around 200 workers to battle a major fire at the historic Eagle's Nest mountaintop retreat in Bavaria, resulting in a police arrest.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-24T10:22:34Z",
+     "outlet_count": 9,
+     "sources": [
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Hitler's Eagle's Nest retreat catches fire, police say",
+       "url": "https://www.dw.com/en/hitler-s-eagle-s-nest-retreat-catches-fire-police-say/a-79747820?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Hitler's Eagle's Nest retreat engulfed in flames as police detain suspect",
+       "url": "https://www.telegraph.co.uk/world-news/2026/10/24/fire-hitler-eagles-nest-germany/",
+       "official": false
+      },
+      {
+       "outlet": "Sky News: World",
+       "title": "Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat",
+       "url": "https://news.sky.com/story/suspect-arrested-after-fire-at-nazis-wwii-eagles-nest-mountain-retreat-13602938",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Arrest made after major fire breaks out at Hitler's 'Eagle's Nest' mountain retreat in Bavaria",
+       "url": "https://www.euronews.com/2026/10/24/arrest-made-after-major-fire-breaks-out-at-hitlers-eagles-nest-mountain-retreat-in-bavaria",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
+       "url": "https://www.thehindu.com/news/international/fire-breaks-out-at-hitlers-mountain-retreat-suspect-arrested/article71619208.ece",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "One arrested after fire at Hitler's Eagle Nest mountain retreat",
+       "url": "https://www.cbsnews.com/news/hitler-eagles-nest-mountain-retreat-fire-nazi/",
+       "official": false
+      },
+      {
+       "outlet": "Newsweek",
+       "title": "Adolf Hitler's 'Eagle's Nest' Retreat Engulfed by Flames, Arrest Made",
+       "url": "https://www.newsweek.com/adolf-hitler-eagles-nest-retreat-fire-today-destroyed-who-police-arrest-12614012",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: World",
+       "title": "Suspect arrested over fire at Hitler’s ‘Eagle’s Nest’ retreat in Bavaria",
+       "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
+       "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6db482110f01",
+     "title": "Israel Launches Major Military Operation in West Bank Following Attacks",
+     "summary": "Israeli security forces initiated a large-scale anti-terror operation across the occupied West Bank following a series of deadly soldier fatalities ahead of upcoming elections.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-24T10:58:20Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Foreign Policy",
+       "title": "Netanyahu Orders Large-Scale Military Operation in West Bank",
+       "url": "https://foreignpolicy.com/2026/10/23/netanyahu-israel-military-operation-west-bank-hebron-refugee-camps/",
+       "official": false
+      },
+      {
+       "outlet": "The Japan Times",
+       "title": "Israel launches major West Bank operation after soldiers killed",
+       "url": "https://www.japantimes.co.jp/news/2026/10/24/world/israel-west-bank-operation/",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Israel launches West Bank operation after attack days before election",
+       "url": "https://www.channelnewsasia.com/world/israel-launches-west-bank-operation-after-attack-days-election-6488581",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Israel launches major West Bank operation after soldiers killed",
+       "url": "https://www.thehindu.com/news/international/israel-launches-major-west-bank-operation-after-soldiers-killed/article71619178.ece",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Why is Israel launching a new military operation in the occupied West Bank?",
+       "url": "https://www.aljazeera.com/news/2026/10/24/why-is-israel-launching-a-new-military-operation-in-the-occupied-west-bank?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Israel launches \"anti-terror operation\"",
+       "url": "https://www.tagesschau.de/video/video-1671770.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Israel startet \"Anti-Terror-Operation\""
+      }
+     ]
+    },
+    {
+     "id": "1c792861ba1e",
+     "title": "Marco Rubio Urges Cubans to Form Secretive Intelligence Partnership With CIA",
+     "summary": "Washington ramped up diplomatic pressure on Havana following recent regional developments, with officials calling on Cuban citizens to establish discrete intelligence channels.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-24T08:28:24Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Euronews",
+       "title": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
+       "url": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Rubio calls on Cubans to partner with CIA ‘to create positive change’",
+       "url": "https://www.aljazeera.com/news/2026/10/24/rubio-calls-on-cubans-to-partner-with-cia-to-create-positive-change?traffic_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "41c46860b881",
+     "title": "White House Confirms Melania Trump Brokered Truce in Stricken Ukrainian City",
+     "summary": "Both Ukrainian and Russian officials confirmed a local truce negotiated by Melania Trump in the embattled settlement of Oleshky, where civilian residents faced severe supply shortages.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-24T07:17:44Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Melania Trump says she brokered truce in war-torn Ukrainian city",
+       "url": "https://www.japantimes.co.jp/news/2026/10/24/world/melania-trump-ukraine-city-truce/",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+       "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "3c9db7aaf48f",
+     "title": "Ukraine Restores Stable Connection to Starlink Satellite Network",
+     "summary": "Kyiv officials confirmed that high-speed communication links to SpaceX's Starlink and Starshield systems have normalized following a tense diplomatic dispute and temporary throttling.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-24T10:19:03Z",
+     "outlet_count": 9,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "Ukraine says Starlink restrictions remain despite Trump's claims they're lifted",
+       "url": "https://www.bbc.com/news/articles/cq74pjpmx0e8o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg: Politics",
+       "title": "Ukraine Says Restrictions on Starlink Speed Have Been Lifted",
+       "url": "https://www.bloomberg.com/news/articles/2026-10-24/ukraine-says-restrictions-on-starlink-speed-have-been-lifted",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Ukraine says it has ‘stable connection’ to Starlink again",
+       "url": "https://www.straitstimes.com/world/europe/ukraine-has-stable-connection-to-starlink-govt",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Starlink Connection Stable Again According to Kyiv",
+       "url": "https://orf.at/stories/3446042/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Starlink-Verbindung laut Kiew wieder stabil"
+      },
+      {
+       "outlet": "France 24: Europe",
+       "title": "Ukraine says Starlink and Starshield connection 'stable' again",
+       "url": "https://www.france24.com/en/europe/20261024-ukraine-says-starlink-and-starshield-connection-stable-again",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Ukraine restores 'stable' connection to Musk's Starlink, Kyiv says",
+       "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
+       "official": false
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "Ukraine says it again benefits from a \"stable connection\" to the Starlink system, crucial for its army",
+       "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ukraine-dit-de-nouveau-beneficier-d-une-connexion-stable-au-systeme-starlink-crucial-pour-son-armee_8252059.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "L'Ukraine dit de nouveau bénéficier d'une \"connexion stable\" au système Starlink, crucial pour son armée"
+      },
+      {
+       "outlet": "Axios",
+       "title": "Speed restrictions on Musk's Starlink lifted in Ukraine, defense ministry says",
+       "url": "https://www.axios.com/2026/10/24/musk-ukraine-starlink-starshield-speed",
+       "official": false
+      },
+      {
+       "outlet": "ERT News (Greece)",
+       "title": "Ukraine: Starlink returns to normal speed",
+       "url": "https://www.ertnews.gr/eidiseis/diethni/oukrania-epestrepse-stin-kanoniki-taxytita-to-starlink-leitourgei-sta-400-xlm-ora/",
+       "official": false,
+       "translated_from": "el",
+       "original_title": "Ουκρανία: Επέστρεψε στην κανονική ταχύτητα το Starlink"
+      }
+     ]
+    },
+    {
+     "id": "f3a12716dacd",
+     "title": "Trump Lifts Selected Canadian Tariffs Ahead of US Midterm Elections",
+     "summary": "In a move aimed at bolstering regional political allies ahead of midterms, President Trump signed an executive order lifting specific tariffs on Canadian agricultural and forestry imports.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-24T09:43:07Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Trump eases Canada tariffs ahead of US midterms",
+       "url": "https://www.dw.com/en/trump-eases-canada-tariffs-ahead-of-us-midterms/a-79747634?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Trump lifts some Canada tariffs ahead of midterms",
+       "url": "https://www.channelnewsasia.com/world/trump-canada-tariffs-midterms-6488081",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Seeking to help Collins in Maine, Trump exempts some Canadian imports from his 50% tariffs",
+       "url": "https://www.pbs.org/newshour/politics/seeking-to-help-collins-in-maine-trump-exempts-some-canadian-imports-from-his-50-tariffs",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Maine race close as Trump ends some Canadian tariffs",
+       "url": "https://www.rte.ie/news/world/2026/1024/1596691-canada-tariffs/",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Ahead of midterms: Trump lifts some tariffs against Canada",
+       "url": "https://orf.at/stories/3446047/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Vor Midterms: Trump hebt einige Zölle gegen Kanada auf"
+      }
+     ]
+    },
+    {
+     "id": "59881cdd0a51",
+     "title": "France Deploys 70,000 Police Officers Amid High Alert for Nationwide Protests",
+     "summary": "French authorities deployed 70,000 police officers across Paris and major cities, closing key museums and boarding up storefronts ahead of anticipated high-risk demonstrations.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-24T09:42:10Z",
+     "outlet_count": 9,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "All three Paris Apple Stores close ahead of protests",
+       "url": "https://appleinsider.com/articles/26/10/23/all-three-paris-apple-stores-close-ahead-of-protests?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "France to deploy 70,000 police officers ahead of protests",
+       "url": "https://www.dw.com/en/france-to-deploy-70-000-police-officers-ahead-of-protests/a-79747655?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Closes French Stores Ahead of Further Protests",
+       "url": "https://www.macrumors.com/2026/10/24/apple-closes-french-stores/",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Paris museums close, shops build barricades ahead of more protests",
+       "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "Paris museums close and shops board up ahead of fresh protests",
+       "url": "https://www.rfi.fr/en/france/20261024-paris-museums-close-and-shops-board-up-ahead-of-fresh-protests",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "France to deploy 70,000 police ahead of weekend protests",
+       "url": "https://www.rte.ie/news/europe/2026/1024/1596708-france-protests/",
+       "official": false
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "France: 70,000 police officers, banned protests, closed museums – tense atmosphere ahead of new day of protests",
+       "url": "https://www.spiegel.de/ausland/frankreich-70-000-polizisten-verbotene-demos-geschlossene-museen-angespannte-lage-vor-erneutem-protesttag-a-0890d667-ab5f-4b7e-aa92-244e0c72e9ca#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Frankreich: 70.000 Polizisten, verbotene Demos, geschlossene Museen – angespannte Lage vor erneutem Protesttag"
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "France mounts huge security operation as protesters prepare to march",
+       "url": "https://www.yahoo.com/news/articles/france-mounts-huge-security-operation-093641855.html",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "France mounts huge security operation as protesters prepare to march",
+       "url": "https://www.straitstimes.com/world/europe/france-mounts-huge-security-operation-as-protesters-prepare-to-march",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "58eef4d495bc",
+     "title": "European Nations Prepare to Turn Clocks Back for Winter Time",
+     "summary": "Countries across the Netherlands, Finland, and the rest of Europe are preparing to set their clocks back one hour this weekend as the region transitions to winter time.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-24T11:01:12Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Helsinki Times (Finland)",
+       "title": "Clocks go back one hour in Finland on Sunday",
+       "url": "https://www.helsinkitimes.fi/finland/finland-news/domestic/29423-clocks-go-back-one-hour-in-finland-on-sunday.html",
+       "official": false
+      },
+      {
+       "outlet": "NL Times (Netherlands)",
+       "title": "Clocks go back one hour in the Netherlands early Sunday morning",
+       "url": "https://nltimes.nl/2026/10/24/clocks-go-back-one-hour-netherlands-early-sunday-morning",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "1390e34582fd",
+     "title": "Japanese ISP GMO Petitions Government for Active Cyber Defense Framework",
+     "summary": "Internet provider GMO officially requested the Japanese government to implement active cyber defense measures following a series of unauthorized network access incidents.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-24T11:01:12Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "GMO asks government to take active cyber defense measures",
+       "url": "https://www.japantimes.co.jp/business/2026/10/24/gmo-cyber-defense-government-request/",
+       "official": false
+      },
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "GMO requests government to apply active cyber defense following unauthorized access",
+       "url": "https://mainichi.jp/articles/20261024/k00/00m/020/176000c",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "GMO、能動的サイバー防御適用を政府に要請 不正アクセスで"
+      },
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan net provider GMO seeks 'active cyber defense' from government",
+       "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-net-provider-gmo-seeks-active-cyber-defense-from-government",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4171867e2f22",
+     "title": "Park24 to Compensate Millions of Users Following Massive Data Breach",
+     "summary": "Parking service Park24 announced it will pay compensation to Times Car users after confirming that approximately 6.62 million user accounts were compromised in a security breach.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-24T08:21:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Park24 to pay ¥3,000 to Times Car users hit by data breach",
+       "url": "https://www.japantimes.co.jp/business/2026/10/24/park24-3000-yen-compensation/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c067d296bb08",
+     "title": "Senshu Ikeda Bank and Shiga Bank Enter Consolidation Talks",
+     "summary": "Regional financial institutions Senshu Ikeda Bank and Shiga Bank have begun formal negotiations to consolidate their business operations, with an announcement expected shortly.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-24T08:21:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Senshu Ikeda and Shiga to merge in latest Japan consolidation",
+       "url": "https://www.japantimes.co.jp/business/2026/10/24/shiga-bank-senshu-ikeda-merger-talks/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "1305369376b4",
+     "title": "FC Seoul Crowned K League 1 Champions After Securing Season Title",
+     "summary": "Manager Kim Gi-dong led FC Seoul to capture the official South Korean professional football championship title following a decisive victory in the final fixtures.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-24T09:08:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "FC Seoul crowned K League 1 champions",
+       "url": "https://en.yna.co.kr/view/AEN20261024002000315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) FC Seoul crowned K League 1 champions",
+       "url": "https://en.yna.co.kr/view/AEN20261024002051315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "FC Seoul boss Kim Gi-dong happy to deliver on championship promise",
+       "url": "https://en.yna.co.kr/view/AEN20261024005600315",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f4350cda2a39",
+     "title": "South Korean Retail Gasoline Prices Extend Decline for 23rd Consecutive Week",
+     "summary": "Data from the Korea National Oil Corporation shows that domestic pump prices across South Korea experienced a marginal decrease, marking a continuous 23-week downward trend.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-24T06:03:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "S. Korea's Gasoline Prices Fall for 23rd Consecutive Week",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205096",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7fc354391f15",
+     "title": "U.S. Notifies North Korea of Court Order for USS Pueblo Compensation",
+     "summary": "The United States formally notified Pyongyang of a federal court ruling requiring the North Korean government to pay financial compensation to surviving crew members of the 1968 USS Pueblo incident.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-24T05:05:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "VOA: US Notifies N. Korea of Court-Ordered Compensation for USS Pueblo Crew",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205092",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e947f42ed8da",
+     "title": "U.S. Treasury Proposes Expanding Tech Investment Restrictions to North Korea",
+     "summary": "The U.S. Treasury Department put forward a regulatory proposal to broaden prohibitions on American investments in sensitive technologies to include North Korea and targeted adversary states.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-24T01:51:05Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "US Treasury Department proposes expanding tech investment restrictions to N. Korea",
+       "url": "https://www.koreaherald.com/article/10913416",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "3c234e5a7b97",
+     "title": "The Apothecary Diaries Novel Preorders Available on Amazon and Retailers",
+     "summary": "Preorders for The Apothecary Diaries: The False Imperial Brother are currently live across Amazon and specialty shops for $59.99.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-24T03:51:29Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "The Apothecary Diaries: The False Imperial Brother (PS5/Switch 2 KC) up for preorder on Amazon ($59.99) amzn.to/4dV8IeK VGP buff.ly/CzTC4k3 PNP buff.ly/yd1yL36 #ad",
+       "url": "https://amzn.to/4dV8IeK",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "17568ac297dd",
+     "title": "Croc 2 and Croc: Legend of the Gobbos Preorders Open at VGP",
+     "summary": "Physical preorders for Croc 2 Kingdom of the Gobbos and Croc: Legend of the Gobbos Platinum Edition are available at VGP for $49.98 each.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-24T00:49:57Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Croc 2 Kingdom of the Gobbos (PS5/Switch 2E/XSX) & Croc: Legend of the Gobbos Platinum Edition (Switch 2E/XSX) up for preorder at VGP ($49.98 US Dollars each) buff.ly/PTFQtGa #ad Xbox release added",
+       "url": "https://buff.ly/PTFQtGa",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "63c955175d76",
+     "title": "Bubsy 4D Pawsome Edition Heavily Discounted Across Major Retailers",
+     "summary": "Bubsy 4D - Pawsome Edition is marked down across Amazon, Best Buy, and digital storefronts, with prices starting as low as $13.99.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-24T00:02:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Bubsy 4D - Pawsome Edition (Switch/Switch 2) is $29.99/$39.99 on Amazon link.amazon/B0fWQmNnC Best Buy buff.ly/LRMA8rF #ad $13.99 US eShop buff.ly/Nh9FTWP Xbox buff.ly/vb68U7W",
+       "url": "https://link.amazon/B0fWQmNnC",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e1e54347dff4",
+     "title": "Resident Evil 2 (1998 Classic) Available on Fanatical for $1.74",
+     "summary": "The classic PC version of Resident Evil 2 (1998) on GOG is currently discounted to $1.74 over at Fanatical.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-24T05:18:18Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Resident Evil 2 - 1998 (GOG) is $1.74 on Fanatical buff.ly/YAIXpVc #ad",
+       "url": "https://buff.ly/YAIXpVc",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-24",
+ "generated_at": "2026-10-24T11:01:12Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1008,
+  "clusters": 867,
+  "feeds_ok": 175,
+  "feeds_failed": 1
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "wapo-politics",
+   "title": "The Washington Post: Politics",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
+  },
+  {
+   "key": "corriere",
+   "title": "Corriere della Sera (Italy)",
+   "status": "stale",
+   "detail": "no new items since 2024-05-13"
+  },
+  {
+   "key": "nhk",
+   "title": "NHK News (Japanese)",
+   "status": "stale",
+   "detail": "no new items since 2026-08-08"
+  }
+ ]
+}
