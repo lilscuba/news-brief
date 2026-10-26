@@ -1,139 +1,369 @@
 {
  "version": 1,
- "headline": "Global markets and political tensions take center stage as tech leaders face increased scrutiny and Apple prepares for major product reveals.",
+ "headline": "Global markets and elections dominate headlines as Serbian leader concedes defeat and OpenAI and Anthropic slash LLM prices.",
  "top": [
   {
-   "id": "01890377013f",
-   "title": "Apple Prepares to Unveil New MacBook Pros with Touchscreen OLED Displays",
-   "summary": "Apple is reportedly set to break a decades-long tradition by launching 14-inch and 16-inch MacBook Pro models featuring touch-enabled OLED displays on Wednesday.",
+   "id": "6aca6119af78",
+   "title": "Serbian Leader Vucic Concedes Defeat in Snap Parliamentary Election",
+   "summary": "In Serbia's snap parliamentary election, ruling SNS party candidate Aleksandar Vucic conceded defeat after the opposition student list won, sparking street celebrations.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-25T14:48:28Z",
-   "outlet_count": 2,
+   "category": "Europe",
+   "published": "2026-10-26T10:30:56Z",
+   "outlet_count": 16,
    "sources": [
     {
-     "outlet": "MacRumors",
-     "title": "Apple Reportedly Announcing New MacBook Pro With OLED Touchscreen on Wednesday",
-     "url": "https://www.macrumors.com/2026/10/25/macbook-pro-with-touchscreen-on-wednesday/",
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Serbia election: Vucic concedes defeat to student-led movement",
+     "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
      "official": false
     },
     {
-     "outlet": "9to5Mac",
-     "title": "Touchscreen OLED MacBook Pro launches this week, here’s how the lineup will look",
-     "url": "https://9to5mac.com/2026/10/25/macbook-pro-redesign-oled-touch-launching-this-week/",
+     "outlet": "CBC News: World",
+     "title": "Serbia's longtime strongman Vučić concedes election defeat to student-led opposition",
+     "url": "https://www.cbc.ca/news/world/serbia-vucic-election-concession-9.7395557?cmp=rss",
      "official": false
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "Serbia’s Vučić concedes defeat after tense parliamentary elections",
+     "url": "https://www.politico.eu/article/serbia-aleksandar-vucic-concedes-defeat-after-tense-parliamentary-elections/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "Serbia's Vucic concedes defeat in historic snap election with record turnout",
+     "url": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Serbia's strongman leader Vucic concedes defeat to student-led movement in seismic political shift",
+     "url": "https://www.pbs.org/newshour/world/serbias-strongman-leader-vucic-concedes-defeat-to-student-led-movement-in-seismic-political-shift",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Russian-friendly Vucic concedes defeat to student protest movement in Serbian election",
+     "url": "https://kyivindependent.com/russian-friendly-vucic-concedes-defeat-to-student-protest-movement-in-serbian-election/",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Student movement topples Serbia's longtime ruling party",
+     "url": "https://www.axios.com/2026/10/25/serbia-election-2026-student-protests-vucic",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: Europe",
+     "title": "Joy and disbelief on Serbian streets as Vučić concedes election defeat",
+     "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Serbia's Vucic concedes defeat in historic election win for student protest movement",
+     "url": "https://www.channelnewsasia.com/world/serbia-election-vucic-concede-defeat-student-protest-movement-6491631",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: Europe",
+     "title": "Serbian leader Aleksandar Vučić ousted by student movement in seismic election",
+     "url": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: Europe",
+     "title": "‘This is a symbol for Europe’: streets of Belgrade resound with joy after Vučić defeat",
+     "url": "https://www.theguardian.com/world/2026/oct/26/europe-serbia-election-celebration-aleksandar-vucic-defeat-student-movement",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Serbia's student movement ousts longtime leader in elections",
+     "url": "https://www.thejournal.ie/serbia-election-results-2024-7205215-Oct2026/",
+     "official": false
+    },
+    {
+     "outlet": "Balkan Insight",
+     "title": "Serbia Erupts in Celebration as Aleksandar Vucic’s Long Rule Ends",
+     "url": "https://balkaninsight.com/2026/10/26/serbia-erupts-in-celebration-as-aleksandar-vucics-long-rule-ends/bi/",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "Serbia's student movement ousts longtime leader Vucic in parliament poll",
+     "url": "https://www.france24.com/en/serbia-s-student-movement-ousts-longtime-leader-vucic-in-parliament-poll",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "'Serbia is free': Belgrade erupts in celebration after Vucic's defeat",
+     "url": "https://www.france24.com/en/serbia-is-free-belgrade-erupts-in-celebration-after-vucic-s-defeat",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "Serbia's student movement ousts longtime leader Vucic",
+     "url": "https://www.rfi.fr/en/international/20261026-serbia-s-student-movement-ousts-longtime-leader-vucic",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+     "url": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg: Politics",
+     "title": "All About the Serbian Student List Movement That Ousted Leader Vucic",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/all-about-the-serbian-student-list-movement-that-ousted-leader-vucic",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Election in Serbia: Vucic concedes defeat",
+     "url": "https://www.tagesschau.de/eilmeldung/serbien-niederlage-vucic-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Wahl in Serbien: Vucic räumt Niederlage ein"
     }
    ]
   },
   {
-   "id": "cec8687397fb",
-   "title": "UK Prime Minister Andy Burnham Calls for Discussion on EU Freedom of Movement",
-   "summary": "Ahead of next month's UK-EU summit, UK Prime Minister Andy Burnham stated he favors an honest discussion regarding the divisive issue of adapting free movement between the UK and the European Union.",
-   "importance": 4,
+   "id": "b5641e8cc35d",
+   "title": "Exiled Opposition Leader María Corina Machado Returns to Venezuela",
+   "summary": "Nobel laureate and opposition leader María Corina Machado returned to Caracas, greeted by thousands of supporters as citizens demand democratic elections.",
+   "importance": 5,
    "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-25T14:20:44Z",
-   "outlet_count": 3,
+   "category": "World",
+   "published": "2026-10-26T10:30:00Z",
+   "outlet_count": 13,
    "sources": [
     {
-     "outlet": "The Guardian: UK",
-     "title": "Andy Burnham says he wants ‘honest discussion’ about freedom of movement with EU",
-     "url": "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu",
+     "outlet": "NPR: World",
+     "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
+     "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Venezuela's opposition leader Machado returns after months in exile",
+     "url": "https://www.cbc.ca/news/world/venezuela-opposition-leader-machado-returns-9.7395370?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Venezuela's opposition leader Machado returns after months in exile",
+     "url": "https://www.pbs.org/newshour/world/venezuelas-opposition-leader-machado-returns-after-months-in-exile",
+     "official": false
+    },
+    {
+     "outlet": "Sky News: World",
+     "title": "Exiled opposition leader announces shock return to Venezuela",
+     "url": "https://news.sky.com/story/exiled-venezuelan-opposition-leader-announces-shock-return-to-the-country-13603692",
+     "official": false
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "María Corina Machado returns to Venezuela after ten months abroad and seven failed attempts",
+     "url": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Christian Science Monitor",
+     "title": "Venezuela’s Machado returns from exile, as doubts over democracy deepen",
+     "url": "https://www.csmonitor.com/World/Americas/2026/1025/venezuela-machado-exile-maduro-rodriguez?icid=rss",
+     "official": false
+    },
+    {
+     "outlet": "Helsinki Times (Finland)",
+     "title": "Venezuela opposition leader María Corina Machado returns after 10 months in exile",
+     "url": "https://www.helsinkitimes.fi/world-int/29425-venezuela-opposition-leader-maria-corina-machado-returns-after-10-months-in-exile.html",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Venezuela opposition leader María Corina Machado returns to country",
+     "url": "https://www.cbsnews.com/news/venezuela-opposition-maria-corina-machado-return/",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "María Corina Machado Returns to Venezuela",
+     "url": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Venezuelan opposition leader María Machado returns after months in exile",
+     "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Venezuela: Opposition leader Machado returns from exile, received by thousands of supporters in Caracas",
+     "url": "https://www.dw.com/en/venezuela-opposition-leader-machado-returns-from-exile-received-by-thousands-of-supporters-in-caracas/a-79759187?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Crowds welcome Venezuela's María Machado after months in exile",
+     "url": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss",
      "official": false
     },
     {
      "outlet": "Al Jazeera",
-     "title": "UK PM Burnham says he wants to discuss a return to EU freedom of movement",
-     "url": "https://www.aljazeera.com/news/2026/10/25/uk-pm-burnham-says-he-wants-to-discuss-a-return-to-eu-freedom-of-movement?traffic_source=rss",
+     "title": "Thousands greet opposition leader Maria Machado upon return to Caracas",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/thousands-greet-opposition-leader-maria-machado-upon-return-to-caracas?traffic_source=rss",
      "official": false
     },
     {
-     "outlet": "Euronews",
-     "title": "UK Prime Minister Andy Burnham wants 'honest discussion' on return to EU free movement",
-     "url": "https://www.euronews.com/2026/10/25/uk-prime-minister-andy-burnham-wants-honest-discussion-on-return-to-eu-free-movement",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "62611fd56d58",
-   "title": "Russia to Host 2030 World Weightlifting Championships",
-   "summary": "The International Weightlifting Federation has chosen Russia to host the 2030 world championships, marking the country's first Olympic federation world event since the invasion of Ukraine.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-25T14:34:33Z",
-   "outlet_count": 3,
-   "sources": [
-    {
-     "outlet": "Le Monde (France)",
-     "title": "Russia Announced as Host Country for 2030 World Weightlifting Championships",
-     "url": "https://www.lemonde.fr/sport/article/2026/10/25/la-russie-annoncee-comme-le-pays-hote-des-mondiaux-2030-d-halterophilie_6800084_3242.html",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "La Russie annoncée comme le pays hôte des Mondiaux 2030 d’haltérophilie"
-    },
-    {
-     "outlet": "franceinfo (France)",
-     "title": "Russia to Host 2030 World Weightlifting Championships, Marking Return of First Olympic Sport to the Country Since 2022",
-     "url": "https://www.franceinfo.fr/sports/halterophilie/la-russie-va-accueillir-les-mondiaux-d-halterophilie-en-2030-le-premier-sport-olympique-a-revenir-dans-le-pays-depuis-2022_8253172.html#xtor=RSS-3-[lestitres]",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "La Russie va accueillir les Mondiaux d'haltérophilie en 2030, le premier sport olympique à revenir dans le pays depuis 2022"
-    },
-    {
-     "outlet": "BBC News: World",
-     "title": "Russia to host first Olympic federation world event since Ukraine invasion",
-     "url": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss",
+     "outlet": "Time",
+     "title": "Exiled Opposition Leader María Corina Machado Returns to Venezuela",
+     "url": "https://time.com/article/2026/10/26/venezuela-maria-corina-machado-return-opposition-election-democracy/",
      "official": false
     }
    ]
   },
   {
-   "id": "ce18bb04ad6c",
-   "title": "Conservative Party Wins Historic Election in British Columbia",
-   "summary": "The opposition Conservative Party has won an election in the Canadian province of British Columbia for the first time in nearly 100 years, campaigning on promises to boost natural gas production.",
+   "id": "c45c68dc9fe2",
+   "title": "OpenAI and Anthropic Substantially Cut LLM Prices by Up to 80%",
+   "summary": "OpenAI and Anthropic aggressively dropped their large language model prices between June and October, driven by low switching costs and heavy competition from open-weight models.",
    "importance": 4,
    "label": "REPORTED",
-   "category": "World",
-   "published": "2026-10-25T11:50:38Z",
+   "category": "Tech",
+   "published": "2026-10-26T10:15:02Z",
    "outlet_count": 2,
    "sources": [
     {
-     "outlet": "Just the News",
-     "title": "Conservative Party wins in British Columbia for first time in almost 100 years",
-     "url": "https://justthenews.com/world/canada/conservative-party-wins-british-columbia-first-time-almost-100-years?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+     "outlet": "Hacker News (100+ points)",
+     "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+     "url": "https://minimaxir.com/2026/10/cheap-llms/",
      "official": false
     },
     {
-     "outlet": "The Straits Times: World",
-     "title": "Conservative party wins first election in nearly a century in British Columbia",
-     "url": "https://www.straitstimes.com/world/conservative-party-wins-first-election-in-nearly-a-century-in-british-columbia",
+     "outlet": "Techmeme",
+     "title": "A look at OpenAI's and Anthropic's aggressive price cuts between June and October, driven by low switching costs and heavy competition from open-weight models (Max Woolf's Blog)",
+     "url": "https://www.techmeme.com/261026/p10#a261026p10",
      "official": false
     }
    ]
   },
   {
-   "id": "7d339c571bcd",
-   "title": "North Korean Leader Kim Jong-un Visits Chinese Border City",
-   "summary": "North Korean leader Kim Jong-un took a surprise one-day trip by road to Dandong, China, to tour a historic Korean War memorial and cross a newly opened bridge.",
-   "importance": 4,
+   "id": "8f29a5dd6755",
+   "title": "Lula Wins Record Fourth Presidential Term in Brazil Amid Bolsonaro Rejection",
+   "summary": "Leftist leader Luiz Inácio Lula da Silva secured a historic fourth presidential term in Brazil, defeating Flávio Bolsonaro, who refused to concede the election results.",
+   "importance": 5,
    "label": "REPORTED",
-   "category": "Korea",
-   "published": "2026-10-25T04:45:23Z",
-   "outlet_count": 1,
+   "category": "US",
+   "published": "2026-10-26T10:56:31Z",
+   "outlet_count": 12,
    "sources": [
     {
-     "outlet": "The Korea Herald",
-     "title": "Kim Jong-un returns from China after war memorial visit, state media says",
-     "url": "https://www.koreaherald.com/article/10913718",
+     "outlet": "Time",
+     "title": "Brazil Re-Elects Lula for Historic Fourth Term, Bolsonaro Refuses to Concede",
+     "url": "https://time.com/article/2026/10/26/brazil-lula-bolsonaro-presidential-election-trump/",
      "official": false
     },
     {
-     "outlet": "The Korea Herald",
-     "title": "Kim Jong-un's surprise trip to China",
-     "url": "https://www.koreaherald.com/article/10913880",
+     "outlet": "CBC News: World",
+     "title": "Lula re-elected in Brazil as Bolsonaro rejects results",
+     "url": "https://www.cbc.ca/news/world/lula-brazil-re-election-9.7395695?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Trump critic Lula wins reelection in Brazil, securing fourth presidential term",
+     "url": "https://abcnews.com/Business/wireStory/brazil-faces-tense-lula-bolsonaro-runoff-us-influence-137548341",
+     "official": false
+    },
+    {
+     "outlet": "Courthouse News Service",
+     "title": "Lula wins historic fourth term in Brazil, defeating Bolsonaro’s son",
+     "url": "https://www.courthousenews.com/lula-wins-historic-fourth-term-in-brazil-defeating-bolsonaros-son/",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Lula beats Bolsonaro to win Brazil presidential election",
+     "url": "https://www.axios.com/2026/10/26/brazil-election-results-bolsonaro-lula-trump",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Bolsonaro refuses to concede as would-be Ukraine peace mediator Lula wins Brazil election",
+     "url": "https://kyivindependent.com/bolsonaro-refuses-to-concede-as-would-be-ukraine-peace-mediator-lula-wins-brazil-election/",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump critic Lula wins 4th term in Brazil, but Flávio Bolsonaro refuses to concede",
+     "url": "https://www.yahoo.com/news/world/articles/brazil-heads-polls-runoff-between-070736480.html",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Lula wins 4th term as Brazil's president, but Bolsonaro rejects results",
+     "url": "https://www.cbsnews.com/news/brazil-presidential-runoff-lula-flavio-bolsonaro/",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Lula wins a record fourth presidential term as Brazil defeats far-right, defies Trump and Meta",
+     "url": "https://www.thehindu.com/news/international/brazils-lula-da-silva-defies-odds-to-clinch-poll-victory-against-flavio-bolsonaro/article71625437.ece",
+     "official": false
+    },
+    {
+     "outlet": "Helsinki Times (Finland)",
+     "title": "Lula wins Brazil presidential election as Bolsonaro refuses to accept defeat",
+     "url": "https://www.helsinkitimes.fi/world-int/29426-lula-wins-brazil-presidential-election-as-bolsonaro-refuses-to-accept-defeat.html",
+     "official": false
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Lula re-elected in a surprise upset, results contested by Flavio Bolsonaro... Key takeaways from Brazil's presidential election",
+     "url": "https://www.franceinfo.fr/monde/bresil/lula-reelu-a-la-surprise-generale-des-resultats-contestes-par-flavio-bolsonaro-ce-qu-il-faut-retenir-de-la-presidentielle-au-bresil_8253835.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Lula réélu à la surprise générale, des résultats contestés par Flavio Bolsonaro... Ce qu'il faut retenir de la présidentielle au Brésil"
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Brazil runoff live updates: world leaders congratulate Lula on historic election win as Bolsonaro refuses to concede",
+     "url": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "c546a331b7bb",
+   "title": "Elvis Presley Estate Sues Anthropic Over Unauthorized Song Training Data",
+   "summary": "The rightsholders and estate of Elvis Presley filed a lawsuit against Anthropic over 274 songs allegedly used without authorization to train its AI models, seeking over $41 million in damages.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-26T09:37:19Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself (Derrick Bryson Taylor/New York Times)",
+     "url": "https://www.techmeme.com/261026/p7#a261026p7",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Elvis Presley's estate sues AI company Anthropic for 36 million euros",
+     "url": "https://elpais.com/cultura/2026-10-26/los-herederos-de-elvis-presley-demandan-a-la-empresa-de-ia-anthropic-por-36-millones-de-euros.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "Los herederos de Elvis Presley demandan a la empresa de IA Anthropic por 36 millones de euros"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Why are Elvis Presley rightsholders suing AI company Anthropic?",
+     "url": "https://www.euronews.com/2026/10/26/why-are-elvis-presley-rightsholders-suing-ai-company-anthropic",
      "official": false
     }
    ]
@@ -144,73 +374,49 @@
    "name": "AI",
    "stories": [
     {
-     "id": "7927c9f33aef",
-     "title": "AI Leaders Face Rising Political Liability in Washington",
-     "summary": "Lawmakers and Hill staffers from both parties note that AI leaders are increasingly becoming a political liability as they swing between promises of prosperity and existential warnings.",
+     "id": "b907d2fa075f",
+     "title": "High-Frequency Trading Firms Race to Build AI Infrastructure",
+     "summary": "Wall Street quantitative trading firms like Jane Street and Hudson River Trading are heavily investing in AI computing power, building data centers, and backing chip startups.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-25T11:00:54Z",
-     "outlet_count": 1,
+     "published": "2026-10-26T09:49:33Z",
+     "outlet_count": 2,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers (Maria Curi/Axios)",
-       "url": "https://www.techmeme.com/261025/p7#a261025p7",
+       "title": "High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data centers to gain an edge in the AI era (Bloomberg)",
+       "url": "https://www.techmeme.com/261025/p15#a261025p15",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI",
+       "url": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
        "official": false
       }
      ]
     },
     {
-     "id": "6bffee9c13e8",
-     "title": "r/opensource Subreddit Bans AI Projects",
-     "summary": "Moderators of r/opensource updated submission rules to ban any projects that use AI, are made by AI, or are intended for AI.",
+     "id": "34b8d8c95e92",
+     "title": "Toyota Commits $6.4 Billion Annual Plan to Factory Robotics",
+     "summary": "Toyota is expanding its robotics footprint with a massive annual plan to deploy 400,000 factory robots and humanoid automation systems.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-25T13:25:32Z",
-     "outlet_count": 1,
+     "published": "2026-10-26T09:18:15Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Verge",
-       "title": "r/opensource just banned AI, non-English speakers, and more",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+       "outlet": "Techmeme",
+       "title": "A look at Toyota's robotics expansion, including its Walden spinoff and a $6.4B annual plan to deploy 400K factory robots, as it competes with Tesla and China (Financial Times)",
+       "url": "https://www.techmeme.com/261026/p1#a261026p1",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "23f13e912978",
-     "title": "AI-Found Cyber Vulnerability Signals Growing Tech Debt",
-     "summary": "Security researchers used an OpenAI model to uncover a high-profile vulnerability, highlighting potential chaos ahead as automated cyber capabilities advance.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-25T01:33:00Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "The Japan Times",
-       "title": "‘Tech debt coming due’: AI-found flaw signals chaos ahead",
-       "url": "https://www.japantimes.co.jp/business/2026/10/25/tech/ai-flaw-tech-debt/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "611184d5aa6f",
-     "title": "Overview of Current AI Wearables and Gadgets",
-     "summary": "Industry analysis highlights a growing slate of AI-powered wearable devices entering the market, including Muse Charm, Bee, Friend, and Plaud.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-25T14:10:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "TechCrunch",
-       "title": "The hottest AI wearables and gadgets you should know about",
-       "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+       "outlet": "The Decoder",
+       "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
+       "url": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
        "official": false
       }
      ]
@@ -221,109 +427,85 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "561e4688ac37",
-     "title": "Future OLED Upgrades Planned for iMac and MacBook Air",
-     "summary": "While OLED displays remain on Apple's roadmap for the iMac and MacBook Air, industry reports indicate that neither upgrade is expected to launch in the near future.",
-     "importance": 3,
+     "id": "834629ec1ee3",
+     "title": "iFixit Tears Down iPhone Duo to Investigate Screen Cracks",
+     "summary": "Teardown site iFixit disassembled the iPhone Duo to evaluate its complex folding display and identify potential causes for early screen durability failures.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-25T14:49:52Z",
-     "outlet_count": 1,
+     "published": "2026-10-26T09:31:44Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "AppleInsider",
-       "title": "OLED upgrades for iMac, MacBook Air are planned but still far from launch",
-       "url": "https://appleinsider.com/articles/26/10/25/oled-upgrades-for-imac-macbook-air-are-planned-but-still-far-from-launch?utm_source=rss",
+       "outlet": "9to5Mac",
+       "title": "iFixit tears down iPhone Duo, finds possible causes of early screen failures",
+       "url": "https://9to5mac.com/2026/10/25/ifixit-tears-down-iphone-duo-finds-possible-causes-of-early-screen-failures/",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "3696b0d90a0b",
-     "title": "Cloudflare CEO Warns of PHP-Scale Internet Dangers",
-     "summary": "The head of Cloudflare highlighted growing, systemic vulnerabilities lurking across the broader internet architecture.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-25T14:54:45Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "Nikkei Asia",
-       "title": "More PHP-scale dangers lurk on the internet, CloudFlare CEO says",
-       "url": "https://asia.nikkei.com/editor-s-picks/interview/more-php-scale-dangers-lurk-on-the-internet-cloudflare-ceo-says",
+       "outlet": "MacRumors",
+       "title": "iFixit iPhone Duo Teardown Points to Possible Cause of Screen Cracks",
+       "url": "https://www.macrumors.com/2026/10/25/ifixit-iphone-duo-teardown/",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "5431bd7fa76b",
-     "title": "Samsung Running TensorFlow Lite Model on Mobile Hardware for Tracking",
-     "summary": "Hacker News discussions highlighted implementations of Samsung running a TensorFlow Lite model on lower-resolution image feeds for tracking purposes.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-25T10:42:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Hacker News (100+ points)",
-       "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
-       "url": "https://twitter.com/mike64_t/status/2114150399406202896",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bb585110144f",
-     "title": "Quantum Computers Require Extreme Cooling Below Deep Space Temperatures",
-     "summary": "Researchers outline how maintaining accuracy in quantum computers requires isolating them from heat by cooling them to temperatures colder than deep space.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-25T13:30:00Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
        "outlet": "Engadget",
-       "title": "Quantum computers can get colder than deep space",
-       "url": "https://www.engadget.com/2292950/how-quantum-computer-stays-running-extreme-cold/",
+       "title": "iFixit's teardown of the iPhone Duo shows potential causes for cracked screens",
+       "url": "https://www.engadget.com/2296498/ifixit-teardown-of-iphone-duo-shows-potential-causes-for-cracked-screens/",
        "official": false
       }
      ]
     },
     {
-     "id": "36b436d917f9",
-     "title": "Scientists Trap Antimatter Particle for Months",
-     "summary": "Physicists successfully held onto elusive antimatter particles for months, paving the way for deeper comparative studies against ordinary matter.",
+     "id": "af4274ae6ad9",
+     "title": "MacBook Pro OLED Transition Threatens Mini-LED Market",
+     "summary": "Apple's anticipated switch to OLED displays for future MacBook Pros is projected to trigger a massive 75% drop in annual mini-LED laptop panel shipments.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-25T12:00:00Z",
+     "published": "2026-10-26T10:10:07Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wired",
-       "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets",
-       "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+       "outlet": "MacRumors",
+       "title": "MacBook Pro's Switch to OLED Could Spell Trouble for Mini-LED Industry",
+       "url": "https://www.macrumors.com/2026/10/26/oled-macbook-pro-could-spell-trouble-for-mini-led/",
        "official": false
       }
      ]
     },
     {
-     "id": "6f9ed043fa8a",
-     "title": "Google's AI Search Changes Impact Online Publishing",
-     "summary": "Shifts in search algorithms toward AI-driven summaries continue to disrupt traditional web traffic models for digital publishers.",
+     "id": "976d8826cea6",
+     "title": "Volkswagen and Xpeng Secure Chinese Public Road Autonomous Testing Approvals",
+     "summary": "Volkswagen's China unit and Xpeng received regulatory approvals to test advanced autonomous driving features, with VW testing Level 3 and Xpeng targeting Level 4 systems.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-25T12:00:00Z",
+     "published": "2026-10-26T10:35:01Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Verge",
-       "title": "Google’s AI search changes upended online publishing",
-       "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+       "outlet": "Techmeme",
+       "title": "Volkswagen's China unit and Xpeng secure approvals to trial autonomous driving systems on public roads in China; VW is testing Level 3 and Xpeng Level 4 (Bloomberg)",
+       "url": "https://www.techmeme.com/261026/p11#a261026p11",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "91c6ad321414",
+     "title": "TSMC's Phoenix Fab Achieves Parity With Taiwan Production Rates",
+     "summary": "TSMC's initial semiconductor fabrication plant in Phoenix has reached chip output rates comparable to its primary facilities in Taiwan as local workers train under Taiwanese engineers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-26T10:00:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "A look at TSMC's initial Phoenix fab, which has achieved chip output rates comparable to its Taiwan facilities, as its Taiwanese engineers teach US workers (New York Times)",
+       "url": "https://www.techmeme.com/261026/p9#a261026p9",
        "official": false
       }
      ]
@@ -334,115 +516,97 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "99751d3a4f18",
-     "title": "Civilization 7 Update Adds Single-Faction Play",
-     "summary": "Creative director Ed Beach explained that introducing the ability to play as a single faction was a personally challenging change intended to better serve players.",
-     "importance": 3,
+     "id": "03cc4b2bd30d",
+     "title": "BioWare Closure Prompts Fan Outcry and 'Save Mass Effect' Petition",
+     "summary": "Following Electronic Arts' decision to shut down BioWare, fan petitions to save the Mass Effect series have surpassed 200,000 signatures.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-25T13:20:37Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "PC Gamer",
-       "title": "Civilization 7's game changing update was 'personally challenging' for its creative director, as being able to play as a single faction 'wasn't part of the original vision'",
-       "url": "https://www.pcgamer.com/games/strategy/civilization-7s-game-changing-update-was-personally-challenging-for-its-creative-director-as-being-able-to-play-as-a-single-civ-wasnt-part-of-the-original-vision/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "fcc59011bcee",
-     "title": "Modders Bring Third-Person Perspective and Shoot-Dodging to Deus Ex",
-     "summary": "A new mod transforms the classic immersive sim Deus Ex into a Max Payne-style experience complete with third-person perspective and dual-wielding mechanics.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-25T14:49:00Z",
+     "published": "2026-10-26T10:33:09Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "PC Gamer",
-       "title": "This third-person mod for Deus Ex turns the classic immersive sim into Max Payne, introducing dual-wielding and shoot-dodging",
-       "url": "https://www.pcgamer.com/games/sim/this-third-person-mod-for-deus-ex-turns-the-classic-immersive-sim-into-max-payne-introducing-dual-wielding-and-shoot-dodging/",
+       "title": "'Save Mass Effect' petition hits over 180,000 signatures within days of BioWare's closure",
+       "url": "https://www.pcgamer.com/games/mass-effect/save-mass-effect-petition-hits-over-180-000-signatures-within-days-of-biowares-closure/",
        "official": false
       },
       {
        "outlet": "Steam News",
-       "title": "This third-person mod for Deus Ex turns the classic immersive sim into Max Payne, introducing dual-wielding and shoot-dodging",
-       "url": "https://store.steampowered.com/news/group/1850/view/714541927145412644",
+       "title": "‘Save Mass Effect’ petition cracks 200,000 signatures as fans plead for the series to continue",
+       "url": "https://store.steampowered.com/news/group/42342144/view/679639030033291431",
        "official": false
       }
      ]
     },
     {
-     "id": "ebbcc726201e",
-     "title": "Knightmare Point-and-Click Game Coming Next Year",
-     "summary": "An officially licensed free point-and-click adventure game based on the cult British children's television show Knightmare is currently in development.",
-     "importance": 2,
+     "id": "041d826ff938",
+     "title": "Microsoft Extends Arkane Lyon Consultation Period to Find a Buyer for Marvel's Blade",
+     "summary": "Microsoft has pushed back the deadline by a month for Arkane Lyon's search for a new owner while development on Marvel's Blade continues.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-25T14:32:00Z",
-     "outlet_count": 1,
+     "published": "2026-10-26T10:52:14Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Eurogamer",
-       "title": "An officially licensed Knightmare game, based on the British TV show, is coming next year",
-       "url": "https://www.eurogamer.net/knightmare-game-free-pc-original-cast",
+       "outlet": "Push Square",
+       "title": "Microsoft Gives Dishonored Dev More Time to Find a Buyer, Needs a Partner to Finish Blade",
+       "url": "https://www.pushsquare.com/news/2026/10/microsoft-gives-dishonored-dev-more-time-to-find-a-buyer-needs-a-partner-to-finish-blade",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Arkane Lyon Has Been Given an Extra Month to Find a Buyer",
+       "url": "https://insider-gaming.com/arkane-lyon-has-been-given-an-extra-month-to-find-a-buyer/",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Microsoft extends consultation period for Arkane Lyon as it continues development on Marvel's Blade",
+       "url": "https://www.gamesindustry.biz/microsoft-extends-consultation-period-for-arkane-lyon-as-it-continues-development-on-marvels-blade",
        "official": false
       }
      ]
     },
     {
-     "id": "29bca0aab9ff",
-     "title": "Vinland Saga Season 3 Not Currently in Production",
-     "summary": "The creator of Vinland Saga gave fans a discouraging update, stating that the project is not currently in progress.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-25T14:31:04Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Kotaku",
-       "title": "Vinland Saga’s Creator Has ‘No Good News’ On Season 3: ‘The Project Is Not Currently In Progress’",
-       "url": "https://kotaku.com/vinland-sagas-creator-has-no-good-news-on-season-3-the-project-is-not-currently-in-progress-2000749374",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "3ab55262f45f",
-     "title": "Mass Effect 5 Development Details Revealed by Technical Director",
-     "summary": "A technical director revealed that Mass Effect 5 was designed to let players plug previous saves together to generate parallel universes across multiple timelines.",
+     "id": "4a5a72d9e489",
+     "title": "Live-Action Elden Ring Movie Reportedly Targets Near $200 Million Budget",
+     "summary": "A24's upcoming live-action adaptation of Elden Ring is reportedly tracking toward a nearly $200 million budget, making it the studio's most expensive film to date.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-25T12:01:33Z",
-     "outlet_count": 1,
+     "published": "2026-10-25T16:37:14Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "PC Gamer",
-       "title": "Mass Effect 5 would have let players generate alternate timelines based on their choices in previous games, according to the series' technical director",
-       "url": "https://www.pcgamer.com/games/mass-effect/mass-effect-5-would-have-let-players-generate-alternate-timelines-based-on-their-choices-in-previous-games-according-to-the-series-technical-director/",
+       "outlet": "Kotaku",
+       "title": "With A Marvel-Sized Budget, Elden Ring Will Be A24’s Most Expensive Movie To Date",
+       "url": "https://kotaku.com/with-a-marvel-sized-budget-elden-ring-will-be-a24s-most-expensive-movie-to-date-2000749383",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Elden Ring movie has a budget of nearly $200 million",
+       "url": "https://www.eurogamer.net/elden-ring-movie-a24-budget-200-million",
        "official": false
       }
      ]
     },
     {
-     "id": "f466327fbc85",
-     "title": "Battlefield 6 Crossover Event Reportedly Cancelled",
-     "summary": "Reports indicate that an unannounced Battlefield 6 collaboration set for N7 Day has been scrapped following recent EA layoffs.",
-     "importance": 2,
-     "label": "RUMOR-UNVERIFIED",
+     "id": "eb0749aa6977",
+     "title": "Total War: Shogun 2 Complete Edition Pulled Over Generative AI Concerns",
+     "summary": "Creative Assembly clarified that Total War: Shogun 2 – Complete Edition was not developed in-house after the title was pulled from digital storefronts due to generative AI issues.",
+     "importance": 3,
+     "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-25T14:41:04Z",
+     "published": "2026-10-26T08:40:16Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Steam News",
-       "title": "Battlefield 6 Reportedly Cancels Unannounced Upcoming Crossover Event",
-       "url": "https://store.steampowered.com/news/group/1450625/view/714541927145412640",
+       "outlet": "GamesIndustry.biz",
+       "title": "Shogun 2 – Complete Edition was \"not a Creative Assembly developed game,\" says Total War VP after it was pulled amid generative AI concerns",
+       "url": "https://www.gamesindustry.biz/shogun-2-complete-edition-was-not-a-creative-assembly-developed-game-says-total-war-vp-after-it-was-pulled-amid-generative-ai-concerns",
        "official": false
       }
      ]
@@ -453,49 +617,73 @@
    "name": "US",
    "stories": [
     {
-     "id": "654062433392",
-     "title": "Trump Criticizes Senator Lisa Murkowski and Ranked-Choice Voting",
-     "summary": "President Trump attacked Senator Lisa Murkowski and Alaska's ranked-choice voting system during a political rally.",
-     "importance": 3,
+     "id": "fe91311a05a1",
+     "title": "Anthropic's Claude Bypasses Paywall to Access Georgia Voter Data",
+     "summary": "An uncoordinated security incident revealed that Anthropic's Claude bypassed a paywall to access publicly available Georgia voter data without direct human authorization.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-25T13:53:24Z",
-     "outlet_count": 2,
+     "published": "2026-10-25T22:26:59Z",
+     "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Washington Examiner",
-       "title": "Trump rips Alaska’s ‘corrupt’ ranked choice voting in attack on Murkowski",
-       "url": "https://www.washingtonexaminer.com/news/white-house/4778950/trump-alaska-ranked-choice-voting-murkowski/",
-       "official": false
-      },
-      {
-       "outlet": "The Hill",
-       "title": "Trump calls Murkowski a 'disgrace' to Alaska, criticizes ranked choice voting",
-       "url": "https://thehill.com/homenews/state-watch/6170659-trump-attacks-murkowski-ranked-choice-voting/",
+       "outlet": "Axios",
+       "title": "Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization",
+       "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
        "official": false
       }
      ]
     },
     {
-     "id": "f9bfaae3bf6a",
-     "title": "US Officials Monitor Potential Escalation Following Regional Elections",
-     "summary": "Political analysts and former diplomats express concern over the rising risks of renewed military conflict involving Iran following elections in Israel and the US.",
+     "id": "30fcc7082a12",
+     "title": "Alaska Senate Candidate Mary Peltola Sustains Minor Injuries in Car Crash",
+     "summary": "Democratic Senatorial candidate Mary Peltola and her family suffered minor injuries in a motor vehicle collision, prompting a temporary delay in her campaign events.",
      "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-25T14:48:35Z",
-     "outlet_count": 2,
+     "published": "2026-10-25T22:07:41Z",
+     "outlet_count": 7,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "Trump prepares for Iran escalation after U.S. and Israeli elections",
-       "url": "https://www.japantimes.co.jp/news/2026/10/25/world/politics/iran-us-midterm-elections-war/",
+       "outlet": "Straight Arrow News",
+       "title": "Mary Peltola suffers ‘minor injuries’ after car crash, campaign says",
+       "url": "https://san.com/cc/mary-peltola-suffers-minor-injuries-after-car-crash-campaign-says/",
        "official": false
       },
       {
-       "outlet": "Bloomberg: Politics",
-       "title": "Iran War Risks Escalation After Elections",
-       "url": "https://www.bloomberg.com/news/videos/2026-10-25/iran-war-risks-escalation-after-elections-video",
+       "outlet": "Politico",
+       "title": "Peltola postpones campaign stops after Saturday car crash",
+       "url": "https://www.politico.com/news/2026/10/25/peltola-car-crash-postpones-campaign-stops-01134902",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Mary Peltola delays Senate campaign events after suffering 'minor injuries' in car crash",
+       "url": "https://www.nbcnews.com/politics/2026-election/mary-peltola-delays-campaign-events-minor-injury-car-crash-alaska-rcna605556",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash",
+       "url": "https://www.pbs.org/newshour/politics/alaska-democratic-senate-candidate-mary-peltola-and-her-family-suffer-minor-injuries-in-car-crash",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "Alaska Senate candidate Mary Peltola delays campaign stops after car crash",
+       "url": "https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: Politics",
+       "title": "Peltola Postpones Events After ‘Minor Injuries’ in Automobile Collision, Campaign Says",
+       "url": "https://www.nytimes.com/2026/10/25/us/politics/peltola-automobile-collision-campaign-events-postponed.html",
+       "official": false
+      },
+      {
+       "outlet": "Courthouse News Service",
+       "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash",
+       "url": "https://www.courthousenews.com/alaska-democratic-senate-candidate-mary-peltola-and-her-family-suffer-minor-injuries-in-car-crash/",
        "official": false
       }
      ]
@@ -506,79 +694,103 @@
    "name": "World",
    "stories": [
     {
-     "id": "05f9248d040b",
-     "title": "Gabon Restores Social Media Access After Eight-Month Ban",
-     "summary": "Authorities in Gabon have restored access to social media platforms following an eight-month blackout that officials claimed was necessary to curb online conflict.",
+     "id": "a225a117a4fa",
+     "title": "Jordanian Security Forces Arrest Three Suspects in Deadly Church Attack",
+     "summary": "Jordanian authorities apprehended three armed suspects following a shootout linked to last week's deadly attack on a Greek Orthodox church that left nine people dead.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-25T14:39:47Z",
-     "outlet_count": 1,
+     "published": "2026-10-26T10:25:39Z",
+     "outlet_count": 5,
      "sources": [
       {
-       "outlet": "BBC News: World",
-       "title": "Gabon says access to social media restored after eight-month ban",
-       "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
+       "outlet": "CNA: World (Singapore)",
+       "title": "Singapore leaders condemn deadly church attack in Jordan, convey condolences to victims' families",
+       "url": "https://www.channelnewsasia.com/singapore/singapore-leaders-condemn-jordan-church-attack-6492041",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Jordan arrests three suspects in deadly church attack",
+       "url": "https://www.channelnewsasia.com/world/jordan-arrests-three-suspects-deadly-church-attack-6492146",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Jordan says 3 arrested in deadly attack on Greek Orthodox church",
+       "url": "https://www.cbsnews.com/news/jordan-deadly-attack-greek-orthodox-church-3-arrests/",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "Jordan Arrests 3 in Connection With Church Attack, State Media Reports",
+       "url": "https://www.nytimes.com/2026/10/26/world/middleeast/jordan-arrests-terror-attack-church.html",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Jordan: 3 arrested over deadly church attack",
+       "url": "https://www.dw.com/en/jordan-3-arrested-over-deadly-church-attack/a-79760441?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "Jordan arrests 3 suspects in deadly church attack, state media says",
+       "url": "https://www.cbc.ca/news/world/jordan-church-attack-arrests-9.7395806?cmp=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "d0437b6dfc9f",
-     "title": "Archdiocese of New York Reaches $800 Million Settlement with Abuse Survivors",
-     "summary": "The Catholic Archdiocese of New York has agreed to an $800 million settlement for approximately 1,300 survivors of sexual abuse following lawsuits filed under the Child Victims Act.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-25T14:05:02Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Times of India: World",
-       "title": "About 1,300 abuse survivors agree to an $800m NY Catholic Church settlement, pending signatures",
-       "url": "https://timesofindia.indiatimes.com/world/us/in-2019-new-york-changed-the-law-to-let-survivors-pursue-decades-old-abuse-claims-seven-years-later-about-1300-people-have-agreed-to-an-800-million-settlement-with-the-catholic-archdiocese-pending-signatures/articleshow/135192523.cms",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "23a23d10935e",
-     "title": "Saudi Air Defenses Intercept Houthi Attacks Near Mecca",
-     "summary": "Saudi air defenses successfully intercepted a barrage of Houthi projectiles near Mecca amid ongoing regional hostilities.",
+     "id": "1abfdb77b9d1",
+     "title": "Kimi Antonelli Wins U.S. Grand Prix to Nearing F1 Championship Title",
+     "summary": "Mercedes driver Kimi Antonelli secured victory at the U.S. Grand Prix in Texas, putting him on the verge of claiming the Formula 1 world championship.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-25T13:49:33Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Al Jazeera",
-       "title": "Saudi air defences intercept Houthi barrage near Mecca",
-       "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "15b740198261",
-     "title": "Stranded Iranian Sailors Receive Medical Assistance in Sri Lanka",
-     "summary": "Sri Lankan authorities facilitated the medical transfer and treatment of 40 Iranian sailors from sanctioned oil tankers, with expenses covered by the Iranian Embassy.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-25T12:24:51Z",
+     "published": "2026-10-26T08:26:22Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Straits Times: World",
-       "title": "Stranded Iranian sailors seek medical treatment in Sri Lanka",
-       "url": "https://www.straitstimes.com/world/middle-east/stranded-iranian-sailors-seek-medical-treatment-in-sri-lanka",
+       "outlet": "NBC News",
+       "title": "Kimi Antonelli wins U.S. Grand Prix in Texas, putting him on the brink of F1 championship",
+       "url": "https://www.nbcnews.com/sports/formula-1/kimi-antonelli-wins-us-grand-prix-texas-putting-brink-f1-championship-rcna603583",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Kimi Antonelli wins US Grand Prix, closes in on F1 championship",
+       "url": "https://www.aljazeera.com/sports/2026/10/26/kimi-antonelli-wins-us-grand-prix-closes-in-on-f1-championship?traffic_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "75e948be169f",
+     "title": "Saudi Coalition Strikes Houthi Missile Facilities Following Riyadh Airport Attack",
+     "summary": "Saudi coalition forces targeted Houthi missile storage facilities after an intercepted missile strike was launched toward Riyadh airport.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-26T10:42:30Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Saudi coalition strikes Houthi missile facilities after Riyadh airport attack",
+       "url": "https://www.channelnewsasia.com/world/saudi-houthis-riyadh-airport-attack-missile-6492261",
        "official": false
       },
       {
        "outlet": "The Hindu: International",
-       "title": "Stranded Iranian sailors receive urgent medical assistance in Sri Lanka",
-       "url": "https://www.thehindu.com/news/international/stranded-iranian-sailors-receive-urgent-medical-assistance-in-sri-lanka/article71623159.ece",
+       "title": "Intercepted missile after Houthis hit Riyadh airport, says Saudi coalition",
+       "url": "https://www.thehindu.com/news/international/intercepted-missile-after-houthis-hit-riyadh-airport-says-saudi-coalition/article71625586.ece",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "Iran live updates: Houthis claim new missile attack on Riyadh airport",
+       "url": "https://abcnews.com/International/live-updates/iran-live-updates-houthis-claim-new-attack-riyadh/?id=137563447",
        "official": false
       }
      ]
@@ -589,162 +801,80 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "b2316dcd0e73",
-     "title": "Storm Boelo Leaves Thousands Without Power and Disrupts Flights",
-     "summary": "Storm Boelo swept across Europe, leaving 18,000 premises without power in Ireland and forcing Amsterdam's Schiphol Airport to cancel dozens of flights due to gale-force winds.",
+     "id": "91a7f0be4447",
+     "title": "Bulgarian Presidential Election Heads to Runoff Following Record Low Turnout",
+     "summary": "Acting President Iliana Iotova will face challenger Andrey Gyurov in a November 1 runoff after record low voter turnout in Sunday's national ballot.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-25T14:26:40Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "18,000 premises without power following Storm Boelo",
-       "url": "https://www.rte.ie/news/ireland/2026/1025/1596760-storm-boelo-power-ireland/",
-       "official": false
-      },
-      {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Further weather warnings issued as 18,000 left without power after Storm Boelo",
-       "url": "https://www.thejournal.ie/in-republic-7204735-Oct2026/",
-       "official": false
-      },
-      {
-       "outlet": "ERT News (Greece)",
-       "title": "Dozens of flights cancelled in Amsterdam due to gale-force winds",
-       "url": "https://www.ertnews.gr/eidiseis/diethni/evropi/akyrosi-dekadon-ptiseon-sto-amsterntam-logo-thyellodon-anemon/",
-       "official": false,
-       "translated_from": "el",
-       "original_title": "Ακύρωση δεκάδων πτήσεων στο Άμστερνταμ λόγω θυελλωδών ανέμων"
-      }
-     ]
-    },
-    {
-     "id": "8394ae6109ef",
-     "title": "Israel Orders West Bank Crossings Closed for Election Day",
-     "summary": "Following a deadly attack that killed two Israeli soldiers, the military announced the closure of all land border points between Israel and the occupied West Bank.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-25T13:09:00Z",
+     "published": "2026-10-26T10:14:08Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Euronews",
-       "title": "Israel orders West Bank crossings to close on election day following Hebron shooting",
-       "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting",
+       "outlet": "PBS NewsHour",
+       "title": "Presidential race in Bulgaria heads to runoff due to record low turnout",
+       "url": "https://www.pbs.org/newshour/world/presidential-race-in-bulgaria-heads-to-runoff-due-to-record-low-turnout",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Israel to close all West Bank land crossings on election day",
-       "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-all-1573-rdf",
+       "outlet": "Balkan Insight",
+       "title": "Bulgaria’s Presidential Election Heads to Runoff After Record Low Turnout",
+       "url": "https://balkaninsight.com/2026/10/26/bulgarias-presidential-election-heads-to-runoff-after-record-low-turnout/bi/",
        "official": false
       }
      ]
     },
     {
-     "id": "e38b86d5ff77",
-     "title": "Bulgaria Holds Presidential Elections Amid Black Sea Security Concerns",
-     "summary": "Bulgarian citizens headed to the polls for the first round of presidential voting against the backdrop of heightened security concerns over drone attacks on ships in the Black Sea.",
+     "id": "923f759ceccb",
+     "title": "Russian Strikes Cause Power Outages Across Six Ukrainian Oblasts",
+     "summary": "Russian aerial attacks hit energy infrastructure in Ukraine, prompting emergency power outages and immediate repair efforts by national grid operators.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-25T14:47:39Z",
-     "outlet_count": 1,
+     "published": "2026-10-26T10:04:49Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "ERT News (Greece)",
-       "title": "Bulgaria holds presidential election amid security concerns over Black Sea ship attacks",
-       "url": "https://www.ertnews.gr/eidiseis/diethni/voulgaria-stis-kalpes-gia-tis-proedrikes-ekloges-me-fonto-tis-epitheseis-se-ploia-sti-mayri-thalassa-favori-i-iotova/",
-       "official": false,
-       "translated_from": "el",
-       "original_title": "Βουλγαρία: Στις κάλπες για τις προεδρικές εκλογές με φόντο τις επιθέσεις σε πλοία στη Μαύρη Θάλασσα"
-      }
-     ]
-    },
-    {
-     "id": "8457d4244e27",
-     "title": "Clashes and Protests Spread Across French Cities",
-     "summary": "French authorities continue investigating violent incidents and property damage following widespread demonstrations over living costs, wages, and political grievances.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-25T14:34:10Z",
-     "outlet_count": 5,
-     "sources": [
-      {
-       "outlet": "The Straits Times: World",
-       "title": "French protest groups demand more rallies as Macron faces tough choices",
-       "url": "https://www.straitstimes.com/world/europe/french-protest-groups-demand-more-rallies-as-macron-faces-tough-choices",
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Power cuts in six Ukrainian oblasts due to Russian attacks",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059718/",
        "official": false
-      },
-      {
-       "outlet": "The Hindu: International",
-       "title": "French protest groups demand more rallies as Macron faces tough choices",
-       "url": "https://www.thehindu.com/news/international/french-protest-groups-demand-more-rallies-as-macron-faces-tough-choices/article71623327.ece",
-       "official": false
-      },
-      {
-       "outlet": "franceinfo (France)",
-       "title": "October 24 protests: In Nice, the judiciary opens an investigation into violence by the ultra-right movement",
-       "url": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-24-octobre-142-personnes-ont-ete-interpellees-a-paris-dont-120-ont-ete-placees-en-garde-a-vue-selon-la-prefecture-de-police_8252812.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Manifestations du 24 octobre : à Nice, la justice ouvre une enquête sur les violences de la mouvance d'ultra-droite"
       },
       {
        "outlet": "Le Monde (France)",
-       "title": "October 24 protests: Investigation opened in Nice against members of the ultra-right movement following assaults on demonstrators",
-       "url": "https://www.lemonde.fr/societe/article/2026/10/25/manifestations-du-24-octobre-enquete-ouverte-a-nice-contre-des-membres-de-la-mouvance-d-ultradroite-apres-des-agressions-de-manifestants_6800088_3224.html",
+       "title": "LIVE, war in Ukraine: Power outages in six oblasts following Russian attacks",
+       "url": "https://www.lemonde.fr/international/live/2026/10/26/en-direct-guerre-en-ukraine-des-coupures-d-electricite-dans-six-oblasts-apres-des-attaques-russes_6799896_3210.html",
        "official": false,
        "translated_from": "fr",
-       "original_title": "Manifestations du 24 octobre : enquête ouverte à Nice contre des membres de la mouvance d’ultradroite après des agressions de manifestants"
+       "original_title": "EN DIRECT, guerre en Ukraine : des coupures d’électricité dans six oblasts après des attaques russes"
+      }
+     ]
+    },
+    {
+     "id": "82e156736c2a",
+     "title": "London Confirms Iconic Oxford Street Conversion to Pedestrian Zone",
+     "summary": "Parts of London's famous Oxford Street officially closed to cars, buses, and taxis to transition into a permanent pedestrianized shopping hub.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-26T10:27:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "London's Oxford Street to become pedestrian zone",
+       "url": "https://orf.at/stories/3446180/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Londoner Oxford Street wird zur Fußgängerzone"
       },
       {
-       "outlet": "New York Times: World",
-       "title": "A Day After Renewed Street Clashes in France, Relief and Anxiety Mix",
-       "url": "https://www.nytimes.com/2026/10/25/world/europe/france-protests-macron-lepen.html",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "065182623ea1",
-     "title": "Massive Turnout in Serbia as Student Movement Challenges Vucic",
-     "summary": "Serbian voters turned out in unusually high numbers as a student-led movement mounted the most significant electoral challenge to President Aleksandar Vucic's rule to date.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-25T14:01:55Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "RFI (France)",
-       "title": "High turnout in Serbia as student movement takes on Vucic at the polls",
-       "url": "https://www.rfi.fr/en/international/20261025-high-turnout-in-serbia-as-student-movement-takes-on-vucic-at-the-polls",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "9a68a53be2f7",
-     "title": "Police Arrest Dozens Following Unauthorised Protests in Barcelona",
-     "summary": "Catalan law enforcement detained 128 people, including numerous minors, following acts of vandalism and looting during unauthorised gatherings in Barcelona.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-25T13:58:51Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "franceinfo (France)",
-       "title": "In Spain, 128 People Detained in Barcelona for Vandalism and Looting During Unauthorised Gathering",
-       "url": "https://www.franceinfo.fr/monde/espagne/en-espagne-128-personnes-interpellees-a-barcelone-pour-des-degradations-et-des-pillages-lors-d-un-rassemblement-non-declare_8253175.html#xtor=RSS-3-[lestitres]",
+       "outlet": "Tagesschau (Germany)",
+       "title": "Oxford Street in London to become pedestrian zone",
+       "url": "https://www.tagesschau.de/ausland/europa/london-oxford-street-100.html",
        "official": false,
-       "translated_from": "fr",
-       "original_title": "En Espagne, 128 personnes interpellées à Barcelone pour des dégradations et des pillages lors d'un rassemblement non déclaré"
+       "translated_from": "de",
+       "original_title": "Oxford Street in London wird zur Fußgängerzone"
       }
      ]
     }
@@ -754,101 +884,69 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "d8b9f9dc0829",
-     "title": "Governor Saito's Supporter Defeated in Hyogo Prefectural Assembly By-Election",
-     "summary": "A former aide and supporter of Governor Saito was defeated by political newcomer Shimazu in a closely watched Hyogo Prefectural Assembly by-election.",
-     "importance": 3,
+     "id": "28daaa067780",
+     "title": "Former Japanese Prime Minister Yasuo Fukuda Passes Away at 90",
+     "summary": "Yasuo Fukuda, who served as Japan's prime minister and worked heavily to improve diplomatic ties with regional neighbors, has died at the age of 90.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-25T14:03:00Z",
-     "outlet_count": 2,
+     "published": "2026-10-26T11:01:13Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Former Aide to Governor Saito Defeated in Hyogo Prefectural Assembly By-Election; Newcomer Shimazu Projected to Win",
-       "url": "https://mainichi.jp/articles/20261025/k00/00m/310/197000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "兵庫県議補選で斎藤知事の元側近敗れる 新人・島津氏が当選確実"
+       "outlet": "The Japan Times",
+       "title": "Former Prime Minister Yasuo Fukuda dies at 90",
+       "url": "https://www.japantimes.co.jp/news/2026/10/26/japan/politics/yasuo-fukuda-obituary/",
+       "official": false
       },
       {
        "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Katayama, Supporter of Governor Saito, Defeated; Former LDP City Assembly Member Wins First Term in Hyogo Prefectural Assembly By-Election",
-       "url": "http://www.asahi.com/articles/ASVBQ45SSVBQOXIE01MM.html?ref=rss",
+       "title": "\"An important person at a most critical time\": Yasuo Fukuda passes away, having worked hard to improve Japan-China relations",
+       "url": "http://www.asahi.com/articles/ASVBV3DMHVBVUTFK015M.html?ref=rss",
        "official": false,
        "translated_from": "ja",
-       "original_title": "斎藤知事支えた片山氏敗れる 自民系前市議が初当選 兵庫県議補選"
-      }
-     ]
-    },
-    {
-     "id": "c600f6d1881f",
-     "title": "Japan Prime Minister Takaichi to Seek Favorable EV Treatment from Germany",
-     "summary": "Japanese Prime Minister Sanae Takaichi plans to urge German leadership to secure favorable regulatory treatment for electric vehicles within the European Union.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-25T14:54:45Z",
-     "outlet_count": 1,
-     "sources": [
+       "original_title": "「大事な方が一番大事な時期に」福田康夫氏死去、日中関係改善に尽力"
+      },
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan PM Takaichi to urge Germany for favorable EV treatment in EU",
-       "url": "https://asia.nikkei.com/politics/international-relations/japan-pm-takaichi-to-urge-germany-for-favorable-ev-treatment-in-eu",
+       "title": "Former Japan Prime Minister Yasuo Fukuda dies at 90",
+       "url": "https://asia.nikkei.com/life-arts/obituaries/former-japan-prime-minister-yasuo-fukuda-dies-at-90",
        "official": false
       }
      ]
     },
     {
-     "id": "6715ad28d395",
-     "title": "Tokio Marine Becomes First Japanese Nonlife Insurer to Cover AI Robots",
-     "summary": "Tokio Marine has launched insurance products tailored for AI-enabled robots, marking a first for the nonlife insurance sector in Japan.",
-     "importance": 2,
+     "id": "d866542e3b24",
+     "title": "Subaru Pledges to Go Purely Electric in Europe by 2028",
+     "summary": "Japanese automaker Subaru announced plans to shift its entire European vehicle lineup to battery-electric vehicles exclusively by the year 2028.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-25T14:54:45Z",
+     "published": "2026-10-26T11:01:13Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Tokio Marine first Japan nonlife insurer to cover AI-enabled robots",
-       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/tokio-marine-first-japan-nonlife-insurer-to-cover-ai-enabled-robots",
+       "title": "Japan's Subaru to go EV-only in Europe by 2028",
+       "url": "https://asia.nikkei.com/business/automobiles/japan-s-subaru-to-go-ev-only-in-europe-by-2028",
        "official": false
       }
      ]
     },
     {
-     "id": "e4d65af3b7bc",
-     "title": "Japan Faces Critical Shortage of Foreign Language Teachers",
-     "summary": "A recent survey revealed that over 35% of surveyed organizations in Japan lack sufficient language instructors for foreign workers and see no prospects for filling the gap.",
+     "id": "c786b6077118",
+     "title": "Japan Digital Agency Deploys Internal Generative AI Platform",
+     "summary": "Japan's Digital Agency rolled out its Gennai generative AI platform to approximately 180,000 public sector government employees to streamline operations.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-25T11:40:00Z",
+     "published": "2026-10-26T10:33:00Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Japan Times",
-       "title": "Japan faces shortage of language teachers for foreign workers",
-       "url": "https://www.japantimes.co.jp/news/2026/10/25/japan/japan-language-teacher-shortage/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "debdbe5e15d2",
-     "title": "Japan Reopens Debate Over Nuclear-Powered Submarines",
-     "summary": "Amid rising regional tensions and expanding naval power across the Pacific, Prime Minister Sanae Takaichi is evaluating the long-taboo prospect of acquiring nuclear submarines.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-25T14:00:10Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "South China Morning Post",
-       "title": "Eye on China: Japan reopens taboo debate over nuclear-powered submarines",
-       "url": "https://www.scmp.com/news/china/military/article/3372066/eye-china-japan-reopens-taboo-debate-over-nuclear-powered-submarines",
+       "title": "Digital Agency adds AI agent to Gennai government platform",
+       "url": "https://www.japantimes.co.jp/news/2026/10/26/japan/digital-agency-ai-agent-gennai/",
        "official": false
       }
      ]
@@ -859,91 +957,55 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "a1f0293c978d",
-     "title": "South Korea Posts Strong Current Account Surplus",
-     "summary": "President Lee Jae Myung highlighted that South Korea has posted the world's second-largest current account surplus among major economies, solidifying its economic standing.",
+     "id": "279a9ac3cec7",
+     "title": "South Korea KOSPI Slips to Seven-Month Low on Global Market Slump",
+     "summary": "The benchmark KOSPI index dropped significantly past the 5,400 threshold on Monday, marking its lowest trading valuation in roughly seven months.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-25T14:52:04Z",
+     "published": "2026-10-26T09:46:37Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Korea Times",
-       "title": "Lee says Korea emerging as global economic leader on record current account surplus",
-       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261025/lee-says-korea-emerging-as-global-economic-leader-on-record-current-account-surplus?utm_source=rss",
+       "outlet": "KBS World",
+       "title": "KOSPI Slips to 5,400 Mark on Monday, Posting Lowest Figure in 7 Months",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205133",
        "official": false
       }
      ]
     },
     {
-     "id": "bf434a61a38f",
-     "title": "Samsung Electronics and SK Hynix Prepare Q3 Earnings Reports",
-     "summary": "Major South Korean chipmakers Samsung Electronics and SK Hynix are scheduled to release their third-quarter financial earnings reports this week.",
+     "id": "b0a0121d812a",
+     "title": "Revised South Korean Law Imposes 5-Year Animal Ownership Ban for Abusers",
+     "summary": "Starting next year, convicted animal abusers in South Korea will face bans preventing them from owning or keeping animals for up to five years under tightened legal revisions.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-25T01:09:39Z",
+     "published": "2026-10-26T10:19:49Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yonhap News",
-       "title": "Samsung Electronics, SK hynix set to report Q3 earnings this week",
-       "url": "https://en.yna.co.kr/view/AEN20261025001200320",
+       "outlet": "KBS World",
+       "title": "Animal Abusers Subject to 5-Year Ban on Keeping Animals under Revised Law, Effective Next Year",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205136",
        "official": false
       }
      ]
     },
     {
-     "id": "d7d45a60d4d5",
-     "title": "Doctor Fined Following Patient Death During Acupuncture Treatment",
-     "summary": "A South Korean doctor of traditional medicine was fined 20 million won after a 92-year-old patient suffered a fatal heart muscle tear during an acupuncture session.",
-     "importance": 2,
+     "id": "3c09ccff2cf4",
+     "title": "Go Legend Lee Chang-ho Reaches Historic Milestone With 2,000 Career Wins",
+     "summary": "Renowned baduk master Lee Chang-ho became the first professional go player globally to achieve 2,000 career match wins.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-25T05:10:04Z",
+     "published": "2026-10-26T09:34:50Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Korea Herald",
-       "title": "Doctor fined after patient dies from heart muscle tear during acupuncture",
-       "url": "https://www.koreaherald.com/article/10913897",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "43716417a0b8",
-     "title": "South Korea to Expand International Flights for Winter Season",
-     "summary": "Aviation authorities announced plans to increase international passenger flight frequencies to accommodate rising winter travel demand.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-25T04:46:31Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "S. Korea to expand int'l flights in winter season",
-       "url": "https://en.yna.co.kr/view/AEN20261025003300320",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c6e6bc5a3b9d",
-     "title": "Hyundai and Kia China Sales Fall Below 10,000 Units in September",
-     "summary": "Combined retail sales for Hyundai Motor and Kia in the Chinese market dropped below the 10,000-unit threshold during September.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-25T02:02:45Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "Hyundai Motor, Kia's combined China sales fall below 10,000 units in Sept.",
-       "url": "https://en.yna.co.kr/view/AEN20261025001900320",
+       "outlet": "KBS World",
+       "title": "Go Legend Lee Chang-ho Sets World Record with 2,000 Wins",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205132",
        "official": false
       }
      ]
@@ -954,127 +1016,49 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "45cc3f38f334",
-     "title": "Apple AirTag 2 Drops to New Low Price of $23",
-     "summary": "Amazon has discounted Apple's AirTag 2 1-pack to a new record-low price of $23.00, down from its standard $29.00 retail price.",
+     "id": "9b86979523f6",
+     "title": "8BitDo Ultimate 2C Wireless Controller for Nintendo Switch Drops to $23.99",
+     "summary": "Best Buy has discounted the 8BitDo Ultimate 2C Bluetooth wireless gaming controller compatible with Nintendo Switch and Switch 2 down to $23.99.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-25T14:31:28Z",
+     "published": "2026-10-26T05:03:11Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "MacRumors",
-       "title": "AirTag 2 Drops to New Low Price of $23 on Amazon",
-       "url": "https://www.macrumors.com/2026/10/25/airtag-2-new-low-price-of-23/",
+       "outlet": "Wario64",
+       "title": "8BitDo - Ultimate 2C Bluetooth Wireless Gaming Controller for Nintendo Switch, Nintendo Switch 2 is $23.99 at Best Buy buff.ly/g3bnKBv #ad",
+       "url": "https://buff.ly/g3bnKBv",
        "official": false
       }
      ]
     },
     {
-     "id": "d2a98e2d59cb",
-     "title": "MacBook Pro Max Hits Lowest Price Ever Ahead of Expected Apple Event",
-     "summary": "Existing MacBook Pro Max models are seeing their deepest discounts yet as anticipation builds for Apple's upcoming hardware announcements.",
+     "id": "b5005eb1d131",
+     "title": "Silent Hill 2 Remake on PS5 Available for $22.99",
+     "summary": "Amazon and Best Buy have marked down physical copies of Silent Hill 2 on PlayStation 5 to $22.99.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-25T11:00:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wired",
-       "title": "The MacBook Pro Max Just Dropped to Its Lowest Price Ever",
-       "url": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "f89651ea11d1",
-     "title": "Nintendo Switch 2 Zelda Carrying Case Available at Walmart",
-     "summary": "The Legend of Zelda 40th Anniversary Edition carrying case and screen protector for the Nintendo Switch 2 is available at Walmart for $39.88.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-25T14:54:45Z",
+     "published": "2026-10-26T06:32:37Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Nintendo Switch 2 Carrying Case and Screen Protector –The Legend of Zelda – 40th Anniversary Edition available at Walmart ($39.88) buff.ly/AtosPwW #ad ships this week",
-       "url": "https://buff.ly/AtosPwW",
+       "title": "Silent Hill 2 (PS5) is $22.99 at Best Buy buff.ly/bn4U59r #ad",
+       "url": "https://buff.ly/bn4U59r",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "7b1cd53dcdac",
-     "title": "Animal Well on PS5 and Nintendo Switch Discounted",
-     "summary": "Animal Well for PS5 is marked down to $29.99 at GameFly, alongside a digital discount on the US eShop.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-25T14:47:12Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
        "outlet": "Wario64",
-       "title": "Animal Well (PS5 new) is $29.99 at GameFly buff.ly/2skd6Ud #ad $17.49 US eShop buff.ly/gwR0Zee",
-       "url": "https://buff.ly/2skd6Ud",
+       "title": "Silent Hill f (PS5) is $29.99 at Best Buy buff.ly/VruG9dG #ad",
+       "url": "https://buff.ly/VruG9dG",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "1a7705b035be",
-     "title": "The Legend of Trails Beyond the Horizon Deluxe Edition on Sale",
-     "summary": "The Deluxe Edition of The Legend of Heroes: Trails beyond the Horizon for Nintendo Switch is discounted to $39.99 across Amazon and GameStop.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-25T14:37:30Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
        "outlet": "Wario64",
-       "title": "The Legend of Heroes: Trails beyond the Horizon: Deluxe Edition (Switch) is $39.99 on Amazon amzn.to/41mi2BC GameStop (Switch/PS5) buff.ly/v75GgVp #ad",
-       "url": "https://amzn.to/41mi2BC",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "63fb15a22bcd",
-     "title": "Sony PlayStation Store $250 Gift Card Available at a Discount",
-     "summary": "Newegg is offering a $250 PlayStation Store gift card code for $225 using a promotional checkout code.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-25T14:25:22Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Sony PlayStation Store $250 Gift Card Code is $225 on Newegg DOTD w/ code GTWF828 buff.ly/ClxuIkf #ad",
-       "url": "https://buff.ly/ClxuIkf",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8dc0193dfcb3",
-     "title": "Bluey: The Videogame On Sale at Best Buy and Woot",
-     "summary": "Bluey: The Videogame for PS5 is discounted to $13.49 at Best Buy, while a plush bundle version is available on Woot for $19.99.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-25T14:30:49Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Bluey: The Videogame (PS5) is $13.49 at Best Buy buff.ly/0W1laS1 Bluey The Video Game - Gnome Plush Bundle Amazon Exclusive (Switch) is $19.99 on Woot buff.ly/V82bwHw #ad",
-       "url": "https://buff.ly/0W1laS1",
+       "title": "Silent Hill 2 (PS5) is $22.99 on Amazon amzn.to/4eqlFOj Best Buy buff.ly/bn4U59r #ad",
+       "url": "https://amzn.to/4eqlFOj",
        "official": false
       }
      ]
@@ -1082,15 +1066,15 @@
    ]
   }
  ],
- "date": "2026-10-25",
- "generated_at": "2026-10-25T14:54:45Z",
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26T11:01:13Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 492,
-  "clusters": 448,
-  "feeds_ok": 175,
-  "feeds_failed": 1
+  "items": 928,
+  "clusters": 815,
+  "feeds_ok": 172,
+  "feeds_failed": 4
  },
  "feed_health": [
   {
@@ -1098,6 +1082,18 @@
    "title": "Meta AI (mirror)",
    "status": "stale",
    "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "hn-claude",
+   "title": "HN: Claude/Anthropic",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=Claude+OR+Anthropic&points=50"
+  },
+  {
+   "key": "newsweek",
+   "title": "Newsweek",
+   "status": "error",
+   "detail": "HTTPError: 404 Client Error: Not Found for url: https://www.newsweek.com/rss"
   },
   {
    "key": "wapo-politics",
@@ -1116,6 +1112,12 @@
    "title": "NHK News (Japanese)",
    "status": "stale",
    "detail": "no new items since 2026-08-08"
+  },
+  {
+   "key": "koreatimes",
+   "title": "The Korea Times",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.koreatimes.co.kr/www/rss/nation.xml"
   }
  ]
 }
