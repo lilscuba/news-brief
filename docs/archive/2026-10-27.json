@@ -1,0 +1,1483 @@
+{
+ "version": 1,
+ "headline": "Anthropic files for a massive IPO amid surging AI investments while Apple releases iOS 27.2 and major layoffs hit Sucker Punch and Microsoft.",
+ "top": [
+  {
+   "id": "82323d3fad58",
+   "title": "Anthropic Files S-1 Prospectus for Major Nasdaq IPO",
+   "summary": "Anthropic has officially filed its S-1 prospectus with the SEC to list on the Nasdaq under the ticker \"ANT,\" revealing strong revenue alongside soaring compute and infrastructure costs. The filing caps a massive wave of AI dealmaking and highlights the sector's immense economic footprint.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-27T10:35:01Z",
+   "outlet_count": 9,
+   "sources": [
+    {
+     "outlet": "The Verge AI",
+     "title": "Five weird details from Anthropic’s IPO filing",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+     "official": false
+    },
+    {
+     "outlet": "MIT Technology Review",
+     "title": "Will the real Anthropic please stand up",
+     "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "AI company Anthropic files its IPO in hopes of raising $100 billion",
+     "url": "https://www.dw.com/en/ai-company-anthropic-files-its-ipo-in-hopes-of-raising-100-billion/a-79768876?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
+     "url": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/",
+     "official": false
+    },
+    {
+     "outlet": "Wired",
+     "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+     "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Broadcom arranges a $63B deal with BofA, Blackstone, Citi, and Morgan Stanley to finance the purchase of chips for Anthropic via a new special purpose vehicle (Lynn Doan/Bloomberg)",
+     "url": "https://www.techmeme.com/261026/p47#a261026p47",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Anthropic is burning gas to feed the AI boom",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Anthropic points to AI dangers, soaring sales in IPO filing",
+     "url": "https://www.channelnewsasia.com/world/anthropic-ai-dangers-soaring-sales-ipo-6495171",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg: Politics",
+     "title": "Anthropic Mega IPO Filing Renews AI Trade Optimism",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-27/daybreak-europe-10-27-2026-video",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Anthropic IPO leads AI's $235 billion dealmaking blitz",
+     "url": "https://www.axios.com/2026/10/27/anthropic-ipo-meta-spacex-ai-deals",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Sources: Broadcom CEO Hock Tan held 11th-hour talks and agreed to higher rates and loan guarantees to secure bank participation in the $63B Anthropic debt deal (Wall Street Journal)",
+     "url": "https://www.techmeme.com/261027/p4#a261027p4",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "S-1: Anthropic spent ~$2.50 on compute and infrastructure for every $1 of revenue in Q1 2025, falling to under 50 cents in Q2 2026, as it seeks profitability (Financial Times)",
+     "url": "https://www.techmeme.com/261027/p5#a261027p5",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Sources: UK stealth AI startup 22one, which is building law enforcement tools, hit a nearly $400M valuation after raising funds from Sequoia, Lux, and others (Financial Times)",
+     "url": "https://www.techmeme.com/261027/p7#a261027p7",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Anthropic's S-1 excludes Labs co-lead Ben Mann from its \"Continuing Founders\" and Founder LLC; Anthropic says \"it's still fair to refer to him as a co-founder\" (Zara Stone/The San Francisco Standard)",
+     "url": "https://www.techmeme.com/261027/p8#a261027p8",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "f16aefe89a6e",
+   "title": "OpenAI Announces Breakthroughs in Computer Science and Physics",
+   "summary": "OpenAI announced that its AI models generated proof that the Exponential Time Hypothesis is false, alongside releasing new results and specialized models for math, physics, and computer science problems.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Tech",
+   "published": "2026-10-27T08:18:16Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "OpenAI News",
+     "title": "Working with academic communities to build scientific understanding",
+     "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+     "official": true
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "OpenAI announces three breakthroughs in computer science, math, and physics, including that the Exponential Time Hypothesis, a longstanding conjecture, is false (OpenAI)",
+     "url": "https://www.techmeme.com/261026/p48#a261026p48",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "The Exponential Time Hypothesis Is False [pdf]",
+     "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "OpenAI announces new discoveries in mathematics, computer science and physics",
+     "url": "https://www.engadget.com/2297941/openai-new-discoveries-mathematics-computer-science-physics/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "96ca69bf10bc",
+   "title": "Apple Releases iOS and visionOS 27.2 with New Siri AI Features and Security Fixes",
+   "summary": "Apple has rolled out iOS and visionOS 27.2, introducing granular permission controls for Siri AI, support for Apple Pencil on the iPhone Duo, and patches for over 160 security vulnerabilities.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-27T00:13:30Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "9to5Mac",
+     "title": "tvOS 27.2 just launched for Apple TV 4K, here’s what’s new",
+     "url": "https://9to5mac.com/2026/10/26/tvos-27-2-just-launched-for-apple-tv-4k-heres-whats-new/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "macOS 27.2 Golden Gate now available, here’s everything new [U]",
+     "url": "https://9to5mac.com/2026/10/26/macos-27-2-golden-gate-now-available-heres-everything-new/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "watchOS 27.2 available now for Apple Watch, here’s what’s new",
+     "url": "https://9to5mac.com/2026/10/26/watchos-27-2-available-now-for-apple-watch-heres-whats-new/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Releases watchOS 27.2 With Siri AI Enhancements",
+     "url": "https://www.macrumors.com/2026/10/26/apple-releases-watchos-27-2-2/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Releases macOS Golden Gate 27.2",
+     "url": "https://www.macrumors.com/2026/10/26/apple-releases-macos-golden-gate-27-2/",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "Get ready to update your Apple Watch to watchOS 27.2",
+     "url": "https://appleinsider.com/articles/26/10/26/get-ready-to-update-your-apple-watch-to-watchos-272?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "macOS 27.2 is out with cosmetic changes, new Siri AI languages",
+     "url": "https://appleinsider.com/articles/26/10/26/macos-272-is-out-with-cosmetic-changes-new-siri-ai-languages?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Apple releases iPadOS 27.2, here’s everything new for iPad",
+     "url": "https://9to5mac.com/2026/10/26/apple-releases-ipados-27-2-heres-everything-new-for-ipad/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Releases iOS 27.2 With New Siri AI Languages",
+     "url": "https://www.macrumors.com/2026/10/26/apple-releases-ios-27-2/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Apple releases iOS 27.2, here’s what’s new",
+     "url": "https://9to5mac.com/2026/10/26/apple-releases-ios-27-2-heres-whats-new/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Siri AI keeps getting better, here’s what’s new in iOS 27.2",
+     "url": "https://9to5mac.com/2026/10/26/siri-ai-keeps-getting-better-heres-whats-new-in-ios-27-2/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Apple releases iOS 26.7.2 for iPhone, here’s what’s new",
+     "url": "https://9to5mac.com/2026/10/26/apple-releases-ios-26-7-2-for-iphone-heres-whats-new/",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "iOS 27.2 is out without the Apple Health revamp",
+     "url": "https://appleinsider.com/articles/26/10/26/ios-272-is-out-without-the-apple-health-revamp?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "iPhone Duo now supports Apple Pencil with iOS 27.2",
+     "url": "https://www.theverge.com/tech/1018827/ios-27-2-iphone-duo-apple-pencil",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "iPhone Duo just got two new features in iOS 27.2",
+     "url": "https://9to5mac.com/2026/10/26/iphone-duo-just-got-two-new-features-in-ios-27-2/",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Apple announces Siri AI will expand to these new languages soon",
+     "url": "https://9to5mac.com/2026/10/26/apple-announces-siri-ai-will-expand-to-these-new-languages-soon/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Says Siri AI Will Support Even More Languages Later This Year",
+     "url": "https://www.macrumors.com/2026/10/26/siri-ai-even-more-languages-later-this-year/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Apple Releases visionOS 27.2",
+     "url": "https://www.macrumors.com/2026/10/26/apple-releases-visionos-27-2/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "iOS 27.2 Expands Dual Capture to Group FaceTime",
+     "url": "https://www.macrumors.com/2026/10/26/ios-27-2-dual-capture-facetime/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "iOS 27.2 Lets You Watch Four Live Sports Streams on iPhone",
+     "url": "https://www.macrumors.com/2026/10/26/ios-27-2-multiview-support/",
+     "official": false
+    },
+    {
+     "outlet": "Ars Technica",
+     "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+     "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "Don't wait to update: iOS 27.2 brings security fixes over 130 vulnerabilities",
+     "url": "https://appleinsider.com/articles/26/10/26/dont-wait-to-update-ios-272-brings-security-fixes-over-130-vulnerabilities?utm_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "iOS 27.2 Fixes Over 160 Security Vulnerabilities",
+     "url": "https://www.macrumors.com/2026/10/26/ios-27-2-security-fixes/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "iOS 27.2 Features: Everything New in iOS 27.2",
+     "url": "https://www.macrumors.com/2026/10/26/ios-27-2-features/",
+     "official": false
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Older Siri Remotes Now Show Up in Find My With iOS 27.2",
+     "url": "https://www.macrumors.com/2026/10/26/siri-remote-find-my-ios-27-2/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "d4388e034b63",
+   "title": "Microsoft Offers Voluntary Redundancy to Roughly 60,000 Employees",
+   "summary": "Microsoft has announced a voluntary buyout scheme that could see up to a quarter of its workforce leave the company. Separate reports indicate staff across various divisions, including Xbox, are impacted.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-27T10:24:46Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "CBC News: World",
+     "title": "Microsoft gives voluntary buyout offer to about 60,000 employees",
+     "url": "https://www.cbc.ca/news/business/microsoft-voluntary-buyout-9.7396520?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "GamesIndustry.biz",
+     "title": "Xbox staff among up to 60,000 Microsoft employees offered voluntary exit",
+     "url": "https://www.gamesindustry.biz/xbox-staff-among-up-to-60000-microsoft-employees-offered-voluntary-exit",
+     "official": false
+    },
+    {
+     "outlet": "Ars Technica",
+     "title": "Microsoft offers to buy out a quarter of its workforce",
+     "url": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
+     "official": false
+    },
+    {
+     "outlet": "Steam News",
+     "title": "Microsoft has offered a quarter of its entire workforce redundancy",
+     "url": "https://store.steampowered.com/news/group/42342144/view/679639030033292178",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "3e5aba5dfe6d",
+   "title": "Sucker Punch Productions Reportedly Lays Off Developers",
+   "summary": "Following the launch of Ghost of Yōtei: Complete Edition, developer Sucker Punch Productions has reportedly laid off between 24 and 26 employees due to market challenges.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-27T10:29:28Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "VGC",
+     "title": "Ghost of Yotei studio Sucker Punch reportedly lays off more than two dozen staff as it prepares for its next project",
+     "url": "https://www.videogameschronicle.com/news/ghost-of-yotei-studio-sucker-punch-reportedly-lays-off-more-than-two-dozen-staff-as-it-prepares-for-its-next-project/",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "Ghost of Yotei studio Sucker Punch reportedly lays off 26 developers \"after carefully observing the challenges in the market\"",
+     "url": "https://www.eurogamer.net/ghost-of-yotei-sucker-punch-lays-off-developers",
+     "official": false
+    },
+    {
+     "outlet": "Gematsu",
+     "title": "Report: Sucker Punch Productions lays off 26 staff",
+     "url": "https://www.gematsu.com/2026/10/report-sucker-punch-productions-lays-off-26-staff",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Ghost of Yōtei studio Sucker Punch reportedly lays off 24 workers",
+     "url": "https://www.engadget.com/2297486/ghost-of-yotei-studio-sucker-punch-lays-off-24-workers/",
+     "official": false
+    },
+    {
+     "outlet": "GamesIndustry.biz",
+     "title": "Sucker Punch Productions reportedly lays off 24 employees following launch of Ghost of Yōtei: Complete Edition",
+     "url": "https://www.gamesindustry.biz/sucker-punch-productions-reportedly-lays-off-24-employees-following-launch-of-ghost-of-yotei-complete-edition",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "befadf7c461f",
+     "title": "OpenAI Launches GPT-6.1 Terra with Lower API Prices",
+     "summary": "OpenAI has expanded its lineup with GPT-6.1 Terra, a smaller model focusing on visual reasoning and computer use that halves API prices compared to larger predecessors.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-27T10:09:26Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
+       "url": "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model/",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+       "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+       "official": false
+      },
+      {
+       "outlet": "Simon Willison",
+       "title": "GPT-6.1 Terra",
+       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model",
+       "url": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "250e5d8f3024",
+     "title": "Greptile Integrates GPT-6 Astra for Bug Detection",
+     "summary": "Greptile is utilizing OpenAI's GPT-6 Astra to test user workflows and expand bug detection beyond standard code reviews.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-26T22:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+       "url": "https://openai.com/index/greptile-code-review-codex-astra",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "1a1d4bf2fc11",
+     "title": "CodeRabbit Adopts GPT-6.1 Sol for Codebase Security",
+     "summary": "CodeRabbit has integrated GPT-6.1 Sol into its security agent to investigate risks across complex codebases and help developers review proposed fixes.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-26T13:45:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "64d59b55a8fb",
+     "title": "OpenAI Publishes Workforce Usage Insights via Signals Data",
+     "summary": "OpenAI has published insights from its Signals data analyzing work activities across nearly 100 countries to show how users utilize ChatGPT for professional tasks.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-26T10:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "ChatGPT’s expanding world of work",
+       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+       "official": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "bdec57e767d5",
+     "title": "Nvidia and Meta Expand Partnership with Vera Rubin CPUs and Equity Investment",
+     "summary": "Nvidia and Meta are expanding their Muse partnership, with Meta deploying more Vera Rubin and Vera CPUs while Nvidia invests $3 billion in Meta's planned equity fundraise.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-27T08:10:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Nvidia and Meta expand their Muse partnership, including Meta deploying more Vera Rubin and Vera CPUs; Nvidia will invest $3B in Meta's planned equity fundraise (Wall Street Journal)",
+       "url": "https://www.techmeme.com/261027/p3#a261027p3",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d47ad965b9bb",
+     "title": "Apple Acknowledges Reports of Cracking Screens on iPhone Duo",
+     "summary": "Apple has issued a brief statement acknowledging that a small number of iPhone Duo units are experiencing inner display issues related to the hinge mechanism.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-26T20:23:52Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple responds to reports of iPhone Duo’s inner display cracking",
+       "url": "https://9to5mac.com/2026/10/26/apple-responds-to-reports-of-iphone-duos-inner-display-cracking/",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Apple acknowledges iPhone Duo display ‘issue’ after reports of cracked screens",
+       "url": "https://www.theverge.com/tech/1018760/iphone-duo-crackgate-inside-screen-hinge-crack",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Apple responds to reports of the iPhone Duo's inner display cracking",
+       "url": "https://www.engadget.com/2297433/apple-responds-to-reports-of-the-iphone-duo-inner-display-cracking/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple acknowledges social media reports of iPhone Duo screen cracking",
+       "url": "https://appleinsider.com/articles/26/10/26/apple-acknowledges-social-media-reports-of-iphone-duo-screen-cracking?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "81309307db87",
+     "title": "Instagram Shifts Strategy to Support 90-Minute Videos",
+     "summary": "Instagram is updating its platform to support long-form videos up to 90 minutes in length, shifting into territory traditionally dominated by YouTube and streaming services.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-27T10:30:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Instagram wants you to watch 90-minute videos on your TV",
+       "url": "https://www.engadget.com/2297240/instagram-wants-you-to-watch-90-minute-videos-on-your-tv/",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos",
+       "url": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "Instagram Is a Streaming Service Now",
+       "url": "https://www.wired.com/story/instagram-is-a-streaming-service-now/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "68c50056db87",
+     "title": "Intel Agrees to Acquire Quantum Startup Classiq",
+     "summary": "Intel has agreed to buy Tel Aviv-based quantum computing startup Classiq, which has previously raised over $200 million and employs approximately 130 people.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-26T21:15:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Intel agrees to acquire Tel Aviv-based quantum computing startup Classiq; Classiq has raised more than $200M in funding and has about 130 employees (Ian King/Bloomberg)",
+       "url": "https://www.techmeme.com/261026/p46#a261026p46",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "69ee3945bc75",
+     "title": "Microsoft Patches Severe Flaw in Android Authenticator App",
+     "summary": "Microsoft has patched a high-severity security vulnerability in its Android Authenticator app that could have allowed untrusted apps to impersonate Microsoft services and steal account tokens.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-27T05:30:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Microsoft patches a severe flaw in its Android Authenticator app that could let untrusted apps impersonate Microsoft apps and obtain delegated account tokens (Abinaya/Cyber Security News)",
+       "url": "https://www.techmeme.com/261027/p2#a261027p2",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "c4d3144e3078",
+     "title": "Pokémon Unite Shutting Down Service in March 2027",
+     "summary": "The Pokémon Company and Tencent have announced that the free-to-play MOBA Pokémon Unite will officially end service on March 23, 2027.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-27T10:56:34Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Pokémon UNITE End of Service on March 23, 2027 unite.pokemon.com/en-us/news/u...",
+       "url": "https://unite.pokemon.com/en-us/news/unite-end-of-service/",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Pokemon UNITE to end service on March 23, 2027",
+       "url": "https://www.gematsu.com/2026/10/pokemon-unite-to-end-service-on-march-23-2027",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Pokémon Unite Ending Service For Switch In March 2027",
+       "url": "https://www.nintendolife.com/news/2026/10/pokemon-unite-ending-service-for-switch-in-march-2027",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Pokémon’s free-to-play MOBA Pokémon Unite is shutting down, The Pokémon Company has confirmed",
+       "url": "https://www.videogameschronicle.com/news/pokemons-free-to-play-moba-pokemon-unite-is-shutting-down-the-pokemon-company-has-confirmed/",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Pokémon Unite is Shutting Down Next Year",
+       "url": "https://insider-gaming.com/pokemon-unite-is-shutting-down-next-year/",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Pokémon Unite closing down for good, but you'll still be able to use it afterwards, sort of",
+       "url": "https://www.eurogamer.net/pokemon-unite-closing-date",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d7c54ed7ca04",
+     "title": "Composer Shares 20 Minutes of Music from Cancelled Mass Effect 5",
+     "summary": "Following the closure of BioWare, composer Austin Wintory has shared over 20 minutes of music created during early talks to work on the cancelled Mass Effect RPG project.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-27T10:30:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Composer Austin Wintory Shares 22 Minutes of Music Created for BioWare's Canceled Mass Effect 5",
+       "url": "https://www.ign.com/articles/composer-austin-wintory-shares-22-minutes-of-music-created-for-biowares-canceled-mass-effect-5",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Composer shares 20 minutes of music created for Mass Effect 5 following tragic closure of BioWare",
+       "url": "https://www.eurogamer.net/mass-effect-5-pitched-music-composer",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "\"Mass Effect was my ultimate white whale\": Journey composer shares 20 minutes of music created during talks to work on BioWare's recently cancelled RPG",
+       "url": "https://www.rockpapershotgun.com/mass-effect-was-my-ultimate-white-whale-journey-composer-shares-20-minutes-of-music-created-during-talks-to-work-on-biowares-recently-cancelled-rpg",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "eba82ded7d10",
+     "title": "Assassin's Creed Black Flag Resynced Receives Final Major Update",
+     "summary": "Ubisoft has released a massive final patch for Assassin's Creed Black Flag Resynced, adding long-awaited features including New Game Plus and a Nightmare difficulty mode.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-27T09:18:45Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Assassin’s Creed Black Flag Resynced ‘New Game+’ update launches October 27",
+       "url": "https://www.gematsu.com/2026/10/assassins-creed-black-flag-resynced-new-game-update-launches-october-27",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Assassin's Creed Black Flag Resynced Final Major Content Update Coming This Week",
+       "url": "https://www.ign.com/articles/assassins-creed-black-flag-resynced-final-major-content-update-coming-this-week",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Assassin's Creed Black Flag Resynced's final major update adds long-awaited New Game Plus, new Nightmare difficulty and much more",
+       "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-new-game-plus-final-update",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c08006e11cb7",
+     "title": "Auroch Digital Lays Off a Quarter of Its Staff",
+     "summary": "Warhammer Survivors and Boltgun developer Auroch Digital has laid off approximately 25 percent of its staff.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-26T18:29:18Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Auroch Digital lays off a quarter of its staff",
+       "url": "https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Auroch Digital to lay off 25 percent of staff",
+       "url": "https://www.gematsu.com/2026/10/auroch-digital-to-lay-off-25-percent-of-staff",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "d5e6f231a64c",
+     "title": "Justice Department Pursues Third Prosecution Attempt Against James Comey",
+     "summary": "The Department of Justice has taken steps to file new charges against former FBI director James Comey using a rarely seen legal tactic.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-27T09:45:00Z",
+     "outlet_count": 11,
+     "sources": [
+      {
+       "outlet": "NPR Politics",
+       "title": "Judge says DOJ illegally fired the daughter of former FBI director Comey",
+       "url": "https://www.npr.org/2026/10/26/g-s1-149960/judge-maurene-comey-illegal-dismissal",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "DOJ charges former FBI Director James Comey with a federal crime for third time",
+       "url": "https://san.com/cc/doj-charges-former-fbi-director-james-comey-with-a-federal-crime-for-third-time/",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Trump administration charges former FBI Director James Comey for the third time",
+       "url": "https://www.pbs.org/newshour/politics/trump-administration-charges-former-fbi-director-james-comey-for-the-third-time",
+       "official": false
+      },
+      {
+       "outlet": "Axios",
+       "title": "James Comey charged again by the DOJ",
+       "url": "https://www.axios.com/2026/10/26/james-comey-national-defense-information-charges",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "Justice Department Charges James Comey Again",
+       "url": "https://www.wsj.com/us-news/law/justice-department-charges-james-comey-again-e5c19c22?mod=rss_usnews",
+       "official": false
+      },
+      {
+       "outlet": "NPR Politics",
+       "title": "Trump administration attempting to prosecute former FBI Director James Comey again",
+       "url": "https://www.npr.org/2026/10/26/nx-s1-6018628/trump-administration-attempting-to-prosecute-former-fbi-director-james-comey-again",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "US seeks new charges against former FBI chief James Comey",
+       "url": "https://www.dw.com/en/us-seeks-new-charges-against-former-fbi-chief-james-comey/a-79771256?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Ex-FBI chief James Comey faces federal charges for third time",
+       "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "DOJ takes steps to charge James Comey again",
+       "url": "https://www.cbsnews.com/news/doj-takes-steps-to-charge-james-comey/",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Ex-FBI chief Comey faces third Trump prosecution attempt",
+       "url": "https://www.rte.ie/news/2026/1027/1596903-james-comey-charges/",
+       "official": false
+      },
+      {
+       "outlet": "Time",
+       "title": "Justice Department Files More Charges Against James Comey",
+       "url": "https://time.com/article/2026/10/27/james-comey-justice-department-charges-media-leaks/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b2689887e26d",
+     "title": "Judge Extends Court Order Blocking Trump Administration from Cutting Trees at Historic Golf Course",
+     "summary": "A federal judge has extended an order preventing the government from making unauthorized modifications or cutting down trees at a historic D.C. public golf course without prior notice.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-27T10:47:37Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "NBC News",
+       "title": "Judge further extends block on Trump administration’s removing trees at D.C. golf course",
+       "url": "https://www.nbcnews.com/politics/trump-administration/judge-extends-block-trump-officials-removing-trees-dc-golf-course-east-rcna605852",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Judge halts tree cutting at Trump's golf course renovation after 400-plus trees removed",
+       "url": "https://www.cnn.com/2026/10/26/politics/judge-imposes-limits-trump-golf-course-renovation",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "Judge Bars Trump Administration From Cutting More Trees on D.C. Golf Course",
+       "url": "https://www.wsj.com/politics/policy/judge-bars-trump-administration-from-cutting-more-trees-on-d-c-golf-course-54670223?mod=rss_usnews",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Judge continues to block Trump from cutting down trees at D.C. golf course",
+       "url": "https://www.cbsnews.com/news/judge-trump-trees-dc-golf-course-lorax/",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "Judge extends court-ordered block on Trump’s renovation plans for public golf course",
+       "url": "https://abcnews.com/Politics/wireStory/judge-extends-court-ordered-block-trumps-renovation-plans-137590006",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Judge extends block on Trump plan to renovate golf course",
+       "url": "https://www.rte.ie/news/us/2026/1027/1596908-trump-golf-course/",
+       "official": false
+      },
+      {
+       "outlet": "Straight Arrow News",
+       "title": "Judge extends block on Trump administration cutting down trees at historic DC golf course",
+       "url": "https://san.com/cc/judge-extends-block-on-trump-administration-cutting-down-trees-at-historic-dc-golf-course/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "46860179faea",
+     "title": "Congo Ebola Outbreak Surpasses 10,000 Cases",
+     "summary": "Confirmed cases of Ebola in Congo have topped 10,000 with nearly half resulting in fatalities, marking the deadliest and fastest-growing outbreak in history amid health worker strikes.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-27T10:35:21Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Congo's Ebola cases surpass 10,000 as fears grow of wider African spread",
+       "url": "https://www.straitstimes.com/world/congos-ebola-cases-surpass-10000-as-fears-grow-of-wider-african-spread",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Congo's Ebola cases surpass 10,000 as fears grow of wider African spread",
+       "url": "https://www.channelnewsasia.com/world/congos-ebola-cases-surpass-10000-fears-grow-wider-african-spread-6495856",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Congo’s Ebola outbreak tops 10,000 cases as authorities race to slow spread in African countries",
+       "url": "https://www.thehindu.com/news/international/congos-ebola-outbreak-tops-10000-cases-as-authorities-race-to-slow-spread-in-african-countries/article71630756.ece",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "34eead469fca",
+     "title": "Russia and Ukraine Begin Regional Ceasefire in Oleshky",
+     "summary": "Russian and Ukrainian forces have initiated a limited ceasefire in the occupied town of Oleshky to facilitate humanitarian aid efforts, though military strikes continue in other regions.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-27T10:27:41Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Ukraine and Russia begin Oleshky ceasefire for aid mission",
+       "url": "https://www.dw.com/en/ukraine-and-russia-begin-oleshky-ceasefire-for-aid-mission/a-79771473?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Russia, Ukraine begin Oleshky ceasefire but keep up strikes elsewhere",
+       "url": "https://www.channelnewsasia.com/world/russia-ukraine-begin-oleshky-ceasefire-keep-up-strikes-elsewhere-6495076",
+       "official": false
+      },
+      {
+       "outlet": "CBC News: World",
+       "title": "Russia, Ukraine begin ceasefire in city of Oleshky as deadly strikes continue elsewhere",
+       "url": "https://www.cbc.ca/news/world/ukraine-oleshky-ceasefire-begins-9.7397593?cmp=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c511630827d9",
+     "title": "South Africa Deploys Troops to Address Anti-Migrant Protests",
+     "summary": "South African President Cyril Ramaphosa has ordered the deployment of 510 soldiers to the coastal province of KwaZulu-Natal to assist police in controlling escalating anti-migrant protests.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-27T10:51:01Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Bloomberg: Politics",
+       "title": "South Africa Deploys Troops in Restive Province Before Elections",
+       "url": "https://www.bloomberg.com/news/articles/2026-10-27/south-africa-deploys-troops-in-restive-province-before-elections",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "South Africa deploys troops to coastal province to help control anti-migrant protests",
+       "url": "https://www.straitstimes.com/world/south-africa-deploys-troops-to-coastal-province-to-help-control-anti-migrant-protests",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "a0c34e471088",
+     "title": "Two Men Charged in UK with National Security Offenses Over RAF Fairford Incident",
+     "summary": "British authorities have charged two men with national security offenses following an incident at the U.S.-run RAF Fairford air base in England, with one suspect accused of assisting Iranian intelligence.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-27T10:54:54Z",
+     "outlet_count": 10,
+     "sources": [
+      {
+       "outlet": "Al Jazeera",
+       "title": "UK prosecutors charge two after RAF Fairford incident",
+       "url": "https://www.aljazeera.com/news/2026/10/27/uk-prosecutors-charge-two-after-raf-fairford-incident?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Two men charged in Britain with helping Iran over RAF Fairford incident",
+       "url": "https://www.straitstimes.com/world/europe/two-men-charged-in-uk-with-helping-iran-over-raf-fairford-incident",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Two men face UK national security charges following an incident near RAF Fairford, with police suspecting Iranian state involvement",
+       "url": "https://www.dw.com/en/two-men-face-uk-national-security-charges-following-an-incident-near-raf-fairford-with-police-suspecting-iranian-state-involvement/a-79773432?maca=en-rss-en-all-1573-rdf",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "UK: Two men charged after incident at US military base",
+       "url": "https://orf.at/stories/3446282/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "GB: Zwei Männer nach Vorfall bei US-Militärbasis angeklagt"
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "2 British Men Charged Over RAF Fairford Incident",
+       "url": "https://www.nytimes.com/2026/10/27/world/europe/raf-fairford-charges-uk-air-base-us-iran.html",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: World",
+       "title": "Two men charged over alleged plot to assist Iran after RAF Fairford incident",
+       "url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
+       "official": false
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "Incident near a British air base: Two men charged with national security offenses, Iran in the authorities' sights",
+       "url": "https://www.lemonde.fr/international/article/2026/10/27/incident-pres-d-une-base-aerienne-anglaise-deux-hommes-inculpes-pour-atteinte-a-la-securite-nationale-l-iran-dans-le-viseur-des-autorites_6801228_3210.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "Incident près d’une base aérienne anglaise : deux hommes inculpés pour atteinte à la sécurité nationale, l’Iran dans le viseur des autorités"
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Two men charged over RAF Fairford 'plot to aid Iran'",
+       "url": "https://www.rte.ie/news/uk/2026/1027/1596944-raf-fairford-investigation/",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Two men charged with U.K. national security offences over incident at U.S.-run military base in England",
+       "url": "https://www.thehindu.com/news/international/two-men-charged-with-uk-national-security-offences-over-incident-at-us-run-military-base-in-england/article71630852.ece",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: UK",
+       "title": "Two charged with national security offences over RAF Fairford incident",
+       "url": "https://www.bbc.co.uk/news/articles/cqly3v5vz4kko?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "edc0ecd3c3b3",
+     "title": "Nordic Leaders Hold Rare Phone Call with Putin to Discuss Ukraine",
+     "summary": "Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre held a rare telephone conversation with Russian President Vladimir Putin regarding the war in Ukraine ahead of potential peace talks.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-27T10:58:59Z",
+     "outlet_count": 13,
+     "sources": [
+      {
+       "outlet": "Bloomberg: Politics",
+       "title": "Finland and Norway Hold ‘Frank’ Call With Putin on Ukraine",
+       "url": "https://www.bloomberg.com/news/articles/2026-10-27/putin-plans-talks-with-finland-norway-leaders-on-ukraine",
+       "official": false
+      },
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Finnish and Norwegian leaders call Putin afterwards, Zelenskyy",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/27/8059896/",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Leaders of Norway, Finland hold calls with Putin then Zelenskiy",
+       "url": "https://www.straitstimes.com/world/europe/norways-prime-minister-finlands-president-in-phone-call-with-putin",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Leaders of Finland and Norway talk to Putin",
+       "url": "https://www.politico.eu/article/leader-finland-alexander-stubb-and-norway-jonas-gahr-store-talk-to-russia-vladimir-putin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "Meduza (Russia)",
+       "title": "Finnish and Norwegian leaders spoke with Putin by phone about ending war in Ukraine",
+       "url": "https://meduza.io/en/news/2026/10/27/finnish-and-norwegian-leaders-spoke-with-putin-by-phone-about-ending-war-with-ukraine",
+       "official": false
+      },
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Norway, Finland call Putin ahead of potential Abu Dhabi peace talks",
+       "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: Europe",
+       "title": "Finnish and Norwegian leaders hold rare ‘frank and substantive’ call with Putin on Ukraine",
+       "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Top political figures of Finland and Norway spoke with Putin",
+       "url": "https://orf.at/stories/3446290/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Politische Spitzen Finnlands und Norwegens sprachen mit Putin"
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Ukraine War: Alexander Stubb and Jonas Gahr Støre spoke with Vladimir Putin by phone",
+       "url": "https://www.spiegel.de/ausland/ukraine-krieg-alexander-stubb-und-jonas-gahr-store-haben-mit-wladimir-putin-telefoniert-a-b010a674-df72-45ae-9ea2-f47966797946#ref=rss",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Ukraine-Krieg: Alexander Stubb und Jonas Gahr Støre haben mit Wladimir Putin telefoniert"
+      },
+      {
+       "outlet": "Helsinki Times (Finland)",
+       "title": "Stubb and Støre call Putin ahead of Abu Dhabi peace talks",
+       "url": "https://www.helsinkitimes.fi/finland/finland-news/politics/29429-stubb-and-store-call-putin-ahead-of-abu-dhabi-peace-talks.html",
+       "official": false
+      },
+      {
+       "outlet": "ERT News (Greece)",
+       "title": "Stubb and Støre spoke with Putin about Ukraine",
+       "url": "https://www.ertnews.gr/eidiseis/stoump-kai-stere-synomilisan-me-poutin-gia-tin-oukrania-epikoinonia-kai-me-ton-zelenski/",
+       "official": false,
+       "translated_from": "el",
+       "original_title": "Στουμπ και Στέρε συνομίλησαν με Πούτιν για την Ουκρανία – Επικοινωνία και με τον Ζελένσκι"
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Finnish and Norwegian leaders call Putin. Danish prime minister says she is “very skeptical about their initiative”",
+       "url": "https://cphpost.dk/2026-10-27/news/politics/finnish-and-norwegian-leaders-call-putin-danish-prime-minister-says-she-is-very-skeptical/",
+       "official": false
+      },
+      {
+       "outlet": "SRF News (Switzerland)",
+       "title": "War in Ukraine: Putin discusses Ukraine with Finland and Norway by phone",
+       "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-putin-telefoniert-mit-finnland-und-norwegen-ueber-ukraine",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Krieg in der Ukraine – Putin telefoniert mit Finnland und Norwegen über Ukraine"
+      }
+     ]
+    },
+    {
+     "id": "9fad3c6aa664",
+     "title": "Kylian Mbappé Dropped by Chinese Brands Following Backlash",
+     "summary": "Major Chinese brands have dropped French soccer star Kylian Mbappé following public backlash over a controversial remark regarding Mao Zedong.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-27T11:01:16Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Mbappe dropped by Chinese brands after Mao Zedong joke",
+       "url": "https://www.rte.ie/sport/soccer/2026/1027/1596912-mbappe-dropped-by-chinese-brands-after-mao-zedong-joke/",
+       "official": false
+      },
+      {
+       "outlet": "The Japan Times",
+       "title": "Mbappe dropped by Chinese brands for ‘offending national sentiments’",
+       "url": "https://www.japantimes.co.jp/sports/2026/10/27/soccer/mbappe-china-brands/",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu: International",
+       "title": "Mbappe dropped by Chinese brands for ‘offending national sentiments’",
+       "url": "https://www.thehindu.com/news/international/mbappe-dropped-by-chinese-brands-for-offending-national-sentiments/article71630086.ece",
+       "official": false
+      },
+      {
+       "outlet": "Sky News: World",
+       "title": "French football star Mbappe dropped by Chinese brands after 'dictator' remark",
+       "url": "https://news.sky.com/story/french-football-star-kylian-mbappe-dropped-by-chinese-brands-after-dictator-remark-13604279",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Mbappé dropped by major Chinese brands as backlash grows over Mao joke",
+       "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Kylian Mbappé dropped by Chinese brands over ‘dictator’ comment",
+       "url": "https://www.politico.eu/article/kylian-mbappe-dropped-by-chinese-brands-over-dictator-comment/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      },
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Chinese brands drop soccer star Kylian Mbappe for 'offending' nation",
+       "url": "https://asia.nikkei.com/spotlight/sports/chinese-brands-drop-soccer-star-kylian-mbappe-for-offending-nation",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "eb307abd2cf8",
+     "title": "The Netherlands Withdraws from 2027 Eurovision Song Contest",
+     "summary": "The Dutch public broadcaster NPO has announced that the Netherlands will not participate in the 2027 Eurovision Song Contest.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-27T11:01:16Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Netherlands will also be absent from the next Song Contest",
+       "url": "https://orf.at/stories/3446286/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Niederlande fehlen auch bei nächstem Song Contest"
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "The Netherlands will not participate in Eurovision 2027",
+       "url": "https://www.thejournal.ie/netherlands-eurovision-20-7205972-Oct2026/",
+       "official": false
+      },
+      {
+       "outlet": "NL Times (Netherlands)",
+       "title": "Netherlands won't participate in 2027 Eurovision Song Contest after all",
+       "url": "https://nltimes.nl/2026/10/27/netherlands-wont-participate-2027-eurovision-song-contest",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "21294cf94394",
+     "title": "First Patient Treated with iPS Cell Heart Muscle Sheet Leaves Hospital",
+     "summary": "A female patient who received the world's first clinical treatment utilizing an iPS cell-derived heart muscle sheet has successfully recovered and left the hospital walking without complications.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-27T10:31:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Japan Forward",
+       "title": "First Patient Treated With iPS Cell Heart Sheet Recovers, Leaves Hospital",
+       "url": "https://japan-forward.com/first-patient-treated-with-ips-cell-heart-sheet-leaves-hospital-reheart/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4de39103496c",
+     "title": "Japan Shippers and Power Producer Unite on Ammonia-Fueled Vessels",
+     "summary": "Major Japanese shipping companies and power producers are joining forces to develop and introduce ammonia-fueled maritime vessels to reduce emissions.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-27T11:01:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan's top shippers and power producer unite on ammonia-fueled vessels",
+       "url": "https://asia.nikkei.com/business/transportation/japan-s-top-shippers-and-power-producer-unite-on-ammonia-fueled-vessels",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7b6d473e5ee7",
+     "title": "AI Boom Sparks Circuit Board Crunch Across Global Tech Supply Chain",
+     "summary": "Surging demand for artificial intelligence infrastructure is creating tight shortages for specialized circuit boards across the global technology supply chain.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-27T11:01:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "AI boom sparks circuit board crunch across global tech supply chain",
+       "url": "https://asia.nikkei.com/spotlight/supply-chain/ai-boom-sparks-circuit-board-crunch-across-global-tech-supply-chain",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "6d2cf3e54392",
+     "title": "South Korea and U.S. Defense Chiefs to Hold Bilateral Talks in the Philippines",
+     "summary": "Defense Minister Kang Shin-chul and U.S. Defense Secretary Pete Hegseth are scheduled to hold their first bilateral talks in the Philippines ahead of an ASEAN-led defense ministers' meeting.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-27T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Defense chiefs of S. Korea, U.S. to hold talks in Philippines ahead of ASEAN meeting",
+       "url": "https://en.yna.co.kr/view/AEN20261027003851315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Defense chiefs of S. Korea, US to hold talks in Philippines ahead of ASEAN meeting",
+       "url": "https://www.koreaherald.com/article/10916739",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Defense chiefs of S. Korea, US to hold talks in Philippines ahead of ASEAN meeting",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261027/defense-chiefs-of-s-korea-us-to-hold-talks-in-philippines-ahead-of-asean-meeting?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Defense chief heads to Philippines for ASEAN-led defense ministers' meeting",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261027/defense-chief-heads-to-philippines-for-asean-led-defense-ministers-meeting?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "79bcd30e779e",
+     "title": "Top Court Issues Additional Detention Warrant for Former First Lady Kim Keon Hee",
+     "summary": "South Korea's Supreme Court has issued an additional detention warrant for jailed former first lady Kim Keon Hee, ensuring she remains in custody while legal proceedings continue.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-27T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "(2nd LD) Top court issues additional arrest warrant for jailed ex-first lady",
+       "url": "https://en.yna.co.kr/view/AEN20261027002152315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Top court issues additional arrest warrant for jailed ex-first lady",
+       "url": "https://www.koreaherald.com/article/10916758",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Supreme Court issues new detention warrant for former first lady Kim Keon Hee",
+       "url": "https://www.koreaherald.com/article/10916760",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Top court holds hearing on new arrest warrant for jailed ex-first lady",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261027/top-court-holds-hearing-on-new-arrest-warrant-for-jailed-ex-first-lady?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "06595e1812f0",
+     "title": "Nuclear Watchdog Approves 10-Year Lifespan Extension for Kori Reactors",
+     "summary": "South Korea's nuclear safety watchdog has approved a 10-year operational lifespan extension for units 3 and 4 of the Kori nuclear power plant on the country's southeastern coast.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-27T10:57:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Nuclear watchdog approves 10-yr lifespan extension for Kori units 3, 4",
+       "url": "https://en.yna.co.kr/view/AEN20261027006851320",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Nuclear watchdog approves 10-year lifespan extension for Kori units 3, 4",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261027/nuclear-watchdog-approves-10-year-lifespan-extension-for-kori-units-3-4?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a88dd7c2dfcd",
+     "title": "Foreign Tourist Arrivals in South Korea Set New Annual Record Early",
+     "summary": "Preliminary figures from the Ministry of Culture, Sports and Tourism indicate that foreign tourist arrivals to South Korea have already surpassed previous benchmarks to set an all-time annual record.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-27T10:57:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Foreign tourist arrivals in S. Korea estimated to have set annual record early",
+       "url": "https://en.yna.co.kr/view/AEN20261027010700315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Foreign tourist arrivals in Korea estimated to have set annual record early",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261027/foreign-tourist-arrivals-in-korea-estimated-to-have-set-annual-record-early?utm_source=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "9758b6e1a7b2",
+     "title": "Samsung P9 256GB MicroSD Express Card",
+     "summary": "Samsung's Nintendo Switch 2-ready P9 MicroSD Express card is on sale at multiple retailers, with the 256GB model discounted to $47.99 and the 512GB version down to $99.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-26T21:56:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Samsung’s Switch 2-ready MicroSD Express card is on sale for less than $50",
+       "url": "https://www.theverge.com/gadgets/1018962/samsung-p9-256gb-microsd-express-card-switch-2-deal-sale",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-27",
+ "generated_at": "2026-10-27T11:01:16Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1158,
+  "clusters": 981,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "hn-claude",
+   "title": "HN: Claude/Anthropic",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=Claude+OR+Anthropic&points=50"
+  },
+  {
+   "key": "wapo-politics",
+   "title": "The Washington Post: Politics",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
+  },
+  {
+   "key": "corriere",
+   "title": "Corriere della Sera (Italy)",
+   "status": "stale",
+   "detail": "no new items since 2024-05-13"
+  },
+  {
+   "key": "nhk",
+   "title": "NHK News (Japanese)",
+   "status": "stale",
+   "detail": "no new items since 2026-08-08"
+  }
+ ]
+}
