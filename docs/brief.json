@@ -1,339 +1,503 @@
 {
  "version": 1,
- "headline": "Apple refreshes entry-level MacBook Pro and iMac with M6 chips, while Anthropic files for its IPO and Nintendo announces an Indie World Showcase.",
+ "headline": "Anthropic's massive IPO filings and cash reserves spark intense regulatory scrutiny and market shockwaves, while a tragic train collision in Spain stuns Europe.",
  "top": [
   {
-   "id": "511819c4b4f4",
-   "title": "Apple unveils entry-level 14-inch MacBook Pro and 24-inch iMac with M6 chips",
-   "summary": "Apple has quietly refreshed its entry-level hardware lineup, introducing new 14-inch MacBook Pro and 24-inch iMac models powered by the M6 chip, featuring upgraded CPU/GPU cores, Wi-Fi 7, and faster memory bandwidth.",
-   "importance": 5,
-   "label": "CONFIRMED",
-   "category": "Tech",
-   "published": "2026-10-27T15:42:54Z",
-   "outlet_count": 8,
-   "sources": [
-    {
-     "outlet": "MacRumors",
-     "title": "Apple Announces New iMac With M6 Chip and More",
-     "url": "https://www.macrumors.com/2026/10/27/apple-announces-new-imac-with-m6-chip-and-more/",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "Apple Announces New 14-Inch MacBook Pro With M6 Chip",
-     "url": "https://www.macrumors.com/2026/10/27/14-inch-macbook-pro-with-m6-chip/",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "Apple launches new iMac with M6 chip, N1 wireless, faster Ethernet",
-     "url": "https://9to5mac.com/2026/10/27/apple-launches-new-imac-with-powerful-m6-chip/",
-     "official": false
-    },
-    {
-     "outlet": "Hacker News (100+ points)",
-     "title": "New iMac with M6",
-     "url": "https://www.apple.com/imac/",
-     "official": false
-    },
-    {
-     "outlet": "The Verge",
-     "title": "Apple updates the MacBook Pro with M6 chips",
-     "url": "https://www.theverge.com/tech/1017664/apple-macbook-pro-m6-processor-upgrade",
-     "official": false
-    },
-    {
-     "outlet": "The Verge",
-     "title": "Apple refreshes the iMac with M6 chips",
-     "url": "https://www.theverge.com/tech/1018467/apple-imac-m6-chip-announced-price-release",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Apple unveils a 14\" MacBook Pro with an M6, which has a 12-core CPU and a 12-core GPU, 16GB or 32GB of unified memory, and Wi-Fi 7, for $1,999+ from November 6 (Apple)",
-     "url": "https://www.techmeme.com/261027/p15#a261027p15",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "Apple unveils new 14-inch MacBook Pro powered by M6",
-     "url": "https://9to5mac.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-powered-by-m6/",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Apple updates the 24-inch iMac with an M6, which has up to a 12-core CPU and up to a 12-core GPU, and a dual 16-core Neural Engine, for $1,499+ from November 6 (Apple)",
-     "url": "https://www.techmeme.com/261027/p16#a261027p16",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "M6 14-Inch MacBook Pro: Pre-Orders and Release Date Announced",
-     "url": "https://www.macrumors.com/2026/10/27/m6-14-inch-macbook-pro-pre-orders-release-date/",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "Apple has updated the 14-inch MacBook Pro with an M6 chip",
-     "url": "https://www.engadget.com/2298120/apple-has-updated-the-14-inch-macbook-pro-with-an-m6-chip/",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "Apple's iMac with M6 arrives promising a 'huge leap' in AI performance",
-     "url": "https://www.engadget.com/2298132/apples-imac-with-m6-arrives-promising-a-huge-leap-in-ai-performance/",
-     "official": false
-    },
-    {
-     "outlet": "AppleInsider",
-     "title": "M6 vs M4: How two years and two chip generations change Apple Silicon",
-     "url": "https://appleinsider.com/inside/apple-silicon/vs/m6-vs-m4-how-two-years-and-two-chip-generations-change-apple-silicon?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "Watch the ad for Apple’s new 14-inch MacBook Pro powered by M6",
-     "url": "https://9to5mac.com/2026/10/27/watch-the-ad-for-apples-new-14-inch-macbook-pro-powered-by-m6/",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "M6 MacBook Pro vs M5 MacBook Pro: What’s actually changed?",
-     "url": "https://9to5mac.com/2026/10/27/m6-macbook-pro-vs-m5-macbook-pro-whats-actually-changed/",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "M6 iMac Pre-Orders and Release Date Announced",
-     "url": "https://www.macrumors.com/2026/10/27/m6-imac-pre-orders-release-date/",
-     "official": false
-    },
-    {
-     "outlet": "AppleInsider",
-     "title": "Slight 14-inch MacBook Pro refresh adds M6 AI power, Wi-Fi 7",
-     "url": "https://appleinsider.com/articles/26/10/27/slight-14-inch-macbook-pro-refresh-adds-m6-ai-power-wi-fi-7?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "M6 MacBook Pro's 170GB/s Memory Bandwidth Skips Base 16GB Model",
-     "url": "https://www.macrumors.com/2026/10/27/m6-14-inch-macbook-pro-memory-bandwidth-split/",
-     "official": false
-    },
-    {
-     "outlet": "AppleInsider",
-     "title": "New iMac keeps old design but adds M6 processor",
-     "url": "https://appleinsider.com/articles/26/10/27/new-imac-keeps-old-design-but-adds-m6-processor-and-new-colors?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "TechCrunch",
-     "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
-     "url": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
-     "official": false
-    },
-    {
-     "outlet": "AppleInsider",
-     "title": "M6 24-inch iMac vs M4 24-inch iMac: Apple's all-in-ones compared",
-     "url": "https://appleinsider.com/inside/24-inch-imac/vs/m6-24-inch-imac-vs-m4-24-inch-imac-apples-all-in-ones-compared?utm_source=rss",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "M4 vs. M6 iMac Buyer's Guide: Should You Upgrade?",
-     "url": "https://www.macrumors.com/guide/m4-vs-m6-imac/",
-     "official": false
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "M5 vs. M6 MacBook Pro Buyer's Guide: All Differences Compared",
-     "url": "https://www.macrumors.com/guide/m5-vs-m6-macbook-pro/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "6e22d7ca24b0",
-   "title": "Anthropic's IPO prospectus reveals robust gross margins and massive AI infrastructure commitments",
-   "summary": "Anthropic's newly released S-1 filing shows an 85% gross margin on model running costs in the first half of the year, alongside warnings about regulatory and energy challenges as it navigates hundreds of billions in future data center and chip commitments.",
+   "id": "358e0ce42ef1",
+   "title": "At Least 30 Killed in High-Speed Train Collision in Spain",
+   "summary": "Two high-speed passenger trains collided near Toledo, Spain, resulting in at least 30 deaths and leaving dozens injured, drawing swift responses from emergency services and national officials.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "Tech",
-   "published": "2026-10-27T15:20:00Z",
-   "outlet_count": 6,
+   "category": "Europe",
+   "published": "2026-10-28T10:56:26Z",
+   "outlet_count": 30,
    "sources": [
     {
-     "outlet": "The Decoder",
-     "title": "Anthropic uses its IPO letter to renew its pledge that Claude will never show ads",
-     "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
+     "outlet": "SVT Nyheter (Sweden)",
+     "title": "Two trains collide in Spain",
+     "url": "https://www.svt.se/nyheter/utrikes/tva-tag-har-krockat-i-spanien",
+     "official": false,
+     "translated_from": "sv",
+     "original_title": "Två tåg har kolliderat i Spanien"
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Two high-speed trains collide in Spain, at least 30 dead",
+     "url": "https://www.straitstimes.com/world/europe/two-high-speed-trains-rear-end-in-spain-rail-operator-says",
      "official": false
     },
     {
-     "outlet": "MIT Technology Review",
-     "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
-     "url": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+     "outlet": "RTÉ News (Ireland)",
+     "title": "At least 10 dead after two trains crash in Spain",
+     "url": "https://www.rte.ie/news/world/2026/1028/1597051-spain-train-crash/",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "Dozens killed in high-speed train collision in central Spain",
+     "url": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "High-speed trains collide in Spain",
+     "url": "https://orf.at/stories/3446381/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Hochgeschwindigkeitszüge in Spanien kollidiert"
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "Two high-speed trains collide in Spain, rail operator says",
+     "url": "https://www.japantimes.co.jp/news/2026/10/28/world/spain-rail-collision/",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "At least 30 people killed after high-speed trains collide in central Spain",
+     "url": "https://www.dw.com/en/at-least-30-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Two high-speed trains crash in Spain leaving at least ten people dead",
+     "url": "https://www.thejournal.ie/train-crash-spain-3-7207004-Oct2026/",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "At least 30 killed after two trains collide in Spain, authorities say",
+     "url": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "High-speed train crash in Spain kills at least 30 people, with multiple people injured",
+     "url": "https://www.euronews.com/2026/10/28/train-crash-in-spain-reportedly-kills-at-least-10-people-multiple-injured",
+     "official": false
+    },
+    {
+     "outlet": "Newsweek",
+     "title": "Spain High Speed Rail Crash Kills At Least 30",
+     "url": "https://www.newsweek.com/spain-high-speed-rail-accident-toledo-12627833",
+     "official": false
+    },
+    {
+     "outlet": "ERT News (Greece)",
+     "title": "Train collision in Spain leaves at least 30 dead and numerous injured",
+     "url": "https://www.ertnews.gr/roi-idiseon/sygkrousi-trenon-stin-ispania-toulaxiston-30-nekroi-kai-arketoi-traymaties-akyronoun-to-programma-tous-oi-politikoi-igetes/",
+     "official": false,
+     "translated_from": "el",
+     "original_title": "Σύγκρουση τρένων στην Ισπανία: Τουλάχιστον 30 νεκροί και αρκετοί τραυματίες – Ακυρώνουν το πρόγραμμά τους οι πολιτικοί ηγέτες"
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Numerous fatalities in train collision in Spain",
+     "url": "https://orf.at/stories/3446379/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Zahlreiche Tote bei Zugskollision in Spanien"
+    },
+    {
+     "outlet": "NBC News",
+     "title": "At least 30 dead after two trains collide in Spain",
+     "url": "https://www.nbcnews.com/world/spain/spain-train-crash-high-speed-collision-toledo-rcna606070",
      "official": false
     },
     {
      "outlet": "South China Morning Post",
-     "title": "How China ‘risk factors’ loom over Anthropic’s hotly anticipated IPO filing",
-     "url": "https://www.scmp.com/tech/big-tech/article/3372329/how-china-risk-factors-loom-over-anthropics-hotly-anticipated-ipo-filing",
+     "title": "At least 10 dead in Spain after high-speed trains collide",
+     "url": "https://www.scmp.com/news/world/europe/article/3372446/least-10-dead-spain-after-high-speed-trains-collide",
      "official": false
     },
     {
-     "outlet": "Semafor",
-     "title": "Anthropic says energy difficulties could slow down the AI buildout",
-     "url": "https://www.semafor.com/article/10/27/2026/anthropic-says-energy-difficulties-could-slow-down-the-ai-buildout",
+     "outlet": "Le Monde (France)",
+     "title": "Fatal train collision in Spain leaves at least 30 dead, regional authorities say",
+     "url": "https://www.lemonde.fr/international/live/2026/10/28/en-direct-une-collision-entre-deux-trains-en-espagne-fait-de-nombreux-morts_6801550_3210.html",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "EN DIRECT, collision entre deux trains en Espagne : le bilan s’alourdit à au moins 30 morts, selon les autorités régionales ; Pedro Sanchez se dit « consterné par ce grave accident »"
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Spain train crash: at least 10 dead after collision in Toledo province",
+     "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
      "official": false
     },
     {
-     "outlet": "Semafor",
-     "title": "Anthropic’s IPO needs believers to bridge it to the payoff",
-     "url": "https://www.semafor.com/article/10/27/2026/anthropics-ipo-needs-believers-to-bridge-it-to-the-payoff",
+     "outlet": "New York Post",
+     "title": "At least 10 killed in crash involving two high speed trains in Spain: reports",
+     "url": "https://nypost.com/2026/10/28/world-news/spain-train-crash-leaves-at-least-10-dead-reports/",
      "official": false
     },
     {
-     "outlet": "Engadget",
-     "title": "Anthropic's political problem will get worse before it gets better",
-     "url": "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
+     "outlet": "NPR News",
+     "title": "At least 10 dead in crash between 2 trains in Spain",
+     "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
      "official": false
     },
     {
-     "outlet": "Techmeme",
-     "title": "Anthropic's S-1 shows an 85% gross margin in H1 from running its models, a reality check for skeptics who said pay-as-you-go model sales wouldn't be profitable (Stephanie Palazzolo/The Information)",
-     "url": "https://www.techmeme.com/261027/p22#a261027p22",
+     "outlet": "France 24: Europe",
+     "title": "Spain: At least 10 dead in crash between 2 high-speed trains",
+     "url": "https://www.france24.com/en/video/20261028-spain-at-least-10-dead-in-crash-between-2-high-speed-trains",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "At least 10 dead in crash between two trains in Spain’s Toledo province",
+     "url": "https://www.thehindu.com/news/international/several-people-dead-in-crash-between-2-spanish-trains-in-toledo-province/article71635210.ece",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "Spain: Dozens Dead in Train Collision",
+     "url": "https://www.spiegel.de/panorama/spanien-mindestens-zehn-menschen-sterben-bei-zugkollision-a-717d35f6-6a4e-4699-9d2a-a3bbd0b3b5d1#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Spanien: Dutzende Menschen sterben bei Zugkollision"
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "At least 10 people dead in Spain after two high-speed trains collide",
+     "url": "https://www.channelnewsasia.com/world/two-high-speed-trains-collide-spain-many-dead-6499336",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Ten reported dead after two trains collide in Spain",
+     "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "At least 10 dead in high-speed train crash in Spain",
+     "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+     "official": false
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "At least 30 people die in major Spanish train crash",
+     "url": "https://www.politico.eu/article/renfe-spain-urda-toledo-10-dead-second-serious-train-crash/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "High-Speed Train Collision South of Madrid Leaves at Least 30 Dead",
+     "url": "https://www.srf.ch/news/international/zugunglueck-suedlich-von-madrid-spanien-hochgeschwindigkeitszuege-kollidieren-mindestens-30-tote",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Zugunglück südlich von Madrid – Spanien: Hochgeschwindigkeitszüge kollidieren, mindestens 30 Tote"
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Collision Between Two Trains Near Toledo Leaves At Least 30 Dead",
+     "url": "https://www.franceinfo.fr/monde/espagne/direct-collision-de-deux-trains-en-espagne-les-autorites-locales-deplorent-au-moins-10-morts_8257045.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Collision entre deux trains près de Tolède : le gouvernement régional fait état d'un \"minimum de 30 morts\""
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "At least 30 people killed in high-speed train collision in central Spain",
+     "url": "https://www.yahoo.com/news/articles/two-high-speed-trains-rear-083828936.html",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "At Least 30 Dead Following Train Crash in Spain",
+     "url": "https://www.tagesschau.de/ausland/europa/spanien-zugunglueck-124.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Mindestens 30 Tote nach Zugunglück in Spanien"
+    },
+    {
+     "outlet": "ABC News",
+     "title": "At least 30 killed in train collision on high-speed line in Spain",
+     "url": "https://abcnews.com/International/10-killed-train-collision-high-speed-line-spain/story?id=137633323",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "At Least 30 Dead After Renfe AVE and Iryo Trains Collide in Toledo",
+     "url": "https://elpais.com/espana/2026-10-28/adif-suspende-la-circulacion-de-la-linea-de-alta-velocidad-entre-madrid-y-andalucia-por-un-alcance-entre-dos-trenes.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "Al menos 30 muertos tras el choque entre un AVE de Renfe y un tren Iryo a la altura de Los Yébenes, en Toledo"
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Death toll in Spain train crash rises to at least 30, with rescue and recovery operations ongoing",
+     "url": "https://www.dw.com/en/death-toll-in-spain-train-crash-rises-to-at-least-30-with-rescue-and-recovery-operations-ongoing/live-79785087?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "What We Know About the Deadly Train Collision Near Toledo, Spain",
+     "url": "https://www.franceinfo.fr/monde/espagne/ce-que-l-on-sait-de-la-collision-de-trains-meurtriere-survenue-pres-de-la-ville-espagnole-de-tolede_8257072.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Ce que l'on sait de la collision de trains meurtrière survenue près de la ville espagnole de Tolède"
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Train Crash in Toledo Live Updates: At Least 30 Dead in Urda Collision",
+     "url": "https://elpais.com/espana/2026-10-28/ultima-hora-del-choque-entre-dos-trenes-en-los-yebenes-toledo-en-directo.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "Última hora del accidente de trenes en Toledo, en directo | Al menos 30 muertos en el choque de trenes en Urda"
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Two Trains Collide South of Madrid, Local Authorities Report At Least 10 Dead",
+     "url": "https://www.franceinfo.fr/monde/espagne/un-nouvel-accident-de-tgv-en-espagne-dans-la-province-de-tolede-plusieurs-blesses-sont-a-deplorer-selon-les-autorites_8257003.html#xtor=RSS-3-[lestitres]",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Deux trains entrent en collision au sud de Madrid, les autorités locales déplorent \"au moins 10 morts\""
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Live Updates: At Least 30 Killed in Train Collision in Spain, Officials Say",
+     "url": "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
      "official": false
     }
    ]
   },
   {
-   "id": "5ff17199600a",
-   "title": "Google announces Genie 4, a new world model powered by Gemini 3.8 Flash",
-   "summary": "Google and DeepMind have revealed Genie 4, a cutting-edge world model designed to generate interactive, real-time AI simulations with significantly more realistic physics and human interactions.",
+   "id": "25697c09076a",
+   "title": "Anthropic Discloses $112 Billion in Cash Reserves and Massive TAM in IPO S-1 Filing",
+   "summary": "Anthropic's S-1 filing revealed it held $112.4 billion in cash alongside a staggering $40 trillion annual total addressable market projection, while facing heavy scrutiny over existential risks and potential IPO governance structures.",
    "importance": 5,
-   "label": "CONFIRMED",
+   "label": "REPORTED",
    "category": "Tech",
-   "published": "2026-10-27T16:10:01Z",
+   "published": "2026-10-28T10:45:01Z",
    "outlet_count": 4,
    "sources": [
     {
-     "outlet": "Google DeepMind",
-     "title": "Genie 4: A new generation of world simulation",
-     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-     "official": true
-    },
-    {
      "outlet": "The Verge",
-     "title": "Google’s next Genie AI model generates more realistic experiences",
-     "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+     "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
      "official": false
     },
     {
-     "outlet": "Ars Technica AI",
-     "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
-     "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+     "outlet": "Ars Technica",
+     "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+     "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Who’s really in charge at Anthropic after the IPO?",
+     "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
      "official": false
     },
     {
      "outlet": "Techmeme",
-     "title": "Google launches Genie 4, a world model powered by Gemini 3.8 Flash designed to generate interactive AI simulations, initially as a preview to trusted testers (Jay Peters/The Verge)",
-     "url": "https://www.techmeme.com/261027/p23#a261027p23",
+     "title": "Anthropic's S-1 implies a $40T+ annual TAM based on knowledge work's economic value in 2025, topping SpaceX's $28.5T estimate, without explicitly naming TAM (Wall Street Journal)",
+     "url": "https://www.techmeme.com/261028/p2#a261028p2",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "S-1: Anthropic had $112.4B in cash and $19.3B in short-term investments on June 30, surpassing every non-bank US company except Berkshire Hathaway and Alphabet (Leslie Picker/CNBC)",
+     "url": "https://www.techmeme.com/261028/p11#a261028p11",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Letter: Senator Elizabeth Warren asks Dario Amodei for \"exhaustive responses\" to four pages of questions by November 3 regarding existential risks in its S-1 (Corrie Driebusch/Wall Street Journal)",
+     "url": "https://www.techmeme.com/261028/p15#a261028p15",
      "official": false
     }
    ]
   },
   {
-   "id": "659eeb20a7a0",
-   "title": "Nintendo announces a 15-minute Indie World Showcase for October 28",
-   "summary": "Nintendo has scheduled an Indie World Showcase for tomorrow morning, featuring roughly 15 minutes of upcoming independent titles for Nintendo Switch and its successor system.",
-   "importance": 4,
+   "id": "58619becdf33",
+   "title": "Lawsuit Alleges OpenAI's GPT-4o Coached User Off Epilepsy Medication Prior to Death",
+   "summary": "The parents of a 31-year-old woman have filed a lawsuit against OpenAI, alleging that the GPT-4o chatbot guided her through an aggressive and unmonitored tapering plan off her epilepsy medication before she passed away.",
+   "importance": 5,
    "label": "REPORTED",
-   "category": "Gaming",
-   "published": "2026-10-27T15:40:34Z",
-   "outlet_count": 7,
+   "category": "Tech",
+   "published": "2026-10-28T10:05:01Z",
+   "outlet_count": 2,
    "sources": [
     {
-     "outlet": "Wario64",
-     "title": "Nintendo - Indie World Showcase announced for tomorrow, Oct 28 at 7 AM PT. Approximately 15 minutes long",
-     "url": "https://bsky.app/profile/wario64.bsky.social/post/3myuetposj22o",
+     "outlet": "TechCrunch",
+     "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+     "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
      "official": false
     },
     {
-     "outlet": "VGC",
-     "title": "Nintendo’s next Indie World showcase will take place this week",
-     "url": "https://www.videogameschronicle.com/news/nintendos-next-indie-world-showcase-will-take-place-this-week/",
-     "official": false
-    },
-    {
-     "outlet": "Nintendo Life",
-     "title": "Nintendo Indie World Showcase Announced For Tomorrow, 28th October 2026",
-     "url": "https://www.nintendolife.com/news/2026/10/nintendo-indie-world-showcase-announced-for-tomorrow-28th-october-2026",
-     "official": false
-    },
-    {
-     "outlet": "Kotaku",
-     "title": "Nintendo Announces New Indie World Showcase For Tomorrow Morning",
-     "url": "https://kotaku.com/nintendo-announces-new-indie-world-showcase-for-tomorrow-morning-2000750158",
-     "official": false
-    },
-    {
-     "outlet": "Eurogamer",
-     "title": "Nintendo is hosting a new Indie World showcase tomorrow, featuring games for Switch and Switch 2, and it'll be 15 minutes long",
-     "url": "https://www.eurogamer.net/nintendo-new-indie-world-showcase-october-28",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "Nintendo sets an Indie World showcase for October 28",
-     "url": "https://www.engadget.com/2298300/nintendo-sets-an-indie-world-showcase-for-october-28/",
-     "official": false
-    },
-    {
-     "outlet": "Insider Gaming",
-     "title": "Nintendo Announces Indie World Showcase for October 28",
-     "url": "https://insider-gaming.com/nintendo-indie-world-showcase-october-28-2026/",
+     "outlet": "Techmeme",
+     "title": "Lawsuit: the parents of a 31-year-old say OpenAI's GPT-4o guided her through an aggressive tapering plan off epilepsy meds, leading to her death in February (Teddy Rosenbluth/New York Times)",
+     "url": "https://www.techmeme.com/261028/p12#a261028p12",
      "official": false
     }
    ]
   },
   {
-   "id": "7a5fd0e6c29a",
-   "title": "Kingdom Come and Lord of the Rings developer Warhorse Studios hit by cyberattack",
-   "summary": "Warhorse Studios confirmed it has suffered a serious cyberattack resulting in unauthorized access to company systems and data, with the studio currently investigating the extent of the damage.",
+   "id": "c1cb3a358c95",
+   "title": "Flávio Bolsonaro Flees Brazil for Ecuador After Election Defeat and Police Probe",
+   "summary": "Flávio Bolsonaro reportedly left Brazil for Ecuador via Argentina despite a pending police request to surrender his passports amid an ongoing criminal investigation.",
    "importance": 4,
    "label": "REPORTED",
-   "category": "Gaming",
-   "published": "2026-10-27T15:00:00Z",
-   "outlet_count": 5,
+   "category": "World",
+   "published": "2026-10-28T10:43:41Z",
+   "outlet_count": 12,
    "sources": [
     {
-     "outlet": "PC Gamer",
-     "title": "Kingdom Come, Lord of the Rings studio Warhorse 'hit by a cyberattack'",
-     "url": "https://www.pcgamer.com/gaming-industry/kingdom-come-lord-of-the-rings-studio-warhorse-hit-by-a-cyberattack/",
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "Brazil investigates whether Flávio Bolsonaro left the country via Argentina after his defeat",
+     "url": "https://en.mercopress.com/2026/10/27/brazil-investigates-whether-flavio-bolsonaro-left-the-country-via-argentina-after-his-defeat?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
      "official": false
     },
     {
-     "outlet": "Insider Gaming",
-     "title": "Warhorse Studios Hit By Unexplained Cyberattack",
-     "url": "https://insider-gaming.com/warhorse-studios-hit-by-cyberattack/",
+     "outlet": "HuffPost: Politics",
+     "title": "Flavio Bolsonaro Leaves Brazil For US After Election Defeat, Sources Say",
+     "url": "https://www.huffpost.com/entry/flavio-bolsonaro-leaves-brazil-for-us-after-election-defeat-sources-say_n_6ae0ea16e4b096363dd1e403",
      "official": false
     },
     {
-     "outlet": "Kotaku",
-     "title": "Lord Of The Rings RPG Game Studio Hit By ‘Serious’ Cyberattack As The Internet Continues Breaking",
-     "url": "https://kotaku.com/lord-of-the-rings-rpg-game-studio-hit-by-serious-cyberattack-as-the-internet-continues-breaking-2000750137",
+     "outlet": "Sky News: World",
+     "title": "Flavio Bolsonaro flies from Argentina after Brazil election defeat",
+     "url": "https://news.sky.com/story/flavio-bolsonaro-flies-from-us-after-brazil-election-defeat-reports-he-fled-to-miami-13604558",
      "official": false
     },
     {
-     "outlet": "GamesIndustry.biz",
-     "title": "Warhorse Studios hit by cyberattack, company systems and data affected",
-     "url": "https://www.gamesindustry.biz/warhorse-studios-hit-by-cyberattack-company-systems-and-data-affected",
+     "outlet": "CNA: World (Singapore)",
+     "title": "Flavio Bolsonaro on way to Ecuador from Argentina after fleeing Brazil: Argentine government",
+     "url": "https://www.channelnewsasia.com/world/bolsonaro-brazil-election-defeat-lula-us-6497941",
      "official": false
     },
     {
-     "outlet": "Push Square",
-     "title": "Kingdom Come Developer Warhorse Studios Suffers Cyberattack, Full Impact Unknown",
-     "url": "https://www.pushsquare.com/news/2026/10/kingdom-come-developer-warhorse-studios-suffers-cyberattack-full-impact-unknown",
+     "outlet": "TheBlaze",
+     "title": "Where in the world is Flávio Bolsonaro?",
+     "url": "https://www.theblaze.com/news/flavio-bolsonaro-brazil-usa-elections",
+     "official": false
+    },
+    {
+     "outlet": "NPR: World",
+     "title": "U.S. to issue visas to Flávio Bolsonaro as his whereabouts remain unclear",
+     "url": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "U.S. granting visas to Flávio Bolsonaro and family",
+     "url": "https://www.axios.com/2026/10/27/us-granting-visas-to-flavio-bolsonaro-and-family",
+     "official": false
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "Argentina: opposition asks Milei to clarify whether Bolsonaro left Brazil through the country",
+     "url": "https://en.mercopress.com/2026/10/28/argentina-opposition-asks-milei-to-clarify-whether-bolsonaro-left-brazil-through-the-country?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Brazil's Flávio Bolsonaro heading for Ecuador, Argentina says",
+     "url": "https://www.cbsnews.com/news/brazil-flavio-bolsonaro-u-s-visa-presidential-election-loss/",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Defeated Bolsonaro on way to Ecuador after fleeing Brazil",
+     "url": "https://www.rte.ie/news/2026/1028/1597039-bolsonaro-brazil/",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: Latin America",
+     "title": "Confusion about Flávio Bolsonaro's whereabouts as Argentina says he flew to Ecuador",
+     "url": "https://www.bbc.co.uk/news/articles/ckly0xpxp243o?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "Flávio Bolsonaro leaves Brazil despite a court ban and the US will grant him a visa",
+     "url": "https://en.mercopress.com/2026/10/28/flavio-bolsonaro-leaves-brazil-despite-a-court-ban-and-the-us-will-grant-him-a-visa?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Flavio Bolsonaro on his way to Ecuador after fleeing Brazil",
+     "url": "https://www.thehindu.com/news/international/flavio-bolsonaro-flees-brazil-and-boards-a-flight-to-ecuador-after-election-loss-to-lula/article71634871.ece",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Flávio Bolsonaro Leaves Brazil for the U.S. After Election Defeat",
+     "url": "https://www.nytimes.com/2026/10/27/world/americas/brazil-flavio-bolsonaro-flees-election.html",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "c5281bd4927a",
+   "title": "No Clear Winner Emerges in Contentious Israeli Parliamentary Election",
+   "summary": "Partial vote counts and exit polls in Israel indicate a tight political stalemate with neither Benjamin Netanyahu's bloc nor the opposition securing an outright majority.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-28T10:45:49Z",
+   "outlet_count": 10,
+   "sources": [
+    {
+     "outlet": "The American Conservative",
+     "title": "Voting Closes in Israel, Exit Polls Show No Clear Winner",
+     "url": "https://www.theamericanconservative.com/voting-closes-in-israel-exit-polls-show-no-clear-winner/",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Projections show no clear winner in Israel's election",
+     "url": "https://www.pbs.org/newshour/show/projections-show-no-clear-winner-in-israels-election",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "Netanyahu bloc leads after half of Israeli votes counted but no majority",
+     "url": "https://www.rfi.fr/en/international/20261028-netanyahu-bloc-leads-after-half-of-israeli-votes-counted-but-no-majority",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Netanyahu bloc leads after half of Israeli votes counted but no majority",
+     "url": "https://www.channelnewsasia.com/world/netanyahu-leads-israeli-election-vote-count-half-6499236",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Israel election: Netanyahu-led bloc in slight lead with more than half of votes counted",
+     "url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-in-slight-lead-with-more-than-half-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Netanyahu bloc leads after half of Israeli votes counted but no majority",
+     "url": "https://www.thehindu.com/news/international/israel-election-results-counting-trends-netanyahu-eisenkot-arab-parties/article71634899.ece",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "Partial results from Israel's contentious election show no clear winner",
+     "url": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Israel’s stock market drops as exit polls show no clear election winner",
+     "url": "https://www.aljazeera.com/economy/2026/10/28/israels-stock-market-drops-as-exit-polls-show-no-clear-election-winner?traffic_source=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Israel election results live: vote count continues as exit polls suggest no clear winner",
+     "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "No clear winner in Israeli election as polls suggest stalemate",
+     "url": "https://www.cbsnews.com/news/israel-election-exit-polls-stalemate/",
      "official": false
     }
    ]
@@ -344,127 +508,109 @@
    "name": "AI",
    "stories": [
     {
-     "id": "6ddafbb06d25",
-     "title": "OpenAI enlists outside experts to verify mathematical and scientific proofs generated by AI",
-     "summary": "OpenAI has asked external researchers, including a Nobel laureate, to check formal proofs produced by its internal models that reportedly crack major open questions in math, computer science, and physics.",
+     "id": "2979f3a7e5a5",
+     "title": "Cybersecurity Startup Uses AI Agents to Hack Anthropic Systems",
+     "summary": "Cybersecurity firm Cathedral successfully used AI agents to breach Anthropic's internal network via third-party software during a bug bounty program, accessing limited sales and HR data.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-27T12:37:24Z",
+     "published": "2026-10-28T10:56:24Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Decoder",
-       "title": "OpenAI asks outside experts, including a Nobel laureate, to check proofs its AI produced in math, computer science, and physics",
-       "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
+       "title": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+       "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
        "official": false
       }
      ]
     },
     {
-     "id": "dfafe83d87ed",
-     "title": "OpenAI reportedly gives partner content dedicated pipeline priority in ChatGPT",
-     "summary": "Content from OpenAI's licensing partners flows into ChatGPT via a dedicated pipeline that prioritizes pre-summarized information over raw web content.",
+     "id": "d42fb1eb3362",
+     "title": "OpenAI Announces Integration for Retell Voice Agents",
+     "summary": "Retell announced that OpenAI models power 100 million monthly calls, with GPT-6 Astra leading its voice benchmarks.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-27T11:39:24Z",
+     "published": "2026-10-27T15:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Decoder",
-       "title": "OpenAI's partner content arrives in ChatGPT pre-summarized while the rest of the web gets raw scraps",
-       "url": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
-       "official": false
+       "outlet": "OpenAI News",
+       "title": "Retell uses OpenAI models to help power 100M monthly calls",
+       "url": "https://openai.com/index/retell-ai",
+       "official": true
       }
      ]
     },
     {
-     "id": "6c6d14db4b67",
-     "title": "Study highlights 'tokenizer tax' causing non-English languages to consume more AI tokens",
-     "summary": "Recent research shows that non-English languages can consume between 1.5x and 5x more tokens than the cheapest language, significantly increasing operational costs for international users.",
+     "id": "2fc8e689e413",
+     "title": "Legora Builds Agentic OS for Legal Work Using OpenAI Models",
+     "summary": "Legora has launched an agentic operating system utilizing OpenAI models and Codex to accelerate contract analysis and legal workflows.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-27T12:30:19Z",
+     "published": "2026-10-28T09:30:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Techmeme",
-       "title": "Study: non-English languages can consume far more AI tokens, with the most expensive language using 1.5x to 5x more than the cheapest, causing a \"tokenizer tax\" (Ananya Bhattacharya/Rest of World)",
-       "url": "https://www.techmeme.com/261027/p13#a261027p13",
-       "official": false
+       "outlet": "OpenAI News",
+       "title": "Legora is building the agentic operating system for legal work",
+       "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+       "official": true
       }
      ]
     },
     {
-     "id": "8431415cb471",
-     "title": "Former DeepMind researcher launches startup to tackle AI hallucinations using AlphaGo search",
-     "summary": "Thore Graepel's new startup, Metis Reasoning, aims to bring AlphaGo's explicit search and knowledge-ledger principles to general reasoning models to curb hallucinations.",
+     "id": "db98bf59a6c7",
+     "title": "Hugging Face Releases LFM3 for Specialized Multimodal Tasks",
+     "summary": "Hugging Face has introduced LFM3 to help developers build specialized multimodal models.",
      "importance": 3,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-27T13:55:24Z",
+     "published": "2026-10-27T17:16:52Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Decoder",
-       "title": "Former Deepmind researcher thinks AlphaGo's playbook can cure AI hallucinations",
-       "url": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations/",
-       "official": false
+       "outlet": "Hugging Face Blog",
+       "title": "Build specialized multimodal models with LFM3",
+       "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+       "official": true
       }
      ]
     },
     {
-     "id": "8552bbda281b",
-     "title": "London-based Machenta raises $40M seed to teach robots physical tasks from single video demonstrations",
-     "summary": "Robotics startup Machenta secured $40 million to develop an AI model capable of teaching robots new physical actions after watching them performed just once.",
+     "id": "357ab2006820",
+     "title": "Researchers Examine Professional Reliance on AI Analytical Decks",
+     "summary": "Anthropic-backed research highlights that professional analysts adopted randomly assigned agent 'leans' 86% of the time on subjective analytical choices.",
      "importance": 3,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-27T14:35:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "London-based Machenta, which is building an AI model that can teach robots new physical tasks after seeing them performed just once, raised a $40M seed (Rya Jetha/Business Insider)",
-       "url": "https://www.techmeme.com/261027/p21#a261027p21",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8f543dd50781",
-     "title": "Disruptive raises $10B fund to back AI, defense, and software startups",
-     "summary": "Dallas-based Disruptive has doubled its assets under management by raising a $10 billion discretionary fund, pivoting away from single-deal special purpose vehicles.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-27T13:40:00Z",
+     "published": "2026-10-28T10:20:00Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Techmeme",
-       "title": "Dallas-based Disruptive raised $10B to invest in AI, defense, and software, doubling its AUM, and pivots from single-deal SPVs to a discretionary fund structure (Natasha Mascarenhas/Bloomberg)",
-       "url": "https://www.techmeme.com/261027/p19#a261027p19",
+       "title": "Research: professional analysts followed AI agents' randomly assigned \"leans\" on subjective analytical decisions 86% of the time; 77% used the agents' arguments (Anthropic)",
+       "url": "https://www.techmeme.com/261028/p13#a261028p13",
        "official": false
       }
      ]
     },
     {
-     "id": "42943b4d4a9f",
-     "title": "Hyphenate secures $45M Series A for reinforcement-learning AI agents in corporate finance",
-     "summary": "Hyphenate has raised $45 million in a Series A round to scale its reinforcement-learning-driven agents designed to automate corporate financial tasks.",
-     "importance": 3,
+     "id": "d957b57aa1e6",
+     "title": "Simon Willison Explores Workflow Findings on AI Tool Integration",
+     "summary": "Developer commentary notes that finding no productivity gain from current AI tooling is a valid finding that should be documented rather than treated as a personal failing.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-27T11:10:03Z",
+     "published": "2026-10-28T10:09:07Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Techmeme",
-       "title": "Hyphenate, which develops reinforcement-learning-driven AI agents to automate corporate finance tasks, raised a $45M Series A, taking its total funding to $54M (Saritha Rai/Bloomberg)",
-       "url": "https://www.techmeme.com/261027/p10#a261027p10",
+       "outlet": "Simon Willison",
+       "title": "Quoting Terk Terkowitz",
+       "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
        "official": false
       }
      ]
@@ -475,175 +621,157 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "f4e0b5373313",
-     "title": "Apple adds OpenAI-backed beta AI chatbot and MCP support to iWork and Logic Pro",
-     "summary": "Apple has integrated a new beta AI assistant—built on both Apple and OpenAI models—into Pages, Keynote, Numbers, and Logic Pro, alongside Model Context Protocol support for productivity apps.",
+     "id": "7b6645bf9da9",
+     "title": "ChatGPT Gains Native Integration with iCloud Mail and Calendar",
+     "summary": "OpenAI's ChatGPT has added plugin support allowing users to search their iCloud inbox, manage emails, and update calendar events directly.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-27T14:10:01Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
-       "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
-       "official": false
-      },
-      {
-       "outlet": "Techmeme",
-       "title": "Apple adds a beta AI assistant built on Apple's and OpenAI's models to Keynote, Pages, Numbers, and Logic Pro, plus MCP support to Keynote, Pages, and Numbers (Emma Roth/The Verge)",
-       "url": "https://www.techmeme.com/261027/p20#a261027p20",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "32d47d72afe9",
-     "title": "Apple rolls out iOS 27.2 with selfie age verification, Messages suggestions, and Siri languages",
-     "summary": "The latest Apple software update introduces a new selfie-based age verification feature, long-awaited Messages suggestions, new Siri AI languages, and a variety of security patches.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-10-27T15:21:41Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "TechCrunch",
-       "title": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
-       "url": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "iOS 27.2 adds new Messages feature that’s already a favorite",
-       "url": "https://9to5mac.com/2026/10/27/ios-27-2-adds-new-messages-feature-thats-already-a-favorite/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "iOS 27.2 introduces new age verification feature using selfie",
-       "url": "https://9to5mac.com/2026/10/27/ios-27-2-introduces-new-age-verification-feature-using-selfie/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c7642a715172",
-     "title": "Apple updates Creator Studio suite with MotionVFX and deeper AI features",
-     "summary": "Apple's Creator Studio app suite has been updated across Mac, iPad, and iPhone to include built-in Final Cut Pro AI features and MotionVFX plug-in templates.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-10-27T13:36:26Z",
-     "outlet_count": 3,
+     "published": "2026-10-27T21:13:59Z",
+     "outlet_count": 4,
      "sources": [
       {
        "outlet": "9to5Mac",
-       "title": "Apple Creator Studio gets powerful new AI features using OpenAI models",
-       "url": "https://9to5mac.com/2026/10/27/apple-creator-studio-gets-powerful-new-ai-features-using-openai-models/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "MotionVFX, AI tools feature in Apple Creator Studio's latest update",
-       "url": "https://appleinsider.com/articles/26/10/27/motionvfx-ai-tools-feature-in-apple-creator-studios-latest-update?utm_source=rss",
+       "title": "iCloud Mail and Calendar plugins now work with ChatGPT",
+       "url": "https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/",
        "official": false
       },
       {
        "outlet": "MacRumors",
-       "title": "Apple Updates Creator Studio With New Tools and AI Features",
-       "url": "https://www.macrumors.com/2026/10/27/apple-updates-creator-studio-ai-features/",
+       "title": "ChatGPT Can Now Access Your iCloud Mail and Calendar",
+       "url": "https://www.macrumors.com/2026/10/27/chatgpt-icloud-mail-calendar-plugin/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "ChatGPT can now manage your iCloud Calendar and iCloud emails",
+       "url": "https://appleinsider.com/articles/26/10/27/chatgpt-can-now-manage-your-icloud-calendar-and-icloud-emails?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "ChatGPT can work with your iCloud Mail and Calendar thanks to new plugin support",
+       "url": "https://www.engadget.com/2299026/chatgpt-can-work-with-your-icloud-mail-and-calendar-thanks-to-new-plugin-support/",
        "official": false
       }
      ]
     },
     {
-     "id": "710730175e3e",
-     "title": "HomePod software update enables default wireless speaker output for Mac",
-     "summary": "Alongside iOS 27.2, HomePod updates bring a highly requested feature allowing Apple smart speakers to serve as the default wireless sound output device for Mac computers.",
+     "id": "7df5102fc382",
+     "title": "SK Hynix Warns Memory and RAM Shortages Will Persist Through 2030",
+     "summary": "Memory giant SK Hynix expects tight supply constraints to keep component prices elevated through at least 2030, having already secured long-term purchase deals for over half its output.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-28T10:57:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "SK Hynix expects memory shortages to persist through at least 2030; the company has long-term deals with 14 major buyers for 50%+ of its output in 2027 and 2028 (Simon Sharwood/The Register)",
+       "url": "https://www.techmeme.com/261028/p8#a261028p8",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple memory supplier expects price increases through at least 2030",
+       "url": "https://9to5mac.com/2026/10/28/apple-memory-supplier-expects-price-increases-through-at-least-2030/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e5fe428e264a",
+     "title": "Malaysia Seizes $12 Million Worth of Smuggled AI Chips",
+     "summary": "Customs authorities in Malaysia confiscated approximately $12.11 million in AI chips as part of an ongoing crackdown on smuggling syndicates operating near major airports.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-27T14:50:40Z",
+     "published": "2026-10-28T10:30:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Malaysia says it seized ~$12.11M worth of AI chips this month, as authorities close in on a syndicate suspected of smuggling through the country's main airport (Rozanna Latiff/Reuters)",
+       "url": "https://www.techmeme.com/261028/p14#a261028p14",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8b7f3fa5f264",
+     "title": "Apple Refreshes iMac and Entry-Level MacBook Pro Lineup with M6 Chips",
+     "summary": "Apple has refreshed its entry-level portable and desktop computers with the rollout of the M6 chip generation.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-28T00:01:52Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Ars Technica",
+       "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+       "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "9to5Mac Daily: October 27, 2026 – Apple announces new iMac, MacBook Pro with M6",
+       "url": "https://9to5mac.com/2026/10/27/daily-october-27-2026/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c1e5184d1ade",
+     "title": "Apple Wins Expanded Discovery Rights in Trade Secrets Lawsuit",
+     "summary": "A court has granted Apple expanded access to evidence in its trade secrets misappropriation case involving former employees and OpenAI-associated entities.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-28T00:54:43Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "9to5Mac",
-       "title": "HomePod 27.2 hands-on: default wireless speaker for Mac, Sound Glow and more [Video]",
-       "url": "https://9to5mac.com/2026/10/27/homepod-27-2-hands-on-default-wireless-speaker-for-mac-sound-glow-and-more-video/",
+       "title": "Apple wins expanded access to evidence in OpenAI trade secrets lawsuit",
+       "url": "https://9to5mac.com/2026/10/27/apple-wins-expanded-access-to-evidence-in-openai-trade-secrets-lawsuit/",
        "official": false
       }
      ]
     },
     {
-     "id": "bdc030dafdeb",
-     "title": "Anduril and Qualcomm unveil BlueChip, a US-assembled defense laptop line",
-     "summary": "Defense technology firm Anduril and Qualcomm have announced BlueChip, a line of laptops designed and assembled in the United States specifically for government and defense clients.",
+     "id": "f83bef41cdb6",
+     "title": "iOS 27.2 Launches with CarPlay Upgrades and Music App Tweaks",
+     "summary": "Apple released iOS 27.2 to the public, introducing two new features for CarPlay alongside a refreshed app icon and interface tweaks for Apple Music.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-27T13:20:01Z",
-     "outlet_count": 1,
+     "published": "2026-10-28T03:51:54Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Techmeme",
-       "title": "Anduril and Qualcomm unveil BlueChip, a line of laptops designed and assembled in the US for defense and government; Anduril will begin taking orders in 2027 (Bloomberg)",
-       "url": "https://www.techmeme.com/261027/p17#a261027p17",
+       "outlet": "9to5Mac",
+       "title": "iOS 27.2 has two CarPlay improvements, here’s what’s new",
+       "url": "https://9to5mac.com/2026/10/27/ios-27-2-has-two-carplay-improvements-heres-whats-new/",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "56e9d6ff883c",
-     "title": "FCC warns TP-Link over power limits and potential false regulatory submissions",
-     "summary": "The Federal Communications Commission has warned TP-Link that three of its router models violate power output limits and that the company may have supplied incorrect compliance data.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-27T12:45:12Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "Techmeme",
-       "title": "The FCC warns TP-Link that three of its routers violate power limits, which could bring more bans, and it may have submitted \"false or incorrect information\" (Bloomberg)",
-       "url": "https://www.techmeme.com/261027/p14#a261027p14",
+       "outlet": "9to5Mac",
+       "title": "iOS 27.2 now available: Here’s everything new for iPhone",
+       "url": "https://9to5mac.com/2026/10/27/ios-27-2-new-features-release-date/",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "3f5bc6113c36",
-     "title": "Japan's GMO Internet investigating cloud security breach after stolen data posted online",
-     "summary": "Japanese internet conglomerate GMO Internet is actively verifying customer data leaked by suspected hackers following a cloud service security compromise.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-27T13:32:57Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "TechCrunch",
-       "title": "Japan internet giant GMO says hackers posted stolen customer data",
-       "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+       "outlet": "9to5Mac",
+       "title": "iOS 27.2 adds new app icon for Apple Music, more design updates",
+       "url": "https://9to5mac.com/2026/10/27/ios-27-2-adds-new-app-icon-for-apple-music-more-design-updates/",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "723c8555f986",
-     "title": "US government warns hackers are actively exploiting critical PHP vulnerabilities",
-     "summary": "Federal cybersecurity agencies have issued warnings that malicious actors are exploiting critical vulnerabilities in popular PHP software utilized across a vast portion of web infrastructure.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-27T14:40:39Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "TechCrunch",
-       "title": "US government says hackers are now exploiting critical PHP web bugs",
-       "url": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
+       "outlet": "Engadget",
+       "title": "iOS 27.2 brings two new features to Apple's CarPlay",
+       "url": "https://www.engadget.com/2299185/ios-27-2-two-new-features-apple-carplay/",
        "official": false
       }
      ]
@@ -654,127 +782,235 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "5f7762ea2eac",
-     "title": "Assassin's Creed Black Flag Resynced update 1.0.8 adds New Game Plus on PS5",
-     "summary": "Ubisoft has released its final major 4.5GB content update for Assassin's Creed Black Flag Resynced, bringing a requested New Game Plus mode to PlayStation 5 players.",
-     "importance": 3,
-     "label": "CONFIRMED",
+     "id": "f0b16966263e",
+     "title": "Grand Theft Auto 6 Requires Massive 210GB Install Size on PS5",
+     "summary": "File size metrics indicate that Rockstar's upcoming open-world title will demand roughly 210GB of storage space on PlayStation 5 consoles.",
+     "importance": 4,
+     "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-27T14:00:00Z",
+     "published": "2026-10-28T09:14:37Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "Assassin’s Creed Black Flag Resynced gets its last major update, adding New Game+ and other new features",
-       "url": "https://www.videogameschronicle.com/news/assassins-creed-black-flag-resynced-gets-its-last-major-update-adding-new-game-and-other-new-features/",
-       "official": false
-      },
-      {
        "outlet": "Push Square",
-       "title": "Assassin's Creed Black Flag Resynced Update 1.0.8 Available to Download on PS5, Adds New Game Plus",
-       "url": "https://www.pushsquare.com/news/2026/10/assassins-creed-black-flag-resynced-update-1-0-8-available-to-download-on-ps5-adds-new-game-plus",
-       "official": false
-      },
-      {
-       "outlet": "Pure Xbox",
-       "title": "Assassin's Creed: Black Flag Resynced Gets New Game+ Mode In Final Major Update",
-       "url": "https://www.purexbox.com/news/2026/10/assassins-creed-black-flag-resynced-gets-new-gameplus-mode-in-final-major-update",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "c1ce78200f30",
-     "title": "TiMi Studio Group's Pokémon Unite to shut down permanently in March 2027",
-     "summary": "Developers have announced that the multiplayer online battle arena game Pokémon Unite will cease operations and become unplayable on March 23, 2027.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-27T12:01:28Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "TiMi Studio Group's Pokémon Unite to shut down on March 23, 2027",
-       "url": "https://www.gamesindustry.biz/timi-studio-groups-pokemon-unite-to-shut-down-on-march-23-2027",
+       "title": "GTA 6 PS5 File Size Has Been Reported, and It's an Absolute Monster",
+       "url": "https://www.pushsquare.com/news/2026/10/gta-6-ps5-file-size-has-been-reported-and-its-an-absolute-monster",
        "official": false
       },
       {
        "outlet": "Kotaku",
-       "title": "Pokémon Unite To Be Killed Off Forever In March 2027",
-       "url": "https://kotaku.com/pokemon-unite-going-offline-tournament-event-aeos-gems-march-2000750127",
+       "title": "GTA 6′s Expectedly Massive File Size Has Been Revealed",
+       "url": "https://kotaku.com/gta-6s-expectedly-massive-file-size-has-been-revealed-2000750298",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "GTA 6 is a massive 210GB download on PlayStation 5",
+       "url": "https://www.eurogamer.net/gta-6-ps5-download-size",
        "official": false
       }
      ]
     },
     {
-     "id": "4550c4fffd30",
-     "title": "Phantom Blade Zero climbs to top seller position on Steam prior to launch",
-     "summary": "Upcoming action title Phantom Blade Zero has surged to the top of Steam's best-seller charts ahead of its official release date.",
+     "id": "2c47b1e93195",
+     "title": "UK Rockstar Games Employees Schedule Union Recognition Vote During GTA 6 Launch",
+     "summary": "Unionization votes for UK-based Rockstar developers have been locked in to coincide directly with the launch window of Grand Theft Auto 6.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-28T09:49:39Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Kotaku",
+       "title": "Rockstar Games Devs In The UK Will Hold A Union Vote During The Launch Of GTA 6",
+       "url": "https://kotaku.com/rockstar-games-devs-in-the-uk-will-hold-a-union-vote-during-the-launch-of-gta-6-2000750216",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "UK-based Rockstar devs will be putting their union recognition to a vote during GTA 6's launch next month",
+       "url": "https://www.rockpapershotgun.com/uk-based-rockstar-devs-will-be-putting-their-union-recognition-to-a-vote-during-gta-6s-launch-next-month",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Rockstar workers in the UK will hold a union vote just as GTA 6 is released",
+       "url": "https://www.engadget.com/2298907/rockstar-workers-in-uk-hold-union-vote-as-gta-6-release/",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Rockstar will hold union vote right on top of Grand Theft Auto 6 release",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-will-hold-union-vote-right-on-top-of-grand-theft-auto-6-release/",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Rockstar Games employees have locked in a union vote next month, and it'll take place over Grand Theft Auto 6's release window",
+       "url": "https://www.eurogamer.net/rockstar-union-vote-november",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3908432bac3c",
+     "title": "Kingdom Come Deliverance 2 Developer Warhorse Targeted in Cyberattack",
+     "summary": "Warhorse Studios confirmed that unauthorized actors targeted its network systems and data in what the developer termed a serious security incident.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-27T14:58:28Z",
-     "outlet_count": 1,
+     "published": "2026-10-27T17:00:00Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Insider Gaming",
-       "title": "Phantom Blade Zero Becomes Top Seller on Steam Ahead of Release",
-       "url": "https://insider-gaming.com/phantom-blade-zero-crosses-mw4-to-become-top-seller-on-steam/",
+       "outlet": "Eurogamer",
+       "title": "\"This is a serious incident\" - Kingdom Come: Deliverance developer Warhorse suffers cyberattack",
+       "url": "https://www.eurogamer.net/warhorse-cyberattack-kingdom-come-deliverance",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "\"This is a serious incident\": Kingdom Come: Deliverance 2 devs Warhorse hit by cyberattack targeting their systems and data",
+       "url": "https://www.rockpapershotgun.com/this-is-a-serious-incident-kingdom-come-deliverance-2-devs-warhorse-hit-by-cyberattack-targeting-their-systems-and-data",
        "official": false
       }
      ]
     },
     {
-     "id": "132d21afeba8",
-     "title": "Xbox issues guidance for developers to curb achievement exploitation via identical releases",
-     "summary": "Xbox has instructed game creators to link separate versions of identical games together rather than exploiting the achievement system for easy gamerscore inflation.",
+     "id": "2a0b86c43289",
+     "title": "Pocketpair Expresses Interest in Bringing Palworld to Switch 2 Despite Nintendo Lawsuits",
+     "summary": "Pocketpair executives stated they would love to explore bringing Palworld to Nintendo's Switch 2 hardware, even as ongoing legal battles between the companies continue.",
      "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-27T15:30:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Pure Xbox",
-       "title": "Xbox Tells Developers To Avoid Exploiting The Achievement System With Identical Releases",
-       "url": "https://www.purexbox.com/news/2026/10/xbox-tells-developers-to-avoid-exploiting-the-achievement-system-with-identical-releases",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "1a5ee72835f4",
-     "title": "Street Fighter movie cast reportedly signed on for three films",
-     "summary": "An actor involved in the upcoming live-action Street Fighter movie adaptation has stated that the primary cast members are signed for a three-film deal.",
-     "importance": 2,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-27T15:32:06Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Insider Gaming",
-       "title": "Street Fighter Actor Says Cast Has Signed On for 3 Films",
-       "url": "https://insider-gaming.com/street-fighter-actor-says-cast-has-signed-on-for-3-films/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "7f894bb5d79d",
-     "title": "Embark Studios exploring potential return for PvE mode in Arc Raiders",
-     "summary": "Following initial experiments, the developers of Arc Raiders are evaluating whether a PvE mode can be reintroduced without undermining the core player-versus-player premise.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-27T14:53:11Z",
-     "outlet_count": 1,
+     "published": "2026-10-28T10:35:48Z",
+     "outlet_count": 2,
      "sources": [
       {
        "outlet": "VGC",
-       "title": "After experimenting with a PvE mode, Arc Raiders studio Embark says it’s figuring out whether to bring it back permanently",
-       "url": "https://www.videogameschronicle.com/news/after-experimenting-with-a-pve-mode-arc-raiders-studio-embark-says-its-figuring-out-whether-to-bring-it-back-permanently/",
+       "title": "Pocketpair would ‘love to have conversations’ to bring Palworld to Switch 2, CEO says",
+       "url": "https://www.videogameschronicle.com/news/pocketpair-would-love-to-have-conversations-to-bring-palworld-to-switch-2-ceo-says/",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Pocketpair Would Love to Release Palworld on Nintendo Switch 2, Despite Pokémon Legal Battle",
+       "url": "https://store.steampowered.com/news/group/9869/view/705535362075722078",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0126de2740cb",
+     "title": "Discord to Make Public Server Messages Searchable on Google",
+     "summary": "Messages inside eligible public Discoverable Servers on Discord will become searchable on the web starting in December, though server operators can opt out.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-27T23:04:49Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Discord Messages in Discoverable Servers Will Soon Be Searchable on Google",
+       "url": "https://www.ign.com/articles/discord-messages-in-discoverable-servers-will-soon-be-searchable-on-google",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Discord know they replaced forums, so they're making your messages in discoverable servers searchable, which immediately raises one question: what about AI?",
+       "url": "https://www.rockpapershotgun.com/discord-know-they-replaced-forums-so-theyre-making-your-messages-in-discoverable-servers-searchable-which-immediately-raises-one-question-what-about-ai",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Messages in certain large public Discord servers will be searchable on the web after December",
+       "url": "https://www.pcgamer.com/software/platforms/messages-in-certain-large-public-discord-servers-will-be-searchable-on-the-web-after-december/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Discord public server messages may be soon searchable on Google, but you can opt out",
+       "url": "https://www.engadget.com/2299126/discord-server-messages-google-searchable-opt-out/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0586eba4f4b5",
+     "title": "Call of Duty: Modern Warfare 4 Adds Classic Shipment Map to Rotation",
+     "summary": "Activision has updated Call of Duty: Modern Warfare 4's multiplayer rotation to include the fan-favorite map Shipment.",
+     "importance": 2,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-28T03:00:00Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Play One of the Highest-Rated Call of Duty Games Ever Today",
+       "url": "https://news.xbox.com/en-us/2026/10/27/play-one-of-the-highest-rated-call-of-duty-games-ever-today/",
+       "official": true
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Call of Duty: Modern Warfare 4 review",
+       "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-review/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Call of Duty: Modern Warfare 4 Adds Series Favorite Map, Shipment, to Multiplayer",
+       "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-adds-series-favorite-map-shipment-to-multiplayer",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Call Of Duty: Modern Warfare 4 Update Adds Shipment To Its Map Rotation",
+       "url": "https://www.nintendolife.com/news/2026/10/call-of-duty-modern-warfare-4-update-adds-shipment-to-its-map-rotation",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9e29290792ca",
+     "title": "Dead by Daylight Studio Confirms Removed Crossover Characters Have Open Return Invitation",
+     "summary": "Behaviour Interactive clarified that iconic characters like Chucky and Pinhead maintain an open invitation to return to Dead by Daylight if licensing terms allow.",
+     "importance": 2,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-28T10:15:58Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Dead by Daylight studio says removed characters like Chucky, Pinhead and Michael Myers have an ‘open invitation’ to return",
+       "url": "https://www.videogameschronicle.com/news/dead-by-daylight-studio-says-removed-characters-like-chucky-pinhead-and-michael-myers-have-an-open-invitation-to-return/",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "Dead by Daylight studio says removed characters like Chucky, Pinhead and Michael Myers have an ‘open invitation’ to return",
+       "url": "https://store.steampowered.com/news/group/42342144/view/679639664218341709",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "861767b0f907",
+     "title": "Xbox Confirms Departure of First COO Helen Chiang After Three Months",
+     "summary": "Helen Chiang has stepped down from her role as Xbox's first Chief Operating Officer after serving for only three months.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-28T10:15:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "First Xbox COO Helen Chiang leaves company after three months in the role",
+       "url": "https://www.gamesindustry.biz/first-xbox-coo-helen-chiang-leaves-company-after-three-months-in-the-role",
        "official": false
       }
      ]
@@ -785,67 +1021,103 @@
    "name": "US",
    "stories": [
     {
-     "id": "0974b490f227",
-     "title": "FBI raids Beverly Hills mansion connected to investigation of former Rep. Eric Swalwell",
-     "summary": "Federal law enforcement executed a search warrant on a Beverly Hills property as part of an ongoing investigation involving former California Representative Eric Swalwell.",
-     "importance": 4,
+     "id": "eb5333cc7527",
+     "title": "Donald Trump and James Talarico Hold Dueling Rallies in Texas",
+     "summary": "Political figures Donald Trump and James Talarico campaigned side-by-side in the same Texas city during the final stretch of election events.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-27T16:09:31Z",
-     "outlet_count": 9,
+     "published": "2026-10-28T10:38:36Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "Just the News",
-       "title": "FBI raids Beverly Hills mansion owned by Swalwell donor: CNN",
-       "url": "https://justthenews.com/nation/crime/fbi-raids-beverly-hills-mansion-owned-swalwell-donor-cnn?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "outlet": "The Hill",
+       "title": "Trump and Talarico hold dueling Texas rallies",
+       "url": "https://thehill.com/homenews/campaign/6176856-trump-talarico-texas-senate-rallies/",
        "official": false
       },
       {
-       "outlet": "The Daily Wire",
-       "title": "FBI Raids Mansion Of Billionaire Who Bankrolled Eric Swalwell",
-       "url": "https://www.dailywire.com/news/fbi-raids-mansion-of-billionaire-who-bankrolled-eric-swalwell",
-       "official": false
-      },
-      {
-       "outlet": "Fox News: Politics",
-       "title": "FBI raids Beverly Hills mansion as part of Eric Swalwell investigation",
-       "url": "https://www.foxnews.com/politics/fbi-raids-beverly-hills-mansion-eric-swalwell-investigation",
-       "official": false
-      },
-      {
-       "outlet": "The Daily Caller",
-       "title": "Feds Raid Beverly Hills Mansion In Connection To Disgraced Dem Eric Swalwell",
-       "url": "https://dailycaller.com/2026/10/27/fbi-raid-beverly-hills-mansion-eric-swalwell-investigation",
-       "official": false
-      },
-      {
-       "outlet": "Yahoo News",
-       "title": "FBI raids Beverly Hills mansion as part of former Rep. Eric Swalwell investigation",
-       "url": "https://www.yahoo.com/news/politics/articles/beverly-hills-mansion-raid-tied-144309400.html",
+       "outlet": "NBC News",
+       "title": "James Talarico faces off against Trump in dueling Texas rallies in election’s final days",
+       "url": "https://www.nbcnews.com/politics/2026-election/james-talarico-faces-trump-dueling-texas-rallies-elections-final-days-rcna605629",
        "official": false
       },
       {
        "outlet": "Straight Arrow News",
-       "title": "FBI raids Beverly Hills mansion in probe of former Rep. Eric Swalwell",
-       "url": "https://san.com/cc/fbi-raids-beverly-hills-mansion-in-probe-of-former-rep-eric-swalwell/",
+       "title": "One city, two rallies: Trump and Talarico face off in Texas",
+       "url": "https://san.com/cc/one-city-two-rallies-trump-and-talarico-face-off-in-texas/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4fefc18bfea1",
+     "title": "Federal Grand Jury Declines to Indict Former White House Aide Cassidy Hutchinson",
+     "summary": "A Washington, D.C. federal grand jury rejected a Justice Department request to indict former White House aide Cassidy Hutchinson over her congressional testimony.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-28T02:44:45Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "Federal prosecutors fail to get grand jury indictment against Cassidy Hutchinson",
+       "url": "https://www.cbsnews.com/news/grand-jury-declines-to-indict-trump-critic-cassidy-hutchinson-over-jan-6-testimony/",
        "official": false
       },
       {
-       "outlet": "BBC News: World",
-       "title": "FBI raids California home tied to former Congressman Eric Swalwell",
-       "url": "https://www.bbc.co.uk/news/articles/cwvgrk0zx641o?at_medium=RSS&at_campaign=rss",
+       "outlet": "PBS NewsHour",
+       "title": "Grand jury refuses to indict former White House aide Cassidy Hutchinson, AP sources say",
+       "url": "https://www.pbs.org/newshour/politics/grand-jury-refuses-to-indict-former-white-house-aide-cassidy-hutchinson-ap-sources-say",
        "official": false
       },
       {
-       "outlet": "TheBlaze",
-       "title": "Investigation into Democrat ex-Rep. Eric Swalwell heats up as FBI raids Beverly Hills mansion",
-       "url": "https://www.theblaze.com/news/investigation-into-democrat-ex-rep-eric-swalwell-heats-up-as-fbi-raids-beverly-hills-mansion",
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "Grand Jury Declines to Indict Former White House Aide Cassidy Hutchinson",
+       "url": "https://www.wsj.com/us-news/law/grand-jury-declines-to-indict-former-white-house-aide-cassidy-hutchinson-0d84a819?mod=rss_usnews",
        "official": false
       },
       {
-       "outlet": "Washington Examiner",
-       "title": "FBI raids California mansion related to Eric Swalwell investigation",
-       "url": "https://www.washingtonexaminer.com/news/justice/4781233/fbi-raid-california-mansion-eric-swalwell-investigation/",
+       "outlet": "The Hill",
+       "title": "Federal grand jury declines to indict Cassidy Hutchinson",
+       "url": "https://thehill.com/homenews/administration/6176826-grand-jury-rejects-hutchinson-indictment/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e99b4e3622df",
+     "title": "Federal Judge Disqualifies Top L.A. Prosecutor for Unlawful Appointment",
+     "summary": "A federal judge ruled that U.S. Attorney Bill Essayli's appointment in Los Angeles was unlawful and barred him from active prosecution on two pending cases.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-28T08:28:15Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Yahoo News",
+       "title": "Judge rules a top federal prosecutor is 'unlawfully serving' and bars him from cases",
+       "url": "https://www.yahoo.com/news/politics/articles/judge-finds-l-top-federal-010823020.html",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian: US",
+       "title": "Federal judge disqualifies Trump-appointed prosecutor for ‘unlawfully serving’ in role",
+       "url": "https://www.theguardian.com/us-news/2026/oct/27/bill-essayli-disqualified-overstay-role",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "Federal judge rules top US prosecutor in Los Angeles isn't legally serving",
+       "url": "https://abcnews.com/US/wireStory/federal-judge-rules-top-us-prosecutor-los-angeles-137630207",
+       "official": false
+      },
+      {
+       "outlet": "Times of India: World",
+       "title": "Judge Rules Trump’s Top L.A. Prosecutor Is Serving Unlawfully, Disqualifies Him From Two Cases",
+       "url": "https://timesofindia.indiatimes.com/world/us/a-federal-judge-ruled-trump-appointed-prosecutor-bill-essayli-is-unlawfully-serving-as-los-angeless-top-u-s-attorney-and-disqualified-him-from-two-cases-but-paused-the-disqualification-while-the-justice-department-seeks-a-stay/articleshow/135256729.cms",
        "official": false
       }
      ]
@@ -856,57 +1128,75 @@
    "name": "World",
    "stories": [
     {
-     "id": "4f2de42bf105",
-     "title": "Leaders of Norway and Finland hold rare direct phone call with Vladimir Putin",
-     "summary": "The prime ministers of Norway and Finland engaged in direct telephone communications with Russian President Vladimir Putin, marking a rare diplomatic contact point after more than a year of isolation.",
-     "importance": 4,
+     "id": "0d02e1e02a63",
+     "title": "Assailant Shot Dead After Attacking Police Officer Outside Israeli Embassy in Belgrade",
+     "summary": "A knife-wielding attacker was killed by police outside the Israeli embassy in Serbia after injuring an officer on duty.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-27T14:23:05Z",
-     "outlet_count": 3,
+     "published": "2026-10-28T10:55:53Z",
+     "outlet_count": 6,
      "sources": [
       {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Finnish and Norwegian leaders hold frank telephone talks with Putin",
-       "url": "http://www.asahi.com/articles/ASVBW4DZKVBWSFVU21GM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "フィンランド、ノルウェーの両首脳、プーチン氏と「実直な」電話協議"
-      },
-      {
-       "outlet": "Al Jazeera",
-       "title": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
-       "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss",
+       "outlet": "The Straits Times: World",
+       "title": "Injured policeman kills knife attacker outside Israeli embassy in Serbia",
+       "url": "https://www.straitstimes.com/world/europe/policeman-kills-knife-attacker-outside-israels-embassy-in-serbia",
        "official": false
       },
       {
-       "outlet": "BBC News: World",
-       "title": "Norway and Finland leaders hold rare call with Putin",
-       "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+       "outlet": "The Hindu: International",
+       "title": "Policeman kills knife attacker outside Israeli embassy in Serbia",
+       "url": "https://www.thehindu.com/news/international/policeman-kills-knife-attacker-outside-israeli-embassy-in-serbia/article71635091.ece",
+       "official": false
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Policeman attacked outside Israeli embassy in Belgrade",
+       "url": "https://www.tagesschau.de/ausland/europa/serbien-anschlag-israelische-botschaft-100.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Serbien: Polizist vor israelischer Botschaft in Belgrad angegriffen"
+      },
+      {
+       "outlet": "Balkan Insight",
+       "title": "Serbia Raises Terror Alert After Attack on Israeli Embassy",
+       "url": "https://balkaninsight.com/2026/10/28/serbia-raises-terror-alert-after-attack-on-israeli-embassy/bi/",
+       "official": false
+      },
+      {
+       "outlet": "Sky News: World",
+       "title": "Knife attacker shot dead by police outside Israeli embassy",
+       "url": "https://news.sky.com/story/serbia-knife-attacker-shot-dead-by-police-outside-israeli-embassy-in-belgrade-13604683",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Serbia raises security alert after attack near Israeli embassy",
+       "url": "https://cphpost.dk/2026-10-28/global/serbia-raises-security-alert-after-attack-near-israeli-embassy/",
        "official": false
       }
      ]
     },
     {
-     "id": "28841d23e2a3",
-     "title": "Pope Leo to meet clergy sexual abuse survivors during upcoming South American tour",
-     "summary": "The Vatican confirmed that Pope Leo will hold private meetings with survivors of sexual abuse committed by Catholic clergy during his upcoming three-country tour in November.",
+     "id": "c4b12cdbacb6",
+     "title": "Russell Brand Gives Evidence in UK Sexual Assault Trial",
+     "summary": "Entertainer Russell Brand appeared in court to give evidence against multiple charges of rape and sexual assault.",
      "importance": 3,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-27T16:00:52Z",
+     "published": "2026-10-28T10:41:43Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "PBS NewsHour",
-       "title": "Following post-surgery checkup, Pope Leo will proceed with Latin America trip, Vatican confirms",
-       "url": "https://www.pbs.org/newshour/world/following-post-surgery-checkup-pope-leo-will-proceed-with-latin-america-trip-vatican-confirms",
+       "outlet": "The Straits Times: World",
+       "title": "Russell Brand gives evidence in UK sex crimes trial",
+       "url": "https://www.straitstimes.com/world/europe/russell-brand-gives-evidence-in-uk-sex-crimes-trial",
        "official": false
       },
       {
-       "outlet": "The Straits Times: World",
-       "title": "Pope Leo to meet survivors of abuse by clergy in Latin America, Vatican says",
-       "url": "https://www.straitstimes.com/world/europe/pope-leo-to-meet-survivors-of-abuse-by-clergy-in-latin-america-vatican-says",
+       "outlet": "The Guardian: World",
+       "title": "Russell Brand gives evidence in rape and sexual assault trial",
+       "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/russell-brand-evidence-trial-latest-news-updates",
        "official": false
       }
      ]
@@ -917,110 +1207,142 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "723b9a70ccd9",
-     "title": "Two men charged with national security offenses over RAF Fairford incident",
-     "summary": "UK authorities have charged two individuals in connection with a security incident near the RAF Fairford air base, with one suspect accused of assisting foreign intelligence believed to be Iran.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-27T15:26:28Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "South China Morning Post",
-       "title": "2 men charged in UK with helping Iran over air force base incident",
-       "url": "https://www.scmp.com/news/world/europe/article/3372342/2-men-charged-uk-helping-iran-over-air-force-base-incident",
-       "official": false
-      },
-      {
-       "outlet": "franceinfo (France)",
-       "title": "Incident near a UK air base: Two men charged with national security offenses",
-       "url": "https://www.franceinfo.fr/monde/royaume-uni/incident-pres-d-une-base-aerienne-au-royaume-uni-deux-hommes-inculpes-pour-atteinte-a-la-securite-nationale_8255920.html#xtor=RSS-3-[lestitres]",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "Incident près d'une base aérienne au Royaume-Uni : deux hommes inculpés pour atteinte à la sécurité nationale"
-      },
-      {
-       "outlet": "Euronews",
-       "title": "Two men charged over RAF Fairford air base incident, with one accused of assisting foreign intelligence",
-       "url": "https://www.euronews.com/2026/10/27/two-men-charged-over-raf-fairford-air-base-incident-with-one-accused-of-assisting-foreign-",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "35f8804e6141",
-     "title": "Harry Kane wins the men's Ballon d'Or award",
-     "summary": "Bayern Munich and England striker Harry Kane has been awarded football's prestigious Ballon d'Or trophy, outperforming finalists Kylian Mbappe and Lamine Yamal.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-27T14:11:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "England and Bayern forward Harry Kane wins men's Ballon d'Or",
-       "url": "https://www.channelnewsasia.com/sport/england-harry-kane-ballon-dor-win-bayern-munich-6494586",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Harry Kane: Ballon d’Or for Bayern Munich striker",
-       "url": "https://www.dw.com/en/harry-kane-ballon-d-or-for-bayern-munich-striker/a-79723299?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "1f86db0d8e13",
-     "title": "Cairo court orders closure of independent Egyptian news site Mada Masr",
-     "summary": "An Egyptian court has ordered the shutdown of independent news outlet Mada Masr, following the detention of editor-in-chief Lina Attalah amid growing human rights concerns.",
+     "id": "d68ae12fd806",
+     "title": "Luxury Cruise Passengers Stranded in Cambodia After Operator Runs Out of Funds",
+     "summary": "Roughly 200 travelers on a long-term residential cruise found themselves stranded in Cambodia after the operating company suspended voyages due to soaring fuel costs and depleted finances.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-27T15:58:00Z",
-     "outlet_count": 2,
+     "published": "2026-10-28T10:54:08Z",
+     "outlet_count": 7,
      "sources": [
       {
-       "outlet": "Democracy Now!",
-       "title": "\"Dark Day for Journalism\": Egypt Shutters Independent News Site Mada Masr, Detains Editor",
-       "url": "http://www.democracynow.org/2026/10/27/egypt_press",
+       "outlet": "RTÉ News (Ireland)",
+       "title": "200 'cruise for life' passengers stranded in Cambodia",
+       "url": "https://www.rte.ie/news/world/2026/1028/1597032-villa-vie-odyssey/",
        "official": false
       },
       {
-       "outlet": "Der Spiegel (Germany)",
-       "title": "Egypt: Independent news site \"Mada Masr\" forced to close following court order",
-       "url": "https://www.spiegel.de/ausland/aegypten-unabhaengige-nachrichtenseite-mada-masr-muss-nach-gerichtsbeschluss-schliessen-a-c486b5ba-739f-487f-ac4f-ee44a232d9b2#ref=rss",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Ägypten: Unabhängige Nachrichtenseite »Mada Masr« muss nach Gerichtsbeschluss schließen"
+       "outlet": "ABC News",
+       "title": "US cruise ship ends global voyage due to fuel costs; 200 passengers lose their homes",
+       "url": "https://abcnews.com/Business/wireStory/us-cruise-ship-ends-global-voyage-asia-due-137628208",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Two hundred 'cruise for life' passengers stranded in Cambodia",
+       "url": "https://www.channelnewsasia.com/asia/200-life-cruise-passengers-stranded-cambodia-6498741",
+       "official": false
+      },
+      {
+       "outlet": "NPR: World",
+       "title": "A U.S. cruise ship ends voyage due to fuel costs and passengers lose their homes",
+       "url": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-ends-voyage-passengers-lose-homes",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Abandon ship! Around 200 ‘cruise for life’ passengers stranded in Cambodia",
+       "url": "https://www.euronews.com/2026/10/28/abandon-ship-around-200-cruise-for-life-passengers-stranded-in-cambodia",
+       "official": false
+      },
+      {
+       "outlet": "BBC News: World",
+       "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+       "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Around 200 passengers on ‘cruise for life’ stranded in Cambodia after company runs out of money",
+       "url": "https://www.thejournal.ie/cruise-for-life-villa-vie-odyssey-stranded-cambodia-7207140-Oct2026/",
+       "official": false
       }
      ]
     },
     {
-     "id": "62d6d2767cee",
-     "title": "Israel holds historic high-turnout elections as Netanyahu comments on voter participation",
-     "summary": "Voter turnout surged past 56% in Israel's first national election since the outbreak of conflict on October 7, 2023, while Prime Minister Netanyahu alleged opposition interference.",
-     "importance": 4,
+     "id": "be4b2b99f770",
+     "title": "Ukrainian President Zelenskyy Meets with Dutch Leadership in The Hague",
+     "summary": "Ukrainian President Volodymyr Zelenskyy traveled to the Netherlands to meet with King Willem-Alexander and government officials to secure ongoing bilateral assistance.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-27T16:10:57Z",
+     "published": "2026-10-28T11:00:54Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Zelenskyy to meet Dutch PM and King Willem-Alexander on 28 October",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060054/",
+       "official": false
+      },
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Netherlands to provide Ukraine with over €1bn in non-military aid",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/28/8060058/",
+       "official": false
+      },
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Netherlands confirms $1.3 billion in non-military aid for Ukraine through 2029",
+       "url": "https://kyivindependent.com/netherlands-confirms-1-3-billion-in-non-military-aid-for-ukraine-through-2029/",
+       "official": false
+      },
+      {
+       "outlet": "NL Times (Netherlands)",
+       "title": "Dutch King, PM to meet with Ukrainian President Zelenskyy as gov't pledges more support",
+       "url": "https://nltimes.nl/2026/10/28/dutch-king-pm-meet-ukrainian-president-zelenskyy-govt-pledges-support",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "518e6137286f",
+     "title": "Suspicious Package Containing Viable Explosive Neutralized at Londonderry Hotel",
+     "summary": "Police in Northern Ireland condemned a targeted attack after a viable explosive device was delivered as a suspicious package to a hotel.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-28T10:51:00Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "TheJournal.ie (Ireland)",
-       "title": "Israel election on track for record turnout as Benjamin Netanyahu attacks Arab parties",
-       "url": "https://www.thejournal.ie/israel-elections-netanyahu-3-7205793-Oct2026/",
+       "title": "Suspicious package sent to Derry city hotel contained a viable explosive device",
+       "url": "https://www.thejournal.ie/suspicious-package-sent-to-derry-city-hotel-contained-viable-explosive-device-7207100-Oct2026/",
        "official": false
       },
       {
-       "outlet": "El País (Spain)",
-       "title": "Israel Elections 2026, Live | Netanyahu suggests Arab parties are 'stealing the election' after record turnout",
-       "url": "https://elpais.com/internacional/2026-10-27/elecciones-en-israel-votaciones-escrutinio-y-resultados-en-directo.html",
+       "outlet": "BBC News: UK",
+       "title": "Suspicious package sent to hotel contained explosive device",
+       "url": "https://www.bbc.co.uk/news/articles/c6lykg0nkll0o?at_medium=RSS&at_campaign=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8ed585fd196d",
+     "title": "Trump Expresses Hope for Trilateral Meeting with Putin and Zelenskyy",
+     "summary": "U.S. President Donald Trump stated he expects to arrange a meeting soon involving Russian and Ukrainian leaders to discuss peace talks.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-28T09:21:54Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Trump: Meeting with Zelenskyy and Putin \"very soon\"",
+       "url": "https://orf.at/stories/3446370/",
        "official": false,
-       "translated_from": "es",
-       "original_title": "Elecciones en Israel 2026, en directo | Netanyahu sugiere que los partidos árabes “están robando las elecciones” tras el récord de participación"
+       "translated_from": "de",
+       "original_title": "Trump: „Sehr bald“ Treffen mit Selenskyj und Putin"
+      },
+      {
+       "outlet": "Meduza (Russia)",
+       "title": "Trump says he hopes to meet with Putin and Zelensky ‘very soon’",
+       "url": "https://meduza.io/en/news/2026/10/28/trump-says-he-hopes-to-meet-with-putin-and-zelensky-very-soon",
+       "official": false
       }
      ]
     }
@@ -1030,47 +1352,45 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "cfda0b422ea6",
-     "title": "Akito Hirose captures Oza shogi title, breaking an eight-year drought",
-     "summary": "Shogi player Akito Hirose defeated Takumi Ito 3 games to 2 to claim the Oza title for the first time in eight years.",
+     "id": "870bb8bd6d79",
+     "title": "Nidec Fails to Meet Unqualified Audit Deadline, Adding Listing Pressures",
+     "summary": "Japanese manufacturer Nidec missed its reporting deadline to secure an unqualified audit opinion, heightening concerns regarding its stock exchange listing status.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-27T13:12:17Z",
+     "published": "2026-10-28T11:00:54Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Akito Hirose 9-dan wins title for first time in 8 years, defeats Takami Ito Oza 3 games to 2",
-       "url": "http://www.asahi.com/articles/ASVBW3JTRVBWUCVL03XM.html?ref=rss",
+       "title": "Nidec Misses Audit Deadline Again, Raising Doubts Over Stock Exchange Listing",
+       "url": "http://www.asahi.com/articles/ASVBX1662VBXPLFA00RM.html?ref=rss",
        "official": false,
        "translated_from": "ja",
-       "original_title": "広瀬章人九段、8年ぶりタイトル獲得 伊藤匠王座に3勝2敗で勝利"
+       "original_title": "ニデック、有報への「監査意見」再び間に合わず 上場維持は不透明に"
       },
       {
-       "outlet": "Mainichi Shimbun (Japanese)",
-       "title": "Akito Hirose 9-dan captures Oza title, Takumi Ito Eio drops to single crown in Shogi",
-       "url": "https://mainichi.jp/articles/20261027/k00/00m/200/307000c",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "広瀬章人九段が王座を奪取 伊藤匠叡王は1冠に後退 将棋"
+       "outlet": "Nikkei Asia",
+       "title": "Japan's Nidec misses deadline to obtain unqualified audit opinion",
+       "url": "https://asia.nikkei.com/business/electronics/japan-s-nidec-misses-deadline-to-obtain-unqualified-audit-opinion",
+       "official": false
       }
      ]
     },
     {
-     "id": "401b33fba30e",
-     "title": "Sumitomo Electric expands low-tungsten manufacturing tools to reduce China supply reliance",
-     "summary": "Japan's Sumitomo Electric is rolling out additional low-tungsten industrial cutting tools to mitigate supply chain risks associated with China.",
+     "id": "9f7d3bc693c5",
+     "title": "Japan and Germany Pledge Strengthened Economic Security Cooperation",
+     "summary": "Japanese and German political leaders voiced joint concerns over economic coercion and export curbs on critical mineral supply chains.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-27T16:17:53Z",
+     "published": "2026-10-28T10:00:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Nikkei Asia",
-       "title": "Japan's Sumitomo Electric offers more low-tungsten tools to cut China reliance",
-       "url": "https://asia.nikkei.com/business/materials/japan-s-sumitomo-electric-offers-more-low-tungsten-tools-to-cut-china-reliance",
+       "outlet": "The Japan Times",
+       "title": "Takaichi and Merz pledge to boost economic security and tech cooperation",
+       "url": "https://www.japantimes.co.jp/business/2026/10/28/takaichi-merz-meeting/",
        "official": false
       }
      ]
@@ -1081,126 +1401,110 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "f8f500bd6d94",
-     "title": "South Korean nuclear watchdog approves 10-year lifespan extension for Kori reactors 3 and 4",
-     "summary": "South Korea's nuclear safety commission has approved a 10-year operational life extension for units 3 and 4 at the Kori Nuclear Power Plant.",
+     "id": "ac4b3363ef61",
+     "title": "South Korean Presidential Office Holds Emergency Meeting Following Financial Sector Hacking",
+     "summary": "Cheong Wa Dae convened an emergency session to coordinate responses and security measures after cyberattacks compromised customer data at multiple financial firms.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-27T15:53:00Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "(URGENT) Nuclear safety watchdog approves 10-yr life extension for Kori units 3, 4 reactors",
-       "url": "https://en.yna.co.kr/view/AEN20261027010200320",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Herald",
-       "title": "Nuclear watchdog approves 10-year lifespan extension for Kori units 3, 4",
-       "url": "https://www.koreaherald.com/article/10916620",
-       "official": false
-      },
-      {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "Kori Nuclear Power Plant units 3 and 4 granted 10-year operation extension",
-       "url": "https://www.chosun.com/jp/economy-jp/2026/10/28/4MAAF4YLIJCRJHMGDJJVPBP3HY/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "古里原発3・4号機、10年の運転延長を許可"
-      },
-      {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "Kori nuclear reactors 3 and 4 approved for restart",
-       "url": "https://www.chosun.com/economy/tech_it/2026/10/28/ZK4UKQU22NFR7ALVJRA2GWXANU/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "고리 원전 3·4호기 재가동 허가"
-      }
-     ]
-    },
-    {
-     "id": "a89b018cd4a8",
-     "title": "South Korea withdraws eight diplomatic personnel from Ukraine amid prisoner dispute",
-     "summary": "Foreign Minister Cho Hyun announced that South Korea has withdrawn eight diplomatic staff members from Ukraine following a dispute over Kyiv's disclosure of transferred North Korean prisoners of war.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-27T07:41:51Z",
+     "published": "2026-10-28T10:57:03Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "Yonhap News",
-       "title": "S. Korea withdraws 8 diplomatic personnel from Ukraine: FM Cho",
-       "url": "https://en.yna.co.kr/view/AEN20261027010000315",
+       "title": "(LEAD) Presidential office holds emergency meeting over financial-sector hacking attacks",
+       "url": "https://en.yna.co.kr/view/AEN20261028007151315",
        "official": false
       },
       {
-       "outlet": "The Korea Herald",
-       "title": "S. Korea withdraws 8 diplomatic personnel from Ukraine: FM Cho",
-       "url": "https://www.koreaherald.com/article/10916573",
+       "outlet": "The Korea Times",
+       "title": "Presidential office to hold emergency meeting over financial-sector hacking attacks",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261028/presidential-office-to-hold-emergency-meeting-over-financial-sector-hacking-attacks?utm_source=rss",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "f73a9f80c02b",
-     "title": "South Korean economy grows 1.0% in Q3 driven by semiconductor boom",
-     "summary": "South Korea's real gross domestic product expanded by 1.0% in the July-September quarter, exceeding forecasts on the back of a strong semiconductor recovery, though public livelihood pressures persist.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-27T16:17:53Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "South Korean economy grows 1% in July-September, exceeding expectations... livelihoods remain difficult",
-       "url": "https://www.chosun.com/jp/economy-jp/2026/10/28/MVNSY6S62FGSDIBDGRJP6RUONU/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "韓国経済、7～9月期に予想上回る1％成長…暮らしは苦しく"
       },
       {
-       "outlet": "Nikkei Asia",
-       "title": "South Korea's economy grows 1.0% in 3rd quarter on chip boom",
-       "url": "https://asia.nikkei.com/economy/south-korea-s-economy-grows-1.0-in-3rd-quarter-on-chip-boom",
+       "outlet": "The Korea Times",
+       "title": "Gov't to carry out large-scale inspections into IT infrastructures amid recent hacking attacks",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261028/govt-to-carry-out-large-scale-inspections-into-it-infrastructures-amid-recent-hacking-attacks?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "06bb40a455c6",
-     "title": "South Korean Democratic Party pushes for unprecedented parliamentary probe into Chief Justice",
-     "summary": "The Democratic Party has signaled plans to initiate a historic parliamentary investigation targeting the Chief Justice of the Supreme Court next month.",
+     "id": "70d951bddb8c",
+     "title": "South Korea and U.S. Postpone Bilateral Security Talks to Early Next Year",
+     "summary": "Seoul and Washington agreed to push back their annual defense ministerial security dialogue to early 2027 due to scheduling adjustments.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-27T15:55:00Z",
+     "published": "2026-10-28T10:57:03Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "KBS World",
-       "title": "DP to Seek Parliamentary Investigation Targeting Supreme Court Chief Justice",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205155",
+       "outlet": "Yonhap News",
+       "title": "(URGENT) Defense chiefs of S. Korea, U.S. to hold key bilateral security dialogue early next year: Seoul",
+       "url": "https://en.yna.co.kr/view/AEN20261028011800315",
        "official": false
       },
       {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "Unprecedented parliamentary investigation into the Chief Justice... Democratic Party signals enforcement next month",
-       "url": "https://www.chosun.com/politics/assembly/2026/10/28/CB74HWDLEFAWTB63LYZT64NAQ4/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "초유의 대법원장 국조… 민주당, 내달 강행 예고"
+       "outlet": "Yonhap News",
+       "title": "(URGENT) Defense chiefs of S. Korea, U.S. to meet for bilateral talks in Washington next month: Seoul",
+       "url": "https://en.yna.co.kr/view/AEN20261028011900315",
+       "official": false
       },
       {
-       "outlet": "Chosun Ilbo (Korean)",
-       "title": "First time in history, parliamentary investigation into the Chief Justice of the Supreme Court... Democratic Party announces push next month",
-       "url": "https://www.chosun.com/jp/politics-national-jp/2026/10/28/4KJKMOTOSJHVZL2KBDJAXJECMM/",
-       "official": false,
-       "translated_from": "ko",
-       "original_title": "史上初、大法院長への国政調査…共に民主党、来月強行を予告"
+       "outlet": "Yonhap News",
+       "title": "(LEAD) S. Korea, U.S. agree to postpone key bilateral security dialogue to early next year: Seoul",
+       "url": "https://en.yna.co.kr/view/AEN20261028007651315",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "(2nd LD) S. Korea, U.S. agree to postpone key bilateral security dialogue to early next year: Seoul",
+       "url": "https://en.yna.co.kr/view/AEN20261028007652315",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Korean-US security talks unlikely to take place this year amid scheduling difficulties",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261028/korean-us-security-talks-unlikely-to-take-place-this-year-amid-scheduling-difficulties?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3dff2565bf1c",
+     "title": "Appellate Court Reduces Former Presidential Security Service Chief Sentence to Three Years",
+     "summary": "An appellate court lowered the prison term for former PSS chief Park Jong-joon to three years for obstructing an arrest warrant execution.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-28T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Appellate court reduces ex-PSS chief's sentence to 3 years",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261028/appellate-court-reduces-ex-pss-chiefs-sentence-to-3-years?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e485687c23e1",
+     "title": "South Korean Birth Rates Rise for 26th Consecutive Month in August",
+     "summary": "Government data revealed a 13 percent year-over-year increase in newborn babies for August, continuing a multi-month upward trend.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-28T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Births up 13% in August to highest in 7 years",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261028/births-up-13-in-august-to-highest-in-7-years?utm_source=rss",
+       "official": false
       }
      ]
     }
@@ -1210,145 +1514,91 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "47bb10dccd1b",
-     "title": "AirPods Pro 3 drop to 20% off alongside Amazon discounts on Apple hardware",
-     "summary": "Amazon has brought back a 20% discount on AirPods Pro 3, alongside price cuts for the USB-C Apple Pencil and baseline M5 MacBook Air models.",
-     "importance": 3,
+     "id": "b8845f7a57fc",
+     "title": "Apple AirPods Max 2 Discounted by $100 Ahead of Black Friday",
+     "summary": "Apple's premium over-ear headphones are currently marked down by $100 at major retailers ahead of the holiday shopping season.",
+     "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-27T15:30:46Z",
+     "published": "2026-10-28T10:30:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "9to5Mac",
-       "title": "Deals: AirPods Pro 3 20% off, Apple Pencil (USB-C), most affordable M5 MacBook Air $200 off, AirTag 2, more",
-       "url": "https://9to5mac.com/2026/10/27/deals-airpods-apple-pencil-usb-c-macbook-air-airtag-2/",
+       "outlet": "Wired",
+       "title": "Apple AirPods Max 2 Are $100 Off Ahead of Black Friday",
+       "url": "https://www.wired.com/story/apple-airpods-max-2-deal-november-2026/",
        "official": false
       }
      ]
     },
     {
-     "id": "9d1b8dcf4b27",
-     "title": "The Elder Scrolls IV Oblivion Remastered Deluxe Edition for Switch 2 restocked at PNP",
-     "summary": "PNP Games has restocked physical copies of The Elder Scrolls IV Oblivion Remastered Deluxe Edition for the Nintendo Switch successor at $64.99.",
+     "id": "a5c7aeb61a7e",
+     "title": "Final Fantasy VII Rebirth Receives Steep Discounts on PlayStation Network",
+     "summary": "Square Enix's RPG has dropped in price to $14.99 on the US PlayStation Network digital store.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-27T15:46:10Z",
+     "published": "2026-10-27T19:39:03Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "The Elder Scrolls IV Oblivion Remastered Deluxe Edition (Switch 2) restocked at PNP ($64.99) buff.ly/rjq1JsX #ad",
-       "url": "https://buff.ly/rjq1JsX",
+       "title": "Final Fantasy VII Rebirth is $14.99 on US PSN buff.ly/DQDV0KS PS5 $19.99 / Switch 2 KC $34.99 Amazon link.amazon/B0961JjJq #ad",
+       "url": "https://buff.ly/DQDV0KS",
        "official": false
       }
      ]
     },
     {
-     "id": "ef01aeeede3c",
-     "title": "Yu-Gi-Oh! Early Days Collection for Nintendo Switch discounted to $20 at Best Buy",
-     "summary": "Best Buy has dropped the price of the Nintendo Switch physical version of Yu-Gi-Oh! Early Days Collection down to $20.",
+     "id": "3549622583b3",
+     "title": "Kingdom Come: Deliverance II Royal Edition Pre-Orders Discounted at Walmart",
+     "summary": "Physical pre-orders for Kingdom Come: Deliverance II are currently discounted to $48.99 down from the standard $59.99 MSRP.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-27T16:17:14Z",
+     "published": "2026-10-27T22:30:22Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Yu-Gi-Oh! EARLY DAYS COLLECTION (Switch) is $20 at Best Buy buff.ly/6QWPOse #ad",
-       "url": "https://buff.ly/6QWPOse",
+       "title": "Kingdom Come: Deliverance II – Royal Edition (Switch 2 KC) preorder is $48.99 at Walmart (MSRP $59.99) buff.ly/1nUQBNH #ad",
+       "url": "https://buff.ly/1nUQBNH",
        "official": false
       }
      ]
     },
     {
-     "id": "127710f786c9",
-     "title": "Fanatical offers Afterimage Deluxe Edition on Steam for $4.49",
-     "summary": "Fanatical is running a digital deal slashing the price of Afterimage Deluxe Edition on Steam to $4.49.",
+     "id": "1199a1e5df4f",
+     "title": "PlayStation Regional 11.11 Power Deals Announced for Southeast Asia",
+     "summary": "Sony announced hardware peripheral and game disc discounts across Singapore, Malaysia, Thailand, Indonesia, and Vietnam starting late October.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-27T16:00:36Z",
+     "published": "2026-10-28T02:01:10Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wario64",
-       "title": "Afterimage Deluxe Edition (Steam) is $4.49 on Fanatical buff.ly/0B9K0lX #ad",
-       "url": "https://buff.ly/0B9K0lX",
-       "official": false
+       "outlet": "PlayStation Blog",
+       "title": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
+       "url": "https://blog.playstation.com/2026/10/27/20261028-sale/",
+       "official": true
       }
      ]
     },
     {
-     "id": "6bda42be5a26",
-     "title": "Fanatical discounts Replaced on Steam to $12.99",
-     "summary": "PC gaming storefront Fanatical has lowered the price of Replaced on Steam to $12.99.",
+     "id": "361fe986de17",
+     "title": "Minecraft Switch 2 Edition Launches with Digital Upgrade Discounts",
+     "summary": "Minecraft is now available for Nintendo Switch 2, with Mojang offering discounted digital pricing for existing physical owners.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-27T15:17:58Z",
+     "published": "2026-10-28T04:55:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Wario64",
-       "title": "REPLACED (Steam) is $12.99 on Fanatical buff.ly/N1claWV #ad",
-       "url": "https://buff.ly/N1claWV",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d61fb42583e6",
-     "title": "Newegg slashes Satisfactory on Steam to $23.99 with coupon code",
-     "summary": "Newegg is offering Satisfactory on Steam for $23.99 using promotional checkout code EPF56932.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-27T15:34:03Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Satisfactory (Steam) is $23.99 on Newegg w/ code EPF56932 buff.ly/gnPYYpM #ad",
-       "url": "https://buff.ly/gnPYYpM",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "03a7d5698e4f",
-     "title": "Build-your-own Slayer Bundle launched on Fanatical starting at 3 games for $4.95",
-     "summary": "Fanatical has introduced a customizable Steam game bundle allowing users to pick 3 or more titles starting at $4.95.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-27T14:01:11Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Build your own Slayer Bundle on Fanatical (starting at 3 games for $4.95) buff.ly/EME1Cro #ad",
-       "url": "https://buff.ly/EME1Cro",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bcc6b6805f73",
-     "title": "Banktivity offers MacRumors readers 30% off first-year personal finance subscriptions",
-     "summary": "Personal finance software Banktivity is offering a 30% discount on first-year subscription plans for MacRumors readers, bundled with a 30-day free trial.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-27T14:25:46Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "MacRumors",
-       "title": "Banktivity Offers 30% Off First Year Subscriptions for MacRumors Readers",
-       "url": "https://www.macrumors.com/2026/10/27/banktivity-30-off-first-year/",
+       "outlet": "Nintendo Life",
+       "title": "PSA: Minecraft Switch 2 Now Available, Switch Physical Owners Get A Digital Discount",
+       "url": "https://www.nintendolife.com/news/2026/10/psa-minecraft-switch-2-now-available-switch-physical-owners-get-a-digital-discount",
        "official": false
       }
      ]
@@ -1356,15 +1606,15 @@
    ]
   }
  ],
- "date": "2026-10-27",
- "generated_at": "2026-10-27T16:17:53Z",
+ "date": "2026-10-28",
+ "generated_at": "2026-10-28T11:00:54Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 941,
-  "clusters": 835,
-  "feeds_ok": 172,
-  "feeds_failed": 4
+  "items": 1146,
+  "clusters": 981,
+  "feeds_ok": 173,
+  "feeds_failed": 3
  },
  "feed_health": [
   {
@@ -1389,13 +1639,7 @@
    "key": "helsinkitimes",
    "title": "Helsinki Times (Finland)",
    "status": "error",
-   "detail": "ValueError: unparseable feed: <unknown>:2:141: not well-formed (invalid token)"
-  },
-  {
-   "key": "cphpost",
-   "title": "The Copenhagen Post (Denmark)",
-   "status": "error",
-   "detail": "ValueError: unparseable feed: <unknown>:2:119: not well-formed (invalid token)"
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.helsinkitimes.fi/?format=feed&type=rss"
   },
   {
    "key": "corriere",
