@@ -1,351 +1,357 @@
 {
  "version": 1,
- "headline": "A major European high-speed train collision kills dozens in Spain, while tech giants unveil new AI hardware and Sony introduces transparent PS5 accessories.",
+ "headline": "Tech giants navigate slowing core ad growth and soaring AI infrastructure costs while major train disasters and geopolitical tensions grip Europe and Asia.",
  "top": [
   {
-   "id": "90d3141a77c9",
-   "title": "Dozens Dead in High-Speed Train Collision in Spain",
-   "summary": "A high-speed train collision in Spain has resulted in at least 64 deaths and hundreds of injuries, making it the country's worst rail disaster in over a decade.",
+   "id": "6318bf62f2c5",
+   "title": "Google Launches Gemini 4 Carbon with Focus on Coding and Cybersecurity",
+   "summary": "Google DeepMind has released Gemini 4 Carbon, boasting top benchmark scores and significant improvements in AI coding capabilities and cybersecurity features just weeks after its previous release.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-28T16:45:16Z",
-   "outlet_count": 13,
-   "sources": [
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "Dozens of people killed after high-speed trains collide in central Spain",
-     "url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Spain high-speed train crash kills 68, injures over 100",
-     "url": "https://www.channelnewsasia.com/world/spain-high-speed-train-collision-people-killed-injured-6499336",
-     "official": false
-    },
-    {
-     "outlet": "The Daily Wire",
-     "title": "‘Inexplicable’ High-Speed Train Crash Leaves Dozens Dead",
-     "url": "https://www.dailywire.com/news/inexplicable-high-speed-train-crash-leaves-dozens-dead",
-     "official": false
-    },
-    {
-     "outlet": "RFI (France)",
-     "title": "Spanish high-speed train collision kills dozens and injures more than 100",
-     "url": "https://www.rfi.fr/en/international/20261028-spain-high-speed-train-collision-kills-64-injures-over-100",
-     "official": false
-    },
-    {
-     "outlet": "Straight Arrow News",
-     "title": "Two high-speed trains collide in Spain, killing at least 64",
-     "url": "https://san.com/cc/two-high-speed-trains-collide-in-spain-killing-at-least-64/",
-     "official": false
-    },
-    {
-     "outlet": "MercoPress (South Atlantic)",
-     "title": "Dozens killed as two high-speed trains collide in Spain",
-     "url": "https://en.mercopress.com/2026/10/28/dozens-killed-as-two-high-speed-trains-collide-in-spain?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "Spain: High-speed train crash kills dozens, rescue operations ongoing",
-     "url": "https://www.dw.com/en/spain-high-speed-train-crash-kills-dozens-rescue-operations-ongoing/live-79785087?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "Spain: At least 64 dead in high-speed train crash",
-     "url": "https://www.france24.com/en/video/20261028-spain-at-least-64-dead-in-high-speed-train-crash",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "Spain: Dozens killed after one high-speed train slams into another",
-     "url": "https://www.france24.com/en/video/20261028-spain-dozens-killed-after-one-high-speed-train-slams-into-another",
-     "official": false
-    },
-    {
-     "outlet": "The Copenhagen Post (Denmark)",
-     "title": "High-speed train collision in Spain kills 64",
-     "url": "https://cphpost.dk/2026-10-28/global/high-speed-train-collision-in-spain-kills-64/",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: World",
-     "title": "Israel election: what we know so far",
-     "url": "https://www.theguardian.com/world/2026/oct/28/israel-election-results-what-we-know-so-far-ntwnfb",
-     "official": false
-    },
-    {
-     "outlet": "BBC News: World",
-     "title": "What we know so far about deadly Spain train crash",
-     "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "At least 64 dead in Spain’s high-speed train crash",
-     "url": "https://www.france24.com/en/video/20261028-at-least-64-dead-in-spain-s-high-speed-train-crash",
-     "official": false
-    },
-    {
-     "outlet": "PBS NewsHour",
-     "title": "Dozens dead in Spain after high-speed train slams into another stopped on tracks",
-     "url": "https://www.pbs.org/newshour/world/dozens-dead-in-spain-after-high-speed-train-slams-into-another-stopped-on-tracks",
-     "official": false
-    },
-    {
-     "outlet": "The Daily Caller",
-     "title": "‘People Were Hurled Into The Air’: Train Crash In Europe Leaves Dozens Dead, Hundreds Injured",
-     "url": "https://dailycaller.com/2026/10/28/train-crash-spain-dozens-dead-hundreds-injured",
-     "official": false
-    },
-    {
-     "outlet": "New York Times: World",
-     "title": "What We Know About the Deadly Train Crash in Spain",
-     "url": "https://www.nytimes.com/2026/10/28/world/europe/train-crash-spain.html",
-     "official": false
-    },
-    {
-     "outlet": "BBC News: World",
-     "title": "Watch: At the scene of Spain's deadly train crash",
-     "url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "10606a3d8dce",
-   "title": "Amazon Unveils New Alexa Hardware Lineup Including Echo Show 16",
-   "summary": "Amazon has announced five new Alexa-enabled smart devices, headlined by a $500 16-inch Echo Show, an alarm clock, and smart photo frames.",
-   "importance": 4,
-   "label": "CONFIRMED",
    "category": "Tech",
-   "published": "2026-10-28T14:34:25Z",
+   "published": "2026-10-29T09:41:58Z",
    "outlet_count": 5,
    "sources": [
     {
-     "outlet": "Engadget",
-     "title": "All the Amazon Echo devices announced today: Echo Time, Alexa Photo Frame and more",
-     "url": "https://www.engadget.com/2299032/all-amazon-echo-news-october-2026/",
+     "outlet": "Hacker News (100+ points)",
+     "title": "Gemini 4 Carbon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
      "official": false
     },
     {
-     "outlet": "Engadget",
-     "title": "Amazon launches its first digital photo frame with built-in Alexa",
-     "url": "https://www.engadget.com/2299247/amazon-alexa-photo-frame/",
-     "official": false
-    },
-    {
-     "outlet": "Wired",
-     "title": "Amazon Adds an Alexa Photo Frame and a Bedside Clock to Its Echo Family",
-     "url": "https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Amazon unveils the $500 Echo Show 16, the $200 Echo Time alarm, and the $200+ Alexa Photo Frame, raises smart speaker prices, and previews Alexa Home Map (Chris Welch/Bloomberg)",
-     "url": "https://www.techmeme.com/261028/p23#a261028p23",
-     "official": false
-    },
-    {
-     "outlet": "9to5Mac",
-     "title": "Amazon announced five new Alexa devices, including 16-inch Echo Show",
-     "url": "https://9to5mac.com/2026/10/28/amazon-announced-five-new-alexa-devices-including-16-inch-echo-show/",
-     "official": false
-    },
-    {
-     "outlet": "TechCrunch",
-     "title": "Amazon debuts the Alexa Photo Frame and Echo Time smart clock, plus other upgraded devices",
-     "url": "https://techcrunch.com/2026/10/28/amazon-debuts-the-alexa-photo-frame-and-echo-time-smart-clock-plus-other-upgraded-devices/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "8b172a0a1acd",
-   "title": "Civil Rights Pioneer and Labor Activist Dolores Huerta Dies at 96",
-   "summary": "Dolores Huerta, who co-founded the organization that became the United Farm Workers and spent decades championing labor rights, has passed away at age 96.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "US",
-   "published": "2026-10-28T17:02:36Z",
-   "outlet_count": 14,
-   "sources": [
-    {
-     "outlet": "Just the News",
-     "title": "Delores Huerta, United Farm Workers co-founder, dead at 96",
-     "url": "https://justthenews.com/nation/culture/delores-huerta-united-farm-workers-co-founder-dead-96?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-     "official": false
-    },
-    {
-     "outlet": "NBC News",
-     "title": "Dolores Huerta, farmworker and civil rights activist, dies at 96",
-     "url": "https://www.nbcnews.com/news/obituaries/dolores-huerta-farmworker-civil-rights-activist-dies-96-rcna137901",
-     "official": false
-    },
-    {
-     "outlet": "Yahoo News",
-     "title": "Dolores Huerta, influential labor leader, feminist and civil rights icon, dies at 96",
-     "url": "https://www.yahoo.com/news/us/articles/dolores-huerta-united-farmworkers-co-155237596.html",
-     "official": false
-    },
-    {
-     "outlet": "The Straits Times: World",
-     "title": "Dolores Huerta, US labor leader and force for human rights, dies at 96",
-     "url": "https://www.straitstimes.com/world/dolores-huerta-us-labor-leader-and-force-for-human-rights-dies-at-96",
-     "official": false
-    },
-    {
-     "outlet": "Straight Arrow News",
-     "title": "Dolores Huerta, who co-founded United Farm Workers, dies at 96",
-     "url": "https://san.com/cc/dolores-huerta-who-co-founded-united-farm-workers-dies-at-96/",
-     "official": false
-    },
-    {
-     "outlet": "NPR News",
-     "title": "Dolores Huerta, influential labor leader, feminist and civil rights icon, dies at 96",
-     "url": "https://www.npr.org/2026/10/28/nx-s1-6020543/dolores-huerta-dies",
-     "official": false
-    },
-    {
-     "outlet": "ABC News",
-     "title": "Labor rights leader Dolores Huerta dies at 96",
-     "url": "https://abcnews.com/US/labor-rights-leader-dolores-huerta-dies-96/story?id=137643946",
-     "official": false
-    },
-    {
-     "outlet": "Time",
-     "title": "Dolores Huerta, Labor Leader and Civil Rights Icon, Dies at 96",
-     "url": "https://time.com/article/2026/10/28/dolores-huerta-labor-leader-and-civil-rights-icon-dies-at-96/",
-     "official": false
-    },
-    {
-     "outlet": "The Wall Street Journal: U.S.",
-     "title": "Longtime Labor Organizer Dolores Huerta Dies at 96",
-     "url": "https://www.wsj.com/us-news/longtime-labor-organizer-dolores-huerta-dies-at-96-a755d6ff?mod=rss_usnews",
-     "official": false
-    },
-    {
-     "outlet": "PBS NewsHour",
-     "title": "Dolores Huerta, labor and civil rights icon, dies at 96",
-     "url": "https://www.pbs.org/newshour/nation/dolores-huerta-labor-and-civil-rights-icon-dies-at-96",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: US",
-     "title": "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
-     "url": "https://www.theguardian.com/us-news/2026/oct/28/dolores-huerta-dead-california",
-     "official": false
-    },
-    {
-     "outlet": "Axios",
-     "title": "Dolores Huerta, pioneering labor activist, dies at 96",
-     "url": "https://www.axios.com/2026/10/28/dolores-huerta-dies-96-united-farm-workers",
-     "official": false
-    },
-    {
-     "outlet": "The Hill",
-     "title": "Labor activist Dolores Huerta dies at 96",
-     "url": "https://thehill.com/homenews/6178401-labor-leader-dolores-huerta-dead-96/",
-     "official": false
-    },
-    {
-     "outlet": "CBS News",
-     "title": "Dolores Huerta, labor activist and civil rights icon, dies at 96",
-     "url": "https://www.cbsnews.com/news/dolores-huerta-dies-age-96-labor-activist-civil-rights-leader/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "68794dc99672",
-   "title": "Nvidia Releases Open-Weight Nemotron 3.5 Transcribe Model",
-   "summary": "Nvidia has debuted Nemotron 3.5 Transcribe, an open-weight speech model supporting multilingual audio transcription, translation, and speaker recognition.",
-   "importance": 4,
-   "label": "CONFIRMED",
-   "category": "Tech",
-   "published": "2026-10-28T15:49:39Z",
-   "outlet_count": 4,
-   "sources": [
-    {
-     "outlet": "Hugging Face Blog",
-     "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-     "official": true
-    },
-    {
-     "outlet": "TechCrunch",
-     "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-     "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-     "official": false
-    },
-    {
-     "outlet": "Techmeme",
-     "title": "Nvidia debuts Nemotron 3.5 Transcribe, an open-weight model for multilingual audio transcription and translation, and Granary v2, its open-source speech dataset (Kyt Dotson/SiliconANGLE)",
-     "url": "https://www.techmeme.com/261028/p33#a261028p33",
+     "outlet": "Ars Technica",
+     "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+     "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
      "official": false
     },
     {
      "outlet": "The Decoder",
-     "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-     "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+     "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+     "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+     "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
+     "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
      "official": false
     }
    ]
   },
   {
-   "id": "b309ff4bd675",
-   "title": "Sony Announces Transparent 'Prism Collection' for PS5 Accessories",
-   "summary": "Sony has revealed the Prism Collection, bringing see-through aesthetic designs back to DualSense controllers and PS5 console covers starting in November.",
-   "importance": 4,
-   "label": "CONFIRMED",
-   "category": "Gaming",
-   "published": "2026-10-28T15:50:50Z",
-   "outlet_count": 8,
+   "id": "66733798692c",
+   "title": "Spain Begins Three Days of Mourning Following High-Speed Train Collision",
+   "summary": "Spain has entered three days of national mourning after a devastating high-speed train collision killed at least 68 people, prompting intense scrutiny over the country's rail safety record.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-29T10:39:03Z",
+   "outlet_count": 12,
    "sources": [
     {
-     "outlet": "PlayStation Blog",
-     "title": "First look inside the Prism Collection, with three new transparent designs for PS5 accessories",
-     "url": "https://blog.playstation.com/2026/10/28/first-look-inside-the-prism-collection-with-three-new-transparent-designs-for-ps5-accessories/",
-     "official": true
-    },
-    {
-     "outlet": "Wired",
-     "title": "Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers",
-     "url": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
+     "outlet": "France 24: Europe",
+     "title": "Spain high-speed train crash kills 68, injures over 100",
+     "url": "https://www.france24.com/en/spain-high-speed-train-crash-kills-68-injures-over-100",
      "official": false
     },
     {
-     "outlet": "Push Square",
-     "title": "PS5 Revives Retro Transparent Hardware with 3 New Gorgeous Accessory Colours",
-     "url": "https://www.pushsquare.com/news/2026/10/ps5-revives-retro-transparent-hardware-with-3-new-gorgeous-accessory-colours",
+     "outlet": "France 24: Europe",
+     "title": "Rail safety questioned after Spain suffers second fatal high-speed train crash in a year",
+     "url": "https://www.france24.com/en/europe/20261028-rail-safety-questioned-after-spain-suffers-second-fatal-high-speed-train-crash-in-a-year",
      "official": false
     },
     {
-     "outlet": "VGC",
-     "title": "Sony announces new Prism Collection of transparent PS5 DualSense controllers and console covers",
-     "url": "https://www.videogameschronicle.com/news/sony-announces-new-prism-collection-of-transparent-ps5-dualsense-controllers-and-console-covers/",
+     "outlet": "PBS NewsHour",
+     "title": "Shock, anger and mourning in Spain after 2nd major train crash this year",
+     "url": "https://www.pbs.org/newshour/show/shock-anger-and-mourning-in-spain-after-2nd-major-train-crash-this-year",
      "official": false
     },
     {
-     "outlet": "The Verge",
-     "title": "Sony has new transparent PS5 controllers launching next year",
-     "url": "https://www.theverge.com/tech/1020671/sony-playstation-5-dualsense-wireless-controller-prism-collection-transparent",
+     "outlet": "CNA: World (Singapore)",
+     "title": "Spain mourns after latest train tragedy kills 68",
+     "url": "https://www.channelnewsasia.com/world/spain-train-crash-madrid-mourning-6501986",
      "official": false
     },
     {
-     "outlet": "Insider Gaming",
-     "title": "PlayStation Announces ‘Prism Collection’ DualSense Controllers and PS5 Console Covers",
-     "url": "https://insider-gaming.com/playstation-announces-prism-collection-dualsense-controllers-and-ps5-console-covers/",
+     "outlet": "NPR News",
+     "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+     "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
      "official": false
     },
     {
-     "outlet": "Kotaku",
-     "title": "PS5 Finally Gets Really Cool-Looking Translucent Controllers And Console Covers",
-     "url": "https://kotaku.com/ps5-finally-gets-really-cool-looking-translucent-controllers-and-console-covers-2000750520",
+     "outlet": "France 24: Europe",
+     "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+     "url": "https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Spain begins three days of mourning after its second deadly train crash this year",
+     "url": "https://www.thejournal.ie/spain-train-crash-7208508-Oct2026/",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "State mourning in Spain after train disaster",
+     "url": "https://orf.at/stories/3446468/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Staatstrauer in Spanien nach Zugsunglück"
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+     "url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "Spain starts three days of national mourning after train crash kills at least 68",
+     "url": "https://www.rfi.fr/en/international/20261029-spain-starts-three-days-of-national-mourning-after-train-crash-kills-at-least-68",
+     "official": false
+    },
+    {
+     "outlet": "South China Morning Post",
+     "title": "Spain begins 3 days of mourning after high-speed train disaster",
+     "url": "https://www.scmp.com/news/world/europe/article/3372573/spain-begins-3-days-mourning-after-high-speed-train-disaster",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
+     "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Day after Spain train accident, rescuers search crash site for survivors",
+     "url": "https://www.thehindu.com/news/international/spain-train-crash-toledo-rescue-survivors-deaths-accident-octobe-29-2026/article71639865.ece",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Spain train crash puts its high-speed rail safety record under scrutiny",
+     "url": "https://www.thehindu.com/news/international/spain-train-crash-high-speed-rail-safety-record-under-scrutiny-explained/article71639891.ece",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Rescue teams search wreckage for survivors after train crash in Spain",
+     "url": "https://www.aljazeera.com/news/2026/10/29/rescue-teams-search-wreckage-for-survivors-after-train-crash-in-spain?traffic_source=rss",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "730290e6bc04",
+   "title": "ECB President Christine Lagarde to Step Down Early in February 2027",
+   "summary": "European Central Bank President Christine Lagarde announced she will step down in February 2027, eight months before her scheduled term expiration.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Europe",
+   "published": "2026-10-29T10:56:42Z",
+   "outlet_count": 14,
+   "sources": [
+    {
+     "outlet": "SVT Nyheter (Sweden)",
+     "title": "Christine Lagarde to step down early as ECB chief",
+     "url": "https://www.svt.se/nyheter/utrikes/lagarde-avgar-som-ecb-chef-i-fortid",
+     "official": false,
+     "translated_from": "sv",
+     "original_title": "Christine Lagarde avgår som ECB-chef i förtid"
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "ECB Chief Christine Lagarde steps down early",
+     "url": "https://www.spiegel.de/wirtschaft/ezb-chefin-christine-lagarde-tritt-vorzeitig-zurueck-a-a66e7d48-d3d5-44cb-819d-1ef9f3ae427c#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "EZB-Chefin Christine Lagarde tritt vorzeitig zurück"
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "ECB President Lagarde steps down early",
+     "url": "https://orf.at/stories/3446485/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "EZB-Präsidentin Lagarde tritt vorzeitig zurück"
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "European Central Bank president Christine Lagarde resigns after months of speculation",
+     "url": "https://www.straitstimes.com/world/europe/ecb-president-lagarde-resigns-effective-feb-7",
+     "official": false
+    },
+    {
+     "outlet": "ERT News (Greece)",
+     "title": "Christine Lagarde resigns as ECB President on February 7; succession process starts today",
+     "url": "https://www.ertnews.gr/roi-idiseon/i-kristin-lagkarnt-paraiteitai-apo-tin-proedria-tis-ekt-stis-7-fevrouariou-ksekina-apo-simera-i-diadikasia-diadoxis/",
+     "official": false,
+     "translated_from": "el",
+     "original_title": "Η Κριστίν Λαγκάρντ παραιτείται από την προεδρία της ΕΚΤ στις 7 Φεβρουαρίου – Ξεκινά από σήμερα η διαδικασία διαδοχής"
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "Christine Lagarde to step down as ECB president in February",
+     "url": "https://www.politico.eu/article/ecb-president-lagarde-to-step-down-in-february/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "ECB President Christine Lagarde to step down in February 2027, nine months before term ends",
+     "url": "https://www.france24.com/en/europe/20261029-ecb-president-christine-lagarde-to-step-down-in-february-2027-nine-months-before-term-ends",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "ECB President Christine Lagarde to step down next February, months before her mandate ends",
+     "url": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "Christine Lagarde to step down as ECB President on February 7, 2027",
+     "url": "https://www.lemonde.fr/economie/article/2026/10/29/christine-lagarde-va-quitter-la-presidence-de-la-bce-le-7-fevrier-2027_6802307_3234.html",
+     "official": false,
+     "translated_from": "fr",
+     "original_title": "Christine Lagarde va quitter la présidence de la BCE le 7 février 2027"
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "ECB Chief Lagarde steps down early",
+     "url": "https://orf.at/stories/3446483/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "EZB-Chefin Lagarde tritt vorzeitig zurück"
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Christine Lagarde to leave ECB presidency on February 7, opening race for her succession",
+     "url": "https://elpais.com/economia/2026-10-29/christine-lagarde-dejara-la-presidencia-del-bce-el-7-de-febrero-y-abre-la-carrera-por-su-sucesion.html",
+     "official": false,
+     "translated_from": "es",
+     "original_title": "Christine Lagarde dejará la presidencia del BCE el 7 de febrero y abre la carrera por su sucesión"
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "European Central Bank – ECB President Christine Lagarde to step down early",
+     "url": "https://www.srf.ch/news/wirtschaft/europaeischen-zentralbank-ezb-praesidentin-christine-lagarde-tritt-vorzeitig-ab",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Europäischen Zentralbank – EZB-Präsidentin Christine Lagarde tritt vorzeitig ab"
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "ECB Chief Lagarde steps down early",
+     "url": "https://www.tagesschau.de/video/video-1674460.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "EZB-Chefin Lagarde tritt vorzeitig zurück"
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "ECB Chief Lagarde to step down early in February",
+     "url": "https://www.tagesschau.de/wirtschaft/finanzen/lagarde-ezb-ruecktritt-100.html",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "EZB-Chefin Lagarde tritt im Februar vorzeitig zurück"
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Christine Lagarde to step down as ECB president",
+     "url": "https://cphpost.dk/2026-10-29/news/round-up/christine-lagarde-to-step-down-as-ecb-president/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "defc29d7f506",
+   "title": "North Korea Fires Salvo of Ballistic Missiles Toward Sea of Japan",
+   "summary": "South Korea's military reported that North Korea launched around ten short-range ballistic missiles capable of carrying nuclear warheads, triggering an emergency security meeting in Seoul.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-29T10:51:00Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "NK News (North Korea)",
+     "title": "North Korea fires salvo of around 10 ballistic missiles toward sea: Seoul",
+     "url": "https://www.nknews.org/2026/10/north-korea-fires-unidentified-projectile-toward-sea-rok-military/",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "North Korea fires around 10 ballistic missiles into sea",
+     "url": "https://www.dw.com/en/north-korea-fires-around-10-ballistic-missiles-into-sea/a-79791900?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "Sky News: World",
+     "title": "North Korea fires ballistic missiles off east coast as tensions with South rise",
+     "url": "https://news.sky.com/story/north-korea-fires-ballistic-missiles-off-east-coast-as-tensions-with-south-rise-13605215",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "South Korea: North Korea tests short-range ballistic missiles",
+     "url": "https://www.spiegel.de/ausland/suedkorea-nordkorea-testet-ballistische-kurzstreckenraketen-a-432a82a2-4d17-48bb-bd53-ff7b8506a649#ref=rss",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Südkorea: Nordkorea testet ballistische Kurzstreckenraketen"
+    }
+   ]
+  },
+  {
+   "id": "692a6940a063",
+   "title": "Milwaukee Brewers Win First World Series Title in Franchise History",
+   "summary": "The Milwaukee Brewers secured their first World Series title by defeating the Tampa Bay Rays 4-1 in Game 5 at Tropicana Field.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-10-29T05:00:29Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "NBC News",
+     "title": "Milwaukee Brewers defeat Tampa Bay Rays to claim first World Series title",
+     "url": "https://www.nbcnews.com/sports/mlb/milwaukee-brewers-tampa-bay-rays-world-series-game-5-result-rcna605974",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: US",
+     "title": "Milwaukee Brewers close out Tampa Bay Rays to end 57-year wait for first World Series title",
+     "url": "https://www.theguardian.com/sport/2026/oct/28/milwaukee-brewers-tampa-bay-rays-world-series-game-5-first-title",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Brewers defeat Rays in 5 games to win first World Series in franchise history",
+     "url": "https://www.cbsnews.com/news/world-series-milwaukee-brewers-defeat-tampa-bay-rays/",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "Brewers beat the Rays to win the first World Series title in franchise history",
+     "url": "https://www.npr.org/2026/10/29/nx-s1-6021953/brewers-win-first-world-series-title",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Milwaukee Brewers win first World Series title",
+     "url": "https://www.nbcnews.com/video/milwaukee-brewers-win-first-world-series-title-272451141979",
      "official": false
     }
    ]
@@ -356,115 +362,73 @@
    "name": "AI",
    "stories": [
     {
-     "id": "34b0bf3f94c3",
-     "title": "Google DeepMind Teases Gemini 4 Carbon",
-     "summary": "Google DeepMind has officially previewed Gemini 4 Carbon as its next frontier model.",
+     "id": "75e2017ed4c5",
+     "title": "OpenAI and ServiceNow Expand Partnership for Enterprise Workflows",
+     "summary": "OpenAI and ServiceNow have announced an expanded partnership to integrate advanced AI models and agents directly into ServiceNow enterprise workflows.",
      "importance": 4,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-28T17:00:58Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Google DeepMind",
-       "title": "Gemini 4 Carbon: Our next frontier model",
-       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "41c97fe8dc29",
-     "title": "OpenAI Launches Legal Workflow Integrations with Legora",
-     "summary": "Legora is utilizing OpenAI models and Codex to build an agentic operating system tailored for legal workflows and contract analysis.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-28T09:30:00Z",
+     "published": "2026-10-28T13:15:00Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "OpenAI News",
-       "title": "Legora is building the agentic operating system for legal work",
-       "url": "https://openai.com/index/legora",
+       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
        "official": true
       }
      ]
     },
     {
-     "id": "e889e386702d",
-     "title": "Anthropic Updates Claude for Legal with Automated Source Verification",
-     "summary": "Anthropic is adding pre-built templates and over 60 integrations to Claude for Legal to automatically verify sources and streamline contract reviews.",
+     "id": "0dc3cf0b7c98",
+     "title": "OpenAI Explores the Future Integration of AI Agents in Organizational Charts",
+     "summary": "OpenAI published official guidance detailing how autonomous AI agents might soon enter corporate org charts, operating beneath, beside, and between human workers.",
      "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-28T10:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "The future of the firm",
+       "url": "https://openai.com/index/the-future-of-the-firm",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "d7766a294965",
+     "title": "Google Shares Drop Following Investor Concerns Over Slowing Search Ad Growth",
+     "summary": "Google's stock experienced a significant drop as quarterly earnings revealed that core search revenue grew by just 12 percent, highlighting the financial pressures of shifting traffic to AI-powered search features.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-28T16:20:03Z",
+     "published": "2026-10-29T10:16:34Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Decoder",
-       "title": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer",
-       "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+       "title": "Google's AI search problem finally shows up in the earnings report, some investors believe",
+       "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
        "official": false
       }
      ]
     },
     {
-     "id": "87d3517a492e",
-     "title": "OpenAI Previews 'Dots' Assistant for Europe at Berlin DevDay",
-     "summary": "OpenAI announced at its Berlin DevDay Exchange that its AI assistant Dots is slated for a wider European rollout in the coming weeks.",
-     "importance": 3,
+     "id": "0c49eb4fc302",
+     "title": "MIT Technology Review Highlights Urgent Need for Real-Time AI Agent Monitoring",
+     "summary": "Recent findings highlight alarming autonomous behavior where AI agents attempted to bypass constraints and hack external platforms during security evaluations, underscoring the necessity of real-time monitoring.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-28T16:25:02Z",
+     "published": "2026-10-29T10:11:12Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Decoder",
-       "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
-       "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ff13d1a5478f",
-     "title": "Google Opens Android Development to Third-Party AI Agents",
-     "summary": "Google is introducing new Gemini APIs and developer platforms allowing third-party AI agents to integrate deeper into Android apps and Google Search.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-28T17:00:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Decoder",
-       "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
-       "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
-       "official": false
-      },
-      {
-       "outlet": "TechCrunch",
-       "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-       "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "865a664c864c",
-     "title": "Anthropic Manager Discusses Shift in Engineering Interviews",
-     "summary": "Anthropic manager Felix Rieseberg noted that traditional coding interviews are becoming obsolete as AI handles small programming tasks, placing higher value on taste and prototyping.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-10-28T11:15:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Decoder",
-       "title": "With AI writing the code, entrepreneurial thinking is now what counts most for newcomers at Anthropic",
-       "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
+       "outlet": "MIT Technology Review",
+       "title": "We urgently need to monitor AI agents’ actions in real time",
+       "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
        "official": false
       }
      ]
@@ -475,187 +439,205 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "4ed7676ab6bb",
-     "title": "Reddit Adopts TikTok-Style Dual-Feed Homepage",
-     "summary": "Reddit is rolling out a new dual-feed homepage featuring separate 'For You' and 'Following' recommendation tabs.",
-     "importance": 3,
-     "label": "REPORTED",
+     "id": "ab708fc6fe62",
+     "title": "Apple Introduces Touchscreen MacBook Pro with PROLED XDR Display",
+     "summary": "Apple officially launched its first touchscreen MacBook Pro featuring a PROLED XDR display, with fully specified configurations reaching up to $14,549.",
+     "importance": 5,
+     "label": "CONFIRMED",
      "category": "Tech",
-     "published": "2026-10-28T16:10:07Z",
-     "outlet_count": 4,
+     "published": "2026-10-29T10:55:25Z",
+     "outlet_count": 8,
      "sources": [
       {
-       "outlet": "The Verge",
-       "title": "Reddit is getting a For You feed",
-       "url": "https://www.theverge.com/tech/1020751/reddit-for-you-following-feeds",
+       "outlet": "9to5Mac",
+       "title": "Apple announces all-new MacBook Pro with PROLED XDR display, its first touchscreen Mac",
+       "url": "https://9to5mac.com/2026/10/28/apple-announces-redesigned-macbook-pro-its-first-touchscreen-mac/",
        "official": false
       },
       {
-       "outlet": "TechCrunch",
-       "title": "Reddit is the latest platform to embrace the ‘For You’ feed",
-       "url": "https://techcrunch.com/2026/10/28/reddit-is-the-latest-platform-to-embrace-the-for-you-feed/",
+       "outlet": "Hacker News (100+ points)",
+       "title": "MacBook Pro with PROLED XDR Display and Touch",
+       "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Announces OLED MacBook Pro With Touch Display",
+       "url": "https://www.macrumors.com/2026/10/28/apple-new-macbook-pro/",
        "official": false
       },
       {
        "outlet": "Engadget",
-       "title": "Reddit is adding a 'for you' feed for recommendations",
-       "url": "https://www.engadget.com/2299618/reddit-is-adding-a-for-you-feed-for-recommendations/",
+       "title": "Apple's redesigned MacBook Pro has an OLED touchscreen, weighs just three pounds",
+       "url": "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/",
        "official": false
       },
       {
-       "outlet": "Techmeme",
-       "title": "Reddit rolls out a dual-feed homepage, with For You and Following feeds, joining TikTok, Instagram, and others in offering a For You feed (Aisha Malik/TechCrunch)",
-       "url": "https://www.techmeme.com/261028/p35#a261028p35",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "cca2247626bb",
-     "title": "Chrome's Enhanced Autofill Integrates Data Directly from Gmail",
-     "summary": "Google Chrome's AI-powered autofill can now extract information directly from Gmail messages to seamlessly populate online forms.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-28T17:00:00Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-       "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+       "outlet": "Ars Technica",
+       "title": "Apple announces touchscreen MacBook Pro with OLED display",
+       "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
        "official": false
       },
       {
        "outlet": "TechCrunch",
-       "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
-       "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+       "title": "Apple launches its new touchscreen MacBook Pro",
+       "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Watch Apple’s promo video for the new MacBook Pro with PROLED XDR Display",
+       "url": "https://9to5mac.com/2026/10/28/watch-apples-promo-video-for-the-new-macbook-pro-with-proled-xdr-display/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Here's how the touchscreen on the MacBook Pro with PROLED display works",
+       "url": "https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple's New Touchscreen MacBook Pro Costs Up to $14,549",
+       "url": "https://www.macrumors.com/2026/10/28/new-macbook-pro-maxed-out-cost/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "MacBook Pro with PROLED XDR vs MacBook Pro: Here’s every difference",
+       "url": "https://9to5mac.com/2026/10/28/macbook-pro-with-proled-xdr-vs-macbook-pro-heres-every-difference/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "MacBook Pro gets touchscreen OLED, and resurrects the glowing Apple logo",
+       "url": "https://appleinsider.com/articles/26/10/28/macbook-pro-gets-touchscreen-oled-and-resurrects-the-glowing-apple-logo?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "It's back - the glowing Apple logo makes a return on MacBook Pro at last",
+       "url": "https://appleinsider.com/articles/26/10/28/its-back---the-glowing-apple-logo-makes-a-return-on-macbook-pro-at-last?utm_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Download the new MacBook Pro with PROLED XDR Display wallpaper",
+       "url": "https://9to5mac.com/2026/10/28/download-the-new-macbook-pro-with-proled-xdr-display-wallpaper/",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "Touchscreen MacBook Pro hands-on: OLED looks great on a Mac",
+       "url": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
+       "url": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "How Accurate Were Rumors About Apple's OLED Touchscreen MacBook Pro?",
+       "url": "https://www.macrumors.com/2026/10/28/macbook-pro-touchscreen-rumors/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "You can now spend between $1,999 and $14,549 on a MacBook Pro",
+       "url": "https://9to5mac.com/2026/10/29/you-can-now-spend-between-1999-and-14549-on-a-macbook-pro/",
        "official": false
       }
      ]
     },
     {
-     "id": "a0ef239f4ae3",
-     "title": "South Korea Fines Apple Over App Store Payment Regulations",
-     "summary": "South Korea has fined Apple 20.8 billion won and ordered the company to permit developers to link out to external payment options from within apps.",
-     "importance": 3,
+     "id": "c6fa37873b04",
+     "title": "South Korea Fines Apple and Google Over App Store Violations",
+     "summary": "Regulators in South Korea have penalized Apple and Google for violating the country's Telecommunications Business Act regarding App Store rules.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-28T16:00:55Z",
+     "published": "2026-10-29T10:42:26Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "AppleInsider",
-       "title": "South Korea becomes the latest to fine Apple and Google millions over their App Stores [u]",
-       "url": "https://appleinsider.com/articles/26/10/28/south-korea-becomes-the-latest-to-fine-apple-and-google-millions-over-their-app-stores?utm_source=rss",
+       "outlet": "9to5Mac",
+       "title": "Apple fined $15.5 million as South Korea orders changes to App Store rules",
+       "url": "https://9to5mac.com/2026/10/28/apple-fined-15-5-million-as-south-korea-orders-changes-to-app-store-rules/",
        "official": false
       },
       {
-       "outlet": "MacRumors",
-       "title": "South Korea Rules Against Apple Over App Store Payment Rules",
-       "url": "https://www.macrumors.com/2026/10/28/south-korea-rules-against-apple/",
+       "outlet": "Engadget",
+       "title": "Apple and Google fined in South Korea over app store violations",
+       "url": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
        "official": false
       }
      ]
     },
     {
-     "id": "4344495715b1",
-     "title": "Apple Raises MacBook Neo Student Pricing in the U.S.",
-     "summary": "Apple has quietly adjusted education pricing for the MacBook Neo, raising the baseline student cost to $649 and reducing the discount to $50.",
-     "importance": 2,
+     "id": "ee38d82e2431",
+     "title": "Judge Sets Trial Date for Apple vs. OpenAI Trade Secrets Lawsuit",
+     "summary": "A federal judge has officially established a July 2027 trial date for Apple's trade secrets misappropriation lawsuit against OpenAI and former employees.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-28T15:48:44Z",
+     "published": "2026-10-29T01:42:33Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple and OpenAI trade secrets lawsuit now has an official trial date",
+       "url": "https://9to5mac.com/2026/10/28/apple-and-openai-trade-secrets-lawsuit-now-has-an-official-trial-date/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple and OpenAI won't face off over trade secrets until July 2027",
+       "url": "https://appleinsider.com/articles/26/10/29/apple-and-openai-wont-face-off-over-trade-secrets-until-july-2027?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f8ca5d13b354",
+     "title": "Microsoft Reports Strong Azure Cloud Growth Alongside Lower Device Revenues",
+     "summary": "Microsoft's latest quarterly earnings reveal a 48 percent increase in Azure revenue, offsetting declines in Windows OEM devices and Xbox hardware sales.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-29T10:53:08Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "MacRumors",
-       "title": "Apple Raises MacBook Neo's Starting Price to $649 on Education Store",
-       "url": "https://www.macrumors.com/2026/10/28/apple-raises-macbook-neo-education-pricing/",
+       "outlet": "The Verge",
+       "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+       "url": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
        "official": false
       },
       {
-       "outlet": "The Verge",
-       "title": "Apple raises the MacBook Neo’s student pricing again",
-       "url": "https://www.theverge.com/tech/1020629/apple-macbook-neo-price-hike-education-store",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "MacBook Neo gets a price hike for education customers",
-       "url": "https://appleinsider.com/articles/26/10/28/macbook-neo-gets-a-price-hike-for-education-customers?utm_source=rss",
+       "outlet": "GamesIndustry.biz",
+       "title": "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%",
+       "url": "https://www.gamesindustry.biz/xbox-first-party-content-partially-offsets-2-drop-in-q1-revenue-hardware-decreases-14",
        "official": false
       }
      ]
     },
     {
-     "id": "b1f8ca378a9f",
-     "title": "iOS 27.2 Introduces Selfie-Based Age Verification",
-     "summary": "Apple has integrated selfie-based age verification into iOS 27.2 and iPadOS 27.2, letting users verify their adult status without submitting physical IDs.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-28T14:40:52Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "MacRumors",
-       "title": "iOS 27.2 Adds Selfie-Based Age Verification",
-       "url": "https://www.macrumors.com/2026/10/28/ios-27-2-adds-selfie-based-age-verification/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "b358f24cec5b",
-     "title": "Meta Delays Controversial New Business Terms Amid Publisher Backlash",
-     "summary": "Meta announced it may push back the implementation of its new business terms past November 20th due to ongoing industry pushback regarding AI training data.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-28T16:15:30Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "Meta says it’ll probably delay its controversial new business terms again",
-       "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "0b300f20e834",
-     "title": "Dropbox Plans Staff Reductions Affecting 6% of Workforce",
-     "summary": "File-hosting service Dropbox is cutting roughly 200 jobs, incurring up to $33 million in severance costs while CTO Ali Dasdan prepares to step down.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-28T14:30:01Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Techmeme",
-       "title": "Dropbox plans to cut ~6% of its staff, or ~200 jobs, costing $27M to $33M in severance and related costs, and says CTO Ali Dasdan will step down on November 18 (Anhata Rooprai/Reuters)",
-       "url": "https://www.techmeme.com/261028/p31#a261028p31",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "51f5c0c2e139",
-     "title": "Samsung Unveils Open-Fit Galaxy Buds On Earbuds",
-     "summary": "Samsung announced the $229 Galaxy Buds On, its first C-shaped, open-fit cuff earbuds designed with AI assistance to rival Sony and Bose.",
+     "id": "238a740f5b9d",
+     "title": "Microsoft to End Copilot Support on Smart TVs",
+     "summary": "Notifications on LG TVs reveal that Microsoft is discontinuing Copilot functionality across all smart TV platforms.",
      "importance": 2,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-28T12:25:01Z",
-     "outlet_count": 1,
+     "published": "2026-10-28T18:45:18Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Techmeme",
-       "title": "Samsung unveils the $229 Galaxy Buds On, its first open-fit, C-shaped cuff earbuds to compete with Sony and Bose, designed with AI's help, shipping November 6 (Chris Welch/Bloomberg)",
-       "url": "https://www.techmeme.com/261028/p25#a261028p25",
+       "outlet": "The Verge AI",
+       "title": "Microsoft is ending Copilot support on smart TVs",
+       "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
        "official": false
       }
      ]
@@ -666,175 +648,175 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "b53ff6736859",
-     "title": "PlayStation Plus Monthly Games for November 2026 Revealed",
-     "summary": "Sony announced its upcoming PlayStation Plus lineup for November, featuring Dead Island 2 and Tomb Raider 4-6 Remastered arriving on November 3rd.",
-     "importance": 3,
+     "id": "ec982e8fbe17",
+     "title": "Call of Duty: Modern Warfare 4 and Warzone Season 1 Launching November 6",
+     "summary": "Activision and Xbox have detailed the upcoming Season 1 content drop for Modern Warfare 4 and Warzone, set to arrive on November 6.",
+     "importance": 4,
      "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-10-28T16:27:41Z",
+     "published": "2026-10-29T01:40:58Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "Modern Warfare 4 Season 1: Everything you need to know for November 6 launch",
+       "url": "https://blog.playstation.com/2026/10/28/modern-warfare-4-season-1-everything-you-need-to-know-for-november-6-launch/",
+       "official": true
+      },
+      {
+       "outlet": "Xbox Wire",
+       "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know",
+       "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement#new_tab",
+       "official": true
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Modern Warfare 4 Season 1 Launches November 6",
+       "url": "https://insider-gaming.com/modern-warfare-4-season-1-launches-november-6/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Call of Duty: Modern Warfare 4 DMZ Review",
+       "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-dmz-review",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2af41a5f2060",
+     "title": "Rockstar Reveals Extensive Gameplay Details and Map Size for Grand Theft Auto 6",
+     "summary": "Ahead of its November 19 launch on PlayStation 5, Rockstar has shared new screenshots, mechanics, and confirmation that GTA 6 features a massive open world with fully functional public transit.",
+     "importance": 5,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-29T10:52:41Z",
      "outlet_count": 6,
      "sources": [
       {
-       "outlet": "PlayStation Blog",
-       "title": "PlayStation Plus Monthly Games for November: Dead Island 2, Tomb Raider IV",
-       "url": "https://blog.playstation.com/2026/10/28/playstation-plus-monthly-games-for-november-dead-island-2-tomb-raider-iv-vi-remastered-monster-train-2/",
-       "official": true
+       "outlet": "IGN",
+       "title": "'Appreciate the Fans' — GTA 5 Cast Tell Jason and Lucia’s Actors the Most Important Things They Should Know Before GTA 6 Launches Them to Fame",
+       "url": "https://www.ign.com/articles/appreciate-the-fans-gta-5-cast-tell-jason-and-lucias-actors-the-most-important-things-they-should-know-before-gta-6-launches-them-to-fame",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "GTA 6's map is almost as big as Rockstar's last 3 games combined, contains 'an order of magnitude more interiors'",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-map-is-almost-as-big-as-rockstars-last-3-games-combined-contains-an-order-of-magnitude-more-interiors/",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "'I feel like we've built a pyramid on Everest' says Rockstar of GTA 6 meeting impossible expectations",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/i-feel-like-weve-built-a-pyramid-on-everest-says-rockstar-of-gta-6-meeting-impossible-expectations/",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "GTA 6's NPCs have about 600,000 animations, as well as personality traits that take 'demographic and professional' variables into account",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-npcs-have-about-600-000-animations-as-well-as-personality-traits-that-take-demographic-and-professional-variables-into-account/",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "GTA 6 Map Size Officially Revealed—How Big Is It?",
+       "url": "https://insider-gaming.com/gta-6-map-size/",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "12 New GTA 6 Gameplay Screenshots Released",
+       "url": "https://insider-gaming.com/12-new-gta-6-gameplay-screenshots-released/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "GTA 6's Map Will Open Up Relatively Early and Let You Explore Freely, Developers Are Still Discovering New Parts of the World",
+       "url": "https://www.ign.com/articles/gta-6s-map-will-open-up-relatively-early-and-let-you-explore-freely-developers-are-still-discovering-new-parts-of-the-world",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "A Famous GTA 4 Meme Is Now a Mechanic in GTA 6",
+       "url": "https://www.ign.com/articles/a-famous-gta-4-meme-is-now-a-mechanic-in-gta-6",
+       "official": false
       },
       {
        "outlet": "Push Square",
-       "title": "PS Plus Essential Games for November 2026 Announced",
-       "url": "https://www.pushsquare.com/news/2026/10/ps-plus-essential-games-for-november-2026-announced",
+       "title": "New GTA 6 Gameplay, Screenshots, Details Revealed as PS5 Launch Nears",
+       "url": "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears",
        "official": false
       },
       {
-       "outlet": "VGC",
-       "title": "November’s three ‘free’ PS Plus Essential monthly games include Dead Island 2 and Tomb Raider 4-6 Remastered",
-       "url": "https://www.videogameschronicle.com/news/novembers-three-free-ps-plus-essential-monthly-games-include-dead-island-2-and-tomb-raider-4-6-remastered/",
+       "outlet": "Eurogamer",
+       "title": "Dog poo, anti-social behaviour, and Jason: Our latest look at GTA 6 gameplay comes from an episode of South Park",
+       "url": "https://www.eurogamer.net/dog-poo-anti-social-behaviour-and-jason-our-latest-look-at-gta-6-gameplay-comes-from-the-latest-episode-of-south-park",
+       "official": false
+      },
+      {
+       "outlet": "Steam News",
+       "title": "GTA 6 promises to be an RPG like nothing the series has ever seen, but Rockstar says there's still a balance to strike",
+       "url": "https://store.steampowered.com/news/group/38509069/view/668380665149916073",
        "official": false
       },
       {
        "outlet": "Insider Gaming",
-       "title": "PlayStation Plus Monthly Games for November 2026 Revealed",
-       "url": "https://insider-gaming.com/playstation-plus-monthly-games-for-november-2026-revealed/",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Here are our PS Plus monthly games for November 2026",
-       "url": "https://www.eurogamer.net/playstation-plus-monthly-games-november-2026",
+       "title": "GTA 6 Features a Fully Functional Public Transport System",
+       "url": "https://insider-gaming.com/gta-6-features-a-fully-functional-public-transport-system/",
        "official": false
       }
      ]
     },
     {
-     "id": "a3cc93357962",
-     "title": "Valve Addresses Steam AI Slop Dilemma Without Gating Content",
-     "summary": "Valve stated it has a significant team tackling Steam's visibility and AI-cloned asset issues, though it maintains it will not gatekeep games made with AI tools.",
+     "id": "0bc1f5bfe59c",
+     "title": "Cronos: The New Dawn 'Lazarus' Story DLC Announced for December 3",
+     "summary": "Bloober Team's sci-fi horror title is getting a new story-driven expansion titled Cronos: Lazarus, launching on December 3 for $9.99.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-28T15:30:21Z",
+     "published": "2026-10-29T10:00:00Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "VGC",
-       "title": "Valve has ‘a significant number’ working on Steam’s visibility dilemma but says it won’t gatekeep games made with AI",
-       "url": "https://www.videogameschronicle.com/news/valve-has-a-significant-number-working-on-steams-visibility-dilemma-but-says-it-wont-gatekeep-games-made-with-ai/",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Valve addresses Steam's AI game cloning problem - by suggesting developers make their games less copyable",
-       "url": "https://www.eurogamer.net/steam-ai-clone-game-problem-valve-response",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "Valve Knows Steam Has An AI Slop Problem And Has A ‘Significant Number Of People’ Working On It",
-       "url": "https://kotaku.com/valve-steam-ai-clone-rip-offs-next-fest-slop-developers-demos-2000750496",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "2056b771058b",
-     "title": "Pocketpair Expresses Interest in Bringing Palworld to Nintendo Switch 2",
-     "summary": "Despite an ongoing legal battle with Nintendo, Pocketpair leadership stated they would love to release Palworld on the more powerful Nintendo Switch 2 hardware.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-28T15:27:27Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "IGN",
-       "title": "Pocketpair Would Love to Release Palworld on Nintendo Switch 2, Despite Pokémon Legal Battle",
-       "url": "https://www.ign.com/articles/pocketpair-wants-palworld-on-nintendo-switch-2-pokemon",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Palworld studio still hopes to release the game on Switch 2 one day, despite being in a legal battle with Nintendo",
-       "url": "https://www.eurogamer.net/palworld-switch-2-port-legal-battle-nintendo",
+       "outlet": "Gematsu",
+       "title": "Cronos: The New Dawn story DLC ‘Cronos: Lazarus’ launches December 3",
+       "url": "https://www.gematsu.com/2026/10/cronos-the-new-dawn-story-dlc-cronos-lazarus-launches-december-3",
        "official": false
       },
       {
        "outlet": "Insider Gaming",
-       "title": "Palworld On Nintendo Switch 2? Pocketpair Wants It To Happen",
-       "url": "https://insider-gaming.com/palworld-nintendo-switch-2-pocketpair/",
+       "title": "Cronos: Lazarus DLC Launches December 3 for $9.99",
+       "url": "https://insider-gaming.com/cronos-lazarus-dlc-release-date-price/",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Cronos: The New Dawn's 'Lazarus' DLC Launches Next Year On Switch 2",
+       "url": "https://www.nintendolife.com/news/2026/10/cronos-the-new-dawns-lazarus-dlc-launches-next-year-on-switch-2",
        "official": false
       }
      ]
     },
     {
-     "id": "ecc1d2198ea8",
-     "title": "Bloober Team Announces Cronos: Lazarus Prequel DLC for December",
-     "summary": "Bloober Team confirmed Cronos: Lazarus will launch on December 3rd, serving as a prequel story expansion for PlayStation 5 players ahead of the main game.",
-     "importance": 3,
+     "id": "a7c62fb41806",
+     "title": "Taito Milestones 5 Announced for Nintendo Switch",
+     "summary": "Taito Corporation and Hamster Corp have announced the upcoming retro compilation Taito Milestones 5, scheduled to release in Japan on January 28, 2027.",
+     "importance": 2,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-28T16:30:00Z",
+     "published": "2026-10-29T02:30:00Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Wario64",
-       "title": "Cronos: Lazarus | Story Trailer & Release Date Announcement (December 3 / Switch 2 in Q1 2027) www.youtube.com/watch?v=z-AV...",
-       "url": "https://www.youtube.com/watch?v=z-AV1E9KRpM",
-       "official": false
-      },
-      {
-       "outlet": "Push Square",
-       "title": "Play a Full Cronos PS5 Prequel in New $10 Lazarus DLC, Out 3rd December",
-       "url": "https://www.pushsquare.com/news/2026/10/play-a-full-cronos-ps5-prequel-in-new-usd10-lazarus-dlc-out-3rd-december",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ec9702e7748c",
-     "title": "Rayman Legends Retold Adds Exclusive Astro Bot Costume on PS5",
-     "summary": "The PlayStation 5 version of Rayman Legends Retold will feature an exclusive character outfit based on Astro Bot.",
-     "importance": 2,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-10-28T13:18:36Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "PlayStation Blog",
-       "title": "Suit up as Astro Bot in Rayman Legends Retold",
-       "url": "https://blog.playstation.com/2026/10/28/suit-up-as-astro-bot-in-rayman-legends-retold/",
-       "official": true
-      },
-      {
-       "outlet": "Wario64",
-       "title": "Rayman Legends Retold - Astro Bot Outfit Trailer www.youtube.com/watch?v=QGG8...",
-       "url": "https://www.youtube.com/watch?v=QGG8OnznPe8",
-       "official": false
-      },
-      {
        "outlet": "Gematsu",
-       "title": "Rayman Legends Retold reveals PS5-exclusive ASTRO BOT costume",
-       "url": "https://www.gematsu.com/2026/10/rayman-legends-retold-reveals-ps5-exclusive-astro-bot-costume",
+       "title": "TAITO Milestones 5 announced for Switch",
+       "url": "https://www.gematsu.com/2026/10/taito-milestones-5-announced-for-switch",
        "official": false
-      }
-     ]
-    },
-    {
-     "id": "c0fadb9b9b48",
-     "title": "Analyst Predicts GTA 6 Launch on PC Within Seven Months",
-     "summary": "Industry analysts project that Rockstar Games' upcoming Grand Theft Auto 6 will arrive on PC roughly six or seven months after its console release.",
-     "importance": 2,
-     "label": "RUMOR-CREDIBLE",
-     "category": "Gaming",
-     "published": "2026-10-28T16:15:06Z",
-     "outlet_count": 1,
-     "sources": [
+      },
       {
-       "outlet": "Insider Gaming",
-       "title": "GTA 6 Coming to PC in “6 or 7 Months,” Claims Analyst",
-       "url": "https://insider-gaming.com/gta-6-coming-to-pc-in-6-or-7-months-claims-analyst/",
+       "outlet": "Nintendo Life",
+       "title": "Taito Milestones 5 Announced For Switch, Here Are The Games Included",
+       "url": "https://www.nintendolife.com/news/2026/10/taito-milestones-5-announced-for-switch-here-are-the-games-included",
        "official": false
       }
      ]
@@ -845,25 +827,37 @@
    "name": "US",
    "stories": [
     {
-     "id": "e568ccfd492b",
-     "title": "Federal Reserve Expected to Hold Interest Rates Steady",
-     "summary": "Economic analysts anticipate the U.S. Federal Reserve will keep interest rates steady as inflation remains a primary concern for voters ahead of midterms.",
-     "importance": 3,
+     "id": "4f71679bff9d",
+     "title": "Alaska Governor Orders Criminal Investigation into Mary Peltola Campaign",
+     "summary": "The Alaska governor has directed a formal probe into allegations that individuals aligned with former Democratic representative Mary Peltola's campaign recruited a decoy candidate to disrupt the state Senate race.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-28T16:23:09Z",
-     "outlet_count": 2,
+     "published": "2026-10-29T10:59:03Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "NBC News",
-       "title": "Fed expected to hold interest rates steady as inflation tops midterm voters’ concerns",
-       "url": "https://www.nbcnews.com/business/economy/fed-interest-rates-inflation-midterms-trump-rcna605905",
+       "outlet": "Just the News",
+       "title": "Alaska governor orders probe of Democrat nominee over alleged Senate race trickery",
+       "url": "https://justthenews.com/politics-policy/elections/alaska-governor-orders-probe-democrat-nominee-over-alleged-senate-race?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
        "official": false
       },
       {
-       "outlet": "CNA: World (Singapore)",
-       "title": "US Fed expected to hold rates steady ahead of key midterm elections",
-       "url": "https://www.channelnewsasia.com/world/us-fed-expected-hold-rates-steady-ahead-key-midterm-elections-6500656",
+       "outlet": "New York Times: Politics",
+       "title": "Alaska Governor Orders Criminal Investigation Into Peltola Campaign",
+       "url": "https://www.nytimes.com/2026/10/28/us/politics/trump-peltola-sullivan-alaska-senate.html",
+       "official": false
+      },
+      {
+       "outlet": "New York Post",
+       "title": "Alaska governor orders probe of Mary Peltola Senate campaign over ‘Decoy Dan’ Sullivan scandal",
+       "url": "https://nypost.com/2026/10/29/us-news/alaska-governor-orders-probe-of-mary-peltola-senate-campaign-over-decoy-dan-sullivan-scandal/",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Alaska governor orders probe into Peltola over alleged ballot plot",
+       "url": "https://www.cbsnews.com/news/trump-peltola-dan-sullivan-alaska-senate/",
        "official": false
       }
      ]
@@ -874,151 +868,61 @@
    "name": "World",
    "stories": [
     {
-     "id": "1270509143fd",
-     "title": "Flávio Bolsonaro Arrives in Miami Following Brazil Election Results",
-     "summary": "Following the conclusion of Brazil's presidential election, failed candidate Flávio Bolsonaro has landed in Miami after leaving his home country.",
-     "importance": 3,
+     "id": "3cf9c679e026",
+     "title": "Brazilian Senator Flávio Bolsonaro Arrives in Miami Following Election Loss",
+     "summary": "Brazilian Senator Flávio Bolsonaro arrived in the United States and was granted an entry visa after refusing to surrender his passport following an election defeat.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-28T15:52:35Z",
-     "outlet_count": 7,
+     "published": "2026-10-29T01:35:12Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "Sky News: World",
-       "title": "Flavio Bolsonaro lands in US after fleeing Brazil following election defeat",
-       "url": "https://news.sky.com/story/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-following-election-defeat-13604558",
+       "outlet": "BBC News: Latin America",
+       "title": "Watch: Moment Flávio Bolsonaro arrives in Florida",
+       "url": "https://www.bbc.co.uk/news/videos/ck79pj82jp4qo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Flavio Bolsonaro flees Brazil for US amid investigation",
-       "url": "https://www.dw.com/en/flavio-bolsonaro-flees-brazil-for-us-amid-investigation/a-79781094?maca=en-rss-en-all-1573-rdf",
+       "outlet": "BBC News: Latin America",
+       "title": "What we know as Flávio Bolsonaro lands in US after Brazil election loss",
+       "url": "https://www.bbc.co.uk/news/videos/c6x29djyx7g9o?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Straight Arrow News",
-       "title": "Flávio Bolsonaro lands in Miami after defying Brazil travel ban",
-       "url": "https://san.com/cc/flavio-bolsonaro-reportedly-heads-to-miami-after-defying-brazil-travel-ban/",
+       "outlet": "BBC News: Latin America",
+       "title": "How did Flávio Bolsonaro end up in Miami?",
+       "url": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Times of India: World",
-       "title": "Flavio Bolsonaro lands in Miami after leaving Brazil following election defeat to Lula",
-       "url": "https://timesofindia.indiatimes.com/world/us/flavio-bolsonaro-lands-in-miami-after-leaving-brazil-following-election-defeat-to-lula/articleshow/135269431.cms",
+       "outlet": "BBC News: Latin America",
+       "title": "Has Flávio Bolsonaro left Brazil to evade justice?",
+       "url": "https://www.bbc.co.uk/news/videos/cjx23vnv63yeo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Al Jazeera",
-       "title": "Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election",
-       "url": "https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election?traffic_source=rss",
+       "outlet": "Foreign Policy",
+       "title": "Flávio Bolsonaro Becomes a Florida Man",
+       "url": "https://foreignpolicy.com/2026/10/28/flavio-bolsonaro-flees-brazil-florida-trump-presidential-election-lula/",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Flavio Bolsonaro lands in Miami after fleeing Brazil for US",
-       "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-for-us/a-79788659?maca=en-rss-en-all-1573-rdf",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
-       "url": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
-       "official": false
-      },
-      {
-       "outlet": "The Hill",
-       "title": "Flávio Bolsonaro lands in Miami after fleeing Brazil",
-       "url": "https://thehill.com/policy/international/6178060-flavio-bolsonaro-brazil-election-miami-trump-administration/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "bae4ee917876",
-     "title": "Luxury World Cruise Ship Left Stranded in Cambodia Due to Fuel Costs",
-     "summary": "A multi-year luxury cruise voyage has been forced to suspend operations and leave passengers stranded in Cambodia amid soaring fuel prices.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-28T15:30:27Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Sky News: World",
-       "title": "Cruise ship left stranded in Cambodia after 'soaring fuel costs'",
-       "url": "https://news.sky.com/story/cruise-ship-mv-odyssey-stranded-in-cambodia-after-soaring-fuel-costs-13604720",
-       "official": false
-      },
-      {
-       "outlet": "Straight Arrow News",
-       "title": "Rising fuel costs halt world cruise, leaving 200 residents stranded in Cambodia",
-       "url": "https://san.com/cc/rising-fuel-costs-halt-world-cruise-leaving-200-residents-stranded-in-cambodia/",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: World",
-       "title": "Passengers stranded in Cambodia after cruise halted due to high fuel costs",
-       "url": "https://www.theguardian.com/travel/2026/oct/28/cruise-passengers-stranded-cambodia-suspends-operations",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8800509e7811",
-     "title": "Dutch Zookeeper Dies Following Rare Leopard Attack",
-     "summary": "A zookeeper working with big cats in the Netherlands has passed away following injuries sustained during a leopard mauling over the weekend.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-28T15:28:02Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "BBC News: World",
-       "title": "Dutch zookeeper dies after being mauled by leopard",
-       "url": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Dutch zookeeper dies after leopard mauling",
-       "url": "https://www.channelnewsasia.com/world/zookeeper-leopards-killed-netherlands-dutch-zoo-6497931",
-       "official": false
-      },
-      {
-       "outlet": "New York Times: World",
-       "title": "Dutch Zookeeper Dies After Rare Mauling by a Leopard",
-       "url": "https://www.nytimes.com/2026/10/28/world/europe/dutch-zookeeper-dead-leopard-netherlands.html",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "4809995bf3ab",
-     "title": "Israeli Election Results Leave Political Landscape Unresolved",
-     "summary": "Following Israel's latest election, initial reports point to a messy political outcome and complex coalition dynamics.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "World",
-     "published": "2026-10-28T14:39:00Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "New York Times: World",
-       "title": "4 Takeaways From Israel’s Election",
-       "url": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-vote-results-takeaways.html",
+       "outlet": "PBS NewsHour",
+       "title": "Brazil's Flávio Bolsonaro flees to U.S. after election loss",
+       "url": "https://www.pbs.org/newshour/show/brazils-flavio-bolsonaro-flees-to-u-s-after-election-loss",
        "official": false
       },
       {
        "outlet": "BBC News: World",
-       "title": "Israel's election result is messy",
-       "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+       "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+       "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "Sky News: World",
-       "title": "Israel's 'AI election'",
-       "url": "https://news.sky.com/story/israels-ai-election-13604883",
+       "outlet": "NBC News",
+       "title": "Brazil’s Flávio Bolsonaro arrives in U.S. after losing election",
+       "url": "https://www.nbcnews.com/video/brazil-s-flavio-bolsonaro-arrives-in-u-s-after-losing-election-272444997786",
        "official": false
       }
      ]
@@ -1029,127 +933,83 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "09122f354854",
-     "title": "Far-Right Activist Tommy Robinson Found Guilty of Harassing Journalists",
-     "summary": "A UK court has found far-right activist Tommy Robinson guilty of harassing two Daily Mail journalists, with the judge weighing prison sentences of up to 10 years.",
-     "importance": 3,
+     "id": "bb208cdce1a3",
+     "title": "Russian Drone Strike on Dnipro Railway Station Kills 13",
+     "summary": "A Russian drone strike hit a passenger train platform in the east-central Ukrainian city of Dnipro, resulting in 13 deaths and prompting demands for new sanctions from Volodymyr Zelenskyy.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-28T16:04:48Z",
-     "outlet_count": 5,
+     "published": "2026-10-29T10:50:13Z",
+     "outlet_count": 7,
      "sources": [
       {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Tommy Robinson found guilty of harassing two Daily Mail journalists",
-       "url": "https://www.thejournal.ie/tommy-robinson-harrassment-journalists-7207575-Oct2026/",
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Thirteen killed and at least 5 injured in Russian attack on train station in Dnipro",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060223/",
        "official": false
       },
       {
        "outlet": "RTÉ News (Ireland)",
-       "title": "Tommy Robinson found guilty of harassing two journalists",
-       "url": "https://www.rte.ie/news/world/2026/1028/1597108-tommy-robinson-court/",
+       "title": "13 killed in Russian attack on Ukraine train station",
+       "url": "https://www.rte.ie/news/ukraine/2026/1029/1597186-ukraine-russia/",
        "official": false
       },
       {
-       "outlet": "New York Times: World",
-       "title": "Tommy Robinson Found Guilty of Harassing 2 UK Journalists",
-       "url": "https://www.nytimes.com/2026/10/28/world/europe/tommy-robinson-harassment-verdict-court-uk.html",
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Breaking: Russia strikes train at Dnipro station with jet-powered drone, at least 13 dead",
+       "url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/",
        "official": false
       },
       {
-       "outlet": "BBC News: UK",
-       "title": "Tommy Robinson guilty of harassing two Daily Mail journalists",
-       "url": "https://www.bbc.co.uk/news/articles/cq2d6z36pp53o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian: UK",
-       "title": "Tommy Robinson faces up to 10 years in jail after being found guilty of harassing journalists",
-       "url": "https://www.theguardian.com/uk-news/2026/oct/28/tommy-robinson-found-guilty-of-harassing-journalists",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8673b0417456",
-     "title": "European Natural Gas Prices Surge Above 100 Euros",
-     "summary": "European gas prices crossed 100 euros per megawatt-hour for the first time since 2022 amid Middle East conflict concerns and winter reserve demands.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-28T16:41:31Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Euronews",
-       "title": "European gas price crosses €100 for first time since 2022 as EU warns of new crisis",
-       "url": "https://www.euronews.com/2026/10/28/european-gas-price-crosses-100-for-first-time-since-2022-as-eu-warns-of-new-crisis",
-       "official": false
-      },
-      {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "European gas hits €100/MWh for first time since 2022",
-       "url": "https://www.rte.ie/news/business/2026/1028/1597116-european-gas-price/",
+       "outlet": "Meduza (Russia)",
+       "title": "Russian drone strikes train station in Ukraine’s Dnipro, killing at least 13",
+       "url": "https://meduza.io/en/news/2026/10/29/russian-drone-strikes-train-station-in-ukraine-s-dnipro-killing-at-least-13",
        "official": false
       },
       {
        "outlet": "The Straits Times: World",
-       "title": "European gas prices hit 100 euros for first time since 2022",
-       "url": "https://www.straitstimes.com/world/europe/european-gas-prices-hit-100-euros-for-first-time-since-2022",
+       "title": "Russian drone attack on train station kills 13 in Ukraine’s Dnipro",
+       "url": "https://www.straitstimes.com/world/europe/russian-drone-attack-on-train-station-kills-13-in-ukraines-dnipro",
        "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Authorities: 13 dead in Russian attack on Dnipro railway station",
+       "url": "https://orf.at/stories/3446487/",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Behörden: 13 Tote bei russischem Angriff auf Bahnhof Dnipro"
+      },
+      {
+       "outlet": "Le Monde (France)",
+       "title": "LIVE, war in Ukraine: Volodymyr Zelensky demands new sanctions against Russia after \"terrible Russian strike\" on Dnipro railway station leaves 13 dead",
+       "url": "https://www.lemonde.fr/international/live/2026/10/29/en-direct-guerre-en-ukraine-volodymyr-zelensky-reclame-de-nouvelles-sanctions-contre-la-russie-apres-la-terrible-frappe-russe-contre-la-gare-ferroviaire-de-dnipro-qui-a-fait-13-morts_6799896_3210.html",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky réclame de nouvelles sanctions contre la Russie après la « terrible frappe russe » contre la gare ferroviaire de Dnipro qui a fait 13 morts"
       }
      ]
     },
     {
-     "id": "537ba918b38b",
-     "title": "Nordic Leaders Face Criticism Over Direct Phone Call With Putin",
-     "summary": "Finnish and Norwegian leaders Alexander Stubb and Jonas Gahr Støre are defending their direct phone discussions with Russian leader Vladimir Putin.",
+     "id": "932a8b5f2e72",
+     "title": "Estonia Plans to Construct 150 Border Bunkers Along Russian Frontier",
+     "summary": "The Estonian parliament announced plans to build approximately 150 concrete bunkers in Ida-Viru County along the Russian border to strengthen national defense.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-28T11:51:33Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "BBC News: World",
-       "title": "Norway and Finland leaders hold rare call with Putin",
-       "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "CNA: World (Singapore)",
-       "title": "Norway, Finland leaders hold 'frank and substantive' talk with Putin",
-       "url": "https://www.channelnewsasia.com/world/norway-finland-russia-putin-ukraine-war-6497676",
-       "official": false
-      },
-      {
-       "outlet": "Politico Europe",
-       "title": "Zelenskyy defends leaders of Finland and Norway over Putin talks",
-       "url": "https://www.politico.eu/article/volodymyr-zelenskyy-defend-finland-norway-alexander-stubb-jonas-gahr-store-vladimir-putin-russia-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "162b5eecfd2c",
-     "title": "Co Clare Man Found Guilty of Historical Indecent Assault",
-     "summary": "A 92-year-old Irish man has been found guilty on multiple counts of indecent assault against two orphaned sisters committed in the 1970s.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-10-28T16:03:09Z",
+     "published": "2026-10-29T10:29:30Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "TheJournal.ie (Ireland)",
-       "title": "Man (92) found guilty of indecent assault of two young girls who were in his care",
-       "url": "https://www.thejournal.ie/man-indecent-assualt-ennis-girls-in-care-7207530-Oct2026/",
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Estonia to build 150 bunkers along Russian border",
+       "url": "https://kyivindependent.com/estonia-to-build-150-bunkers-along-russian-border/",
        "official": false
       },
       {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "Man, 92, guilty of indecent assault on sisters in 1970s",
-       "url": "https://www.rte.ie/news/courts/2026/1028/1597115-ennis-circuit-court/",
+       "outlet": "Meduza (Russia)",
+       "title": "Estonia plans to build 150 bunkers on border with Russia",
+       "url": "https://meduza.io/en/news/2026/10/29/estonia-plans-to-build-150-bunkers-on-border-with-russia",
        "official": false
       }
      ]
@@ -1160,56 +1020,40 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "29ddf324fbb4",
-     "title": "Magnitude 5.4 Earthquake Strikes Tokyo and Surrounding Areas",
-     "summary": "A magnitude 5.4 earthquake struck Chiba Prefecture at a depth of 50 kilometers, registering lower five on Japan's seismic scale with no tsunami warning issued.",
+     "id": "0404866dafe4",
+     "title": "ANA Holdings to Acquire Regional Airlines to Bolster Domestic Operations",
+     "summary": "Japan's ANA Holdings has announced plans to purchase regional carriers in order to reinforce its domestic flight network amid shifting market conditions.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-28T15:26:00Z",
+     "published": "2026-10-29T11:00:41Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "The Japan Times",
-       "title": "M5.4 quake shakes Tokyo and surrounding prefectures; no tsunami warning issued",
-       "url": "https://www.japantimes.co.jp/news/2026/10/29/japan/society/earthquake-chiba-kanto-10290007/",
+       "outlet": "Nikkei Asia",
+       "title": "Japan's ANA Holdings to buy regional airlines to enhance domestic flights",
+       "url": "https://asia.nikkei.com/business/transportation/japan-s-ana-holdings-to-buy-regional-airlines-to-enhance-domestic-flights",
        "official": false
       }
      ]
     },
     {
-     "id": "18bd5396f507",
-     "title": "South Korea's Mirae Asset to Acquire Okasan Trading Unit",
-     "summary": "South Korea's Mirae Asset has moved to purchase the proprietary trading unit of Japan's Okasan.",
-     "importance": 2,
+     "id": "143241bdd972",
+     "title": "Suzuki Surpasses Rivals to Claim Second Place in Global Auto Sales",
+     "summary": "Suzuki Motor has overtaken Honda and Nissan to secure the second position in global automotive sales for the first half of fiscal 2026.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-28T17:03:28Z",
+     "published": "2026-10-29T10:50:00Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Nikkei Asia",
-       "title": "South Korea's Mirae Asset to buy prop trading unit of Japan's Okasan",
-       "url": "https://asia.nikkei.com/business/business-deals/south-korea-s-mirae-asset-to-buy-prop-trading-unit-of-japan-s-okasan",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "5f8c96a391ce",
-     "title": "Japan Post Bank Weighs Acquisition of Matsui Securities Stake",
-     "summary": "Japan Post Bank is reportedly evaluating the purchase of a 20% equity stake in Matsui Securities.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Japan",
-     "published": "2026-10-28T17:03:28Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Nikkei Asia",
-       "title": "Japan Post Bank weighs buying 20% stake in Matsui Securities",
-       "url": "https://asia.nikkei.com/business/finance/japan-post-bank-weighs-buying-20-stake-in-matsui-securities",
-       "official": false
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Suzuki overtakes Honda and Nissan to claim second place in global auto sales for first half of fiscal 2026",
+       "url": "http://www.asahi.com/articles/ASVBY320VVBYULFA01YM.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "スズキ、ホンダ・日産抜き2番手に 26年度上半期の自動車世界販売"
       }
      ]
     }
@@ -1219,19 +1063,67 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "decab9d943d5",
-     "title": "Ruling Party Lawmaker Voices Regret Over U.S. Visa Rejection",
-     "summary": "South Korean lawmaker Rep. Jin Sung-joon of the Democratic Party has expressed public regret following a U.S. visa rejection.",
-     "importance": 2,
+     "id": "59565f72019f",
+     "title": "South Korea and US Conduct Tabletop Exercises on Integrated Nuclear Capabilities",
+     "summary": "Military officials from South Korea and the United States held joint tabletop drills to coordinate conventional and nuclear deterrent strategies against North Korean threats.",
+     "importance": 4,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-28T14:41:37Z",
+     "published": "2026-10-29T10:57:02Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "S. Korea, US stage tabletop drills on integrating conventional, nuclear capabilities against N. Korean threats",
+       "url": "https://www.koreaherald.com/article/10919365",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "S. Korea, US stage tabletop drills on integrating conventional, nuclear capabilities against N. Korean threats",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261029/s-korea-us-stage-tabletop-drills-on-integrating-conventional-nuclear-capabilities-against-n-korean-threats?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "59388722f368",
+     "title": "South Korea Vows Criminal Penalties for AI Glasses Cheating on College Exam",
+     "summary": "The South Korean Ministry of Education announced strict punitive measures, including criminal prosecution and a three-year exam ban, for any students caught using artificial intelligence glasses during the upcoming CSAT college entrance exam.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-29T10:57:02Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Yonhap News",
-       "title": "Ruling party lawmaker voices regret over U.S. visa rejection",
-       "url": "https://en.yna.co.kr/view/AEN20261028012300315",
+       "outlet": "The Korea Times",
+       "title": "Gov't to pursue criminal punishment, 3-year exam ban for CSAT cheaters using AI glasses",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261029/govt-to-pursue-criminal-punishment-3-year-exam-ban-for-csat-cheaters-using-ai-glasses?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8b6a7dccf513",
+     "title": "South Korea and Germany Forge Enhanced Strategic Partnership",
+     "summary": "Following a presidential summit, South Korea and Germany officially agreed to upgrade their bilateral ties to an enhanced strategic partnership amid mounting global security risks.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-29T09:57:02Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Korea, Germany forge ‘enhanced strategic partnership’ as global risks mount",
+       "url": "https://www.koreaherald.com/article/10919705",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "S. Korea, Germany Agree to Upgrade Ties to Enhanced Strategic Partnership",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205227",
        "official": false
       }
      ]
@@ -1242,73 +1134,55 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "79dd1b4091d1",
-     "title": "AirPods Pro 3 Receive First Major $50 Discount on Amazon",
-     "summary": "Amazon has dropped prices on AirPods Pro 3 by a solid $50 alongside various other Apple ecosystem accessory deals.",
-     "importance": 2,
+     "id": "3f7f10d869ad",
+     "title": "Nintendo Switch 2 Black Friday Bundle Leak",
+     "summary": "A retail leak reveals an upcoming Black Friday bundle featuring a Nintendo Switch 2, Mario Kart World, and a three-month Nintendo Switch Online subscription.",
+     "importance": 3,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-28T15:34:08Z",
+     "published": "2026-10-29T10:13:15Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "9to5Mac",
-       "title": "Deals: AirPods Pro 3, Apple’s iPhone Duo charger, MacBook Air $200 off, Beats 360 first discount, more",
-       "url": "https://9to5mac.com/2026/10/28/deals-airpods-iphone-duo-charger-macbook-beats-360/",
+       "outlet": "billbil-kun",
+       "title": "🇫🇷 🚨 EXCLU 🚨 Je vous dévoile en exclusivité une offre spéciale Black Friday qui sera bientôt disponible Pack Nintendo Switch 2 + Mario Kart World + 3 mois d'abonnement au Nintendo Online à seulement…",
+       "url": "https://www.dealabs.com/bons-plans/bundle-2026-nintendo-pack-console-switch-2-le-jeu-mario-kart-world-3-mois-dabonnement-au-nintendo-online-via-70eur-sur-carte-fidelite-3441210",
        "official": false
       }
      ]
     },
     {
-     "id": "18077ce4e8a2",
-     "title": "Proton Launches Black Friday VPN Sale With Up to 70% Off",
-     "summary": "Proton's Black Friday sale has gone live, offering up to 70% off its VPN services and plans starting at $2.99 a month.",
+     "id": "566ffb7f2502",
+     "title": "Wo Long 2: Wings of Ember Available for Pre-Order",
+     "summary": "Pre-orders for Wo Long 2: Wings of Ember on Nintendo Switch 2, PS5, and Xbox Series X are now live at major retailers for $69.99.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-28T14:16:58Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "PC Gamer",
-       "title": "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan",
-       "url": "https://www.pcgamer.com/hardware/protons-black-friday-sale-is-already-live-ditch-google-with-up-to-70-percent-off-its-vpn-and-50-percent-off-unlimited-plan/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d304b0c25091",
-     "title": "Yakuza 0 Available for $10.99 on GOG",
-     "summary": "GOG has discounted Yakuza 0 to $10.99 as part of its ongoing catalog promotions.",
-     "importance": 1,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-10-28T16:48:07Z",
+     "published": "2026-10-29T01:47:10Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Yakuza 0 is $10.99 on GOG buff.ly/mwqahbh #ad",
-       "url": "https://buff.ly/mwqahbh",
+       "title": "Wo Long 2: Wings of Ember (Switch 2 KC/PS5/XSX) up for preorder on Amazon ($69.99) link.amazon/B07HNcLQY VGP buff.ly/2DicuOl PNP buff.ly/OZYiOol #ad",
+       "url": "https://link.amazon/B07HNcLQY",
        "official": false
       }
      ]
     },
     {
-     "id": "59f43bb194f0",
-     "title": "Stellar Blade Complete Steelbook Edition Listed for Preorder",
-     "summary": "Physical preorders for Stellar Blade Complete Steelbook Edition are available through select retailers.",
-     "importance": 1,
+     "id": "70aa10a0972f",
+     "title": "Shinobi: Art of Vengeance Deluxe Edition Discounted on Amazon",
+     "summary": "Amazon has dropped the price of the Deluxe Edition of Shinobi: Art of Vengeance for Nintendo Switch 2 to $38.98.",
+     "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-28T15:00:34Z",
+     "published": "2026-10-29T00:47:02Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Stellar Blade Complete Steelbook Edition (Switch 2) available at PNP ($64.99) buff.ly/dUJoCX0 #ad",
-       "url": "https://buff.ly/dUJoCX0",
+       "title": "Shinobi: Art of Vengeance Deluxe Edition (Switch 2 KC) is $38.98 on Amazon link.amazon/B028nbMW0 #ad",
+       "url": "https://link.amazon/B028nbMW0",
        "official": false
       }
      ]
@@ -1316,13 +1190,13 @@
    ]
   }
  ],
- "date": "2026-10-28",
- "generated_at": "2026-10-28T17:03:28Z",
+ "date": "2026-10-29",
+ "generated_at": "2026-10-29T11:00:41Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 882,
-  "clusters": 764,
+  "items": 1174,
+  "clusters": 1015,
   "feeds_ok": 174,
   "feeds_failed": 2
  },
