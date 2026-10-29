@@ -45,20 +45,25 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
         print("Push registration failed: \(error.localizedDescription)")
     }
 
+    // The notification delegate methods are nonisolated: the system doesn't promise to call them
+    // on the main thread, so anything that touches the model hops there explicitly.
+
     // Show alerts even while the app is open.
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification,
-                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+    nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification,
+                                            withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.banner, .sound])
     }
 
     // Tapping an alert opens its story; tapping "brief ready" opens the app on Today.
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
-                                withCompletionHandler completionHandler: @escaping () -> Void) {
-        let info = response.notification.request.content.userInfo
-        if let s = info["url"] as? String, let url = URL(string: s) {
-            model.pendingURL = url
+    nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
+                                            withCompletionHandler completionHandler: @escaping () -> Void) {
+        let link = response.notification.request.content.userInfo["url"] as? String
+        Task { @MainActor in
+            if let link, let url = URL(string: link) {
+                model.pendingURL = url
+            }
+            await model.refresh()
         }
-        Task { await model.refresh() }
         completionHandler()
     }
 }

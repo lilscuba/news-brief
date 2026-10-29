@@ -206,11 +206,11 @@ final class AppModel {
     /// request can finish) and when it comes back (to retry a failed save).
     func flushPendingSettings() {
         guard hasPendingSettings, sessionToken != nil else { return }
-        var task = UIBackgroundTaskIdentifier.invalid
-        task = UIApplication.shared.beginBackgroundTask { UIApplication.shared.endBackgroundTask(task) }
+        let task = BackgroundTaskID()
+        task.value = UIApplication.shared.beginBackgroundTask { UIApplication.shared.endBackgroundTask(task.value) }
         Task {
             await flushSettings()
-            UIApplication.shared.endBackgroundTask(task)
+            UIApplication.shared.endBackgroundTask(task.value)
         }
     }
 
@@ -282,6 +282,13 @@ final class AppModel {
         #endif
         try? await api.registerDevice(hex, sandbox: sandbox, token: token)
     }
+}
+
+/// Holds a background task's id. Its expiration handler has to be written before
+/// `beginBackgroundTask` returns the id, so the handler reads it from here. Only used on the
+/// main thread.
+private final class BackgroundTaskID: @unchecked Sendable {
+    var value = UIBackgroundTaskIdentifier.invalid
 }
 
 /// Small on-device persistence: cached feed, settings copy, history and read state.

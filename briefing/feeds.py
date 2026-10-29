@@ -28,6 +28,9 @@ _ATTR_RE = re.compile(r"""\b(src|width)\s*=\s*["']([^"']*)["']""", re.IGNORECASE
 # Pictures declared narrower than this are icons or tracking pixels, or too small to stretch
 # across a feed card without looking blurry.
 MIN_IMAGE_WIDTH = 300
+# BBC's feeds only carry 240px thumbnails, but its image server returns any width asked for.
+_BBC_IMAGE_RE = re.compile(r"^(https?://ichef\.bbci\.co\.uk/(?:ace/(?:standard|ws)|news))/(\d+)/")
+BBC_IMAGE_WIDTH = 976
 
 
 @dataclass
@@ -82,6 +85,13 @@ def _width(value) -> int | None:
         return None  # missing, or something like "100%"
 
 
+def _card_sized(url: str | None, width) -> tuple[str | None, object]:
+    """Asks BBC's image server for a card-sized picture instead of the feed's 240px thumbnail."""
+    if url and (m := _BBC_IMAGE_RE.match(url)) and int(m.group(2)) < BBC_IMAGE_WIDTH:
+        return _BBC_IMAGE_RE.sub(rf"\g<1>/{BBC_IMAGE_WIDTH}/", url), BBC_IMAGE_WIDTH
+    return url, width
+
+
 def entry_image(entry) -> str | None:
     """The article's picture: the largest media:content image, then media:thumbnail, an image
     enclosure, or the first real <img> in the content or description."""
@@ -98,10 +108,13 @@ def entry_image(entry) -> str | None:
         for tag in _IMG_TAG_RE.findall(text or ""):
             attrs = {k.lower(): v for k, v in _ATTR_RE.findall(tag)}
             candidates.append((attrs.get("src"), attrs.get("width")))
-    for url, width in candidates:
-        if (w := _width(width)) is not None and w < MIN_IMAGE_WIDTH:
-            continue
-        if found := image_url(url):
+    candidates = [_card_sized(url, width) for url, width in candidates]
+    # Some feeds repeat one picture in several tags and give its size on only one of them.
+    declared = [(image_url(url), _width(width)) for url, width in candidates]
+    too_small = ({url for url, w in declared if w is not None and w < MIN_IMAGE_WIDTH}
+                 - {url for url, w in declared if w is not None and w >= MIN_IMAGE_WIDTH})
+    for url, _ in candidates:
+        if (found := image_url(url)) and found not in too_small:
             return found
     return None
 
