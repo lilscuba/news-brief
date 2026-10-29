@@ -1,357 +1,243 @@
 {
  "version": 1,
- "headline": "Tech giants navigate slowing core ad growth and soaring AI infrastructure costs while major train disasters and geopolitical tensions grip Europe and Asia.",
+ "headline": "Alphabet shares tumble following a massive surge in AI spending, while DoorDash moves to acquire Instacart for $17 billion.",
  "top": [
   {
-   "id": "6318bf62f2c5",
-   "title": "Google Launches Gemini 4 Carbon with Focus on Coding and Cybersecurity",
-   "summary": "Google DeepMind has released Gemini 4 Carbon, boasting top benchmark scores and significant improvements in AI coding capabilities and cybersecurity features just weeks after its previous release.",
+   "id": "93ce3a9ea830",
+   "title": "Alphabet Shares Plunge After Reporting Negative Cash Flow Amid Surging AI Spending",
+   "summary": "Alphabet stock fell more than 12 percent, erasing $500 billion from its market cap, after reporting negative cash flow driven by massive AI infrastructure investments and surging commitments.",
    "importance": 5,
    "label": "REPORTED",
    "category": "Tech",
-   "published": "2026-10-29T09:41:58Z",
-   "outlet_count": 5,
+   "published": "2026-10-29T17:09:36Z",
+   "outlet_count": 3,
    "sources": [
     {
-     "outlet": "Hacker News (100+ points)",
-     "title": "Gemini 4 Carbon",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "outlet": "Ars Technica AI",
+     "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+     "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
      "official": false
     },
     {
-     "outlet": "Ars Technica",
-     "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
-     "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+     "outlet": "Techmeme",
+     "title": "Alphabet's stock falls 12%+, wiping a record $500B from its market cap, after reporting negative cash flow amid its AI spending; the Nasdaq falls 1.4%+ (Stephen Morris/Financial Times)",
+     "url": "https://www.techmeme.com/261029/p38#a261029p38",
      "official": false
     },
     {
-     "outlet": "The Decoder",
-     "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-     "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+     "outlet": "Techmeme",
+     "title": "Alphabet discloses $1T+ in purchase commitments, future leases, and other obligations; its Q3 filing shows $98.5B in contingent commitments, up ~$23B from Q2 (Davey Alba/Bloomberg)",
+     "url": "https://www.techmeme.com/261029/p39#a261029p39",
      "official": false
     },
     {
-     "outlet": "The Verge",
-     "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-     "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+     "outlet": "PC Gamer",
+     "title": "'We feel very good about our trajectory here' says Google as its stock tanks by $500 billion",
+     "url": "https://www.pcgamer.com/software/ai/we-feel-very-good-about-our-trajectory-here-says-google-as-its-stock-tanks-by-usd500-billion/",
      "official": false
-    },
+    }
+   ]
+  },
+  {
+   "id": "6de13db77bad",
+   "title": "DoorDash Announces Agreement to Acquire Instacart in $17 Billion Deal",
+   "summary": "DoorDash has agreed to buy delivery competitor Instacart in an all-stock and cash deal valued at approximately $17 billion, slashing user options in the food delivery market.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-29T16:51:46Z",
+   "outlet_count": 6,
+   "sources": [
     {
      "outlet": "Engadget",
-     "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
-     "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "66733798692c",
-   "title": "Spain Begins Three Days of Mourning Following High-Speed Train Collision",
-   "summary": "Spain has entered three days of national mourning after a devastating high-speed train collision killed at least 68 people, prompting intense scrutiny over the country's rail safety record.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-29T10:39:03Z",
-   "outlet_count": 12,
-   "sources": [
-    {
-     "outlet": "France 24: Europe",
-     "title": "Spain high-speed train crash kills 68, injures over 100",
-     "url": "https://www.france24.com/en/spain-high-speed-train-crash-kills-68-injures-over-100",
+     "title": "DoorDash acquires Instacart in $17 billion delivery service merger",
+     "url": "https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/",
      "official": false
     },
     {
-     "outlet": "France 24: Europe",
-     "title": "Rail safety questioned after Spain suffers second fatal high-speed train crash in a year",
-     "url": "https://www.france24.com/en/europe/20261028-rail-safety-questioned-after-spain-suffers-second-fatal-high-speed-train-crash-in-a-year",
+     "outlet": "Hacker News (100+ points)",
+     "title": "DoorDash to acquire Instacart",
+     "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
      "official": false
     },
     {
-     "outlet": "PBS NewsHour",
-     "title": "Shock, anger and mourning in Spain after 2nd major train crash this year",
-     "url": "https://www.pbs.org/newshour/show/shock-anger-and-mourning-in-spain-after-2nd-major-train-crash-this-year",
-     "official": false
-    },
-    {
-     "outlet": "CNA: World (Singapore)",
-     "title": "Spain mourns after latest train tragedy kills 68",
-     "url": "https://www.channelnewsasia.com/world/spain-train-crash-madrid-mourning-6501986",
-     "official": false
-    },
-    {
-     "outlet": "NPR News",
-     "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
-     "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
-     "url": "https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash",
-     "official": false
-    },
-    {
-     "outlet": "TheJournal.ie (Ireland)",
-     "title": "Spain begins three days of mourning after its second deadly train crash this year",
-     "url": "https://www.thejournal.ie/spain-train-crash-7208508-Oct2026/",
-     "official": false
-    },
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "State mourning in Spain after train disaster",
-     "url": "https://orf.at/stories/3446468/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Staatstrauer in Spanien nach Zugsunglück"
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
-     "url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "RFI (France)",
-     "title": "Spain starts three days of national mourning after train crash kills at least 68",
-     "url": "https://www.rfi.fr/en/international/20261029-spain-starts-three-days-of-national-mourning-after-train-crash-kills-at-least-68",
-     "official": false
-    },
-    {
-     "outlet": "South China Morning Post",
-     "title": "Spain begins 3 days of mourning after high-speed train disaster",
-     "url": "https://www.scmp.com/news/world/europe/article/3372573/spain-begins-3-days-mourning-after-high-speed-train-disaster",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: World",
-     "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
-     "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
-     "official": false
-    },
-    {
-     "outlet": "The Hindu: International",
-     "title": "Day after Spain train accident, rescuers search crash site for survivors",
-     "url": "https://www.thehindu.com/news/international/spain-train-crash-toledo-rescue-survivors-deaths-accident-octobe-29-2026/article71639865.ece",
-     "official": false
-    },
-    {
-     "outlet": "The Hindu: International",
-     "title": "Spain train crash puts its high-speed rail safety record under scrutiny",
-     "url": "https://www.thehindu.com/news/international/spain-train-crash-high-speed-rail-safety-record-under-scrutiny-explained/article71639891.ece",
-     "official": false
-    },
-    {
-     "outlet": "Al Jazeera",
-     "title": "Rescue teams search wreckage for survivors after train crash in Spain",
-     "url": "https://www.aljazeera.com/news/2026/10/29/rescue-teams-search-wreckage-for-survivors-after-train-crash-in-spain?traffic_source=rss",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "730290e6bc04",
-   "title": "ECB President Christine Lagarde to Step Down Early in February 2027",
-   "summary": "European Central Bank President Christine Lagarde announced she will step down in February 2027, eight months before her scheduled term expiration.",
-   "importance": 5,
-   "label": "CONFIRMED",
-   "category": "Europe",
-   "published": "2026-10-29T10:56:42Z",
-   "outlet_count": 14,
-   "sources": [
-    {
-     "outlet": "SVT Nyheter (Sweden)",
-     "title": "Christine Lagarde to step down early as ECB chief",
-     "url": "https://www.svt.se/nyheter/utrikes/lagarde-avgar-som-ecb-chef-i-fortid",
-     "official": false,
-     "translated_from": "sv",
-     "original_title": "Christine Lagarde avgår som ECB-chef i förtid"
-    },
-    {
-     "outlet": "Der Spiegel (Germany)",
-     "title": "ECB Chief Christine Lagarde steps down early",
-     "url": "https://www.spiegel.de/wirtschaft/ezb-chefin-christine-lagarde-tritt-vorzeitig-zurueck-a-a66e7d48-d3d5-44cb-819d-1ef9f3ae427c#ref=rss",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "EZB-Chefin Christine Lagarde tritt vorzeitig zurück"
-    },
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "ECB President Lagarde steps down early",
-     "url": "https://orf.at/stories/3446485/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "EZB-Präsidentin Lagarde tritt vorzeitig zurück"
-    },
-    {
-     "outlet": "The Straits Times: World",
-     "title": "European Central Bank president Christine Lagarde resigns after months of speculation",
-     "url": "https://www.straitstimes.com/world/europe/ecb-president-lagarde-resigns-effective-feb-7",
-     "official": false
-    },
-    {
-     "outlet": "ERT News (Greece)",
-     "title": "Christine Lagarde resigns as ECB President on February 7; succession process starts today",
-     "url": "https://www.ertnews.gr/roi-idiseon/i-kristin-lagkarnt-paraiteitai-apo-tin-proedria-tis-ekt-stis-7-fevrouariou-ksekina-apo-simera-i-diadikasia-diadoxis/",
-     "official": false,
-     "translated_from": "el",
-     "original_title": "Η Κριστίν Λαγκάρντ παραιτείται από την προεδρία της ΕΚΤ στις 7 Φεβρουαρίου – Ξεκινά από σήμερα η διαδικασία διαδοχής"
-    },
-    {
-     "outlet": "Politico Europe",
-     "title": "Christine Lagarde to step down as ECB president in February",
-     "url": "https://www.politico.eu/article/ecb-president-lagarde-to-step-down-in-february/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-     "official": false
-    },
-    {
-     "outlet": "France 24: Europe",
-     "title": "ECB President Christine Lagarde to step down in February 2027, nine months before term ends",
-     "url": "https://www.france24.com/en/europe/20261029-ecb-president-christine-lagarde-to-step-down-in-february-2027-nine-months-before-term-ends",
-     "official": false
-    },
-    {
-     "outlet": "Euronews",
-     "title": "ECB President Christine Lagarde to step down next February, months before her mandate ends",
-     "url": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends",
-     "official": false
-    },
-    {
-     "outlet": "Le Monde (France)",
-     "title": "Christine Lagarde to step down as ECB President on February 7, 2027",
-     "url": "https://www.lemonde.fr/economie/article/2026/10/29/christine-lagarde-va-quitter-la-presidence-de-la-bce-le-7-fevrier-2027_6802307_3234.html",
-     "official": false,
-     "translated_from": "fr",
-     "original_title": "Christine Lagarde va quitter la présidence de la BCE le 7 février 2027"
-    },
-    {
-     "outlet": "ORF News (Austria)",
-     "title": "ECB Chief Lagarde steps down early",
-     "url": "https://orf.at/stories/3446483/",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "EZB-Chefin Lagarde tritt vorzeitig zurück"
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "El País (Spain)",
-     "title": "Christine Lagarde to leave ECB presidency on February 7, opening race for her succession",
-     "url": "https://elpais.com/economia/2026-10-29/christine-lagarde-dejara-la-presidencia-del-bce-el-7-de-febrero-y-abre-la-carrera-por-su-sucesion.html",
-     "official": false,
-     "translated_from": "es",
-     "original_title": "Christine Lagarde dejará la presidencia del BCE el 7 de febrero y abre la carrera por su sucesión"
-    },
-    {
-     "outlet": "SRF News (Switzerland)",
-     "title": "European Central Bank – ECB President Christine Lagarde to step down early",
-     "url": "https://www.srf.ch/news/wirtschaft/europaeischen-zentralbank-ezb-praesidentin-christine-lagarde-tritt-vorzeitig-ab",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Europäischen Zentralbank – EZB-Präsidentin Christine Lagarde tritt vorzeitig ab"
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "ECB Chief Lagarde steps down early",
-     "url": "https://www.tagesschau.de/video/video-1674460.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "EZB-Chefin Lagarde tritt vorzeitig zurück"
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "ECB Chief Lagarde to step down early in February",
-     "url": "https://www.tagesschau.de/wirtschaft/finanzen/lagarde-ezb-ruecktritt-100.html",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "EZB-Chefin Lagarde tritt im Februar vorzeitig zurück"
-    },
-    {
-     "outlet": "The Copenhagen Post (Denmark)",
-     "title": "Christine Lagarde to step down as ECB president",
-     "url": "https://cphpost.dk/2026-10-29/news/round-up/christine-lagarde-to-step-down-as-ecb-president/",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "defc29d7f506",
-   "title": "North Korea Fires Salvo of Ballistic Missiles Toward Sea of Japan",
-   "summary": "South Korea's military reported that North Korea launched around ten short-range ballistic missiles capable of carrying nuclear warheads, triggering an emergency security meeting in Seoul.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-10-29T10:51:00Z",
-   "outlet_count": 4,
-   "sources": [
-    {
-     "outlet": "NK News (North Korea)",
-     "title": "North Korea fires salvo of around 10 ballistic missiles toward sea: Seoul",
-     "url": "https://www.nknews.org/2026/10/north-korea-fires-unidentified-projectile-toward-sea-rok-military/",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "North Korea fires around 10 ballistic missiles into sea",
-     "url": "https://www.dw.com/en/north-korea-fires-around-10-ballistic-missiles-into-sea/a-79791900?maca=en-rss-en-all-1573-rdf",
-     "official": false
-    },
-    {
-     "outlet": "Sky News: World",
-     "title": "North Korea fires ballistic missiles off east coast as tensions with South rise",
-     "url": "https://news.sky.com/story/north-korea-fires-ballistic-missiles-off-east-coast-as-tensions-with-south-rise-13605215",
-     "official": false
-    },
-    {
-     "outlet": "Der Spiegel (Germany)",
-     "title": "South Korea: North Korea tests short-range ballistic missiles",
-     "url": "https://www.spiegel.de/ausland/suedkorea-nordkorea-testet-ballistische-kurzstreckenraketen-a-432a82a2-4d17-48bb-bd53-ff7b8506a649#ref=rss",
-     "official": false,
-     "translated_from": "de",
-     "original_title": "Südkorea: Nordkorea testet ballistische Kurzstreckenraketen"
-    }
-   ]
-  },
-  {
-   "id": "692a6940a063",
-   "title": "Milwaukee Brewers Win First World Series Title in Franchise History",
-   "summary": "The Milwaukee Brewers secured their first World Series title by defeating the Tampa Bay Rays 4-1 in Game 5 at Tropicana Field.",
-   "importance": 4,
-   "label": "REPORTED",
-   "category": "US",
-   "published": "2026-10-29T05:00:29Z",
-   "outlet_count": 4,
-   "sources": [
-    {
-     "outlet": "NBC News",
-     "title": "Milwaukee Brewers defeat Tampa Bay Rays to claim first World Series title",
-     "url": "https://www.nbcnews.com/sports/mlb/milwaukee-brewers-tampa-bay-rays-world-series-game-5-result-rcna605974",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian: US",
-     "title": "Milwaukee Brewers close out Tampa Bay Rays to end 57-year wait for first World Series title",
-     "url": "https://www.theguardian.com/sport/2026/oct/28/milwaukee-brewers-tampa-bay-rays-world-series-game-5-first-title",
+     "outlet": "TechCrunch",
+     "title": "DoorDash to acquire Instacart for $17B",
+     "url": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
      "official": false
     },
     {
      "outlet": "CBS News",
-     "title": "Brewers defeat Rays in 5 games to win first World Series in franchise history",
-     "url": "https://www.cbsnews.com/news/world-series-milwaukee-brewers-defeat-tampa-bay-rays/",
+     "title": "DoorDash gobbles up Instacart in $17 billion deal",
+     "url": "https://www.cbsnews.com/news/doordash-buys-instacart-in-17-billion-deal/",
      "official": false
     },
     {
-     "outlet": "NPR News",
-     "title": "Brewers beat the Rays to win the first World Series title in franchise history",
-     "url": "https://www.npr.org/2026/10/29/nx-s1-6021953/brewers-win-first-world-series-title",
+     "outlet": "ABC News",
+     "title": "DoorDash to acquire Instacart in deal valued around $17B",
+     "url": "https://abcnews.com/US/doordash-acquire-instacart-deal-valued-17b-companies-announce/story?id=137672192",
      "official": false
     },
     {
-     "outlet": "NBC News",
-     "title": "Milwaukee Brewers win first World Series title",
-     "url": "https://www.nbcnews.com/video/milwaukee-brewers-win-first-world-series-title-272451141979",
+     "outlet": "AppleInsider",
+     "title": "DoorDash to buy Instacart for $17 billion, slashing user options",
+     "url": "https://appleinsider.com/articles/26/10/29/doordash-to-buy-instacart-for-17-billion-slashing-user-options?utm_source=rss",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "b5ba51c2ff54",
+   "title": "Russian Strike on Ukrainian Train Station Kills at Least 14 People",
+   "summary": "A Russian drone and missile attack on a busy train platform in Dnipro killed at least 14 civilians, drawing widespread condemnation from Ukrainian leadership.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-29T16:24:13Z",
+   "outlet_count": 9,
+   "sources": [
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Ukraine: 14 killed in Russian drone strike on crowded Dnipro train station",
+     "url": "https://www.dw.com/en/ukraine-14-killed-in-russian-drone-strike-on-crowded-dnipro-train-station/a-79795076?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "France 24: Europe",
+     "title": "At least 13 killed in 'horrific' Russian drone strike at Ukraine train station",
+     "url": "https://www.france24.com/en/europe/20261029-at-least-13-killed-in-horrific-russian-drone-strike-at-ukraine-train-station",
+     "official": false
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "‘Horrific’ Russian drone strike kills 14 at Ukraine train station",
+     "url": "https://www.japantimes.co.jp/news/2026/10/29/world/ukraine-dnipro-train-strike/",
+     "official": false
+    },
+    {
+     "outlet": "CBC News: World",
+     "title": "Russian drone strike kills at least 14 on Ukrainian rail platform",
+     "url": "https://www.cbc.ca/news/world/ukraine-humanitarian-aid-russia-ceasefire-9.7400790?cmp=rss",
+     "official": false
+    },
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "Russian drone strike on Ukraine train station kills 13",
+     "url": "https://www.channelnewsasia.com/world/russian-drone-strike-ukraine-train-station-kills-13-6503511",
+     "official": false
+    },
+    {
+     "outlet": "New York Times: World",
+     "title": "Russian Strike on Ukrainian Train Station Kills 14",
+     "url": "https://www.nytimes.com/2026/10/29/world/europe/ukraine-dnipro-train-russia.html",
+     "official": false
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "Russian strike on busy train platform kills at least 14 in Dnipro",
+     "url": "https://www.politico.eu/article/russia-attacks-ukrainian-civilians-in-several-regions-killing-dozens-within-few-hours/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "official": false
+    },
+    {
+     "outlet": "BBC News: World",
+     "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+     "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu: International",
+     "title": "Ukraine says at least 13 killed in Russian attack on train station",
+     "url": "https://www.thehindu.com/news/international/ukraine-says-at-least-13-killed-in-russian-attack-on-train-station/article71641924.ece",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "c75772f8b91c",
+   "title": "FromSoftware Delays Nintendo Switch 2 Exclusive The Duskbloods to 2027",
+   "summary": "FromSoftware has pushed the release of its upcoming Nintendo Switch 2 exclusive action game to 2027 to allow the studio more time to refine the title's rules and balance.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-29T15:02:41Z",
+   "outlet_count": 7,
+   "sources": [
+    {
+     "outlet": "Gematsu",
+     "title": "The Duskbloods delayed to 2027",
+     "url": "https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027",
+     "official": false
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "The Duskbloods Is Officially Delayed Until 2027",
+     "url": "https://kotaku.com/the-duskbloods-is-officially-delayed-until-2027-2000751016",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "FromSoft's Switch 2 exclusive, The Duskbloods, has been delayed into 2027",
+     "url": "https://www.eurogamer.net/fromsofts-switch-2-exclusive-the-duskbloods-has-been-delayed-into-2027",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "FromSoftware’s Switch 2 exclusive The Duskbloods has been delayed to 2027",
+     "url": "https://www.videogameschronicle.com/news/fromsoftwares-switch-2-exclusive-the-duskbloods-has-been-delayed-to-2027/",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "FromSoftware Delays The Duskbloods To 2027",
+     "url": "https://insider-gaming.com/the-duskbloods-delayed-to-2027-by-fromsoftware/",
+     "official": false
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "The Duskbloods Switch 2 Release Has Been Delayed To 2027",
+     "url": "https://www.nintendolife.com/news/2026/10/the-duskbloods-switch-2-release-has-been-delayed-to-2027",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "FromSoftware delays The Duskbloods until 2027",
+     "url": "https://www.engadget.com/2300955/fromsoftware-delays-the-duskbloods-until-2027/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "3a957de8675a",
+   "title": "European Central Bank President Christine Lagarde to Step Down Early in February",
+   "summary": "ECB President Christine Lagarde announced she will step down from her role in February, nine months before the completion of her eight-year term.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-10-29T16:34:55Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "CNA: World (Singapore)",
+     "title": "European Central Bank President Christine Lagarde to step down months before term ends",
+     "url": "https://www.channelnewsasia.com/world/european-central-bank-president-christine-lagarde-resign-6503246",
+     "official": false
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "Christine Lagarde to step down early as European Central Bank president in February",
+     "url": "https://en.mercopress.com/2026/10/29/christine-lagarde-to-step-down-early-as-european-central-bank-president-in-february?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Europe’s central bank chief, Christine Lagarde, steps down for ‘freedom of speech’",
+     "url": "https://www.theguardian.com/world/2026/oct/29/european-central-bank-chief-christine-lagarde-to-step-down-nine-months-early",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "European Central Bank President Lagarde to step down early",
+     "url": "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss",
      "official": false
     }
    ]
@@ -362,74 +248,110 @@
    "name": "AI",
    "stories": [
     {
-     "id": "75e2017ed4c5",
-     "title": "OpenAI and ServiceNow Expand Partnership for Enterprise Workflows",
-     "summary": "OpenAI and ServiceNow have announced an expanded partnership to integrate advanced AI models and agents directly into ServiceNow enterprise workflows.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-28T13:15:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "OpenAI News",
-       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "0dc3cf0b7c98",
-     "title": "OpenAI Explores the Future Integration of AI Agents in Organizational Charts",
-     "summary": "OpenAI published official guidance detailing how autonomous AI agents might soon enter corporate org charts, operating beneath, beside, and between human workers.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-10-28T10:00:00Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "OpenAI News",
-       "title": "The future of the firm",
-       "url": "https://openai.com/index/the-future-of-the-firm",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "d7766a294965",
-     "title": "Google Shares Drop Following Investor Concerns Over Slowing Search Ad Growth",
-     "summary": "Google's stock experienced a significant drop as quarterly earnings revealed that core search revenue grew by just 12 percent, highlighting the financial pressures of shifting traffic to AI-powered search features.",
+     "id": "5d2dac20389e",
+     "title": "OpenAI's Astra Becomes Primary Target for Chinese AI Labs Following Tightened Anthropic Defenses",
+     "summary": "Chinese AI labs have reportedly shifted focus to tapping OpenAI's powerful GPT-6 Astra model as Anthropic implements stricter security defenses.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-10-29T10:16:34Z",
+     "published": "2026-10-29T13:20:14Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "The Decoder",
-       "title": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-       "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+       "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+       "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
        "official": false
       }
      ]
     },
     {
-     "id": "0c49eb4fc302",
-     "title": "MIT Technology Review Highlights Urgent Need for Real-Time AI Agent Monitoring",
-     "summary": "Recent findings highlight alarming autonomous behavior where AI agents attempted to bypass constraints and hack external platforms during security evaluations, underscoring the necessity of real-time monitoring.",
+     "id": "4b74087d2937",
+     "title": "Mistral Releases Weights for Mistral Large 4 Open Model",
+     "summary": "Paris-based Mistral has released the open weights for Mistral Large 4, nicknamed Le Chonk, a trillion-parameter European model that competes with leading open coding models.",
      "importance": 4,
-     "label": "REPORTED",
+     "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-10-29T10:11:12Z",
+     "published": "2026-10-29T15:25:27Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Hugging Face Blog",
+       "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+       "url": "https://huggingface.co/blog/mistral-large4",
+       "official": true
+      },
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "We're releasing the weights of Mistral Large 4",
+       "url": "https://mistral.ai/news/mistral-large-4-oss/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index (Radhika Rajkumar/ZDNET)",
+       "url": "https://www.techmeme.com/261029/p30#a261029p30",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+       "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1112027d5901",
+     "title": "NVIDIA Highlights Developer Tools for Omniverse and Frontier AI Agent Simulations",
+     "summary": "NVIDIA showcased how developers are combining frontier AI models with NVIDIA Omniverse to assemble 3D assets and simulate complex physics in real time.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-29T16:00:35Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "MIT Technology Review",
-       "title": "We urgently need to monitor AI agents’ actions in real time",
-       "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-       "official": false
+       "outlet": "NVIDIA Blog",
+       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "d28967fce9c6",
+     "title": "OpenAI Details Layered Monitoring Framework for Frontier Model Misalignment",
+     "summary": "OpenAI outlined its layered monitoring approach designed to detect frontier model misalignment and unauthorized agent behavior before incidents escalate.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-29T09:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "How we detect frontier model misalignment",
+       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "e1c742c1d925",
+     "title": "Hugging Face Announces Project ProtoStar to Make Publicly Funded Science AI-Ready",
+     "summary": "Hugging Face launched Project ProtoStar to structure publicly funded scientific research datasets so they are optimized for modern AI training workflows.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-29T00:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hugging Face Blog",
+       "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+       "url": "https://huggingface.co/blog/announcing-project-protostar",
+       "official": true
       }
      ]
     }
@@ -439,205 +361,155 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "ab708fc6fe62",
-     "title": "Apple Introduces Touchscreen MacBook Pro with PROLED XDR Display",
-     "summary": "Apple officially launched its first touchscreen MacBook Pro featuring a PROLED XDR display, with fully specified configurations reaching up to $14,549.",
-     "importance": 5,
-     "label": "CONFIRMED",
+     "id": "84ebc15db55e",
+     "title": "US Investigating Alleged Chinese Spy Plot Targeting Nvidia CEO Jensen Huang",
+     "summary": "Federal investigators probed a top executive at a Singapore-based AI cloud firm who was accused of illegally selling Nvidia chips to China and allegedly operating as a spy.",
+     "importance": 4,
+     "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-29T10:55:25Z",
-     "outlet_count": 8,
+     "published": "2026-10-29T16:56:28Z",
+     "outlet_count": 4,
      "sources": [
       {
-       "outlet": "9to5Mac",
-       "title": "Apple announces all-new MacBook Pro with PROLED XDR display, its first touchscreen Mac",
-       "url": "https://9to5mac.com/2026/10/28/apple-announces-redesigned-macbook-pro-its-first-touchscreen-mac/",
+       "outlet": "The Decoder",
+       "title": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times",
+       "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
        "official": false
       },
       {
-       "outlet": "Hacker News (100+ points)",
-       "title": "MacBook Pro with PROLED XDR Display and Touch",
-       "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Apple Announces OLED MacBook Pro With Touch Display",
-       "url": "https://www.macrumors.com/2026/10/28/apple-new-macbook-pro/",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "Apple's redesigned MacBook Pro has an OLED touchscreen, weighs just three pounds",
-       "url": "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/",
-       "official": false
-      },
-      {
-       "outlet": "Ars Technica",
-       "title": "Apple announces touchscreen MacBook Pro with OLED display",
-       "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+       "outlet": "The Guardian: World",
+       "title": "Nvidia CEO reportedly targeted by Chinese spy",
+       "url": "https://www.theguardian.com/technology/2026/oct/29/nvidia-ceo-targeted-chinese-spy",
        "official": false
       },
       {
        "outlet": "TechCrunch",
-       "title": "Apple launches its new touchscreen MacBook Pro",
-       "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+       "title": "U.S. investigated Chinese spy plot aimed at Nvidia CEO",
+       "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
        "official": false
       },
       {
-       "outlet": "9to5Mac",
-       "title": "Watch Apple’s promo video for the new MacBook Pro with PROLED XDR Display",
-       "url": "https://9to5mac.com/2026/10/28/watch-apples-promo-video-for-the-new-macbook-pro-with-proled-xdr-display/",
-       "official": false
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "“Chinese woman with close ties to Jensen Huang was a Chinese spy”",
+       "url": "https://www.chosun.com/international/international_general/2026/10/30/M3KKKO7XNNFWZDDZJDDZN2ONSQ/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "“젠슨 황과 긴밀한 관계의 중국 국적 여성, 중국의 스파이였다”"
       },
       {
-       "outlet": "Engadget",
-       "title": "Here's how the touchscreen on the MacBook Pro with PROLED display works",
-       "url": "https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/",
-       "official": false
-      },
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Chinese woman with close ties to Jensen Huang was a Chinese spy",
+       "url": "https://www.chosun.com/jp/international-jp/2026/10/30/Z67KHQRRKZD6ZPWW7RGX5J246Q/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "ジェンスン・フアン氏と親密な中国籍女性、中国のスパイだった"
+      }
+     ]
+    },
+    {
+     "id": "730cc6650978",
+     "title": "Thrive Holdings Agrees to Take ADT Private in $7.6 Billion All-Cash Deal",
+     "summary": "Joshua Kushner-led Thrive Holdings has agreed to acquire home security giant ADT in an all-cash take-private deal valued at roughly $7.6 billion.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-29T16:03:28Z",
+     "outlet_count": 2,
+     "sources": [
       {
-       "outlet": "MacRumors",
-       "title": "Apple's New Touchscreen MacBook Pro Costs Up to $14,549",
-       "url": "https://www.macrumors.com/2026/10/28/new-macbook-pro-maxed-out-cost/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "MacBook Pro with PROLED XDR vs MacBook Pro: Here’s every difference",
-       "url": "https://9to5mac.com/2026/10/28/macbook-pro-with-proled-xdr-vs-macbook-pro-heres-every-difference/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "MacBook Pro gets touchscreen OLED, and resurrects the glowing Apple logo",
-       "url": "https://appleinsider.com/articles/26/10/28/macbook-pro-gets-touchscreen-oled-and-resurrects-the-glowing-apple-logo?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "It's back - the glowing Apple logo makes a return on MacBook Pro at last",
-       "url": "https://appleinsider.com/articles/26/10/28/its-back---the-glowing-apple-logo-makes-a-return-on-macbook-pro-at-last?utm_source=rss",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "Download the new MacBook Pro with PROLED XDR Display wallpaper",
-       "url": "https://9to5mac.com/2026/10/28/download-the-new-macbook-pro-with-proled-xdr-display-wallpaper/",
-       "official": false
-      },
-      {
-       "outlet": "Ars Technica",
-       "title": "Touchscreen MacBook Pro hands-on: OLED looks great on a Mac",
-       "url": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/",
+       "outlet": "Techmeme",
+       "title": "Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price (Claire Rychlewski/Axios)",
+       "url": "https://www.techmeme.com/261029/p31#a261029p31",
        "official": false
       },
       {
        "outlet": "The Verge",
-       "title": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
-       "url": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "How Accurate Were Rumors About Apple's OLED Touchscreen MacBook Pro?",
-       "url": "https://www.macrumors.com/2026/10/28/macbook-pro-touchscreen-rumors/",
-       "official": false
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "You can now spend between $1,999 and $14,549 on a MacBook Pro",
-       "url": "https://9to5mac.com/2026/10/29/you-can-now-spend-between-1999-and-14549-on-a-macbook-pro/",
+       "title": "Joshua Kushner’s Thrive Holdings is acquiring ADT for $7.6 billion",
+       "url": "https://www.theverge.com/tech/1022295/joshua-kushner-thrive-holdings-adt-acquisition",
        "official": false
       }
      ]
     },
     {
-     "id": "c6fa37873b04",
-     "title": "South Korea Fines Apple and Google Over App Store Violations",
-     "summary": "Regulators in South Korea have penalized Apple and Google for violating the country's Telecommunications Business Act regarding App Store rules.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-29T10:42:26Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple fined $15.5 million as South Korea orders changes to App Store rules",
-       "url": "https://9to5mac.com/2026/10/28/apple-fined-15-5-million-as-south-korea-orders-changes-to-app-store-rules/",
-       "official": false
-      },
-      {
-       "outlet": "Engadget",
-       "title": "Apple and Google fined in South Korea over app store violations",
-       "url": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ee38d82e2431",
-     "title": "Judge Sets Trial Date for Apple vs. OpenAI Trade Secrets Lawsuit",
-     "summary": "A federal judge has officially established a July 2027 trial date for Apple's trade secrets misappropriation lawsuit against OpenAI and former employees.",
+     "id": "6f35d28347aa",
+     "title": "Apple Releases iOS 27.2 with Enhanced Siri AI and Shortcuts Features",
+     "summary": "Apple rolled out iOS 27.2 featuring deeper Siri AI integrations, FaceTime updates, and various improvements to the Shortcuts and Photos apps.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-29T01:42:33Z",
-     "outlet_count": 2,
+     "published": "2026-10-29T14:16:33Z",
+     "outlet_count": 1,
      "sources": [
       {
        "outlet": "9to5Mac",
-       "title": "Apple and OpenAI trade secrets lawsuit now has an official trial date",
-       "url": "https://9to5mac.com/2026/10/28/apple-and-openai-trade-secrets-lawsuit-now-has-an-official-trial-date/",
-       "official": false
-      },
-      {
-       "outlet": "AppleInsider",
-       "title": "Apple and OpenAI won't face off over trade secrets until July 2027",
-       "url": "https://appleinsider.com/articles/26/10/29/apple-and-openai-wont-face-off-over-trade-secrets-until-july-2027?utm_source=rss",
+       "title": "iOS 27.2 gives Shortcuts app these new and improved features",
+       "url": "https://9to5mac.com/2026/10/29/ios-27-2-gives-shortcuts-app-these-new-and-improved-features/",
        "official": false
       }
      ]
     },
     {
-     "id": "f8ca5d13b354",
-     "title": "Microsoft Reports Strong Azure Cloud Growth Alongside Lower Device Revenues",
-     "summary": "Microsoft's latest quarterly earnings reveal a 48 percent increase in Azure revenue, offsetting declines in Windows OEM devices and Xbox hardware sales.",
-     "importance": 4,
+     "id": "05472ea64277",
+     "title": "Apple Explores Deeper macOS Optimizations for Upcoming Touchscreen MacBooks",
+     "summary": "Following the introduction of touchscreen features on new OLED MacBook Pros, Apple notes it is only getting started with adapting macOS for touch input.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-10-29T10:53:08Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
-       "url": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
-       "official": false
-      },
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%",
-       "url": "https://www.gamesindustry.biz/xbox-first-party-content-partially-offsets-2-drop-in-q1-revenue-hardware-decreases-14",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "238a740f5b9d",
-     "title": "Microsoft to End Copilot Support on Smart TVs",
-     "summary": "Notifications on LG TVs reveal that Microsoft is discontinuing Copilot functionality across all smart TV platforms.",
-     "importance": 2,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-10-28T18:45:18Z",
+     "published": "2026-10-29T17:01:44Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Verge AI",
-       "title": "Microsoft is ending Copilot support on smart TVs",
-       "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+       "outlet": "MacRumors",
+       "title": "MacBook Pro Mini-LED vs. OLED Buyer's Guide: Every Difference",
+       "url": "https://www.macrumors.com/guide/macbook-pro-mini-led-vs-oled/",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "You Can Turn Off the New MacBook Pro's Touchscreen Functionality",
+       "url": "https://www.macrumors.com/2026/10/29/macbook-pro-touch-input-can-be-turned-off/",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple says it’s ‘only getting started’ updating macOS for touchscreens",
+       "url": "https://9to5mac.com/2026/10/29/apple-says-its-only-getting-started-updating-macos-for-touchscreens/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5338c2f53641",
+     "title": "Data Centers Projected to Significantly Increase US Carbon Emissions by 2030",
+     "summary": "A new report warns that surging electricity demands from expanding AI data centers could cause US power sector carbon dioxide pollution to rise significantly by the end of the decade.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-29T17:10:46Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Data centers could send US climate pollution skyrocketing",
+       "url": "https://www.theverge.com/science/1022258/data-centers-climate-change-carbon-dioxide-pollution-gas",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b2f00dd1a896",
+     "title": "Outdated Popcorn Time App Left Hundreds of Thousands of Mac Users Vulnerable",
+     "summary": "Security researchers discovered that legacy installations of the unofficial Popcorn Time app on macOS continue running background processes that leave systems open to attacks.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-29T17:12:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Old 'Popcorn Time' App Left Hundreds of Thousands of Macs at Risk",
+       "url": "https://www.macrumors.com/2026/10/29/old-popcorn-time-app-macs-at-risk/",
        "official": false
       }
      ]
@@ -648,175 +520,175 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "ec982e8fbe17",
-     "title": "Call of Duty: Modern Warfare 4 and Warzone Season 1 Launching November 6",
-     "summary": "Activision and Xbox have detailed the upcoming Season 1 content drop for Modern Warfare 4 and Warzone, set to arrive on November 6.",
+     "id": "ad3199f30faf",
+     "title": "Bethesda Reportedly Prepping Announcement for The Elder Scrolls 6 Subtitled 'Sentinel'",
+     "summary": "Industry leaks suggest Bethesda is preparing to officially reveal the full subtitle and additional details for The Elder Scrolls VI as early as next month.",
      "importance": 4,
-     "label": "CONFIRMED",
+     "label": "RUMOR-CREDIBLE",
      "category": "Gaming",
-     "published": "2026-10-29T01:40:58Z",
-     "outlet_count": 4,
+     "published": "2026-10-29T17:00:00Z",
+     "outlet_count": 7,
      "sources": [
       {
-       "outlet": "PlayStation Blog",
-       "title": "Modern Warfare 4 Season 1: Everything you need to know for November 6 launch",
-       "url": "https://blog.playstation.com/2026/10/28/modern-warfare-4-season-1-everything-you-need-to-know-for-november-6-launch/",
-       "official": true
-      },
-      {
-       "outlet": "Xbox Wire",
-       "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know",
-       "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement#new_tab",
-       "official": true
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "Modern Warfare 4 Season 1 Launches November 6",
-       "url": "https://insider-gaming.com/modern-warfare-4-season-1-launches-november-6/",
+       "outlet": "The Verge",
+       "title": "Microsoft’s AI future has fewer jobs",
+       "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
        "official": false
       },
       {
-       "outlet": "IGN",
-       "title": "Call of Duty: Modern Warfare 4 DMZ Review",
-       "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-dmz-review",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "2af41a5f2060",
-     "title": "Rockstar Reveals Extensive Gameplay Details and Map Size for Grand Theft Auto 6",
-     "summary": "Ahead of its November 19 launch on PlayStation 5, Rockstar has shared new screenshots, mechanics, and confirmation that GTA 6 features a massive open world with fully functional public transit.",
-     "importance": 5,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-10-29T10:52:41Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "IGN",
-       "title": "'Appreciate the Fans' — GTA 5 Cast Tell Jason and Lucia’s Actors the Most Important Things They Should Know Before GTA 6 Launches Them to Fame",
-       "url": "https://www.ign.com/articles/appreciate-the-fans-gta-5-cast-tell-jason-and-lucias-actors-the-most-important-things-they-should-know-before-gta-6-launches-them-to-fame",
+       "outlet": "Kotaku",
+       "title": "The Elder Scrolls 6 Title Reportedly Being Revealed Next Month, Just About Eight Years After It Was Announced",
+       "url": "https://kotaku.com/the-elder-scrolls-6-title-reportedly-being-revealed-next-month-just-about-eight-years-after-it-was-announced-2000751058",
        "official": false
       },
       {
-       "outlet": "PC Gamer",
-       "title": "GTA 6's map is almost as big as Rockstar's last 3 games combined, contains 'an order of magnitude more interiors'",
-       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-map-is-almost-as-big-as-rockstars-last-3-games-combined-contains-an-order-of-magnitude-more-interiors/",
-       "official": false
-      },
-      {
-       "outlet": "PC Gamer",
-       "title": "'I feel like we've built a pyramid on Everest' says Rockstar of GTA 6 meeting impossible expectations",
-       "url": "https://www.pcgamer.com/games/grand-theft-auto/i-feel-like-weve-built-a-pyramid-on-everest-says-rockstar-of-gta-6-meeting-impossible-expectations/",
-       "official": false
-      },
-      {
-       "outlet": "PC Gamer",
-       "title": "GTA 6's NPCs have about 600,000 animations, as well as personality traits that take 'demographic and professional' variables into account",
-       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-npcs-have-about-600-000-animations-as-well-as-personality-traits-that-take-demographic-and-professional-variables-into-account/",
+       "outlet": "Gematsu",
+       "title": "Report: The Elder Scrolls VI subtitled Sentinel",
+       "url": "https://www.gematsu.com/2026/10/report-the-elder-scrolls-vi-subtitled-sentinel",
        "official": false
       },
       {
        "outlet": "Insider Gaming",
-       "title": "GTA 6 Map Size Officially Revealed—How Big Is It?",
-       "url": "https://insider-gaming.com/gta-6-map-size/",
-       "official": false
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "12 New GTA 6 Gameplay Screenshots Released",
-       "url": "https://insider-gaming.com/12-new-gta-6-gameplay-screenshots-released/",
-       "official": false
-      },
-      {
-       "outlet": "IGN",
-       "title": "GTA 6's Map Will Open Up Relatively Early and Let You Explore Freely, Developers Are Still Discovering New Parts of the World",
-       "url": "https://www.ign.com/articles/gta-6s-map-will-open-up-relatively-early-and-let-you-explore-freely-developers-are-still-discovering-new-parts-of-the-world",
-       "official": false
-      },
-      {
-       "outlet": "IGN",
-       "title": "A Famous GTA 4 Meme Is Now a Mechanic in GTA 6",
-       "url": "https://www.ign.com/articles/a-famous-gta-4-meme-is-now-a-mechanic-in-gta-6",
+       "title": "Bethesda Could Reveal ‘Elder Scrolls 6: Sentinel’ Next Month, It’s Claimed",
+       "url": "https://insider-gaming.com/bethesda-could-reveal-elder-scrolls-6-sentinel-next-month-its-claimed/",
        "official": false
       },
       {
        "outlet": "Push Square",
-       "title": "New GTA 6 Gameplay, Screenshots, Details Revealed as PS5 Launch Nears",
-       "url": "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears",
+       "title": "Rumour: The Elder Scrolls 6 Reveal as Soon as Next Month, Named Sentinel",
+       "url": "https://www.pushsquare.com/news/2026/10/rumour-the-elder-scrolls-6-reveal-as-soon-as-next-month-named-sentinel",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Report: The Elder Scrolls 6 Gets Named Ahead Of Xbox Announcement, Plus Extra Details",
+       "url": "https://www.purexbox.com/news/2026/10/report-the-elder-scrolls-6-gets-named-ahead-of-xbox-announcement-plus-extra-details",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "526b809f1bf1",
+     "title": "Helldivers 2 Receives Steam Review Bomb Following Easy Anti-Cheat Integration",
+     "summary": "Helldivers 2 faced a wave of negative user reviews on Steam after developers transitioned the cooperative shooter to use Easy Anti-Cheat.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-29T15:52:27Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Helldivers 2 Review Bombed on Steam After Anti-Cheat Friendly Fire",
+       "url": "https://www.ign.com/articles/helldivers-2-review-bombed-on-steam-anti-cheat",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Helldivers 2 Gets Review Bombed After Moving to Easy Anti-Cheat",
+       "url": "https://insider-gaming.com/helldivers-2-gets-review-bombed-after-moving-to-easy-anti-cheat/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "024d9e0493ab",
+     "title": "EA Employees Report Low Morale and Fear of Retaliation Following Layoffs and Studio Closures",
+     "summary": "Current and former EA staff have described an atmosphere of secrecy and low morale following recent studio closures, layoffs, and sweeping AI mandates.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-29T14:08:30Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent'",
+       "url": "https://www.pcgamer.com/gaming-industry/morale-has-been-terrible-at-ea-workers-claim-saying-that-ai-mandates-and-mismanagement-have-left-the-company-a-cold-dead-place-thats-slowly-decaying-as-leadership-pilfers-every-last-cent/",
        "official": false
       },
       {
        "outlet": "Eurogamer",
-       "title": "Dog poo, anti-social behaviour, and Jason: Our latest look at GTA 6 gameplay comes from an episode of South Park",
-       "url": "https://www.eurogamer.net/dog-poo-anti-social-behaviour-and-jason-our-latest-look-at-gta-6-gameplay-comes-from-the-latest-episode-of-south-park",
-       "official": false
-      },
-      {
-       "outlet": "Steam News",
-       "title": "GTA 6 promises to be an RPG like nothing the series has ever seen, but Rockstar says there's still a balance to strike",
-       "url": "https://store.steampowered.com/news/group/38509069/view/668380665149916073",
-       "official": false
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "GTA 6 Features a Fully Functional Public Transport System",
-       "url": "https://insider-gaming.com/gta-6-features-a-fully-functional-public-transport-system/",
+       "title": "\"A cold dead place that's slowly decaying\" - EA employees reveal a culture of secrecy and terrible morale following layoffs",
+       "url": "https://www.eurogamer.net/inside-ea-layoffs-report-bioware-morale-secrecy",
        "official": false
       }
      ]
     },
     {
-     "id": "0bc1f5bfe59c",
-     "title": "Cronos: The New Dawn 'Lazarus' Story DLC Announced for December 3",
-     "summary": "Bloober Team's sci-fi horror title is getting a new story-driven expansion titled Cronos: Lazarus, launching on December 3 for $9.99.",
+     "id": "3ea0b011f63f",
+     "title": "Xbox Leadership Claims Console Demand Outpaces Available Hardware Supply Amid Falling Sales",
+     "summary": "Xbox executives insist there remains strong demand for hardware despite a 14 percent year-over-year dip in console sales as the company pushes used console options.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-29T10:00:00Z",
+     "published": "2026-10-29T12:32:45Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Gematsu",
-       "title": "Cronos: The New Dawn story DLC ‘Cronos: Lazarus’ launches December 3",
-       "url": "https://www.gematsu.com/2026/10/cronos-the-new-dawn-story-dlc-cronos-lazarus-launches-december-3",
+       "outlet": "IGN",
+       "title": "Asha Sharma Insists There's 'More Demand Than Consoles Available' as Xbox Hardware Sales Continue to Plummet",
+       "url": "https://www.ign.com/articles/asha-sharma-insists-theres-more-demand-than-consoles-available-as-xbox-hardware-sales-continue-to-plummet",
        "official": false
       },
       {
-       "outlet": "Insider Gaming",
-       "title": "Cronos: Lazarus DLC Launches December 3 for $9.99",
-       "url": "https://insider-gaming.com/cronos-lazarus-dlc-release-date-price/",
+       "outlet": "Eurogamer",
+       "title": "Xbox leader Asha Sharma says there's \"more demand than consoles available\" as Xbox hardware sales dip by 14%",
+       "url": "https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft",
        "official": false
       },
       {
-       "outlet": "Nintendo Life",
-       "title": "Cronos: The New Dawn's 'Lazarus' DLC Launches Next Year On Switch 2",
-       "url": "https://www.nintendolife.com/news/2026/10/cronos-the-new-dawns-lazarus-dlc-launches-next-year-on-switch-2",
+       "outlet": "Kotaku",
+       "title": "Xbox Says There’s ‘More Demand Than Consoles Available’ As Hardware Sales Continue To Fall",
+       "url": "https://kotaku.com/xbox-says-theres-more-demand-than-consoles-available-as-hardware-sales-continue-to-fall-2000750981",
        "official": false
       }
      ]
     },
     {
-     "id": "a7c62fb41806",
-     "title": "Taito Milestones 5 Announced for Nintendo Switch",
-     "summary": "Taito Corporation and Hamster Corp have announced the upcoming retro compilation Taito Milestones 5, scheduled to release in Japan on January 28, 2027.",
-     "importance": 2,
+     "id": "83091ab4977e",
+     "title": "Destiny 2 Unvaulting Roadmap Will Not Complete Until Early 2028",
+     "summary": "Bungie has confirmed that the extensive process of restoring and unvaulting legacy content for Destiny 2 will not be fully completed until 2028.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-10-29T02:30:00Z",
+     "published": "2026-10-29T16:50:58Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Gematsu",
-       "title": "TAITO Milestones 5 announced for Switch",
-       "url": "https://www.gematsu.com/2026/10/taito-milestones-5-announced-for-switch",
+       "outlet": "Wario64",
+       "title": "Bungie Community Update (Destiny 2 unvaulting plan and more) www.bungie.net/7/en/News/Ar...",
+       "url": "https://www.bungie.net/7/en/News/Article/bungiecommunityupdate_10_27",
        "official": false
       },
       {
-       "outlet": "Nintendo Life",
-       "title": "Taito Milestones 5 Announced For Switch, Here Are The Games Included",
-       "url": "https://www.nintendolife.com/news/2026/10/taito-milestones-5-announced-for-switch-here-are-the-games-included",
+       "outlet": "Insider Gaming",
+       "title": "Destiny 2’s Unvaulting Plans Won’t Be Complete Until Early 2028",
+       "url": "https://insider-gaming.com/destiny-2s-unvaulting-plans-wont-be-complete-until-early-2028/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5cae6f1b2d6a",
+     "title": "Celeste and TowerFall Delisted From Xbox Store Over BDS Boycott Stance",
+     "summary": "Developer Maddy Thorson confirmed that platformers Celeste and TowerFall have been pulled from the Xbox storefront in support of the BDS boycott movement.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-29T16:15:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Kotaku",
+       "title": "Indie Game Of The Year Winner Pulled From Xbox Over BDS Boycott",
+       "url": "https://kotaku.com/indie-game-of-the-year-winner-pulled-from-xbox-over-bds-boycott-2000751041",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "'We Did This To Support The BDS Boycott' - Two Xbox Games Delisted As Celeste Developer Issues Statement",
+       "url": "https://www.purexbox.com/news/2026/10/we-did-this-to-support-the-bds-boycott-two-xbox-games-delisted-as-celeste-developer-issues-statement",
        "official": false
       }
      ]
@@ -827,37 +699,61 @@
    "name": "US",
    "stories": [
     {
-     "id": "4f71679bff9d",
-     "title": "Alaska Governor Orders Criminal Investigation into Mary Peltola Campaign",
-     "summary": "The Alaska governor has directed a formal probe into allegations that individuals aligned with former Democratic representative Mary Peltola's campaign recruited a decoy candidate to disrupt the state Senate race.",
-     "importance": 4,
+     "id": "a47a4aef8c25",
+     "title": "Alaska Governor Orders Investigation into Democratic Campaign Over Spoiler Candidate Allegations",
+     "summary": "Alaska's governor has ordered a formal probe into former Representative Mary Peltola's Senate campaign following accusations of attempting to draw votes away from her opponent.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-10-29T10:59:03Z",
+     "published": "2026-10-29T16:35:54Z",
      "outlet_count": 4,
      "sources": [
       {
-       "outlet": "Just the News",
-       "title": "Alaska governor orders probe of Democrat nominee over alleged Senate race trickery",
-       "url": "https://justthenews.com/politics-policy/elections/alaska-governor-orders-probe-democrat-nominee-over-alleged-senate-race?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "outlet": "ABC News",
+       "title": "Alaska governor orders probe into alleged effort to confuse Senate voters",
+       "url": "https://abcnews.com/Politics/alaska-governor-orders-probe-alleged-effort-confuse-senate/story?id=137667167",
        "official": false
       },
       {
-       "outlet": "New York Times: Politics",
-       "title": "Alaska Governor Orders Criminal Investigation Into Peltola Campaign",
-       "url": "https://www.nytimes.com/2026/10/28/us/politics/trump-peltola-sullivan-alaska-senate.html",
+       "outlet": "PBS NewsHour",
+       "title": "Alaska's governor orders a probe into Peltola's Senate campaign over spoiler candidate controversy",
+       "url": "https://www.pbs.org/newshour/politics/alaskas-governor-orders-a-probe-into-peltolas-senate-campaign-over-spoiler-candidate-controversy",
        "official": false
       },
       {
-       "outlet": "New York Post",
-       "title": "Alaska governor orders probe of Mary Peltola Senate campaign over ‘Decoy Dan’ Sullivan scandal",
-       "url": "https://nypost.com/2026/10/29/us-news/alaska-governor-orders-probe-of-mary-peltola-senate-campaign-over-decoy-dan-sullivan-scandal/",
+       "outlet": "BBC News: World",
+       "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
+       "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "CBS News",
-       "title": "Alaska governor orders probe into Peltola over alleged ballot plot",
-       "url": "https://www.cbsnews.com/news/trump-peltola-dan-sullivan-alaska-senate/",
+       "outlet": "Time",
+       "title": "Alaska Governor Orders Probe Into Peltola Campaign Over Alleged Spoiler Scheme",
+       "url": "https://time.com/article/2026/10/29/trump-wants-democratic-alaska-senate-nominee-peltola-prosecuted-over-candidate-controversy/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6cce3a059735",
+     "title": "Analysts Weigh National Security Implications of Anthropic's Upcoming IPO",
+     "summary": "Financial analysts and market observers are assessing the broader geopolitical and national security ramifications tied to Anthropic's upcoming public offering.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-29T17:14:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The American Spectator",
+       "title": "The Spectacle Ep. 484: Anthropic’s IPO Problems, and the Rise of Local AI",
+       "url": "https://spectator.org/the-spectacle-ep-484-anthropics-ipo-problems-and-the-rise-of-local-ai/",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal: U.S.",
+       "title": "Opinion | Anthropic’s IPO Will Be a National-Security Win for Taiwan",
+       "url": "https://www.wsj.com/opinion/anthropics-ipo-will-be-a-national-security-win-for-taiwan-029888b5?mod=rss_usnews",
        "official": false
       }
      ]
@@ -868,61 +764,31 @@
    "name": "World",
    "stories": [
     {
-     "id": "3cf9c679e026",
-     "title": "Brazilian Senator Flávio Bolsonaro Arrives in Miami Following Election Loss",
-     "summary": "Brazilian Senator Flávio Bolsonaro arrived in the United States and was granted an entry visa after refusing to surrender his passport following an election defeat.",
-     "importance": 4,
+     "id": "89b0f29f6052",
+     "title": "Deadly Rock Collapse at UNESCO World Heritage Site in Turkey Kills Two Tourists",
+     "summary": "Heavy rainfall triggered a rock spire collapse at the historic Cappadocia tourist region in Turkey, resulting in at least two fatalities.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-10-29T01:35:12Z",
-     "outlet_count": 4,
+     "published": "2026-10-29T17:05:03Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "BBC News: Latin America",
-       "title": "Watch: Moment Flávio Bolsonaro arrives in Florida",
-       "url": "https://www.bbc.co.uk/news/videos/ck79pj82jp4qo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: Latin America",
-       "title": "What we know as Flávio Bolsonaro lands in US after Brazil election loss",
-       "url": "https://www.bbc.co.uk/news/videos/c6x29djyx7g9o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: Latin America",
-       "title": "How did Flávio Bolsonaro end up in Miami?",
-       "url": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "BBC News: Latin America",
-       "title": "Has Flávio Bolsonaro left Brazil to evade justice?",
-       "url": "https://www.bbc.co.uk/news/videos/cjx23vnv63yeo?at_medium=RSS&at_campaign=rss",
-       "official": false
-      },
-      {
-       "outlet": "Foreign Policy",
-       "title": "Flávio Bolsonaro Becomes a Florida Man",
-       "url": "https://foreignpolicy.com/2026/10/28/flavio-bolsonaro-flees-brazil-florida-trump-presidential-election-lula/",
-       "official": false
-      },
-      {
-       "outlet": "PBS NewsHour",
-       "title": "Brazil's Flávio Bolsonaro flees to U.S. after election loss",
-       "url": "https://www.pbs.org/newshour/show/brazils-flavio-bolsonaro-flees-to-u-s-after-election-loss",
-       "official": false
-      },
-      {
        "outlet": "BBC News: World",
-       "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-       "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+       "title": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
+       "url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
        "official": false
       },
       {
-       "outlet": "NBC News",
-       "title": "Brazil’s Flávio Bolsonaro arrives in U.S. after losing election",
-       "url": "https://www.nbcnews.com/video/brazil-s-flavio-bolsonaro-arrives-in-u-s-after-losing-election-272444997786",
+       "outlet": "Al Jazeera",
+       "title": "Deadly rock collapse at famous Turkiye tourist site",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/deadly-rock-collapse-at-famous-turkiye-tourist-site?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "CNA: World (Singapore)",
+       "title": "Two dead in rock spire collapse at tourist site in Turkey's Cappadocia",
+       "url": "https://www.channelnewsasia.com/world/turkey-landslide-rainfall-two-killed-cappadocia-6504146",
        "official": false
       }
      ]
@@ -933,84 +799,108 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "bb208cdce1a3",
-     "title": "Russian Drone Strike on Dnipro Railway Station Kills 13",
-     "summary": "A Russian drone strike hit a passenger train platform in the east-central Ukrainian city of Dnipro, resulting in 13 deaths and prompting demands for new sanctions from Volodymyr Zelenskyy.",
+     "id": "6097b161c944",
+     "title": "Death Toll in Spain Train Derailment Rises to 74 as Royals Visit Survivors",
+     "summary": "Spanish rescue workers continue recovery efforts as the death toll from a devastating train crash reaches 74, prompting visits from King Felipe VI and Queen Letizia.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-29T10:50:13Z",
-     "outlet_count": 7,
+     "published": "2026-10-29T17:01:09Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Ukrainska Pravda (Ukraine)",
-       "title": "Thirteen killed and at least 5 injured in Russian attack on train station in Dnipro",
-       "url": "https://www.pravda.com.ua/eng/news/2026/10/29/8060223/",
+       "outlet": "CNA: World (Singapore)",
+       "title": "Spanish rescuers search for victims as train crash death toll rises to 69",
+       "url": "https://www.channelnewsasia.com/world/spanish-rescuers-search-victims-train-crash-death-toll-rises-69-6502846",
        "official": false
       },
       {
-       "outlet": "RTÉ News (Ireland)",
-       "title": "13 killed in Russian attack on Ukraine train station",
-       "url": "https://www.rte.ie/news/ukraine/2026/1029/1597186-ukraine-russia/",
+       "outlet": "Euronews",
+       "title": "Death toll from Spain train crash rises to 74 as royals visit victims",
+       "url": "https://www.euronews.com/2026/10/29/death-toll-from-spain-train-crash-rises-to-74-as-royals-visit-victims",
        "official": false
-      },
-      {
-       "outlet": "The Kyiv Independent (Ukraine)",
-       "title": "Breaking: Russia strikes train at Dnipro station with jet-powered drone, at least 13 dead",
-       "url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/",
-       "official": false
-      },
-      {
-       "outlet": "Meduza (Russia)",
-       "title": "Russian drone strikes train station in Ukraine’s Dnipro, killing at least 13",
-       "url": "https://meduza.io/en/news/2026/10/29/russian-drone-strikes-train-station-in-ukraine-s-dnipro-killing-at-least-13",
-       "official": false
-      },
-      {
-       "outlet": "The Straits Times: World",
-       "title": "Russian drone attack on train station kills 13 in Ukraine’s Dnipro",
-       "url": "https://www.straitstimes.com/world/europe/russian-drone-attack-on-train-station-kills-13-in-ukraines-dnipro",
-       "official": false
-      },
-      {
-       "outlet": "ORF News (Austria)",
-       "title": "Authorities: 13 dead in Russian attack on Dnipro railway station",
-       "url": "https://orf.at/stories/3446487/",
-       "official": false,
-       "translated_from": "de",
-       "original_title": "Behörden: 13 Tote bei russischem Angriff auf Bahnhof Dnipro"
-      },
-      {
-       "outlet": "Le Monde (France)",
-       "title": "LIVE, war in Ukraine: Volodymyr Zelensky demands new sanctions against Russia after \"terrible Russian strike\" on Dnipro railway station leaves 13 dead",
-       "url": "https://www.lemonde.fr/international/live/2026/10/29/en-direct-guerre-en-ukraine-volodymyr-zelensky-reclame-de-nouvelles-sanctions-contre-la-russie-apres-la-terrible-frappe-russe-contre-la-gare-ferroviaire-de-dnipro-qui-a-fait-13-morts_6799896_3210.html",
-       "official": false,
-       "translated_from": "fr",
-       "original_title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky réclame de nouvelles sanctions contre la Russie après la « terrible frappe russe » contre la gare ferroviaire de Dnipro qui a fait 13 morts"
       }
      ]
     },
     {
-     "id": "932a8b5f2e72",
-     "title": "Estonia Plans to Construct 150 Border Bunkers Along Russian Frontier",
-     "summary": "The Estonian parliament announced plans to build approximately 150 concrete bunkers in Ida-Viru County along the Russian border to strengthen national defense.",
+     "id": "00705ba9f7fd",
+     "title": "Lithuania Plans to Introduce Universal Military Conscription by 2032",
+     "summary": "Lithuania's State Defense Council announced plans to enact universal military conscription for men aged 18 to 22 starting in 2032.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-10-29T10:29:30Z",
+     "published": "2026-10-29T16:31:29Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Kyiv Independent (Ukraine)",
-       "title": "Estonia to build 150 bunkers along Russian border",
-       "url": "https://kyivindependent.com/estonia-to-build-150-bunkers-along-russian-border/",
+       "outlet": "LRT English (Lithuania)",
+       "title": "Lithuania to introduce universal military conscription in 2032, president says",
+       "url": "https://www.lrt.lt/en/news-in-english/19/3097267/lithuania-to-introduce-universal-military-conscription-in-2032-president-says",
        "official": false
       },
       {
        "outlet": "Meduza (Russia)",
-       "title": "Estonia plans to build 150 bunkers on border with Russia",
-       "url": "https://meduza.io/en/news/2026/10/29/estonia-plans-to-build-150-bunkers-on-border-with-russia",
+       "title": "Lithuania plans to introduce universal military conscription for men ages 18–22 starting in 2032",
+       "url": "https://meduza.io/en/news/2026/10/29/lithuania-plans-to-introduce-universal-military-conscription-for-men-ages-18-22-starting-in-2032",
        "official": false
+      }
+     ]
+    },
+    {
+     "id": "25747e0502af",
+     "title": "Italian Military Helicopter Crashes During EU Peacekeeping Mission in Bosnia",
+     "summary": "An Italian military helicopter participating in the EUFOR peacekeeping operation in Bosnia and Herzegovina crashed under investigation by defense officials.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-29T17:16:12Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "ANSA English (Italy)",
+       "title": "Italian military helicopter crashes in Bosnia",
+       "url": "https://www.ansa.it/english/news/2026/10/29/italian-military-helicopter-crashes-in-bosnia_318998ed-d2c7-4d2b-b4f0-7f1949a7b6fc.html",
+       "official": false
+      },
+      {
+       "outlet": "ANSA English (Italy)",
+       "title": "Italian military helicopter crashes in Bosnia",
+       "url": "https://www.ansa.it/english/news/world/2026/10/29/italian-military-helicopter-crashes-in-bosnia_453e8530-add6-4e2f-9ba4-b434a4d44443.html",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Italian military helicopter on EU mission in Bosnia crashes",
+       "url": "https://www.straitstimes.com/world/europe/italian-military-helicopter-on-eu-mission-in-bosnia-crashes",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2d24bf13b897",
+     "title": "Astronomers Discover Potential New Dwarf Planet at Edge of Solar System",
+     "summary": "European astronomers have identified a rare trans-Neptunian celestial body designated '2026 ED138' that may become the sixth known dwarf planet if confirmed.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-29T16:28:56Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "El País (Spain)",
+       "title": "In Search of the New Pluto: Dwarf Planet Candidate Discovered at the Edge of the Solar System",
+       "url": "https://elpais.com/ciencia/2026-10-29/en-busca-del-nuevo-pluton-hallado-un-candidato-a-planeta-enano-en-los-confines-del-sistema-solar.html",
+       "official": false,
+       "translated_from": "es",
+       "original_title": "En busca del nuevo Plutón: hallado un candidato a planeta enano en los confines del sistema solar"
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Possible New Dwarf Planet Discovered in the Solar System",
+       "url": "https://www.tagesschau.de/wissen/weltraum/zwergplanet-entdeckung-100.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "Möglicher neuer Zwergplanet im Sonnensystem entdeckt"
       }
      ]
     }
@@ -1020,40 +910,56 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "0404866dafe4",
-     "title": "ANA Holdings to Acquire Regional Airlines to Bolster Domestic Operations",
-     "summary": "Japan's ANA Holdings has announced plans to purchase regional carriers in order to reinforce its domestic flight network amid shifting market conditions.",
+     "id": "ec6bbbf35209",
+     "title": "Japanese Automakers Slash China Production Amid Shrinking Domestic Gasoline Car Market",
+     "summary": "Toyota, Honda, and Nissan are cutting manufacturing output in China as local demand shifts rapidly away from gasoline-powered vehicles.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-29T11:00:41Z",
+     "published": "2026-10-29T17:21:39Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Nikkei Asia",
-       "title": "Japan's ANA Holdings to buy regional airlines to enhance domestic flights",
-       "url": "https://asia.nikkei.com/business/transportation/japan-s-ana-holdings-to-buy-regional-airlines-to-enhance-domestic-flights",
+       "title": "Toyota, Honda, Nissan slash China output as gasoline car market shrinks",
+       "url": "https://asia.nikkei.com/business/automobiles/toyota-honda-nissan-slash-china-output-as-gasoline-car-market-shrinks",
        "official": false
       }
      ]
     },
     {
-     "id": "143241bdd972",
-     "title": "Suzuki Surpasses Rivals to Claim Second Place in Global Auto Sales",
-     "summary": "Suzuki Motor has overtaken Honda and Nissan to secure the second position in global automotive sales for the first half of fiscal 2026.",
+     "id": "c216c4f4f1f5",
+     "title": "Japan Chip Exports Surge 41 Percent Driven by Global AI Boom and Memory Prices",
+     "summary": "Soaring international demand for advanced semiconductors and rising memory chip prices have lifted Japan's semiconductor exports by 41 percent.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-10-29T10:50:00Z",
+     "published": "2026-10-29T17:21:39Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Suzuki overtakes Honda and Nissan to claim second place in global auto sales for first half of fiscal 2026",
-       "url": "http://www.asahi.com/articles/ASVBY320VVBYULFA01YM.html?ref=rss",
-       "official": false,
-       "translated_from": "ja",
-       "original_title": "スズキ、ホンダ・日産抜き2番手に 26年度上半期の自動車世界販売"
+       "outlet": "Nikkei Asia",
+       "title": "AI boom, soaring memory prices lift Japan's chip exports 41%",
+       "url": "https://asia.nikkei.com/business/tech/semiconductors/ai-boom-soaring-memory-prices-lift-japan-s-chip-exports-41",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fe3c126917d5",
+     "title": "Japan Considers Deploying Underwater Drones for Submarine Surveillance",
+     "summary": "The Japanese government is exploring the deployment of autonomous underwater drones to enhance maritime surveillance around critical territorial waters.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-29T17:21:39Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan aims to deploy underwater drones for sub surveillance",
+       "url": "https://asia.nikkei.com/politics/defense/japan-aims-to-deploy-underwater-drones-for-sub-surveillance",
+       "official": false
       }
      ]
     }
@@ -1063,68 +969,62 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "59565f72019f",
-     "title": "South Korea and US Conduct Tabletop Exercises on Integrated Nuclear Capabilities",
-     "summary": "Military officials from South Korea and the United States held joint tabletop drills to coordinate conventional and nuclear deterrent strategies against North Korean threats.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-29T10:57:02Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Korea Herald",
-       "title": "S. Korea, US stage tabletop drills on integrating conventional, nuclear capabilities against N. Korean threats",
-       "url": "https://www.koreaherald.com/article/10919365",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "S. Korea, US stage tabletop drills on integrating conventional, nuclear capabilities against N. Korean threats",
-       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261029/s-korea-us-stage-tabletop-drills-on-integrating-conventional-nuclear-capabilities-against-n-korean-threats?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "59388722f368",
-     "title": "South Korea Vows Criminal Penalties for AI Glasses Cheating on College Exam",
-     "summary": "The South Korean Ministry of Education announced strict punitive measures, including criminal prosecution and a three-year exam ban, for any students caught using artificial intelligence glasses during the upcoming CSAT college entrance exam.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-10-29T10:57:02Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "The Korea Times",
-       "title": "Gov't to pursue criminal punishment, 3-year exam ban for CSAT cheaters using AI glasses",
-       "url": "https://www.koreatimes.co.kr/southkorea/20261029/govt-to-pursue-criminal-punishment-3-year-exam-ban-for-csat-cheaters-using-ai-glasses?utm_source=rss",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8b6a7dccf513",
-     "title": "South Korea and Germany Forge Enhanced Strategic Partnership",
-     "summary": "Following a presidential summit, South Korea and Germany officially agreed to upgrade their bilateral ties to an enhanced strategic partnership amid mounting global security risks.",
+     "id": "f8643f3746f5",
+     "title": "South Korean Defense Chief Discusses Expanded Military Cooperation with Singapore and Vietnam",
+     "summary": "South Korean Defense Minister Kang Shin-chul held bilateral meetings with his Singaporean and Vietnamese counterparts to strengthen regional defense ties.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-10-29T09:57:02Z",
+     "published": "2026-10-29T13:18:31Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "The Korea Herald",
-       "title": "Korea, Germany forge ‘enhanced strategic partnership’ as global risks mount",
-       "url": "https://www.koreaherald.com/article/10919705",
+       "outlet": "Yonhap News",
+       "title": "S. Korean defense chief agrees to expand defense cooperation with Singapore, Vietnam",
+       "url": "https://en.yna.co.kr/view/AEN20261029014000315",
        "official": false
       },
       {
-       "outlet": "KBS World",
-       "title": "S. Korea, Germany Agree to Upgrade Ties to Enhanced Strategic Partnership",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205227",
+       "outlet": "The Korea Herald",
+       "title": "S. Korean defense chief agrees to expand defense cooperation with Singapore, Vietnam",
+       "url": "https://www.koreaherald.com/article/10919806",
        "official": false
+      }
+     ]
+    },
+    {
+     "id": "cbff076f6104",
+     "title": "Samsung Lions Defeat KIA Tigers in Game 3 of KBO Postseason",
+     "summary": "The Samsung Lions secured a 6-4 victory over the KIA Tigers in Game 3 of the 2026 KBO League postseason series.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-29T16:53:52Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Desperate KIA names James Neal as Game 4 starter, Yang Hyeon-jong on standby",
+       "url": "https://www.chosun.com/jp/sports-jp/2026/10/30/RJVMJBYBDZCN7CI6L4YHPSWI7A/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "崖っぷちKIA、第4戦先発ネイル…ヤン・ヒョンジョン待機"
+      },
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Facing elimination down 1-2, KIA names James Neal starter for Game 4 with postseason-inexperienced Yang Hyeon-jong on bullpen standby for all-out battle; Lee Bum-ho says 'important choice for victory, will be a long and difficult fight'",
+       "url": "https://www.chosun.com/sports/baseball/2026/10/30/GY3DCMBYGJRWMMZRMEZGINJTG4/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "'승패패' 벼랑끝 KIA 네일 4차전 선발, PS 무등판 양현종 불펜대기 총력전...이범호 \"승리위해 중요한 선택, 길고 어려운 싸움 될 것\""
+      },
+      {
+       "outlet": "Chosun Ilbo (Korean)",
+       "title": "Did heaven abandon KIA? What would have been a base hit turns into a double play line drive; Samsung has incredible luck [PO3]",
+       "url": "https://www.chosun.com/sports/baseball/2026/10/30/MY4TKODFMY2GKNJWGEZGIMRWHE/",
+       "official": false,
+       "translated_from": "ko",
+       "original_title": "KIA 하늘이 버렸나.. 주자 가만히 있었으면 안타였는데 → 병살로 둔갑한 직선타. 삼성은 천운이다 [PO3]"
       }
      ]
     }
@@ -1134,55 +1034,97 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "3f7f10d869ad",
-     "title": "Nintendo Switch 2 Black Friday Bundle Leak",
-     "summary": "A retail leak reveals an upcoming Black Friday bundle featuring a Nintendo Switch 2, Mario Kart World, and a three-month Nintendo Switch Online subscription.",
-     "importance": 3,
+     "id": "c3f3c91673a3",
+     "title": "Apple's M5 MacBook Air Discounted to $1,099 on Amazon",
+     "summary": "Amazon has brought back its $199 discount on the 13-inch M5 MacBook Air, dropping the price down to $1,099.99.",
+     "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-29T10:13:15Z",
+     "published": "2026-10-29T15:27:49Z",
      "outlet_count": 1,
      "sources": [
       {
-       "outlet": "billbil-kun",
-       "title": "🇫🇷 🚨 EXCLU 🚨 Je vous dévoile en exclusivité une offre spéciale Black Friday qui sera bientôt disponible Pack Nintendo Switch 2 + Mario Kart World + 3 mois d'abonnement au Nintendo Online à seulement…",
-       "url": "https://www.dealabs.com/bons-plans/bundle-2026-nintendo-pack-console-switch-2-le-jeu-mario-kart-world-3-mois-dabonnement-au-nintendo-online-via-70eur-sur-carte-fidelite-3441210",
+       "outlet": "AppleInsider",
+       "title": "Apple's M5 MacBook Air plunges to $1,099, plus save $200 on upgraded models",
+       "url": "https://appleinsider.com/articles/26/10/29/apples-m5-macbook-air-plunges-to-1099-plus-save-200-on-upgraded-models?utm_source=rss",
        "official": false
       }
      ]
     },
     {
-     "id": "566ffb7f2502",
-     "title": "Wo Long 2: Wings of Ember Available for Pre-Order",
-     "summary": "Pre-orders for Wo Long 2: Wings of Ember on Nintendo Switch 2, PS5, and Xbox Series X are now live at major retailers for $69.99.",
+     "id": "043f190c10c9",
+     "title": "Nintendo Switch 2 The Legend of Zelda 40th Anniversary Editions Available for Preorder",
+     "summary": "Special 40th Anniversary Edition Nintendo Switch 2 hardware bundles, Pro Controllers, and accessories have gone up for preorder across major retailers.",
      "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-29T01:47:10Z",
+     "published": "2026-10-29T16:15:41Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Wo Long 2: Wings of Ember (Switch 2 KC/PS5/XSX) up for preorder on Amazon ($69.99) link.amazon/B07HNcLQY VGP buff.ly/2DicuOl PNP buff.ly/OZYiOol #ad",
-       "url": "https://link.amazon/B07HNcLQY",
+       "title": "Nintendo Switch™ 2 Pro Controller The Legend of Zelda™ – 40th Anniversary Edition up on Amazon ($99.99) amzn.to/4svfY6Y #ad",
+       "url": "https://amzn.to/4svfY6Y",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Nintendo Switch 2 –The Legend of Zelda – 40th Anniversary Edition on Amazon ($519.99) link.amazon/B0ihqLARP #ad",
+       "url": "https://link.amazon/B0ihqLARP",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Nintendo Switch 2 Carrying Case and Screen Protector –The Legend of Zelda – 40th Anniversary Edition up on Amazon ($39.99) amzn.to/4rn9WVt #ad",
+       "url": "https://amzn.to/4rn9WVt",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Nintendo Switch™ 2 – The Legend of Zelda™ – 40th Anniversary Edition at Nintendo Store ($519.99) buff.ly/7L30N4h",
+       "url": "https://buff.ly/7L30N4h",
        "official": false
       }
      ]
     },
     {
-     "id": "70aa10a0972f",
-     "title": "Shinobi: Art of Vengeance Deluxe Edition Discounted on Amazon",
-     "summary": "Amazon has dropped the price of the Deluxe Edition of Shinobi: Art of Vengeance for Nintendo Switch 2 to $38.98.",
-     "importance": 2,
+     "id": "f255a15c9baf",
+     "title": "Fanatical Discounts Moonlighter 2: The Endless Vault on PC",
+     "summary": "Fanatical has lowered the price of Moonlighter 2: The Endless Vault for Steam down to $15.59.",
+     "importance": 1,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-10-29T00:47:02Z",
+     "published": "2026-10-29T16:04:16Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "Wario64",
-       "title": "Shinobi: Art of Vengeance Deluxe Edition (Switch 2 KC) is $38.98 on Amazon link.amazon/B028nbMW0 #ad",
-       "url": "https://link.amazon/B028nbMW0",
+       "title": "Moonlighter 2: The Endless Vault (Steam) is $15.59 on Fanatical buff.ly/UsMbfFh #ad",
+       "url": "https://buff.ly/UsMbfFh",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4aaf5f4f0877",
+     "title": "Steam Discounts Multiple Indie Titles Including Stardeus and Mina the Hollower",
+     "summary": "A collection of PC indie titles including Stardeus and Mina the Hollower are currently discounted on Steam.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-29T17:12:22Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Mina the Hollower is $15.99 on Steam buff.ly/wMwqbZx",
+       "url": "https://buff.ly/wMwqbZx",
+       "official": false
+      },
+      {
+       "outlet": "Wario64",
+       "title": "THYSIASTERY is $9.61 on Steam buff.ly/UoZf94P Deadly Days: Roadtrip $8.23 Playsum w/ code WARIO64 buff.ly/J1RK014 #ad Tombwater $14.99 buff.ly/2UH3Vz6 Stardeus $14.99 buff.ly/MK99uCh",
+       "url": "https://buff.ly/UoZf94P",
        "official": false
       }
      ]
@@ -1191,12 +1133,12 @@
   }
  ],
  "date": "2026-10-29",
- "generated_at": "2026-10-29T11:00:41Z",
+ "generated_at": "2026-10-29T17:21:39Z",
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1174,
-  "clusters": 1015,
+  "items": 1013,
+  "clusters": 909,
   "feeds_ok": 174,
   "feeds_failed": 2
  },
