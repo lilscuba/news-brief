@@ -1,0 +1,1475 @@
+{
+ "version": 1,
+ "headline": "Crypto exchanges reel from a record-breaking heist as AI labs scale up chips, hardware, and safety policies amid geopolitical scrutiny.",
+ "top": [
+  {
+   "id": "0e5655209429",
+   "title": "Binance Suffers Record $6.3 Billion Cryptocurrency Heist Attributed to North Korea",
+   "summary": "Cryptocurrency exchange Binance suffered a massive hack resulting in the theft of approximately $6.3 billion across 10 blockchains in just 20 minutes, with security firms attributing the attack to North Korea-based actors. Binance has temporarily suspended withdrawals and deposits while pledging to cover all user losses.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Japan",
+   "published": "2026-10-30T11:00:53Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "Binance \"temporarily suspended\" all deposits and withdrawals as it investigates security issues and works with law enforcement; Binance.US says it's unaffected (George Steer/Financial Times)",
+     "url": "https://www.techmeme.com/261029/p67#a261029p67",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "Binance pledges to cover all losses from a ~$6.3B hack, potentially the largest crypto theft ever, surpassing the $1.5B Bybit hack in February 2025 (South China Morning Post)",
+     "url": "https://www.techmeme.com/261030/p2#a261030p2",
+     "official": false
+    },
+    {
+     "outlet": "Techmeme",
+     "title": "TRM Labs attributes the Binance hack to North Korea-based TraderTraitor, which drained ~$6.36B from Binance wallets across 10 blockchains, mostly in ~20 minutes (Tom Westbrook/Reuters)",
+     "url": "https://www.techmeme.com/261030/p3#a261030p3",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Hackers steal record $6.3 billion from Binance in just 20 minutes",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html",
+     "official": false
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "Hackers steal $6.3 billion from Binance in record heist blamed on North Korea",
+     "url": "https://www.japantimes.co.jp/business/2026/10/30/markets/binance-suspected-hack/",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Compromised laptop could be to blame for record $6.3 billion cryptocurrency heist: Binance rushes to freeze stolen assets as experts blame North Korean group",
+     "url": "https://www.pcgamer.com/software/security/compromised-laptop-could-be-to-blame-for-record-usd6-3-billion-cryptocurrency-heist-binance-rushes-to-freeze-stolen-assets-as-experts-blame-north-korean-group/",
+     "official": false
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "title": "Binance suspends withdrawals and freezes funds amid $6.3bn hack",
+     "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/binance-suspends-withdrawals-and-freezes-funds-amid-6.3bn-hack",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "89441e720875",
+   "title": "Reddit Shifts to a 'Logged-In-Only Experience' to Combat Scraping and Search Traffic Declines",
+   "summary": "Reddit CEO Steve Huffman announced that the platform is moving to require user logins in response to declining search traffic and heavy scraping by AI companies. The structural shift aims to protect content ecosystem access.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-29T23:58:10Z",
+   "outlet_count": 7,
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "title": "Reddit will force everyone to log in",
+     "url": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "Reddit moves to logged-in experience as AI eats search",
+     "url": "https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+     "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Reddit will force users to log in as AI is killing search traffic",
+     "url": "https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/",
+     "official": false
+    },
+    {
+     "outlet": "Ars Technica",
+     "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
+     "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Reddit will switch to a 'logged-in only experience'",
+     "url": "https://www.pcgamer.com/software/ai/reddit-will-switch-to-a-logged-in-only-experience/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "feb8ae9ce040",
+   "title": "Legendary Actor Patrick Stewart Dies at 86",
+   "summary": "Renowned stage and screen actor Patrick Stewart, beloved globally for his iconic roles as Captain Jean-Luc Picard in Star Trek and Professor Charles Xavier in X-Men, has passed away at the age of 86 following a battle with dementia.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-10-30T10:02:12Z",
+   "outlet_count": 13,
+   "sources": [
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Patrick Stewart has died",
+     "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "Sir Patrick Stewart Dead at 86",
+     "url": "https://www.ign.com/articles/sir-patrick-stewart-dead-at-86",
+     "official": false
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "Acting Legend Sir Patrick Stewart Has Died At 86",
+     "url": "https://kotaku.com/patrick-stewart-death-cause-announcement-x-men-star-trek-2000751164",
+     "official": false
+    },
+    {
+     "outlet": "The Daily Caller",
+     "title": "‘Star Trek’ Star Patrick Stewart Dead At 86",
+     "url": "https://dailycaller.com/2026/10/29/star-trek-x-men-star-patrick-stewart-dead-86-dementia-alzheimers-obituary",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Patrick Stewart has died at age 86",
+     "url": "https://www.theverge.com/news/1022626/patrick-stewart-star-trek-death",
+     "official": false
+    },
+    {
+     "outlet": "Straight Arrow News",
+     "title": "Sir Patrick Stewart, acclaimed actor from ‘Star Trek,’ ‘X-Men,’ has died",
+     "url": "https://san.com/cc/breaking-sir-patrick-stewart-of-star-trek-x-men-has-died/",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "Patrick Stewart, Star Trek, Elder Scrolls: Oblivion, and X-Men Actor, Passes Away at 86",
+     "url": "https://insider-gaming.com/patrick-stewart-star-trek-elder-scrolls-oblivion-and-x-men-actor-passes-away-at-86/",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Patrick Stewart, Star Trek and Shakespeare legend, has died",
+     "url": "https://www.pcgamer.com/movies-tv/patrick-stewart-star-trek-and-shakespeare-legend-has-died/",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "Star Trek Talent Mourn Patrick Stewart: 'Captain Picard Stood For the Best of Us'",
+     "url": "https://www.ign.com/articles/star-trek-mourns-patrick-stewart-tributes",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "'Star Trek' star Patrick Stewart dies age 86",
+     "url": "https://www.dw.com/en/star-trek-star-patrick-stewart-dies-age-86/a-79803071?maca=en-rss-en-all-1573-rdf",
+     "official": false
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "Patrick Stewart, The Legendary Star Trek And X-Men Actor, Has Passed Away",
+     "url": "https://www.nintendolife.com/news/2026/10/patrick-stewart-the-legendary-star-trek-and-x-men-actor-has-passed-away",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Patrick Stewart dies at 86 after battle with dementia",
+     "url": "https://cphpost.dk/2026-10-30/global/patrick-stewart-dies-at-86-after-battle-with-dementia/",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Patrick Stewart, 'Star Trek' captain and 'X-Men' star, dies at 86",
+     "url": "https://www.yahoo.com/entertainment/celebrity/article/patrick-stewart-star-of-x-men-and-star-trek-dies-at-86-195431969.html",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Patrick Stewart was the beating heart of Star Trek. We were lucky to have him",
+     "url": "https://www.thejournal.ie/tea-earl-grey-hot-7209788-Oct2026/",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "0a4653d5964a",
+   "title": "Anthropic S-1 Filing Highlights Critical Reliance on TSMC Taiwan Chip Supply",
+   "summary": "Anthropic's preliminary S-1 filing reveals heavy dependence on TSMC semiconductors manufactured in Taiwan, warning prospective investors of potential disruptions tied to rising geopolitical tensions with China.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-10-30T03:10:00Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "Techmeme",
+     "title": "S-1: Anthropic says it heavily depends on TSMC chips made in Taiwan and warns of risks from \"potential disruption\" amid geopolitical tensions with China (Joseph C. Sternberg/Wall Street Journal)",
+     "url": "https://www.techmeme.com/261029/p70#a261029p70",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "0045d7d236ca",
+   "title": "Russian Investigative Newspaper Novaya Gazeta Shuts Down Under Official Pressure",
+   "summary": "Novaya Gazeta, Russia's most prominent independent news organization, announced its permanent closure following years of increasing repression and a coordinated campaign that included eviction from its offices.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-10-30T09:45:46Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "SVT Nyheter (Sweden)",
+     "title": "Independent Russian newspaper Novaya Gazeta is shutting down",
+     "url": "https://www.svt.se/kultur/oberoende-ryska-novaja-gazeta-lagger-ned",
+     "official": false,
+     "translated_from": "sv",
+     "original_title": "Oberoende ryska Novaja Gazeta lägger ned"
+    },
+    {
+     "outlet": "The Guardian: World",
+     "title": "Russian newspaper Novaya Gazeta to close, citing pressure from ‘special services’",
+     "url": "https://www.theguardian.com/world/2026/oct/30/novaya-gazeta-russia-independent-newspaper-to-close",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Closure of Kremlin-critical newspaper Novaya Gazeta",
+     "url": "https://orf.at/stories/3446585/",
+     "official": false,
+     "translated_from": "de",
+     "original_title": "Aus für kremlkritische Zeitung „Nowaja Gaseta“"
+    },
+    {
+     "outlet": "The Straits Times: World",
+     "title": "Russian investigative newspaper Novaya Gazeta says it is shutting down after 'coordinated campaign'",
+     "url": "https://www.straitstimes.com/world/europe/russian-investigative-newspaper-novaya-gazeta-says-it-is-shutting-down-after-coordinated-campaign",
+     "official": false
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "‘They killed us’: Russian independent newspaper Novaya Gazeta announces its closure after decades of repression",
+     "url": "https://meduza.io/en/feature/2026/10/30/they-killed-us-russian-independent-newspaper-novaya-gazeta-announces-its-closure-after-decades-of-repression",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "a3ff9c6ea8f9",
+     "title": "OpenAI Doubles Usage Limits Across Paid Plans Following Competitive Pressures",
+     "summary": "OpenAI is doubling usage limits on its paid tiers, scaling up from Pro 100 to Pro 500 quotas after reversing a planned reduction due to strong user pushback.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-29T20:01:27Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+       "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7bf0065ceb16",
+     "title": "OpenAI Releases Updated Model Spec Focused on Sound Judgment and Human Intent",
+     "summary": "OpenAI published an updated Model Spec outlining five core values designed to guide capable AI models toward enhanced human agency and faithfulness.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-10-29T17:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "OpenAI News",
+       "title": "An updated Model Spec for more capable and beneficial AI",
+       "url": "https://openai.com/index/updated-model-spec",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "88cc9f11a77f",
+     "title": "Anthropic Study Shows Experts Unknowingly Adopt Random AI Agent Opinions",
+     "summary": "An Anthropic study revealed that when experts consulted AI agents programmed with random coin-flip preferences on judgment calls, they followed the agent's view up to 86 percent of the time while believing the conclusions were their own.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-29T19:33:37Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+       "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1c92e42e4bf8",
+     "title": "CrowdStrike Reports State-Linked Chinese Hackers Using DeepSeek LLMs in Cyberattacks",
+     "summary": "CrowdStrike researchers disclosed that China-linked hackers utilized an AI tool powered by a DeepSeek large language model to target over 200 organizations over an 11-day period.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-30T04:01:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine (Kevin Collier/NBC News)",
+       "url": "https://www.techmeme.com/261030/p1#a261030p1",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "164f9a44acfb",
+     "title": "DeepSeek Doubles Latest Funding Round on Surging Blackwell Chip Costs",
+     "summary": "Reports indicate that Chinese AI developer DeepSeek doubled the size of its latest funding round to nearly $16 billion, driven by soaring black market prices for Nvidia Blackwell chips.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-30T03:35:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: DeepSeek doubled its latest round's size due to surging black market Nvidia Blackwell chip prices, with Chinese state-owned investors representing 27% (The Information)",
+       "url": "https://www.techmeme.com/261029/p71#a261029p71",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "38812fd51d92",
+     "title": "Indian Infrastructure Firm AM Intelligence Targets $3B Raise for Nvidia Vera Rubin Hardware",
+     "summary": "Indian AI infrastructure provider AM Intelligence is reportedly seeking up to $3 billion in new capital to finance previously announced purchases of Nvidia Vera Rubin systems.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-30T02:40:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Techmeme",
+       "title": "Sources: Indian AI infrastructure company AM Intelligence seeks to raise as much as $3B to fund a previously announced purchase of Nvidia Vera Rubin systems (Bloomberg)",
+       "url": "https://www.techmeme.com/261029/p69#a261029p69",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "11ef932bb8b9",
+     "title": "Claude Duet Garners Attention as Personal Assistant Harness",
+     "summary": "Developers highlight Anthropic's Claude Duet framework as a practical and effective personal-assistant harness model.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-29T17:24:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "HN: Claude/Anthropic",
+       "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+       "url": "https://fig.blue/posts/duet-is-the-future/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "edf030352b66",
+     "title": "GLP-1 Weight-Loss Drugs Linked to Potential Eating Disorder Triggers",
+     "summary": "Clinical psychologists warn that the widespread adoption of GLP-1 weight-loss medications could exacerbate or trigger eating disorders among vulnerable populations.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-10-30T09:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MIT Technology Review",
+       "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
+       "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "3d686f6a2d4d",
+     "title": "Apple Shaves Taiwan App Store Commission Following Regulatory Pressure",
+     "summary": "Apple has slightly reduced its standard 30% App Store commission rate for in-app purchases and subscriptions in Taiwan starting October 31 amid local antitrust pressure.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-30T10:49:49Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple cuts App Store commission in Taiwan following regulatory discussions [U]",
+       "url": "https://9to5mac.com/2026/10/29/apple-cuts-app-store-commission-in-taiwan-following-regulatory-discussions/",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple cuts its take of app sales in Taiwan just a bit",
+       "url": "https://appleinsider.com/articles/26/10/30/apple-cuts-its-take-of-app-sales-in-taiwan-just-a-bit?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "345cc9797a9d",
+     "title": "Waymo and Toyota Partner to Test Autonomous bZ4X Robotaxis in Japan and the UK",
+     "summary": "Waymo and Toyota announced plans to begin testing autonomous electric vehicles using Toyota's bZ4X platform in Japan and the United Kingdom starting next year.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-30T10:23:52Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
+       "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Waymo and Toyota will soon start testing their robotaxis in Japan",
+       "url": "https://www.engadget.com/2301972/waymo-toyota-soon-start-testing-bz4x-robotaxis-japan/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "20fcd8c5d7b0",
+     "title": "Amazon CEO Announces Prime Video Is Profitable with Tens of Billions in Revenue",
+     "summary": "Amazon CEO Andy Jassy revealed that Prime Video generates a revenue run rate in the tens of billions of dollars and now operates profitably on its own merits four years after the MGM acquisition.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-30T01:10:01Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
+       "url": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+       "official": false
+      },
+      {
+       "outlet": "Techmeme",
+       "title": "Andy Jassy says Prime Video has \"a revenue run rate in the tens of billions of dollars and is now profitable in its own right\" (Julie Bort/TechCrunch)",
+       "url": "https://www.techmeme.com/261029/p65#a261029p65",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7d75e069695f",
+     "title": "Rivian Reports Strong R2 SUV Sales and Improves Financial Guidance",
+     "summary": "Rivian's new R2 SUV has quickly become the company's best-selling vehicle, prompting leadership to improve Wall Street guidance for the second time this year.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-29T20:02:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Rivian’s R2 is officially its best-selling vehicle",
+       "url": "https://www.theverge.com/transportation/1022420/rivian-q3-earnings-r2-sales-volkswagen-software",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "The R2 SUV is already Rivian’s best-selling vehicle",
+       "url": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "071e992469ee",
+     "title": "US Senators Scrutinize Privacy Risks Surrounding Meta's AI Glasses",
+     "summary": "United States senators have formally asked Meta to detail how it is mitigating serious privacy risks associated with its wearable AI glasses.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-30T10:08:13Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Senators are looking into 'serious privacy risks' with Meta's AI glasses",
+       "url": "https://www.engadget.com/2301968/senators-looking-into-serious-privacy-risks-with-meta-ai-glasses/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "08425fa3a2cd",
+     "title": "Apple Allocates Majority of Initial iPhone Duo Inventory Directly to Retail Stores",
+     "summary": "Market watchers note that Apple distributed roughly 80% of initial iPhone Duo supply directly to its physical retail stores, resulting in limited stock units per location.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-30T10:10:09Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Where Did All the iPhone Duos Go? Mostly to Apple's Stores",
+       "url": "https://www.macrumors.com/2026/10/30/apple-stores-as-few-as-50-iphone-duo-units/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5f12f4438a11",
+     "title": "TrendForce Forecasts 1.5 Million Shipments for Apple's Touchscreen MacBook Pro in 2027",
+     "summary": "Market intelligence firm TrendForce projects that Apple's newly announced OLED touchscreen MacBook Pro line could ship between 1.2 million and 1.5 million units in 2027.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-30T09:28:16Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple's Touchscreen MacBook Pro Could Ship 1.5M Units in 2027",
+       "url": "https://www.macrumors.com/2026/10/30/oled-macbook-pro-1-5m-shipments-2027/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "df56a26ce091",
+     "title": "Stravas Expands Integration with Google Gemini for Workout Insights",
+     "summary": "Strava has rolled out an expanded integration with Google Gemini, giving subscribers personalized analytics and insights based on their training history.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-10-29T21:06:35Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Strava adds Google Gemini integration with personalized workout insights",
+       "url": "https://9to5mac.com/2026/10/29/strava-adds-google-gemini-integration-with-personalized-workout-insights/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "c086785b8644",
+     "title": "Ubisoft Confirms No Further Assassin's Creed Remakes Are Currently in Development",
+     "summary": "Ubisoft announced it is not working on additional remakes for the Assassin's Creed franchise, choosing instead to focus resources on upcoming projects like Hexe and Invictus.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-30T11:00:00Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Ubisoft Gives Update On Assassin’s Creed Hexe",
+       "url": "https://insider-gaming.com/ubisoft-gives-update-on-assassins-creed-hexe/",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Ubisoft Doesn’t Have Any More Assassin’s Creed Remakes in Development",
+       "url": "https://insider-gaming.com/ubisoft-assassins-creed-remakes-development/",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Don't expect more Assassin's Creed remakes anytime soon",
+       "url": "https://www.engadget.com/2301452/dont-expect-more-assassins-creed-remakes-anytime-soon/",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "No New Assassin's Creed Remakes in the Works at Ubisoft",
+       "url": "https://www.pushsquare.com/news/2026/10/no-new-assassins-creed-remakes-in-the-works-at-ubisoft",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "There are no more Assassin's Creed remakes in development, because Ubisoft are focused on Hexe, Invictus and \"projects you haven't heard about yet\"",
+       "url": "https://www.rockpapershotgun.com/there-are-no-more-assassins-creed-remakes-in-development-because-ubisoft-are-focused-on-hexe-invictus-and-projects-you-havent-heard-about-yet",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "50174cee3941",
+     "title": "Netflix Developing Live-Action PUBG Series Written and Produced by Donald Glover",
+     "summary": "Netflix is adapting PlayerUnknown's Battlegrounds into a live-action series, with Donald and Stephen Glover attached to write and executive produce the project.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-29T21:10:43Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "PUBG live-action series in development at Netflix",
+       "url": "https://www.gematsu.com/2026/10/pubg-live-action-series-in-development-at-netflix",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Netflix is making a live-action PUBG show written and directed by Donald Glover",
+       "url": "https://www.engadget.com/2301458/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Donald Glover is heading up a PUBG live action series for Netflix",
+       "url": "https://www.pcgamer.com/movies-tv/donald-glover-is-heading-up-a-pubg-live-action-series-for-netflix/",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Netflix Developing Live-Action PUBG Series With Donald Glover",
+       "url": "https://insider-gaming.com/netflix-pubg-live-action-series-donald-glover/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e536ba081452",
+     "title": "Rockstar Games UK Union Vote Set for Next Month Involving Over 1,600 Workers",
+     "summary": "Rockstar Games workers across the UK are preparing for a union ballot running from November 12 to 26 that could cover more than 1,600 employees.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-29T22:04:14Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Game File (Stephen Totilo)",
+       "title": "Rockstar Games’ union could top 1,600 workers",
+       "url": "https://www.gamefile.news/p/rockstar-union-size-xbox-missing-reviews",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Rockstar Union Vote Could Cover Over 1,600 UK Workers",
+       "url": "https://insider-gaming.com/rockstar-uk-union-vote-1600-workers/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ab1d1b00a509",
+     "title": "Kojima Productions Debuts First Teaser Trailer for 'Death Stranding Isolations' Anime Series",
+     "summary": "Kojima Productions and Disney+ released the first teaser trailer for Death Stranding Isolations, an upcoming anime television series scheduled to premiere in 2027.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-30T10:00:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Death Stranding Isolations teaser trailer, first details",
+       "url": "https://www.gematsu.com/2026/10/death-stranding-isolations-teaser-trailer-first-details",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Death Stranding Isolations Anime Gets First Trailer",
+       "url": "https://www.ign.com/articles/death-stranding-isolations-anime-gets-first-trailer",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Death Stranding Isolations Anime TV Series Gets First Trailer, Out in 2027",
+       "url": "https://www.pushsquare.com/news/2026/10/death-stranding-isolations-anime-tv-series-gets-first-trailer-out-in-2027",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "84d9cccf96d1",
+     "title": "Bethesda Reportedly Preparing Reveal for The Elder Scrolls 6 Next Month",
+     "summary": "Industry reports indicate that Bethesda may officially reveal long-awaited role-playing game The Elder Scrolls 6 as early as next month amid wider corporate restructuring.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Gaming",
+     "published": "2026-10-30T10:52:39Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Bethesda reportedly revealing The Elder Scrolls 6 next month, and we may know what its subtitle is going to be",
+       "url": "https://www.eurogamer.net/elder-scrolls-6-reportedly-revealed-november",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "edef0f611a96",
+     "title": "Gears of War: E-Day Reportedly Tops 400,000 Sales Despite Day-One Game Pass Launch",
+     "summary": "Industry sources report that Gears of War: E-Day has sold over 400,000 standalone copies across console and PC in its first month despite its simultaneous release on Xbox Game Pass.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-29T23:13:44Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Gears of War: E-Day Reportedly Sold Over 400,000 Copies",
+       "url": "https://insider-gaming.com/gears-of-war-e-day-reportedly-sold-over-400000-copies/",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Gears of War: E-Day Reportedly Sold Over 400K Copies Across Console and PC a Month After Day-One Game Pass Launch",
+       "url": "https://www.ign.com/articles/gears-of-war-e-day-reportedly-sold-over-400k-copies-across-console-and-pc-a-month-after-day-one-game-pass-launch",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9a50b3141176",
+     "title": "Celeste and TowerFall Delisted from Xbox Store by Developer Intention",
+     "summary": "Developer Maddy Thorson confirmed that the sudden removal of Celeste and TowerFall from the Xbox storefront was an intentional publisher-side move.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-10-30T10:15:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "Celeste and TowerFall dev explains why both games were suddenly delisted from Xbox",
+       "url": "https://www.eurogamer.net/towerfall-celeste-xbox-boycott-delisted",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "087015c5f1b4",
+     "title": "Crimson Desert Major 'Charting the Unknown' DLC Launches on PS5",
+     "summary": "Pearl Abyss has released a massive new content expansion for Crimson Desert titled 'Charting the Unknown' for PlayStation 5 players.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-10-29T22:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "The Journey of Crimson Desert Continues with Charting the Unknown",
+       "url": "https://news.xbox.com/en-us/2026/10/29/crimson-desert-charting-the-unknown/",
+       "official": true
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Crimson Desert's Huge DLC, Charting the Unknown, Out Now on PS5",
+       "url": "https://www.pushsquare.com/news/2026/10/crimson-deserts-huge-dlc-charting-the-unknown-out-now-on-ps5",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "b031f7d679e1",
+     "title": "Anthropic Emerges as SpaceX's Largest Commercial Customer",
+     "summary": "Financial results published by SpaceX indicate that AI lab Anthropic has become its single largest customer, highlighting intense market concentration trends.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-30T10:37:22Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Semafor",
+       "title": "Anthropic is now SpaceX's biggest customer",
+       "url": "https://www.semafor.com/article/10/30/2026/anthropic-is-now-spacexs-biggest-customer",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4db20898e948",
+     "title": "OpenAI-Backed Thrive Holdings Acquires ADT in $15.3 Billion Deal",
+     "summary": "Thrive Holdings, backed by OpenAI, is acquiring home security giant ADT for $15.3 billion with explicit plans to integrate generative AI into home security solutions.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-29T19:56:19Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "OpenAI-backed Thrive Holdings acquires ADT",
+       "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fdc6e1d8e3bf",
+     "title": "Maine Senate Debate Highlights Local Voter Anxiety Over AI Data Centers",
+     "summary": "The political debate for Maine's Senate race underscored growing voter friction over massive energy demands and land use impacts from upcoming AI data center developments.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-30T11:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Maine’s data center revolt will decide who controls the Senate",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1e4e62241e87",
+     "title": "Wired Analysis Examines Elon Musk's Deep Political Ties to Texas Leadership",
+     "summary": "Political analysts outline how billionaire Elon Musk's long-standing institutional relationships with Republican leaders in Texas extend far beyond recent midterm election cycles.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-10-30T10:45:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Elon Musk’s Ties to Texas Republicans Go Much Deeper Than the Midterms",
+       "url": "https://www.wired.com/story/elon-musks-ties-to-texas-republicans-go-much-deeper-than-the-midterms/",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "84662a65f5a2",
+     "title": "Ukrainian Drone Strikes Spark Fire at Russian Oil Refinery in Samara",
+     "summary": "Ukrainian long-range drone strikes targeted energy infrastructure inside Russia, causing a major fire at an oil refinery in the Samara region despite US diplomatic pressure.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-30T09:34:19Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Ukraine reportedly strikes Russian oil refinery in Samara",
+       "url": "https://kyivindependent.com/russian-oil-refinery-reportedly-attacked-amid-renewed-ukrainian-strikes-on-energy-infrastructure/",
+       "official": false
+      },
+      {
+       "outlet": "Meduza (Russia)",
+       "title": "Moscow mayor says more than 800 Ukrainian drones headed toward Russian capital as reports emerge of fire at Samara region oil refinery",
+       "url": "https://meduza.io/en/news/2026/10/30/moscow-mayor-says-more-than-800-ukrainian-drones-headed-toward-russian-capital-as-reports-emerge-of-fire-at-samara-region-oil-refinery",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Russian oil refinery struck as Ukraine renews drone attacks",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Russian oil refinery suffers major drone attack",
+       "url": "https://www.politico.eu/article/russian-oil-refinery-suffers-major-drone-attack-samara/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fceeff6eccb0",
+     "title": "Russian Missile and Drone Attacks Leave Hundreds of Thousands Without Power in Ukraine",
+     "summary": "Overnight Russian bombardments across central Ukraine left more than 200,000 residents in the Dnipropetrovsk region and hundreds of thousands in Dnipro without electricity.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-30T10:55:28Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Russian night attacks kill 1 in Kyiv, leave 350,000 in Dnipro without power",
+       "url": "https://kyivindependent.com/russian-night-attacks-kill-1-in-kyiv-leave-350-000-in-dnipro-without-power/",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Russian strikes leave 200,000 without power in Ukraine",
+       "url": "https://www.rte.ie/news/2026/1030/1597338-ukraine-russia/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cfb30b2ac55f",
+     "title": "Glacial Lake Outburst in Bhutan Triggers Flash Floods Across Border Regions",
+     "summary": "A sudden glacial lake outburst flood in northern Bhutan forced authorities to issue high-level flood alerts downstream across northern West Bengal and Assam.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-30T09:54:50Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Hindu: International",
+       "title": "Glacial lake outburst in Bhutan triggers flood alert in northern West Bengal, Assam",
+       "url": "https://www.thehindu.com/news/international/shintaphu-glacial-lake-bursting-gasa-tshachu-hot-springs/article71643533.ece",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Bhutan glacial lake outburst triggers flash floods",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8017e3870056",
+     "title": "G20 Foreign Ministers Convene in Atlanta for High-Level Diplomatic Talks",
+     "summary": "Foreign ministers from G20 nations gathered in the United States for diplomatic meetings featuring representatives from member states, serving as a preparatory forum for broader global summits.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-10-30T10:37:11Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Hindu: International",
+       "title": "Russian Foreign Minister Sergey Lavrov arrives in U.S. for G20 meeting",
+       "url": "https://www.thehindu.com/news/international/russian-foreign-minister-sergey-lavrov-arrives-in-us-for-g20-talks-against-sanctions-amid-mounting-global-tensions/article71643693.ece",
+       "official": false
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "G20 Foreign Ministers' Meeting with Lavrov and Wadephul in Atlanta",
+       "url": "https://www.tagesschau.de/ausland/amerika/aussenministertreffen-usa-100.html",
+       "official": false,
+       "translated_from": "de",
+       "original_title": "G20-Außenministertreffen mit Lawrow und Wadephul in Atlanta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "4941f2666627",
+     "title": "Court of Arbitration for Sport Rules Russia Must Return to Ice Hockey Championships in 2027",
+     "summary": "The Court of Arbitration for Sport mandated that Russian national teams must be permitted to rejoin international ice hockey world championships starting in 2027.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-30T10:57:24Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "franceinfo (France)",
+       "title": "Russia reinstated in Ice Hockey World Championships by Court of Arbitration for Sport ruling",
+       "url": "https://www.franceinfo.fr/sports/hockey-sur-glace/la-russie-reintegree-aux-championnats-du-monde-de-hockey-sur-glace-sur-decision-du-tribunal-arbitral-du-sport_8260241.html#xtor=RSS-3-[lestitres]",
+       "official": false,
+       "translated_from": "fr",
+       "original_title": "La Russie réintégrée aux championnats du monde de hockey sur glace, sur décision du Tribunal arbitral du sport"
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Sports court rules Russia must be allowed back into ice hockey world championships",
+       "url": "https://cphpost.dk/2026-10-30/news/round-up/sports-court-rules-russia-must-be-allowed-back-into-ice-hockey-world-championships/",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Sports court orders Russia’s return to ice hockey world championships from 2027",
+       "url": "https://cphpost.dk/2026-10-30/global/sports-court-orders-russias-return-to-ice-hockey-world-championships-from-2027/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "beb04ad03194",
+     "title": "Polish Law Enforcement Detains Russian National Suspected of Spying on Rail Infrastructure",
+     "summary": "Polish security officers detained a 55-year-old Russian man in Świdnica on charges of photographing and gathering operational intelligence on critical railway infrastructure.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-30T09:15:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times: World",
+       "title": "Russian detained in Poland after photographing rail infrastructure, police say",
+       "url": "https://www.straitstimes.com/world/europe/russian-detained-in-poland-after-photographing-rail-infrastructure-police-say",
+       "official": false
+      },
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Poland detains Russian man photographing trains and railway infrastructure",
+       "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060412/",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2a294fe21eb0",
+     "title": "French Presidential Hopeful Édouard Philippe Designated as 'Assisted Witness' in Embezzlement Probe",
+     "summary": "French political figure and presidential candidate Édouard Philippe was granted assisted witness status by investigators probing embezzlement allegations, avoiding formal charges.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-10-30T09:54:09Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "France 24: Europe",
+       "title": "French presidential hopeful Édouard Philippe quizzed in embezzlement case",
+       "url": "https://www.france24.com/en/europe/20261030-french-presidential-hopeful-edouard-philippe-quizzed-in-embezzlement-case",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "French presidential candidate Édouard Philippe designated 'assisted witness' in embezzlement case",
+       "url": "https://www.euronews.com/2026/10/30/french-presidential-candidate-edouard-philippe-designated-assisted-witness-in-embezzlement",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "bda1c18da4e7",
+     "title": "Bank of Japan Governor Ueda Confirms 2% Inflation Target Not Yet Sustainably Achieved",
+     "summary": "Bank of Japan Governor Kazuo Ueda stated that while price targets have been touched, the stable 2% inflation goal has not yet been sustainably achieved, signaling cautious monetary policy ahead.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-30T11:00:53Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "What does achieving the Bank of Japan's price target mean? Two experts break it down",
+       "url": "http://www.asahi.com/articles/ASVBZ33W8VBZULFA00XM.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "日銀の物価目標「到達」にどんな意味がある？ 専門家2人が読み解く"
+      },
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "[Updates] Bank of Japan reaches 2% inflation target – all articles published today available here",
+       "url": "http://www.asahi.com/articles/ASVBY3FP7VBYULFA00NM.html?ref=rss",
+       "official": false,
+       "translated_from": "ja",
+       "original_title": "【更新中】日銀が物価「2%到達」 本日配信の全記事はこちらから"
+      },
+      {
+       "outlet": "Nikkei Asia",
+       "title": "BOJ chief Ueda says 2% inflation goal not yet sustainably achieved",
+       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-chief-ueda-says-2-inflation-goal-not-yet-sustainably-achieved",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "52f156f7ed34",
+     "title": "Bank of Japan Plans to Accelerate ETF Sales Starting in January",
+     "summary": "The Bank of Japan announced measures to accelerate its exchange-traded fund sales pace to more than double current volumes beginning next January.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-30T11:00:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "BOJ to accelerate ETF sales, more than doubling pace from January",
+       "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-to-accelerate-etf-sales-more-than-doubling-pace-from-january",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b374abab797e",
+     "title": "Foxconn Leadership Downplays AI Bubble Concerns and Projects Strong 2027 Growth",
+     "summary": "Foxconn executives dismissed market fears of an artificial intelligence bubble, pointing to sustained hardware demand and robust enterprise forecasts for 2027.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-10-30T11:00:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Foxconn chief downplays AI bubble concerns, sees strong 2027 growth",
+       "url": "https://asia.nikkei.com/business/technology/foxconn-chief-downplays-ai-bubble-concerns-sees-strong-2027-growth",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "2409856a5d22",
+     "title": "Call of Duty Publisher Apologizes and Removes Real Footage of Itaewon Crowd Crush",
+     "summary": "The publishers of Call of Duty issued an official apology for utilizing real archival footage of the tragic 2022 Seoul Itaewon crowd crush in a recent game installment and agreed to remove it.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-30T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Call of Duty publisher apologizes for using real footage of Itaewon crowd crush",
+       "url": "https://en.yna.co.kr/view/AEN20261030011500320",
+       "official": false
+      },
+      {
+       "outlet": "New York Times: World",
+       "title": "New ‘Call of Duty’ Game Draws Criticism for Using Footage of Deadly Seoul Crowd Crush",
+       "url": "https://www.nytimes.com/2026/10/30/world/asia/call-of-duty-seoul-itaweon-crowd-crush.html",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Call of Duty publisher apologizes for using real footage of Itaewon crowd crush",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261030/call-of-duty-publisher-apologizes-for-using-real-footage-of-itaewon-crowd-crush?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5f4b5443af32",
+     "title": "Korean Police Deploy 7,800 Personnel Nationwide for Halloween Crowd Safety",
+     "summary": "Law enforcement agencies across South Korea deployed approximately 7,800 officers to 28 major districts to manage heavy Halloween crowds and ensure public safety.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-30T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "Police to Deploy 7,800 Officers to 28 Areas Nationwide for Halloween",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205245",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Police to deploy 7,800 personnel nationwide for crowd safety during Halloween",
+       "url": "https://www.koreaherald.com/article/10920845",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Police to deploy 7,800 personnel nationwide for crowd safety during Halloween",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261030/police-to-deploy-7800-personnel-nationwide-for-crowd-safety-during-halloween?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7a7a0cfc2fd6",
+     "title": "Incheon International Airport Restores Systems Following Check-In Disruption",
+     "summary": "A network and check-in system malfunction at Incheon International Airport caused hours-long delays for dozens of flights before operations were successfully restored.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-30T10:57:03Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "(LEAD) Check-in system at Incheon airport restored after hourslong disruption",
+       "url": "https://en.yna.co.kr/view/AEN20261030010751315",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Ticketing Services Resume for 3 Airlines at Incheon Int’l Airport’s Terminal 1",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205250",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Check-in system malfunction at Incheon airport causes major delays",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261030/check-in-system-malfunction-at-incheon-airport-causes-major-delays?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b8624a7ac86b",
+     "title": "Special Counsel Appeals Acquittal of Seoul Mayor in Political Funds Case",
+     "summary": "A special counsel investigation team filed an appeal against the lower court acquittal of Seoul Mayor Oh Se-hoon regarding campaign funds tied to the 2021 mayoral by-election.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-30T10:57:03Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "Special Counsel Appeals Seoul Mayor's Acquittal in Opinion Poll Payment Case",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205244",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Special counsel appeals Seoul mayor's acquittal in political funds case",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261030/special-counsel-appeals-seoul-mayors-acquittal-in-political-funds-case?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3619dcc1e1c2",
+     "title": "President Lee Jae Myung's Approval Rating Slips Below 40 Percent",
+     "summary": "A Gallup Korea tracking poll released Friday showed South Korean President Lee Jae Myung's public approval rating dropping back down to 39 percent.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-30T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "President Lee's approval rating falls back to 39%: poll",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261030/president-lees-approval-rating-falls-back-to-39-poll?utm_source=rss",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "359d078e9f38",
+     "title": "Probe Attributes Fatal Ulsan Power Plant Boiler Collapse to Excessive Column Cutting",
+     "summary": "Official investigation findings concluded that the deadly structural collapse of a boiler tower at a power plant in Ulsan resulted from excessive cutting of support columns ahead of demolition.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-10-30T10:57:03Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Excessive cutting of support columns blamed for deadly Ulsan power plant collapse",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261030/excessive-cutting-of-support-columns-blamed-for-deadly-ulsan-power-plant-collapse?utm_source=rss",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "bcd4557a5596",
+     "title": "Nintendo Switch 2 Pro Controller Drops to $67.59 on Woot Ahead of Black Friday",
+     "summary": "Woot has discounted the international model Nintendo Switch 2 Pro Controller down to $67.59 using promo code SAVETOBER.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-30T07:15:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Nintendo Switch 2 Pro Controller (new International Model) is $67.59 on Woot w/ code SAVETOBER buff.ly/aVCCQ5p #ad",
+       "url": "https://buff.ly/aVCCQ5p",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "The Official Nintendo Switch 2 Pro Controller Drops to $67.59 at Woot Ahead of Black Friday",
+       "url": "https://www.ign.com/articles/nintendo-switch-2-pro-controller-deal-october-2026",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "The Legend of Zelda Edition Nintendo Switch Pro Controller Drops to $55.99 Ahead of Black Friday",
+       "url": "https://www.ign.com/articles/legend-of-zelda-edition-nintendo-switch-pro-controller-deal-october-2026-updated",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c531d3a82e4b",
+     "title": "Nintendo Switch 2 'Choose Your Game' Bundle Available for $479 at Woot",
+     "summary": "Woot has slashed the price of the Nintendo Switch 2 hardware bundle down to $479 while supplies last ahead of the official holiday shopping season.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-30T07:33:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "The Nintendo Switch 2 \"Choose Your Game\" Bundle Drops to $479 at Woot While Supplies Last",
+       "url": "https://www.ign.com/articles/nintendo-switch-2-console-deal-october-2026",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cd1b67a968d2",
+     "title": "Dragon Quest VII Reimagined Discounted to $19.99 on Woot",
+     "summary": "Dragon Quest VII Reimagined for PlayStation 5 and Nintendo Switch is on sale for $19.99, with other platform versions available for $23.99 using coupon code SAVETOBER.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-30T05:20:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "DRAGON QUEST VII Reimagined (PS5/Switch) is $19.99 ; Switch 2 KC/XSX $23.99 on Woot w/ code SAVETOBER buff.ly/JfeAeG8 #ad",
+       "url": "https://buff.ly/JfeAeG8",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aca04888bc0e",
+     "title": "Kirby and the Forgotten Land + Star-Crossed World Marked Down to $51.99",
+     "summary": "Woot is offering Kirby and the Forgotten Land + Star-Crossed World for Nintendo Switch 2 for $51.99 with the SAVETOBER discount code.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-30T05:11:33Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Kirby and the Forgotten Land + Star-Crossed World (Switch 2E - USA) is $51.99 on Woot w/ code SAVETOBER buff.ly/2brTXTe #ad",
+       "url": "https://buff.ly/2brTXTe",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "728c7055302d",
+     "title": "Fire Emblem: Fortune's Weave Available for $63.99 via Woot Promo",
+     "summary": "Fire Emblem: Fortune's Weave for the Nintendo Switch 2 is discounted to $63.99 using checkout code SAVETOBER on Woot.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-10-30T05:10:43Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Fire Emblem: Fortune's Weave (Switch 2 - USA) is $63.99 on Woot w/ code SAVETOBER buff.ly/a26WRZX #ad",
+       "url": "https://buff.ly/a26WRZX",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-30",
+ "generated_at": "2026-10-30T11:00:53Z",
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1127,
+  "clusters": 1012,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "techdirt",
+   "title": "Techdirt",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.techdirt.com/feed/"
+  },
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "wapo-politics",
+   "title": "The Washington Post: Politics",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://feeds.washingtonpost.com/rss/politics"
+  },
+  {
+   "key": "corriere",
+   "title": "Corriere della Sera (Italy)",
+   "status": "stale",
+   "detail": "no new items since 2024-05-13"
+  },
+  {
+   "key": "nhk",
+   "title": "NHK News (Japanese)",
+   "status": "stale",
+   "detail": "no new items since 2026-08-08"
+  },
+  {
+   "key": "dring",
+   "title": "Christopher Dring",
+   "status": "stale",
+   "detail": "no new items since 2026-10-13"
+  }
+ ]
+}
