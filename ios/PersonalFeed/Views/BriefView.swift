@@ -6,13 +6,20 @@ import SwiftUI
 /// filter menu in the navigation bar, narrow the feed to one topic; the menu also hides read
 /// stories, edits topics and browses the ones not followed.
 ///
+/// In For you (the default order) the feed is shuffled, and stories move to the bottom once
+/// they're read or scrolled past (see FeedOrder). A read story moves at once. A scrolled-past one
+/// moves at the next moment it can without yanking the list: coming back from a story, an
+/// article or another tab, scrolling back up to the top, or pulling to refresh. Moving cards out
+/// from above while the list is being dragged would shift everything under the thumb, and the
+/// card shifted off the top would count as scrolled past too, and so on down the feed.
+///
 /// Today shows the live brief (`isLive`): freshness, new markers, held updates and pull to
 /// refresh. Saved > Past briefs shows an older day with the same layout.
 struct BriefView: View {
     @Environment(AppModel.self) private var model
     let brief: Brief
     let isLive: Bool
-    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .forYou
     @AppStorage(BriefView.hideReadKey) private var hideRead = false
     /// The topic the feed is narrowed to; nil shows every topic.
     @State private var topic: String?
@@ -21,6 +28,8 @@ struct BriefView: View {
     @State private var readSnapshot: Set<String>?
     @State private var editingTopics = false
     @State private var toast: Toast?
+    /// Where the cards are on screen, for For you's "scrolled past".
+    @State private var tracker = FeedScrollTracker()
 
     static let hideReadKey = "hideRead"
     static let topTitle = "Top stories"
@@ -48,7 +57,7 @@ struct BriefView: View {
 
     var body: some View {
         let content = FeedContent.make(brief: brief, topic: topic, sort: sort, hiddenIDs: hiddenIDs,
-                                       isRead: model.isRead)
+                                       isRead: model.isRead, order: model.feedOrder)
         let topIDs = Set(brief.top.map(\.id))
         let selection = Binding(get: { content.topic }, set: { topic = $0 })
 
@@ -59,7 +68,11 @@ struct BriefView: View {
                     .listRowSeparator(.hidden)
                     // Tells the model whether the reader is at the top, where an update can be shown
                     // at once instead of being held behind the "N new stories" button.
-                    .onAppear { if isLive { model.todayIsAtTop = true } }
+                    .onAppear {
+                        guard isLive else { return }
+                        model.todayIsAtTop = true
+                        sinkAtTop()
+                    }
                     .onDisappear { if isLive { model.todayIsAtTop = false } }
 
                 if content.filters.count > 1 {
@@ -83,7 +96,9 @@ struct BriefView: View {
 
                 ForEach(content.stories) { story in
                     FeedRow(story: story, isTop: topIDs.contains(story.id), showsTopic: content.topic == nil,
-                            hidesDealLabel: content.topic == "Deals", day: isLive ? nil : brief.date)
+                            hidesDealLabel: content.topic == "Deals", day: isLive ? nil : brief.date,
+                            onFrame: { cardMoved(story, to: $0) }, onGone: { cardGone(story) })
+                        .id(story.id)
                 }
 
                 if isLive && content.topic == nil { alsoAvailableSection }
@@ -93,15 +108,34 @@ struct BriefView: View {
             }
             .listStyle(.plain)
             .minuteClock()
+            // The top of the visible list (below the navigation bar), where a card counts as passed.
+            .onGeometryChange(for: CGFloat.self) { FeedScrollTracker.listTop(of: $0) } action: {
+                tracker.visibleTop = $0
+            }
             .overlay(alignment: .top) { pendingButton(proxy) }
             .onChange(of: model.scrollToTopRequest) {
                 if isLive { scrollToTop(proxy) }
             }
-            .onChange(of: topic) { proxy.scrollTo(Self.headerID, anchor: .top) }
+            .onChange(of: topic) {
+                tracker.reset()
+                proxy.scrollTo(Self.headerID, anchor: .top)
+            }
             // Forget a topic once it has no stories, so it can't narrow the feed again on its own
             // when a later refresh brings one back.
             .onChange(of: content.topic) { _, now in if now == nil { topic = nil } }
-            .onChange(of: sort) { proxy.scrollTo(Self.headerID, anchor: .top) }
+            .onChange(of: sort) {
+                tracker.reset()
+                proxy.scrollTo(Self.headerID, anchor: .top)
+            }
+            .onChange(of: isFrontmost) { _, front in
+                if front { feedReturned(proxy) } else { feedCovered() }
+            }
+            // A new shuffle (back after a while, or pull to refresh) starts at the top.
+            .onChange(of: model.feedSeed) {
+                guard isLive, sort == .forYou, isFrontmost else { return }
+                tracker.reset()
+                proxy.scrollTo(Self.headerID, anchor: .top)
+            }
             .sensoryFeedback(.selection, trigger: topic)
         }
         .toolbar {
@@ -113,11 +147,94 @@ struct BriefView: View {
         .modifier(LiveRefresh(isLive: isLive) { @MainActor in
             let result = await Toast.pullToRefresh(model)
             takeReadSnapshot()
+            model.reshuffleFeed()  // For you: a new shuffle, with what was scrolled past moved down
             toast = result
         })
         .onAppear { takeReadSnapshot(onlyIfMissing: true) }
         .onChange(of: hideRead) { takeReadSnapshot() }
         .toast($toast)
+    }
+
+    // MARK: For you: moving read and scrolled-past stories down
+
+    /// Today is what's on screen: no story pushed over it, no article open, its tab selected.
+    private var isFrontmost: Bool {
+        isLive && model.todayPath.isEmpty && model.presentedArticle == nil && model.selectedTab == .today
+    }
+
+    private var tracksPasses: Bool { isLive && sort == .forYou }
+
+    /// A card moved on screen; once it's gone up past the top of the list, it's been scrolled past.
+    private func cardMoved(_ story: Story, to frame: CGRect) {
+        guard tracksPasses else { return }
+        if tracker.cardMoved(story.id, frame: frame) { notePassed(story) }
+    }
+
+    /// A card left the screen: through the top (a fast flick can skip the last frame above) counts
+    /// as scrolled past.
+    private func cardGone(_ story: Story) {
+        guard tracksPasses else { return tracker.forget(story.id) }
+        if tracker.cardGone(story.id) { notePassed(story) }
+    }
+
+    private func notePassed(_ story: Story) {
+        // Not while covered (a story's page loading moves nothing the reader passed) or right after
+        // the list itself moved cards.
+        guard isFrontmost, !tracker.isQuiet else { return }
+        model.notePassed(story)
+        tracker.passedSinceSink = true
+    }
+
+    /// Scrolled back up to the top: what was passed on the way down moves to the bottom now.
+    /// Only rows below the header move, so nothing shifts under the thumb.
+    private func sinkAtTop() {
+        guard tracksPasses, isFrontmost else { return }
+        tracker.quiet()
+        withAnimation(.snappy) { _ = model.sinkPassed() }
+        tracker.passedSinceSink = false
+    }
+
+    /// Today was covered by a story, an article or another tab: remember which cards were on
+    /// screen, so coming back can pick up from them after the order changes.
+    private func feedCovered() {
+        guard tracksPasses else { return }
+        tracker.anchorIDs = tracker.cardsOnScreen()
+        tracker.anchorSeed = model.feedSeed
+    }
+
+    /// Back on Today: the story just read has already gone to the bottom; now the ones scrolled
+    /// past do too. They were above the screen, so the list is scrolled to the first card left from
+    /// those that were on screen, which shows the same place minus what was read or passed.
+    private func feedReturned(_ proxy: ScrollViewProxy) {
+        guard tracksPasses else { return }
+        let seed = tracker.anchorSeed
+        tracker.anchorSeed = nil
+        let movedAbove = tracker.passedSinceSink
+        tracker.passedSinceSink = false
+        let moved = model.sinkPassed()
+        guard let seed else { return }
+        let target: String
+        if seed != model.feedSeed {
+            target = Self.headerID  // reshuffled meanwhile: start at the top
+        } else if moved && movedAbove {
+            let order = model.feedOrder
+            if let onScreen = tracker.anchorIDs.first(where: { order.tier(of: $0) == .fresh }) {
+                target = onScreen
+            } else {
+                // Everything that was on screen was read or passed: continue with the next story.
+                let current = FeedContent.make(brief: brief, topic: topic, sort: sort, hiddenIDs: hiddenIDs,
+                                               isRead: model.isRead, order: order)
+                target = current.stories.first { order.tier(of: $0.id) == .fresh }?.id ?? Self.headerID
+            }
+        } else {
+            return
+        }
+        tracker.quiet()
+        Task { @MainActor in
+            // Once the list has the new order, or it would scroll to where the card used to be.
+            try? await Task.sleep(for: .milliseconds(50))
+            proxy.scrollTo(target, anchor: .top)
+        }
     }
 
     // MARK: Header
@@ -318,12 +435,12 @@ struct FeedContent: Equatable {
     let allCaughtUp: Bool
 
     static func make(brief: Brief, topic: String?, sort: StorySort, hiddenIDs: Set<String>?,
-                     isRead: (Story) -> Bool) -> FeedContent {
+                     isRead: (Story) -> Bool, order: FeedOrder? = nil) -> FeedContent {
         let all = brief.stories
         let filters = TopicFilter.counts(in: all, order: brief.sections.map(\.name))
         let selected = topic.flatMap { name in filters.contains { $0.name == name } ? name : nil }
         let inTopic = selected.map { name in all.filter { $0.category == name } } ?? all
-        let shown = HideRead.visible(sort.apply(inTopic), hidden: hiddenIDs)
+        let shown = HideRead.visible(sort.apply(inTopic, order: order), hidden: hiddenIDs)
         let caughtUp = hiddenIDs != nil && shown.isEmpty && !inTopic.isEmpty && inTopic.allSatisfy(isRead)
         return FeedContent(stories: shown, filters: filters, topic: selected, allCaughtUp: caughtUp)
     }
@@ -339,6 +456,9 @@ private struct FeedRow: View {
     let showsTopic: Bool
     let hidesDealLabel: Bool
     let day: String?
+    /// Where the card is on screen (global), as the list scrolls.
+    var onFrame: (CGRect) -> Void = { _ in }
+    var onGone: () -> Void = {}
 
     var body: some View {
         let read = model.isRead(story)
@@ -355,6 +475,8 @@ private struct FeedRow: View {
             StoryCard(story: story, isTop: isTop, isRead: read, isNew: model.isNew(story), isSaved: saved,
                       showsTopic: showsTopic, hidesDealLabel: hidesDealLabel)
         }
+        .onGeometryChange(for: CGRect.self) { $0.frame(in: .global) } action: { onFrame($0) }
+        .onDisappear { onGone() }
         .listRowInsets(EdgeInsets())
         .alignmentGuide(.listRowSeparatorLeading) { _ in 0 }
         .swipeActions(edge: .leading) {
@@ -566,6 +688,78 @@ struct LiveRefresh: ViewModifier {
     }
 }
 
+/// Where Today's cards are on screen, to tell which ones the reader has scrolled past. A plain
+/// class held in @State: it's written on every frame of a scroll, so it mustn't redraw anything.
+/// Main thread only (SwiftUI calls these from view updates).
+final class FeedScrollTracker {
+    /// How far into the list a card's bottom edge may still reach and count as scrolled past:
+    /// its pills, not its headline or picture.
+    static let passMargin: CGFloat = 40
+    /// How long passes are ignored after the list moves cards or jumps on its own.
+    static let quietTime: TimeInterval = 0.8
+
+    /// Global y of the top of the list's visible area (the bottom of the navigation bar).
+    var visibleTop: CGFloat = 0
+    /// The last frame (global) of each card on screen.
+    private(set) var frames: [String: CGRect] = [:]
+    /// Cards whose bottom is above the pass line, so each pass is reported once.
+    private var above: Set<String> = []
+    private var quietUntil = Date.distantPast
+    /// A card went off the top since the passed marks were last applied.
+    var passedSinceSink = false
+    /// Taken when Today is covered: the cards that were on screen, top to bottom, and the shuffle.
+    var anchorIDs: [String] = []
+    var anchorSeed: UInt64?
+
+    private var passLine: CGFloat { visibleTop + Self.passMargin }
+
+    /// The list's top on screen plus whatever bars cover it, whichever way the list reports them.
+    static func listTop(of list: GeometryProxy) -> CGFloat {
+        list.frame(in: .global).minY + list.safeAreaInsets.top
+    }
+    var isQuiet: Bool { Date() < quietUntil }
+
+    /// Ignore passes for a moment: the list is about to move cards or scroll by itself.
+    func quiet() { quietUntil = Date().addingTimeInterval(Self.quietTime) }
+
+    /// The order or filter changed under the list: start over (frames come back as cards redraw).
+    func reset() {
+        above = []
+        passedSinceSink = false
+        anchorIDs = []
+        anchorSeed = nil
+        quiet()
+    }
+
+    /// Records a card's frame. True the moment its bottom goes up past the pass line.
+    func cardMoved(_ id: String, frame: CGRect) -> Bool {
+        frames[id] = frame
+        guard frame.maxY < passLine else {
+            above.remove(id)
+            return false
+        }
+        return above.insert(id).inserted
+    }
+
+    /// The card left the screen. True when it went out through the top without its last frame
+    /// crossing the line (a fast flick).
+    func cardGone(_ id: String) -> Bool {
+        defer { frames[id] = nil }
+        guard let frame = frames[id], !above.contains(id), frame.minY < visibleTop else { return false }
+        above.insert(id)
+        return true
+    }
+
+    func forget(_ id: String) { frames[id] = nil }
+
+    /// Cards on screen, top to bottom.
+    func cardsOnScreen() -> [String] {
+        frames.filter { $0.value.maxY >= passLine }
+            .sorted { $0.value.minY < $1.value.minY }
+            .map(\.key)
+    }
+}
+
 /// "Hide read stories": lists hide what was read before they appeared, so a story you just opened
 /// stays put when you come back to the list and goes on the next visit or refresh.
 enum HideRead {
@@ -600,7 +794,7 @@ struct EditTopicsSheet: View {
 
 /// Hot topics (default) or Latest. Remembered across launches and shared by every list.
 struct SortPicker: View {
-    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .forYou
 
     var body: some View {
         Picker("Sort stories by", selection: $sort) {

@@ -8,7 +8,7 @@ struct TopicPageView: View {
     let destination: TopicDestination
     /// The topic on screen; starts as the one tapped and changes from the title menu.
     @State private var current: String
-    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .forYou
     @AppStorage(BriefView.hideReadKey) private var hideRead = false
     /// Stories read before the page appeared; only these are hidden, so one just read stays put.
     @State private var readSnapshot: Set<String>?
@@ -31,7 +31,7 @@ struct TopicPageView: View {
     var body: some View {
         let all = model.stories(inTopic: current, day: destination.day)
         let hidden = hideRead ? (readSnapshot ?? []) : nil
-        let visible = HideRead.visible(sort.apply(all), hidden: hidden)
+        let visible = HideRead.visible(sort.apply(all, order: model.feedOrder), hidden: hidden)
         let following = model.isFollowing(current)
         let newCount = isLive ? all.filter(model.isNew).count : 0
         let next = nextTopic

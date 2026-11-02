@@ -11,7 +11,7 @@ struct StoryDetailView: View {
     /// The past brief the story was opened from: "More in" and "See all" stay on that day.
     var day: String? = nil
     @AppStorage(ArticleLink.readerModeKey) private var readerMode = true
-    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .forYou
     @State private var showsAllCoverage = false
     /// Once per visit: coming back from a related story mustn't undo "Mark as Unread".
     @State private var notedOpen = false
@@ -19,7 +19,7 @@ struct StoryDetailView: View {
     var body: some View {
         let coverage = Coverage(story)
         let related = model.relatedStories(to: story)
-        let topicStories = sort.apply(model.stories(inTopic: story.category, day: day))
+        let topicStories = sort.apply(model.stories(inTopic: story.category, day: day), order: model.feedOrder)
         let more = StoryPage.moreInTopic(after: story, in: topicStories,
                                          excluding: Set(related.map(\.id)), isRead: model.isRead)
         List {

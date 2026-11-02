@@ -91,9 +91,58 @@ extension AppModel {
         var updated = ReadingState.recordingFirstSeen(firstSeen, ids: ids, now: at, seenBefore: hasSeenHistory)
         updated = ReadingState.prunedFirstSeen(updated, feedIDs: Set(ids), now: at)
         hasSeenHistory = true
+        prunePassed(feedIDs: Set(ids), now: at)
         guard updated != firstSeen else { return }
         firstSeen = updated
         scheduleWrite(.seen)
+    }
+
+    // MARK: For you
+
+    /// What For you orders by right now: the reader's reads, the passed marks applied so far and
+    /// the shuffle for this visit.
+    var feedOrder: FeedOrder {
+        FeedOrder(seed: feedSeed, readAt: readAt, passedAt: sunkPassedAt, firstSeen: firstSeen,
+                  newSince: previousVisitAt, shuffledAt: feedShuffledAt)
+    }
+
+    /// The reader scrolled past `story` on Today without opening it. It moves down the next time
+    /// `sinkPassed()` runs. A read story is already at the bottom and stays there.
+    func notePassed(_ story: Story) {
+        guard !isRead(story) else { return }
+        passedAt[story.id] = now()
+        scheduleWrite(.passed)
+    }
+
+    /// Applies the passed marks to For you, moving those stories below the ones not seen yet.
+    /// Returns whether anything moved.
+    @discardableResult
+    func sinkPassed() -> Bool {
+        guard sunkPassedAt != passedAt else { return false }
+        sunkPassedAt = passedAt
+        return true
+    }
+
+    /// A new shuffle for For you, with everything scrolled past moved down: pull to refresh, and
+    /// coming back to the app after `reshuffleAfter`.
+    func reshuffleFeed() {
+        feedSeed = UInt64.random(in: .min ... .max)
+        feedShuffledAt = now()
+        sinkPassed()
+    }
+
+    /// Away at least this long and For you is reshuffled when the app comes back. A quick trip to
+    /// another app keeps your place.
+    static let reshuffleAfter: TimeInterval = 5 * 60
+
+    /// Passed marks only matter while the story can still be in the feed (same rule as first seen).
+    private func prunePassed(feedIDs: Set<String>, now at: Date) {
+        let kept = ReadingState.prunedFirstSeen(passedAt, feedIDs: feedIDs, now: at)
+        guard kept.count != passedAt.count else { return }
+        passedAt = kept
+        // The same marks go from the applied copy, so the next sink doesn't count them as a move.
+        sunkPassedAt = sunkPassedAt.filter { kept[$0.key] != nil }
+        scheduleWrite(.passed)
     }
 
     // MARK: Saved
@@ -135,6 +184,8 @@ extension AppModel {
         previousVisitAt = nil
         saved = []
         recent = []
+        passedAt = [:]
+        sunkPassedAt = [:]
         historyIndex = []
         pastBriefs = [:]
         let store = historyStore
@@ -171,6 +222,7 @@ extension AppModel {
         case .seen: job = Self.write(firstSeen, to: target, after: previous)
         case .saved: job = Self.write(saved, to: target, after: previous)
         case .recent: job = Self.write(recent, to: target, after: previous)
+        case .passed: job = Self.write(passedAt, to: target, after: previous)
         case .feed: return
         }
         writesInFlight[file] = job

@@ -4,13 +4,13 @@ import SwiftUI
 /// is taken when the page opens, so reading a story marks it read without it disappearing.
 struct NewStoriesView: View {
     @Environment(AppModel.self) private var model
-    @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
+    @AppStorage(StorySort.storageKey) private var sort: StorySort = .forYou
     @State private var ids: [String]?
     @State private var since: Date?
     @State private var toast: Toast?
 
     var body: some View {
-        let stories = sort.apply(snapshot)
+        let stories = sort.apply(snapshot, order: model.feedOrder)
         List {
             Section {
                 SortPicker()

@@ -17,6 +17,7 @@ enum LocalStore {
         case seen = "seen.json"
         case saved = "saved.json"
         case recent = "recent.json"
+        case passed = "passed.json"
     }
 
     // MARK: UserDefaults

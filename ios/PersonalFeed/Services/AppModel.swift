@@ -86,6 +86,20 @@ final class AppModel {
     var saved: [SavedStory] = []
     /// Newest first, at most 50.
     var recent: [RecentStory] = []
+    /// Story id → when the reader last scrolled past it on Today (For you) without opening it.
+    /// Written as they scroll, so it's kept out of observation: nothing redraws until the marks
+    /// are applied with `sinkPassed()`.
+    @ObservationIgnored var passedAt: [String: Date] = [:]
+    /// The passed marks For you orders by: `passedAt` as of the last `sinkPassed()`, which Today
+    /// calls only when moving cards can't jump the list under the reader's thumb.
+    var sunkPassedAt: [String: Date] = [:]
+    /// Shuffles For you. Changes on pull to refresh and when the app comes back after a while.
+    var feedSeed = UInt64.random(in: .min ... .max)
+    /// When `feedSeed` was picked (a launch counts): what was scrolled past before then is shuffled
+    /// too, so it doesn't come back in the order it was skipped.
+    var feedShuffledAt: Date?
+    /// When the app last went to the background (nil after a cold launch).
+    @ObservationIgnored var backgroundedAt: Date?
 
     // MARK: Navigation (see AppModel+Routing.swift)
 
@@ -245,6 +259,7 @@ final class AppModel {
         let seen: [String: Date]?
         let saved: [SavedStory]?
         let recent: [RecentStory]?
+        let passed: [String: Date]?
     }
 
     private func loadLocalState() async {
@@ -259,7 +274,8 @@ final class AppModel {
                           reads: LocalStore.load([String: Date].self, .read),
                           seen: LocalStore.load([String: Date].self, .seen),
                           saved: LocalStore.load([SavedStory].self, .saved),
-                          recent: LocalStore.load([RecentStory].self, .recent))
+                          recent: LocalStore.load([RecentStory].self, .recent),
+                          passed: LocalStore.load([String: Date].self, .passed))
         }.value
         let index = await historyStore.loadIndex(now: now())
 
@@ -279,6 +295,9 @@ final class AppModel {
         firstSeen = loaded.seen ?? [:]
         saved = loaded.saved ?? []
         recent = loaded.recent ?? []
+        passedAt = loaded.passed ?? [:]
+        sunkPassedAt = passedAt  // a launch is a safe moment: nothing is on screen yet
+        if feedShuffledAt == nil { feedShuffledAt = now() }  // this launch's shuffle
         historyIndex = index
         if let feed { recordFirstSeen(in: feed) }
         startObservingSystemChanges()

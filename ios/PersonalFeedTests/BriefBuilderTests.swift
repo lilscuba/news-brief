@@ -260,7 +260,7 @@ final class BriefBuilderTests: XCTestCase {
                    story("d", minutesAgo: 60), story("e", minutesAgo: 5)]
         XCTAssertEqual(StorySort.hot.apply(hot).map(\.id), ["a", "b", "c", "d", "e"])
         XCTAssertEqual(StorySort.latest.apply(hot).map(\.id), ["e", "b", "c", "d", "a"], "ties keep hot order")
-        XCTAssertEqual(StorySort.allCases, [.hot, .latest], "hot topics is first, so the default")
+        XCTAssertEqual(StorySort.allCases, [.forYou, .hot, .latest], "for you is first, so the default")
         XCTAssertEqual(StorySort(rawValue: "latest"), .latest)
     }
 

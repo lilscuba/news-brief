@@ -41,6 +41,7 @@ extension AppModel {
             LocalStore.lastVisitAt = now()
         }
         visitStartedAt = nil
+        backgroundedAt = now()
         guard phase == .ready || phase == .onboarding else { return }
         flushPendingSettings()  // don't lose a change made just before leaving
         withBackgroundTime("Save reading state") {
@@ -56,6 +57,8 @@ extension AppModel {
         guard sceneIsActive, phase == .ready, visitStartedAt == nil else { return }
         visitStartedAt = now()
         todayReadSnapshot = Set(readAt.keys)  // a new visit hides what was read before it
+        // Back after a while: For you opens on a new shuffle, with what was skipped moved down.
+        if let away = backgroundedAt, now().timeIntervalSince(away) >= Self.reshuffleAfter { reshuffleFeed() }
         let previous = LocalStore.lastVisitAt
         if previous != previousVisitAt {
             previousVisitAt = previous

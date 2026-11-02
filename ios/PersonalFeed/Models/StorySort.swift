@@ -1,19 +1,32 @@
 import Foundation
 
-/// How stories are ordered inside each list. "Hot topics" is the ranking the feed already comes in
-/// (coverage, official sources, recency); "Latest" is newest first.
+/// How stories are ordered inside each list. "For you" (the default) shuffles what you haven't
+/// seen and moves what you scrolled past or read to the bottom (see FeedOrder); "Hot topics" is
+/// the ranking the feed already comes in (coverage, official sources, recency); "Latest" is
+/// newest first.
 enum StorySort: String, CaseIterable, Identifiable, Sendable {
-    case hot, latest
+    case forYou, hot, latest
 
-    static let storageKey = "storySort"
+    /// A new key for the build that added For you, so everyone starts on it once; "storySort"
+    /// held Hot topics or Latest before.
+    static let storageKey = "feedSort"
 
     var id: String { rawValue }
-    var title: String { self == .hot ? "Hot topics" : "Latest" }
+
+    var title: String {
+        switch self {
+        case .forYou: "For you"
+        case .hot: "Hot topics"
+        case .latest: "Latest"
+        }
+    }
 
     /// `stories` arrive in hot order, which is also the tie-break for stories published at the
-    /// same moment.
-    func apply(_ stories: [Story]) -> [Story] {
+    /// same moment. For you needs the reader's state (`order`); without it, it keeps hot order.
+    func apply(_ stories: [Story], order: FeedOrder? = nil) -> [Story] {
         switch self {
+        case .forYou:
+            return order?.apply(stories) ?? stories
         case .hot:
             return stories
         case .latest:
