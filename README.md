@@ -68,8 +68,8 @@ downloaded Apple push key in Downloads, and stores it as an encrypted GitHub sec
 
 It runs free on GitHub and has three parts:
 
-1. **Daily brief** (GitHub Actions, once a day). It reads 176 sources: outlet RSS feeds (tech, gaming
-   and English-language world news), official company feeds, two newsletters and eight
+1. **Daily brief** (GitHub Actions, once a day). It reads 222 sources: outlet RSS feeds (tech, gaming,
+   business, US, local and world news), official company feeds, two newsletters and eight
    gaming/tech journalists on Bluesky. It drops
    headlines matching your mute words, clusters the same story across outlets, ranks stories
    (coverage, official sources, Hacker News points, your keyword boosts) and gives each one a
@@ -155,11 +155,13 @@ reliability labels and is told to write rumors as rumors.
 
 | Folder | Sources |
 |---|---|
-| Tech | Techmeme, The Verge, Ars Technica, TechCrunch, 9to5Mac, Hacker News (100+ points) |
+| Tech | Techmeme, The Verge, Ars Technica, TechCrunch, 9to5Mac, Hacker News (100+ points), Boing Boing, Daily Dot |
 | AI | OpenAI, Google DeepMind, Google AI (official); Anthropic and Meta AI (community mirrors); Verge AI, Ars AI, HN Claude/Anthropic, arXiv cs.AI (capped at 12) |
 | Gaming | VGC, Eurogamer, IGN, Gematsu, Insider Gaming, GoNintendo; PlayStation Blog, Xbox Wire, Nintendo of Europe (official); Steam News; Game File (Totilo) and The Game Business (Dring) newsletters |
-| US | Wire and broadcast: NPR, PBS NewsHour, ABC, CBS, NBC, Axios, The Hill, Politico, Semafor, Bloomberg, Newsweek, Time, CS Monitor, Roll Call, Courthouse News, ProPublica, Pew, Straight Arrow News, Tangle, The Dispatch, Yahoo; papers: Washington Post, NYT, WSJ, Guardian US; right: Fox News, NY Post, Daily Wire, National Review, Washington Examiner, Free Beacon, Reason, The Federalist, American Conservative, American Spectator, Daily Caller, The Free Press, RealClearPolitics, TheBlaze, Just the News, The Reload; left: Mother Jones, The Nation, Jacobin, The Intercept, Vox, Slate, HuffPost, Daily Beast, Democracy Now!, The Bulwark, Common Dreams, The Atlantic, The New Yorker, The Lever, Zeteo, The Appeal |
-| World | BBC World, Guardian World, Al Jazeera, NPR, NYT, CBC, Sky News, CNA, Straits Times, SCMP, The Hindu, Times of India, BBC Africa and Latin America, MercoPress, Foreign Policy, The Diplomat, Rest of World |
+| Business | CNBC, MarketWatch, Fortune, Forbes, Business Insider, Investor's Business Daily, Morning Brew, Fox Business |
+| US | Wire and broadcast: NPR, PBS NewsHour, ABC, CBS (and 60 Minutes), NBC, NewsNation, Axios, The Hill, Politico, Semafor, Bloomberg, Newsweek, Time, CS Monitor, Roll Call, Courthouse News, ProPublica, Pew, USAFacts, Straight Arrow News, Tangle, The Dispatch, Yahoo; papers: Washington Post, NYT, WSJ, Guardian US, Deseret News; beats: Breaking Defense, Inside Climate News; faith: CBN, Christianity Today, Faithwire, WORLD; right: Fox News, NY Post, Daily Wire, National Review, Washington Examiner, Free Beacon, Reason, The Federalist, American Conservative, American Spectator, Daily Caller, The Free Press, RealClearPolitics, TheBlaze, Just the News, The Reload, IJR, PJ Media, NewsBusters, The Post Millennial, Quillette; left: MS NOW, Mother Jones, The Nation, Jacobin, The Intercept, Vox, Slate, HuffPost, Daily Beast, Democracy Now!, The Bulwark, Common Dreams, The Atlantic, The New Yorker, The Lever, Zeteo, The Appeal, AlterNet, Consortium News, Liberation News, New Politics, NewsOne, Palmer Report, PolitiZoom, The Hartmann Report, MeidasTouch, Black Agenda Report, Jezebel, Queerty |
+| Local | LAist, FOX 11 Los Angeles, Patch (Los Angeles), SFGATE (Bay Area), California Globe, ABC15 Arizona, Mid Hudson News (New York) |
+| World | BBC World, Guardian World, Al Jazeera, NPR, NYT, CBC, Sky News, CNA, Straits Times, SCMP, The Hindu, Times of India, BBC Africa and Latin America, MercoPress, Foreign Policy, The Diplomat, Rest of World, Middle East Eye |
 | Europe | BBC Europe and UK, Guardian Europe and UK, Euronews, DW, RFI, France 24, Politico Europe; Ireland (RTÉ, TheJournal.ie), Netherlands (DutchNews, NL Times), Poland, Ukraine (Kyiv Independent, Ukrainska Pravda), Russia (Meduza), Estonia (ERR), Lithuania (LRT), Balkans, Romania, Finland, Norway, Denmark, Italy (ANSA); translated: Tagesschau, Der Spiegel, SRF, ORF, Le Monde, franceinfo, El País, Corriere, SVT, ERT |
 | Japan | Japan Times, Nikkei Asia, Japan Forward; translated: Asahi, Mainichi, NHK |
 | Korea | Yonhap, Korea Herald, Korea Times, KBS World, NK News; translated: Chosun Ilbo |
@@ -168,11 +170,20 @@ reliability labels and is told to write rumors as rumors.
 Notes on the sources:
 - **US** covers the political spectrum on purpose. Left out: outlets built on conspiracy or health
   misinformation (Infowars, Natural News and its network sites, Activist Post, The Defender,
-  ZeroHedge), tabloids, state-funded outlets (TRT, teleSUR), podcasts, TV shows and personalities
-  (they have no news feed), and outlets with no working feed (AP and Reuters publish none; USA
-  Today, Forbes, Stars and Stripes, CNN, Newsmax, Quillette, The Post Millennial). Breitbart's
-  feed works but it is held back for a weak fact-checking record; it's one line in `feeds.opml`
-  if you want it.
+  ZeroHedge, The Epoch Times, The Grayzone), tabloids and viral sites (Daily Mail, Daily Express
+  US, The Sun, Comic Sands, UNILAD), state-funded outlets (TRT, teleSUR), podcasts, TV shows and
+  personalities (they have no news feed), and outlets with no working feed when checked in
+  November 2026 (AP and Reuters publish none; CNN's and Inquisitr's feeds stopped updating in
+  2024 or earlier; USA Today, Newsmax, OAN, The Washington Times, Boston Herald, Orange County
+  Register, Media Matters, CounterPunch, Stars and Stripes, Current Affairs, Boston Review,
+  News.com.au, Frontline and CTech block feed readers or have no feed). Breitbart's feed works but
+  it is held back for a weak fact-checking record; it's one line in `feeds.opml` if you want it.
+- **Local** is mostly Los Angeles and California, plus Phoenix and New York's Hudson Valley. Patch
+  publishes one feed per town: change `california/los-angeles` in the Patch line of `feeds.opml`
+  to yours.
+- **Business and Local** outlets also run national news, so a story they share with other desks
+  goes to Business or Local only when most of its outlets are theirs; a tie goes to Tech, US or
+  World. AI deals still land in AI.
 - **Translation.** Feeds marked `pfLang` in `feeds.opml` (Tagesschau, Spiegel, Le Monde,
   franceinfo, El País, Corriere, SVT, SRF, ORF, ERT, Asahi, Mainichi, NHK, Chosun) are
   machine-translated to English at ingest with Gemini (`[translate]` in `config.toml`, on
@@ -191,7 +202,8 @@ Notes on the sources:
   publishes with the article (`media:content`, `media:thumbnail`, an image enclosure or the
   first `<img>`, or a Bluesky link card); nothing is scraped. The phone loads it straight from
   the outlet's servers. Stories without one show their snippet instead.
-- **World, Europe, Japan and Korea are off for new accounts** until switched on in Topics.
+- **Business, US, Local, World, Europe, Japan and Korea are off for new accounts** until switched
+  on in Topics.
 - **`[ranking.category_weight]`** halves the outlet-count score for World and Europe. They have
   far more sources than AI/Tech/Gaming, so without it a big world story would take every top slot.
 - **Bluesky** posts come from the public API with no account. Replies, reposts and posts with no

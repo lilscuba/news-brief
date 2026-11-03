@@ -9,13 +9,14 @@ from briefing.rank import rank
 from test_pipeline import CFG, NOW, feed, item
 
 REGIONS = ("US", "World", "Europe", "Japan", "Korea")
+OPT_IN = ("Business", "Local", *REGIONS)
 
 
 def test_opml_loads_with_region_folders_in_the_configured_sections():
     feeds = load_opml(ROOT / "feeds.opml")  # raises on duplicate pfKey
     sections = set(load_config()["digest"]["sections"])
     assert {f.category for f in feeds} <= sections
-    for region in REGIONS:
+    for region in OPT_IN:
         in_region = [f for f in feeds if f.category == region]
         assert in_region, region
         assert all(f.url.startswith("https://") for f in in_region)
@@ -117,3 +118,23 @@ def test_live_snapshot_topics():
     assert cluster_of(clusters, "Russian strikes hit second Kyiv bridge").category == "Europe"
     assert cluster_of(clusters, "FBI arrests suspected Chinese agent").category == "World"
     assert cluster_of(clusters, "OpenAI's Altman: Ascribing religion").category == "AI"
+
+
+def test_local_and_business_outlets_need_most_of_the_coverage_to_claim_a_story():
+    fire = "Brush fire forces evacuations in the Santa Monica Mountains"
+    assert _story(("Local", "laist", fire)).category == "Local"
+    assert _story(("Local", "laist", fire), ("Local", "fox11la", fire), ("US", "nbc", fire)).category == "Local"
+    assert _story(("Local", "laist", fire), *[("US", f"us{n}", fire) for n in range(4)]).category == "US"
+    # A local station's national story (live: FOX 11 and Al Jazeera on a Texas race) isn't Local.
+    texas = "Texas Senate candidates make final appeals"
+    assert _story(("Local", "fox11la", texas), ("US", "nbc", texas)).category == "US"
+    rates = "Fed holds interest rates steady as inflation cools"
+    assert _story(("Business", "cnbc", rates), ("Business", "marketwatch", rates), ("US", "npr", rates)).category == "Business"
+    # Live: Forbes and Newsweek on the Iran strikes, a tie that must stay US.
+    iran = "Trump says there hasn't been shooting for months as U.S. strikes Iran"
+    assert _story(("Business", "forbes", iran), ("US", "newsweek", iran)).category == "US"
+    apple = "Apple beats revenue estimates"
+    assert _story(("Business", "cnbc", apple), ("Tech", "verge", apple)).category == "Tech"
+    # AI news reaching Business desks is still AI news.
+    assert _story(("Business", "cnbc", "OpenAI raises $40 billion at a $500 billion valuation"),
+                  ("Business", "fortune", "OpenAI closes record funding round")).category == "AI"

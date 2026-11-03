@@ -104,12 +104,12 @@ test("disabled sources can cover the whole catalog; word lists stay at 100", asy
   assert.equal(me.body.settings.disabledSources.length, 500); // rejected saves changed nothing
 });
 
-test("region topics are accepted but opt-in", async () => {
+test("region and opt-in topics are accepted but off by default", async () => {
   const { token, settings } = await signIn();
-  assert.ok(!settings.categories.some((c) => ["US", "World", "Europe", "Japan", "Korea"].includes(c)));
-  const r = await call("PUT", "/v1/me/settings", { token, body: { categories: ["AI", "US", "World", "Europe", "Japan", "Korea"] } });
+  assert.ok(!settings.categories.some((c) => ["Business", "US", "Local", "World", "Europe", "Japan", "Korea"].includes(c)));
+  const r = await call("PUT", "/v1/me/settings", { token, body: { categories: ["AI", "Business", "US", "Local", "World", "Europe", "Japan", "Korea"] } });
   assert.equal(r.status, 200);
-  assert.deepEqual(r.body.settings.categories, ["AI", "US", "World", "Europe", "Japan", "Korea"]);
+  assert.deepEqual(r.body.settings.categories, ["AI", "Business", "US", "Local", "World", "Europe", "Japan", "Korea"]);
 });
 
 test("endpoints need a session; logout ends it", async () => {

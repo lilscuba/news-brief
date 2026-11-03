@@ -1,8 +1,9 @@
 // Per-user settings: the same JSON shape the iOS app edits (UserSettings.swift).
 // Everything is validated and clamped here, so the database only ever holds sane values.
 
-// US, World, Europe, Japan and Korea are opt-in: new accounts start with DEFAULT_SETTINGS.categories.
-export const CATEGORIES = ["AI", "Tech", "Gaming", "US", "World", "Europe", "Japan", "Korea", "Deals"];
+// Business, US, Local, World, Europe, Japan and Korea are opt-in: new accounts start with
+// DEFAULT_SETTINGS.categories.
+export const CATEGORIES = ["AI", "Tech", "Gaming", "Business", "US", "Local", "World", "Europe", "Japan", "Korea", "Deals"];
 
 export const DEFAULT_SETTINGS = Object.freeze({
   version: 1,
@@ -24,7 +25,7 @@ export const DEFAULT_SETTINGS = Object.freeze({
 export class SettingsError extends Error {}
 
 const MAX_LIST = 100;
-// Sources are bounded by the catalog (~175 feeds), and turning off a few whole regions is normal.
+// Sources are bounded by the catalog (~220 feeds), and turning off a few whole regions is normal.
 const MAX_SOURCES = 500;
 const MAX_TERM = 60;
 

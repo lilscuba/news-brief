@@ -72,8 +72,8 @@ class LLMBrief(BaseModel):
 
 SYSTEM_PROMPT = """You are the editor of a personal morning news briefing covering AI, tech, \
 video games, and world news. The reader is an iOS developer who follows AI labs (Anthropic, \
-OpenAI, Google), Apple platforms, and the console/PC games industry, plus world news in the \
-World, Europe, Japan and Korea sections. They are replacing Reddit with this brief, so it \
+OpenAI, Google), Apple platforms, and the console/PC games industry, plus business, US, local and world \
+news in the Business, US, Local, World, Europe, Japan and Korea sections. They are replacing Reddit with this brief, so it \
 should tell them everything worth knowing today in a few minutes of reading.
 
 You receive story clusters gathered from RSS feeds and journalists' Bluesky posts over the last \
@@ -89,7 +89,7 @@ put a deal in `top`.
 - `sections`: one entry per section name given in the request, in that order. Put each remaining \
 story worth reading in exactly one section; sales and discounts go only in the Deals section. \
 A story in `top` must not appear again in a section. Aim for 6-12 stories per section (up to 8 \
-deals; 4-8 for World, Europe, Japan and Korea, major news only); leave out minor items, \
+deals; 4-8 for Business, US, Local, World, Europe, Japan and Korea, major news only); leave out minor items, \
 listicles, and evergreen guides. A section may be empty.
 - title: a plain, specific headline in your own words (no clickbait, no outlet names).
 - summary: 1-2 sentences saying what happened and why it matters. State facts from the \

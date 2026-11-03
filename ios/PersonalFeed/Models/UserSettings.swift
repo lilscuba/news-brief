@@ -28,8 +28,8 @@ struct UserSettings: Codable, Hashable, Sendable {
     }
 
     /// Catalog order for topics and source groups; matches CATEGORIES in server/src/settings.js.
-    static let allCategories = ["AI", "Tech", "Gaming", "US", "World", "Europe", "Japan", "Korea", "Deals"]
-    /// What a new account starts with. US, World, Europe, Japan and Korea are opt-in.
+    static let allCategories = ["AI", "Tech", "Gaming", "Business", "US", "Local", "World", "Europe", "Japan", "Korea", "Deals"]
+    /// What a new account starts with. Business, US, Local, World, Europe, Japan and Korea are opt-in.
     static let defaultCategories = ["AI", "Tech", "Gaming", "Deals"]
     /// The server's limit for muted words, boosts and keywords (server/src/settings.js MAX_LIST).
     static let maxTerms = 100

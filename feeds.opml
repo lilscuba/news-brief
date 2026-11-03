@@ -39,6 +39,8 @@
       <outline type="rss" text="Wired" pfKey="wired" pfMaxItems="10" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com/"/>
       <outline type="rss" text="Techdirt" pfKey="techdirt" pfMaxItems="4" xmlUrl="https://www.techdirt.com/feed/" htmlUrl="https://www.techdirt.com/"/>
       <outline type="rss" text="Hacker News (100+ points)" pfKey="hn" xmlUrl="https://hnrss.org/frontpage?points=100" htmlUrl="https://news.ycombinator.com/"/>
+      <outline type="rss" text="Boing Boing" pfKey="boingboing" pfMaxItems="8" xmlUrl="https://boingboing.net/feed" htmlUrl="https://boingboing.net/"/>
+      <outline type="rss" text="Daily Dot" pfKey="dailydot" pfMaxItems="6" xmlUrl="https://www.dailydot.com/feed/" htmlUrl="https://www.dailydot.com/"/>
     </outline>
     <outline text="AI" title="AI">
       <outline type="rss" text="OpenAI News" pfKey="openai" pfOfficial="true" pfAlert="all" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/"/>
@@ -76,6 +78,16 @@
       <outline type="rss" text="Nintendo Life" pfKey="nintendolife" xmlUrl="https://www.nintendolife.com/feeds/latest" htmlUrl="https://www.nintendolife.com/"/>
       <outline type="rss" text="Pure Xbox" pfKey="purexbox" xmlUrl="https://www.purexbox.com/feeds/latest" htmlUrl="https://www.purexbox.com/"/>
       <outline type="rss" text="Rock Paper Shotgun" pfKey="rps" pfMaxItems="10" xmlUrl="https://www.rockpapershotgun.com/feed" htmlUrl="https://www.rockpapershotgun.com/"/>
+    </outline>
+    <outline text="Business" title="Business">
+      <outline type="rss" text="CNBC" pfKey="cnbc" pfMaxItems="12" xmlUrl="https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&amp;id=100003114" htmlUrl="https://www.cnbc.com/"/>
+      <outline type="rss" text="MarketWatch" pfKey="marketwatch" pfMaxItems="10" xmlUrl="https://feeds.content.dowjones.io/public/rss/mw_topstories" htmlUrl="https://www.marketwatch.com/"/>
+      <outline type="rss" text="Fortune" pfKey="fortune" pfMaxItems="8" xmlUrl="https://fortune.com/feed/fortune-feeds/?id=3230629" htmlUrl="https://fortune.com/"/>
+      <outline type="rss" text="Forbes: Business" pfKey="forbes" pfMaxItems="8" xmlUrl="https://www.forbes.com/business/feed2" htmlUrl="https://www.forbes.com/business/"/>
+      <outline type="rss" text="Business Insider" pfKey="businessinsider" pfMaxItems="10" xmlUrl="https://feeds.businessinsider.com/custom/all" htmlUrl="https://www.businessinsider.com/"/>
+      <outline type="rss" text="Investor's Business Daily" pfKey="ibd" pfMaxItems="8" xmlUrl="https://www.investors.com/feed/" htmlUrl="https://www.investors.com/"/>
+      <outline type="rss" text="Morning Brew" pfKey="morningbrew" pfMaxItems="6" xmlUrl="https://www.morningbrew.com/feed" htmlUrl="https://www.morningbrew.com/"/>
+      <outline type="rss" text="Fox Business" pfKey="foxbusiness" pfMaxItems="10" xmlUrl="https://moxie.foxbusiness.com/google-publisher/latest.xml" htmlUrl="https://www.foxbusiness.com/"/>
     </outline>
     <outline text="US" title="US">
       <outline type="rss" text="Axios" pfKey="axios" pfMaxItems="12" xmlUrl="https://api.axios.com/feed/" htmlUrl="https://www.axios.com/"/>
@@ -136,6 +148,43 @@
       <outline type="rss" text="The Lever" pfKey="lever" pfMaxItems="4" xmlUrl="https://www.levernews.com/rss/" htmlUrl="https://www.levernews.com/"/>
       <outline type="rss" text="Zeteo" pfKey="zeteo" pfMaxItems="4" xmlUrl="https://zeteo.com/feed" htmlUrl="https://zeteo.com/"/>
       <outline type="rss" text="The Appeal" pfKey="appeal" pfMaxItems="3" xmlUrl="https://theappeal.org/feed/" htmlUrl="https://theappeal.org/"/>
+      <outline type="rss" text="NewsNation" pfKey="newsnation" pfMaxItems="8" xmlUrl="https://www.newsnationnow.com/feed/" htmlUrl="https://www.newsnationnow.com/"/>
+      <outline type="rss" text="MS NOW" pfKey="msnow" pfMaxItems="8" xmlUrl="https://www.ms.now/feed" htmlUrl="https://www.ms.now/"/>
+      <outline type="rss" text="60 Minutes" pfKey="cbs-60minutes" pfMaxItems="3" xmlUrl="https://www.cbsnews.com/latest/rss/60-minutes" htmlUrl="https://www.cbsnews.com/60-minutes/"/>
+      <outline type="rss" text="Deseret News" pfKey="deseret" pfMaxItems="6" xmlUrl="https://www.deseret.com/arc/outboundfeeds/rss/?outputType=xml" htmlUrl="https://www.deseret.com/"/>
+      <outline type="rss" text="USAFacts" pfKey="usafacts" pfMaxItems="3" xmlUrl="https://usafacts.org/rss/" htmlUrl="https://usafacts.org/"/>
+      <outline type="rss" text="Breaking Defense" pfKey="breakingdefense" pfMaxItems="6" xmlUrl="https://breakingdefense.com/feed/" htmlUrl="https://breakingdefense.com/"/>
+      <outline type="rss" text="Inside Climate News" pfKey="insideclimate" pfMaxItems="4" xmlUrl="https://insideclimatenews.org/feed/" htmlUrl="https://insideclimatenews.org/"/>
+      <outline type="rss" text="CBN News" pfKey="cbn" pfMaxItems="5" xmlUrl="https://www1.cbn.com/app_feeds/rss/news/rss.php?section=us" htmlUrl="https://cbn.com/"/>
+      <outline type="rss" text="Christianity Today" pfKey="christianitytoday" pfMaxItems="3" xmlUrl="https://www.christianitytoday.com/feed/" htmlUrl="https://www.christianitytoday.com/"/>
+      <outline type="rss" text="Faithwire" pfKey="faithwire" pfMaxItems="3" xmlUrl="https://www.faithwire.com/feed/" htmlUrl="https://www.faithwire.com/"/>
+      <outline type="rss" text="WORLD" pfKey="worldmag" pfMaxItems="3" xmlUrl="https://wng.org/rss.xml" htmlUrl="https://wng.org/"/>
+      <outline type="rss" text="Independent Journal Review" pfKey="ijr" pfMaxItems="6" xmlUrl="https://ijr.com/feed/" htmlUrl="https://ijr.com/"/>
+      <outline type="rss" text="PJ Media" pfKey="pjmedia" pfMaxItems="6" xmlUrl="https://pjmedia.com/feed" htmlUrl="https://pjmedia.com/"/>
+      <outline type="rss" text="NewsBusters" pfKey="newsbusters" pfMaxItems="4" xmlUrl="https://www.newsbusters.org/blog/feed" htmlUrl="https://www.newsbusters.org/"/>
+      <outline type="rss" text="The Post Millennial" pfKey="postmillennial" pfMaxItems="8" xmlUrl="https://thepostmillennial.com/feed" htmlUrl="https://thepostmillennial.com/"/>
+      <outline type="rss" text="Quillette" pfKey="quillette" pfMaxItems="3" xmlUrl="https://quillette.com/rss/" htmlUrl="https://quillette.com/"/>
+      <outline type="rss" text="AlterNet" pfKey="alternet" pfMaxItems="6" xmlUrl="https://www.alternet.org/feeds/feed.rss" htmlUrl="https://www.alternet.org/"/>
+      <outline type="rss" text="Consortium News" pfKey="consortiumnews" pfMaxItems="3" xmlUrl="https://consortiumnews.com/feed/" htmlUrl="https://consortiumnews.com/"/>
+      <outline type="rss" text="Liberation News" pfKey="liberation" pfMaxItems="3" xmlUrl="https://www.liberationnews.org/feed/" htmlUrl="https://www.liberationnews.org/"/>
+      <outline type="rss" text="New Politics" pfKey="newpolitics" pfMaxItems="3" xmlUrl="https://newpol.org/feed/" htmlUrl="https://newpol.org/"/>
+      <outline type="rss" text="NewsOne" pfKey="newsone" pfMaxItems="4" xmlUrl="https://newsone.com/feed/" htmlUrl="https://newsone.com/"/>
+      <outline type="rss" text="Palmer Report" pfKey="palmerreport" pfMaxItems="5" xmlUrl="https://www.palmerreport.com/feed/" htmlUrl="https://www.palmerreport.com/"/>
+      <outline type="rss" text="PolitiZoom" pfKey="politizoom" pfMaxItems="5" xmlUrl="https://politizoom.com/feed/" htmlUrl="https://politizoom.com/"/>
+      <outline type="rss" text="The Hartmann Report" pfKey="hartmann" pfMaxItems="3" xmlUrl="https://hartmannreport.com/feed" htmlUrl="https://hartmannreport.com/"/>
+      <outline type="rss" text="MeidasTouch (Meidas+)" pfKey="meidas" pfMaxItems="5" xmlUrl="https://www.meidasplus.com/feed" htmlUrl="https://www.meidasplus.com/"/>
+      <outline type="rss" text="Black Agenda Report" pfKey="blackagenda" pfMaxItems="3" xmlUrl="https://www.blackagendareport.com/rss.xml" htmlUrl="https://www.blackagendareport.com/"/>
+      <outline type="rss" text="Jezebel" pfKey="jezebel" pfMaxItems="4" xmlUrl="https://www.jezebel.com/rss" htmlUrl="https://www.jezebel.com/"/>
+      <outline type="rss" text="Queerty" pfKey="queerty" pfMaxItems="3" xmlUrl="https://www.queerty.com/feed" htmlUrl="https://www.queerty.com/"/>
+    </outline>
+    <outline text="Local" title="Local">
+      <outline type="rss" text="LAist (Los Angeles)" pfKey="laist" pfMaxItems="10" xmlUrl="https://laist.com/index.atom" htmlUrl="https://laist.com/"/>
+      <outline type="rss" text="FOX 11 Los Angeles" pfKey="fox11la" pfMaxItems="8" xmlUrl="https://www.foxla.com/rss/category/news" htmlUrl="https://www.foxla.com/"/>
+      <outline type="rss" text="Patch: Los Angeles" pfKey="patch" pfMaxItems="5" xmlUrl="https://patch.com/feeds/aol/california/los-angeles" htmlUrl="https://patch.com/california/los-angeles"/>
+      <outline type="rss" text="SFGATE (Bay Area)" pfKey="sfgate" pfMaxItems="8" xmlUrl="https://www.sfgate.com/bayarea/feed/bay-area-news-429.php" htmlUrl="https://www.sfgate.com/"/>
+      <outline type="rss" text="California Globe" pfKey="californiaglobe" pfMaxItems="5" xmlUrl="https://californiaglobe.com/feed/" htmlUrl="https://californiaglobe.com/"/>
+      <outline type="rss" text="ABC15 Arizona" pfKey="abc15" pfMaxItems="8" xmlUrl="https://www.abc15.com/news.rss" htmlUrl="https://www.abc15.com/"/>
+      <outline type="rss" text="Mid Hudson News (New York)" pfKey="midhudson" pfMaxItems="5" xmlUrl="https://midhudsonnews.com/feed/" htmlUrl="https://midhudsonnews.com/"/>
     </outline>
     <outline text="World" title="World">
       <outline type="rss" text="BBC News: World" pfKey="bbc-world" pfMaxItems="12" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news/world"/>
@@ -157,6 +206,7 @@
       <outline type="rss" text="The Diplomat (Asia-Pacific)" pfKey="thediplomat" pfMaxItems="6" xmlUrl="https://thediplomat.com/feed/" htmlUrl="https://thediplomat.com/"/>
       <outline type="rss" text="Bellingcat" pfKey="bellingcat" pfMaxItems="3" xmlUrl="https://www.bellingcat.com/feed/" htmlUrl="https://www.bellingcat.com/"/>
       <outline type="rss" text="Rest of World" pfKey="restofworld" pfMaxItems="6" xmlUrl="https://restofworld.org/feed/latest" htmlUrl="https://restofworld.org/"/>
+      <outline type="rss" text="Middle East Eye" pfKey="middleeasteye" pfMaxItems="8" xmlUrl="https://www.middleeasteye.net/rss" htmlUrl="https://www.middleeasteye.net/"/>
     </outline>
     <outline text="Europe" title="Europe">
       <outline type="rss" text="BBC News: Europe" pfKey="bbc-europe" xmlUrl="https://feeds.bbci.co.uk/news/world/europe/rss.xml" htmlUrl="https://www.bbc.com/news/world/europe"/>

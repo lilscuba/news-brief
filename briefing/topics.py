@@ -26,7 +26,9 @@ if TYPE_CHECKING:
 
 REGIONS = ("Japan", "Korea", "Europe", "US", "World")
 # Equal votes for non-regional topics go to the more specific one.
-_PRECEDENCE = ("AI", "Gaming", "Tech", *REGIONS)
+# Business and Local come last: their outlets also run national news (FOX 11 carries Texas races,
+# Forbes carries the Iran strikes), so they only win a story when most of its outlets are theirs.
+_PRECEDENCE = ("AI", "Gaming", "Tech", *REGIONS, "Business", "Local")
 
 # AI labs, their models and leaders, and AI policy: AI news in whichever folder it arrives.
 AI_RE = re.compile(
