@@ -216,8 +216,8 @@ final class ReadingAndRoutingTests: XCTestCase {
         await waitUntil(model.pendingRoute == nil && !model.todayPath.isEmpty)
         XCTAssertEqual(model.selectedTab, .today)
         XCTAssertEqual(model.todayPath.count, 1)
-        XCTAssertTrue(model.isRead(target))
-        XCTAssertEqual(model.recent.first?.id, target.id)
+        XCTAssertFalse(model.isRead(target), "its page alone doesn't count as read; opening an article does")
+        XCTAssertTrue(model.recent.isEmpty)
         XCTAssertNil(model.presentedArticle)
 
         // "Brief ready" pops back to the top of Today: the list, not old search results.

@@ -2,8 +2,9 @@ import SwiftUI
 import UIKit
 
 /// A story's page: what happened, who reported it and when, the article, every outlet's take, and
-/// where to go next (the same event in other topics, more from this topic). Opening it marks the
-/// story read and lists it under Recently read.
+/// where to go next (the same event in other topics, more from this topic). Looking at the page
+/// changes nothing; opening one of its articles marks the story read (moving it to the bottom of
+/// For you) and lists it under Recently read.
 struct StoryDetailView: View {
     @Environment(AppModel.self) private var model
     @Environment(\.openURL) private var openURL
@@ -13,8 +14,6 @@ struct StoryDetailView: View {
     @AppStorage(ArticleLink.readerModeKey) private var readerMode = true
     @AppStorage(StorySort.storageKey) private var sort: StorySort = .forYou
     @State private var showsAllCoverage = false
-    /// Once per visit: coming back from a related story mustn't undo "Mark as Unread".
-    @State private var notedOpen = false
 
     var body: some View {
         let coverage = Coverage(story)
@@ -69,11 +68,6 @@ struct StoryDetailView: View {
         .navigationTitle(story.category)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar { toolbar }
-        .onAppear {
-            guard !notedOpen else { return }
-            notedOpen = true
-            model.noteOpened(story)  // read, and listed under Recently read
-        }
     }
 
     // MARK: Header

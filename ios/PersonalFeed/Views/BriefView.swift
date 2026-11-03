@@ -202,9 +202,10 @@ struct BriefView: View {
         tracker.anchorSeed = model.feedSeed
     }
 
-    /// Back on Today: the story just read has already gone to the bottom; now the ones scrolled
-    /// past do too. They were above the screen, so the list is scrolled to the first card left from
-    /// those that were on screen, which shows the same place minus what was read or passed.
+    /// Back on Today: a story whose article was opened has already gone to the bottom; now the
+    /// ones scrolled past do too. They were above the screen, so the list is scrolled to the first
+    /// card left from those that were on screen, which shows the same place minus what was read or
+    /// passed.
     private func feedReturned(_ proxy: ScrollViewProxy) {
         guard tracksPasses else { return }
         let seed = tracker.anchorSeed

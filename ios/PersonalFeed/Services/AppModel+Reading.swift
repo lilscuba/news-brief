@@ -41,8 +41,8 @@ extension AppModel {
 
     func toggleRead(_ story: Story) { setRead(story, !isRead(story)) }
 
-    /// The reader opened a story's page or its article: mark it read and remember it under
-    /// Recently read.
+    /// The reader opened one of a story's articles: mark it read and remember it under Recently
+    /// read. Just looking at the story's page doesn't count.
     func noteOpened(_ story: Story) {
         setRead(story, true)
         recent.removeAll { $0.id == story.id }

@@ -181,7 +181,7 @@ struct SavedStory: Codable, Hashable, Sendable, Identifiable {
     var id: String { story.id }
 }
 
-/// A story the reader opened (its page or its article), for "Recently read".
+/// A story whose article the reader opened, for "Recently read".
 struct RecentStory: Codable, Hashable, Sendable, Identifiable {
     let story: Story
     let openedAt: Date

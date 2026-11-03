@@ -71,8 +71,7 @@ extension AppModel {
             // Switching tabs and pushing in the same update can drop the push on iOS 17.
             await Task.yield()
             if let story = resolveStory(id: id, url: url) {
-                todayPath.append(story)
-                noteOpened(story)
+                todayPath.append(story)  // its page; read once an article is opened from it
             } else if let url {
                 openArticle(url: url)
             }
