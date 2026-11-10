@@ -4,6 +4,8 @@
 #
 #   Double-click "Launch Brief.command"      (first time: right-click it -> Open)
 #   or in Terminal:   bash launch.sh          (add --status to see the checklist, --reset to start over)
+#                      bash launch.sh --install   (only rebuild the app and put it on your iPhone again,
+#                                                  e.g. after downloading a newer version of this folder)
 #
 # Accounts chain off ones you already have, so there are no new passwords:
 #   Apple ID (Xcode) -> GitHub ("Continue with Apple") -> Cloudflare ("Continue with GitHub")
@@ -331,6 +333,8 @@ step_iphone() {
 case "$1" in
   --status) show_checklist; exit 0;;
   --reset)  rm -f "$STATE"; touch "$STATE"; say "Progress cleared.";;
+  # The checklist skips finished steps, so an updated app needs its own way back onto the phone.
+  --install) step_iphone; exit $?;;
 esac
 
 total=${#STEP_IDS[@]}
