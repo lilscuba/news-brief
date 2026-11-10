@@ -51,6 +51,8 @@ struct BriefView: View {
                                        isRead: model.isRead)
         let topIDs = Set(brief.top.map(\.id))
         let selection = Binding(get: { content.topic }, set: { topic = $0 })
+        // Counted once per pass; the section under the feed and the filter menu both use it.
+        let more = isLive ? moreTopics : []
 
         ScrollViewReader { proxy in
             List {
@@ -86,14 +88,19 @@ struct BriefView: View {
                             hidesDealLabel: content.topic == "Deals", day: isLive ? nil : brief.date)
                 }
 
-                if isLive && content.topic == nil { alsoAvailableSection }
+                if isLive && content.topic == nil { alsoAvailableSection(more) }
 
                 footer
                     .listRowSeparator(.hidden)
             }
             .listStyle(.plain)
             .minuteClock()
-            .overlay(alignment: .top) { pendingButton(proxy) }
+            .overlay(alignment: .top) {
+                // The animation is on the button alone. Animating the list underneath into a new
+                // order moved hundreds of picture cards at once.
+                ZStack { pendingButton(proxy) }
+                    .animation(.snappy, value: isLive && model.pendingBrief != nil)
+            }
             .onChange(of: model.scrollToTopRequest) {
                 if isLive { scrollToTop(proxy) }
             }
@@ -106,7 +113,9 @@ struct BriefView: View {
         }
         .toolbar {
             if isLive || content.filters.count > 1 {
-                ToolbarItem(placement: .topBarTrailing) { filterMenu(content.filters, selection: selection) }
+                ToolbarItem(placement: .topBarTrailing) {
+                    filterMenu(content.filters, selection: selection, more: more)
+                }
             }
         }
         .sheet(isPresented: $editingTopics) { EditTopicsSheet() }
@@ -167,7 +176,7 @@ struct BriefView: View {
         if isLive, model.pendingBrief != nil {
             let count = model.pendingNewCount
             Button {
-                withAnimation(.snappy) { model.applyPendingBrief() }
+                model.applyPendingBrief()
                 scrollToTop(proxy)
             } label: {
                 Label(count > 0 ? "\(count) new \(count == 1 ? "story" : "stories")" : "Show latest",
@@ -194,8 +203,8 @@ struct BriefView: View {
 
     /// Topics not followed that have stories now, so the big news topics can be found from Today.
     @ViewBuilder
-    private var alsoAvailableSection: some View {
-        let more = moreTopics.filter { $0.count > 0 }
+    private func alsoAvailableSection(_ topics: [(name: String, count: Int)]) -> some View {
+        let more = topics.filter { $0.count > 0 }
         if !more.isEmpty {
             Section {
                 ForEach(more, id: \.name) { topic in
@@ -258,7 +267,8 @@ struct BriefView: View {
 
     /// Pick a topic or the sort order from anywhere in the feed, without scrolling back up to the
     /// chips; hide read stories, edit topics, or browse one you don't follow.
-    private func filterMenu(_ filters: [TopicFilter], selection: Binding<String?>) -> some View {
+    private func filterMenu(_ filters: [TopicFilter], selection: Binding<String?>,
+                            more: [(name: String, count: Int)]) -> some View {
         Menu {
             Picker("Topic", selection: selection) {
                 Label("All topics", systemImage: "square.stack").tag(String?.none)
@@ -282,12 +292,12 @@ struct BriefView: View {
                     Button("Edit Topics…", systemImage: "slider.horizontal.3") { editingTopics = true }
                 }
             }
-            if isLive && !moreTopics.isEmpty {
+            if isLive && !more.isEmpty {
                 Menu {
                     // Value links, like every other push here. A separate bound
                     // navigationDestination(item:) on the same stack left the article links on that
                     // topic page highlighted but not opening until the next tap.
-                    ForEach(moreTopics, id: \.name) { topic in
+                    ForEach(more, id: \.name) { topic in
                         NavigationLink(value: TopicDestination(name: topic.name)) {
                             Label("\(topic.name) · \(topic.count)", systemImage: TopicStyle.of(topic.name).symbol)
                         }
@@ -463,6 +473,8 @@ struct StoryCard: View {
 
     var body: some View {
         let now = clock ?? .now
+        // Worked out once per pass: the check splits the summary and the headline into words.
+        let summary = story.hasUsefulSummary ? story.summary : nil
         VStack(alignment: .leading, spacing: 10) {
             HStack(alignment: .firstTextBaseline, spacing: 6) {
                 marker
@@ -484,8 +496,8 @@ struct StoryCard: View {
 
             if let image = story.image {
                 StoryImage(url: image, topic: story.category)
-            } else if story.hasUsefulSummary && !typeSize.isAccessibilitySize {
-                Text(story.summary)
+            } else if let summary, !typeSize.isAccessibilitySize {
+                Text(summary)
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .lineLimit(3)
@@ -515,8 +527,7 @@ struct StoryCard: View {
         .accessibilityValue((isTop ? "Top story, " : "")
                             + StoryCaption.spokenDetails(story, isRead: isRead, isNew: isNew, isSaved: isSaved,
                                                          showsTopic: showsTopic, now: now))
-        .accessibilityCustomContent(AccessibilityCustomContentKey("Summary"),
-                                    story.hasUsefulSummary ? Text(story.summary) : nil)
+        .accessibilityCustomContent(AccessibilityCustomContentKey("Summary"), summary.map { Text($0) })
     }
 
     /// "Tech · ⚠ Credible rumor · The Verge · 2h ago" as one Text, so it wraps at large sizes. The

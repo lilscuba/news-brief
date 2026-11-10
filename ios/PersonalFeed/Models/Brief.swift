@@ -59,13 +59,17 @@ struct Brief: Codable, Hashable, Sendable, Identifiable {
 
     /// Every story as one feed with the topics mixed together: top stories first, then the
     /// rest by score. Briefs saved before stories carried a score rank by outlet count instead.
+    /// No story appears twice: the feed is a list keyed by story id, and SwiftUI's behaviour is
+    /// undefined when two rows share one. (Briefs saved by older builds can repeat a top story
+    /// under its topic.)
     var stories: [Story] {
         let rest = sections.flatMap(\.stories).enumerated().sorted { l, r in
             let a = l.element.score ?? Double(l.element.outletCount)
             let b = r.element.score ?? Double(r.element.outletCount)
             return a != b ? a > b : l.offset < r.offset
         }
-        return top + rest.map(\.element)
+        var seen = Set<String>()
+        return (top + rest.map(\.element)).filter { seen.insert($0.id).inserted }
     }
 
     var displayDate: String {

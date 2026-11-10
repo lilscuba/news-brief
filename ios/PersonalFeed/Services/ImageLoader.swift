@@ -2,8 +2,9 @@ import ImageIO
 import UIKit
 
 /// Loads story pictures for the feed. Each one is shrunk to the size it's drawn at (a press photo
-/// can take tens of megabytes decoded) and kept in memory, so scrolling back up shows it
-/// instantly instead of fetching it again. Downloads are also cached on disk between launches.
+/// can take tens of megabytes decoded), made ready for the screen and kept in memory, so
+/// scrolling back up shows it instantly instead of fetching it again. All of that happens off
+/// the main thread. Downloads are also cached on disk between launches.
 final class ImageLoader: @unchecked Sendable {   // NSCache, URLSession and the lock are thread-safe
     static let shared = ImageLoader()
     /// Longest side, in pixels: a full-width card on the largest iPhone.
@@ -45,14 +46,22 @@ final class ImageLoader: @unchecked Sendable {   // NSCache, URLSession and the 
             if ![408, 429].contains(http.statusCode) && http.statusCode < 500 { giveUp(on: url) }
             throw URLError(.badServerResponse)
         }
-        guard let image = Self.downsample(data, maxPixelSize: Self.maxPixelSize),
-              let cgImage = image.cgImage,
+        guard let downsampled = Self.downsample(data, maxPixelSize: Self.maxPixelSize),
+              let cgImage = downsampled.cgImage,
               min(cgImage.width, cgImage.height) >= Self.minPixelSize else {
             giveUp(on: url)
             throw URLError(.cannotDecodeContentData)
         }
+        let image = Self.readyForDisplay(downsampled)
         cache.setObject(image, forKey: url as NSURL, cost: cgImage.bytesPerRow * cgImage.height)
         return image
+    }
+
+    /// The picture in the form the screen draws from. Without this the first frame that shows a
+    /// card converts its bitmap on the main thread, a dropped frame per picture while scrolling.
+    /// Called here, off the main thread.
+    static func readyForDisplay(_ image: UIImage) -> UIImage {
+        image.preparingForDisplay() ?? image
     }
 
     private func giveUp(on url: URL) {

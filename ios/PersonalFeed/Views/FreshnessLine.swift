@@ -190,16 +190,20 @@ extension View {
     /// floating tab bar isn't part of the safe area there, so a bottom toast slid under it.
     func toast(_ toast: Binding<Toast?>) -> some View {
         overlay(alignment: .top) {
-            if let current = toast.wrappedValue {
-                ToastView(toast: current) { toast.wrappedValue = nil }
-                    .transition(.move(edge: .top).combined(with: .opacity))
-                    .task(id: current.id) {
-                        AccessibilityNotification.Announcement(current.message).post()
-                        try? await Task.sleep(for: .seconds(current.action == nil ? 2.5 : 5))
-                        if toast.wrappedValue?.id == current.id { toast.wrappedValue = nil }
-                    }
+            ZStack {
+                if let current = toast.wrappedValue {
+                    ToastView(toast: current) { toast.wrappedValue = nil }
+                        .transition(.move(edge: .top).combined(with: .opacity))
+                        .task(id: current.id) {
+                            AccessibilityNotification.Announcement(current.message).post()
+                            try? await Task.sleep(for: .seconds(current.action == nil ? 2.5 : 5))
+                            if toast.wrappedValue?.id == current.id { toast.wrappedValue = nil }
+                        }
+                }
             }
+            // On the toast alone. On the whole view it also animated the list underneath whenever
+            // a toast came or went, e.g. the stories a pull to refresh had just added or hidden.
+            .animation(.snappy, value: toast.wrappedValue)
         }
-        .animation(.snappy, value: toast.wrappedValue)
     }
 }

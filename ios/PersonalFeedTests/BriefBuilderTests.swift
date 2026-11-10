@@ -250,6 +250,34 @@ final class BriefBuilderTests: XCTestCase {
         XCTAssertNil(saved.score)
     }
 
+    func testNoStoryIdAppearsTwiceInTheFeed() {
+        // The feed list is keyed by story id, and a list's behaviour is undefined when two rows
+        // share one. An outlet that reuses an article id gives two feed stories the same id.
+        let first = FeedStory.make(id: "dup", title: "First headline", score: 90, published: now)
+        let second = FeedStory.make(id: "dup", title: "Second headline", score: 10, published: now,
+                                    url: "https://example.com/other")
+        let repeated = SharedFeed(version: 1, generatedAt: feed.generatedAt, windowHours: feed.windowHours,
+                                  sections: feed.sections, sources: feed.sources, watchlist: feed.watchlist,
+                                  stories: [first, second])
+
+        let brief = BriefBuilder.build(feed: repeated, settings: .default, now: now)
+        XCTAssertEqual(brief.stories.map(\.title), ["First headline"], "the higher-ranked one is kept")
+        XCTAssertEqual(brief.storyCount, 1)
+
+        var s = UserSettings.default
+        s.mutedWords = ["first"]
+        let muted = BriefBuilder.build(feed: repeated, settings: s, now: now)
+        XCTAssertEqual(muted.stories.map(\.title), ["Second headline"], "a muted copy doesn't hide the other")
+
+        // Briefs saved by older builds list a top story again under its topic.
+        let top = Story.make(id: "t", title: "t", category: "AI", published: now)
+        let old = Brief(date: "2026-10-01", generatedAt: now, headline: "", top: [top],
+                        sections: [BriefSection(name: "AI", stories: [top, Story.make(id: "a1", title: "a1", category: "AI",
+                                                                                     published: now)])],
+                        sourceProblems: [])
+        XCTAssertEqual(old.stories.map(\.id), ["t", "a1"])
+    }
+
     func testLatestSortsNewestFirstAndHotKeepsTheFeedOrder() {
         func story(_ id: String, minutesAgo: Double) -> Story {
             Story(id: id, title: id, summary: "", importance: 1, label: nil, category: "Tech",

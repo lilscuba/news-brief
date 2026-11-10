@@ -23,6 +23,7 @@ enum BriefBuilder {
         let wantsDeals = settings.categories.contains("Deals")
 
         var scored: [(story: Story, isDeal: Bool)] = []
+        var seen = Set<String>()
         for s in feed.stories where s.published >= since {
             let sources = s.sources.filter { settings.isSourceEnabled($0.key) }
             guard !sources.isEmpty else { continue }
@@ -30,6 +31,10 @@ enum BriefBuilder {
             if isDeal ? !wantsDeals : !settings.categories.contains(s.category) { continue }
             let text = ([s.title] + sources.map(\.title)).joined(separator: " ")
             if muted.matches(text) { continue }
+            // Ids key the lists (and read and saved state), and a list's behaviour is undefined
+            // when two rows share one. If the feed ever repeats an id (an outlet reusing an
+            // article id), the first, higher-ranked story is kept.
+            guard seen.insert(s.id).inserted else { continue }
             let boost = Double(boosts.matchCount(in: text)) * boostWeight
             scored.append((story(s, sources: sources, isDeal: isDeal, score: s.score + boost), isDeal))
         }

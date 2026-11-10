@@ -3,6 +3,10 @@ import UIKit
 
 /// A story's picture at 16:9. The space is reserved before it loads so the feed never jumps, and
 /// one that can't load shows the topic's colour and icon rather than an empty box.
+///
+/// The picture is swapped in with no fade. A SwiftUI animation inside a List row runs on the main
+/// thread for as long as it lasts, and in the feed a picture arrives every few rows, so there
+/// was nearly always one running while the list scrolled.
 struct StoryImage: View {
     let url: URL
     let topic: String
@@ -12,7 +16,7 @@ struct StoryImage: View {
     init(url: URL, topic: String) {
         self.url = url
         self.topic = topic
-        // Already in memory (scrolling back up): show it on the first frame, with no fade.
+        // Already in memory (scrolling back up): show it on the first frame.
         _image = State(initialValue: ImageLoader.shared.cached(url))
     }
 
@@ -25,7 +29,6 @@ struct StoryImage: View {
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFill()
-                        .transition(.opacity)
                 } else if failed {
                     let style = TopicStyle.of(topic)
                     Rectangle()
@@ -50,17 +53,19 @@ struct StoryImage: View {
                 guard !Task.isCancelled else { return }
                 // Also runs when the story's picture changes, so the old one never lingers.
                 image = ImageLoader.shared.cached(url)
+                guard image == nil else { return }
                 var wait = 2.0
-                while image == nil, !Task.isCancelled, ImageLoader.shared.canLoad(url) {
+                // Every pass ends by returning or by waiting: the loop never depends on reading
+                // the picture back from this row's state, so it can't spin.
+                while !Task.isCancelled, ImageLoader.shared.canLoad(url) {
                     do {
                         let loaded = try await ImageLoader.shared.image(for: url)
                         // Scrolled away or the picture changed while it decoded. It's in the cache
                         // for next time; holding it here would keep it in memory off screen.
                         if Task.isCancelled { return }
-                        withAnimation(.easeOut(duration: 0.2)) {
-                            image = loaded
-                            failed = false
-                        }
+                        image = loaded
+                        failed = false
+                        return
                     } catch {
                         // Scrolled away before it arrived: it loads again when back on screen.
                         if Task.isCancelled { return }
@@ -70,7 +75,7 @@ struct StoryImage: View {
                         wait = min(wait * 3, 60)
                     }
                 }
-                if image == nil, !Task.isCancelled { failed = true }
+                if !Task.isCancelled { failed = true }
             }
     }
 }
