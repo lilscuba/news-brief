@@ -30,6 +30,15 @@ targets:
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: YES
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      configs:
+        # Debug is the build that ends up on the phone (the launcher, and Xcode's Run button), so
+        # it is compiled with optimization like Release. Unoptimized Swift is several times
+        # slower, and the feed builds its rows while it scrolls. DEBUG stays defined: the push
+        # environment and the demo mode depend on it. To step through code in the debugger,
+        # remove these two lines and run xcodegen again.
+        Debug:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+          SWIFT_COMPILATION_MODE: wholemodule
     entitlements:
       path: PersonalFeed/PersonalFeed.entitlements
       properties:
