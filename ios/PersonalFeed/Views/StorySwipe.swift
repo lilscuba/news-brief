@@ -1,5 +1,6 @@
 import SwiftUI
 import UIKit
+import UIKit.UIGestureRecognizerSubclass
 
 // MARK: - One-motion swipes
 
@@ -188,9 +189,10 @@ struct StorySwipe: ViewModifier {
     }
 }
 
-/// A pan that only begins for a sideways drag on a row with an action on that side. UIKit asks
-/// before the pan starts; answering no leaves the touch with the list (and with the swipe back),
-/// which is what keeps scrolling untouched.
+/// A pan that only begins for a sideways drag on a row with an action on that side. Anything
+/// else leaves the touch with the list (and with the swipe back), which is what keeps scrolling
+/// untouched. The rule is applied twice: by the recognizer itself on the finger's first movement
+/// (`SidewaysPanRecognizer`), and again when UIKit asks its delegate whether the pan may begin.
 @available(iOS 18.0, *)
 private struct SidewaysPan: UIGestureRecognizerRepresentable {
     let canLead: Bool
@@ -202,20 +204,20 @@ private struct SidewaysPan: UIGestureRecognizerRepresentable {
 
     func makeCoordinator(converter: CoordinateSpaceConverter) -> Coordinator { Coordinator() }
 
-    func makeUIGestureRecognizer(context: Context) -> UIPanGestureRecognizer {
-        let pan = UIPanGestureRecognizer()
+    func makeUIGestureRecognizer(context: Context) -> SidewaysPanRecognizer {
+        let pan = SidewaysPanRecognizer()
         pan.maximumNumberOfTouches = 1
         pan.delegate = context.coordinator
-        configure(context.coordinator)
+        configure(pan, context.coordinator)
         return pan
     }
 
-    func updateUIGestureRecognizer(_ recognizer: UIPanGestureRecognizer, context: Context) {
+    func updateUIGestureRecognizer(_ recognizer: SidewaysPanRecognizer, context: Context) {
         // The row's actions change with its state (Read becomes Unread): always the latest.
-        configure(context.coordinator)
+        configure(recognizer, context.coordinator)
     }
 
-    func handleUIGestureRecognizerAction(_ recognizer: UIPanGestureRecognizer, context: Context) {
+    func handleUIGestureRecognizerAction(_ recognizer: SidewaysPanRecognizer, context: Context) {
         let coordinator = context.coordinator
         switch recognizer.state {
         case .began, .changed: coordinator.moved(recognizer.translation(in: recognizer.view).x)
@@ -225,7 +227,9 @@ private struct SidewaysPan: UIGestureRecognizerRepresentable {
         }
     }
 
-    private func configure(_ coordinator: Coordinator) {
+    private func configure(_ recognizer: SidewaysPanRecognizer, _ coordinator: Coordinator) {
+        recognizer.canLead = canLead
+        recognizer.canTrail = canTrail
         coordinator.canLead = canLead
         coordinator.canTrail = canTrail
         coordinator.moved = moved
@@ -249,6 +253,43 @@ private struct SidewaysPan: UIGestureRecognizerRepresentable {
             let startX = pan.location(in: nil).x - travelled.x
             return SwipeRule.begins(movement: movement, startX: startX, canLead: canLead, canTrail: canTrail)
         }
+    }
+}
+
+/// A pan recognizer that gives up by itself as soon as the finger's first movement isn't a
+/// swipe on this row (`SwipeRule.begins`): a scroll, the swipe back, a side with no action. It
+/// fails before a pan can begin, so it can never hold a vertical drag back from the list, whether
+/// or not anything asks its delegate.
+private final class SidewaysPanRecognizer: UIPanGestureRecognizer {
+    var canLead = false
+    var canTrail = false
+    /// Where the touch came down, in the window.
+    private var start: CGPoint?
+    /// The finger has to have moved this far before its direction means anything. Less than the
+    /// distance at which a pan begins.
+    private static let decideAfter: CGFloat = 6
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent) {
+        if start == nil { start = touches.first?.location(in: nil) }
+        super.touchesBegan(touches, with: event)
+    }
+
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent) {
+        if state == .possible, let start, let touch = touches.first {
+            let point = touch.location(in: nil)
+            let movement = CGSize(width: point.x - start.x, height: point.y - start.y)
+            if hypot(movement.width, movement.height) >= Self.decideAfter,
+               !SwipeRule.begins(movement: movement, startX: start.x, canLead: canLead, canTrail: canTrail) {
+                state = .failed
+                return
+            }
+        }
+        super.touchesMoved(touches, with: event)
+    }
+
+    override func reset() {
+        start = nil
+        super.reset()
     }
 }
 
