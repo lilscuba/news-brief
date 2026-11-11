@@ -45,6 +45,9 @@ The Mac launcher goes further than the Windows one:
 - lets Xcode register the app with Apple automatically
 - builds the app and installs it on your plugged-in iPhone
 
+After pulling app changes, `bash launch.sh --build` rebuilds the app and installs it on the
+plugged-in iPhone again, without going back through the checklist.
+
 **On Windows** (everything except building the app), right-click the folder background →
 **Open in Terminal**, then run:
 ```powershell

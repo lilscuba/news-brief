@@ -3,7 +3,8 @@
 # Remembers where you stopped. Detects what you're already signed in to and skips it.
 #
 #   Double-click "Launch Brief.command"      (first time: right-click it -> Open)
-#   or in Terminal:   bash launch.sh          (add --status to see the checklist, --reset to start over)
+#   or in Terminal:   bash launch.sh          (add --status to see the checklist, --reset to start over,
+#                                              --build to rebuild the app and put it on your iPhone again)
 #
 # Accounts chain off ones you already have, so there are no new passwords:
 #   Apple ID (Xcode) -> GitHub ("Continue with Apple") -> Cloudflare ("Continue with GitHub")
@@ -308,8 +309,11 @@ step_iphone() {
   cid="${device%%|*}"; udid="$(printf '%s' "$device" | cut -d'|' -f2)"; name="${device##*|}"
   say "   Found $name. Building (the first build takes a few minutes)..."
   local log="$STATE_DIR/build.log"
+  # Debug, so push notifications use Apple's development servers to match the app's signing, but
+  # with the compiler's optimizations on: without them the long scrolling feed stutters.
   if ! xcodebuild -project "$ROOT/ios/PersonalFeed.xcodeproj" -scheme PersonalFeed -configuration Debug \
-       -destination "id=$udid" -derivedDataPath "$ROOT/ios/build" -allowProvisioningUpdates build >"$log" 2>&1; then
+       -destination "id=$udid" -derivedDataPath "$ROOT/ios/build" -allowProvisioningUpdates \
+       SWIFT_OPTIMIZATION_LEVEL=-O SWIFT_COMPILATION_MODE=wholemodule build >"$log" 2>&1; then
     warn "   The build failed. The errors:"
     grep -E "error:" "$log" | sort -u | head -20
     say ""
@@ -331,6 +335,8 @@ step_iphone() {
 case "$1" in
   --status) show_checklist; exit 0;;
   --reset)  rm -f "$STATE"; touch "$STATE"; say "Progress cleared.";;
+  # After pulling app changes: build and install again without walking through the checklist.
+  --build)  step_iphone; exit $?;;
 esac
 
 total=${#STEP_IDS[@]}
