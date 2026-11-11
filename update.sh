@@ -52,7 +52,7 @@ want="$(git rev-parse FETCH_HEAD)" || fail "Couldn't read what was downloaded."
 
 say "3/4  Switching this Mac's copy to it..."
 if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
-  if git stash push -q -m "set aside by update.sh on $(date '+%Y-%m-%d %H:%M')" 2>/dev/null; then
+  if git stash push -q -m "set aside by update.sh on $(date '+%Y-%m-%d %H:%M')" >/dev/null 2>&1; then
     say "     Set aside local edits to project files (git stash has them)."
   else
     # A half-finished merge can't be stashed. Keep a copy of the edits, then clear them.
