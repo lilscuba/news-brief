@@ -9,6 +9,7 @@ struct SettingsView: View {
     @AppStorage(ArticleLink.readerModeKey) private var readerMode = true
     @AppStorage(AppModel.showBadgeKey) private var showBadge = true
     @AppStorage(SwipeTip.disabledKey) private var swipeTipDisabled = false
+    @AppStorage(SwipeRule.oneMotionKey) private var oneMotionSwipes = true
     @State private var confirmResetInterests = false
 
     /// Every edit goes straight to the model, which rebuilds the brief and saves to the account.
@@ -130,9 +131,12 @@ struct SettingsView: View {
                 Text("When a page supports it: just the text and images, without most ads and pop-ups. Other pages open as usual. To open one article the other way, touch and hold its Read button. Safari content blockers you install work here too.")
             }
             Section {
+                if SwipeRule.oneMotionAvailable {
+                    Toggle("Swipe in one motion", isOn: $oneMotionSwipes)
+                }
                 Toggle("Swipe-to-save tip", isOn: Binding(get: { !swipeTipDisabled }, set: { swipeTipDisabled = !$0 }))
             } footer: {
-                Text("Swipe right on a story to mark it read, left to save it. After you close an article, a tip says so, at most once every 30 minutes. Stories you've read stay in lists for 10 minutes before Hide Read Stories hides them.")
+                Text(Self.swipeFooter(oneMotion: oneMotionSwipes && SwipeRule.oneMotionAvailable))
             }
             Section {
                 Toggle("Show new-story count on app icon", isOn: $showBadge)
@@ -227,6 +231,14 @@ struct SettingsView: View {
         } footer: {
             SaveStatusHeader(state: model.saveState)
         }
+    }
+
+    /// How swiping works with "Swipe in one motion" on or off, then the tip and the read grace.
+    static func swipeFooter(oneMotion: Bool) -> String {
+        let how = oneMotion
+            ? "Swipe right on a story to mark it read, left to save it: drag until the phone ticks, then let go."
+            : "Swipe right on a story for Read, left for Save, then tap the button (or keep swiping all the way across)."
+        return how + " After you close an article, a tip says so, at most once every 30 minutes. Stories you've read stay in lists for 10 minutes before Hide Read Stories hides them."
     }
 
     static func badgeFooter(notificationStatus: UNAuthorizationStatus) -> String {

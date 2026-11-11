@@ -282,6 +282,25 @@ final class PersonalizationTests: XCTestCase {
         XCTAssertFalse(SwipeRule.isSideways(CGSize(width: 12, height: 20)), "a scroll isn't a swipe")
     }
 
+    func testOnlyASidewaysDragOnASideWithAnActionBeginsASwipe() {
+        func begins(_ dx: CGFloat, _ dy: CGFloat, from x: CGFloat = 200, lead: Bool = true, trail: Bool = true) -> Bool {
+            SwipeRule.begins(movement: CGSize(width: dx, height: dy), startX: x, canLead: lead, canTrail: trail)
+        }
+        // A scroll is never taken from the list, straight or slanted, up or down.
+        XCTAssertFalse(begins(0, 300))
+        XCTAssertFalse(begins(40, -300))
+        XCTAssertFalse(begins(-120, 200), "a slanted scroll is still a scroll")
+        XCTAssertTrue(begins(300, 40), "swipe right")
+        XCTAssertTrue(begins(-300, -40), "swipe left")
+        // Nor is a drag toward a side that has no action.
+        XCTAssertFalse(begins(300, 0, lead: false))
+        XCTAssertFalse(begins(-300, 0, trail: false))
+        // From the screen's left edge, a drag right is the system's swipe back.
+        XCTAssertFalse(begins(300, 0, from: SwipeRule.edgeZone - 1))
+        XCTAssertTrue(begins(300, 0, from: SwipeRule.edgeZone))
+        XCTAssertTrue(begins(-300, 0, from: SwipeRule.edgeZone - 1), "a drag left from there is a swipe")
+    }
+
     func testTappingARowOpensItsPageOnItsOwnTabOnce() async throws {
         await readyModel()
         let stories = Array(try XCTUnwrap(model.brief).allStories.prefix(2))

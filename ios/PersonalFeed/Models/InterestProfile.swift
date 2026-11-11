@@ -119,6 +119,8 @@ struct InterestScorer: Sendable {
     /// says little about a gaming reader, "Zelda" a lot.
     private let rarity: [String: Double]
     private let confidence: Double
+    /// Each headline's words, split once here: ranking asks for every one of them again.
+    private let words: [String: Set<String>]
 
     /// Nil until the profile has enough to go on. `titles` are the headlines being ranked.
     init?(profile: InterestProfile, titles: [String]) {
@@ -132,9 +134,13 @@ struct InterestScorer: Sendable {
         termShare = maxTerm > 0 ? profile.terms.mapValues { $0 / maxTerm } : [:]
 
         var counts: [String: Int] = [:]
+        var words: [String: Set<String>] = [:]
         for title in titles {
-            for word in RelatedStories.words(in: title) where termShare[word] != nil { counts[word, default: 0] += 1 }
+            let split = RelatedStories.words(in: title)
+            words[title] = split
+            for word in split where termShare[word] != nil { counts[word, default: 0] += 1 }
         }
+        self.words = words
         let n = Double(max(titles.count, 2))
         rarity = counts.mapValues { max(0, log(n / Double($0)) / log(n)) }
     }
@@ -143,7 +149,7 @@ struct InterestScorer: Sendable {
     func boost(title: String, category: String, outlets: [String]) -> Double {
         let topic = topicShare[category] ?? 0
         let outlet = outlets.map { outletShare[$0] ?? 0 }.max() ?? 0
-        let words = RelatedStories.words(in: title)
+        let words = self.words[title] ?? RelatedStories.words(in: title)
         let match = words.reduce(0.0) { $0 + (termShare[$1] ?? 0) * (rarity[$1] ?? 1) }
         let raw = Self.topicWeight * topic + Self.outletWeight * outlet + Self.termWeight * min(1, match)
         return (confidence * raw * 100).rounded() / 100

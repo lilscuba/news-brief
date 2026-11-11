@@ -70,6 +70,7 @@ struct LaunchView: View {
 
 struct MainTabs: View {
     @Environment(AppModel.self) private var model
+    @AppStorage(SwipeRule.oneMotionKey) private var oneMotionSwipes = true
 
     var body: some View {
         @Bindable var model = model
@@ -91,12 +92,18 @@ struct MainTabs: View {
         // "Swipe left to save", after an article closes. At the top, like the toasts: since iOS 26
         // the floating tab bar isn't part of the bottom safe area, so a card there slid under it.
         .overlay(alignment: .top) {
-            if let tip = model.swipeTip {
-                SwipeTipCard(prompt: tip)
-                    .transition(.move(edge: .top).combined(with: .opacity))
+            ZStack {
+                if let tip = model.swipeTip {
+                    SwipeTipCard(prompt: tip)
+                        .transition(.move(edge: .top).combined(with: .opacity))
+                }
             }
+            // On the card alone. On the tabs it also animated the feed underneath whenever the tip
+            // came or went, which is just as an article closes and its story is marked read.
+            .animation(.snappy, value: model.swipeTip)
         }
-        .animation(.snappy, value: model.swipeTip)
+        // Every story row reads this instead of watching the setting itself.
+        .environment(\.oneMotionSwipes, oneMotionSwipes)
     }
 }
 

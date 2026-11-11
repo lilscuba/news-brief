@@ -18,7 +18,8 @@ picture cards with every followed topic mixed together, top stories first (the t
 filter menu narrow it to one topic). The feed keeps itself current while it's open and in the
 background, and holds an update behind a "↑ 8 new stories" button rather than reshuffling under
 your thumb. Cards show the topic, outlet, age and only the labels that matter, with an unread dot.
-Swipe a card right to mark it read or left to save it, in one motion (no button to tap after);
+Swipe a card right to mark it read or left to save it, in one motion (no button to tap after;
+Settings > Reading > Swipe in one motion switches to the system's swipe buttons);
 long-press for share, copy link and more. After you close an article, a tip says you can swipe
 left to save it (at most once every 30 minutes; "Don't Show Again" turns it off, Settings turns
 it back on). With Hide Read Stories on, a story you read stays in the list for 10 minutes so
