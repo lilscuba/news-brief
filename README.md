@@ -49,8 +49,13 @@ The Mac launcher goes further than the Windows one:
 To put a newer version of the app on your iPhone later (the checklist skips steps that are
 already done), plug the phone in and run:
 ```bash
-bash launch.sh --install
+bash update.sh
 ```
+It downloads the newest code, switches this folder to it and reinstalls the app, saying each step
+as it goes (`bash update.sh some-branch` installs a version that isn't in `main` yet;
+`bash launch.sh --install` only rebuilds and reinstalls what the folder already has). The
+installer prints a short version code when it finishes, and the bottom of Settings in the app
+shows the same code, which is how to tell the update reached the phone.
 
 **On Windows** (everything except building the app), right-click the folder background →
 **Open in Terminal**, then run:

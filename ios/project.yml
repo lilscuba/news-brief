@@ -30,6 +30,9 @@ targets:
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: YES
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        # The commit the launcher built from (it passes this to xcodebuild); empty from Xcode's
+        # Run button. Shown at the bottom of Settings, to check an update reached the phone.
+        BRIEF_COMMIT: ""
       configs:
         # Debug is the build that ends up on the phone (the launcher, and Xcode's Run button), so
         # it is compiled with optimization like Release. Unoptimized Swift is several times
@@ -50,6 +53,7 @@ targets:
       properties:
         CFBundleDisplayName: Brief
         API_BASE_URL: $(API_BASE_URL)
+        BriefCommit: $(BRIEF_COMMIT)
         UILaunchScreen: {}
         # Landscape too: wide tables, charts and video in articles.
         UISupportedInterfaceOrientations:

@@ -4,8 +4,8 @@
 #
 #   Double-click "Launch Brief.command"      (first time: right-click it -> Open)
 #   or in Terminal:   bash launch.sh          (add --status to see the checklist, --reset to start over)
-#                      bash launch.sh --install   (only rebuild the app and put it on your iPhone again,
-#                                                  e.g. after downloading a newer version of this folder)
+#                      bash launch.sh --install   (only rebuild the app and put it on your iPhone again)
+#                      bash update.sh             (download the newest version first, then do that)
 #
 # Accounts chain off ones you already have, so there are no new passwords:
 #   Apple ID (Xcode) -> GitHub ("Continue with Apple") -> Cloudflare ("Continue with GitHub")
@@ -289,10 +289,34 @@ for d in devices:
 PY
 }
 
+# Puts the settings remembered for this Mac (team, app id, server address) back into the project
+# files. Freshly downloaded code carries the repository's values, and an app built with another
+# app id installs beside the one on the phone instead of updating it.
+apply_saved_settings() {
+  local team id url
+  team="$(get team_id)"; id="$(get bundle_id)"; url="$(get worker_url)"
+  if [ -n "$team" ]; then
+    replace_in "$ROOT/ios/project.yml" 'DEVELOPMENT_TEAM: "[^"]*"' "DEVELOPMENT_TEAM: \"$team\""
+  fi
+  if [ -n "$id" ]; then
+    replace_in "$ROOT/server/wrangler.toml" 'APPLE_BUNDLE_IDS = "[^"]*"' "APPLE_BUNDLE_IDS = \"$id\""
+    replace_in "$ROOT/ios/project.yml" 'PRODUCT_BUNDLE_IDENTIFIER: [^ ]+$' "PRODUCT_BUNDLE_IDENTIFIER: $id"
+  fi
+  if [ -n "$url" ]; then
+    replace_in "$ROOT/ios/project.yml" 'API_BASE_URL: "[^"]*"' "API_BASE_URL: \"$url\""
+  fi
+  return 0
+}
+
 step_iphone() {
   title "Build and install on your iPhone"
-  local bundle device cid udid name
+  local bundle device cid udid name commit
+  apply_saved_settings
   bundle="$(get bundle_id)"
+  [ -n "$bundle" ] || bundle="$(sed -nE 's/^ *PRODUCT_BUNDLE_IDENTIFIER: *([^ ]+) *$/\1/p' "$ROOT/ios/project.yml" | head -1)"
+  # The version being built. The app shows it at the bottom of Settings, so it's easy to check
+  # that an update reached the phone.
+  commit="$(git -C "$ROOT" rev-parse --short HEAD 2>/dev/null)"
   (cd "$ROOT/ios" && xcodegen -q) || { warn "   XcodeGen failed."; return 1; }
   say "   Plug your iPhone into this Mac with its cable and unlock it."
   say "   If the phone asks 'Trust This Computer?', tap Trust."
@@ -308,10 +332,11 @@ step_iphone() {
     return 0
   fi
   cid="${device%%|*}"; udid="$(printf '%s' "$device" | cut -d'|' -f2)"; name="${device##*|}"
-  say "   Found $name. Building (the first build takes a few minutes)..."
+  say "   Found $name. Building${commit:+ version $commit} (the first build takes a few minutes)..."
   local log="$STATE_DIR/build.log"
   if ! xcodebuild -project "$ROOT/ios/PersonalFeed.xcodeproj" -scheme PersonalFeed -configuration Debug \
-       -destination "id=$udid" -derivedDataPath "$ROOT/ios/build" -allowProvisioningUpdates build >"$log" 2>&1; then
+       -destination "id=$udid" -derivedDataPath "$ROOT/ios/build" -allowProvisioningUpdates \
+       BRIEF_COMMIT="$commit" build >"$log" 2>&1; then
     warn "   The build failed. The errors:"
     grep -E "error:" "$log" | sort -u | head -20
     say ""
@@ -324,7 +349,8 @@ step_iphone() {
   say "   Installing on $name..."
   xcrun devicectl device install app --device "$cid" "$app" >/dev/null || { warn "   Install failed (is the phone unlocked?)."; return 1; }
   xcrun devicectl device process launch --device "$cid" "$bundle" >/dev/null 2>&1 || true
-  ok "   Brief is on your iPhone and should be opening now. Tap 'Continue with Apple' to sign in."
+  ok "   Brief is on your iPhone and should be opening now. If it asks, tap 'Continue with Apple' to sign in."
+  [ -n "$commit" ] && say "   To check the update arrived: in the app, the bottom of Settings should end with $commit."
   done_step iphone
 }
 

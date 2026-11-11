@@ -10,6 +10,18 @@ final class TodayViewTests: XCTestCase {
         Source(outlet: outlet, title: "t", url: URL(string: "https://example.com/\(id)")!, official: false)
     }
 
+    // MARK: Which build is installed
+
+    func testSettingsNamesTheBuildAndTheCommitTheLauncherStampedIn() {
+        let stamped: [String: Any] = ["CFBundleShortVersionString": "1.0", "CFBundleVersion": "1",
+                                      "BriefCommit": "e0db854"]
+        XCTAssertEqual(AppBuild.summary(info: stamped), "Brief 1.0 (1) · e0db854")
+        // Built from Xcode's Run button: no commit, and no stray separator.
+        let plain: [String: Any] = ["CFBundleShortVersionString": "1.0", "CFBundleVersion": "1", "BriefCommit": ""]
+        XCTAssertEqual(AppBuild.summary(info: plain), "Brief 1.0 (1)")
+        XCTAssertEqual(AppBuild.summary(info: nil), "Brief")
+    }
+
     // MARK: Freshness line
 
     func testFreshnessSaysWhenTheNewsWasUpdated() {

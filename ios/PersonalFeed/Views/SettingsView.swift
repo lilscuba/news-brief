@@ -43,7 +43,11 @@ struct SettingsView: View {
                 } header: {
                     Text("Account")
                 } footer: {
-                    Text("Signed in with Apple. Your account holds only your feed settings and the push token for this phone.")
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Signed in with Apple. Your account holds only your feed settings and the push token for this phone.")
+                        // Which build is on the phone: after an update, the way to see it arrived.
+                        Text(AppBuild.summary())
+                    }
                 }
             }
             .disabled(working)
