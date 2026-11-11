@@ -346,8 +346,15 @@ private struct FeedRow: View {
     var body: some View {
         let read = model.isRead(story)
         let saved = model.isSaved(story)
+        let markRead = SwipeAction.read(story, isRead: read, model: model)
+        let save = SwipeAction.save(story, isSaved: saved, model: model)
         StoryCard(story: story, isTop: isTop, isRead: read, isNew: model.isNew(story), isSaved: saved,
                   showsTopic: showsTopic, hidesDealLabel: hidesDealLabel)
+            // On the card's own VoiceOver element.
+            .accessibilityAddTraits(.isButton)
+            .accessibilityAction { open() }
+            .accessibilityAction(named: "Read article") { model.openArticle(story) }
+            .swipeAccessibilityActions(markRead, save)
             .contentShape(Rectangle())
             .onTapGesture { open() }
             .contextMenu {
@@ -355,12 +362,7 @@ private struct FeedRow: View {
             } preview: {
                 StoryPreviewCard(story: story)
             }
-            .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model),
-                        trailing: SwipeAction.save(story, isSaved: saved, model: model),
-                        rowBackground: Color(uiColor: .systemBackground))
-            .accessibilityAddTraits(.isButton)
-            .accessibilityAction { open() }
-            .accessibilityAction(named: "Read article") { model.openArticle(story) }
+            .storySwipe(leading: markRead, trailing: save, rowBackground: Color(uiColor: .systemBackground))
             .listRowInsets(EdgeInsets())
             .alignmentGuide(.listRowSeparatorLeading) { _ in 0 }
     }

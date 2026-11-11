@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 // MARK: - One-motion swipes
 
@@ -45,17 +46,20 @@ extension SwipeAction {
 enum SwipeRule {
     /// How far a row has to be dragged for letting go to act.
     static let threshold: CGFloat = 80
-    /// A rightward drag that starts this close to the row's leading edge is left to the system's
+    /// A quick flick acts from this far, so a short fast swipe works too.
+    static let flickDistance: CGFloat = 32
+    /// Points per second that count as a flick.
+    static let flickSpeed: CGFloat = 700
+    /// A rightward swipe that starts this close to the screen's left edge is left to the system's
     /// swipe back to the previous page.
-    static let edgeZone: CGFloat = 20
-    /// The first movement has to be this much more sideways than vertical to be a swipe rather
-    /// than a scroll.
+    static let edgeZone: CGFloat = 24
+    /// A movement has to be this much more sideways than vertical to be a swipe rather than a scroll.
     static let sidewaysBias: CGFloat = 1.3
 
     enum Edge: Equatable, Sendable { case leading, trailing }
 
-    static func isSideways(_ translation: CGSize) -> Bool {
-        abs(translation.width) > abs(translation.height) * sidewaysBias
+    static func isSideways(_ movement: CGSize) -> Bool {
+        abs(movement.width) > abs(movement.height) * sidewaysBias
     }
 
     /// Where a row dragged by `dx` is drawn: with the finger up to 1.6 times the threshold, then
@@ -69,19 +73,24 @@ enum SwipeRule {
     }
 
     /// The action letting go at `offset` performs: leading for a swipe right, trailing for left.
-    static func outcome(_ offset: CGFloat) -> Edge? {
-        if offset >= threshold { return .leading }
-        if offset <= -threshold { return .trailing }
-        return nil
+    /// Past the threshold always; a flick (`velocity` in points per second, same direction) from
+    /// `flickDistance`.
+    static func outcome(_ offset: CGFloat, velocity: CGFloat = 0) -> Edge? {
+        let flicked = abs(velocity) >= flickSpeed && abs(offset) >= flickDistance && (velocity > 0) == (offset > 0)
+        guard abs(offset) >= threshold || flicked, offset != 0 else { return nil }
+        return offset > 0 ? .leading : .trailing
     }
 }
 
 /// Swipe a story row to act on it in one motion: right marks it read, left saves it. Past the
 /// threshold the action's colour fills in and the phone ticks; letting go does it, with no button
-/// to tap afterwards. Short of the threshold the row just slides back.
+/// to tap afterwards (a quick flick works too). Short of it the row slides back.
 ///
-/// A sideways drag never opens the story: rows open with a tap gesture, which a drag cancels.
-/// Vertical drags are scrolls and leave the row alone.
+/// The swipe is a UIKit pan, like Mail's rows: it only starts for a sideways movement, and the list
+/// waits for it to be ruled out before scrolling, so vertical scrolling is never blocked or slowed.
+/// (A SwiftUI drag on every row blocked scrolling and redrew the row on every frame of a scroll.)
+/// Rows open with a tap gesture, which a swipe cancels, so a swipe never also opens the story.
+/// iOS 17, which has no UIKit gestures in SwiftUI, gets the system swipe actions with full swipe.
 struct StorySwipe: ViewModifier {
     /// Swipe right.
     let leading: SwipeAction?
@@ -89,67 +98,153 @@ struct StorySwipe: ViewModifier {
     let trailing: SwipeAction?
     /// The row's own background, which slides with it so the action shows only where it left.
     let rowBackground: Color
-    /// Rows inside a grouped list's margins round the swipe's edges; edge-to-edge rows don't.
+    /// Rows inside a grouped list's margins round and clip the swipe; edge-to-edge rows don't clip.
     let cornerRadius: CGFloat
 
     @State private var offset: CGFloat = 0
-    /// Decided on a drag's first movement: true for a swipe, false for a scroll.
-    @State private var sideways: Bool?
-    @GestureState private var dragging = false
+    @State private var armed: SwipeRule.Edge?
 
+    @ViewBuilder
     func body(content: Content) -> some View {
-        let armed = SwipeRule.outcome(offset)
-        content
-            .background(offset == 0 ? Color.clear : rowBackground)
-            .offset(x: offset)
-            .background { reveal(armed: armed) }
-            // The row slides inside its own frame, never over the list's margins.
-            .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
-            // Simultaneous, so the list keeps scrolling: a plain gesture here blocks scrolling on iOS 18.
-            .simultaneousGesture(drag)
-            .sensoryFeedback(.impact(weight: .medium), trigger: armed) { _, new in new != nil }
-            // Ended or cancelled (a scroll or the back swipe took over): settle back.
-            .onChange(of: dragging) { _, isDragging in
-                if !isDragging { settle() }
-            }
+        if #available(iOS 18.0, *) {
+            sliding(content)
+                .gesture(SwipePan(canLead: leading != nil, canTrail: trailing != nil,
+                                  onChange: track, onEnd: finish, onCancel: settle))
+        } else {
+            content
+                .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                    if let leading { systemButton(leading) }
+                }
+                .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                    if let trailing { systemButton(trailing) }
+                }
+        }
     }
 
-    private var drag: some Gesture {
-        DragGesture(minimumDistance: 12, coordinateSpace: .local)
-            .updating($dragging) { _, state, _ in state = true }
-            .onChanged { value in
-                if sideways == nil {
-                    let fromEdge = value.startLocation.x < SwipeRule.edgeZone && value.translation.width > 0
-                    sideways = !fromEdge && SwipeRule.isSideways(value.translation)
-                }
-                guard sideways == true else { return }
-                offset = SwipeRule.offset(value.translation.width, canLead: leading != nil, canTrail: trailing != nil)
-            }
-            .onEnded { _ in
-                let outcome = sideways == true ? SwipeRule.outcome(offset) : nil
-                switch outcome {
-                case .leading?: leading?.perform()
-                case .trailing?: trailing?.perform()
-                case nil: break
-                }
-                settle()
-            }
+    @ViewBuilder
+    private func sliding(_ content: Content) -> some View {
+        let moved = content
+            .background(offset == 0 ? Color.clear : rowBackground)
+            .offset(x: offset)
+            .background { reveal }
+        if cornerRadius > 0 {
+            moved.clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+        } else {
+            moved
+        }
+    }
+
+    private func track(_ dx: CGFloat) {
+        offset = SwipeRule.offset(dx, canLead: leading != nil, canTrail: trailing != nil)
+        let now = SwipeRule.outcome(offset)
+        guard now != armed else { return }
+        if now != nil { SwipeHaptics.tick() }
+        armed = now
+    }
+
+    /// Decided from the gesture's own final numbers, not from view state, which may already have
+    /// been reset by the time the gesture reports its end.
+    private func finish(_ dx: CGFloat, _ velocity: CGFloat) {
+        let shown = SwipeRule.offset(dx, canLead: leading != nil, canTrail: trailing != nil)
+        switch SwipeRule.outcome(shown, velocity: velocity) {
+        case .leading?: leading?.perform()
+        case .trailing?: trailing?.perform()
+        case nil: break
+        }
+        settle()
     }
 
     private func settle() {
-        sideways = nil
+        armed = nil
         guard offset != 0 else { return }
         withAnimation(.snappy(duration: 0.25)) { offset = 0 }
     }
 
     @ViewBuilder
-    private func reveal(armed: SwipeRule.Edge?) -> some View {
+    private var reveal: some View {
         if offset > 0, let leading {
             SwipeReveal(action: leading, edge: .leading, armed: armed == .leading)
         } else if offset < 0, let trailing {
             SwipeReveal(action: trailing, edge: .trailing, armed: armed == .trailing)
         }
     }
+
+    private func systemButton(_ action: SwipeAction) -> some View {
+        Button { action.perform() } label: { Label(action.title, systemImage: action.systemImage) }
+            .tint(action.tint)
+    }
+}
+
+/// The sideways pan behind StorySwipe. It begins only for a mostly sideways movement (never from
+/// the screen's left edge, which belongs to the back swipe), and the list's scrolling waits for it
+/// to fail first, the way UITableView's swipe actions work.
+@available(iOS 18.0, *)
+private struct SwipePan: UIGestureRecognizerRepresentable {
+    let canLead: Bool
+    let canTrail: Bool
+    let onChange: @MainActor (CGFloat) -> Void
+    /// Final translation and velocity, in points and points per second.
+    let onEnd: @MainActor (CGFloat, CGFloat) -> Void
+    let onCancel: @MainActor () -> Void
+
+    func makeCoordinator(converter: CoordinateSpaceConverter) -> Coordinator { Coordinator() }
+
+    func makeUIGestureRecognizer(context: Context) -> UIPanGestureRecognizer {
+        let pan = UIPanGestureRecognizer()
+        pan.maximumNumberOfTouches = 1
+        pan.delegate = context.coordinator
+        context.coordinator.canLead = canLead
+        context.coordinator.canTrail = canTrail
+        return pan
+    }
+
+    func updateUIGestureRecognizer(_ recognizer: UIPanGestureRecognizer, context: Context) {
+        context.coordinator.canLead = canLead
+        context.coordinator.canTrail = canTrail
+    }
+
+    func handleUIGestureRecognizerAction(_ recognizer: UIPanGestureRecognizer, context: Context) {
+        let dx = recognizer.translation(in: recognizer.view).x
+        switch recognizer.state {
+        case .began, .changed: onChange(dx)
+        case .ended: onEnd(dx, recognizer.velocity(in: recognizer.view).x)
+        case .cancelled, .failed: onCancel()
+        default: break
+        }
+    }
+
+    @MainActor
+    final class Coordinator: NSObject, UIGestureRecognizerDelegate {
+        var canLead = true
+        var canTrail = true
+
+        func gestureRecognizerShouldBegin(_ recognizer: UIGestureRecognizer) -> Bool {
+            guard let pan = recognizer as? UIPanGestureRecognizer else { return true }
+            let velocity = pan.velocity(in: pan.view)
+            let moved = pan.translation(in: pan.view)
+            // Velocity says where the finger is heading; a very slow drag falls back to how far it went.
+            let direction = hypot(velocity.x, velocity.y) > 50 ? velocity : moved
+            guard SwipeRule.isSideways(CGSize(width: direction.x, height: direction.y)) else { return false }
+            if direction.x > 0 {
+                let startX = pan.location(in: nil).x - pan.translation(in: nil).x
+                return canLead && startX > SwipeRule.edgeZone
+            }
+            return canTrail
+        }
+
+        /// The list's scrolling waits until this swipe is ruled out (at the first movement).
+        func gestureRecognizer(_ recognizer: UIGestureRecognizer,
+                               shouldBeRequiredToFailBy other: UIGestureRecognizer) -> Bool {
+            other is UIPanGestureRecognizer && other.view is UIScrollView
+        }
+    }
+}
+
+/// The tick when a swipe reaches the point where letting go acts. One generator for every row.
+@MainActor
+private enum SwipeHaptics {
+    static let generator = UIImpactFeedbackGenerator(style: .medium)
+    static func tick() { generator.impactOccurred() }
 }
 
 /// The colour and icon behind a row being swiped: faint until letting go would act, then full.
@@ -178,17 +273,19 @@ private struct SwipeReveal: View {
 }
 
 extension View {
-    /// One-motion swipes on a story row (see StorySwipe). The row becomes one VoiceOver element,
-    /// with the swipes as its actions.
+    /// One-motion swipes on a story row (see StorySwipe).
     func storySwipe(leading: SwipeAction?, trailing: SwipeAction?, rowBackground: Color,
                     cornerRadius: CGFloat = 0) -> some View {
         modifier(StorySwipe(leading: leading, trailing: trailing, rowBackground: rowBackground,
                             cornerRadius: cornerRadius))
-            .accessibilityElement(children: .combine)
-            .accessibilityActions {
-                if let leading { Button(leading.spokenTitle) { leading.perform() } }
-                if let trailing { Button(trailing.spokenTitle) { trailing.perform() } }
-            }
+    }
+
+    /// The swipes as named VoiceOver actions. Apply to the row's accessibility element itself.
+    func swipeAccessibilityActions(_ leading: SwipeAction?, _ trailing: SwipeAction?) -> some View {
+        accessibilityActions {
+            if let leading { Button(leading.spokenTitle) { leading.perform() } }
+            if let trailing { Button(trailing.spokenTitle) { trailing.perform() } }
+        }
     }
 }
 

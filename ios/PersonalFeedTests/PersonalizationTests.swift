@@ -278,6 +278,10 @@ final class PersonalizationTests: XCTestCase {
         let far = SwipeRule.offset(-400, canLead: true, canTrail: true)
         XCTAssertLessThan(far, -SwipeRule.threshold)
         XCTAssertGreaterThan(far, -400, "stiffer past the limit")
+        XCTAssertEqual(SwipeRule.outcome(-40, velocity: -900), .trailing, "a quick flick left saves")
+        XCTAssertNil(SwipeRule.outcome(-40, velocity: 900), "a flick back the other way doesn't")
+        XCTAssertNil(SwipeRule.outcome(-20, velocity: -900), "too short to count")
+        XCTAssertNil(SwipeRule.outcome(0, velocity: 900))
         XCTAssertTrue(SwipeRule.isSideways(CGSize(width: 30, height: 5)))
         XCTAssertFalse(SwipeRule.isSideways(CGSize(width: 12, height: 20)), "a scroll isn't a swipe")
     }

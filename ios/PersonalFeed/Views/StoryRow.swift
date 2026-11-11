@@ -218,6 +218,9 @@ struct StoryLink: View {
     var body: some View {
         let read = model.isRead(story)
         let saved = model.isSaved(story)
+        let markRead = SwipeAction.read(story, isRead: read, model: model)
+        let trailing = trailingSwipe == .save ? SwipeAction.save(story, isSaved: saved, model: model)
+                                              : SwipeAction.removeSaved(story, model: model)
         // Every row in Saved is saved; the bookmark mark only says something elsewhere.
         HStack(spacing: 8) {
             StoryRow(story: story, isRead: read, isNew: model.isNew(story),
@@ -230,6 +233,11 @@ struct StoryLink: View {
                 .foregroundStyle(.tertiary)
                 .accessibilityHidden(true)
         }
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityAction { open() }
+        .accessibilityAction(named: "Read article") { model.openArticle(story) }
+        .swipeAccessibilityActions(markRead, trailing)
         .contentShape(Rectangle())
         .onTapGesture { open() }
         .contextMenu {
@@ -237,14 +245,8 @@ struct StoryLink: View {
         } preview: {
             StoryPreviewCard(story: story)
         }
-        .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model),
-                    trailing: trailingSwipe == .save ? SwipeAction.save(story, isSaved: saved, model: model)
-                                                     : SwipeAction.removeSaved(story, model: model),
-                    rowBackground: Color(uiColor: .secondarySystemGroupedBackground),
-                    cornerRadius: 10)
-        .accessibilityAddTraits(.isButton)
-        .accessibilityAction { open() }
-        .accessibilityAction(named: "Read article") { model.openArticle(story) }
+        .storySwipe(leading: markRead, trailing: trailing,
+                    rowBackground: Color(uiColor: .secondarySystemGroupedBackground), cornerRadius: 10)
     }
 
     private func open() { model.push(story, day: day, in: tab) }
