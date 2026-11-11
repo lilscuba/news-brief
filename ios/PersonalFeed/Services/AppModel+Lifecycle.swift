@@ -55,7 +55,9 @@ extension AppModel {
     func beginVisitIfActive() {
         guard sceneIsActive, phase == .ready, visitStartedAt == nil else { return }
         visitStartedAt = now()
-        todayReadSnapshot = Set(readAt.keys)  // a new visit hides what was read before it
+        // A new visit hides what was read before it, except stories read in the last 10 minutes
+        // (an article read in Safari a moment ago can still be saved).
+        todayReadSnapshot = readIDsToHide()
         let previous = LocalStore.lastVisitAt
         if previous != previousVisitAt {
             previousVisitAt = previous

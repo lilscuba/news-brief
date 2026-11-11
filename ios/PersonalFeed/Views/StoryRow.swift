@@ -195,10 +195,12 @@ enum RelativeAge {
 
 // MARK: - A row in a list, with its actions
 
-/// A story row that opens the story page, with swipe actions (read, save), a context menu with a
-/// preview, and the same actions for VoiceOver.
+/// A story row that opens the story page on a tap, with one-motion swipes (right: read; left:
+/// save, or remove in Saved; see StorySwipe), a context menu with a preview, and the same actions
+/// for VoiceOver. A tap gesture rather than a link, so a swipe can never also open the story.
 struct StoryLink: View {
     @Environment(AppModel.self) private var model
+    @Environment(\.navigationTab) private var tab
     let story: Story
     var showsTopic = false
     var hidesDealLabel = false
@@ -217,48 +219,35 @@ struct StoryLink: View {
         let read = model.isRead(story)
         let saved = model.isSaved(story)
         // Every row in Saved is saved; the bookmark mark only says something elsewhere.
-        let row = StoryRow(story: story, isRead: read, isNew: model.isNew(story),
-                           isSaved: saved && trailingSwipe != .removeSaved,
-                           showsTopic: showsTopic, hidesDealLabel: hidesDealLabel)
-        Group {
-            if let day {
-                NavigationLink(value: PastStoryDestination(story: story, day: day)) { row }
-            } else {
-                NavigationLink(value: story) { row }
-            }
+        HStack(spacing: 8) {
+            StoryRow(story: story, isRead: read, isNew: model.isNew(story),
+                     isSaved: saved && trailingSwipe != .removeSaved,
+                     showsTopic: showsTopic, hidesDealLabel: hidesDealLabel)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            // The disclosure chevron a navigation link would draw.
+            Image(systemName: "chevron.right")
+                .font(.footnote.weight(.semibold))
+                .foregroundStyle(.tertiary)
+                .accessibilityHidden(true)
         }
-        .swipeActions(edge: .leading) {
-            Button {
-                model.setRead(story, !read)
-            } label: {
-                Label(read ? "Unread" : "Read", systemImage: read ? "envelope.badge" : "envelope.open")
-            }
-            .tint(.blue)
-        }
-        .swipeActions(edge: .trailing) {
-            switch trailingSwipe {
-            case .save:
-                Button {
-                    model.setSaved(story, !saved)
-                } label: {
-                    Label(saved ? "Unsave" : "Save", systemImage: saved ? "bookmark.slash" : "bookmark")
-                }
-                .tint(.orange)
-            case .removeSaved:
-                Button(role: .destructive) {
-                    model.setSaved(story, false)
-                } label: {
-                    Label("Remove", systemImage: "bookmark.slash")
-                }
-            }
-        }
+        .contentShape(Rectangle())
+        .onTapGesture { open() }
         .contextMenu {
             StoryMenuItems(story: story, isRead: read, isSaved: saved)
         } preview: {
             StoryPreviewCard(story: story)
         }
+        .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model),
+                    trailing: trailingSwipe == .save ? SwipeAction.save(story, isSaved: saved, model: model)
+                                                     : SwipeAction.removeSaved(story, model: model),
+                    rowBackground: Color(uiColor: .secondarySystemGroupedBackground),
+                    cornerRadius: 10)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityAction { open() }
         .accessibilityAction(named: "Read article") { model.openArticle(story) }
     }
+
+    private func open() { model.push(story, day: day, in: tab) }
 }
 
 /// The long-press menu of a story row.

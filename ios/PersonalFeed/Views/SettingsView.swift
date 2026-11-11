@@ -8,6 +8,8 @@ struct SettingsView: View {
     @State private var path: [SettingsPage] = []
     @AppStorage(ArticleLink.readerModeKey) private var readerMode = true
     @AppStorage(AppModel.showBadgeKey) private var showBadge = true
+    @AppStorage(SwipeTip.disabledKey) private var swipeTipDisabled = false
+    @State private var confirmResetInterests = false
 
     /// Every edit goes straight to the model, which rebuilds the brief and saves to the account.
     private var settings: Binding<UserSettings> {
@@ -18,6 +20,7 @@ struct SettingsView: View {
         NavigationStack(path: $path) {
             Form {
                 feedSection
+                personalizationSection
                 readingSection
                 notificationsSection
                 if let error = model.accountError {
@@ -46,6 +49,12 @@ struct SettingsView: View {
             .navigationTitle("Settings")
             // Registered once, at the stack root; every push is a value.
             .navigationDestination(for: SettingsPage.self) { page($0) }
+            .confirmationDialog("Forget what you read?", isPresented: $confirmResetInterests,
+                                titleVisibility: .visible) {
+                Button("Reset", role: .destructive) { model.resetInterests() }
+            } message: {
+                Text("Brief starts learning your interests again from the next story you open. Read and saved stories aren't affected.")
+            }
             .confirmationDialog("Delete your account?", isPresented: $confirmDelete, titleVisibility: .visible) {
                 Button("Delete account", role: .destructive) {
                     working = true
@@ -81,6 +90,36 @@ struct SettingsView: View {
         }
     }
 
+    /// "Learn what I read": what Brief has picked up, and a way to start over.
+    private var personalizationSection: some View {
+        let interests = model.interests
+        let topics = InterestProfile.top(interests.topics, 3)
+        let outlets = InterestProfile.top(interests.outlets, 3)
+        return Section {
+            Toggle("Learn what I read", isOn: Binding(get: { model.personalizes },
+                                                      set: { model.setPersonalizes($0) }))
+            if model.personalizes {
+                if topics.isEmpty {
+                    Text("Nothing yet. Open, read and save a few stories and the ones like them move up.")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                } else {
+                    LabeledContent("Topics you read most", value: topics.joined(separator: ", "))
+                    if !outlets.isEmpty {
+                        LabeledContent("Outlets you read most", value: outlets.joined(separator: ", "))
+                    }
+                }
+            }
+            if !interests.isEmpty {
+                Button("Reset What Brief Learned", role: .destructive) { confirmResetInterests = true }
+            }
+        } header: {
+            Text("For you")
+        } footer: {
+            Text("Stories like the ones you open, read and save rank higher in Hot topics; the day's biggest news still comes first. Learned on this phone only, never sent anywhere, and older reading fades over a few weeks. The order updates when you pull to refresh or come back to the app.")
+        }
+    }
+
     private var readingSection: some View {
         Group {
             Section {
@@ -89,6 +128,11 @@ struct SettingsView: View {
                 Text("Reading")
             } footer: {
                 Text("When a page supports it: just the text and images, without most ads and pop-ups. Other pages open as usual. To open one article the other way, touch and hold its Read button. Safari content blockers you install work here too.")
+            }
+            Section {
+                Toggle("Swipe-to-save tip", isOn: Binding(get: { !swipeTipDisabled }, set: { swipeTipDisabled = !$0 }))
+            } footer: {
+                Text("Swipe right on a story to mark it read, left to save it. After you close an article, a tip says so, at most once every 30 minutes. Stories you've read stay in lists for 10 minutes before Hide Read Stories hides them.")
             }
             Section {
                 Toggle("Show new-story count on app icon", isOn: $showBadge)

@@ -106,6 +106,8 @@ struct SavedView: View {
                 }
             }
         }
+        // Story rows on this stack open their pages here, not on Today's.
+        .environment(\.navigationTab, .saved)
     }
 }
 

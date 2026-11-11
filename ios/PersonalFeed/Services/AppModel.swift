@@ -59,9 +59,9 @@ final class AppModel {
     var todayIsAtTop = true {
         didSet { if todayIsAtTop, !oldValue, pendingBrief != nil { applyPendingBrief() } }
     }
-    /// What "Hide read stories" hides on Today: the stories read before this visit (or before the
-    /// last pull to refresh). Kept here, not in the view, so a story read a moment ago doesn't vanish
-    /// when an update lands or a search replaces the list for a moment.
+    /// What "Hide read stories" hides on Today: stories read at least 10 minutes before this visit
+    /// began, Today last came on screen or the last pull to refresh (`readIDsToHide`). Kept here so
+    /// a new visit can retake it; a story read a moment ago is never in it, so it can still be saved.
     var todayReadSnapshot: Set<String>?
 
     // The properties below are written by AppModel's extensions in other files, so their setters
@@ -86,6 +86,12 @@ final class AppModel {
     var saved: [SavedStory] = []
     /// Newest first, at most 50.
     var recent: [RecentStory] = []
+    /// What the reader reads most, learned on this phone; ranks stories like those higher.
+    var interests = InterestProfile()
+    /// "Learn what I read" (Settings). Change it with `setPersonalizes(_:)`.
+    private(set) var personalizes = true
+    /// The "swipe left to save" tip on screen after an article closes (see SwipeTip).
+    var swipeTip: SwipeTipPrompt?
 
     // MARK: Navigation (see AppModel+Routing.swift)
 
@@ -170,6 +176,12 @@ final class AppModel {
     @ObservationIgnored var observers: [NSObjectProtocol] = []
     @ObservationIgnored var relatedIndex: (key: String, index: RelatedStories)?
     @ObservationIgnored var isDemo = false
+    /// Bumped whenever `interests` changes, so a rebuild can tell the ranking is out of date.
+    @ObservationIgnored var interestsVersion = 0
+    /// The story whose article is open, for the swipe-to-save tip when it closes.
+    @ObservationIgnored var articleStory: Story?
+    /// The last story page pushed by a row tap, so a quick double tap doesn't push it twice.
+    @ObservationIgnored var lastPush: (id: String, at: Date)?
 
     static let log = Logger(subsystem: "com.lilscuba.brief", category: "app")
 
@@ -177,6 +189,8 @@ final class AppModel {
         let day: String
         let window: Double
         let at: Date
+        /// `interestsVersion` the ranking was built with.
+        let interests: Int
     }
 
     init() {
@@ -245,6 +259,7 @@ final class AppModel {
         let seen: [String: Date]?
         let saved: [SavedStory]?
         let recent: [RecentStory]?
+        let interests: InterestProfile?
     }
 
     private func loadLocalState() async {
@@ -253,13 +268,15 @@ final class AppModel {
         deviceToken = LocalStore.deviceToken
         lastCheckedAt = LocalStore.feedCheckedAt
         previousVisitAt = LocalStore.lastVisitAt
+        personalizes = LocalStore.personalizes
         let legacyReads = LocalStore.legacyReadIDs
         let loaded = await Task.detached(priority: .userInitiated) {
             LocalSnapshot(feed: LocalStore.loadFeed(),
                           reads: LocalStore.load([String: Date].self, .read),
                           seen: LocalStore.load([String: Date].self, .seen),
                           saved: LocalStore.load([SavedStory].self, .saved),
-                          recent: LocalStore.load([RecentStory].self, .recent))
+                          recent: LocalStore.load([RecentStory].self, .recent),
+                          interests: LocalStore.load(InterestProfile.self, .interests))
         }.value
         let index = await historyStore.loadIndex(now: now())
 
@@ -279,6 +296,10 @@ final class AppModel {
         firstSeen = loaded.seen ?? [:]
         saved = loaded.saved ?? []
         recent = loaded.recent ?? []
+        if let stored = loaded.interests {
+            interests = stored
+            interestsVersion += 1
+        }
         historyIndex = index
         if let feed { recordFirstSeen(in: feed) }
         startObservingSystemChanges()
@@ -464,6 +485,8 @@ final class AppModel {
         accountError = reason == .expired ? APIError.unauthorized.localizedDescription : nil
         pendingRoute = nil
         presentedArticle = nil
+        articleStory = nil
+        swipeTip = nil
         clearSearch()
         todayReadSnapshot = nil
         todayPath = NavigationPath()
@@ -608,6 +631,9 @@ final class AppModel {
             result = try await fetchFeedRetrying(etag: feed == nil ? nil : APIClient.ifNoneMatch(feedETag),
                                                  retry: reason != .background)
         } catch {
+            // Cancelled (iOS ended a background refresh): not a feed problem, and saying "You're
+            // offline" on the next open would be wrong.
+            if Self.isCancellation(error) { return .failed }
             feedStatus = FeedStatus(error)
             Self.log.error("Feed check failed: \(String(describing: error), privacy: .public)")
             return .failed
@@ -621,7 +647,7 @@ final class AppModel {
         switch result {
         case .notModified:
             // Still rebuild now and then, so the 24 h window slides and the date rolls over.
-            if brief == nil || buildIsStale { rebuild(reason.applyPolicy) }
+            if brief == nil || buildIsStale || rankingIsOutdated(for: reason) { rebuild(reason.applyPolicy) }
             return .unchanged
         case .fresh(let newFeed, let data, let etag):
             // Never step back to an older feed (a slow reply overtaken by a newer one).
@@ -632,7 +658,7 @@ final class AppModel {
             feedETag = tag
             if isNewer || LocalStore.feedETag == nil { persistFeed(data, etag: tag) }
             recordFirstSeen(in: newFeed)
-            guard isNewer || brief == nil || buildIsStale else { return .unchanged }
+            guard isNewer || brief == nil || buildIsStale || rankingIsOutdated(for: reason) else { return .unchanged }
             let before = Set((pendingBrief ?? brief)?.allStories.map(\.id) ?? [])
             rebuild(reason.applyPolicy)
             let after = Set((pendingBrief ?? brief)?.allStories.map(\.id) ?? [])
@@ -648,6 +674,10 @@ final class AppModel {
             try? await Task.sleep(for: retryDelay)
             return try await fetchFeed(etag)
         }
+    }
+
+    static func isCancellation(_ error: Error) -> Bool {
+        error is CancellationError || (error as? URLError)?.code == .cancelled
     }
 
     static func isRetryable(_ error: Error) -> Bool {
@@ -679,9 +709,12 @@ final class AppModel {
         guard let feed, phase != .signedOut else { return }
         let at = now()
         let window = BriefBuilder.catchUpHours(lastVisit: previousVisitAt, feed: feed, now: at)
-        let built = BriefBuilder.build(feed: feed, settings: settings, now: at, windowHours: window)
-        allTopicsBrief = BriefBuilder.allTopics(feed: feed, settings: settings, now: at, windowHours: window)
-        lastBuild = BuildStamp(day: built.date, window: window, at: at)
+        let learned = personalizes ? interests : nil
+        let built = BriefBuilder.build(feed: feed, settings: settings, now: at, windowHours: window,
+                                       interests: learned)
+        allTopicsBrief = BriefBuilder.allTopics(feed: feed, settings: settings, now: at, windowHours: window,
+                                                interests: learned)
+        lastBuild = BuildStamp(day: built.date, window: window, at: at, interests: interestsVersion)
         if policy == .deferWhileReading, let shown = brief, shown.date == built.date,
            selectedTab == .today, !todayIsAtTop {
             if HistoryStore.signature(of: built) == HistoryStore.signature(of: shown) {
@@ -715,6 +748,29 @@ final class AppModel {
         return at.timeIntervalSince(lastBuild.at) >= 600
             || Brief.day(of: at) != lastBuild.day
             || BriefBuilder.catchUpHours(lastVisit: previousVisitAt, feed: feed, now: at) != lastBuild.window
+    }
+
+    /// The reader has read more since the brief was ranked. Only refreshes that may reorder Today
+    /// (pull to refresh, launch, coming back to the app) re-rank for that alone; automatic checks
+    /// while reading don't, so the feed doesn't reshuffle under the reader's thumb.
+    private func rankingIsOutdated(for reason: RefreshReason) -> Bool {
+        personalizes && reason.appliesImmediately && lastBuild.map { $0.interests != interestsVersion } ?? false
+    }
+
+    /// Turns "Learn what I read" on or off and re-ranks the brief.
+    func setPersonalizes(_ on: Bool) {
+        guard on != personalizes else { return }
+        personalizes = on
+        LocalStore.personalizes = on
+        rebuild()
+    }
+
+    /// Forgets what was learned about the reader's interests and re-ranks the brief.
+    func resetInterests() {
+        interests = InterestProfile()
+        interestsVersion += 1
+        scheduleWrite(.interests)
+        rebuild()
     }
 
     /// Midnight or a time-zone change: the date and the window moved.

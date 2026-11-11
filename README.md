@@ -18,7 +18,13 @@ picture cards with every followed topic mixed together, top stories first (the t
 filter menu narrow it to one topic). The feed keeps itself current while it's open and in the
 background, and holds an update behind a "↑ 8 new stories" button rather than reshuffling under
 your thumb. Cards show the topic, outlet, age and only the labels that matter, with an unread dot.
-Swipe a card to mark it read or save it; long-press for share, copy link and more. Topic pages
+Swipe a card right to mark it read or left to save it, in one motion (no button to tap after);
+long-press for share, copy link and more. After you close an article, a tip says you can swipe
+left to save it (at most once every 30 minutes; "Don't Show Again" turns it off, Settings turns
+it back on). With Hide Read Stories on, a story you read stays in the list for 10 minutes so
+there's time to save it. Hot topics learns what you read: stories like the ones you open, read
+and save move up (Settings > For you shows what it learned, turns it off or resets it; it stays
+on the phone and fades over a few weeks). Topic pages
 include the topic's top stories, switch topics from the title, group Latest by time, hide read
 stories and mark all as read. Search covers your topics or all of them. A story page names the
 outlet and when it was first reported and last updated, lists the coverage by outlet, and

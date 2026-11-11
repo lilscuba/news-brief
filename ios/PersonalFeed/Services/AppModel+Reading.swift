@@ -1,8 +1,9 @@
 import Foundation
 
 /// Reading state, all on this phone: what's been read, what's new since the last visit, saved
-/// stories and recently read. Each is a small JSON file in Application Support, written off the
-/// main thread a second after the last change (and when the app goes to the background).
+/// stories, recently read and what the reader reads most. Each is a small JSON file in Application
+/// Support, written off the main thread a second after the last change (and when the app goes to
+/// the background).
 extension AppModel {
     // MARK: Read
 
@@ -41,9 +42,20 @@ extension AppModel {
 
     func toggleRead(_ story: Story) { setRead(story, !isRead(story)) }
 
-    /// The reader opened a story's page or its article: mark it read and remember it under
-    /// Recently read.
-    func noteOpened(_ story: Story) {
+    /// Stories "Hide read stories" hides now: read at least 10 minutes ago. A story read more
+    /// recently stays in the list, so it can still be swiped to save after its article is closed.
+    func readIDsToHide() -> Set<String> { ReadingState.hideable(readAt, now: now()) }
+
+    /// Read at least 10 minutes ago (see `readIDsToHide`).
+    func isReadAWhileAgo(_ story: Story) -> Bool {
+        readAt[story.id].map { now().timeIntervalSince($0) >= ReadingState.hideReadAfter } ?? false
+    }
+
+    /// The reader opened a story's page or its article: mark it read, remember it under Recently
+    /// read and learn from it (`signal` nil for a story a notification opened, which says more
+    /// about the alert than the reader). `outlet` is the outlet whose article was opened.
+    func noteOpened(_ story: Story, signal: InterestSignal? = .opened, outlet: String? = nil) {
+        if let signal { learn(from: story, signal, outlet: outlet) }
         setRead(story, true)
         recent.removeAll { $0.id == story.id }
         recent.insert(RecentStory(story: story, openedAt: now()), at: 0)
@@ -54,6 +66,16 @@ extension AppModel {
     func clearRecent() {
         recent = []
         scheduleWrite(.recent)
+    }
+
+    // MARK: Interests
+
+    /// Counts a signal of interest (once per story and kind). The brief is re-ranked at the next
+    /// refresh or visit, not now, so nothing moves while the reader is looking at it.
+    func learn(from story: Story, _ signal: InterestSignal, outlet: String? = nil) {
+        guard interests.record(story, signal, outlet: outlet, now: now()) else { return }
+        interestsVersion += 1
+        scheduleWrite(.interests)
     }
 
     // MARK: New since the last visit
@@ -104,6 +126,7 @@ extension AppModel {
         if save {
             guard !isSaved(story) else { return }
             saved.insert(SavedStory(story: story, savedAt: now()), at: 0)
+            learn(from: story, .saved)
         } else {
             guard isSaved(story) else { return }
             saved.removeAll { $0.id == story.id }
@@ -135,6 +158,9 @@ extension AppModel {
         previousVisitAt = nil
         saved = []
         recent = []
+        interests = InterestProfile()
+        interestsVersion += 1
+        swipeTip = nil
         historyIndex = []
         pastBriefs = [:]
         let store = historyStore
@@ -171,6 +197,7 @@ extension AppModel {
         case .seen: job = Self.write(firstSeen, to: target, after: previous)
         case .saved: job = Self.write(saved, to: target, after: previous)
         case .recent: job = Self.write(recent, to: target, after: previous)
+        case .interests: job = Self.write(interests, to: target, after: previous)
         case .feed: return
         }
         writesInFlight[file] = job

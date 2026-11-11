@@ -254,7 +254,13 @@ final class ReadingAndRoutingTests: XCTestCase {
         XCTAssertFalse(model.todayReadSnapshot?.contains(story.id) ?? false, "read during this visit: still shown")
         model.sceneDidEnterBackground()
         model.sceneDidBecomeActive()
-        XCTAssertTrue(model.todayReadSnapshot?.contains(story.id) ?? false, "the next visit hides it")
+        XCTAssertFalse(model.todayReadSnapshot?.contains(story.id) ?? false,
+                       "read under 10 minutes ago: still shown, so it can be saved")
+        model.sceneDidEnterBackground()
+        clock.advance(minutes: 11)
+        model.sceneDidBecomeActive()
+        XCTAssertTrue(model.todayReadSnapshot?.contains(story.id) ?? false, "the next visit after that hides it")
+        model.sceneWillResignActive()
 
         LocalStore.defaults.set("nintendo", forKey: RecentSearches.storageKey)  // .standard in the app
         LocalStore.resetForNewUser("someone-else")

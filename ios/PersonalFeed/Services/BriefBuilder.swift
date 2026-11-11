@@ -1,7 +1,8 @@
 import Foundation
 
 /// Turns the shared feed into one person's brief, entirely on the phone: their topics, enabled
-/// sources, muted words and keyword boosts. Mirrors `list_brief` in briefing/summarize.py.
+/// sources, muted words, keyword boosts and what they read most (`InterestProfile`). Mirrors
+/// `list_brief` in briefing/summarize.py, except the reading interests, which stay on the phone.
 enum BriefBuilder {
     static let windowHours: Double = 24
     static let boostWeight = 3.0
@@ -10,17 +11,21 @@ enum BriefBuilder {
     /// - Parameters:
     ///   - windowHours: hours of news to include, 24 normally; more (up to the feed's own window)
     ///     to catch someone up after a long absence.
+    ///   - interests: what the reader reads most; stories like those rank higher. Nil (or too
+    ///     little reading yet) ranks by the feed's score and the keyword boosts alone.
     ///
     /// The window ends at the feed's build time, not the phone's clock: while the server runs late
     /// or the phone is offline with an old cache, stories shouldn't age out with nothing to replace
     /// them. With a fresh feed the two are minutes apart.
     static func build(feed: SharedFeed, settings: UserSettings, now: Date = .now,
-                      timeZone: TimeZone = .current, windowHours: Double = BriefBuilder.windowHours) -> Brief {
+                      timeZone: TimeZone = .current, windowHours: Double = BriefBuilder.windowHours,
+                      interests: InterestProfile? = nil) -> Brief {
         let window = clampedWindow(windowHours, feed: feed)
         let since = min(now, feed.generatedAt).addingTimeInterval(-window * 3600)
         let muted = TermMatcher(settings.mutedWords)
         let boosts = TermMatcher(settings.boosts)
         let wantsDeals = settings.categories.contains("Deals")
+        let personal = interests.flatMap { InterestScorer(profile: $0, titles: feed.stories.map(\.title)) }
 
         var scored: [(story: Story, isDeal: Bool)] = []
         var seen = Set<String>()
@@ -36,7 +41,9 @@ enum BriefBuilder {
             // article id), the first, higher-ranked story is kept.
             guard seen.insert(s.id).inserted else { continue }
             let boost = Double(boosts.matchCount(in: text)) * boostWeight
-            scored.append((story(s, sources: sources, isDeal: isDeal, score: s.score + boost), isDeal))
+            let interest = personal?.boost(title: s.title, category: isDeal ? "Deals" : s.category,
+                                           outlets: sources.map { Source.shortName($0.outlet) }) ?? 0
+            scored.append((story(s, sources: sources, isDeal: isDeal, score: s.score + boost + interest), isDeal))
         }
         // Stable, so equal scores keep the feed's order.
         scored = scored.enumerated().sorted { l, r in
@@ -76,10 +83,12 @@ enum BriefBuilder {
     /// Every topic, followed or not, with the reader's sources, muted words and boosts. Backs
     /// browsing an unfollowed topic and searching "All topics".
     static func allTopics(feed: SharedFeed, settings: UserSettings, now: Date = .now,
-                          timeZone: TimeZone = .current, windowHours: Double = BriefBuilder.windowHours) -> Brief {
+                          timeZone: TimeZone = .current, windowHours: Double = BriefBuilder.windowHours,
+                          interests: InterestProfile? = nil) -> Brief {
         var everything = settings
         everything.categories = settings.categories + settings.unfollowedCategories
-        return build(feed: feed, settings: everything, now: now, timeZone: timeZone, windowHours: windowHours)
+        return build(feed: feed, settings: everything, now: now, timeZone: timeZone, windowHours: windowHours,
+                     interests: interests)
     }
 
     /// Every story of one topic in hot order, whether or not the reader follows it.

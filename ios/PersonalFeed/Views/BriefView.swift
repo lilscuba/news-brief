@@ -16,8 +16,8 @@ struct BriefView: View {
     @AppStorage(BriefView.hideReadKey) private var hideRead = false
     /// The topic the feed is narrowed to; nil shows every topic.
     @State private var topic: String?
-    /// A past brief's stories read before it was opened; only these are hidden. Today keeps its
-    /// snapshot on the model (`todayReadSnapshot`), per visit.
+    /// A past brief's stories to hide (see `takeReadSnapshot`). Today keeps its snapshot on the
+    /// model (`todayReadSnapshot`), so a new visit can take it too.
     @State private var readSnapshot: Set<String>?
     @State private var editingTopics = false
     @State private var toast: Toast?
@@ -35,13 +35,15 @@ struct BriefView: View {
         hideRead ? ((isLive ? model.todayReadSnapshot : readSnapshot) ?? []) : nil
     }
 
-    /// Hides what has been read so far: when the feed first appears, on pull to refresh and when
-    /// "Hide read stories" is switched on. Never on an automatic update, so nothing just read vanishes.
-    private func takeReadSnapshot(onlyIfMissing: Bool = false) {
-        let read = Set(model.readAt.keys)
+    /// Hides stories read at least 10 minutes ago (a story read more recently stays, so it can
+    /// still be swiped to save): whenever the feed comes on screen, on pull to refresh and when
+    /// "Hide read stories" is switched on. Never on an automatic update or while the feed is in
+    /// view, so nothing vanishes under the reader's thumb.
+    private func takeReadSnapshot() {
+        let read = model.readIDsToHide()
         if isLive {
-            if !onlyIfMissing || model.todayReadSnapshot == nil { model.todayReadSnapshot = read }
-        } else if !onlyIfMissing || readSnapshot == nil {
+            model.todayReadSnapshot = read
+        } else {
             readSnapshot = read
         }
     }
@@ -74,7 +76,7 @@ struct BriefView: View {
                     noTopicsState
                 } else if content.allCaughtUp {
                     ContentUnavailableView("All caught up", systemImage: "checkmark.circle",
-                                           description: Text("You've read everything here. Read stories are hidden."))
+                                           description: Text("You've read everything here. Read stories are hidden 10 minutes after you read them."))
                         .listRowSeparator(.hidden)
                 } else if content.stories.isEmpty {
                     ContentUnavailableView("Nothing new yet",
@@ -124,7 +126,7 @@ struct BriefView: View {
             takeReadSnapshot()
             toast = result
         })
-        .onAppear { takeReadSnapshot(onlyIfMissing: true) }
+        .onAppear { takeReadSnapshot() }
         .onChange(of: hideRead) { takeReadSnapshot() }
         .toast($toast)
     }
@@ -339,11 +341,12 @@ struct FeedContent: Equatable {
     }
 }
 
-/// A story card that opens the story, with the same actions as a list row: swipe to mark read or
-/// save, long-press for the menu and a preview. The link is hidden so the card has no disclosure
-/// chevron; a tap anywhere on the card still opens it.
+/// A story card that opens the story on a tap. Swipe right to mark it read and left to save it, in
+/// one motion (StorySwipe); long-press for the menu and a preview. A tap gesture rather than a
+/// link, so a swipe can never also open the story.
 private struct FeedRow: View {
     @Environment(AppModel.self) private var model
+    @Environment(\.navigationTab) private var tab
     let story: Story
     let isTop: Bool
     let showsTopic: Bool
@@ -353,43 +356,26 @@ private struct FeedRow: View {
     var body: some View {
         let read = model.isRead(story)
         let saved = model.isSaved(story)
-        ZStack {
-            Group {
-                if let day {
-                    NavigationLink(value: PastStoryDestination(story: story, day: day)) { EmptyView() }
-                } else {
-                    NavigationLink(value: story) { EmptyView() }
-                }
+        StoryCard(story: story, isTop: isTop, isRead: read, isNew: model.isNew(story), isSaved: saved,
+                  showsTopic: showsTopic, hidesDealLabel: hidesDealLabel)
+            .contentShape(Rectangle())
+            .onTapGesture { open() }
+            .contextMenu {
+                StoryMenuItems(story: story, isRead: read, isSaved: saved)
+            } preview: {
+                StoryPreviewCard(story: story)
             }
-            .opacity(0)
-            StoryCard(story: story, isTop: isTop, isRead: read, isNew: model.isNew(story), isSaved: saved,
-                      showsTopic: showsTopic, hidesDealLabel: hidesDealLabel)
-        }
-        .listRowInsets(EdgeInsets())
-        .alignmentGuide(.listRowSeparatorLeading) { _ in 0 }
-        .swipeActions(edge: .leading) {
-            Button {
-                model.setRead(story, !read)
-            } label: {
-                Label(read ? "Unread" : "Read", systemImage: read ? "envelope.badge" : "envelope.open")
-            }
-            .tint(.blue)
-        }
-        .swipeActions(edge: .trailing) {
-            Button {
-                model.setSaved(story, !saved)
-            } label: {
-                Label(saved ? "Unsave" : "Save", systemImage: saved ? "bookmark.slash" : "bookmark")
-            }
-            .tint(.orange)
-        }
-        .contextMenu {
-            StoryMenuItems(story: story, isRead: read, isSaved: saved)
-        } preview: {
-            StoryPreviewCard(story: story)
-        }
-        .accessibilityAction(named: "Read article") { model.openArticle(story) }
+            .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model),
+                        trailing: SwipeAction.save(story, isSaved: saved, model: model),
+                        rowBackground: Color(uiColor: .systemBackground))
+            .accessibilityAddTraits(.isButton)
+            .accessibilityAction { open() }
+            .accessibilityAction(named: "Read article") { model.openArticle(story) }
+            .listRowInsets(EdgeInsets())
+            .alignmentGuide(.listRowSeparatorLeading) { _ in 0 }
     }
+
+    private func open() { model.push(story, day: day, in: tab) }
 }
 
 /// A followed topic that has stories in the feed, shown as a chip.
@@ -577,8 +563,9 @@ struct LiveRefresh: ViewModifier {
     }
 }
 
-/// "Hide read stories": lists hide what was read before they appeared, so a story you just opened
-/// stays put when you come back to the list and goes on the next visit or refresh.
+/// "Hide read stories": lists hide stories read at least 10 minutes before they came on screen (or
+/// were refreshed), so a story you just read stays put long enough to save it and goes the next
+/// time the list appears after that.
 enum HideRead {
     static func visible(_ stories: [Story], hidden: Set<String>?) -> [Story] {
         guard let hidden, !hidden.isEmpty else { return stories }

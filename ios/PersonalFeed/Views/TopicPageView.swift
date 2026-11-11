@@ -10,7 +10,8 @@ struct TopicPageView: View {
     @State private var current: String
     @AppStorage(StorySort.storageKey) private var sort: StorySort = .hot
     @AppStorage(BriefView.hideReadKey) private var hideRead = false
-    /// Stories read before the page appeared; only these are hidden, so one just read stays put.
+    /// Stories to hide: read at least 10 minutes before the page came on screen (or was refreshed),
+    /// so one just read stays put long enough to swipe it into Saved.
     @State private var readSnapshot: Set<String>?
     @State private var toast: Toast?
     @State private var loadFailed = false
@@ -97,15 +98,15 @@ struct TopicPageView: View {
         .modifier(LiveRefresh(isLive: isLive) { @MainActor in
             // A pushed page counts as "scrolled down", so an automatic update may be waiting.
             let result = await Toast.pullToRefresh(model)
-            readSnapshot = Set(model.readAt.keys)
+            readSnapshot = model.readIDsToHide()
             toast = result
         })
         .task(id: destination.day) {
             // A past day's brief may have been dropped from the model's small cache.
             if let day = destination.day { loadFailed = await model.loadBrief(day: day) == nil }
         }
-        .onAppear { if readSnapshot == nil { readSnapshot = Set(model.readAt.keys) } }
-        .onChange(of: hideRead) { readSnapshot = Set(model.readAt.keys) }
+        .onAppear { readSnapshot = model.readIDsToHide() }
+        .onChange(of: hideRead) { readSnapshot = model.readIDsToHide() }
         .toast($toast)
     }
 

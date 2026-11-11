@@ -17,6 +17,8 @@ enum LocalStore {
         case seen = "seen.json"
         case saved = "saved.json"
         case recent = "recent.json"
+        /// What the reader reads most (InterestProfile).
+        case interests = "interests.json"
     }
 
     // MARK: UserDefaults
@@ -61,6 +63,26 @@ enum LocalStore {
     static var lastVisitAt: Date? {
         get { defaults.object(forKey: "lastVisitAt") as? Date }
         set { defaults.set(newValue, forKey: "lastVisitAt") }
+    }
+
+    /// "Learn what I read" in Settings (default on): rank stories like the ones the reader opens,
+    /// reads and saves higher.
+    static var personalizes: Bool {
+        get { defaults.object(forKey: personalizesKey) as? Bool ?? true }
+        set { defaults.set(newValue, forKey: personalizesKey) }
+    }
+    static let personalizesKey = "personalizeFeed"
+
+    /// "Don't show again" on the swipe-to-save tip.
+    static var swipeTipDisabled: Bool {
+        get { defaults.bool(forKey: SwipeTip.disabledKey) }
+        set { defaults.set(newValue, forKey: SwipeTip.disabledKey) }
+    }
+
+    /// When the swipe-to-save tip last showed; it sleeps for 30 minutes after.
+    static var swipeTipShownAt: Date? {
+        get { defaults.object(forKey: SwipeTip.shownAtKey) as? Date }
+        set { defaults.set(newValue, forKey: SwipeTip.shownAtKey) }
     }
 
     /// The APNs token, kept so Sign out can unregister this phone after a relaunch.
@@ -146,6 +168,9 @@ enum ReadingState {
     /// compare against (first run or an upgrade), so day one doesn't show 900 "new" stories.
     static let seeded = Date(timeIntervalSince1970: 0)
     static let recentCap = 50
+    /// A story read this recently stays in lists that hide read stories, so it can still be
+    /// swiped to save after the article is closed.
+    static let hideReadAfter: TimeInterval = 10 * 60
 
     /// Drops reads older than 35 days, then the oldest ones while over the cap. Never at random.
     static func prunedReads(_ reads: [String: Date], now: Date) -> [String: Date] {
@@ -155,6 +180,11 @@ enum ReadingState {
             kept = Dictionary(uniqueKeysWithValues: newest.map { ($0.key, $0.value) })
         }
         return kept
+    }
+
+    /// The stories "Hide read stories" may hide now: read at least `hideReadAfter` ago.
+    static func hideable(_ reads: [String: Date], now: Date) -> Set<String> {
+        Set(reads.compactMap { now.timeIntervalSince($0.value) >= hideReadAfter ? $0.key : nil })
     }
 
     /// Stamps every story the phone hasn't met before. With no history at all (`seenBefore` is

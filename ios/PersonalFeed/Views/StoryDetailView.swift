@@ -20,8 +20,10 @@ struct StoryDetailView: View {
         let coverage = Coverage(story)
         let related = model.relatedStories(to: story)
         let topicStories = sort.apply(model.stories(inTopic: story.category, day: day))
+        // A story read in the last 10 minutes stays listed, so coming back from it to swipe it into
+        // Saved finds it where it was.
         let more = StoryPage.moreInTopic(after: story, in: topicStories,
-                                         excluding: Set(related.map(\.id)), isRead: model.isRead)
+                                         excluding: Set(related.map(\.id)), isRead: model.isReadAWhileAgo)
         List {
             Section {
                 header(coverage)
@@ -137,7 +139,7 @@ struct StoryDetailView: View {
                 model.openArticle(story, reader: !readerMode)
             }
             Button("Open in Safari", systemImage: "safari") {
-                model.noteOpened(story)
+                model.noteOpened(story, signal: .readArticle)
                 openURL(url)
             }
             Divider()
@@ -326,7 +328,7 @@ private struct CoverageRow: View {
             model.openArticle(story, source: source, reader: !readerMode)
         }
         Button("Open in Safari", systemImage: "safari") {
-            model.noteOpened(story)
+            model.noteOpened(story, signal: .readArticle, outlet: source.shortOutlet)
             openURL(source.url)
         }
         Divider()
