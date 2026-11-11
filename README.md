@@ -57,6 +57,9 @@ as it goes (`bash update.sh some-branch` installs a version that isn't in `main`
 installer prints a short version code when it finishes, and the bottom of Settings in the app
 shows the same code, which is how to tell the update reached the phone.
 
+If the news stops updating and the "Shared feed" job on GitHub fails with "401 Unauthorized",
+run `bash repair-feed.sh` (see [server/README.md](server/README.md#keeping-the-feed-fresh)).
+
 **On Windows** (everything except building the app), right-click the folder background →
 **Open in Terminal**, then run:
 ```powershell

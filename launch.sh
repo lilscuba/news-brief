@@ -176,6 +176,18 @@ step_github() {
 
 step_repo() {
   title "Project on GitHub"
+  # A folder downloaded from your own repository is already linked to it. Setting up again asks
+  # for a repository name, creates that repository and moves the link to it; the later steps
+  # then send the server's secret and the push key there, and the feed job in the original
+  # repository is locked out.
+  local linked
+  linked="$(gh repo view --json nameWithOwner --jq .nameWithOwner 2>/dev/null)"
+  if [ -n "$linked" ] && [ "$(gh repo view --json viewerPermission --jq .viewerPermission 2>/dev/null)" = "ADMIN" ]; then
+    ok "   This folder is already linked to $linked on GitHub. Nothing to upload."
+    put repo "$linked"
+    done_step repo
+    return 0
+  fi
   say "   Runs setup.sh: creates your repo, uploads the project, turns on the web page and ntfy alerts."
   say "   Press Enter to skip any optional key it asks for."
   bash "$ROOT/setup.sh" || { warn "   setup.sh stopped; fix the error above and run the launcher again."; return 1; }

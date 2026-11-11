@@ -159,6 +159,18 @@ minutes with the event `workflow_dispatch`. The Worker logs each tick (Cloudflar
   this repo. 404: `GITHUB_REPO` is wrong or the workflow isn't on `main`. 422: `GITHUB_REF`
   isn't a branch.
 
+**"Shared feed" runs fail with `401 Client Error: Unauthorized … /v1/internal/ingest`:** the
+server and this repo no longer hold the same `INGEST_SECRET`. `deploy.sh` makes a new one each
+time and saves it to the repo its folder is linked to, so this happens when the server was
+deployed from a copy of the project linked to another repo (for example one the launcher created
+on a second run). From the project folder on the Mac:
+```bash
+bash repair-feed.sh
+```
+It links the folder to `GITHUB_REPO` again, gives that repo and the server the same new secret,
+starts the feed job, and offers to switch off the scheduled jobs in the other repo. `deploy.sh`
+and the launcher now stop instead of setting things up in a second repo.
+
 **What the token can do:** start, cancel and re-run workflows, and delete their logs, artifacts and
 caches, in this one repo. It can't push commits, change settings or read secrets. Runs it starts
 email their failures to you, the token's owner.

@@ -10,7 +10,9 @@
 #
 # What it does, saying each step as it goes:
 #   1. finds the project folder (the one Terminal is in, or ~/news-brief)
-#   2. downloads the branch's latest code
+#   2. downloads the branch's latest code, from the repository this folder is linked to or, when
+#      the branch isn't there, from the project's own repository (GITHUB_REPO in
+#      server/wrangler.toml): a folder can end up linked to a different one
 #   3. sets aside local edits to project files, which would otherwise stop git switching branches
 #      (the launcher writes this Mac's team, app id and server address into them). Nothing is
 #      lost: git's stash keeps the edits, and the launcher puts those settings back when it builds
@@ -47,7 +49,16 @@ say "1/4  Project folder: $DIR"
 say "     It has: $(git branch --show-current 2>/dev/null) $(git log -1 --format=%h 2>/dev/null)"
 
 say "2/4  Downloading the latest $BRANCH..."
-git fetch -q origin "$BRANCH" || fail "Couldn't download '$BRANCH'. Check the internet connection, then run this again."
+if ! git fetch -q origin "$BRANCH" 2>/dev/null; then
+  # Not in the repository this folder is linked to. The project's own repository is the one the
+  # server is set up to use.
+  home="$(sed -nE 's/^GITHUB_REPO *= *"([^"]+)".*/\1/p' "$DIR/server/wrangler.toml" 2>/dev/null | head -1)"
+  linked="$(git remote get-url origin 2>/dev/null)"
+  [ -n "$home" ] || fail "Couldn't download '$BRANCH' from ${linked:-the repository this folder is linked to}. Check the internet connection, then run this again."
+  say "     It isn't in ${linked:-the repository this folder is linked to}."
+  say "     Getting it from the project's own repository, $home..."
+  git fetch -q "https://github.com/$home.git" "$BRANCH" || fail "Couldn't download '$BRANCH' from $home either. Check the internet connection, then run this again."
+fi
 want="$(git rev-parse FETCH_HEAD)" || fail "Couldn't read what was downloaded."
 
 say "3/4  Switching this Mac's copy to it..."

@@ -27,6 +27,20 @@ if grep -q 'com\.yourname\.newsfeed' wrangler.toml; then
   sed -i '' "s/com\.yourname\.newsfeed/$bundle/" wrangler.toml
 fi
 
+# The server starts the feed job in GITHUB_REPO (wrangler.toml), and that job has to hold the
+# secret set below. The secret goes to the repository this folder is linked to, so the two must
+# be the same one: otherwise the job the server starts is locked out (401 Unauthorized).
+target="$(sed -nE 's/^GITHUB_REPO *= *"([^"]+)".*/\1/p' wrangler.toml | head -1)"
+here="$(gh repo view --json nameWithOwner --jq .nameWithOwner 2>/dev/null || true)"
+if [ -n "$target" ] && [ -n "$here" ] && [ "$target" != "$here" ]; then
+  if [ "$(gh repo view "$target" --json viewerPermission --jq .viewerPermission 2>/dev/null || true)" = "ADMIN" ]; then
+    fail "This folder is linked to $here, but the server starts the feed job in $target (GITHUB_REPO in server/wrangler.toml), which is yours too. Deploying from here would hand the server's secret to $here and lock $target's feed job out. To keep $target, run  bash repair-feed.sh  from the project folder, then deploy again. To move the server to $here, change GITHUB_REPO in server/wrangler.toml first."
+  fi
+  # The repository named is someone else's (the project's default): this server is for yours.
+  sed -i '' -E "s#^GITHUB_REPO *= *\"[^\"]*\"#GITHUB_REPO = \"$here\"#" wrangler.toml
+  echo "The server will start the feed job in $here (saved to server/wrangler.toml)."
+fi
+
 if grep -q REPLACE_WITH_D1_ID wrangler.toml; then
   step "Creating the database"
   out="$(npx wrangler d1 create newsfeed 2>&1)"
