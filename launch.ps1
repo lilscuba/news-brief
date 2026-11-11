@@ -88,7 +88,7 @@ $steps = @(
     @{ id = "repo"; modes = "personal,app"; minutes = "3"
        name = "Put the project on GitHub + phone alerts"
        what = "Creates your repo, uploads the project, turns on the web page, and sets up ntfy phone alerts."
-       need = "The ntfy app on your iPhone (App Store, no account). Optional: Gemini key, Gmail app password." },
+       need = "The ntfy app on your iPhone (App Store, no account). Optional: Gemini key." },
     @{ id = "bundle"; modes = "app"; minutes = "1"
        name = "Choose the app's ID"
        what = "Picks the app's unique id (like com.you.brief) and fills it into every config file."
@@ -201,8 +201,7 @@ function Step-Repo {
     Title "Project on GitHub"
     Say "   This runs setup.ps1: creates your repo, uploads the project, and sets up phone alerts."
     Say "   It will ask for a repo name and some optional keys. Press Enter to skip any key you don't have."
-    Say "   (Optional, free: Gemini key https://aistudio.google.com/apikey,"
-    Say "    Gmail app password https://myaccount.google.com/apppasswords. Both use your Google account.)"
+    Say "   (Optional, free: Gemini key https://aistudio.google.com/apikey, with your Google account.)"
     & (Join-Path $PSScriptRoot "setup.ps1")
     $repo = (gh repo view --json nameWithOwner --jq .nameWithOwner 2>$null)
     if ($LASTEXITCODE -ne 0 -or -not $repo) { Say "   The repo isn't set up yet; fix the error above and run launch.ps1 again." "Yellow"; return $false }
@@ -326,7 +325,7 @@ if ($Status) { Show-Checklist; exit 0 }
 
 if (-not (Get-Val "mode")) {
     Title "Welcome"
-    Say "  1) Just me: daily brief web page + email + phone alerts (no app, no Apple steps)"
+    Say "  1) Just me: daily brief web page + phone alerts (no app, no Apple steps)"
     Say "  2) The app for anyone: sign in with Apple, your own feed, push (also does 1)"
     $choice = Read-Host "Which one? [2]"
     Set-Val "mode" $(if ($choice -eq "1") { "personal" } else { "app" })

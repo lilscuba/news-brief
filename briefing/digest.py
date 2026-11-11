@@ -323,12 +323,3 @@ def notify(brief: dict) -> None:
     if deliver.push_channels():
         deliver.push("Your brief is ready", f"{brief['headline']}\n\nTop: {top}",
                      url=page, priority=2, tags="newspaper")
-    if deliver.email_configured():
-        # Archive links only work as absolute URLs in a mail client, so they need PAGES_URL.
-        # "View in browser" opens this day's page: the home page moves on to tomorrow's brief.
-        site = page.rstrip("/") + "/" if page else None
-        day_page = site and f"{site}archive/{brief['date']}.html"
-        deliver.send_email(f"Daily brief: {brief['date']}",
-                           render.brief_html(brief, archive_link=site and site + "archive/",
-                                             email=True, web_url=day_page),
-                           render.brief_text(brief, web_url=day_page))

@@ -1,4 +1,4 @@
-"""Render a brief as a self-contained mobile web page (GitHub Pages), an email, or plain text."""
+"""Render a brief as a self-contained mobile web page (GitHub Pages)."""
 from __future__ import annotations
 
 import re
@@ -8,8 +8,7 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from .normalize import is_web_url
 
-# Colors are tokens: the page swaps them for dark mode, and the email gets the light values written
-# into every rule, because Gmail drops CSS variables (and with them every color and background).
+# Colors are tokens, so the page can swap them for dark mode.
 LIGHT = {"bg": "#f7f6f3", "card": "#fff", "ink": "#1c1b19", "muted": "#6b6862", "line": "#e6e3dc",
          "accent": "#c2410c", "chip": "#f1efe9", "top": "#fff7ed", "confirmed": "#15803d",
          "credible": "#b45309", "unverified": "#b91c1c", "deal": "#7c3aed"}
@@ -25,7 +24,7 @@ main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
 a{color:var(--ink)}
 header h1{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 header p.lede{font-size:22px;line-height:1.3;font-weight:650;margin:0 0 8px}
-.updated{font-size:13px;color:var(--muted);margin:0}.view{font-size:13px;margin:0 0 12px}
+.updated{font-size:13px;color:var(--muted);margin:0}
 time{white-space:nowrap}
 .note{background:var(--top);border:1px solid var(--line);padding:8px 12px;border-radius:8px;
 font-size:14px;margin:12px 0}
@@ -53,7 +52,6 @@ details{margin-top:6px}summary{font-size:13px;color:var(--muted);cursor:pointer}
 details.rest>summary{font-size:14px;color:var(--ink);background:var(--chip);padding:8px 12px;
 border-radius:8px}details.rest[open]>summary{margin-bottom:10px}
 ul.more{margin:6px 0 0;padding-left:18px;font-size:14px}ul.more li{margin:4px 0}
-.also{font-size:13px;color:var(--muted);margin:6px 0 0}
 footer{margin-top:40px;font-size:13px;color:var(--muted)}footer a{color:var(--muted)}
 footer p{margin:0 0 6px}
 .empty{color:var(--muted);font-style:italic}
@@ -65,12 +63,9 @@ border-radius:4px;border:1px solid currentColor;margin-right:4px}
 ul.arch{list-style:none;padding:0}ul.arch li{padding:10px 0;border-bottom:1px solid var(--line)}
 ul.arch a{font-weight:600;text-decoration:none}
 """
-# Gmail's support for flex gaps is patchy; plain inline chips wrap the same way.
-EMAIL_CSS = ".src{display:block}.src a{display:inline-block;margin:0 4px 6px 0}"
-
 # After this long the brief on the home page is yesterday's: say so, and keep absolute times.
 STALE_HOURS = 26
-# Web page only, never the email. Times read "3h ago" while the brief is current; an old brief on
+# Times read "3h ago" while the brief is current; an old brief on
 # the home page shows its banner. It updates every minute and when a home-screen app comes back
 # (timers pause in the background). Without JavaScript the absolute times stay.
 SCRIPT = """(function(){
@@ -88,8 +83,7 @@ tick();setInterval(tick,6e4);document.addEventListener("visibilitychange",tick)}
 
 MAX_CHIPS = 4
 # Plain-list briefs run to 150 stories in a section. The page shows each section's best (they're
-# ranked) and keeps the rest one tap away; the email stops there and links the page, because
-# Gmail cuts messages off after about 100 KB.
+# ranked) and keeps the rest one tap away.
 SECTION_PREVIEW = 10
 # REPORTED is nearly every story, so it gets no badge; these are the ones worth a glance.
 LABEL_NAMES = {"CONFIRMED": "Confirmed", "RUMOR-CREDIBLE": "Credible rumor",
@@ -97,21 +91,19 @@ LABEL_NAMES = {"CONFIRMED": "Confirmed", "RUMOR-CREDIBLE": "Credible rumor",
 DEALS_SECTION = "Deals"
 
 
-def _css(email: bool) -> str:
-    if email:
-        return re.sub(r"var\(--([\w-]+)\)", lambda m: LIGHT[m[1]], CSS) + EMAIL_CSS
+def _css() -> str:
     tokens = lambda t: ";".join(f"--{k}:{v}" for k, v in t.items())  # noqa: E731
     return (f":root{{{tokens(LIGHT)}}}@media (prefers-color-scheme:dark){{:root{{{tokens(DARK)}}}}}"
             + CSS)
 
 
-def _page(title: str, body: str, *, email: bool = False, script: bool = False) -> str:
+def _page(title: str, body: str, *, script: bool = False) -> str:
     js = f'<script id="relative-times">{SCRIPT}</script>' if script else ""
     return (
         "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
         "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
-        f"<meta name=\"color-scheme\" content=\"{'light' if email else 'light dark'}\">"
-        f"<title>{escape(title)}</title><style>{_css(email)}</style></head>"
+        "<meta name=\"color-scheme\" content=\"light dark\">"
+        f"<title>{escape(title)}</title><style>{_css()}</style></head>"
         f"<body><main>{body}</main>{js}</body></html>"
     )
 
@@ -185,14 +177,13 @@ def _href(url: str) -> str:
     return escape(url) if is_web_url(url) else "#"
 
 
-def _chip(src: dict, email: bool) -> str:
+def _chip(src: dict) -> str:
     cls = ' class="off"' if src.get("official") else ""
     title = src["title"]
     if src.get("translated_from"):
         title = f'{title} (translated from {src["translated_from"]}: {src.get("original_title", "")})'
-    # A tooltip with the outlet's headline; mail has no hover, and every byte counts there.
-    tip = "" if email else f' title="{escape(title)}"'
-    return f'<a{cls} href="{_href(src["url"])}"{tip}>{_outlet(src)}</a>'
+    # A tooltip with the outlet's headline.
+    return f'<a{cls} href="{_href(src["url"])}" title="{escape(title)}">{_outlet(src)}</a>'
 
 
 def _more_rows(sources: list[dict]) -> list[tuple[dict, dict]]:
@@ -205,16 +196,9 @@ def _more_rows(sources: list[dict]) -> list[tuple[dict, dict]]:
     return rows
 
 
-def _coverage(sources: list[dict], email: bool) -> str:
-    chips = "".join(_chip(x, email) for x in sources[:MAX_CHIPS])
+def _coverage(sources: list[dict]) -> str:
+    chips = "".join(_chip(x) for x in sources[:MAX_CHIPS])
     html = f'<div class="src">{chips}</div>' if chips else ""
-    if email:
-        # No <details> in mail clients: link the outlets that didn't get a chip in one line.
-        hidden = sources[MAX_CHIPS:]
-        if hidden:
-            links = ", ".join(f'<a href="{_href(x["url"])}">{_outlet(x)}</a>' for x in hidden)
-            html += f'<p class="also">Also: {links}</p>'
-        return html
     if rows := _more_rows(sources):
         items = "".join(
             f'<li><a href="{_href(a["url"])}">{escape(a["title"])}</a> · '
@@ -225,7 +209,7 @@ def _coverage(sources: list[dict], email: bool) -> str:
     return html
 
 
-def _story(s: dict, times: _Times, *, section: str | None, email: bool) -> str:
+def _story(s: dict, times: _Times, *, section: str | None) -> str:
     """One story card. `section` is None for Top stories, which name their topic."""
     imp = s["importance"]
     tags = []
@@ -251,18 +235,15 @@ def _story(s: dict, times: _Times, *, section: str | None, email: bool) -> str:
     summary = f'<p>{escape(s["summary"])}</p>' if s.get("summary") else ""
     return (
         f'<article id="{escape(s["id"])}"><div class="meta">{"".join(tags)}{" · ".join(meta)}</div>'
-        f'<h3>{title}</h3>{summary}{_coverage(sources, email)}</article>'
+        f'<h3>{title}</h3>{summary}{_coverage(sources)}</article>'
     )
 
 
-def _problems(feed_health: list[dict], email: bool) -> str:
+def _problems(feed_health: list[dict]) -> str:
     """Feeds that are failing or quiet, by name; the raw error stays in a tooltip."""
     def why(f: dict) -> str:
         return "not responding" if f.get("status") == "error" else f.get("detail") or "no new items"
 
-    if email:
-        names = ", ".join(f'{escape(f["title"])} ({escape(why(f))})' for f in feed_health)
-        return f"<p>Sources with problems: {names}.</p>"
     rows = "".join(f'<li title="{escape((f.get("detail") or "")[:300])}">{escape(f["title"])}: '
                    f'{escape(why(f))}</li>' for f in feed_health)
     n = len(feed_health)
@@ -271,23 +252,18 @@ def _problems(feed_health: list[dict], email: bool) -> str:
 
 
 def brief_html(brief: dict, archive_link: str | None = "archive/", *, prev_date: str | None = None,
-               next_date: str | None = None, latest_link: str | None = None, latest: bool = False,
-               email: bool = False, web_url: str | None = None) -> str:
+               next_date: str | None = None, latest_link: str | None = None, latest: bool = False) -> str:
     """The brief as a page.
 
     archive_link: where the archive lives from this page ("archive/" on the home page, "./" on a
       day page); day pages are `archive_link + date + ".html"`. None leaves out every archive link.
     prev_date / next_date / latest_link: the neighbouring days and the home page, for day pages.
     latest: this is the home page, which warns when it's still showing an old brief.
-    email: the version for mail clients: light colors written out, no script, no section links,
-      no <details>, and a "View in browser" link to `web_url` when there is one.
     """
     times = _Times(brief)
     parts = []
-    if email and web_url:
-        parts.append(f'<p class="view"><a href="{escape(web_url)}">View in browser</a></p>')
     updated = []
-    if stamp := times.time(brief.get("generated_at"), zone=True, id=None if email else "updated"):
+    if stamp := times.time(brief.get("generated_at"), zone=True, id="updated"):
         updated.append(f"Updated {stamp}")
     if hours := brief.get("window_hours"):
         updated.append(f"covers the last {hours} hours")
@@ -296,13 +272,13 @@ def brief_html(brief: dict, archive_link: str | None = "archive/", *, prev_date:
         f'<p class="lede">{escape(brief["headline"])}</p>'
         + (f'<p class="updated">{" · ".join(updated)}</p>' if updated else "") + "</header>"
     )
-    if latest and not email:
+    if latest:
         day = escape(_pretty_date(brief["date"], year=False))
         parts.append(f'<p class="note" id="stale" hidden>This brief is from {day}. '
                      "Today's isn't out yet.</p>")
 
     days = []
-    if archive_link is not None and not email:
+    if archive_link is not None:
         if prev_date:
             days.append(f'<a href="{escape(archive_link)}{escape(prev_date)}.html" rel="prev">'
                         f'← {escape(_short_date(prev_date))}</a>')
@@ -318,28 +294,21 @@ def brief_html(brief: dict, archive_link: str | None = "archive/", *, prev_date:
 
     taken = {"top", "updated", "stale"}
     sections = [(sec, _slug(sec["name"], taken)) for sec in brief["sections"]]
-    if not email:
-        anchors = (['<a href="#top">Top stories</a>'] if brief["top"] else []) + [
-            f'<a href="#{slug}">{escape(sec["name"])} ({len(sec["stories"])})</a>'
-            for sec, slug in sections]
-        parts.append(f'<nav class="sections" aria-label="Sections">{"".join(anchors)}</nav>')
+    anchors = (['<a href="#top">Top stories</a>'] if brief["top"] else []) + [
+        f'<a href="#{slug}">{escape(sec["name"])} ({len(sec["stories"])})</a>'
+        for sec, slug in sections]
+    parts.append(f'<nav class="sections" aria-label="Sections">{"".join(anchors)}</nav>')
     if brief["top"]:
         parts.append('<section class="top"><h2 id="top">Top stories</h2>'
-                     + "".join(_story(s, times, section=None, email=email) for s in brief["top"])
+                     + "".join(_story(s, times, section=None) for s in brief["top"])
                      + "</section>")
     for sec, slug in sections:
         name = escape(sec["name"])
-        cards = [_story(s, times, section=sec["name"], email=email) for s in sec["stories"]]
+        cards = [_story(s, times, section=sec["name"]) for s in sec["stories"]]
         body = "".join(cards[:SECTION_PREVIEW]) or '<p class="empty">Quiet day.</p>'
         if len(cards) > SECTION_PREVIEW:
-            if not email:
-                body += (f'<details class="rest"><summary>Show {len(cards) - SECTION_PREVIEW} more '
-                         f'in {name}</summary>{"".join(cards[SECTION_PREVIEW:])}</details>')
-            elif web_url:
-                body += (f'<p class="also"><a href="{escape(web_url)}#{slug}">See all {len(cards)} '
-                         f'{name} stories</a></p>')
-            else:  # nowhere to link to: the email carries them all
-                body += "".join(cards[SECTION_PREVIEW:])
+            body += (f'<details class="rest"><summary>Show {len(cards) - SECTION_PREVIEW} more '
+                     f'in {name}</summary>{"".join(cards[SECTION_PREVIEW:])}</details>')
         parts.append(f'<section><h2 id="{slug}">{name}</h2>{body}</section>')
 
     st = brief["stats"]
@@ -355,10 +324,9 @@ def brief_html(brief: dict, archive_link: str | None = "archive/", *, prev_date:
         footer.append(" · ".join(links))
     html = "".join(f"<p>{line}</p>" for line in footer)
     if brief.get("feed_health"):
-        html += _problems(brief["feed_health"], email)
+        html += _problems(brief["feed_health"])
     parts.append(f"<footer>{html}</footer>")
-    return _page(f"Brief · {_short_date(brief['date'])}", "".join(parts), email=email,
-                 script=not email)
+    return _page(f"Brief · {_short_date(brief['date'])}", "".join(parts), script=True)
 
 
 def archive_html(index: list[dict]) -> str:
@@ -372,30 +340,3 @@ def archive_html(index: list[dict]) -> str:
                                 f'<ul class="arch">{"".join(row(e) for e in index)}</ul>'
                                 '<footer><a href="../">Latest brief</a></footer>')
 
-
-def brief_text(brief: dict, web_url: str | None = None) -> str:
-    """The plain-text part of the email."""
-    lines = [_pretty_date(brief["date"]), brief["headline"]]
-    if web_url:
-        lines.append(f"View in browser: {web_url}")
-    lines.append("")
-
-    def add(title: str, stories: list[dict]) -> None:
-        if not stories:
-            return
-        lines.append(title.upper())
-        for s in stories:
-            tags = [LABEL_NAMES[s["label"]]] if s.get("label") in LABEL_NAMES else []
-            if s.get("opinion"):
-                tags.append("Opinion")
-            prefix = "".join(f"[{t}] " for t in tags)
-            summary = f": {s['summary']}" if s.get("summary") else ""
-            lines.append(f"- {prefix}{s['title']}{summary}")
-            if s.get("sources"):
-                lines.append(f"  {s['sources'][0]['url']}")
-        lines.append("")
-
-    add("Top stories", brief["top"])
-    for sec in brief["sections"]:
-        add(sec["name"], sec["stories"])
-    return "\n".join(lines)

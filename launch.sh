@@ -84,7 +84,7 @@ step_need() {
   case "$1" in
     tools)      echo "Your Mac password (for Homebrew) and Xcode installed.";;
     github)     echo "Nothing if you're signed in; otherwise your Apple ID.";;
-    repo)       echo "The ntfy app on your iPhone. Optional: Gemini key, Gmail app password.";;
+    repo)       echo "The ntfy app on your iPhone. Optional: Gemini key.";;
     team)       echo "Xcode signed in to your Apple ID (Xcode > Settings > Accounts).";;
     bundle)     echo "Nothing; a suggestion is offered.";;
     cloudflare) echo "Nothing new: sign up with 'Continue with GitHub'.";;

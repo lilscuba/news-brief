@@ -1,9 +1,7 @@
-"""Push (ntfy and/or Pushover) and email delivery. Each channel is enabled by its secrets."""
+"""Push delivery (ntfy and/or Pushover). Each channel is enabled by its secrets."""
 from __future__ import annotations
 
 import logging
-import smtplib
-from email.message import EmailMessage
 
 import requests
 
@@ -56,46 +54,3 @@ def push(title: str, message: str, url: str | None = None, priority: int = 3,
             log.error("Pushover push failed: %s", exc)
     return ok
 
-
-def smtp_settings() -> dict | None:
-    """Gmail shortcut (GMAIL_ADDRESS + GMAIL_APP_PASSWORD, mails yourself) or generic SMTP_*."""
-    if (address := env("GMAIL_ADDRESS")) and (password := env("GMAIL_APP_PASSWORD")):
-        return {"host": "smtp.gmail.com", "port": 587, "user": address,
-                # App passwords are shown as "abcd efgh ijkl mnop"; Gmail wants no spaces.
-                "password": password.replace(" ", ""),
-                "to": env("EMAIL_TO") or address, "from": address}
-    if all(env(k) for k in ("SMTP_HOST", "SMTP_USER", "SMTP_PASSWORD", "EMAIL_TO")):
-        return {"host": env("SMTP_HOST"), "port": int(env("SMTP_PORT") or 587),
-                "user": env("SMTP_USER"), "password": env("SMTP_PASSWORD"),
-                "to": env("EMAIL_TO"), "from": env("EMAIL_FROM") or env("SMTP_USER")}
-    return None
-
-
-def email_configured() -> bool:
-    return smtp_settings() is not None
-
-
-def send_email(subject: str, html_body: str, text_body: str) -> bool:
-    s = smtp_settings()
-    if not s:
-        return False
-    msg = EmailMessage()
-    msg["Subject"] = subject
-    msg["From"] = s["from"]
-    msg["To"] = s["to"]
-    msg.set_content(text_body)
-    msg.add_alternative(html_body, subtype="html")
-    try:
-        if s["port"] == 465:
-            server = smtplib.SMTP_SSL(s["host"], s["port"], timeout=30)
-        else:
-            server = smtplib.SMTP(s["host"], s["port"], timeout=30)
-            server.starttls()
-        with server:
-            server.login(s["user"], s["password"])
-            refused = server.send_message(msg)  # {} unless some recipients were refused
-        log.info("email sent (%d recipient(s) refused)", len(refused))
-        return True
-    except (smtplib.SMTPException, OSError) as exc:
-        log.error("email failed: %s", exc)
-        return False

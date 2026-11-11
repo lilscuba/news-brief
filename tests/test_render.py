@@ -79,7 +79,6 @@ def test_relative_times_and_the_old_brief_banner_are_web_only():
     assert '<p class="note" id="stale" hidden>This brief is from Sunday, October 4.' in home
     day_page = render.brief_html(brief(), archive_link="./", latest_link="../")
     assert 'id="stale"' not in day_page  # an archived day is old on purpose
-    assert "<script" not in render.brief_html(brief(), email=True)
 
 
 def test_headline_opens_the_primary_article():
@@ -97,8 +96,6 @@ def test_only_notable_labels_get_a_badge_and_opinion_gets_a_tag():
     assert '<span class="lbl lbl-opinion">Opinion</span>' in html
     # A deal among the top stories says so; inside Deals the heading already does.
     assert html.count('<span class="lbl lbl-DEAL">Deal</span>') == 1
-    assert "[Opinion]" in render.brief_text(brief(top=top))
-    assert "[REPORTED]" not in render.brief_text(brief(top=top))
 
 
 def test_section_nav_is_a_labelled_sticky_strip():
@@ -289,7 +286,6 @@ def test_everything_from_the_feeds_is_escaped(field):
                                  "data:text/html,<b>x</b>", "/relative/path"])
 def test_only_web_links_are_clickable(url):
     src = {"outlet": "Verge", "title": "Deck", "url": url, "official": False}
-    for html in (render.brief_html(brief(top=[story(sources=[src])])),
-                 render.brief_html(brief(top=[story(sources=[src])]), email=True)):
-        assert "javascript:" not in html.lower() and "data:text" not in html
-        assert 'href="/relative' not in html
+    html = render.brief_html(brief(top=[story(sources=[src])]))
+    assert "javascript:" not in html.lower() and "data:text" not in html
+    assert 'href="/relative' not in html

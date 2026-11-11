@@ -7,7 +7,7 @@ A gaming / tech / AI news feed built to replace scrolling Reddit. It runs in two
   everyone: GitHub Actions for ingest, a Cloudflare Worker for accounts that also starts the
   ingest every 10 minutes. To deploy and ship it, follow **[server/README.md](server/README.md)**,
   including [Keeping the feed fresh](server/README.md#keeping-the-feed-fresh).
-- **Just for you**, with no app or accounts: a daily brief web page plus email and ntfy alerts
+- **Just for you**, with no app or accounts: a daily brief web page plus ntfy alerts
   from your own GitHub repo, described below.
 
 Both modes use the same pipeline in `briefing/`.
@@ -67,7 +67,7 @@ so there are no new passwords:
 | Apple ID | you already have it (the one with your developer membership) |
 | GitHub | **Continue with Apple** |
 | Cloudflare (app mode) | **Continue with GitHub** |
-| Google (optional: Gemini key, Gmail) | your existing Gmail |
+| Google (optional: Gemini key) | your existing Google account |
 | ntfy | no account; just install the app |
 
 It also fills in the config files for you (app id, Apple Team ID, server URL), finds your
@@ -83,7 +83,7 @@ It runs free on GitHub and has three parts:
    headlines matching your mute words, clusters the same story across outlets, ranks stories
    (coverage, official sources, Hacker News points, your keyword boosts) and gives each one a
    reliability label. The result is published to GitHub Pages as `brief.json` and a mobile web
-   page, and a "your brief is ready" push and email go out.
+   page, and a "your brief is ready" push goes out.
 
    **AI summaries are off for now.** The brief lists every new article under AI / Tech / Gaming
    / World / Europe / Japan / Korea / Deals with its original headline and the feed's snippet, with the 5 highest-ranked stories
@@ -99,7 +99,7 @@ It runs free on GitHub and has three parts:
 feeds.opml ──► fetch (RSS + Bluesky API) ──► mute ──► cluster (URL + headline) ──► rank + label
                                                                                       │
              docs/brief.json ◄── attach real links ◄── [optional] Gemini / Claude ◄──┘
-             docs/index.html, docs/archive/ ──► GitHub Pages ──► iPhone app / browser / email
+             docs/index.html, docs/archive/ ──► GitHub Pages ──► iPhone app / browser
 ```
 
 ## Setup (about 10 minutes)
@@ -113,8 +113,6 @@ These need CAPTCHAs, phone or email verification and passwords, so you do them y
 | GitHub account | https://github.com/signup | everything |
 | ntfy app on iPhone | App Store, search "ntfy" (no account) | push alerts |
 | Gemini API key | https://aistudio.google.com/apikey → Create API key | AI summaries (optional, free tier) |
-| Google 2-Step Verification | https://myaccount.google.com/signinoptions/twosv | Gmail app password |
-| Gmail app password | https://myaccount.google.com/apppasswords → name it `news-brief` | emailing the brief (optional) |
 | NetNewsWire | App Store (no account) | browsing every source yourself (optional) |
 
 ### 2. Run the setup script
@@ -131,8 +129,8 @@ chmod +x setup.sh && ./setup.sh
 The script:
 - installs the GitHub CLI if needed and logs you in through the browser
 - creates a **public** repo (default name `news-brief`) and pushes this folder to it
-- asks for your Gemini key, Gmail address and app password. Input is hidden, any of them can be
-  skipped, and each is stored as an encrypted GitHub secret
+- asks for your Gemini key. Input is hidden, it can be skipped, and it's stored as an encrypted
+  GitHub secret
 - generates a private ntfy topic
 - turns on GitHub Pages, starts the first brief and sends a test push
 
@@ -194,7 +192,7 @@ Notes on the sources:
   one- or two-sentence Gemini summary written from their outlets' headlines and snippets
   (`[story_summaries]` in `config.toml`; a new top-10 story is summarized right away, a summary
   is redone when the story's coverage grows, and the app labels it). Nothing is scraped; article pages are never fetched. Separately, setting the
-  `SUMMARIZE` repo variable to `true` makes Gemini write the daily brief page and email.
+  `SUMMARIZE` repo variable to `true` makes Gemini write the daily brief page.
 - **Pictures.** The app shows every followed topic as one mixed feed of cards (filter to one
   topic with the chips at the top). Each card's picture is the one the outlet's feed already
   publishes with the article (`media:content`, `media:thumbnail`, an image enclosure or the
@@ -280,10 +278,9 @@ Each watchlist rule cools down for 12 hours after firing, there are at most 5 al
 | `SUMMARIZE` (variable) | `true` turns on AI summaries |
 | `AI_PROVIDER`, `GEMINI_MODEL`, `CLAUDE_MODEL` (variables) | override `config.toml` |
 | `GEMINI_API_KEY` / `ANTHROPIC_API_KEY` (secrets) | AI provider keys |
-| `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD` (secrets) | email the brief to yourself |
 | `NTFY_TOPIC` (secret) | push alerts; unguessable, because anyone with the name can read them |
 | `PAGES_URL` (variable) | the brief URL that tapping a push opens |
-| `PUSHOVER_TOKEN`, `PUSHOVER_USER`, `SMTP_*`, `NTFY_SERVER`, `NTFY_TOKEN` | alternatives |
+| `PUSHOVER_TOKEN`, `PUSHOVER_USER`, `NTFY_SERVER`, `NTFY_TOKEN` | alternatives |
 
 ## Running locally
 
@@ -311,9 +308,7 @@ python -m pytest -q
 
 `python -m briefing digest` writes the real thing into `docs/` (open `docs/index.html`). The page
 shows when it was updated and how old each story is, and warns when it's still yesterday's brief.
-The email is a version for mail clients: plain colors and no scripts. With `PAGES_URL` set it adds
-a "View in browser" link and keeps each section to its top 10 with a link to the rest, so Gmail
-doesn't cut it off.
+The brief isn't emailed: the app and the push notification replace it.
 
 ## Health checks
 The brief's footer (and the app's) lists any source that's erroring or hasn't produced anything
@@ -335,8 +330,8 @@ briefing/             Python pipeline
   summarize.py        Gemini or Claude (structured output) + plain-list brief
   digest.py           daily brief orchestration, publishing, archive
   alerts.py           four-tier breaking-news alerts
-  render.py           HTML page / email / plain text
-  deliver.py          ntfy, Pushover, Gmail / SMTP
+  render.py           HTML page
+  deliver.py          ntfy, Pushover
   state.py            seen items, feed health
 tests/                pytest suite
 ios/                  SwiftUI app (XcodeGen project.yml)

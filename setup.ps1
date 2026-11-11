@@ -5,8 +5,6 @@
 #   - a GitHub account                      https://github.com/signup
 #   - the ntfy app on your iPhone           (App Store, no account needed)
 #   - optional: Gemini API key              https://aistudio.google.com/apikey
-#   - optional: Gmail app password          https://myaccount.google.com/apppasswords
-#                                           (needs 2-Step Verification turned on first)
 #
 # Run from this folder:   powershell -ExecutionPolicy Bypass -File .\setup.ps1
 # Safe to re-run: existing repo, Pages site and secrets are reused or updated.
@@ -92,15 +90,6 @@ Step "Secrets (input is hidden; press Enter to skip any)"
 $gemini = ReadSecret "Gemini API key"
 if ($gemini) { gh secret set GEMINI_API_KEY --repo $full --body $gemini; Check "gh secret set GEMINI_API_KEY" }
 
-$gmail = Read-Host "Gmail address (to email yourself the brief)"
-if ($gmail) {
-    $gmailPw = (ReadSecret "Gmail app password (16 chars, spaces OK)") -replace " ", ""
-    if ($gmailPw) {
-        gh secret set GMAIL_ADDRESS --repo $full --body $gmail; Check "gh secret set"
-        gh secret set GMAIL_APP_PASSWORD --repo $full --body $gmailPw; Check "gh secret set"
-    }
-}
-
 $topic = Read-Host "Existing ntfy topic (Enter to generate a new private one)"
 if (-not $topic) {
     $bytes = New-Object byte[] 8
@@ -117,7 +106,7 @@ if ($gemini) {
 $pagesUrl = "https://$($ghUser.ToLower()).github.io/$repo/"
 gh variable set SUMMARIZE --repo $full --body $summarize; Check "gh variable set"
 gh variable set PAGES_URL --repo $full --body $pagesUrl; Check "gh variable set"
-Remove-Variable gemini, gmailPw -ErrorAction SilentlyContinue
+Remove-Variable gemini -ErrorAction SilentlyContinue
 
 Step "Turning on GitHub Pages (deployed by the workflow)"
 gh api "repos/$full/pages" *> $null

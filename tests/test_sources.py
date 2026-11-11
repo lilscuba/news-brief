@@ -1,9 +1,9 @@
-"""Bluesky source, reliability labels, deals routing, alert tiers, Gemini schema, Gmail config."""
+"""Bluesky source, reliability labels, deals routing, alert tiers, Gemini schema."""
 import json
 
 import pytest
 
-from briefing import alerts, bluesky, deliver
+from briefing import alerts, bluesky
 from briefing.dedupe import cluster_items
 from briefing.digest import assemble
 from briefing.labels import is_opinion, is_opinion_story, label_cluster
@@ -204,13 +204,3 @@ def test_gemini_schema_is_inlined_and_valid():
     assert set(story["required"]) <= set(story["properties"]) and "title" in story["properties"]
 
 
-def test_gmail_settings(monkeypatch):
-    for k in ("SMTP_HOST", "SMTP_USER", "SMTP_PASSWORD", "EMAIL_TO"):
-        monkeypatch.delenv(k, raising=False)
-    monkeypatch.setenv("GMAIL_ADDRESS", "me@gmail.com")
-    monkeypatch.setenv("GMAIL_APP_PASSWORD", "abcd efgh ijkl mnop")
-    s = deliver.smtp_settings()
-    assert s["host"] == "smtp.gmail.com" and s["password"] == "abcdefghijklmnop"
-    assert s["to"] == "me@gmail.com"
-    monkeypatch.delenv("GMAIL_APP_PASSWORD")
-    assert deliver.smtp_settings() is None

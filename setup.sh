@@ -6,8 +6,6 @@
 #   - a GitHub account                      https://github.com/signup
 #   - the ntfy app on your iPhone           (App Store, no account needed)
 #   - optional: Gemini API key              https://aistudio.google.com/apikey
-#   - optional: Gmail app password          https://myaccount.google.com/apppasswords
-#                                           (needs 2-Step Verification turned on first)
 #
 # Run from this folder:   chmod +x setup.sh && ./setup.sh
 # Safe to re-run: existing repo, Pages site and secrets are reused or updated.
@@ -65,16 +63,6 @@ step "Secrets (input is hidden; press Enter to skip any)"
 read -rsp "Gemini API key: " GEMINI_API_KEY; echo
 [ -n "$GEMINI_API_KEY" ] && gh secret set GEMINI_API_KEY -R "$FULL" -b "$GEMINI_API_KEY"
 
-read -rp "Gmail address (to email yourself the brief): " GMAIL_ADDRESS
-if [ -n "$GMAIL_ADDRESS" ]; then
-  read -rsp "Gmail app password (16 chars, spaces OK): " GMAIL_APP_PASSWORD; echo
-  GMAIL_APP_PASSWORD=${GMAIL_APP_PASSWORD// /}
-  if [ -n "$GMAIL_APP_PASSWORD" ]; then
-    gh secret set GMAIL_ADDRESS -R "$FULL" -b "$GMAIL_ADDRESS"
-    gh secret set GMAIL_APP_PASSWORD -R "$FULL" -b "$GMAIL_APP_PASSWORD"
-  fi
-fi
-
 read -rp "Existing ntfy topic (Enter to generate a new private one): " NTFY_TOPIC
 NTFY_TOPIC=${NTFY_TOPIC:-news-$(openssl rand -hex 8)}
 gh secret set NTFY_TOPIC -R "$FULL" -b "$NTFY_TOPIC"
@@ -87,7 +75,7 @@ fi
 PAGES_URL="https://$(echo "$GH_USER" | tr '[:upper:]' '[:lower:]').github.io/$REPO/"
 gh variable set SUMMARIZE -R "$FULL" -b "$SUMMARIZE"
 gh variable set PAGES_URL -R "$FULL" -b "$PAGES_URL"
-unset GEMINI_API_KEY GMAIL_APP_PASSWORD
+unset GEMINI_API_KEY
 
 step "Turning on GitHub Pages (deployed by the workflow)"
 if gh api "repos/$FULL/pages" >/dev/null 2>&1; then
