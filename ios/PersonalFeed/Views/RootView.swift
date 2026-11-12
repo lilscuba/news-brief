@@ -102,6 +102,14 @@ struct MainTabs: View {
             // came or went, which is just as an article closes and its story is marked read.
             .animation(.snappy, value: model.swipeTip)
         }
+        // "Saved": the floppy disk, in the middle of the screen, each time a story is saved.
+        .overlay {
+            if let confirmation = model.saveConfirmation {
+                SavedFlash(confirmation: confirmation)
+                    .id(confirmation.id)
+            }
+        }
+        .sensoryFeedback(.success, trigger: model.saveConfirmation) { _, new in new != nil }
         // Every story row reads this instead of watching the setting itself.
         .environment(\.oneMotionSwipes, oneMotionSwipes)
     }

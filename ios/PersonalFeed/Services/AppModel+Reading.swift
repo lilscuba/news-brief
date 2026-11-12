@@ -16,14 +16,18 @@ extension AppModel {
     func setRead(_ stories: [Story], _ read: Bool) {
         let at = now()
         var changed = false
+        var restored = false
         for story in stories {
             if read, readAt[story.id] == nil {
                 readAt[story.id] = at
                 changed = true
-            } else if !read, readAt.removeValue(forKey: story.id) != nil {
-                changed = true
+            } else if !read {
+                if readAt.removeValue(forKey: story.id) != nil { changed = true }
+                // Unread again means back in the lists, even if a swipe had taken it away.
+                if dismissedAt.removeValue(forKey: story.id) != nil { restored = true }
             }
         }
+        if restored { scheduleWrite(.dismissed) }
         guard changed else { return }
         if readAt.count > ReadingState.readCap { readAt = ReadingState.prunedReads(readAt, now: at) }
         scheduleWrite(.read)
@@ -66,6 +70,28 @@ extension AppModel {
     func clearRecent() {
         recent = []
         scheduleWrite(.recent)
+    }
+
+    // MARK: Swiped away
+
+    func isDismissed(_ story: Story) -> Bool { dismissedAt[story.id] != nil }
+
+    /// Ids of every swiped-away story, for lists to leave out.
+    var dismissedIDs: Set<String> { Set(dismissedAt.keys) }
+
+    /// A swipe said "read, or not for me": mark the story read and take it out of the lists now,
+    /// whatever Hide Read Stories says. Not a sign of interest either way, so nothing is learned.
+    func dismiss(_ story: Story) {
+        setRead(story, true)
+        dismissedAt[story.id] = now()
+        scheduleWrite(.dismissed)
+        lastDismissal = Dismissal(story: story)
+    }
+
+    /// Undo of `dismiss`: back in the lists, unread.
+    func undoDismiss(_ story: Story) {
+        setRead(story, false)
+        if lastDismissal?.story.id == story.id { lastDismissal = nil }
     }
 
     // MARK: Interests
@@ -127,6 +153,7 @@ extension AppModel {
             guard !isSaved(story) else { return }
             saved.insert(SavedStory(story: story, savedAt: now()), at: 0)
             learn(from: story, .saved)
+            saveConfirmation = SaveConfirmation()
         } else {
             guard isSaved(story) else { return }
             saved.removeAll { $0.id == story.id }
@@ -161,6 +188,9 @@ extension AppModel {
         interests = InterestProfile()
         interestsVersion += 1
         swipeTip = nil
+        dismissedAt = [:]
+        lastDismissal = nil
+        saveConfirmation = nil
         historyIndex = []
         pastBriefs = [:]
         let store = historyStore
@@ -198,6 +228,7 @@ extension AppModel {
         case .saved: job = Self.write(saved, to: target, after: previous)
         case .recent: job = Self.write(recent, to: target, after: previous)
         case .interests: job = Self.write(interests, to: target, after: previous)
+        case .dismissed: job = Self.write(dismissedAt, to: target, after: previous)
         case .feed: return
         }
         writesInFlight[file] = job

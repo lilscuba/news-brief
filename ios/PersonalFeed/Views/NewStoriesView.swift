@@ -22,7 +22,7 @@ struct NewStoriesView: View {
             if !stories.isEmpty {
                 Section {
                     ForEach(stories) { story in
-                        StoryLink(story: story, showsTopic: true)
+                        StoryLink(story: story, showsTopic: true, dismissesOnRead: true)
                     }
                 }
             }
@@ -61,6 +61,9 @@ struct NewStoriesView: View {
                 since = model.previousVisitAt
             }
         }
+        .onChange(of: model.lastDismissal) { _, dismissal in
+            if let dismissal { toast = Toast.undo(dismissal, model: model) }
+        }
         .toast($toast)
     }
 
@@ -69,6 +72,6 @@ struct NewStoriesView: View {
     private var snapshot: [Story] {
         guard let ids, let brief = model.brief else { return [] }
         let byID = Dictionary(brief.allStories.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
-        return ids.compactMap { byID[$0] }
+        return ids.compactMap { byID[$0] }.filter { !model.isDismissed($0) }
     }
 }

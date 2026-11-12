@@ -19,6 +19,8 @@ enum LocalStore {
         case recent = "recent.json"
         /// What the reader reads most (InterestProfile).
         case interests = "interests.json"
+        /// Stories swiped away (story id → when).
+        case dismissed = "dismissed.json"
     }
 
     // MARK: UserDefaults
@@ -180,6 +182,12 @@ enum ReadingState {
             kept = Dictionary(uniqueKeysWithValues: newest.map { ($0.key, $0.value) })
         }
         return kept
+    }
+
+    /// Swiped-away stories are remembered as long as read marks, so a past brief doesn't bring
+    /// them back.
+    static func prunedDismissals(_ dismissed: [String: Date], now: Date) -> [String: Date] {
+        dismissed.filter { now.timeIntervalSince($0.value) <= readMaxAge }
     }
 
     /// The stories "Hide read stories" may hide now: read at least `hideReadAfter` ago.

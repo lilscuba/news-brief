@@ -240,8 +240,8 @@ struct SettingsView: View {
     /// How swiping works with "Swipe in one motion" on or off, then the tip and the read grace.
     static func swipeFooter(oneMotion: Bool) -> String {
         let how = oneMotion
-            ? "Swipe right on a story to mark it read, left to save it: drag until the phone ticks, then let go."
-            : "Swipe right on a story for Read, left for Save, then tap the button (or keep swiping all the way across)."
+            ? "Swipe a story right to mark it read and take it off the list, left to save it: drag until the phone ticks, or flick, and let go."
+            : "Swipe a story right for Read (it leaves the list), left for Save, then tap the button (or keep swiping all the way across)."
         return how + " After you close an article, a tip says so, at most once every 30 minutes. Stories you've read stay in lists for 10 minutes before Hide Read Stories hides them."
     }
 

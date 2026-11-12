@@ -207,6 +207,9 @@ struct StoryLink: View {
     var trailingSwipe: TrailingSwipe = .save
     /// The past brief this row belongs to; nil for today's (or no particular day).
     var day: String? = nil
+    /// In reading lists (a topic, the new stories), swiping a story read also takes it off the
+    /// list. Elsewhere (search, Saved, a story page) it only marks it.
+    var dismissesOnRead = false
 
     enum TrailingSwipe {
         /// Save or unsave.
@@ -237,7 +240,7 @@ struct StoryLink: View {
         } preview: {
             StoryPreviewCard(story: story)
         }
-        .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model),
+        .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model, dismisses: dismissesOnRead),
                     trailing: trailingSwipe == .save ? SwipeAction.save(story, isSaved: saved, model: model)
                                                      : SwipeAction.removeSaved(story, model: model),
                     rowBackground: Color(uiColor: .secondarySystemGroupedBackground),

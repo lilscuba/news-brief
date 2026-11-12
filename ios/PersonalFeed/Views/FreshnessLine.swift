@@ -143,6 +143,14 @@ struct Toast: Equatable, Identifiable {
         return refreshed(outcome, status: model.feedStatus)
     }
 
+    /// After a swipe took a story away: says so and offers to bring it back, unread.
+    @MainActor
+    static func undo(_ dismissal: Dismissal, model: AppModel) -> Toast {
+        Toast(message: "Marked as read", systemImage: "envelope.open", actionTitle: "Undo") {
+            withAnimation(.snappy) { model.undoDismiss(dismissal.story) }
+        }
+    }
+
     /// What pull-to-refresh found, so "nothing new" doesn't look like nothing happened.
     static func refreshed(_ outcome: RefreshOutcome, status: FeedStatus?) -> Toast {
         switch outcome {

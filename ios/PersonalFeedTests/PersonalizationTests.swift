@@ -275,11 +275,104 @@ final class PersonalizationTests: XCTestCase {
         XCTAssertEqual(SwipeRule.offset(50, canLead: true, canTrail: true), 50)
         XCTAssertEqual(SwipeRule.offset(50, canLead: false, canTrail: true), 0)
         XCTAssertEqual(SwipeRule.offset(-50, canLead: true, canTrail: false), 0)
-        let far = SwipeRule.offset(-400, canLead: true, canTrail: true)
-        XCTAssertLessThan(far, -SwipeRule.threshold)
-        XCTAssertGreaterThan(far, -400, "stiffer past the limit")
+        XCTAssertEqual(SwipeRule.offset(-400, canLead: true, canTrail: true), -400,
+                       "the row stays under the finger all the way")
         XCTAssertTrue(SwipeRule.isSideways(CGSize(width: 30, height: 5)))
         XCTAssertFalse(SwipeRule.isSideways(CGSize(width: 12, height: 20)), "a scroll isn't a swipe")
+    }
+
+    func testAFlickActsEarlyAndAFlickBackCallsTheSwipeOff() {
+        let short = SwipeRule.flickDistance + 2, fast = SwipeRule.flickSpeed + 50
+        XCTAssertNil(SwipeRule.outcome(short), "short of the threshold, let go gently: springs back")
+        XCTAssertEqual(SwipeRule.outcome(short, velocity: fast), .leading, "flicked right")
+        XCTAssertEqual(SwipeRule.outcome(-short, velocity: -fast), .trailing, "flicked left")
+        XCTAssertNil(SwipeRule.outcome(SwipeRule.flickDistance - 5, velocity: fast), "a twitch isn't a swipe")
+        XCTAssertNil(SwipeRule.outcome(short, velocity: -fast), "moving back toward the start")
+        // Past the threshold a lift acts, unless the finger was flicking back.
+        XCTAssertEqual(SwipeRule.outcome(SwipeRule.threshold + 40, velocity: -100), .leading)
+        XCTAssertNil(SwipeRule.outcome(SwipeRule.threshold + 40, velocity: -fast))
+        XCTAssertNil(SwipeRule.outcome(-SwipeRule.threshold - 40, velocity: fast))
+    }
+
+    func testSwipingAStoryAwayRemovesItAtOnceAndUndoBringsItBack() async throws {
+        await readyModel()
+        let brief = try XCTUnwrap(model.brief)
+        let story = try XCTUnwrap(brief.stories.first)
+        func feed() -> FeedContent {
+            FeedContent.make(brief: brief, topic: nil, sort: .hot, hiddenIDs: nil,
+                             dismissed: model.dismissedIDs, isRead: model.isRead)
+        }
+        XCTAssertTrue(feed().stories.contains(story))
+        let before = feed().filters
+
+        let action = SwipeAction.read(story, isRead: false, model: model, dismisses: true)
+        XCTAssertTrue(action.removesRow, "the swipe carries the card off the screen")
+        action.perform()
+        XCTAssertTrue(model.isRead(story))
+        XCTAssertFalse(feed().stories.contains(story), "gone there and then, with Hide Read Stories off")
+        XCTAssertEqual(feed().filters.map(\.count).reduce(0, +), before.map(\.count).reduce(0, +) - 1,
+                       "and out of the topic counts")
+        XCTAssertEqual(model.lastDismissal?.story.id, story.id, "the list offers Undo")
+        XCTAssertTrue(model.interests.isEmpty, "swiping away says nothing about interests")
+
+        model.undoDismiss(story)
+        XCTAssertFalse(model.isRead(story))
+        XCTAssertTrue(feed().stories.contains(story), "back where it was")
+
+        // In a list that isn't a reading queue (search, Saved), the same swipe only marks it.
+        let marking = SwipeAction.read(story, isRead: false, model: model)
+        XCTAssertFalse(marking.removesRow)
+        marking.perform()
+        XCTAssertTrue(model.isRead(story))
+        XCTAssertFalse(model.isDismissed(story))
+        // And on a read story it marks it unread again, never removes it.
+        let unread = SwipeAction.read(story, isRead: true, model: model, dismisses: true)
+        XCTAssertFalse(unread.removesRow)
+        unread.perform()
+        XCTAssertFalse(model.isRead(story))
+    }
+
+    func testAFeedSwipedEmptyIsCaughtUpAndSwipedStoriesAreRemembered() async throws {
+        await readyModel()
+        let brief = try XCTUnwrap(model.brief)
+        for story in brief.stories { model.dismiss(story) }
+        let emptied = FeedContent.make(brief: brief, topic: nil, sort: .hot, hiddenIDs: nil,
+                                       dismissed: model.dismissedIDs, isRead: model.isRead)
+        XCTAssertTrue(emptied.stories.isEmpty)
+        XCTAssertTrue(emptied.allCaughtUp, "not \"nothing new yet\"")
+
+        // Written to disk, so a relaunch doesn't bring them back.
+        await model.flushLocalState()
+        let stored = try XCTUnwrap(LocalStore.load([String: Date].self, .dismissed))
+        XCTAssertEqual(Set(stored.keys), Set(brief.stories.map(\.id)))
+        // Kept as long as read marks, then forgotten.
+        let later = clock.now.addingTimeInterval(ReadingState.readMaxAge + 60)
+        XCTAssertTrue(ReadingState.prunedDismissals(stored, now: later).isEmpty)
+        XCTAssertEqual(ReadingState.prunedDismissals(stored, now: clock.now).count, stored.count)
+    }
+
+    func testSavingAsksForTheSavedAnimationAndUnsavingDoesNot() async throws {
+        await readyModel()
+        let story = try XCTUnwrap(model.brief?.stories.first)
+        XCTAssertNil(model.saveConfirmation)
+        let save = SwipeAction.save(story, isSaved: false, model: model)
+        XCTAssertFalse(save.removesRow, "a saved story stays in the feed")
+        save.perform()
+        XCTAssertTrue(model.isSaved(story))
+        let first = try XCTUnwrap(model.saveConfirmation)
+
+        model.saveConfirmation = nil
+        model.setSaved(story, true)
+        XCTAssertNil(model.saveConfirmation, "already saved: nothing happened, nothing to confirm")
+        model.setSaved(story, false)
+        XCTAssertNil(model.saveConfirmation, "removing from Saved isn't a save")
+        model.setSaved(story, true)
+        XCTAssertNotEqual(model.saveConfirmation, first, "each save plays it again")
+
+        let remove = SwipeAction.removeSaved(story, model: model)
+        XCTAssertTrue(remove.removesRow, "in Saved, the row leaves with the swipe")
+        remove.perform()
+        XCTAssertFalse(model.isSaved(story))
     }
 
     func testOnlyASidewaysDragOnASideWithAnActionBeginsASwipe() {

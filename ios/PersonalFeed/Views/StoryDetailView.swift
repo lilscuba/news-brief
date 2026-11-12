@@ -23,7 +23,8 @@ struct StoryDetailView: View {
         // A story read in the last 10 minutes stays listed, so coming back from it to swipe it into
         // Saved finds it where it was.
         let more = StoryPage.moreInTopic(after: story, in: topicStories,
-                                         excluding: Set(related.map(\.id)), isRead: model.isReadAWhileAgo)
+                                         excluding: Set(related.map(\.id)),
+                                         isRead: { model.isReadAWhileAgo($0) || model.isDismissed($0) })
         List {
             Section {
                 header(coverage)

@@ -50,7 +50,7 @@ struct BriefView: View {
 
     var body: some View {
         let content = FeedContent.make(brief: brief, topic: topic, sort: sort, hiddenIDs: hiddenIDs,
-                                       isRead: model.isRead)
+                                       dismissed: model.dismissedIDs, isRead: model.isRead)
         let topIDs = Set(brief.top.map(\.id))
         let selection = Binding(get: { content.topic }, set: { topic = $0 })
         // Counted once per pass; the section under the feed and the filter menu both use it.
@@ -76,7 +76,7 @@ struct BriefView: View {
                     noTopicsState
                 } else if content.allCaughtUp {
                     ContentUnavailableView("All caught up", systemImage: "checkmark.circle",
-                                           description: Text("You've read everything here. Read stories are hidden 10 minutes after you read them."))
+                                           description: Text("You've read or swiped away everything here."))
                         .listRowSeparator(.hidden)
                 } else if content.stories.isEmpty {
                     ContentUnavailableView("Nothing new yet",
@@ -128,6 +128,9 @@ struct BriefView: View {
         })
         .onAppear { takeReadSnapshot() }
         .onChange(of: hideRead) { takeReadSnapshot() }
+        .onChange(of: model.lastDismissal) { _, dismissal in
+            if let dismissal { toast = Toast.undo(dismissal, model: model) }
+        }
         .toast($toast)
     }
 
@@ -326,17 +329,23 @@ struct FeedContent: Equatable {
     /// The topic in effect: nil for all, and a topic that was since unfollowed (or that a past brief
     /// doesn't have) shows everything.
     let topic: String?
-    /// Hide read is on and everything that would be shown has been read.
+    /// Nothing left to show although there are stories: all read (and hidden) or swiped away.
     let allCaughtUp: Bool
 
+    /// - Parameters:
+    ///   - hiddenIDs: read stories that "Hide read stories" hides; nil when it is off.
+    ///   - dismissed: stories a swipe took away. Left out of the feed and of the topic counts.
     static func make(brief: Brief, topic: String?, sort: StorySort, hiddenIDs: Set<String>?,
-                     isRead: (Story) -> Bool) -> FeedContent {
-        let all = brief.stories
+                     dismissed: Set<String> = [], isRead: (Story) -> Bool) -> FeedContent {
+        let everything = brief.stories
+        let all = dismissed.isEmpty ? everything : everything.filter { !dismissed.contains($0.id) }
         let filters = TopicFilter.counts(in: all, order: brief.sections.map(\.name))
         let selected = topic.flatMap { name in filters.contains { $0.name == name } ? name : nil }
         let inTopic = selected.map { name in all.filter { $0.category == name } } ?? all
         let shown = HideRead.visible(sort.apply(inTopic), hidden: hiddenIDs)
-        let caughtUp = hiddenIDs != nil && shown.isEmpty && !inTopic.isEmpty && inTopic.allSatisfy(isRead)
+        // Counted against every story of the topic, swiped away or not: an emptied feed is caught up.
+        let pool = selected.map { name in everything.filter { $0.category == name } } ?? everything
+        let caughtUp = shown.isEmpty && !pool.isEmpty && pool.allSatisfy(isRead)
         return FeedContent(stories: shown, filters: filters, topic: selected, allCaughtUp: caughtUp)
     }
 }
@@ -365,7 +374,7 @@ private struct FeedRow: View {
             } preview: {
                 StoryPreviewCard(story: story)
             }
-            .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model),
+            .storySwipe(leading: SwipeAction.read(story, isRead: read, model: model, dismisses: true),
                         trailing: SwipeAction.save(story, isSaved: saved, model: model),
                         rowBackground: Color(uiColor: .systemBackground))
             .accessibilityAddTraits(.isButton)

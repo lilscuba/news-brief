@@ -30,7 +30,8 @@ struct TopicPageView: View {
     private var isLoaded: Bool { isLive || model.brief(for: destination.day) != nil || loadFailed }
 
     var body: some View {
-        let all = model.stories(inTopic: current, day: destination.day)
+        // Stories a swipe took away are gone from here too, and from the counts.
+        let all = model.stories(inTopic: current, day: destination.day).filter { !model.isDismissed($0) }
         let hidden = hideRead ? (readSnapshot ?? []) : nil
         let visible = HideRead.visible(sort.apply(all), hidden: hidden)
         let following = model.isFollowing(current)
@@ -107,12 +108,16 @@ struct TopicPageView: View {
         }
         .onAppear { readSnapshot = model.readIDsToHide() }
         .onChange(of: hideRead) { readSnapshot = model.readIDsToHide() }
+        .onChange(of: model.lastDismissal) { _, dismissal in
+            if let dismissal { toast = Toast.undo(dismissal, model: model) }
+        }
         .toast($toast)
     }
 
     private func rows(_ stories: [Story]) -> some View {
         ForEach(stories) { story in
-            StoryLink(story: story, hidesDealLabel: current == "Deals", day: isLive ? nil : destination.day)
+            StoryLink(story: story, hidesDealLabel: current == "Deals", day: isLive ? nil : destination.day,
+                      dismissesOnRead: true)
         }
     }
 

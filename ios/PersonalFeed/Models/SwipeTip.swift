@@ -20,6 +20,17 @@ enum SwipeTip {
     }
 }
 
+/// A story a swipe just took out of the lists, so the list on screen can offer Undo.
+struct Dismissal: Identifiable, Equatable, Sendable {
+    let id = UUID()
+    let story: Story
+}
+
+/// One save. A new value each time, so the floppy-disk confirmation plays again for the next.
+struct SaveConfirmation: Identifiable, Equatable, Sendable {
+    let id = UUID()
+}
+
 /// The tip on screen, for the story whose article was just closed (its "Save It" button).
 struct SwipeTipPrompt: Identifiable, Equatable, Sendable {
     let id = UUID()

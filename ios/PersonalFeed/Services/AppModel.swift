@@ -92,6 +92,13 @@ final class AppModel {
     private(set) var personalizes = true
     /// The "swipe left to save" tip on screen after an article closes (see SwipeTip).
     var swipeTip: SwipeTipPrompt?
+    /// Story id → when a swipe took it away (`dismiss`). Lists leave these out at once, whatever
+    /// Hide Read Stories says.
+    var dismissedAt: [String: Date] = [:]
+    /// The latest swipe-away, so the list on screen can offer Undo.
+    var lastDismissal: Dismissal?
+    /// Set each time a story is saved; the floppy-disk confirmation plays for it (SavedFlash).
+    var saveConfirmation: SaveConfirmation?
 
     // MARK: Navigation (see AppModel+Routing.swift)
 
@@ -260,6 +267,7 @@ final class AppModel {
         let saved: [SavedStory]?
         let recent: [RecentStory]?
         let interests: InterestProfile?
+        let dismissed: [String: Date]?
     }
 
     private func loadLocalState() async {
@@ -276,7 +284,8 @@ final class AppModel {
                           seen: LocalStore.load([String: Date].self, .seen),
                           saved: LocalStore.load([SavedStory].self, .saved),
                           recent: LocalStore.load([RecentStory].self, .recent),
-                          interests: LocalStore.load(InterestProfile.self, .interests))
+                          interests: LocalStore.load(InterestProfile.self, .interests),
+                          dismissed: LocalStore.load([String: Date].self, .dismissed))
         }.value
         let index = await historyStore.loadIndex(now: now())
 
@@ -299,6 +308,10 @@ final class AppModel {
         if let stored = loaded.interests {
             interests = stored
             interestsVersion += 1
+        }
+        if let stored = loaded.dismissed {
+            dismissedAt = ReadingState.prunedDismissals(stored, now: now())
+            if dismissedAt.count != stored.count { scheduleWrite(.dismissed) }
         }
         historyIndex = index
         if let feed { recordFirstSeen(in: feed) }

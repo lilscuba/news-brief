@@ -12,17 +12,30 @@ struct SwipeAction {
     let spokenTitle: String
     let systemImage: String
     let tint: Color
+    /// Running it takes the row out of its list (swiped away as read, removed from Saved). The
+    /// swipe then carries the row off the screen instead of sliding it back.
+    var removesRow = false
     let perform: () -> Void
 }
 
 extension SwipeAction {
-    /// Swipe right: mark read, or unread when it already is. `isRead` words the action; what it
-    /// does is decided when it runs, so an action made before the row last changed still toggles.
+    /// Swipe right: mark read, or unread when it already is. With `dismisses` (the feed and the
+    /// other reading lists), marking read also takes the story off the list there and then.
+    /// `isRead` words the action; what it does is decided when it runs, so an action made before
+    /// the row last changed still does the right thing.
     @MainActor
-    static func read(_ story: Story, isRead: Bool, model: AppModel) -> SwipeAction {
+    static func read(_ story: Story, isRead: Bool, model: AppModel, dismisses: Bool = false) -> SwipeAction {
         SwipeAction(title: isRead ? "Unread" : "Read", spokenTitle: isRead ? "Mark as unread" : "Mark as read",
-                    systemImage: isRead ? "envelope.badge" : "envelope.open", tint: .blue) {
-            model.toggleRead(story)
+                    systemImage: isRead ? "envelope.badge" : "envelope.open", tint: .blue,
+                    removesRow: dismisses && !isRead) {
+            if model.isRead(story) {
+                model.setRead(story, false)
+            } else if dismisses {
+                // Animated, so the rows below close the gap.
+                withAnimation(.snappy) { model.dismiss(story) }
+            } else {
+                model.setRead(story, true)
+            }
         }
     }
 
@@ -38,8 +51,9 @@ extension SwipeAction {
     /// Swipe left in Saved: take it off the list.
     @MainActor
     static func removeSaved(_ story: Story, model: AppModel) -> SwipeAction {
-        SwipeAction(title: "Remove", spokenTitle: "Remove from Saved", systemImage: "bookmark.slash", tint: .red) {
-            model.setSaved(story, false)
+        SwipeAction(title: "Remove", spokenTitle: "Remove from Saved", systemImage: "bookmark.slash", tint: .red,
+                    removesRow: true) {
+            withAnimation(.snappy) { model.setSaved(story, false) }
         }
     }
 }
@@ -78,27 +92,39 @@ enum SwipeRule {
         return canTrail
     }
 
-    /// Where a row dragged by `dx` is drawn: with the finger up to 1.6 times the threshold, then
-    /// stiffer. A side with no action doesn't move.
+    /// A flick at least this fast (points a second) acts short of the threshold, like flicking a
+    /// card away...
+    static let flickSpeed: CGFloat = 650
+    /// ...once the row has moved this far, so a twitch isn't a swipe.
+    static let flickDistance: CGFloat = 28
+
+    /// Where a row dragged by `dx` is drawn: under the finger, all the way. A side with no action
+    /// doesn't move.
     static func offset(_ dx: CGFloat, canLead: Bool, canTrail: Bool) -> CGFloat {
         if (dx > 0 && !canLead) || (dx < 0 && !canTrail) { return 0 }
-        let limit = threshold * 1.6
-        let distance = abs(dx)
-        let shown = distance <= limit ? distance : limit + (distance - limit) * 0.3
-        return dx < 0 ? -shown : shown
+        return dx
     }
 
     /// The action letting go at `offset` performs: leading for a swipe right, trailing for left.
-    static func outcome(_ offset: CGFloat) -> Edge? {
-        if offset >= threshold { return .leading }
-        if offset <= -threshold { return .trailing }
+    /// `velocity` is how fast the finger was moving sideways as it lifted: a flick in the swipe's
+    /// direction acts early, and one back the other way calls the swipe off.
+    static func outcome(_ offset: CGFloat, velocity: CGFloat = 0) -> Edge? {
+        if offset > 0 {
+            if velocity <= -flickSpeed { return nil }
+            if offset >= threshold || (offset >= flickDistance && velocity >= flickSpeed) { return .leading }
+        } else if offset < 0 {
+            if velocity >= flickSpeed { return nil }
+            if offset <= -threshold || (offset <= -flickDistance && velocity <= -flickSpeed) { return .trailing }
+        }
         return nil
     }
 }
 
-/// Swipe a story row to act on it in one motion: right marks it read, left saves it. Past the
-/// threshold the action's colour fills in and the phone ticks; letting go does it, with no button
-/// to tap afterwards. Short of the threshold the row just slides back.
+/// Swipe a story row to act on it in one motion: right marks it read, left saves it. The row
+/// stays under the finger the whole way, like a card. Past the threshold the action's colour
+/// fills in and the phone ticks; letting go (or a flick) does it, with no button to tap
+/// afterwards. An action that takes the row off its list carries it on off the screen and the
+/// rows below close up; any other springs the row back. Short of the threshold it springs back.
 ///
 /// The swipe is a UIKit pan recognizer that refuses to begin unless the finger sets off sideways
 /// (`SwipeRule.begins`), so a vertical drag is never taken from the list: it scrolls exactly as it
@@ -120,6 +146,8 @@ struct StorySwipe: ViewModifier {
 
     @Environment(\.oneMotionSwipes) private var oneMotion
     @State private var offset: CGFloat = 0
+    /// On its way off the screen after a swipe that removes the row; it ignores the finger.
+    @State private var leaving = false
 
     func body(content: Content) -> some View {
         if #available(iOS 18.0, *), oneMotion {
@@ -142,30 +170,58 @@ struct StorySwipe: ViewModifier {
             // The row slides inside its own frame, never over the list's margins.
             .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
             .gesture(SidewaysPan(canLead: leading != nil, canTrail: trailing != nil,
-                                 moved: { dragged(to: $0) }, finished: { released(completed: $0) }))
+                                 moved: { dragged(to: $0) },
+                                 finished: { released(completed: $0, velocity: $1, width: $2) }))
     }
 
     /// The finger is `dx` from where the swipe began.
     @MainActor
     private func dragged(to dx: CGFloat) {
+        guard !leaving else { return }
         let before = SwipeRule.outcome(offset)
         offset = SwipeRule.offset(dx, canLead: leading != nil, canTrail: trailing != nil)
         // One tick as the row crosses the point where letting go will act.
         if let now = SwipeRule.outcome(offset), now != before { SwipeHaptics.tick() }
     }
 
-    /// The finger lifted (`completed`), or the system took the touch away: only a lift acts.
+    /// The finger lifted (`completed`) moving sideways at `velocity`, or the system took the touch
+    /// away: only a lift acts. `width` is how far the row has to travel to be off the screen.
     @MainActor
-    private func released(completed: Bool) {
-        if completed {
-            switch SwipeRule.outcome(offset) {
-            case .leading?: leading?.perform()
-            case .trailing?: trailing?.perform()
-            case nil: break
+    private func released(completed: Bool, velocity: CGFloat, width: CGFloat) {
+        guard !leaving else { return }
+        let edge = completed ? SwipeRule.outcome(offset, velocity: velocity) : nil
+        let action: SwipeAction? = switch edge {
+        case .leading?: leading
+        case .trailing?: trailing
+        case nil: nil
+        }
+        guard let edge, let action else { return springBack() }
+        guard action.removesRow else {
+            action.perform()
+            return springBack()
+        }
+        // Carry on off the screen the way it was going, then let the list close the gap.
+        leaving = true
+        let away = max(width, 320) + 60
+        withAnimation(.easeOut(duration: 0.2)) {
+            offset = edge == .leading ? away : -away
+        } completion: {
+            action.perform()
+            // The list has taken the row, and this state with it. If the row is still here after
+            // all (the action left it in place), bring it back rather than leave a gap.
+            Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(500))
+                leaving = false
+                springBack()
             }
         }
+    }
+
+    /// Back to rest with a little bounce.
+    @MainActor
+    private func springBack() {
         guard offset != 0 else { return }
-        withAnimation(.snappy(duration: 0.25)) { offset = 0 }
+        withAnimation(.spring(response: 0.32, dampingFraction: 0.76)) { offset = 0 }
     }
 
     @ViewBuilder
@@ -199,8 +255,9 @@ private struct SidewaysPan: UIGestureRecognizerRepresentable {
     let canTrail: Bool
     /// How far the finger is from where the pan began, sideways.
     let moved: (CGFloat) -> Void
-    /// True when the finger lifted, false when the touch was taken away.
-    let finished: (Bool) -> Void
+    /// Whether the finger lifted (false: the touch was taken away), how fast it was moving
+    /// sideways as it did, and the width of the window the row is in.
+    let finished: (Bool, CGFloat, CGFloat) -> Void
 
     func makeCoordinator(converter: CoordinateSpaceConverter) -> Coordinator { Coordinator() }
 
@@ -220,10 +277,15 @@ private struct SidewaysPan: UIGestureRecognizerRepresentable {
     func handleUIGestureRecognizerAction(_ recognizer: SidewaysPanRecognizer, context: Context) {
         let coordinator = context.coordinator
         switch recognizer.state {
-        case .began, .changed: coordinator.moved(recognizer.translation(in: recognizer.view).x)
-        case .ended: coordinator.finished(true)
-        case .cancelled, .failed: coordinator.finished(false)
-        default: break
+        case .began, .changed:
+            coordinator.moved(recognizer.translation(in: recognizer.view).x)
+        case .ended:
+            let width = recognizer.view?.window?.bounds.width ?? recognizer.view?.bounds.width ?? 0
+            coordinator.finished(true, recognizer.velocity(in: recognizer.view).x, width)
+        case .cancelled, .failed:
+            coordinator.finished(false, 0, 0)
+        default:
+            break
         }
     }
 
@@ -241,7 +303,7 @@ private struct SidewaysPan: UIGestureRecognizerRepresentable {
         var canLead = false
         var canTrail = false
         var moved: (CGFloat) -> Void = { _ in }
-        var finished: (Bool) -> Void = { _ in }
+        var finished: (Bool, CGFloat, CGFloat) -> Void = { _, _, _ in }
 
         func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
             guard let pan = gestureRecognizer as? UIPanGestureRecognizer else { return false }

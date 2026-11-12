@@ -63,6 +63,7 @@ extension AppModel {
         guard let brief else { return }
         let stories = brief.allStories
         for story in stories.dropFirst(1).prefix(2) { setSaved(story, true) }
+        saveConfirmation = nil  // seeded, not saved by the reader
         for story in brief.sections.compactMap(\.stories.first).prefix(3) { noteOpened(story) }
     }
 
