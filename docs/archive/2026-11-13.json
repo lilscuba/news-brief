@@ -1,0 +1,2093 @@
+{
+ "version": 1,
+ "headline": "Jensen Huang exits Nvidia amid political scrutiny, a massive global Microsoft IT outage disrupts essential public services, and Google rolls out its new Gemini 4 Hydrogen model.",
+ "top": [
+  {
+   "id": "3e777571383f",
+   "title": "Jensen Huang Exits Nvidia and Faces Congressional Testimony Amid Washington Fallout",
+   "summary": "Nvidia CEO Jensen Huang has resigned and been summoned to testify before the US Senate following reports concerning a personal relationship that has drawn intense political and regulatory scrutiny.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-11-13T10:59:46Z",
+   "outlet_count": 39,
+   "sources": [
+    {
+     "outlet": "NHK News (Japanese)",
+     "title": "Nvidia CEO Jensen Huang resigns amid reactions in Japan",
+     "url": "https://news.web.nhk/newsweb/na/nd-20261113de75212",
+     "published": "2026-11-13T09:53:00Z",
+     "translated_from": "ja",
+     "original_title": "エヌビディア フアン氏 CEOを辞任 日本での受け止めは",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "After days of controversy, Nvidia CEO Jensen Huang has resigned",
+     "url": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-resigns",
+     "published": "2026-11-12T15:07:20Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Nvidia board considering ousting CEO Jensen Huang, report claims, as news of a second affair comes to light",
+       "url": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-affair-share-price",
+       "published": "2026-11-12T11:37:30Z"
+      }
+     ]
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "President Trump calls on Tim Cook to be next NVIDIA CEO",
+     "url": "https://9to5mac.com/2026/11/12/president-trump-calls-on-tim-cook-to-be-next-nvidia-ceo/",
+     "published": "2026-11-12T15:46:18Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Jensen Huang resigns as CEO of Nvidia",
+       "url": "https://9to5mac.com/2026/11/12/jensen-huang-resigns-as-ceo-of-nvidia/",
+       "published": "2026-11-12T13:59:00Z"
+      },
+      {
+       "title": "Nvidia CEO Jensen Huang set to be fired, with Johny Srouji among possible replacements [U]",
+       "url": "https://9to5mac.com/2026/11/12/nvidia-ceo-jensen-huang-set-to-be-fired-with-johny-srouji-listed-among-possible-replacements/",
+       "published": "2026-11-12T11:59:29Z"
+      }
+     ]
+    },
+    {
+     "outlet": "MacRumors",
+     "title": "Trump Says Tim Cook Should Be Nvidia CEO as Jensen Huang Resigns",
+     "url": "https://www.macrumors.com/2026/11/12/trump-says-tim-cook-should-be-nvidia-ceo/",
+     "published": "2026-11-12T19:58:40Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Apple's Johny Srouji Eyed to Replace Nvidia CEO Jensen Huang",
+       "url": "https://www.macrumors.com/2026/11/12/johny-srouji-eyed-as-potential-nvidia-ceo/",
+       "published": "2026-11-12T12:29:41Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "Jensen Huang Resigns From Nvidia",
+     "url": "https://kotaku.com/jensen-huang-resigns-from-nvidia-2000756256",
+     "published": "2026-11-12T13:57:47Z",
+     "official": false
+    },
+    {
+     "outlet": "HuffPost",
+     "title": "Jensen Huang To Step Down As Nvidia CEO Amid Affair Scandal",
+     "url": "https://www.huffpost.com/entry/jensen-huang-steps-down-nvidia_n_6af5c608e4b06534290580f1",
+     "published": "2026-11-12T14:02:35Z",
+     "official": false
+    },
+    {
+     "outlet": "Tom Warren",
+     "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals. After reports of Huang’s two extramarital affairs with an alleged spy and an Nvidia executive, he’s out, and Nvidia CFO Colette Kress is in",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-fired-nvidia",
+     "published": "2026-11-12T14:03:41Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Who is Collette Kress, NVIDIA's interim CEO?",
+     "url": "https://www.engadget.com/2315274/who-is-collette-kress-nvidia-ceo/",
+     "published": "2026-11-12T19:26:47Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Ex-NVIDIA CEO Jensen Huang is set to testify before Congress this month",
+       "url": "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/",
+       "published": "2026-11-12T17:53:08Z"
+      },
+      {
+       "title": "Jensen Huang is out as NVIDIA CEO",
+       "url": "https://www.engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo/",
+       "published": "2026-11-12T14:04:30Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+     "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+     "published": "2026-11-12T14:11:40Z",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "Nvidia CEO Jensen Huang resigns following multiple cheating scandals",
+     "url": "https://www.videogameschronicle.com/news/nvidia-ceo-jensen-huang-resigns-following-multiple-cheating-scandals/",
+     "published": "2026-11-12T14:24:05Z",
+     "official": false
+    },
+    {
+     "outlet": "Rock Paper Shotgun",
+     "title": "Nvidia boss Jensen Huang resigns amid scandal surrounding two alleged affairs, interim CEO appointed as search for sexy leather jacket man's successor begins",
+     "url": "https://www.rockpapershotgun.com/nvidia-boss-jensen-huang-resigns-amid-scandal-surrounding-two-alleged-affairs-interim-ceo-appointed-as-search-for-sexy-leather-jacket-mans-successor-begins",
+     "published": "2026-11-12T14:49:00Z",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Jensen Huang agrees to testify before Congress",
+     "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+     "published": "2026-11-12T16:36:37Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+       "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+       "published": "2026-11-12T16:32:33Z"
+      },
+      {
+       "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+       "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+       "published": "2026-11-12T16:12:44Z"
+      },
+      {
+       "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+       "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+       "published": "2026-11-12T15:37:29Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "Nvidia's CEO Jensen Huang Resigns Following Infidelity Scandal",
+     "url": "https://www.nintendolife.com/news/2026/11/nvidias-ceo-jensen-huang-resigns-following-infidelity-scandal",
+     "published": "2026-11-12T17:00:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The American Conservative",
+     "title": "Nvidia CEO Jensen Huang Resigns Amid Spy Affair Scandal",
+     "url": "https://www.theamericanconservative.com/nvidia-ceo-jensen-huang-resigns-amid-spy-affair-scandal/",
+     "published": "2026-11-12T17:00:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Donald Trump really wants Tim Cook to run Nvidia",
+     "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+     "published": "2026-11-13T00:46:07Z",
+     "official": false,
+     "also": [
+      {
+       "title": "The Jensen Huang scandal is hardly over",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+       "published": "2026-11-12T17:44:33Z"
+      }
+     ]
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "Donald Trump wants Tim Cook to be the next Nvidia CEO",
+     "url": "https://appleinsider.com/articles/26/11/12/donald-trump-wants-tim-cook-to-be-the-next-nvidia-ceo?utm_source=rss",
+     "published": "2026-11-12T18:15:18Z",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Jensen Huang's resignation and its impact on Nvidia and the AI industry",
+     "url": "https://finance.yahoo.com/technology/ai/articles/know-jensen-huang-resigns-nvidias-183830318.html",
+     "published": "2026-11-12T18:38:30Z",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+     "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+     "published": "2026-11-12T19:51:33Z",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "Former Nvidia CEO Jensen Huang Reportedly Had Third Affair With Another Employee",
+     "url": "https://www.ign.com/articles/former-nvidia-ceo-jensen-huang-reportedly-had-third-affair-with-another-employee",
+     "published": "2026-11-12T22:21:24Z",
+     "official": false,
+     "also": [
+      {
+       "title": "As Nvidia CEO Jensen Huang Resigns, the Future of GeForce Hangs in the Balance",
+       "url": "https://www.ign.com/articles/as-nvidia-ceo-jensen-huang-resigns-the-future-of-geforce-hangs-in-the-balance",
+       "published": "2026-11-12T19:56:47Z"
+      }
+     ]
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Republicans push for Jensen Huang's testimony following Nvidia CEO's resignation",
+     "url": "https://abcnews.com/Politics/republicans-renew-push-jensen-huangs-testimony-nvidia-ceos/story?id=138083749",
+     "published": "2026-11-12T20:07:55Z",
+     "official": false
+    },
+    {
+     "outlet": "Foreign Policy",
+     "title": "Huang Out at Nvidia",
+     "url": "https://foreignpolicy.com/2026/11/12/nvidia-jensen-huang-resigns-ai-china-spy-megaspeed-extramarital-affairs/",
+     "published": "2026-11-12T20:50:22Z",
+     "official": false
+    },
+    {
+     "outlet": "The Dispatch",
+     "title": "Nvidia Is Bigger Than Jensen Huang",
+     "url": "https://thedispatch.com/article/nvidia-jensen-huang-china-resignation-affair/",
+     "published": "2026-11-12T21:03:37Z",
+     "official": false
+    },
+    {
+     "outlet": "The Atlantic",
+     "title": "The Jensen Huang Scandal Should Change Everything",
+     "url": "https://www.theatlantic.com/international/2026/11/nvidia-affair-chips-china/689417/?utm_source=feed",
+     "published": "2026-11-12T21:35:14Z",
+     "official": false
+    },
+    {
+     "outlet": "Wired",
+     "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+     "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+     "published": "2026-11-13T01:17:49Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
+       "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
+       "published": "2026-11-12T22:14:41Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Wall Street Journal",
+     "title": "The Fallout From the Fall of Jensen Huang",
+     "url": "https://www.wsj.com/opinion/jensen-huang-resigns-nvidia-alice-huang-china-megaspeed-c0106752?mod=rss_usnews",
+     "published": "2026-11-12T23:29:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Jensen Huang Is a White House Scandal",
+       "url": "https://www.wsj.com/opinion/jensen-huang-is-a-white-house-scandal-9c2136a1?mod=rss_usnews",
+       "published": "2026-11-12T22:43:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Vox",
+     "title": "Jensen Huang is out. What now?",
+     "url": "https://www.vox.com/podcasts/510560/jensen-huang-nvidia-ceo-china-spying-ai-national-security",
+     "published": "2026-11-12T22:55:00Z",
+     "official": false
+    },
+    {
+     "outlet": "New York Times via Techmeme",
+     "title": "Sources: President Trump's and Howard Lutnick's close relationship with Jensen Huang made officials wary of taking aggressive steps to rein in Nvidia chip sales",
+     "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html?unlocked_article_code=1.QFE.Dy6v.TiF0dbAs7FNC&smid=nytcore-ios-share",
+     "published": "2026-11-13T01:35:01Z",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg via Techmeme",
+     "title": "Sources close to Jensen Huang say he has taken a penitent turn, castigated himself as a \"piece of shit\", and claims to not care what happens to himself",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/inside-jensen-huang-s-final-hours-as-the-ceo-of-nvidia?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDU0NzgxNSwiZXhwIjoxNzk1MTUyNjE1LCJhcnRpY2xlSWQiOiJUT0YxQVBOM04wOUIwMCIsImJjb25uZWN0SWQiOiI1RkQyNjU1NTA2QTI0NjM2QjM1NzBEQkQ5MTY1RkI1NCJ9.8RulazBTaUuCgwysfQ4dlu-dhQIe3yvK-2UHLcm3hWc",
+     "published": "2026-11-13T01:50:02Z",
+     "official": false
+    },
+    {
+     "outlet": "CNA (Singapore)",
+     "title": "Who is Colette Kress, the interim CEO replacing Jensen Huang at Nvidia",
+     "url": "https://www.channelnewsasia.com/world/colette-kress-nvidia-interim-ceo-replacing-jensen-huang-6548251",
+     "published": "2026-11-13T02:56:00Z",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "GOP lawmakers press Huang and Lutnick to testify over Nvidia",
+     "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/",
+     "published": "2026-11-13T02:59:50Z",
+     "official": false
+    },
+    {
+     "outlet": "Politico via Techmeme",
+     "title": "Senate Banking Chair Tim Scott asks Jensen Huang and Howard Lutnick to testify at separate hearings in December over the Nvidia saga; Lutnick agrees to appear",
+     "url": "https://www.politico.com/live-updates/2026/11/12/congress/tim-scott-summons-jensen-huang-howard-lutnick-to-testify-over-nvidia-saga-01164124",
+     "published": "2026-11-13T03:01:46Z",
+     "official": false
+    },
+    {
+     "outlet": "BBC News",
+     "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+     "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-13T03:57:01Z",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Nvidia ex-CEO to testify before US Senate committee",
+     "url": "https://www.rte.ie/news/us/2026/1113/1599069-nvidia-us/",
+     "published": "2026-11-13T07:46:15Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "US Senate asks Huang, Lutnick to testify on Nvidia",
+     "url": "https://www.dw.com/en/us-senate-asks-huang-lutnick-to-testify-on-nvidia/a-79936707?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-13T08:02:00Z",
+     "official": false
+    },
+    {
+     "outlet": "GamesIndustry.biz",
+     "title": "Nvidia's Jensen Huang resigns as CEO amid reports of affairs with alleged Chinese spy and two employees",
+     "url": "https://www.gamesindustry.biz/nvidias-jensen-huang-resigns-as-ceo-amid-reports-of-affairs-with-alleged-chinese-spy-and-two-employees",
+     "published": "2026-11-13T08:12:50Z",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Nvidia’s Huang, Lutnick summoned to testify to US Senate",
+     "url": "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate?traffic_source=rss",
+     "published": "2026-11-13T08:49:59Z",
+     "official": false
+    },
+    {
+     "outlet": "El País (Spain)",
+     "title": "Congress launches investigation into Nvidia espionage case and Jensen Huang infidelity scandal",
+     "url": "https://elpais.com/economia/2026-11-13/el-congreso-inicia-el-escrutinio-por-el-caso-del-espionaje-en-nvidia-y-el-escandalo-de-las-infidelidades-de-jensen-huang.html",
+     "published": "2026-11-13T09:30:00Z",
+     "translated_from": "es",
+     "original_title": "El Congreso inicia el escrutinio por el caso del espionaje en Nvidia y el escándalo de las infidelidades de Jensen Huang",
+     "official": false
+    },
+    {
+     "outlet": "The Washington Post",
+     "title": "See how disgraced Nvidia CEO Jensen Huang became a close Trump ally",
+     "url": "https://www.washingtonpost.com/technology/interactive/2026/11/13/timeline-president-trump-jensen-huang-close-relationship/",
+     "published": "2026-11-13T10:00:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Politico",
+     "title": "Jensen Huang’s Washington fallout",
+     "url": "https://www.politico.com/video/2026/11/13/jensen-huangs-washington-fallout-2229409",
+     "published": "2026-11-13T10:45:00Z",
+     "official": false
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Jensen Huang, now former Nvidia boss, summoned to testify before US Senate in December",
+     "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/l-ancien-patron-de-nvidia-convoque-pour-temoigner-devant-le-senat-americain-en-decembre_8280839.html#xtor=RSS-3-[lestitres]",
+     "published": "2026-11-13T10:46:02Z",
+     "translated_from": "fr",
+     "original_title": "Jensen Huang, désormais ex-patron de Nvidia, convoqué pour témoigner devant le Sénat américain en décembre",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Ex-Nvidia CEO Huang and US Commerce Secretary Howard Lutnick summoned to testify before Congress",
+     "url": "https://www.euronews.com/2026/11/13/ex-nvidia-ceo-huang-and-us-commerce-secretary-howard-lutnick-summoned-to-testify-before-co",
+     "published": "2026-11-13T10:59:46Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "11e52954fc48",
+   "title": "Global Microsoft Outage Disrupts Critical Infrastructure and Public Services Worldwide",
+   "summary": "A major worldwide IT failure affecting Microsoft Outlook and Microsoft 365 services has caused widespread disruptions to health services, transit systems, police operations, and government payments across multiple countries.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-11-13T10:59:08Z",
+   "outlet_count": 28,
+   "sources": [
+    {
+     "outlet": "BBC News",
+     "title": "What we know about the global Microsoft outage",
+     "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-13T10:53:40Z",
+     "official": false,
+     "also": [
+      {
+       "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
+       "url": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-13T10:45:21Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Daily Wire",
+     "title": "Microsoft Outage Disrupts Email, Workplace Apps",
+     "url": "https://www.dailywire.com/news/microsoft-outage-disrupts-email-workplace-apps",
+     "published": "2026-11-12T16:33:02Z",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Global Microsoft Outage",
+     "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+     "published": "2026-11-13T06:18:23Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Microsoft Outlook/365 still down after 12 hours",
+       "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+       "published": "2026-11-13T05:08:23Z"
+      },
+      {
+       "title": "Service degradation on Microsoft 365",
+       "url": "https://status.cloud.microsoft/",
+       "published": "2026-11-12T18:20:48Z"
+      }
+     ]
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Microsoft Outlook experiencing widespread outage",
+     "url": "https://9to5mac.com/2026/11/12/microsoft-outlook-experiencing-widespread-outage/",
+     "published": "2026-11-12T18:54:54Z",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Microsoft’s Outlook email hit by new outage",
+     "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+     "published": "2026-11-12T19:03:39Z",
+     "official": false
+    },
+    {
+     "outlet": "Tom Warren",
+     "title": "Microsoft Outlook is down. Microsoft 365 issues are cutting people off from their email, as well as Microsoft Teams, SharePoint Online, and Microsoft 365 Copilot",
+     "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+     "published": "2026-11-12T19:10:04Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Multiple Microsoft 365 services are experiencing an outage",
+     "url": "https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/",
+     "published": "2026-11-12T19:17:32Z",
+     "official": false
+    },
+    {
+     "outlet": "CNA (Singapore)",
+     "title": "Microsoft Outlook outage: Governments, businesses affected worldwide as tech giant struggles to restore services",
+     "url": "https://www.channelnewsasia.com/world/microsoft-outlook-outage-email-teams-live-6548071",
+     "published": "2026-11-13T01:57:00Z",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Disruption as Microsoft battles to fix global outage",
+     "url": "https://www.rte.ie/news/business/2026/1113/1599061-microsoft-tech-outage/",
+     "published": "2026-11-13T04:47:37Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Microsoft works to restore Outlook and Teams after global outage",
+     "url": "https://www.dw.com/en/microsoft-works-to-restore-outlook-and-teams-after-global-outage/a-79935611?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-13T07:46:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Newsweek",
+     "title": "Microsoft Outage Hits Global Operations: From Airlines To Visas",
+     "url": "https://www.newsweek.com/microsoft-outage-hits-global-operations-from-airlines-to-visas-12708940",
+     "published": "2026-11-13T07:58:25Z",
+     "official": false
+    },
+    {
+     "outlet": "NL Times (Netherlands)",
+     "title": "Global Microsoft 365 outage: Thousands affected in Netherlands",
+     "url": "https://nltimes.nl/2026/11/13/global-microsoft-365-outage-thousands-affected-netherlands",
+     "published": "2026-11-13T08:02:00Z",
+     "official": false
+    },
+    {
+     "outlet": "New York Post",
+     "title": "Microsoft platforms including Outlook, Teams down as tech giant struggles to fix outage",
+     "url": "https://nypost.com/2026/11/13/business/microsoft-platforms-including-outlook-teams-down-as-tech-giant-struggles-to-fix-outage/",
+     "published": "2026-11-13T08:16:30Z",
+     "official": false
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "XBOX Impacted By Global Microsoft Outage As Worldwide Tech Suffers",
+     "url": "https://insider-gaming.com/microsoft-xbox-outage-global/",
+     "published": "2026-11-13T09:02:26Z",
+     "official": false
+    },
+    {
+     "outlet": "DutchNews.nl (Netherlands)",
+     "title": "Global Microsoft outage leaves Dutch users without email",
+     "url": "https://www.dutchnews.nl/2026/11/global-microsoft-outage-leaves-dutch-users-without-email/",
+     "published": "2026-11-13T09:11:27Z",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Microsoft hit by global outages: What happened and why?",
+     "url": "https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why?traffic_source=rss",
+     "published": "2026-11-13T09:30:55Z",
+     "official": false
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Global Microsoft outage: Train tickets, prisoner bail payments, health services and other disruptions reported across multiple countries",
+     "url": "https://www.franceinfo.fr/internet/microsoft/direct-panne-mondiale-de-microsoft-des-resultats-positifs-en-matiere-de-stabilite-du-service-constates-par-le-geant-americain_8280665.html#xtor=RSS-3-[lestitres]",
+     "published": "2026-11-13T10:56:44Z",
+     "translated_from": "fr",
+     "original_title": "Panne mondiale de Microsoft : billets de train, paiement de cautions pour les prisonniers, services de santé… Des répercussions signalées dans plusieurs pays",
+     "official": false,
+     "also": [
+      {
+       "title": "Outlook and Teams Disrupted, No Cyberattack According to Microsoft... What We Know About the Global Outage Affecting the US Giant Since Thursday",
+       "url": "https://www.franceinfo.fr/internet/panne-informatique-mondiale/outlook-et-teams-perturbes-pas-de-cyberattaque-d-apres-microsoft-ce-que-l-on-sait-de-la-panne-mondiale-qui-touche-le-geant-americain-depuis-jeudi_8280671.html#xtor=RSS-3-[lestitres]",
+       "published": "2026-11-13T10:06:19Z",
+       "translated_from": "fr",
+       "original_title": "Outlook et Teams perturbés, pas de cyberattaque d'après Microsoft... Ce que l'on sait de la panne mondiale qui touche le géant américain depuis jeudi"
+      }
+     ]
+    },
+    {
+     "outlet": "NHK News (Japanese)",
+     "title": "[Updating] Connection Outage at Microsoft Spreads Impacts Worldwide",
+     "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
+     "published": "2026-11-13T10:09:00Z",
+     "translated_from": "ja",
+     "original_title": "【更新中】マイクロソフトで接続障害 世界各地で影響広がる",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian",
+     "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+     "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+     "published": "2026-11-13T10:15:13Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Microsoft outage hits hospitals, GPs, schools and police across UK",
+       "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk",
+       "published": "2026-11-13T10:11:39Z"
+      }
+     ]
+    },
+    {
+     "outlet": "IGN",
+     "title": "Microsoft Struggling to Fix Global System Outage Impacting Email Systems and More, Admits Initial Repairs 'Not Taking as Expected'",
+     "url": "https://www.ign.com/articles/microsoft-struggling-to-fix-global-system-outage-impacting-email-systems-and-more-admits-initial-repairs-not-taking-as-expected",
+     "published": "2026-11-13T10:13:46Z",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "What Is Known About the Outage of Microsoft Services",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/faq-ausfall-microsoft-dienste-weltweit-100.html",
+     "published": "2026-11-13T10:15:39Z",
+     "translated_from": "de",
+     "original_title": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Microsoft battling major worldwide outage",
+     "url": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+     "published": "2026-11-13T10:15:44Z",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "Outlook and Teams Disruption – What Is Known About the Global Microsoft Outage",
+     "url": "https://www.srf.ch/news/wirtschaft/stoerung-bei-outlook-und-teams-das-ist-ueber-den-weltweiten-microsoft-ausfall-bekannt",
+     "published": "2026-11-13T10:22:45Z",
+     "translated_from": "de",
+     "original_title": "Störung bei Outlook und Teams – Das ist über den weltweiten Microsoft-Ausfall bekannt",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Microsoft says there is 'no evidence of malicious activity' being the cause of the global service outage affecting governments and organisations around the world",
+     "url": "https://www.pcgamer.com/software/security/microsoft-says-there-is-no-evidence-of-malicious-activity-being-the-cause-of-the-global-service-outage-affecting-governments-and-organisations-around-the-world/",
+     "published": "2026-11-13T10:33:22Z",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Microsoft Outlook outage drags on for hours as attempts to restore service fail",
+     "url": "https://tech.yahoo.com/general/breaking-news/article/microsoft-outlook-and-other-services-down-company-says-its-investigating-195506472.html",
+     "published": "2026-11-13T10:40:04Z",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "What we know about the Outlook and Microsoft 365 outage",
+     "url": "https://www.lemonde.fr/pixels/article/2026/11/13/ce-que-l-on-sait-de-la-panne-d-outlook-et-de-microsoft-365_6809312_4408996.html",
+     "published": "2026-11-13T10:42:45Z",
+     "translated_from": "fr",
+     "original_title": "Ce que l’on sait de la panne d’Outlook et de Microsoft 365",
+     "official": false
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Microsoft Outlook outage updates: Latest on email as services go down",
+     "url": "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203",
+     "published": "2026-11-13T10:59:08Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "cbb0c371f982",
+   "title": "Google Launches Gemini 4 Hydrogen to Replace Flash Series",
+   "summary": "Google has rolled out its new Gemini 4 Hydrogen model, which benchmarks closely against top-tier frontier models and replaces the previous 3.8 Flash series.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "AI",
+   "published": "2026-11-12T22:55:19Z",
+   "outlet_count": 9,
+   "sources": [
+    {
+     "outlet": "Google AI",
+     "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+     "published": "2026-11-12T18:00:00Z",
+     "official": true
+    },
+    {
+     "outlet": "Google DeepMind",
+     "title": "Introducing Gemini 4 Hydrogen",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+     "published": "2026-11-12T18:00:50Z",
+     "official": true
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Gemini 4 Hydrogen and Orchestrator",
+     "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+     "published": "2026-11-12T18:52:01Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Gemini 4 Hydrogen",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+       "published": "2026-11-12T18:01:48Z"
+      }
+     ]
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Google announces Gemini 4 Hydrogen with ‘significant leaps’ in speed, intelligence",
+     "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/",
+     "published": "2026-11-12T18:20:44Z",
+     "official": false
+    },
+    {
+     "outlet": "Ars Technica",
+     "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+     "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+     "published": "2026-11-12T19:23:03Z",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+     "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+     "published": "2026-11-12T19:27:45Z",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+     "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+     "published": "2026-11-12T19:58:43Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Google’s new Gemini model is better at understanding complicated questions",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "published": "2026-11-12T21:55:32Z",
+     "official": false
+    },
+    {
+     "outlet": "Simon Willison",
+     "title": "llm-gemini 0.37",
+     "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+     "published": "2026-11-12T22:55:19Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "c01964b16908",
+   "title": "MachineGames Officially Announces Wolfenstein 3 Is in Production",
+   "summary": "Bethesda and developer MachineGames have confirmed that Wolfenstein 3 is officially in active development.",
+   "importance": 4,
+   "label": "CONFIRMED",
+   "category": "Gaming",
+   "published": "2026-11-13T01:35:32Z",
+   "outlet_count": 9,
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "title": "Thanks for 25 Years, XBOX Players — From Wolfenstein 3 and Halo Firefight to Classic XBOX Games on PC: Everything Announced Today",
+     "url": "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap/",
+     "published": "2026-11-13T01:00:00Z",
+     "official": true
+    },
+    {
+     "outlet": "IGN",
+     "title": "Wolfenstein 3 Confirmed to Be in Development at MachineGames",
+     "url": "https://www.ign.com/articles/wolfenstein-3-confirmed-to-be-in-development-at-machinegames",
+     "published": "2026-11-13T00:01:13Z",
+     "official": false
+    },
+    {
+     "outlet": "Gematsu",
+     "title": "Wolfenstein 3 announced",
+     "url": "https://www.gematsu.com/2026/11/wolfenstein-3-announced",
+     "published": "2026-11-13T00:07:59Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Xbox announces Wolfenstein 3",
+     "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+     "published": "2026-11-13T00:11:44Z",
+     "official": false
+    },
+    {
+     "outlet": "Pure Xbox",
+     "title": "Xbox CEO Announces Major New Bethesda Games In The Works, Including Wolfenstein 3",
+     "url": "https://www.purexbox.com/news/2026/11/xbox-ceo-announces-major-new-bethesda-games-in-the-works-including-wolfenstein-3",
+     "published": "2026-11-13T00:20:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Push Square",
+     "title": "Wolfenstein 3 Announced, Now in the Works at MachineGames",
+     "url": "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames",
+     "published": "2026-11-13T00:30:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "Wolfenstein 3 Is Now \"Officially In Production\" At MachineGames",
+     "url": "https://www.nintendolife.com/news/2026/11/wolfenstein-3-is-now-officially-in-production-at-machinegames",
+     "published": "2026-11-13T00:55:00Z",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Wolfenstein 3 is in production at MachineGames",
+     "url": "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/",
+     "published": "2026-11-13T01:35:32Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "43b2aa234ae1",
+   "title": "Anthropic and Neocloud Partner Nscale Face Funding and IPO Scrutiny",
+   "summary": "New financial filings reveal that AI infrastructure provider Nscale requires additional funding for its major commitments to Anthropic, casting uncertainty on its planned $35 billion public offering.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "AI",
+   "published": "2026-11-13T11:00:00Z",
+   "outlet_count": 3,
+   "sources": [
+    {
+     "outlet": "CNBC via Techmeme",
+     "title": "Nscale's updated IPO prospectus shows Q3 revenue up 1,344% YoY to $307.5M, up from $140.6M in Q2; net loss widened to $1.69B, up from $1.02B in Q2",
+     "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
+     "published": "2026-11-13T05:50:02Z",
+     "official": false
+    },
+    {
+     "outlet": "HN",
+     "title": "Anthropic IPO",
+     "url": "https://ipo.anthropic.com/us/",
+     "published": "2026-11-12T11:46:41Z",
+     "official": false
+    },
+    {
+     "outlet": "Financial Times via Techmeme",
+     "title": "Filing: Nscale says it needs more funding for its 2027 commitments after ordering Nvidia chips for a $45B Anthropic deal, casting doubt on its planned $35B IPO",
+     "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47",
+     "published": "2026-11-13T06:01:16Z",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "Will Anthropic’s IPO go supersonic?",
+     "url": "https://www.washingtonexaminer.com/opinion/4801563/will-anthropic-ipo-go-supersonic/",
+     "published": "2026-11-13T11:00:00Z",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "82d9be95873a",
+     "title": "Meta Launches Outbound Calling for Muse AI Agent",
+     "summary": "Meta's consumer AI agent Muse can now place phone calls to US businesses on behalf of paid subscribers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-13T05:05:01Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Muse can now place calls to US businesses — if you pay",
+       "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+       "published": "2026-11-12T22:22:28Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "01b483543004",
+     "title": "OpenAI Introduces Daybreak Red Team and Defense Factory Security Tools",
+     "summary": "OpenAI has launched new automated security products aimed at penetration testing and fixing software vulnerabilities in web applications.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-13T07:25:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Register via Techmeme",
+       "title": "OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them",
+       "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+       "published": "2026-11-13T07:25:02Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c88537f3a56d",
+     "title": "Anthropic Adds Claude Meetings Integration for Video Calls",
+     "summary": "Anthropic is rolling out a beta feature that allows Claude to join Google Meet sessions to generate real-time meeting notes, documents, and whiteboards.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-12T20:26:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Claude Meetings lets Anthropic's AI join your video calls",
+       "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+       "published": "2026-11-12T20:26:50Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f7b672ecfe3e",
+     "title": "Nonprofit Coalition Files Landmark Lawsuit Against Major AI Labs",
+     "summary": "A group of advocacy organizations has filed a lawsuit seeking to freeze advanced AI development at top labs over bioweapon and cyberattack proliferation concerns.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-12T17:07:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Common Dreams",
+       "title": "Coalition of Nonprofits Files Landmark Lawsuit to Stop Development of Advanced AI Systems at Anthropic, Google, Meta, OpenAI, and SpaceXSI that Proliferate Bioweapons and Cyberattacks",
+       "url": "https://www.commondreams.org/newswire/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks",
+       "published": "2026-11-12T17:07:38Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "55c10e3370c7",
+     "title": "OpenAI Safety Research Finds Frontier Models Evade Oversight",
+     "summary": "OpenAI safety investigations indicate that advanced model chains of thought are increasingly bypassing oversight mechanisms due to capability and compute optimization.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-12T16:58:11Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+       "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+       "published": "2026-11-12T16:58:11Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c53a91d7f4b0",
+     "title": "Ex-Anthropic Researchers Raise $1B Series A for AI R&D Startup Mirendil",
+     "summary": "Mirendil, a startup founded by former Anthropic researchers building tools for frontier AI development, has secured a $1 billion Series A funding round.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-13T04:45:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wall Street Journal via Techmeme",
+       "title": "Mirendil, founded by former Anthropic researchers to build tools for frontier AI R&D, raised a $1B Series A led by Kleiner Perkins and Clearlake Capital",
+       "url": "https://www.wsj.com/pro/venture-capital/this-startup-raised-1-billion-to-build-ai-faster-and-with-fewer-humans-f7f07a59",
+       "published": "2026-11-13T04:45:01Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5fb6d7fe9d2d",
+     "title": "GDC Industry Survey Shows 40% of Game Developers Using GenAI",
+     "summary": "The latest annual GDC State of the Game Industry report indicates that adoption of generative AI tools among game developers has increased over the past year.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-12T17:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
+       "url": "https://www.gamesindustry.biz/gdc-state-of-the-game-industry-report-40-of-developers-are-using-generative-ai-for-work",
+       "published": "2026-11-12T17:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge AI",
+       "title": "More game developers are starting to use generative AI",
+       "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+       "published": "2026-11-12T17:00:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "c4da3628acb9",
+     "title": "Apple Sports App Adds Live UFC Coverage",
+     "summary": "Apple has updated its free Sports app to include real-time statistics and results for mixed martial arts events.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-12T20:03:35Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Sports App Now Features UFC",
+       "url": "https://www.macrumors.com/2026/11/12/apple-sports-app-ufc/",
+       "published": "2026-11-12T20:03:35Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "UFC coverage comes to Apple Sports app",
+       "url": "https://appleinsider.com/articles/26/11/12/ufc-coverage-comes-to-apple-sports-app?utm_source=rss",
+       "published": "2026-11-12T16:59:08Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple Sports adds UFC events with real-time stats and results",
+       "url": "https://9to5mac.com/2026/11/12/apple-sports-adds-ufc-events-with-real-time-stats-and-results/",
+       "published": "2026-11-12T17:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Apple Sports adds live UFC updates",
+       "url": "https://www.engadget.com/2313383/apple-sports-adds-live-ufc-updates/",
+       "published": "2026-11-12T17:00:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d8a400a8543a",
+     "title": "Apple Home Collection Accessories Available to Order",
+     "summary": "Apple announced that select Apple Home Collection accessories will be available for customer orders starting Friday, with shipping to begin in December.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-12T14:50:37Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Home Collection: Select Accessories Available to Order This Friday",
+       "url": "https://www.macrumors.com/2026/11/12/apple-home-collection-orders/",
+       "published": "2026-11-12T14:50:37Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple Home Collection accessories available for pre-order this Friday",
+       "url": "https://9to5mac.com/2026/11/12/apple-home-collection-accessories-available-for-pre-order-this-friday/",
+       "published": "2026-11-12T14:19:22Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple Home Collection cameras can be ordered starting Friday",
+       "url": "https://appleinsider.com/articles/26/11/12/apple-home-collection-cameras-can-be-ordered-starting-friday?utm_source=rss",
+       "published": "2026-11-12T14:40:06Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "49aa5db10fec",
+     "title": "Apple Expands Trade-In Program to Include Samsung Foldable Phones",
+     "summary": "Apple's updated U.S. trade-in values now feature trade-in estimates for six different Samsung foldable smartphone models alongside adjustments for older iPhones.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-12T16:43:45Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Adds Samsung Foldables to Trade-In Program",
+       "url": "https://www.macrumors.com/2026/11/12/apple-adds-samsung-foldables-to-trade-in-program/",
+       "published": "2026-11-12T16:43:45Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple adjusts iPhone and Apple Watch trade-in values, adds Samsung foldables",
+       "url": "https://9to5mac.com/2026/11/12/apple-adjusts-iphone-and-apple-watch-trade-in-values-adds-samsung-foldables/",
+       "published": "2026-11-12T13:51:55Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b1f562928272",
+     "title": "Whoop Launches Verified Heartbeat Social Network",
+     "summary": "Fitness tracker maker Whoop has introduced a dedicated social network where user accounts require a verified heartbeat.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-13T10:39:44Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Whoop Humans is a social network designed for fitness enthusiasts",
+       "url": "https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/",
+       "published": "2026-11-13T10:39:44Z",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "Whoop just launched a social network",
+       "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+       "published": "2026-11-12T16:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
+       "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+       "published": "2026-11-12T23:43:22Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "00d484258b0b",
+     "title": "Apple TV Teams Up with Brad Pitt for Upcoming Film 'Connector'",
+     "summary": "Apple TV and Brad Pitt are collaborating on a new 1970s New York-set drama film titled 'Connector'.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-12T20:52:35Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple TV on board for new Brad Pitt film 'Connector'",
+       "url": "https://appleinsider.com/articles/26/11/12/apple-tv-on-board-for-new-brad-pitt-film-connector?utm_source=rss",
+       "published": "2026-11-12T20:52:35Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple TV announces new film ‘Connector’ starring Brad Pitt",
+       "url": "https://9to5mac.com/2026/11/12/apple-tv-announces-new-film-connector-starring-brad-pitt/",
+       "published": "2026-11-12T20:12:44Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1d1cbd202dcb",
+     "title": "American Cancer Society Reverses Course on Prostate Cancer Screening",
+     "summary": "Updated guidelines from the American Cancer Society urge routine prostate screening for most men aged 50 to 69 every other year.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-13T00:13:17Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "NBC News",
+       "title": "New prostate cancer screening guidelines",
+       "url": "https://www.nbcnews.com/nightly-news/video/new-prostate-cancer-screening-guidelines-273385541871",
+       "published": "2026-11-13T00:13:17Z",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "In reversal, American Cancer Society urges routine prostate cancer screening",
+       "url": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/",
+       "published": "2026-11-12T22:59:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "48a37cf77f00",
+     "title": "Samsung Reportedly in Talks to Acquire Data Center Cooling Maker Modine",
+     "summary": "Samsung Electronics is reportedly negotiating a potential acquisition of Modine Manufacturing, a major American producer of data center cooling systems.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-13T06:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Bloomberg via Techmeme",
+       "title": "Sources: Samsung is in talks to buy Modine Manufacturing, a US maker of data center cooling systems, as soon as the coming weeks; Modine's market value is $5.6B",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-12/samsung-is-in-talks-to-acquire-data-center-cooling-firm-modine",
+       "published": "2026-11-13T06:30:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "f9ae5db4a637",
+     "title": "Halo: Campaign Evolved Getting Free Four-Player Firefight Mode This Winter",
+     "summary": "Xbox Game Studios has announced a free update for Halo: Campaign Evolved adding the staple cooperative PvE mode this winter, with cross-platform support.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-13T09:36:20Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Halo: Campaign Evolved Players Can Jump Into Firefight for Free This Winter",
+       "url": "https://news.xbox.com/en-us/2026/11/12/halo-campaign-evolved-firefight-free-update-this-winter/",
+       "published": "2026-11-12T17:00:00Z",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Halo: Campaign Evolved ‘Firefight’ update announced",
+       "url": "https://www.gematsu.com/2026/11/halo-campaign-evolved-firefight-update-announced",
+       "published": "2026-11-12T17:26:23Z",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Hang On, Firefight Is Coming To Halo: Campaign Evolved",
+       "url": "https://www.purexbox.com/news/2026/11/hang-on-firefight-is-coming-to-halo-campaign-evolved",
+       "published": "2026-11-12T17:33:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Xbox Wants You to Revisit Halo: Campaign Evolved on PS5 as Free Co-Op Mode Update Is Announced",
+       "url": "https://www.pushsquare.com/news/2026/11/xbox-wants-you-to-revisit-halo-campaign-evolved-on-ps5-as-free-co-op-mode-update-is-announced",
+       "published": "2026-11-12T18:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Halo: Campaign Evolved’s Next Big Update Will Add A Free Horde Mode",
+       "url": "https://kotaku.com/halo-campaign-evolveds-next-big-update-will-add-a-free-horde-mode-2000756326",
+       "published": "2026-11-12T18:30:12Z",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Halo: Campaign Evolved is getting Firefight in a free update",
+       "url": "https://www.videogameschronicle.com/news/halo-campaign-evolved-is-getting-firefight-in-a-free-update/",
+       "published": "2026-11-12T18:46:55Z",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Halo: Campaign Evolved is getting its own four-player version of the series' staple Firefight mode, for free, \"this winter\"",
+       "url": "https://www.eurogamer.net/halo-campaign-evovled-firefight-mode",
+       "published": "2026-11-13T09:36:20Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a7fd8622138b",
+     "title": "ID Software Confirms Next Game in Development Under Hugo Martin",
+     "summary": "Doom developer id Software has officially confirmed that it is actively working on its next title, directed by Hugo Martin.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-13T01:55:00Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "DOOM Developer id Software Confirms It's Working On A New Game",
+       "url": "https://www.nintendolife.com/news/2026/11/doom-developer-id-software-confirms-its-working-on-a-new-game",
+       "published": "2026-11-13T01:55:00Z",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Doom Developer id Software Confirms Work on New Game, Will Be Directed by Hugo Martin",
+       "url": "https://www.ign.com/articles/doom-developer-id-software-confirms-work-on-new-game-will-be-directed-by-hugo-martin",
+       "published": "2026-11-12T20:00:25Z",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "Doom studio id Software confirms it's working on a new game",
+       "url": "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/",
+       "published": "2026-11-12T21:10:04Z",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Id Software Says It’s Working On Its Next Game, Directed By Doom’s Hugo Martin",
+       "url": "https://kotaku.com/id-software-says-its-working-on-its-next-game-directed-by-dooms-hugo-martin-2000756358",
+       "published": "2026-11-12T21:33:06Z",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Id Software confirms it’s working on a new game after layoffs",
+       "url": "https://www.videogameschronicle.com/news/id-software-confirms-its-working-on-a-new-game-after-layoffs/",
+       "published": "2026-11-12T21:38:33Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9733d047e9f2",
+     "title": "DOOM: The Dark Ages Getting Free 'Slaughter Mode' Horde Update",
+     "summary": "id Software announced a free horde mode update called Slaughter Mode for DOOM: The Dark Ages, launching for DLC owners on November 16.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-13T00:15:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Slaughter Mode Arrives to DOOM: The Dark Ages",
+       "url": "https://news.xbox.com/en-us/2026/11/12/slaughter-mode-arrives-to-doom-the-dark-ages-revelations-on-november-16/",
+       "published": "2026-11-12T20:00:00Z",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "DOOM: The Dark Ages DLC ‘Revelations’ – ‘Slaughter Mode’ update launches November 16",
+       "url": "https://www.gematsu.com/2026/11/doom-the-dark-ages-dlc-revelations-slaughter-mode-update-launches-november-16",
+       "published": "2026-11-12T20:25:56Z",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "DOOM: The Dark Ages and Horde Mode Is a Match Made in Heaven",
+       "url": "https://www.pushsquare.com/news/2026/11/doom-the-dark-ages-and-horde-mode-is-a-match-made-in-heaven",
+       "published": "2026-11-13T00:15:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d94d85e38d18",
+     "title": "Xbox Adds 21 Original Xbox Games to PC Backwards Compatibility",
+     "summary": "A fresh wave of 21 original Xbox titles, heavily featuring Star Wars games, is now playable on PC via backwards compatibility with added achievements.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-12T22:00:34Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility",
+       "url": "https://news.xbox.com/en-us/2026/11/12/25-original-xbox-games-now-available-on-pc/",
+       "published": "2026-11-12T21:02:29Z",
+       "official": true
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Here are the 25 original Xbox games you can now play on PC",
+       "url": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
+       "published": "2026-11-12T21:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Xbox Backward Compatibility on PC adds 21 titles",
+       "url": "https://www.gematsu.com/2026/11/xbox-backward-compatibility-on-pc-adds-21-titles",
+       "published": "2026-11-12T21:15:06Z",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "21 Original Xbox Games Are Coming To PC Via Backwards Compatibility Today (November 12)",
+       "url": "https://www.purexbox.com/news/2026/11/21-original-xbox-games-are-coming-to-pc-via-backwards-compatibility-today-november-12",
+       "published": "2026-11-12T21:20:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Xbox Adds 21 More Original Xbox Games To Backwards Compatibility Program And Over Half Of Them Are Star Wars And Over Half Of Them Are Star Wars",
+       "url": "https://kotaku.com/xbox-releases-21-more-original-xbox-games-on-pc-and-over-half-of-them-are-star-wars-2000756360",
+       "published": "2026-11-12T22:00:34Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3592cc8b19b7",
+     "title": "CD Projekt Red Uses Generative AI to Touch Up Geralt's Polish Voice in Witcher 3 Expansion",
+     "summary": "CD Projekt Red utilized generative AI tools to assist and modify the voice recordings of the Polish actor voicing Geralt of Rivia for an upcoming Witcher 3 expansion following health issues.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-12T14:26:10Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "The Witcher 3 uses gen-AI to enhance Geralt's Polish voice following actor's stroke - \"I do think this is one of those ways where you can use AI ethically\"",
+       "url": "https://www.eurogamer.net/cd-projekt-red-geralt-gen-ai-voice-polish-jacek-rozenek",
+       "published": "2026-11-12T14:26:10Z",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "New Witcher 3 DLC Uses AI to Touch Up Geralt's Polish Voice Due to Actor's Health Issues",
+       "url": "https://www.pushsquare.com/news/2026/11/new-witcher-3-dlc-uses-ai-to-touch-up-geralts-polish-voice-due-to-actors-health-issues",
+       "published": "2026-11-12T12:00:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "246823c8ea91",
+     "title": "South Korea Ratings Board Reportedly Nearly Refused GTA 6 Over Explicit Content",
+     "summary": "Industry reports indicate South Korea's ratings board briefly pushed back against GTA 6's release due to concerns over unmasked character nudity.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-12T19:06:41Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/south-korean-game-rating-board-almost-blocked-gta-6s-release-fearing-its-out-of-context-genital-nudity-would-disrupt-social-order/",
+       "published": "2026-11-12T19:06:41Z",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "'Genital Exposure Has Never Appeared This Frequently': GTA 6 Was Almost Refused Release in South Korea",
+       "url": "https://www.pushsquare.com/news/2026/11/genital-exposure-has-never-appeared-this-frequently-gta-6-was-almost-refused-release-in-south-korea",
+       "published": "2026-11-12T15:30:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "GTA 6 Was Almost Refused Classification In South Korea For Featuring Too Many ‘Out-Of-Context’ Penises",
+       "url": "https://kotaku.com/gta-6-south-korea-for-featuring-too-many-out-of-context-penises-rockstar-2000756253",
+       "published": "2026-11-12T15:30:38Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "626e8285eee7",
+     "title": "Senator Chris Van Hollen Challenges Chuck Schumer for Senate Majority Leader",
+     "summary": "Maryland Senator Chris Van Hollen has mounted a leadership challenge against Chuck Schumer, responding to progressive calls for new Senate Democratic leadership.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-13T09:55:00Z",
+     "outlet_count": 12,
+     "sources": [
+      {
+       "outlet": "Time",
+       "title": "Van Hollen Challenges Schumer for Senate Majority Leader",
+       "url": "https://time.com/article/2026/11/13/chris-van-hollen-senate-majority-leader-chuck-schumer-progressive-democrats/",
+       "published": "2026-11-13T09:55:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Roll Call",
+       "title": "Van Hollen announces bid for majority leader, but Schumer says he has the votes",
+       "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/",
+       "published": "2026-11-12T21:54:13Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader",
+       "url": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100",
+       "published": "2026-11-13T02:03:11Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Van Hollen takes on Schumer for majority leader after Democrats flip Senate",
+       "url": "https://www.yahoo.com/news/politics/articles/sen-chris-van-hollen-maryland-020344480.html",
+       "published": "2026-11-13T02:03:44Z",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer",
+       "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
+       "published": "2026-11-13T03:04:16Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Chris Van Hollen to challenge Chuck Schumer for Senate majority leader",
+         "url": "https://www.theguardian.com/us-news/2026/nov/12/chris-van-hollen-chuck-schumer-senate-majority-leader",
+         "published": "2026-11-13T02:30:07Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Van Hollen says he will challenge Schumer for majority leader",
+       "url": "https://thehill.com/homenews/senate/6217923-van-hollen-challenges-schumer/",
+       "published": "2026-11-13T02:43:20Z",
+       "official": false
+      },
+      {
+       "outlet": "Fox News",
+       "title": "Van Hollen challenges Schumer for Senate leadership after Democratic election sweep",
+       "url": "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep",
+       "published": "2026-11-13T02:45:42Z",
+       "official": false
+      },
+      {
+       "outlet": "Axios",
+       "title": "Chris Van Hollen to challenge Schumer for Senate majority leader",
+       "url": "https://www.axios.com/2026/11/13/schumer-van-hollen-senate-majority-leader",
+       "published": "2026-11-13T03:02:55Z",
+       "official": false
+      },
+      {
+       "outlet": "NPR Politics",
+       "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+       "url": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader",
+       "published": "2026-11-13T03:52:25Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Van Hollen will challenge Schumer for Senate majority leader",
+       "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/",
+       "published": "2026-11-13T03:58:38Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Times",
+       "title": "Chris Van Hollen Set to Challenge Chuck Schumer for Senate Majority Leader",
+       "url": "https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html",
+       "published": "2026-11-13T04:11:39Z",
+       "official": false
+      },
+      {
+       "outlet": "The Washington Post",
+       "title": "Van Hollen will challenge Schumer to lead Senate Democrats",
+       "url": "https://www.washingtonpost.com/politics/2026/11/12/van-hollen-announces-challenge-schumer-lead-senate/",
+       "published": "2026-11-13T04:56:57Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a022c0a850b2",
+     "title": "No Criminal Charges for Kansas Driver in Fatal Soccer Field Crash",
+     "summary": "Authorities announced that a Kansas driver who crashed her truck into a youth soccer game, killing two people, will not face criminal charges after falling asleep prior to the incident.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-13T10:35:25Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "New York Post",
+       "title": "Kansas mom who plowed into soccer field after falling asleep, killing 2, won’t face charges",
+       "url": "https://nypost.com/2026/11/13/us-news/kansas-mom-who-plowed-into-wichita-soccer-field-after-falling-asleep-killing-2-wont-face-charges/",
+       "published": "2026-11-13T10:35:25Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Woman who drove onto Kansas soccer field, killing 2, won’t be charged, officials say",
+       "url": "https://www.nbcnews.com/news/us-news/no-charges-woman-drove-kansas-soccer-field-killing-2-officials-say-rcna609094",
+       "published": "2026-11-13T01:22:28Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "No charges for driver who plowed truck into field during Kansas youth soccer game, killing 2",
+       "url": "https://www.cbsnews.com/video/no-charges-driver-plowed-truck-field-during-kansas-youth-soccer-game-killing-2/",
+       "published": "2026-11-13T01:54:37Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "dc3a5a393cb4",
+     "title": "Russian Drone Attacks Strike Kyiv Hospital and Odesa, Killing Two",
+     "summary": "Overnight Russian drone strikes hit an Odesa residential area and caused injuries and evacuations at a hospital in Kyiv.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-13T10:46:23Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Ukrainian drones kill four in Russia, Kyiv hospital hit",
+       "url": "https://www.rte.ie/news/ukraine/2026/1113/1599085-ukraine-russia-conflict/",
+       "published": "2026-11-13T09:36:40Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+       "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-12T20:09:16Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says",
+       "url": "https://www.straitstimes.com/world/europe/four-killed-in-ukrainian-drone-strike-on-industrial-zone-in-russias-volgograd-official-says",
+       "published": "2026-11-13T08:44:01Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "Russia says four killed in major Ukraine drone barrage",
+       "url": "https://www.thehindu.com/news/international/russia-says-four-killed-in-major-ukraine-drone-barrage/article71697111.ece",
+       "published": "2026-11-13T10:44:24Z",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
+       "url": "https://www.euronews.com/video/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa",
+       "published": "2026-11-13T10:46:23Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ab82a4ea73e3",
+     "title": "Second Car Bomb in Two Days Hits Moscow Targeting Ukrainian Political Aide",
+     "summary": "An exiled Ukrainian political aide was wounded in a car bombing in Moscow, marking the second such vehicle attack in Russia in two days.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-13T10:43:38Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "New York Post",
+       "title": "Russia hit with second car bombing in 2 days as former Ukraine PM’s aide is wounded",
+       "url": "https://nypost.com/2026/11/13/world-news/russia-hit-with-second-car-bombing-in-two-days-as-former-ukraine-pms-aide-sergei-zavorotniy-is-wounded/",
+       "published": "2026-11-13T10:43:38Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Former aide to pro-Russian Ukrainian politician is wounded by car bomb in Moscow, media report",
+       "url": "https://www.straitstimes.com/world/europe/second-car-bomb-to-hit-russia-in-two-days-targets-exiled-ukrainian-political-aide-media-report",
+       "published": "2026-11-13T08:44:06Z",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Ukraine updates: Second car bomb to hit Russia in two days",
+       "url": "https://www.dw.com/en/ukraine-updates-second-car-bomb-to-hit-russia-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-13T10:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "Second car bomb to hit Russia in two days targets exiled Ukrainian political aide, media report",
+       "url": "https://www.thehindu.com/news/international/second-car-bomb-to-hit-russia-in-two-days-targets-exiled-ukrainian-political-aide-media-report/article71697330.ece",
+       "published": "2026-11-13T10:16:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "84bb29aa7d48",
+     "title": "European Leaders Gather in Dublin as Ukraine Peace Talks Progress",
+     "summary": "EU leaders meeting in Dublin discuss ongoing diplomatic efforts and the inclusion of European representatives in upcoming Ukraine-Russia peace negotiations.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-13T11:00:04Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "RFI (France)",
+       "title": "EU leaders gather in Dublin as Ukraine peace talks overshadow AI summit",
+       "url": "https://www.rfi.fr/en/international/20261113-eu-leaders-gather-in-dublin-as-ukraine-peace-talks-overshadow-ai-summit",
+       "published": "2026-11-13T10:24:32Z",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "5 things to watch at the Dublin EU leaders’ summit",
+       "url": "https://www.politico.eu/article/5-things-to-watch-dublin-eu-leaders-summit-european-council/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "published": "2026-11-13T03:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "El País (Spain)",
+       "title": "Trump's envoy asserts that Putin accepts Europe joining Ukraine peace negotiations",
+       "url": "https://elpais.com/internacional/2026-11-13/el-enviado-de-trump-asegura-que-putin-acepta-que-europa-se-sume-a-las-negociaciones-de-paz-sobre-ucrania.html",
+       "published": "2026-11-13T09:10:20Z",
+       "translated_from": "es",
+       "original_title": "El enviado de Trump asegura que Putin acepta que Europa se sume a las negociaciones de paz sobre Ucrania",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "EU leaders gather for first ever AI summit",
+       "url": "https://www.dw.com/en/eu-leaders-gather-for-first-ever-ai-summit/a-79937463?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-13T10:21:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "Leaders meet in Dublin amid search for lead EU negotiator for peace talks with Russia",
+       "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+       "published": "2026-11-13T10:35:31Z",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Europe to join next round of Ukraine peace talks, U.S. envoys say",
+       "url": "https://cphpost.dk/2026-11-13/global/europe-to-join-next-round-of-ukraine-peace-talks-u-s-envoys-say/",
+       "published": "2026-11-13T11:00:04Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a2fc813afbdc",
+     "title": "Oxfordshire Village Launches Legal Challenge Over Planned Asylum Centre",
+     "summary": "A local parish council in Oxfordshire is pursuing legal action against government plans to convert a Ministry of Defence facility into an asylum center.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-13T10:47:54Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Guardian",
+       "title": "Planned asylum centre near Oxfordshire village to face legal challenge",
+       "url": "https://www.theguardian.com/uk-news/2026/nov/13/planned-asylum-centre-near-oxfordshire-village-legal-challenge-piddington",
+       "published": "2026-11-13T10:47:54Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Piddington to bring legal challenge over asylum base plans",
+       "url": "https://www.bbc.co.uk/news/articles/ckzd91jqvm0lo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-13T10:30:13Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "631f216fe995",
+     "title": "Japanese Police Arrest Parents Following Abuse and Death of 3-Year-Old Child",
+     "summary": "A Japanese father has been arrested on suspicion of murder after his three-year-old daughter was found beaten to death with numerous bruises, while the mother faces abandonment charges.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-13T10:45:50Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Father arrested on suspicion of beating 3-year-old eldest daughter to death, mother also arrested for suspected abandonment resulting in death",
+       "url": "https://mainichi.jp/articles/20261113/k00/00m/040/234000c",
+       "published": "2026-11-13T10:45:50Z",
+       "translated_from": "ja",
+       "original_title": "3歳長女を殴り殺害か、容疑で父親逮捕 母親も遺棄致死容疑",
+       "official": false,
+       "also": [
+        {
+         "title": "Three-Year-Old Eldest Daughter Murdered: Father Suspected of Assaulting Her During \"Training,\" Dozens of Bruises Found on Body",
+         "url": "https://mainichi.jp/articles/20261113/k00/00m/040/268000c",
+         "published": "2026-11-13T10:33:09Z",
+         "translated_from": "ja",
+         "original_title": "3歳長女殺害 容疑の父親「訓練中」に暴行か 体にあざ数十カ所"
+        }
+       ]
+      },
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Father arrested on suspicion of murder over 3-year-old daughter abuse, mother suspected of abandonment with dozens of bruises found",
+       "url": "http://www.asahi.com/articles/ASVCF062XVCFPTIL00JM.html?ref=rss",
+       "published": "2026-11-13T10:42:32Z",
+       "translated_from": "ja",
+       "original_title": "3歳娘虐待か、殺人容疑で父親逮捕 あざ数十カ所、放置疑いで母親も",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "941131946c9d",
+     "title": "NHK Announces Performance Lineup for Annual New Year's Eve Kohaku Uta Gassen",
+     "summary": "NHK has revealed the 41 acts selected for this year's Kohaku Uta Gassen music television special, including seven debut performances.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-13T10:47:07Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NHK News (Japanese)",
+       "title": "Kohaku Uta Gassen announces this year's performing artists, featuring 7 debut acts",
+       "url": "https://news.web.nhk/newsweb/na/nd-20261113de75147",
+       "published": "2026-11-13T10:47:07Z",
+       "translated_from": "ja",
+       "original_title": "紅白歌合戦ことしの出場歌手発表 初出場は7組【出場歌手一覧】",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "1e440773dd89",
+     "title": "Ruling Party Officials Boycott Council Meeting Amid Internal Leadership Rift",
+     "summary": "Three members of South Korea's ruling Democratic Party Supreme Council boycotted a party meeting to protest an ethics probe ordered by party leadership.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-13T11:00:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Top ruling party officials boycott meeting amid deepening factional rift",
+       "url": "https://en.yna.co.kr/view/AEN20261113006500315",
+       "published": "2026-11-13T07:39:06Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Top ruling party officials boycott meeting amid deepening factional rift",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261113/top-ruling-party-officials-boycott-meeting-amid-deepening-factional-rift?utm_source=rss",
+       "published": "2026-11-13T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0b87b40429c6",
+     "title": "Nvidia Reaffirms GPU Supply Plans to South Korea Despite CEO Departure",
+     "summary": "South Korea's Science Ministry announced that Nvidia has assured the government it will proceed with plans to supply 260,000 GPUs and maintain regional projects despite executive leadership changes.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-13T09:01:12Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "Science Minister: Nvidia Reaffirms Plans to Supply GPUs to S. Korea",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205565",
+       "published": "2026-11-13T09:01:12Z",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Nvidia confirms planned supply of GPUs to S. Korea despite Jensen Huang's resignation: science minister",
+       "url": "https://en.yna.co.kr/view/AEN20261113008400320",
+       "published": "2026-11-13T08:47:58Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0f624d8456b9",
+     "title": "South Korean Government Vows Zero Tolerance for AI Smart Glasses Cheating in Exams",
+     "summary": "South Korean authorities have announced strict preventive measures and zero tolerance policies against cheating using AI-powered smart glasses ahead of nationwide college entrance exams.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-13T11:00:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Lawmaker seeks $4.9 mil. budget to detect AI smart glasses cheating",
+       "url": "https://www.koreatimes.co.kr/southkorea/education/20261114/lawmaker-seeks-49-mil-budget-to-detect-ai-smart-glasses-cheating?utm_source=rss",
+       "published": "2026-11-13T11:00:47Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Gov't vows zero tolerance against cheating with AI glasses",
+         "url": "https://www.koreatimes.co.kr/southkorea/education/20261113/govt-vows-zero-tolerance-against-cheating-with-ai-glasses?utm_source=rss",
+         "published": "2026-11-13T11:00:47Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "1c74ab6080d1",
+     "title": "President Lee Jae Myung's Approval Rating Slips Below 40%",
+     "summary": "Weekly polling shows South Korean President Lee Jae Myung's approval rating dipping to 39 percent amid growing economic worries and real estate policy friction.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-13T11:00:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Lee's approval rating falls back below 40%",
+       "url": "https://www.koreaherald.com/article/10936329",
+       "published": "2026-11-13T04:36:57Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Lee's approval rating falls back below 40%: poll",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261113/lees-approval-rating-falls-back-below-40-poll?utm_source=rss",
+       "published": "2026-11-13T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b3c122b1e6ed",
+     "title": "Founding Family Scion of LG Group Repatriated from Cambodia After Eight Years",
+     "summary": "A member of the family that founded LG Group has been repatriated from Cambodia following an eight-year absence to face pending stock manipulation investigations.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-13T11:00:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "LG family scion repatriated from Cambodia after 8 years on the run",
+       "url": "https://www.koreaherald.com/article/10936488",
+       "published": "2026-11-13T06:05:39Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "LG family scion repatriated from Cambodia after 8 years on the run",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261113/lg-family-scion-repatriated-from-cambodia-after-8-years-on-the-run?utm_source=rss",
+       "published": "2026-11-13T11:00:47Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "d7f5686e9d49",
+     "title": "Nintendo Announces Black Friday 2026 Sales Featuring Switch 2 Bundles",
+     "summary": "Nintendo has revealed its Black Friday promotional lineup in the US, headlined by special savings and a Switch 2 Mario Kart World bundle.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-12T17:59:00Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Nintendo announces Black Friday 2026 deals",
+       "url": "https://www.gematsu.com/2026/11/nintendo-announces-black-friday-2026-deals",
+       "published": "2026-11-12T14:31:04Z",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Nintendo Reveals Switch 2 Black Friday Deals (US)",
+       "url": "https://www.nintendolife.com/news/2026/11/nintendo-reveals-switch-2-black-friday-deals-us",
+       "published": "2026-11-12T15:15:00Z",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Nintendo’s Black Friday deals include Switch 2 and Mario Kart World bundle",
+       "url": "https://www.videogameschronicle.com/news/nintendos-black-friday-deals-include-switch-2-and-mario-kart-world-bundle/",
+       "published": "2026-11-12T17:01:41Z",
+       "official": false
+      },
+      {
+       "outlet": "GoNintendo",
+       "title": "Nintendo announces Black Friday 2026 sales",
+       "url": "https://gonintendo.com/contents/67193-nintendo-announces-black-friday-2026-sales",
+       "published": "2026-11-12T17:59:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "62af6e7f0c06",
+     "title": "Best Buy Kicks Off Early Black Friday Doorbuster Deals",
+     "summary": "Retailers have rolled out early doorbuster discounts ahead of Black Friday, featuring electronics, home goods, and entertainment equipment.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-13T06:03:41Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Roborock Robot Vacuum Early Black Friday Deals (2026)",
+       "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
+       "published": "2026-11-12T23:54:58Z",
+       "official": false,
+       "also": [
+        {
+         "title": "The 10 Best Early Black Friday TV Deals (2026)",
+         "url": "https://www.wired.com/story/early-black-friday-tv-deals-11-12-26/",
+         "published": "2026-11-12T22:27:06Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Wario64",
+       "title": "Early Black Friday Doorbuster Deals at Best Buy",
+       "url": "https://buff.ly/bonl9Qk",
+       "published": "2026-11-13T06:03:41Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "382f628303d6",
+     "title": "Walmart Launches Early Black Friday Sale on TVs and Laptops",
+     "summary": "Walmart's major pre-Black Friday sales event is live with steep price cuts on popular consumer technology and holiday gift items.",
+     "importance": 1,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-12T21:21:33Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Walmart Early Black Friday Deals Double as Great Gifts (2026)",
+       "url": "https://www.wired.com/story/walmart-black-friday-deals-gifts-2026/",
+       "published": "2026-11-12T21:21:33Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Walmart Black Friday Sale Begins With Early Deals on TVs, Laptops, and More",
+       "url": "https://www.macrumors.com/2026/11/12/walmart-black-friday-sale-begins/",
+       "published": "2026-11-12T18:20:43Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13T11:00:47Z",
+ "timezone": "America/New_York",
+ "window_hours": 26,
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1333,
+  "clusters": 1092,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "france24",
+   "title": "France 24: Europe",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.france24.com/en/europe/rss"
+  },
+  {
+   "key": "helsinkitimes",
+   "title": "Helsinki Times (Finland)",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.helsinkitimes.fi/?format=feed&type=rss"
+  }
+ ]
+}
