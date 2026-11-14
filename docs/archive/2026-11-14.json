@@ -1,0 +1,1972 @@
+{
+ "version": 1,
+ "headline": "Global air traffic and tech services recover following widespread disruptions while diplomatic talks take shape.",
+ "top": [
+  {
+   "id": "2d80b275fc33",
+   "title": "US Airports Grounded Nationwide After Major Air Traffic Control Glitch",
+   "summary": "A severe communication glitch caused a nationwide ground stop across US airports, leading to over 10,000 flight cancellations and cascading international delays.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-11-14T10:45:51Z",
+   "outlet_count": 34,
+   "sources": [
+    {
+     "outlet": "RealClearPolitics",
+     "title": "FAA Lifts Nationwide Ground Stop",
+     "url": "https://www.realclearpolitics.com/2026/11/13/faa_lifts_nationwide_ground_stop_717662.html",
+     "published": "2026-11-14T02:42:30Z",
+     "official": false
+    },
+    {
+     "outlet": "The Daily Wire",
+     "title": "LIVE UPDATES: FAA Lifts Nationwide Ground Stop After Four-Hour Travel Chaos",
+     "url": "https://www.dailywire.com/news/live-updates-nationwide-groundstop-shuts-down-all-flights-for-first-time-since-9-11",
+     "published": "2026-11-13T17:43:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+     "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+     "published": "2026-11-14T00:52:29Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+       "url": "https://grounds.top/",
+       "published": "2026-11-13T23:17:39Z"
+      },
+      {
+       "title": "FAA issues national ground stop – lifted 4.5 hours later",
+       "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+       "published": "2026-11-13T21:05:53Z"
+      }
+     ]
+    },
+    {
+     "outlet": "TheBlaze",
+     "title": "FAA lifts nationwide ground stop: Live updates",
+     "url": "https://www.theblaze.com/news/faa-nationwide-ground-stop-safety",
+     "published": "2026-11-13T21:40:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Daily Caller",
+     "title": "FAA Issues Nationwide Ground Stop, Halting All US Flight Departures",
+     "url": "https://dailycaller.com/2026/11/13/faa-nationwide-ground-stop-us-flight-departures-sean-duffy",
+     "published": "2026-11-13T21:41:33Z",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "US government grounds all flights across the United States ‘due to extraordinary circumstances’",
+     "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+     "published": "2026-11-13T21:44:38Z",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "FAA orders nationwide ground stop for all US flight departures",
+     "url": "https://kyivindependent.com/faa-orders-nationwide-ground-stop-for-all-us-flight-departures/",
+     "published": "2026-11-13T22:14:36Z",
+     "official": false
+    },
+    {
+     "outlet": "CBC News",
+     "title": "U.S. flights cleared to take off again after ground stop order caused thousands of delays and cancellations",
+     "url": "https://www.cbc.ca/news/world/livestory/faa-grounds-all-flights-united-states-air-traffic-control-live-updates-9.7421404?cmp=rss",
+     "published": "2026-11-13T22:18:32Z",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "What we know about the FAA nationwide ground stop",
+     "url": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+     "published": "2026-11-13T22:27:38Z",
+     "official": false
+    },
+    {
+     "outlet": "The Christian Science Monitor",
+     "title": "FAA says flights can resume following nationwide ground stop",
+     "url": "https://www.csmonitor.com/Business/2026/1113/faa-duffy-ground-stop-lifted?icid=rss",
+     "published": "2026-11-14T03:35:43Z",
+     "official": false,
+     "also": [
+      {
+       "title": "FAA grounds flights nationwide, citing communications outage",
+       "url": "https://www.csmonitor.com/Business/2026/1113/faa-nationwide-ground-stop-airlines?icid=rss",
+       "published": "2026-11-13T22:57:30Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Ars Technica",
+     "title": "FAA has lifted its third-ever nationwide ground stop",
+     "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+     "published": "2026-11-13T23:17:38Z",
+     "official": false
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "Microsoft On FAA Ground Stop: It Wasn’t Me",
+     "url": "https://kotaku.com/microsoft-on-faa-ground-stop-it-wasnt-me-2000756749",
+     "published": "2026-11-13T23:24:49Z",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "FAA issues rare nationwide ground stop due to 'extraordinary circumstances'",
+     "url": "https://www.pbs.org/newshour/show/faa-issues-rare-nationwide-ground-stop-due-to-extraordinary-circumstances",
+     "published": "2026-11-13T23:56:33Z",
+     "official": false
+    },
+    {
+     "outlet": "The Atlantic",
+     "title": "Scenes From the Nationwide Ground Stop",
+     "url": "https://www.theatlantic.com/photography/2026/11/photography-faa-nationwide-ground-stop/689445/?utm_source=feed",
+     "published": "2026-11-14T02:42:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Airport Chaos Began Long Before the Ground Stop",
+       "url": "https://www.theatlantic.com/ideas/2026/11/faa-grounding-flights-airlines/689441/?utm_source=feed",
+       "published": "2026-11-14T00:17:15Z"
+      }
+     ]
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "US grounds all departing flights over an air traffic control communications failure",
+     "url": "https://en.mercopress.com/2026/11/14/us-grounds-all-departing-flights-over-an-air-traffic-control-communications-failure?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "published": "2026-11-14T00:53:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "Airspace reopened after nationwide ground stop",
+     "url": "https://thehill.com/policy/transportation/6220313-faa-lifts-nationwide-ground-stop/",
+     "published": "2026-11-14T01:56:50Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Watch: Duffy, Mullin hold press briefing on FAA nationwide ground stop",
+       "url": "https://thehill.com/video-clips/6220247-watch-duffy-mullin-hold-press-briefing-on-faa-nationwide-ground-stop/",
+       "published": "2026-11-14T00:54:31Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "US ground stop delays flights from Incheon Airport",
+     "url": "https://www.koreaherald.com/article/10936928",
+     "published": "2026-11-14T01:36:14Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Flights halted at airports across US due to air traffic control communications problems",
+       "url": "https://www.koreaherald.com/article/10936914",
+       "published": "2026-11-14T01:22:38Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Wired",
+     "title": "The FAA Nationwide Ground Stop Is Over",
+     "url": "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/",
+     "published": "2026-11-14T01:46:40Z",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "US flights resume after grounding but delays expected",
+     "url": "https://www.rte.ie/news/us/2026/1114/1599194-travel-stop-lifted/",
+     "published": "2026-11-14T01:49:22Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+     "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+     "published": "2026-11-14T01:53:04Z",
+     "official": false
+    },
+    {
+     "outlet": "Semafor",
+     "title": "FAA lifts rare nationwide ground stop",
+     "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
+     "published": "2026-11-14T02:06:24Z",
+     "official": false
+    },
+    {
+     "outlet": "Axios",
+     "title": "FAA ends hours-long nationwide ground stop",
+     "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
+     "published": "2026-11-14T02:10:10Z",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian",
+     "title": "Airport chaos continues after US ground stop lifted",
+     "url": "https://www.theguardian.com/world/live/2026/nov/13/us-flight-outage-live-updates-faa-lifts-nationwide-ground-stop-as-airport-chaos-continues",
+     "published": "2026-11-14T05:55:53Z",
+     "official": false,
+     "also": [
+      {
+       "title": "US flight outage: FAA lifts nationwide ground stop; Trump officials suggest new tech overwhelmed old equipment",
+       "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+       "published": "2026-11-14T03:11:35Z"
+      },
+      {
+       "title": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+       "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+       "published": "2026-11-14T02:15:53Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "FAA lifts nationwide ground stop after thousands of flight cancellations",
+     "url": "https://www.yahoo.com/news/us/article/faa-says-nationwide-ground-stop-is-over-after-thousands-of-flights-canceled-021133009.html",
+     "published": "2026-11-14T02:36:33Z",
+     "official": false
+    },
+    {
+     "outlet": "ABC News",
+     "title": "FAA ground stop live updates: Duffy blames 'overloaded' routers after stop lifted",
+     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+     "published": "2026-11-14T02:58:44Z",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "FAA lifts nationwide ground stop that disrupted thousands of flights",
+     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+     "published": "2026-11-14T04:03:00Z",
+     "official": false
+    },
+    {
+     "outlet": "KBS World",
+     "title": "US-Bound Flights Resume after Emergency Ground Stop Lifted",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205572",
+     "published": "2026-11-14T05:49:04Z",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times",
+     "title": "Trump official seeks US$50 billion for air traffic control after outage forced nationwide ground stop",
+     "url": "https://www.straitstimes.com/world/united-states/trump-official-seeks-us50-billion-for-air-traffic-control-after-outage-forced-nationwide-ground-stop",
+     "published": "2026-11-14T06:10:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "FAA allows flights to resume after hours-long ground stop across the US",
+     "url": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
+     "published": "2026-11-14T06:35:40Z",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
+     "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
+     "published": "2026-11-14T06:56:20Z",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Delays and chaos at US airports",
+     "url": "https://orf.at/stories/3448134/",
+     "published": "2026-11-14T07:31:04Z",
+     "translated_from": "de",
+     "original_title": "Verspätungen und Chaos auf US-Flughäfen",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "Nationwide grounding – Flight chaos in the US: What is behind the rare ground stop",
+     "url": "https://www.srf.ch/news/international/landesweites-startverbot-flugchaos-in-den-usa-was-hinter-dem-seltenen-groundstop-steckt",
+     "published": "2026-11-14T08:35:59Z",
+     "translated_from": "de",
+     "original_title": "Landesweites Startverbot – Flugchaos in den USA: Was hinter dem seltenen Groundstop steckt",
+     "official": false
+    },
+    {
+     "outlet": "NHK News (Japanese)",
+     "title": "Flight suspensions at US airports with over 10,000 cancellations; chaos continues after lifting",
+     "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+     "published": "2026-11-14T09:26:00Z",
+     "translated_from": "ja",
+     "original_title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
+     "official": false
+    },
+    {
+     "outlet": "Times of India",
+     "title": "US flight chaos: Trump official seeks $50 billion for air traffic control",
+     "url": "https://timesofindia.indiatimes.com/world/us/us-flight-chaos-trump-official-seeks-50-billion-for-air-traffic-control-overhaul-after-nationwide-disruptions/articleshow/135830168.cms",
+     "published": "2026-11-14T10:45:51Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "01d08d223e85",
+   "title": "Microsoft Restores Global Services After Historic Outage",
+   "summary": "Microsoft confirmed that all 365 cloud products and systems have been fully restored following a global outage that paralyzed businesses, governments, and hospitals worldwide.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "World",
+   "published": "2026-11-14T10:17:44Z",
+   "outlet_count": 17,
+   "sources": [
+    {
+     "outlet": "CNA (Singapore)",
+     "title": "Microsoft restores service to Outlook and Teams after global outage",
+     "url": "https://www.channelnewsasia.com/world/microsoft-restore-full-service-outlook-teams-global-outage-6551486",
+     "published": "2026-11-14T07:56:51Z",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "Microsoft struggles to restore online services after major outage",
+     "url": "https://www.videogameschronicle.com/news/microsoft-struggles-to-restore-online-services-after-major-outage/",
+     "published": "2026-11-13T12:17:50Z",
+     "official": false
+    },
+    {
+     "outlet": "RFI (France)",
+     "title": "Global Microsoft outage knocks out Outlook and other services",
+     "url": "https://www.rfi.fr/en/science-and-technology/20261113-global-microsoft-outage-knocks-out-outlook-and-other-services",
+     "published": "2026-11-13T12:34:23Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Microsoft’s massive Outlook outage might be over",
+     "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+     "published": "2026-11-13T16:17:11Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Microsoft services are returning after an outage took down Outlook, Teams and more",
+     "url": "https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/",
+     "published": "2026-11-13T16:35:36Z",
+     "official": false
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "Microsoft restores services after a global outage hit Outlook and Teams in more than 70 countries",
+     "url": "https://en.mercopress.com/2026/11/13/microsoft-restores-services-after-a-global-outage-hit-outlook-and-teams-in-more-than-70-countries?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "published": "2026-11-13T17:09:00Z",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame",
+     "url": "https://www.pcgamer.com/software/microsoft-deeply-apologizes-for-global-service-outage-says-no-ai-or-hackers-are-to-blame/",
+     "published": "2026-11-13T19:54:20Z",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "What to know about Microsoft's outage and why it takes so long to restore email services",
+     "url": "https://www.pbs.org/newshour/science/what-to-know-about-microsofts-outage-and-why-it-takes-so-long-to-restore-email-services",
+     "published": "2026-11-13T23:33:51Z",
+     "official": false
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Microsoft apologizes as global service outage stretches into second day",
+     "url": "https://www.koreaherald.com/article/10936977",
+     "published": "2026-11-14T03:04:59Z",
+     "official": false
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "Microsoft says services fully restored after outage roiled world",
+     "url": "https://www.japantimes.co.jp/business/2026/11/14/microsoft-outage-recovered/",
+     "published": "2026-11-14T04:53:00Z",
+     "official": false
+    },
+    {
+     "outlet": "BBC News",
+     "title": "Microsoft says services fully restored after day-long global outage",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-14T06:42:27Z",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Microsoft: Consumer services restored after outage",
+     "url": "https://cphpost.dk/2026-11-14/news/round-up/microsoft-consumer-services-restored-after-outage/",
+     "published": "2026-11-14T07:03:07Z",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Microsoft restores service to Outlook and Teams after global outage",
+     "url": "https://tech.yahoo.com/ai/copilot/articles/microsoft-outage-drags-hours-disrupting-233132005.html",
+     "published": "2026-11-14T07:23:17Z",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg via Techmeme",
+     "title": "Microsoft says all Microsoft 365 products are operational, ending an outage that disrupted governments, traders, hospitals, and businesses around the world",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/microsoft-says-making-progress-fixing-one-of-its-longest-outages",
+     "published": "2026-11-14T08:03:46Z",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu",
+     "title": "Microsoft says services fully restored after hourslong global outage",
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-says-consumer-products-services-recovered-still-monitoring-enterprise-services/article71701075.ece",
+     "published": "2026-11-14T09:58:34Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Microsoft Outage updates: Global outage ends after tech giant restores services across all affected systems",
+       "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outlook-outage-status-microsoft-365-services-live-updates-november-14-2026/article71700692.ece",
+       "published": "2026-11-14T08:41:48Z"
+      }
+     ]
+    },
+    {
+     "outlet": "New York Post",
+     "title": "Microsoft restores service to Outlook and Teams after historic outage crippled businesses, governments",
+     "url": "https://nypost.com/2026/11/14/business/microsoft-restores-service-to-outlook-and-teams-after-historic-outage-crippled-businesses-governments/",
+     "published": "2026-11-14T09:28:56Z",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Microsoft: Systems fully restored after outage",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-behoben-100.html",
+     "published": "2026-11-14T10:17:44Z",
+     "translated_from": "de",
+     "original_title": "Microsoft: Systeme nach Störung komplett wiederhergestellt",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "d3a9760b9c91",
+   "title": "White House Announces First Trilateral Meeting Between US, China, and Russia",
+   "summary": "Presidents Trump, Xi Jinping, and Vladimir Putin are set to hold an unprecedented trilateral meeting in China to discuss reducing nuclear arsenals and other global issues.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-11-14T10:59:18Z",
+   "outlet_count": 23,
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Trump, Xi and Putin to meet in China, White House says",
+     "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
+     "published": "2026-11-14T09:00:58Z",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg",
+     "title": "Trump to Hold Trilateral Meeting With Xi, Putin in China",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-meet-with-xi-putin-nov-19-in-china-white-house-says",
+     "published": "2026-11-13T23:51:47Z",
+     "official": false
+    },
+    {
+     "outlet": "The Washington Post",
+     "title": "Trump to have first trilateral meeting with Putin, Xi",
+     "url": "https://www.washingtonpost.com/politics/2026/11/13/trump-meet-with-putin-xi-jinping/",
+     "published": "2026-11-14T00:47:36Z",
+     "official": false
+    },
+    {
+     "outlet": "Yonhap News",
+     "title": "Trump to meet Xi, Putin in China next week; no plans for N. Korea engagement: reports",
+     "url": "https://en.yna.co.kr/view/AEN20261114001151315",
+     "published": "2026-11-14T01:30:02Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Trump to meet Xi, Putin in China next week; no plans for N. Korea engagement: reports",
+       "url": "https://en.yna.co.kr/view/AEN20261114001100315",
+       "published": "2026-11-14T00:50:20Z"
+      }
+     ]
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Trump, Xi and Putin to meet in China next week",
+     "url": "https://www.rte.ie/news/world/2026/1114/1599193-trump-xi-putin/",
+     "published": "2026-11-14T01:23:48Z",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "Trump, Putin and Xi to meet in first trilateral meeting between leaders",
+     "url": "https://thehill.com/homenews/administration/6220278-trump-putin-xi-trilateral-meeting/",
+     "published": "2026-11-14T01:30:55Z",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times",
+     "title": "Trump to raise nuclear-arms cuts with Putin, Xi on Nov 19, White House says",
+     "url": "https://www.straitstimes.com/world/united-states/trump-to-raise-nuclear-arms-cuts-with-putin-xi-on-thursday-white-house-says",
+     "published": "2026-11-14T01:39:16Z",
+     "official": false
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Trump to hold talks with Xi, Putin next week",
+     "url": "https://www.koreaherald.com/article/10936945",
+     "published": "2026-11-14T01:56:10Z",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Historic first summit for Trump, Xi, Putin will not focus on Ukraine, White House says",
+     "url": "https://kyivindependent.com/historic-first-summit-among-trump-xi-putin-will-not-focus-on-ukraine-white-house-says/",
+     "published": "2026-11-14T02:04:48Z",
+     "official": false
+    },
+    {
+     "outlet": "New York Times",
+     "title": "Trump to Meet With Putin and Xi in China, With Nuclear Proliferation on the Agenda",
+     "url": "https://www.nytimes.com/2026/11/13/us/politics/trump-putin-xi-china-nuclear-proliferation.html",
+     "published": "2026-11-14T02:24:24Z",
+     "official": false
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Trump to meet with Putin and Xi in China next week, US officials say",
+     "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914",
+     "published": "2026-11-14T02:43:31Z",
+     "official": false
+    },
+    {
+     "outlet": "CNBC via Techmeme",
+     "title": "US officials say Trump is not expected to raise allegations of a Chinese intelligence operation involving Jensen Huang during his upcoming meeting with Xi",
+     "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+     "published": "2026-11-14T03:10:01Z",
+     "official": false
+    },
+    {
+     "outlet": "KBS World",
+     "title": "Trump to Meet Xi and Putin in China, but Not Kim Jong-un",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205569",
+     "published": "2026-11-14T03:35:05Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Trump to meet Xi, Putin for three-way huddle on nuclear arms talks",
+     "url": "https://www.dw.com/en/trump-to-meet-xi-putin-for-three-way-huddle-on-nuclear-arms-talks/a-79946408?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-14T04:11:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Washington Examiner",
+     "title": "Jensen Huang Chinese spy scandal won’t be discussed as Trump prepares for historic trilateral with Xi and Putin",
+     "url": "https://www.washingtonexaminer.com/news/white-house/4803638/jensen-huang-chinese-spy-scandal-trump-trilateral-xi-putin/",
+     "published": "2026-11-14T05:14:59Z",
+     "official": false
+    },
+    {
+     "outlet": "BBC News",
+     "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+     "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-14T05:52:31Z",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Trump in historic meeting with Putin and Xi Thursday",
+     "url": "https://cphpost.dk/2026-11-14/global/trump-in-historic-meeting-with-putin-and-xi-thursday/",
+     "published": "2026-11-14T07:12:15Z",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Trump, Xi Jinping and Putin to hold first three-way meeting in China next week",
+     "url": "https://www.thejournal.ie/trump-putin-xi-jinping-7226025-Nov2026/",
+     "published": "2026-11-14T07:48:02Z",
+     "official": false
+    },
+    {
+     "outlet": "Sky News",
+     "title": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+     "url": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+     "published": "2026-11-14T08:19:00Z",
+     "official": false
+    },
+    {
+     "outlet": "NHK News (Japanese)",
+     "title": "First-ever US-China-Russia trilateral summit to be held on the 19th",
+     "url": "https://news.web.nhk/newsweb/na/nd-20261114de75768",
+     "published": "2026-11-14T08:26:00Z",
+     "translated_from": "ja",
+     "original_title": "米中ロ3か国首脳会談 19日に初めての開催へ",
+     "official": false
+    },
+    {
+     "outlet": "Asahi Shimbun (Japanese)",
+     "title": "First US-China-Russia trilateral summit to discuss nuclear disarmament and Iran in Shenzhen on the 19th",
+     "url": "http://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html?ref=rss",
+     "published": "2026-11-14T09:28:54Z",
+     "translated_from": "ja",
+     "original_title": "米中ロ初の3首脳会談へ 核軍縮・イラン情勢議論、中国深圳で19日",
+     "official": false
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "Donald Trump, Xi Jinping and Vladimir Poutine to meet Thursday in China, White House announces",
+     "url": "https://www.franceinfo.fr/monde/usa/donald-trump-xi-jinping-et-vladimir-poutine-se-reuniront-jeudi-en-chine-annonce-la-maison-blanche_8282168.html#xtor=RSS-3-[lestitres]",
+     "published": "2026-11-14T10:05:47Z",
+     "translated_from": "fr",
+     "original_title": "Donald Trump, Xi Jinping et Vladimir Poutine se réuniront jeudi en Chine, annonce la Maison Blanche",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Trump, Putin, Xi Jinping to meet in first trilateral of its kind",
+     "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/",
+     "published": "2026-11-14T10:59:18Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "774b0a2a709e",
+   "title": "US Floods Zone Proposal for Ukraine to Cede Donbas in Exchange for NATO",
+   "summary": "Ukrainian President Zelenskyy revealed that the United States floated a proposal for Ukraine to cede land to Russia in exchange for NATO membership, sparking European and domestic talks.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-11-14T10:51:35Z",
+   "outlet_count": 12,
+   "sources": [
+    {
+     "outlet": "Politico Europe",
+     "title": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
+     "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "published": "2026-11-14T10:48:19Z",
+     "official": false
+    },
+    {
+     "outlet": "Le Monde (France)",
+     "title": "LIVE, war in Ukraine: Volodymyr Zelensky says the US has discussed territorial concessions in exchange for NATO membership",
+     "url": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-les-dernieres-informations-au-14-novembre-2026_6808609_3210.html",
+     "published": "2026-11-14T08:56:15Z",
+     "translated_from": "fr",
+     "original_title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme que les Etats-Unis ont évoqué des concessions territoriales en échange d’une adhésion à l’OTAN",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg",
+     "title": "Zelenskyy Says US Floats NATO Membership in Deal for Donbas",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/zelenskyy-says-us-floats-nato-for-ukraine-in-exchange-for-donbas",
+     "published": "2026-11-14T09:32:42Z",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "US Raised Prospect of NATO Membership",
+     "url": "https://orf.at/stories/3448164/",
+     "published": "2026-11-14T10:47:55Z",
+     "translated_from": "de",
+     "original_title": "USA brachten NATO-Beitritt ins Spiel",
+     "official": false,
+     "also": [
+      {
+       "title": "Zelenskyy: US proposed NATO membership in exchange for territory",
+       "url": "https://orf.at/stories/3448165/",
+       "published": "2026-11-14T09:53:30Z",
+       "translated_from": "de",
+       "original_title": "Selenskyj: USA schlugen NATO-Beitritt bei Gebietsverzicht vor"
+      }
+     ]
+    },
+    {
+     "outlet": "ERT News (Greece)",
+     "title": "Ukraine in NATO and Donbas in Russia",
+     "url": "https://www.ertnews.gr/eidiseis/diethni/i-oukrania-sto-nato-kai-to-ntonmpas-sti-rosia-protasi-ton-ipa-stis-diapragmateyseis/",
+     "published": "2026-11-14T10:16:00Z",
+     "translated_from": "el",
+     "original_title": "Η Ουκρανία στο ΝΑΤΟ και το Ντονμπάς στη Ρωσία – Πρόταση των ΗΠΑ στις διαπραγματεύσεις",
+     "official": false
+    },
+    {
+     "outlet": "Ukrainska Pravda (Ukraine)",
+     "title": "Zelenskyy: US proposes NATO membership in exchange for Donbas withdrawal for the first time",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062849/",
+     "published": "2026-11-14T10:17:00Z",
+     "official": false
+    },
+    {
+     "outlet": "France 24",
+     "title": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+     "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+     "published": "2026-11-14T10:30:04Z",
+     "official": false
+    },
+    {
+     "outlet": "BBC News",
+     "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+     "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-14T10:30:38Z",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
+     "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+     "published": "2026-11-14T10:35:08Z",
+     "official": false
+    },
+    {
+     "outlet": "Corriere della Sera (Italy)",
+     "title": "Zelenskyy: \"The United States Proposes NATO Membership in Exchange for Ceding Donbas. I Will Ask Ukrainians What They Think\"",
+     "url": "https://www.corriere.it/esteri/diretta-live/26_novembre_14/guerra-ucraina-russia-le-notizie-in-diretta.shtml",
+     "published": "2026-11-14T10:48:53Z",
+     "translated_from": "it",
+     "original_title": "Zelensky: «Gli Stati Uniti propongono l'adesione alla Nato in cambio della cessione del Donbass. Chiederò agli ucraini che cosa ne pensano»",
+     "official": false
+    },
+    {
+     "outlet": "Der Spiegel (Germany)",
+     "title": "Ukraine-Russia Conflict: US Negotiators Reportedly Raise Prospect of Ukraine's NATO Membership",
+     "url": "https://www.spiegel.de/ausland/ukraine-russland-konflikt-us-unterhaendler-bringen-offenbar-nato-beitritt-der-ukraine-ins-spiel-a-f8b38fc5-a754-4ec2-bf85-3c857dbd0f96#ref=rss",
+     "published": "2026-11-14T10:49:00Z",
+     "translated_from": "de",
+     "original_title": "Ukraine-Russland-Konflikt: US-Unterhändler bringen offenbar Nato-Beitritt der Ukraine ins Spiel",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "US proposed Donbas swap for NATO membership",
+     "url": "https://www.rte.ie/news/europe/2026/1114/1599202-us-ukraine-russia/",
+     "published": "2026-11-14T10:51:35Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "8ac689d60833",
+   "title": "US Loses Measles Elimination Status After 26 Years",
+   "summary": "The Pan American Health Organization reportedly stripped the US of its measles-elimination status as the country battles its worst disease outbreaks in decades.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-11-14T09:15:00Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "title": "US loses measles elimination status as cases surge: WSJ",
+     "url": "https://www.straitstimes.com/world/united-states/us-loses-measles-elimination-status-as-cases-surge-wsj",
+     "published": "2026-11-14T06:35:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "US poised to lose measles elimination status",
+     "url": "https://thehill.com/newsletters/healthcare/6220185-u-s-poised-to-lose-measles-elimination-status/",
+     "published": "2026-11-14T00:08:41Z",
+     "official": false
+    },
+    {
+     "outlet": "The Wall Street Journal",
+     "title": "U.S. Loses Measles-Elimination Status as Historic Resurgence Sickens Thousands",
+     "url": "https://www.wsj.com/health/u-s-loses-measles-elimination-status-as-historic-resurgence-sickens-thousands-b95e8780?mod=rss_usnews",
+     "published": "2026-11-14T00:30:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "After 26 years, the U.S. has lost its measles elimination status",
+     "url": "https://www.cnn.com/2026/11/13/health/us-measles-elimination-status",
+     "published": "2026-11-14T01:35:37Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "US loses measles-elimination status after 26 years, WSJ reports",
+     "url": "https://www.dw.com/en/us-loses-measles-elimination-status-after-26-years-wsj-reports/a-79946974?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-14T09:15:00Z",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "9bacc0a97adc",
+     "title": "OpenAI Launches ChatGPT Wallet for AI Agents",
+     "summary": "OpenAI introduced ChatGPT Wallet, enabling its Dots and consumer AI agents to autonomously make purchases and complete checkouts for Pro subscribers.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-11-13T20:45:10Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+       "published": "2026-11-13T20:45:10Z",
+       "official": false
+      },
+      {
+       "outlet": "OpenAI News",
+       "title": "Introducing ChatGPT Wallet",
+       "url": "https://openai.com/index/introducing-chatgpt-wallet",
+       "published": "2026-11-13T15:00:00Z",
+       "official": true
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "OpenAI launches ChatGPT Wallet, enabling ‘dot’ agents to make purchases",
+       "url": "https://9to5mac.com/2026/11/13/openai-launches-chatgpt-wallet-enabling-dot-agents-to-make-purchases/",
+       "published": "2026-11-13T15:46:54Z",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+       "published": "2026-11-13T16:00:12Z",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+       "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+       "published": "2026-11-13T18:55:21Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3cae1ab4fba6",
+     "title": "Anthropic's IPO Oversubscribed Sixfold Amid Investor Demand",
+     "summary": "Anthropic's public offering is reportedly six times oversubscribed and on track to become one of the largest in history, though Chinese investors are barred under US export rules.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-13T18:01:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+       "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+       "published": "2026-11-13T18:01:53Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+         "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+         "published": "2026-11-13T15:15:08Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "685d5960fe9e",
+     "title": "Anthropic Expands Claude Capabilities with Manufacturing Plugin and Parallel Workers",
+     "summary": "Anthropic launched Claude for Manufacturing to integrate directly with industrial software, alongside upgrades to Claude Code Projects for parallel AI workers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-14T00:28:11Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+       "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+       "published": "2026-11-13T16:37:01Z",
+       "official": false
+      },
+      {
+       "outlet": "HN",
+       "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+       "url": "https://claude.com/resources/articles/projects-redesigned",
+       "published": "2026-11-14T00:28:11Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "449fc35486b2",
+     "title": "Former Researcher Alleges Blackwell Chips Found in Chinese AI Models",
+     "summary": "A former OpenAI researcher claims technical evidence shows several prominent Chinese AI labs are utilizing Nvidia's latest Blackwell GPUs despite strict US export controls.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-13T15:21:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+       "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+       "published": "2026-11-13T15:21:04Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7bfee235c168",
+     "title": "Runway Releases Open-Source Robotics Model Praxis-1",
+     "summary": "Runway has released its Praxis-1 robotics model with open-source weights under the Apache 2.0 license, adapting video AI training for robot control.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-11-14T09:45:45Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+       "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+       "published": "2026-11-14T09:45:45Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "2355c22f8c7e",
+     "title": "Apple Releases tvOS Updates Bringing Siri AI to Older Apple TV Models",
+     "summary": "Apple has rolled out tvOS updates extending Siri AI features to 2021 and newer Apple TV 4K hardware while issuing troubleshooting steps for initial YouTube app bugs.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-11-13T19:42:49Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "tvOS 27.2.1 launching soon with Siri AI for older Apple TV 4K models",
+       "url": "https://9to5mac.com/2026/11/13/tvos-27-2-1-launching-soon-with-siri-ai-for-older-apple-tv-4k-models/",
+       "published": "2026-11-13T14:15:56Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Apple releases tvOS 27.2.1 and HomePod 27.2.1, here’s what’s new",
+         "url": "https://9to5mac.com/2026/11/13/apple-releases-tvos-27-2-1-and-homepod-27-2-1-heres-whats-new/",
+         "published": "2026-11-13T19:33:08Z"
+        },
+        {
+         "title": "Deals: Apple TV 4K release day discount, Apple Watch Ultra $250 off, AirPods Pro 3, AirTag 2 all-time low, more",
+         "url": "https://9to5mac.com/2026/11/13/deals-apple-tv-4k-discount-airpods-pro-3-airtag-2/",
+         "published": "2026-11-13T16:27:06Z"
+        },
+        {
+         "title": "PSA: YouTube app not working on your new Apple TV? Here’s the fix",
+         "url": "https://9to5mac.com/2026/11/13/new-apple-tv-youtube-broken-fix/",
+         "published": "2026-11-13T14:21:50Z"
+        },
+        {
+         "title": "New Apple TV 4K and HomeView now available: Here’s everything you need to know",
+         "url": "https://9to5mac.com/2026/11/13/new-apple-tv-4k-and-homeview-now-available-heres-everything-you-need-to-know/",
+         "published": "2026-11-13T13:57:26Z"
+        }
+       ]
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Siri AI has arrived on 2021 and newer Apple TV 4K models",
+       "url": "https://appleinsider.com/articles/26/11/13/siri-ai-is-coming-to-apple-tv-4k-including-models-from-2021?utm_source=rss",
+       "published": "2026-11-13T19:42:49Z",
+       "official": false,
+       "also": [
+        {
+         "title": "First HomeView and Apple TV 4K pre-orders are arriving",
+         "url": "https://appleinsider.com/articles/26/11/13/first-homeview-and-apple-tv-4k-pre-orders-are-arriving?utm_source=rss",
+         "published": "2026-11-13T12:08:26Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Verge",
+       "title": "The new Apple TV has a YouTube problem",
+       "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+       "published": "2026-11-13T16:55:57Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Releases tvOS 27.2.1 With Siri AI for Older Apple TVs",
+       "url": "https://www.macrumors.com/2026/11/13/apple-releases-tvos-27-2-1/",
+       "published": "2026-11-13T19:26:39Z",
+       "official": false,
+       "also": [
+        {
+         "title": "YouTube App Not Working on Your New Apple TV? Here's the Fix",
+         "url": "https://www.macrumors.com/2026/11/13/youtube-app-apple-tv-not-working-fix/",
+         "published": "2026-11-13T18:18:12Z"
+        },
+        {
+         "title": "Apple TV 4K Launch Day Deal Arrives at Amazon",
+         "url": "https://www.macrumors.com/2026/11/13/apple-tv-4k-launch-day-deal/",
+         "published": "2026-11-13T18:16:52Z"
+        },
+        {
+         "title": "The MacRumors Show: HomeView and Apple TV 4K First Impressions",
+         "url": "https://www.macrumors.com/2026/11/13/the-macrumors-show-homeview-first-impressions/",
+         "published": "2026-11-13T17:00:23Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "4a9d5156e924",
+     "title": "Apple Launches New Smart Home Accessories and HomeView",
+     "summary": "Apple has officially released its new video doorbell and smart security accessories alongside the latest Apple TV 4K.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-11-13T15:14:32Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Select 'Apple Home Collection' Accessories Now Available to Order",
+       "url": "https://www.macrumors.com/2026/11/13/apple-home-collection-orders-begin/",
+       "published": "2026-11-13T13:53:31Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "First Apple Home Collection devices can now be ordered",
+       "url": "https://appleinsider.com/articles/26/11/13/first-apple-home-collection-devices-can-now-be-ordered?utm_source=rss",
+       "published": "2026-11-13T13:10:25Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple Home’s new video doorbell, smart cameras now available to order",
+       "url": "https://9to5mac.com/2026/11/13/apple-homes-new-video-doorbell-smart-cameras-now-available-to-order/",
+       "published": "2026-11-13T15:14:32Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "793e0a384ec7",
+     "title": "Tesla Invites Select Customers to Order Cybercab for Personal Use",
+     "summary": "Tesla has opened orders for its driverless Cybercab to select consumers at $30,000 plus a required monthly autonomy subscription.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-14T02:25:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Bloomberg via Techmeme",
+       "title": "Tesla says \"select customers\" can now place orders for its Cybercab \"for personal use\", for $30K plus a required $299/month Autonomy Subscription to operate",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-14/tesla-says-it-s-starting-to-sell-cybercabs-for-personal-use",
+       "published": "2026-11-14T02:25:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d75c9785ff0a",
+     "title": "Workday Outage Locks Millions Out of Corporate Accounts",
+     "summary": "A widespread system outage at HR platform Workday temporarily locked thousands of employees out of essential workplace tasks.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-14T08:54:55Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Outage at HR platform Workday locks millions of employees out of their account",
+       "url": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
+       "published": "2026-11-14T08:54:55Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "85211ce87850",
+     "title": "Sony Brings QSSR Performance Upscaling to Six More PS5 Games",
+     "summary": "Sony confirmed that Marvel's Spider-Man 2, Arc Raiders, and four other titles are receiving QSSR upscaling support on base PS5 consoles.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-13T23:48:37Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "QSSR arrives in Marvel’s Spider-Man 2, Control Resonant, The Finals, Arc Raiders, No Man’s Sky, and Hell Let Loose: Vietnam",
+       "url": "https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/",
+       "published": "2026-11-13T14:00:16Z",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "PS5 QSSR support added to Marvel’s Spider-Man 2, CONTROL Resonant, ARC Raiders, THE FINALS, No Man’s Sky, and Hell Let Loose: Vietnam",
+       "url": "https://www.gematsu.com/2026/11/ps5-qssr-support-added-to-marvels-spider-man-2-control-resonant-arc-raiders-the-finals-no-mans-sky-and-hell-let-loose-vietnam",
+       "published": "2026-11-13T14:43:36Z",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Base PS5's QSSR Enhancer Coming to 6 More Games, in Spider-Man 2 Now",
+       "url": "https://www.pushsquare.com/news/2026/11/base-ps5s-qssr-enhancer-coming-to-6-more-games-in-spider-man-2-now",
+       "published": "2026-11-13T14:45:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Spider-Man 2 And A Bunch Of Other Great Games Are About To Look Even Better On Base PS5",
+       "url": "https://kotaku.com/spider-man-2-and-a-bunch-of-other-great-games-are-about-to-look-even-better-on-base-ps5-2000756594",
+       "published": "2026-11-13T16:11:41Z",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "6 more games receive PS5 performance updates via QSSR, including Arc Raiders and Control Resonant",
+       "url": "https://www.videogameschronicle.com/news/6-more-games-receive-ps5-performance-updates-via-qssr-including-arc-raiders-and-control-resonant/",
+       "published": "2026-11-13T16:35:57Z",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "PS5 QSSR Updates Revealed for Marvel's Spider-Man 2, Arc Raiders, and More",
+       "url": "https://www.ign.com/articles/ps5-qssr-updates-revealed-for-marvels-spider-man-2-arc-raiders-and-more",
+       "published": "2026-11-13T23:48:37Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "88a53fd5e54e",
+     "title": "GTA 6 Details Emerge Regarding Map Leak, Scope, and Twitch Drops",
+     "summary": "Ahead of its upcoming launch, details surrounding Grand Theft Auto 6 have surfaced, including a leaked physical map, a Twitch drops campaign, and small-time starting mechanics for protagonists.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-14T09:15:05Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "GTA 6's In-Game Animated TV Series, Macca & Friends, Hints at the Game's Absurd Scope",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6s-in-game-animated-tv-series-macca-and-friends-hints-at-the-games-absurd-scope",
+       "published": "2026-11-13T15:00:00Z",
+       "official": false,
+       "also": [
+        {
+         "title": "PSA: GTA 6 Does Not Have Online Multiplayer at Launch",
+         "url": "https://www.pushsquare.com/news/2026/11/psa-gta-6-does-not-have-online-multiplayer-at-launch",
+         "published": "2026-11-13T16:00:00Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Grand Theft Auto VI in-game animated series ‘Macca & Friends’ teaser trailer",
+       "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-in-game-animated-series-macca-friends-teaser-trailer",
+       "published": "2026-11-13T14:29:24Z",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "One week from launch, GTA 6's physical map reportedly leaks online thanks to the £350 collector's edition on show in a UK department store",
+       "url": "https://www.eurogamer.net/gta-6-map-leak-online-collectors-edition",
+       "published": "2026-11-13T15:13:40Z",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "GTA 6 Twitch Drops Campaign Surfaces on Streaming Site",
+       "url": "https://insider-gaming.com/gta-6-twitch-drops-campaign-surfaces-on-site/",
+       "published": "2026-11-14T09:15:05Z",
+       "official": false,
+       "also": [
+        {
+         "title": "GTA 6’s Jason and Lucia Start The Story As Small-Time Criminals with Basic Abilities",
+         "url": "https://insider-gaming.com/gta-6-jason-and-lucia-start-basic-criminals/",
+         "published": "2026-11-14T09:05:24Z"
+        },
+        {
+         "title": "GTA 6 Will ‘Encourage’ Empathy For The First Time in Franchise History",
+         "url": "https://insider-gaming.com/gta-6-empathy-first-time-rockstar-history/",
+         "published": "2026-11-14T08:51:35Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "11dab2d54ea1",
+     "title": "Rockstar Staff in the UK to Vote on Unionization",
+     "summary": "Over 1,600 Rockstar Games employees in the UK are set to vote on forming a union as the studio approaches the launch of Grand Theft Auto 6.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-13T17:02:52Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Jason Schreier",
+       "title": "GTA VI isn't the only big release for Rockstar Games this month. As the game comes out, more than 1,600 Rockstar workers in the UK will vote on whether to form a union.",
+       "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/ahead-of-grand-theft-auto-vi-rockstar-votes-on-unions?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDU4OTMwNiwiZXhwIjoxNzk1MTk0MTA2LCJhcnRpY2xlSWQiOiJUT0c5VzFUM0JaTUgwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.pX1t0D5UcH9Ln2cVBde9UrIwt50bMYPJU3M6o8E_NXE",
+       "published": "2026-11-13T17:02:52Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "38a90a2fcc02",
+     "title": "God of War: Sons of Sparta Headed to PS4 With Free Update",
+     "summary": "The Metroidvania spin-off God of War: Sons of Sparta is officially expanding its reach with a port back to the PlayStation 4 alongside a free content update.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-13T15:30:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "God of War: Sons of Sparta Really Will Be Ported Backwards to PS4",
+       "url": "https://www.pushsquare.com/news/2026/11/god-of-war-sons-of-sparta-really-will-be-ported-backwards-to-ps4",
+       "published": "2026-11-13T15:30:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "God of War: Sons of Sparta coming to PS4 on November 16 alongside free content update",
+       "url": "https://www.gematsu.com/2026/11/god-of-war-sons-of-sparta-coming-to-ps4-on-november-16-alongside-free-content-update",
+       "published": "2026-11-13T15:05:28Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "ddf3ed1e8dc8",
+     "title": "Democrat Jonathan Kreiss-Tomkins Wins Alaska Governor Race",
+     "summary": "Democrat Jonathan Kreiss-Tomkins flipped the Alaska gubernatorial seat without a ranked-choice runoff following Republican primary infighting.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-14T08:37:24Z",
+     "outlet_count": 10,
+     "sources": [
+      {
+       "outlet": "The Washington Post",
+       "title": "Democrat Jonathan Kreiss-Tomkins wins Alaska governor’s race",
+       "url": "https://www.washingtonpost.com/politics/2026/11/14/democrat-jonathan-kreiss-tomkins-wins-alaska-governors-race/",
+       "published": "2026-11-14T05:05:54Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Democrat Jonathan Kreiss-Tomkins wins the Alaska governor’s race",
+       "url": "https://www.nbcnews.com/politics/2026-election/jonathan-kreiss-tomkins-democrat-wins-alaska-governor-race-rcna606558",
+       "published": "2026-11-14T05:05:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Democrat flips Alaska governor's office",
+       "url": "https://thehill.com/homenews/campaign/6182120-democrat-kreiss-tomkins-wins-alaska/",
+       "published": "2026-11-14T05:05:12Z",
+       "official": false
+      },
+      {
+       "outlet": "Politico",
+       "title": "Democrat Jonathan Kreiss-Tomkins flips Alaska’s gubernatorial seat",
+       "url": "https://www.politico.com/news/2026/11/14/jonathan-kreiss-tomkins-wins-alaska-governor-01166573",
+       "published": "2026-11-14T05:07:08Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Jonathan Kreiss-Tomkins becomes first Democrat since 1998 elected governor in Alaska",
+       "url": "https://www.yahoo.com/news/politics/articles/kreiss-tomkins-becomes-first-democrat-050735181.html",
+       "published": "2026-11-14T05:07:35Z",
+       "official": false
+      },
+      {
+       "outlet": "NPR News",
+       "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+       "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+       "published": "2026-11-14T05:12:43Z",
+       "official": false
+      },
+      {
+       "outlet": "Fox News",
+       "title": "Democrat flips Alaska governor's mansion after Trump-backed GOP infighting",
+       "url": "https://www.foxnews.com/politics/democrat-flips-alaska-governors-mansion-trump-backed-gop-infighting",
+       "published": "2026-11-14T06:09:34Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Alaska elects first Democrat governor since 1998",
+       "url": "https://www.cbsnews.com/news/alaska-governor-jkt-jonathan-kreiss-tomkins-election/",
+       "published": "2026-11-14T07:11:29Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Post",
+       "title": "Jonathan Kreiss-Tomkins becomes first Democrat since 1998 elected governor in Alaska",
+       "url": "https://nypost.com/2026/11/14/us-news/jonathan-kreiss-tomkins-becomes-first-democrat-since-1998-elected-governor-in-alaska/",
+       "published": "2026-11-14T07:17:04Z",
+       "official": false
+      },
+      {
+       "outlet": "Newsweek",
+       "title": "Democrat Wins Alaska Governor Race Without Ranked-Choice Runoff",
+       "url": "https://www.newsweek.com/democrat-wins-alaska-governor-race-without-ranked-choice-runoff-12715065",
+       "published": "2026-11-14T08:37:24Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "52fbf65e8382",
+     "title": "Tanker and Cruise Ship Collide on Mississippi River in New Orleans",
+     "summary": "A commercial tanker struck a river cruise boat near New Orleans, resulting in dozens of hospitalizations with non-life-threatening injuries.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-14T10:23:26Z",
+     "outlet_count": 13,
+     "sources": [
+      {
+       "outlet": "CBS News",
+       "title": "Passengers rescued after tanker hit river cruise in New Orleans",
+       "url": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/",
+       "published": "2026-11-14T04:03:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Caller",
+       "title": "Rescue Effort Underway After Tanker Collides With River Boat Cruise Ship",
+       "url": "https://dailycaller.com/2026/11/13/rescue-effort-underway-tanker-collides-with-river-boat-cruise-ship-port-of-new-orleans-american-cruise-lines",
+       "published": "2026-11-13T20:47:49Z",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+       "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+       "published": "2026-11-13T21:04:32Z",
+       "official": false
+      },
+      {
+       "outlet": "CBC News",
+       "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+       "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
+       "published": "2026-11-13T21:06:41Z",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+       "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+       "published": "2026-11-14T03:11:28Z",
+       "official": false,
+       "also": [
+        {
+         "title": "New Orleans boat crash: all passengers and crew found alive in ‘miracle on the Mississippi’",
+         "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
+         "published": "2026-11-13T23:03:17Z"
+        }
+       ]
+      },
+      {
+       "outlet": "BBC News",
+       "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+       "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-13T23:40:45Z",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal",
+       "title": "A Tanker Lost Control and Hit a River Cruise Ship in New Orleans",
+       "url": "https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=rss_usnews",
+       "published": "2026-11-13T23:44:00Z",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "News Wrap: Tanker crashes into river cruise boat in New Orleans",
+       "url": "https://www.pbs.org/newshour/show/news-wrap-tanker-crashes-into-river-cruise-boat-in-new-orleans",
+       "published": "2026-11-13T23:55:45Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "All passengers accounted for after tanker hits cruise ship, New Orleans mayor says",
+       "url": "https://www.yahoo.com/news/us/live/all-passengers-accounted-for-after-tanker-collides-with-cruise-ship-in-new-orleans-mayor-says-223554822.html",
+       "published": "2026-11-14T02:00:53Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
+       "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
+       "published": "2026-11-14T03:09:21Z",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "'Miracle on Mississippi'",
+       "url": "https://www.rte.ie/news/us/2026/1114/1599198-vessel-new-orleans/",
+       "published": "2026-11-14T08:26:25Z",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Tanker hits river cruise boat on Mississippi River, 32 in hospital",
+       "url": "https://www.thejournal.ie/boat-collision-new-orleans-7225942-Nov2026/",
+       "published": "2026-11-14T08:46:00Z",
+       "official": false
+      },
+      {
+       "outlet": "franceinfo (France)",
+       "title": "Container Ship and Cruise Ship Collide in Port of New Orleans",
+       "url": "https://www.franceinfo.fr/monde/usa/un-porte-conteneurs-et-un-bateau-de-croisiere-sont-entres-en-collision-dans-le-port-de-la-nouvelle-orleans_8281676.html#xtor=RSS-3-[lestitres]",
+       "published": "2026-11-14T10:23:26Z",
+       "translated_from": "fr",
+       "original_title": "Un porte-conteneurs et un bateau de croisière sont entrés en collision dans le port de La Nouvelle-Orléans",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "321027b71281",
+     "title": "Senate Democrats Face Leadership Challenge as Van Hollen Challenges Schumer",
+     "summary": "Maryland Senator Chris Van Hollen's challenge against Chuck Schumer has opened a wider internal debate over the strategic direction of the Democratic party.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-13T21:34:14Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Tangle",
+       "title": "Sen. Chris Van Hollen announces he is challenging Schumer for Senate Majority Leader.",
+       "url": "https://www.readtangle.com/sen-chris-van-hollen-announces-he-is-challenging-schumer-for-senate-majority-leader/",
+       "published": "2026-11-13T19:11:33Z",
+       "official": false
+      },
+      {
+       "outlet": "Common Dreams",
+       "title": "Our Revolution Endorses Chris Van Hollen for Senate Majority Leader",
+       "url": "https://www.commondreams.org/newswire/our-revolution-endorses-chris-van-hollen-for-senate-majority-leader",
+       "published": "2026-11-13T18:58:15Z",
+       "official": false,
+       "also": [
+        {
+         "title": "RootsAction Announces Escalation of National Campaign Supporting Van Hollen for Senate Majority Leader",
+         "url": "https://www.commondreams.org/newswire/rootsaction-announces-escalation-of-national-campaign-supporting-van-hollen-for-senate-majority-leader",
+         "published": "2026-11-13T11:53:28Z"
+        }
+       ]
+      },
+      {
+       "outlet": "NPR News",
+       "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+       "url": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight",
+       "published": "2026-11-13T21:06:09Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+         "url": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+         "published": "2026-11-13T12:07:12Z"
+        }
+       ]
+      },
+      {
+       "outlet": "ABC News",
+       "title": "Schumer and Van Hollen face off for Senate majority leader. What do Democrats think?",
+       "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386",
+       "published": "2026-11-13T19:02:06Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Maryland Sen. Van Hollen says he will challenge Sen. Schumer for Democratic leader",
+         "url": "https://abcnews.com/Politics/maryland-sen-chris-van-hollen-challenge-sen-chuck/story?id=138097994",
+         "published": "2026-11-13T13:14:56Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "As Van Hollen wages a challenge, Senate Democrats are torn on whom to elect as their leader",
+       "url": "https://www.theguardian.com/us-news/2026/nov/13/democrats-midterms-senate-leader",
+       "published": "2026-11-13T21:34:14Z",
+       "official": false,
+       "also": [
+        {
+         "title": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about",
+         "url": "https://www.theguardian.com/commentisfree/2026/nov/13/chuck-schumer-chris-van-hollen-senate-leader",
+         "published": "2026-11-13T21:28:45Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "1597d5fcbfed",
+     "title": "Trump Administration Delays Medicaid Work Requirement Enforcement",
+     "summary": "The federal government has pushed back the enforcement date for strict Medicaid work requirements, allowing states an additional six months until July.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-14T02:22:25Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "New York Times",
+       "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
+       "url": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
+       "published": "2026-11-14T02:22:25Z",
+       "official": false
+      },
+      {
+       "outlet": "Axios",
+       "title": "Trump administration delays Medicaid work requirements by six months",
+       "url": "https://www.axios.com/2026/11/13/medicaid-work-requirements-six-month-delay",
+       "published": "2026-11-13T22:46:47Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Trump administration delays Medicaid work requirement enforcement",
+       "url": "https://thehill.com/policy/healthcare/6220069-trump-delays-medicaid-work-requirements/",
+       "published": "2026-11-13T23:19:17Z",
+       "official": false
+      },
+      {
+       "outlet": "The Washington Post",
+       "title": "States can delay controversial Medicaid work requirement for six months",
+       "url": "https://www.washingtonpost.com/health/2026/11/13/states-can-delay-controversial-medicaid-work-requirement-six-months/",
+       "published": "2026-11-14T00:48:51Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "bcb4e61ceed1",
+     "title": "South Sudan Postpones First National Elections to February 2027",
+     "summary": "South Sudan's election commission has delayed the country's long-awaited inaugural national elections until February 11, 2027.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-14T10:30:32Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Hindu",
+       "title": "South Sudan postpones first national elections until February",
+       "url": "https://www.thehindu.com/news/international/south-sudan-postpones-first-national-elections-until-february/article71701304.ece",
+       "published": "2026-11-14T09:10:07Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "South Sudan delays election to February 11 2027",
+       "url": "https://www.straitstimes.com/world/south-sudan-delays-election-to-february-11-2027",
+       "published": "2026-11-14T08:34:12Z",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "South Sudan postpones first national elections until February",
+       "url": "https://www.rfi.fr/en/africa/20261114-south-sudan-postpones-first-national-elections-until-february",
+       "published": "2026-11-14T09:00:26Z",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "South Sudan postpones first-ever national elections until February",
+       "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss",
+       "published": "2026-11-14T10:30:32Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aa1586ef8a0b",
+     "title": "Andorra Goalkeeper Banned 12 Games Following Fatal On-Field Collision",
+     "summary": "Goalkeeper Jesus Owono received a 12-match suspension following a tragic on-field collision that led to the death of Tenerife striker Jesus de Miguel.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-14T08:12:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Sky News",
+       "title": "Goalkeeper given 12-game ban for fatal collision with Tenerife striker",
+       "url": "https://news.sky.com/story/goalkeeper-jesus-owono-given-12-game-ban-for-fatal-collision-with-tenerife-striker-jesus-de-miguel-13612126",
+       "published": "2026-11-14T08:12:00Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "E Guinea goalkeeper involved in fatal collision gets 12-game ban",
+       "url": "https://www.bbc.co.uk/sport/football/articles/cm98xy2j8k1ko?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-13T22:37:30Z",
+       "official": false
+      },
+      {
+       "outlet": "CBC News",
+       "title": "Spanish goalkeeper barred 12 games for collision leading to death of Tenerife striker",
+       "url": "https://www.cbc.ca/sports/soccer/jesus-owono-suspension-12-games-fatal-collision-jesus-de-miguel-9.7421591?cmp=rss",
+       "published": "2026-11-13T22:42:42Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "83977d472522",
+     "title": "US Senators Demand Preservation of Records on Starlink Restrictions in Ukraine",
+     "summary": "US lawmakers have asked Elon Musk to preserve records regarding satellite internet glitches and restrictions faced by Ukrainian forces on the frontline.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-14T09:48:00Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "WSJ: US senators tell Musk to preserve records on Starlink restrictions in Ukraine",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062840/",
+       "published": "2026-11-14T08:47:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg",
+       "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
+       "published": "2026-11-14T01:31:24Z",
+       "official": false
+      },
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "US Democrats direct Musk to preserve records on Ukraine's Starlink restriction, WSJ reports",
+       "url": "https://kyivindependent.com/us-democrats-direct-musk-to-preserve-records-on-ukraines-starlink-restriction-wsj-reports/",
+       "published": "2026-11-14T04:51:03Z",
+       "official": false
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "USA: Senators want answers on Starlink in Ukraine",
+       "url": "https://www.spiegel.de/ausland/usa-senatoren-wollen-antworten-zu-starlink-in-der-ukraine-a-57aee2e6-6574-4d0f-a495-95d53b0425c7#ref=rss",
+       "published": "2026-11-14T09:48:00Z",
+       "translated_from": "de",
+       "original_title": "USA: Senatoren wollen Antworten zu Starlink in der Ukraine",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5716aebfc1ef",
+     "title": "European Leaders Form Joint Negotiating Team for Ukraine Peace Talks",
+     "summary": "The E5 powers and EU institutions have agreed on a unified team to represent European interests in forthcoming Ukraine peace negotiations.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-14T07:12:10Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Europe has set its team for Ukraine peace talks",
+       "url": "https://cphpost.dk/2026-11-14/global/europe-has-set-its-team-for-ukraine-peace-talks/",
+       "published": "2026-11-14T07:12:10Z",
+       "official": false
+      },
+      {
+       "outlet": "Sky News",
+       "title": "EU leaders choose team for Ukraine peace talks after months of wavering",
+       "url": "https://news.sky.com/story/eu-leaders-choose-team-for-ukraine-peace-talks-after-months-of-wavering-13612008",
+       "published": "2026-11-13T18:04:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "European leaders agree on joint team for Ukraine peace negotiations, Costa says",
+       "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
+       "published": "2026-11-13T20:40:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e5eed251dd82",
+     "title": "Finland Strongly Rejects Reported Russian Demands to Leave NATO",
+     "summary": "Finnish defense officials sharply denounced a reported Russian demand for Finland to exit NATO as part of any broader peace settlement.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-14T09:57:48Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Politico Europe",
+       "title": "Finland rejects reported Russian demand to leave NATO as part of peace talks",
+       "url": "https://www.politico.eu/article/finland-rejects-reported-russian-demand-to-leave-nato-as-part-of-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "published": "2026-11-14T09:57:48Z",
+       "official": false
+      },
+      {
+       "outlet": "Meduza (Russia)",
+       "title": "Russia demands Finland leave NATO, Bild reports. Moscow denies it, and Helsinki is outraged.",
+       "url": "https://meduza.io/en/news/2026/11/14/russia-demands-finland-leave-nato-bild-reports-moscow-denies-it-and-helsinki-is-outraged",
+       "published": "2026-11-14T00:11:36Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "34c8b18e1b3d",
+     "title": "Northern Ireland Poll Finds Majority Favor Rejoining EU",
+     "summary": "A recent opinion poll indicates that over half of voters in Northern Ireland now support the United Kingdom rejoining the European Union.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-14T09:38:10Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Poll finds over half of voters in Northern Ireland think UK should rejoin EU",
+       "url": "https://www.thejournal.ie/northern-ireland-poll-uk-rejoin-eu-7226077-Nov2026/",
+       "published": "2026-11-14T09:38:10Z",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "More than half of NI voters back UK rejoining EU - poll",
+       "url": "https://www.rte.ie/news/2026/1114/1599195-ni-eu-poll/",
+       "published": "2026-11-14T03:46:44Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "1ba553590918",
+     "title": "US Air Force Captain Arrested in Okinawa for Drunk Driving",
+     "summary": "An American service member was arrested in Okinawa on suspicion of drunk driving, shortly after new bilateral crime-prevention measures were agreed upon.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-14T09:37:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "U.S. Air Force captain arrested in Okinawa for alleged drunk driving",
+       "url": "https://www.japantimes.co.jp/news/2026/11/14/japan/crime-legal/okinawa-us-captain-arrest/",
+       "published": "2026-11-14T09:37:00Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "US Air Force captain arrested in Japan's Okinawa for alleged drunk driving",
+       "url": "https://www.channelnewsasia.com/world/us-air-force-captain-arrested-in-japans-okinawa-alleged-drunk-driving-6551551",
+       "published": "2026-11-14T09:33:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "7856841a44a2",
+     "title": "Beijing Briefs Seoul on North Korean Leader's Recent Visit",
+     "summary": "Chinese Foreign Minister Wang Yi provided details regarding North Korean leader Kim Jong-un's recent trip to China during bilateral talks with South Korea.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-14T05:30:30Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Beijing details N. Korean leader's China visit in FM talks with Seoul: official",
+       "url": "https://www.koreaherald.com/article/10937015",
+       "published": "2026-11-14T05:30:30Z",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Beijing details N. Korean leader's China visit in FM talks with Seoul: official",
+       "url": "https://en.yna.co.kr/view/AEN20261114001900315",
+       "published": "2026-11-14T05:04:07Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a5259b5557c3",
+     "title": "South Korea Falls to Saudi Arabia in International Football Friendly",
+     "summary": "The South Korean men's national football team suffered a 2-3 defeat against Saudi Arabia in Qatar, marking their first loss to the side in 21 years.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-14T04:24:50Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "S. Korea Fall to Saudi Arabia 2-3 in Football Friendly in Qatar",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205570",
+       "published": "2026-11-14T04:24:50Z",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "S. Korea fall to Saudi Arabia in football for 1st time in 21 yrs",
+       "url": "https://en.yna.co.kr/view/AEN20261114000251315",
+       "published": "2026-11-13T16:47:14Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "053a98dfcfb7",
+     "title": "Early Black Friday Sales Offer Discounts on AirPods, Mac mini, and AirTags",
+     "summary": "Early holiday markdowns have slashed prices on Apple hardware, including record-low pricing for AirTags and notable price cuts on Mac mini models.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-13T22:30:29Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Best Early Black Friday AirPods Deals (2026)",
+       "url": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/",
+       "published": "2026-11-13T22:30:29Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Best Apple Deals of the Week: AirTag 2 Hits Record Low Price, Plus Early Black Friday Sales",
+       "url": "https://www.macrumors.com/2026/11/13/best-apple-deals-of-the-week-11-13-26/",
+       "published": "2026-11-13T14:53:49Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Best early Black Friday Mac mini, Mac Studio deals offer up to $205 off",
+       "url": "https://appleinsider.com/articles/26/11/13/best-early-black-friday-mac-mini-mac-studio-deals-offer-up-to-205-off?utm_source=rss",
+       "published": "2026-11-13T15:11:29Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "931db5686e32",
+     "title": "PlayStation 5 Slim Ghost of Yōtei Bundle Open-Box Deal",
+     "summary": "Best Buy has marked down an open-box PlayStation 5 Slim Ghost of Yōtei Gold Limited Edition Bundle to $424.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-14T09:15:48Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "PlayStation 5 Slim Console – Ghost of Yōtei Gold Limited Edition Bundle - Open Box - Excellent is $424.99 at Best Buy",
+       "url": "https://buff.ly/K6tZZM2",
+       "published": "2026-11-14T09:15:48Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T11:00:48Z",
+ "timezone": "America/New_York",
+ "window_hours": 26,
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1208,
+  "clusters": 978,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "san",
+   "title": "Straight Arrow News",
+   "status": "error",
+   "detail": "ValueError: not a feed: the site answered with a web page (often a bot check)"
+  },
+  {
+   "key": "helsinkitimes",
+   "title": "Helsinki Times (Finland)",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.helsinkitimes.fi/?format=feed&type=rss"
+  }
+ ]
+}
