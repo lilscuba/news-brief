@@ -1,0 +1,2200 @@
+{
+ "version": 1,
+ "headline": "SpaceX achieves a historic Starship capture as the US recovers from a nationwide flight stoppage and pressure mounts over Nvidia's leadership.",
+ "top": [
+  {
+   "id": "a8083da42619",
+   "title": "SpaceX Catches Starship Upper Stage Midair in Breakthrough Test Flight",
+   "summary": "SpaceX achieved a major engineering milestone by using launch tower arms to catch the upper stage of its Starship megarocket upon return from orbit, though an issue prevented catching the booster stage.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-11-15T10:24:22Z",
+   "outlet_count": 18,
+   "sources": [
+    {
+     "outlet": "Washington Examiner",
+     "title": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+     "url": "https://www.washingtonexaminer.com/policy/technology/4804048/spacex-starship-returns-orbit-captured-launch-pad-arms-dramatic-first/",
+     "published": "2026-11-14T22:57:15Z",
+     "official": false
+    },
+    {
+     "outlet": "CBC News",
+     "title": "SpaceX Starship successfully re-docks at Texas launch pad after orbiting Earth",
+     "url": "https://www.cbc.ca/news/world/spacex-starship-re-entry-space-earth-9.7422284?cmp=rss",
+     "published": "2026-11-14T18:29:44Z",
+     "official": false
+    },
+    {
+     "outlet": "The Daily Wire",
+     "title": "SpaceX Catches Starship With Giant Launchpad Arms In Dramatic First",
+     "url": "https://www.dailywire.com/news/spacex-makes-history-with-starship-catch-after-booster-bails-on-landing",
+     "published": "2026-11-14T18:59:22Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "SpaceX successfully catches Starship after launch for the first time",
+     "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+     "published": "2026-11-14T20:54:14Z",
+     "official": false
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "SpaceX catches the Starship to end Flight 15",
+     "url": "https://www.spacex.com/launches/starship-flight-15",
+     "published": "2026-11-14T21:22:24Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "SpaceX carries out first-ever spaceship capture",
+     "url": "https://www.dw.com/en/spacex-carries-out-first-ever-spaceship-capture/a-79950275?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-14T21:35:00Z",
+     "official": false
+    },
+    {
+     "outlet": "CNA (Singapore)",
+     "title": "SpaceX Starship returns to landing pad from orbit, acing test for reusable rockets",
+     "url": "https://www.channelnewsasia.com/world/spacex-starship-returns-landing-pad-orbit-acing-test-reusable-rockets-6552211",
+     "published": "2026-11-14T21:42:00Z",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "SpaceX successfully catches Starship and makes history",
+     "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+     "published": "2026-11-14T21:42:41Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge",
+     "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+     "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+     "published": "2026-11-14T21:44:44Z",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "SpaceX's Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+     "url": "https://www.pbs.org/newshour/science/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first",
+     "published": "2026-11-14T21:56:15Z",
+     "official": false
+    },
+    {
+     "outlet": "BBC News",
+     "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+     "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-14T22:09:40Z",
+     "official": false
+    },
+    {
+     "outlet": "Ars Technica",
+     "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+     "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+     "published": "2026-11-15T00:40:59Z",
+     "official": false
+    },
+    {
+     "outlet": "The Hill",
+     "title": "SpaceX catches Starship for first time, drawing praise in Washington",
+     "url": "https://thehill.com/policy/technology/6221123-spacex-starship-historic-landing-lawmakers-react/",
+     "published": "2026-11-15T04:14:36Z",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu",
+     "title": "SpaceX pulls off first-ever spaceship ‘catch’",
+     "url": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
+     "published": "2026-11-15T07:24:53Z",
+     "official": false
+    },
+    {
+     "outlet": "NHK News (Japanese)",
+     "title": "SpaceX heavy spacecraft achieves first-ever catch at launch pad after Earth orbit",
+     "url": "https://news.web.nhk/newsweb/na/nd-20261115de76047",
+     "published": "2026-11-15T07:48:00Z",
+     "translated_from": "ja",
+     "original_title": "スペースXの大型宇宙船 地球周回後の発射台キャッチに初成功",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Elon Musk's SpaceX pulls off first-ever spaceship 'catch'",
+     "url": "https://www.thejournal.ie/spacex-starship-catch-7226821-Nov2026/",
+     "published": "2026-11-15T08:29:37Z",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Watch: SpaceX catches Starship in midair on return to launch tower",
+     "url": "https://www.euronews.com/video/2026/11/15/watch-spacex-catches-starship-in-midair-on-return-to-launch-tower",
+     "published": "2026-11-15T10:05:49Z",
+     "official": false,
+     "also": [
+      {
+       "title": "SpaceX catches part of its Starship rocket in historic first",
+       "url": "https://www.euronews.com/2026/11/15/spacex-catches-part-of-its-starship-rocket-in-historic-first",
+       "published": "2026-11-15T08:32:33Z"
+      }
+     ]
+    },
+    {
+     "outlet": "franceinfo (France)",
+     "title": "SpaceX successfully catches the upper stage of its Starship megarocket for the first time",
+     "url": "https://www.franceinfo.fr/sciences/espace/spacex-parvient-pour-la-premiere-fois-a-recuperer-l-etage-superieur-de-sa-megafusee-starship_8283233.html#xtor=RSS-3-[lestitres]",
+     "published": "2026-11-15T10:24:22Z",
+     "translated_from": "fr",
+     "original_title": "SpaceX parvient pour la première fois à récupérer l'étage supérieur de sa mégafusée Starship",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "869f31a1a794",
+   "title": "Nationwide FAA Ground Stop Halts US Flights Following Communications Failure",
+   "summary": "A failure in legacy telecommunications infrastructure supporting air traffic control triggered an unprecedented ground stop across the United States, canceling thousands of flights before operations resumed.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-11-15T11:00:47Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "How Trump administration responded to FAA ground stop",
+     "url": "https://www.cbsnews.com/news/faa-ground-stop-trump-admin-response/",
+     "published": "2026-11-15T03:16:17Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Travelers stranded, flights canceled after ground stop. Here's what we know",
+       "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
+       "published": "2026-11-14T23:49:31Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Courthouse News Service",
+     "title": "Thousands of flights canceled as airlines work to dig out from nationwide ground stop",
+     "url": "https://www.courthousenews.com/thousands-of-flights-canceled-as-airlines-work-to-dig-out-from-nationwide-ground-stop/",
+     "published": "2026-11-14T15:15:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Daily Caller",
+     "title": "FAA Lets Flights Resume After Hours-Long Ground Stop. Mullin Says Disruption Wasn’t A ‘Nefarious Attack.’",
+     "url": "https://dailycaller.com/2026/11/14/faa-ground-stop-aging-technology-duffy-mullin",
+     "published": "2026-11-14T15:26:48Z",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian",
+     "title": "Rare nationwide ground stop halts US air traffic",
+     "url": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video",
+     "published": "2026-11-14T15:54:44Z",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "What to know about flights after the U.S. nationwide ground stop",
+     "url": "https://www.pbs.org/newshour/nation/what-to-know-about-flights-after-the-u-s-nationwide-ground-stop",
+     "published": "2026-11-14T18:32:01Z",
+     "official": false
+    },
+    {
+     "outlet": "KBS World",
+     "title": "US Expects Air Traffic to Return to Normal Sunday After Nationwide Disruption",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205580",
+     "published": "2026-11-15T04:36:47Z",
+     "official": false
+    },
+    {
+     "outlet": "The Hindu",
+     "title": "Trump administration blames ‘overloaded’ systems for ground stop after FAA lets flights resume",
+     "url": "https://www.thehindu.com/news/international/trump-administration-blames-overloaded-systems-for-ground-stop-after-faa-lets-flights-resume/article71700826.ece",
+     "published": "2026-11-15T08:56:34Z",
+     "official": false
+    },
+    {
+     "outlet": "Just the News",
+     "title": "FAA contractor responds to Duffy suggesting their error contributed to ground stop",
+     "url": "https://justthenews.com/government/federal-agencies/faa-contractor-responds-duffy-suggesting-their-error-contributed-ground?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+     "published": "2026-11-15T11:00:47Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "6c0c3c691799",
+   "title": "Major Tech Figures and Shareholders Campaign to Reinstate Jensen Huang at Nvidia",
+   "summary": "High-profile tech leaders including Elon Musk and major institutional investors holding billions in stock have petitioned Nvidia's board to bring back ousted CEO Jensen Huang following recent executive turmoil.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Tech",
+   "published": "2026-11-15T07:01:35Z",
+   "outlet_count": 2,
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+     "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+     "published": "2026-11-14T21:41:22Z",
+     "official": false
+    },
+    {
+     "outlet": "Interconnects AI via Techmeme",
+     "title": "Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up",
+     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+     "published": "2026-11-14T18:05:02Z",
+     "official": false
+    },
+    {
+     "outlet": "Business Insider via Techmeme",
+     "title": "A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed",
+     "url": "https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11",
+     "published": "2026-11-14T19:01:14Z",
+     "official": false
+    },
+    {
+     "outlet": "CNBC via Techmeme",
+     "title": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia",
+     "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+     "published": "2026-11-14T19:55:01Z",
+     "official": false
+    },
+    {
+     "outlet": "Forbes via Techmeme",
+     "title": "Unlike other larger-than-life tech founders, Jensen Huang lacked super-voting shares in Nvidia, making it easier for him to lose control of the company",
+     "url": "https://www.forbes.com/sites/aliciapark/2026/11/13/why-jensen-huangs-firing-couldnt-happen-to-mark-zuckerberg-or-many-other-tech-titans/",
+     "published": "2026-11-14T22:05:01Z",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg via Techmeme",
+     "title": "23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are \"untouchable\"",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-s-jensen-huang-joins-billionaire-tech-titans-cheating-on-their-wives",
+     "published": "2026-11-15T02:05:01Z",
+     "official": false
+    },
+    {
+     "outlet": "Washington Post via Techmeme",
+     "title": "The Nvidia scandal presents a political challenge for the White House by tying together data centers, China, and corruption, all key voter issues in midterms",
+     "url": "https://www.washingtonpost.com/politics/2026/11/14/nvidia-scandal-hits-trumps-political-vulnerabilities-after-democratic-sweep/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzk0NjMyNDAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzk2MDE0Nzk5LCJpYXQiOjE3OTQ2MzI0MDAsImp0aSI6ImVjYmZmMGQyLTdiZGEtNDNjOS1iMzViLTVlMzZiMTFhMzlkNyIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9wb2xpdGljcy8yMDI2LzExLzE0L252aWRpYS1zY2FuZGFsLWhpdHMtdHJ1bXBzLXBvbGl0aWNhbC12dWxuZXJhYmlsaXRpZXMtYWZ0ZXItZGVtb2NyYXRpYy1zd2VlcC8ifQ.RnLIqxnR82OE4UaovEWu2ATiORrkV7A6UVgwGsg-1xQ&itid=gfta",
+     "published": "2026-11-15T04:15:42Z",
+     "official": false
+    },
+    {
+     "outlet": "Wall Street Journal via Techmeme",
+     "title": "How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions",
+     "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d?st=geQhk5",
+     "published": "2026-11-15T05:55:03Z",
+     "official": false
+    },
+    {
+     "outlet": "New York Post via Techmeme",
+     "title": "Nvidia insiders say Jensen Huang was prone to wild office tantrums, which a source says some employees were surprised hadn't leaked before his public downfall",
+     "url": "https://nypost.com/2026/11/14/business/how-ex-nvidia-ceo-jensen-huang-threw-tantrums-in-the-office-dressed-down-tech-execs-i-hope-you-die/",
+     "published": "2026-11-15T06:20:01Z",
+     "official": false
+    },
+    {
+     "outlet": "Financial Times via Techmeme",
+     "title": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy",
+     "url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+     "published": "2026-11-15T07:01:35Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "e1e28194d68f",
+   "title": "Top South Korean Tax Exam Scorer Admits to Cheating with Generative AI",
+   "summary": "The highest-scoring applicant on South Korea's national tax accountant qualification exam confessed to using a concealed camera and generative AI during the test, prompting heightened scrutiny of state exam oversight.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Korea",
+   "published": "2026-11-15T11:00:47Z",
+   "outlet_count": 6,
+   "sources": [
+    {
+     "outlet": "Yonhap News",
+     "title": "Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
+     "url": "https://en.yna.co.kr/view/AEN20261115000753315",
+     "published": "2026-11-15T08:23:30Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
+       "url": "https://en.yna.co.kr/view/AEN20261115000752315",
+       "published": "2026-11-15T06:41:31Z"
+      },
+      {
+       "title": "Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
+       "url": "https://en.yna.co.kr/view/AEN20261115000751315",
+       "published": "2026-11-15T04:49:44Z"
+      },
+      {
+       "title": "Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
+       "url": "https://en.yna.co.kr/view/AEN20261115000700315",
+       "published": "2026-11-15T04:15:54Z"
+      }
+     ]
+    },
+    {
+     "outlet": "KBS World",
+     "title": "Gov't Moves to Suspend Certification of Exam Top Scorer Who Admitted Cheating",
+     "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205584",
+     "published": "2026-11-15T05:30:50Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Police Launch Probe After Top Tax Accountant Exam Scorer Turns Himself In",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205578",
+       "published": "2026-11-15T03:11:29Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Mini camera, AI and smartphone: How tax exam top scorer says he cheated under two proctors’ noses",
+     "url": "https://www.koreaherald.com/article/10937594",
+     "published": "2026-11-15T08:18:06Z",
+     "official": false,
+     "also": [
+      {
+       "title": "AI cheating case raises scrutiny over test administration ahead of Suneung",
+       "url": "https://www.koreaherald.com/article/10937538",
+       "published": "2026-11-15T06:13:36Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "South Korea probes top exam scorer after AI cheating confession",
+     "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/south-korea-ai-test-cheating/",
+     "published": "2026-11-15T06:55:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian",
+     "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+     "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+     "published": "2026-11-15T08:56:11Z",
+     "official": false
+    },
+    {
+     "outlet": "The Korea Times",
+     "title": "Top tax accountant exam scorer admits to cheating using AI",
+     "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261115/top-tax-accountant-exam-scorer-admits-to-cheating-using-ai?utm_source=rss",
+     "published": "2026-11-15T11:00:47Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "9d186270db38",
+   "title": "Anthropic Faces Compute Bottlenecks and Market Uncertainty Ahead of Massive IPO",
+   "summary": "CEO Dario Amodei described compute acquisition as the company's deepest business dilemma as Anthropic prepares for what could be a record-setting public offering with hundreds of billions in compute commitments.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "AI",
+   "published": "2026-11-14T19:05:17Z",
+   "outlet_count": 1,
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+     "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+     "published": "2026-11-14T19:05:17Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+       "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+       "published": "2026-11-14T11:21:41Z"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "3fecc6a9d4a0",
+     "title": "OpenAI Disbands Dedicated Robotics Unit in Shift to General Models",
+     "summary": "OpenAI has reassigned its robotics researchers after determining that general-purpose frontier models like GPT-6 Astra can directly control robotic hardware without specialized architectures.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-14T11:40:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+       "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+       "published": "2026-11-14T11:40:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d82d2c1dae8d",
+     "title": "Gemini 4 Carbon and Fable 5.2 Overtake OpenAI on Math Benchmark",
+     "summary": "Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have claimed the top spots on the MathArena benchmark, displacing GPT-6.1 Sol despite carrying significantly higher compute costs.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-14T16:48:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+       "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+       "published": "2026-11-14T16:48:01Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a5dca2d386f6",
+     "title": "Anthropic Publishes Claude Opus 5.5 Prompting Guide Advising Less Instruction",
+     "summary": "Anthropic made Claude Opus 5.5 the default model on paid plans and advised developers to drop complex prompting patterns like 'think hard', noting the model operates best starting at medium reasoning effort.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-14T16:42:56Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+       "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+       "published": "2026-11-14T16:42:56Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6fc6bc2d3ff2",
+     "title": "Meituan Releases 1.6-Trillion Parameter LongCat-2.5 Agent Model",
+     "summary": "Chinese platform giant Meituan released open weights for LongCat-2.5, a 1.6-trillion-parameter agent model trained entirely on domestic Chinese hardware that scored near Claude Opus 5 on Terminal Bench.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-15T10:06:06Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+       "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+       "published": "2026-11-15T10:06:06Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7611c876b17c",
+     "title": "Australian Central Bank Finds AI Displacement Concentrated in Junior Tech Roles",
+     "summary": "Research from the Reserve Bank of Australia shows early evidence of generative AI reducing hiring demand for young entry-level workers, particularly in software engineering and customer support.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-15T10:45:58Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+       "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+       "published": "2026-11-15T10:45:58Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "358a36220f93",
+     "title": "Databento Secures $100 Million Series C at $1.1 Billion Valuation",
+     "summary": "Financial market data provider Databento raised $100 million to expand its API infrastructure, noting active contracts with five of the world's six largest frontier AI development labs.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-14T18:35:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "FinTech Global via Techmeme",
+       "title": "Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation",
+       "url": "https://fintech.global/2026/11/13/databento-hits-1-1bn-valuation-with-100m-series-c/",
+       "published": "2026-11-14T18:35:04Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "12cbba2b1877",
+     "title": "Nebuly Raises $21 Million to Measure Business ROI of Enterprise AI Agents",
+     "summary": "Nebuly closed a Series A round to expand software that tracks the productivity and financial impact of autonomous AI agents deployed inside enterprise environments.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-15T06:40:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Tech.eu via Techmeme",
+       "title": "Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A",
+       "url": "https://tech.eu/2026/11/12/nebuly-raises-21m-series-a-to-turn-ai-investments-into-measurable-results/",
+       "published": "2026-11-15T06:40:02Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "19d340976929",
+     "title": "Former OpenAI Director Helen Toner Warns AI Executives Require Strong Governance",
+     "summary": "Helen Toner, the former OpenAI board member involved in the 2023 dismissal of Sam Altman, reiterated in an interview that frontier AI executives cannot be trusted without strict external oversight.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-14T15:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+       "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+       "published": "2026-11-14T15:00:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "fd94443f1363",
+     "title": "Defense Robotics Startup Nidus Raises $30 Million in Seed Funding",
+     "summary": "Nidus raised $30 million from Kleiner Perkins and Costanoa to build AI-driven robotics software for US defense industrial manufacturing after securing rapid customer bookings.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-15T06:50:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Upstarts Media via Techmeme",
+       "title": "Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed",
+       "url": "https://www.upstartsmedia.com/p/nidus-ai-robotics-raises-30m",
+       "published": "2026-11-15T06:50:01Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b2d297a33531",
+     "title": "TSMC Establishes $500 Million Venture Fund for Semiconductor Startups",
+     "summary": "Taiwan Semiconductor Manufacturing Co. launched a dedicated $500 million fund to invest in upstream chip suppliers and early-stage component startups to foster future hardware leaders.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-15T06:45:46Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia via Techmeme",
+       "title": "TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying \"we also want to support the future's Nvidia\"",
+       "url": "https://asia.nikkei.com/editor-s-picks/interview/tsmc-seeks-to-back-next-chip-titan-with-new-investment-arm",
+       "published": "2026-11-15T06:45:46Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0364257ac690",
+     "title": "Vulnerability in Lovable Apps Leaks Passports and 200,000 Messages",
+     "summary": "Security researchers discovered a flaw in applications built with Lovable that exposed sensitive user identification documents alongside over 200,000 private messages.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-14T17:43:10Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Lovable apps expose passport details and more than 200K private messages",
+       "url": "https://www.crissyfield.de/research/lovable-en/",
+       "published": "2026-11-14T17:43:10Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "095d34482a5f",
+     "title": "Civil Liberties Groups Challenge Warrantless Automated License Plate Reader Searches",
+     "summary": "Privacy advocates have asked a federal appeals court to mandate search warrants for law enforcement access to historical automated license plate reader location databases.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-15T02:00:54Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+       "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+       "published": "2026-11-15T02:00:54Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "14ba8d169059",
+     "title": "Federal Judge Denies Motion to Dismiss DRAM Memory Price-Fixing Lawsuit",
+     "summary": "A US district court rejected an attempt to dismiss an antitrust class-action suit alleging major memory chipmakers colluded to fix DRAM pricing across consumer and enterprise markets.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-15T01:18:36Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Court denies motion to dismiss DRAM price fixing case",
+       "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+       "published": "2026-11-15T01:18:36Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4d14b856dd67",
+     "title": "Data Center Operators Demand Multi-Billion Power Guarantees from AI Hyperscalers",
+     "summary": "Applied Digital and other data center providers are requiring major tenants like Meta and Oracle to back billions in electrical grid capacity guarantees before finalizing AI facility leases.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-15T00:05:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Bloomberg via Techmeme",
+       "title": "Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-14/tech-giants-face-more-grid-cost-pressure-on-democratic-sweep",
+       "published": "2026-11-15T00:05:02Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9b08084c1635",
+     "title": "PyPI Deploys Redesigned Project Pages Emphasizing Package Security Signals",
+     "summary": "The Python Package Index has refreshed package detail pages to prominently surface security health, signing verification, and maintenance status to developers.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-14T15:40:52Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "PyPI's redesigned project pages with clearer security signals are now live",
+       "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+       "published": "2026-11-14T15:40:52Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "23b9fff459c6",
+     "title": "USD Stablecoin Volume Expands Rapidly Across Latin American Markets",
+     "summary": "Dollar-pegged stablecoins are increasingly dominating cryptocurrency transactions in Latin America as consumers rely on them for inflation protection and low-cost cross-border payments.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-14T20:45:34Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Bloomberg via Techmeme",
+       "title": "USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-13/stablecoins-are-becoming-crypto-s-killer-app-across-latin-america?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDU4NDc3NywiZXhwIjoxNzk1MTg5NTc3LCJhcnRpY2xlSWQiOiJUT0ZKSVFSS1YyVFcwMCIsImJjb25uZWN0SWQiOiIyN0Y1RjQ0NUUwQ0M0Q0I3OTVDMDlGMzEzMzVCN0NBNSJ9.kuYIJ968CiOxK5J82iSNK9K1CVZAvx3bDakA0KzVR30",
+       "published": "2026-11-14T20:45:34Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1838248a60d9",
+     "title": "Google Project Zero Transitions to Strict 90-Day Vulnerability Disclosure Timeline",
+     "summary": "Google's security research division announced that all discovered software vulnerabilities will be disclosed publicly 90 days after reporting to vendors regardless of patch status.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-14T11:13:17Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+       "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+       "published": "2026-11-14T11:13:17Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "302ee5dd5834",
+     "title": "GTA 6 Soundtrack Tracklist Leaks as Rockstar Confirms New Empathy Mechanics",
+     "summary": "Grand Theft Auto VI's official soundtrack leaked ahead of release, while Rockstar revealed the title will introduce franchise-first gameplay mechanisms that encourage player empathy towards NPCs.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-15T04:52:26Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Game File (Stephen Totilo)",
+       "title": "A prediction market’s odd GTA VI moves",
+       "url": "https://www.gamefile.news/p/gta-vi-prediction-markets",
+       "published": "2026-11-14T18:34:51Z",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "GTA 6 Leak Seemingly Reveals Official Album's Full Track List Days Before Launch",
+       "url": "https://www.ign.com/articles/gta-6-leak-seemingly-reveals-full-track-list-days-before-launch",
+       "published": "2026-11-14T23:00:09Z",
+       "official": false,
+       "also": [
+        {
+         "title": "GTA 6 Will Do Something the Franchise Has Never Done Before: Encourage Empathy",
+         "url": "https://www.ign.com/articles/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy",
+         "published": "2026-11-14T17:19:13Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Congratulations to people who feel mean shooting random NPCs, because GTA 6 tries \"to provide mechanisms that encourage\" empathy",
+       "url": "https://www.rockpapershotgun.com/congratulations-to-people-who-feel-mean-shooting-random-npcs-because-gta-6-tries-to-provide-mechanisms-that-encourage-empathy",
+       "published": "2026-11-14T19:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "PC Gamer",
+       "title": "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-from-lana-del-rey-playboi-carti-and-keith-richards/",
+       "published": "2026-11-15T04:52:26Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9fe9f0a294b7",
+     "title": "GTA 6 Requires 212GB Install Size as Physical Buyers Report Code Delivery Issues",
+     "summary": "Early physical purchasers of GTA 6 reported missing or invalid download vouchers inside discless retail cases, while preloads confirmed a massive 212GB storage requirement on PlayStation 5.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-15T00:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "GTA 6's 212GB PS5 File Size Prompts Madden NFL 27 to Beg You Not to Delete It",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6s-212gb-ps5-file-size-prompts-madden-nfl-27-to-beg-you-not-to-delete-it",
+       "published": "2026-11-15T00:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Some GTA 6 Box Copies Reported To Have Download Code Issues With No Disc To Fall Back On",
+       "url": "https://kotaku.com/some-gta-6-box-copies-reported-to-have-download-code-issues-2000756883",
+       "published": "2026-11-14T23:24:45Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "92c72d2dd2c9",
+     "title": "Netflix and Wizards of the Coast Detail Magic: The Gathering Animated Series",
+     "summary": "The upcoming animated series 'Planeswalker' will feature distinct visual art styles corresponding to different planes within the Magic: The Gathering multiverse.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-14T23:50:31Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
+       "url": "https://www.pcgamer.com/movies-tv/planeswalker-netflixs-magic-the-gathering-animated-series-will-have-a-different-art-style-for-each-plane/",
+       "published": "2026-11-14T23:50:31Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+       "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+       "published": "2026-11-14T19:47:40Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "63b79cb95054",
+     "title": "Minecraft on Switch 2 Adding Joy-Con Mouse Controls",
+     "summary": "Mojang confirmed that an upcoming update for Minecraft on Switch 2 will introduce native Joy-Con mouse tracking, which is currently undergoing closed beta testing.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-15T06:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "Minecraft Is Getting Joy-Con Mouse Controls On Switch 2 In A Future Update",
+       "url": "https://www.nintendolife.com/news/2026/11/minecraft-is-getting-joy-con-mouse-controls-on-switch-2-in-a-future-update",
+       "published": "2026-11-15T06:30:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c04698669557",
+     "title": "Nintendo Tracks Global Player Death Statistics in Switch 2 Ocarina of Time Remake",
+     "summary": "Nintendo's companion Zelda Notes feature is aggregating global player gameplay data for the Switch 2 remake of Ocarina of Time, revealing ReDeads among the top causes of game overs.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-15T07:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "Zelda Notes Reveals Top 'Game Over Causes' And More Global Play Data In Ocarina Of Time Remake",
+       "url": "https://www.nintendolife.com/news/2026/11/zelda-notes-reveals-top-game-over-causes-and-more-global-play-data-in-ocarina-of-time-remake",
+       "published": "2026-11-15T07:30:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "75807220d0f9",
+     "title": "Suda51 Explores Independent Gundam and Deadpool Pitches at Grasshopper",
+     "summary": "Following Grasshopper Manufacture's return to independence, creator Goichi Suda revealed he is actively pursuing concept pitches for licensed Gundam and Deadpool action titles.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-15T06:59:01Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "Suda51 Wants To Make Gundam And Deadpool Games, Thinks One Has A ‘50% Chance’ Of Happening",
+       "url": "https://store.steampowered.com/news/group/32177162/view/707788525180813989",
+       "published": "2026-11-15T06:59:01Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1c35dc66569f",
+     "title": "FaZe Clan Sweeps DarkZero to Win BLAST Rainbow Six Major Osaka",
+     "summary": "FaZe Clan secured the BLAST R6 Major Osaka championship after completing a clean sweep in the grand finals against DarkZero.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-15T08:02:37Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "FaZe Clan Wins BLAST R6 Major Osaka With Flawless Grand Final",
+       "url": "https://insider-gaming.com/faze-clan-wins-rainbow-six-blast-r6-major-osaka/",
+       "published": "2026-11-15T08:02:37Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9adfe1a15a12",
+     "title": "SNK Adds Movie Antagonist Laocorn to Fatal Fury: City of the Wolves",
+     "summary": "SNK announced that Laocorn, the primary antagonist from the 1994 Fatal Fury animated film, will join the City of the Wolves roster on November 19.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-15T08:30:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "Fatal Fury: City Of The Wolves Is Adding Laocorn From The Motion Picture",
+       "url": "https://www.nintendolife.com/news/2026/11/fatal-fury-city-of-the-wolves-is-adding-laocorn-from-the-motion-picture",
+       "published": "2026-11-15T08:30:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "6203a96f58bc",
+     "title": "Federal Judge Halts Trump Administration Redevelopment of DC Public Golf Course",
+     "summary": "A federal district judge granted a temporary restraining order blocking efforts to shut down a public Washington golf course for a planned Trump administration renovation project.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 10,
+     "sources": [
+      {
+       "outlet": "CBS News",
+       "title": "Federal judge blocks Trump from closing historic D.C. golf course, for now",
+       "url": "https://www.cbsnews.com/news/judge-blocks-east-potomac-park-dc-closing/",
+       "published": "2026-11-15T02:57:07Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Federal judge temporarily blocks Trump administration from closing East Potomac Park",
+       "url": "https://thehill.com/regulation/court-battles/6221069-judge-blocks-east-potomac-park-closure/",
+       "published": "2026-11-15T02:02:59Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Times",
+       "title": "Judge Blocks Immediate Closure of East Potomac Park for Trump Golf Project",
+       "url": "https://www.nytimes.com/2026/11/14/us/politics/trump-east-potomac-golf-course.html",
+       "published": "2026-11-15T02:42:57Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Judge temporarily halts Trump’s ‘Trash Island’ golf course redevelopment in D.C.",
+       "url": "https://www.nbcnews.com/politics/trump-administration/judge-temporarily-blocks-trumps-plan-redevelop-east-potomac-golf-cours-rcna609366",
+       "published": "2026-11-15T02:46:52Z",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal",
+       "title": "Trump Administration Can’t Close D.C. Golf Course for Now, Judge Rules",
+       "url": "https://www.wsj.com/politics/policy/trump-administration-cant-close-d-c-golf-course-for-now-judge-rules-5223b827?mod=rss_usnews",
+       "published": "2026-11-15T02:53:00Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
+       "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-15T03:21:04Z",
+       "official": false
+      },
+      {
+       "outlet": "NPR News",
+       "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+       "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+       "published": "2026-11-15T04:28:45Z",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "US judge blocks Trump’s plan to renovate historic DC golf course",
+       "url": "https://www.theguardian.com/us-news/2026/nov/15/us-judge-blocks-trumps-plan-to-renovate-historic-dc-golf-course",
+       "published": "2026-11-15T04:52:34Z",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Judge blocks Trump plan to close park for golf project",
+       "url": "https://www.rte.ie/news/2026/1115/1599269-trump-golf-course/",
+       "published": "2026-11-15T10:26:11Z",
+       "official": false
+      },
+      {
+       "outlet": "Just the News",
+       "title": "Federal judge blocks effort to close DC-area golf course so Trump can renovate",
+       "url": "https://justthenews.com/government/courts-law/federal-judge-blocks-effort-close-dc-area-golf-course-so-trump-can-renovate?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d419545964b8",
+     "title": "Port of New Orleans Seeks Arrest of Tanker Following River Cruise Ship Collision",
+     "summary": "The Port of New Orleans filed a federal lawsuit seeking over $1 million and the seizure of an asphalt tanker that crashed into a docked Mississippi River cruise vessel.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-15T00:01:31Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "CBC News",
+       "title": "New Orleans port sues for control of China-linked tanker that crashed into cruise ship",
+       "url": "https://www.cbc.ca/news/world/new-orleans-tanker-cruise-ship-chinese-ownership-sue-9.7422329?cmp=rss",
+       "published": "2026-11-14T20:08:07Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+       "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-14T19:14:33Z",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+       "url": "https://www.pbs.org/newshour/nation/new-orleans-port-sues-to-get-control-of-tanker-that-crashed-into-cruise-ship-on-mississippi-river",
+       "published": "2026-11-14T20:09:17Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "New Orleans port seeks tanker seizure after cruise ship crash sparks $1 million lawsuit",
+       "url": "https://www.foxbusiness.com/economy/new-orleans-port-seeks-tanker-seizure-cruise-ship-crash-sparks-lawsuit",
+       "published": "2026-11-15T00:01:31Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aaf8fc845a5f",
+     "title": "Trump Prepares for Trilateral Talks with Putin and Xi Amid Allied Skepticism",
+     "summary": "Diplomats and allies are scrutinizing preparations for a historic three-way summit between Donald Trump, Vladimir Putin, and Xi Jinping focusing on global security and arms agreements.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Eyeing his legacy, Trump seizes chance for arms talks with Xi and Putin",
+       "url": "https://asia.nikkei.com/politics/international-relations/eyeing-his-legacy-trump-seizes-chance-for-arms-talks-with-xi-and-putin",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      },
+      {
+       "outlet": "The Japan Times",
+       "title": "Trump-Putin-Xi meeting likely to be short on substance, rich in symbolism",
+       "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/politics/trilateral-us-china-russia-trump-xi-putin/",
+       "published": "2026-11-15T06:12:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "0a01d7a9006f",
+     "title": "Bahrain Intercepts Iranian Drone Strikes Targeting US Military Facility",
+     "summary": "Bahrain issued emergency threat alerts after intercepting several armed Iranian drones launched at a US base, marking renewed strikes following a lull in regional skirmishes.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-15T09:49:00Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Bahrain issues first threat alerts since September as Iran says it attacked U.S. base",
+       "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-us-attack/",
+       "published": "2026-11-15T06:46:00Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Iran strikes Bahrain base, repeats path to U.S. deal remains open",
+         "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal/",
+         "published": "2026-11-15T09:49:00Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base",
+       "url": "https://www.straitstimes.com/world/middle-east/bahrain-issues-first-threat-alerts-since-september-as-iran-says-it-attacked-us-base",
+       "published": "2026-11-15T05:24:21Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Bahrain issues first threat alerts since September as Iran says it attacked US base",
+       "url": "https://www.channelnewsasia.com/world/bahrain-alert-threat-iran-attacks-us-base-6552596",
+       "published": "2026-11-15T06:05:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg",
+       "title": "Iran Strikes Bahrain Base, Repeats Path to US Deal Remains Open",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-15/iran-strikes-bahrain-base-repeats-path-to-us-deal-remains-open",
+       "published": "2026-11-15T08:14:04Z",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Bahrain says it intercepted several Iranian drone attacks",
+       "url": "https://www.rte.ie/news/2026/1115/1599264-bahrain-iran-attacks/",
+       "published": "2026-11-15T08:32:38Z",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Blasts in Bahrain as Iran claims attack on US base",
+       "url": "https://www.thejournal.ie/iran-attack-bahrain-7226841-Nov2026/",
+       "published": "2026-11-15T09:25:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1f5790141f74",
+     "title": "Israeli Airstrike Kills Senior Hamas Commander in Gaza",
+     "summary": "An Israeli military strike in Gaza killed Samir Abu Younis, the commander of Hamas' Rafah Brigade who was implicated in planning the October 7 attacks.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-15T09:43:15Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Politico Europe",
+       "title": "Israel kills Hamas commander in Gaza strike",
+       "url": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "published": "2026-11-15T09:43:15Z",
+       "official": false
+      },
+      {
+       "outlet": "Sky News",
+       "title": "Hamas says senior commander killed in Israeli airstrike",
+       "url": "https://news.sky.com/story/hamas-says-senior-commander-killed-in-israeli-airstrike-13612384",
+       "published": "2026-11-15T05:16:00Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+       "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-15T08:17:41Z",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Senior Hamas commander killed in Israeli strike in Gaza",
+       "url": "https://www.rte.ie/news/middle-east/2026/1115/1599265-hamas-commander-killed/",
+       "published": "2026-11-15T08:26:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "339145427c27",
+     "title": "Jordanian Court Sentences Three to Death for Fatal Karak Church Attack",
+     "summary": "Jordan's State Security Court handed down death sentences to three individuals convicted of carrying out an assault on a Christian church in Karak that killed nine people.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-15T10:54:36Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Hindu",
+       "title": "Jordan sentences three men to death over church attack",
+       "url": "https://www.thehindu.com/news/international/jordan-sentences-three-men-to-death-over-church-attack/article71704395.ece",
+       "published": "2026-11-15T09:00:51Z",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Jordan sentences three men to death by hanging after deadly church attack",
+       "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
+       "published": "2026-11-15T08:15:04Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Jordan sentences three men to death over deadly church attack",
+       "url": "https://www.straitstimes.com/world/middle-east/jordan-sentences-three-men-to-death-over-deadly-church-attack",
+       "published": "2026-11-15T10:54:36Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Jordan sentences 3 men to death over church attack",
+         "url": "https://www.straitstimes.com/world/middle-east/jordan-sentences-3-men-to-death-over-church-attack",
+         "published": "2026-11-15T08:42:00Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Times of India",
+       "title": "Jordan sentences 3 men to death for October church attack that killed 9",
+       "url": "https://timesofindia.indiatimes.com/world/middle-east/jordan-sentences-3-men-to-death-for-october-church-attack-that-killed-9/articleshow/135851876.cms",
+       "published": "2026-11-15T09:37:47Z",
+       "official": false
+      },
+      {
+       "outlet": "ERT News (Greece)",
+       "title": "Jordan: Three Men Sentenced to Death by Hanging for Attack on Greek Orthodox Church",
+       "url": "https://www.ertnews.gr/roi-idiseon/iordania-se-thanato-dia-apagxonismou-katadikastikan-treis-andres-gia-tin-epithesi-se-ellinorthodoksi-ekklisia/",
+       "published": "2026-11-15T10:13:48Z",
+       "translated_from": "el",
+       "original_title": "Ιορδανία: Σε θάνατο διά απαγχονισμού καταδικάστηκαν τρεις άνδρες για την επίθεση σε ελληνορθόδοξη εκκλησία",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "32c67b36d287",
+     "title": "Yemeni Government Troops Pull Back from Strategic Bab el-Mandeb Strait",
+     "summary": "Saudi-backed Yemeni government forces withdrew from critical positions along the Bab el-Mandeb waterway to regroup around Aden, allowing Houthi forces to consolidate control.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-15T09:53:15Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Times of India",
+       "title": "Yemeni forces withdraw from Bab el-Mandeb as Houthis cement foothold",
+       "url": "https://timesofindia.indiatimes.com/world/middle-east/addressing-existing-threats-yemeni-forces-withdraw-from-bab-el-mandeb-as-houthis-cement-foothold/articleshow/135852506.cms",
+       "published": "2026-11-15T09:53:15Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control",
+       "url": "https://www.straitstimes.com/world/middle-east/yemen-government-forces-withdraw-from-area-near-bab-el-mandeb-strait-houthis-in-control",
+       "published": "2026-11-15T08:34:30Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a1587394b16c",
+     "title": "UN Climate Summit Confronts Inevitable Breach of 1.5-Degree Warming Target",
+     "summary": "Delegates at the UN climate summit began negotiations under formal acknowledgments that global temperature increases will unavoidably exceed the 1.5°C threshold.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-15T06:24:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times",
+       "title": "Nations grapple with loss of 1.5 deg C target at UN climate summit",
+       "url": "https://www.straitstimes.com/world/europe/nations-grapple-with-loss-of-1-5-deg-c-target-at-un-climate-summit",
+       "published": "2026-11-15T06:24:00Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Nations grapple with loss of 1.5°C target at UN climate summit",
+       "url": "https://www.channelnewsasia.com/sustainability/nations-grapple-loss-15degc-target-un-climate-summit-6552556",
+       "published": "2026-11-15T04:02:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e3f8ea4e86a0",
+     "title": "Microsoft Restores Global Services Following Widespread Platform Outage",
+     "summary": "Microsoft confirmed that all cloud and enterprise productivity tools have fully recovered following an extensive worldwide outage that disrupted operations earlier in the week.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-14T21:39:16Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "CBC News",
+       "title": "Microsoft services fully restored after global outage",
+       "url": "https://www.cbc.ca/news/business/microsoft-services-restored-after-outage-9.7422072?cmp=rss",
+       "published": "2026-11-14T12:11:29Z",
+       "official": false
+      },
+      {
+       "outlet": "Sky News",
+       "title": "Microsoft confirms all services are restored after global outage",
+       "url": "https://news.sky.com/story/microsoft-confirms-all-services-are-restored-after-global-outage-13612219",
+       "published": "2026-11-14T14:56:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Microsoft services fully restored after global disruptions",
+       "url": "https://thehill.com/policy/technology/6220925-microsoft-services-fully-restored-after-global-disruptions/",
+       "published": "2026-11-14T21:39:16Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f3d93dcc6fab",
+     "title": "Cape Verde Votes in Presidential Race Featuring First Female Candidate",
+     "summary": "Voters in Cape Verde cast ballots in a presidential election where incumbent José Maria Neves faced opposition from multiple challengers, including the nation's first female presidential nominee.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-15T10:23:29Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Straits Times",
+       "title": "Cape Verde votes for president with emigration in focus",
+       "url": "https://www.straitstimes.com/world/cape-verde-votes-for-president-with-emigration-in-focus",
+       "published": "2026-11-15T07:04:33Z",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Cape Verde heads to the polls in presidential election",
+       "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
+       "published": "2026-11-15T09:45:23Z",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "Cape Verde votes for president, with incumbent favoured to win",
+       "url": "https://www.rfi.fr/en/africa/20261115-cape-verde-votes-for-president-with-incumbent-favoured-to-win",
+       "published": "2026-11-15T10:01:40Z",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Polls open in Cape Verde in race with first female presidential candidate",
+       "url": "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate?traffic_source=rss",
+       "published": "2026-11-15T10:03:02Z",
+       "official": false
+      },
+      {
+       "outlet": "Times of India",
+       "title": "Cape Verde votes in election that could deliver first woman president",
+       "url": "https://timesofindia.indiatimes.com/world/rest-of-world/cape-verde-votes-in-election-that-could-deliver-first-woman-president/articleshow/135853022.cms",
+       "published": "2026-11-15T10:23:29Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "413126c91c7b",
+     "title": "ASEAN Leaders Convene in Manila Amid Stalled Myanmar Peace Strategy",
+     "summary": "Southeast Asian heads of state opened summit meetings in the Philippines to address regional economic ties while navigating divisions over Myanmar's ruling military junta.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "ASEAN leaders kick off Manila summits as friction persists on Myanmar, haze",
+       "url": "https://asia.nikkei.com/politics/international-relations/asean-leaders-kick-off-manila-summits-as-friction-persists-on-myanmar-haze",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      },
+      {
+       "outlet": "The Japan Times",
+       "title": "ASEAN reaffirms engagement with Myanmar, seeks to advance peace plan",
+       "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/politics/asean-manila-summit-myanmar/",
+       "published": "2026-11-15T07:43:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "020feb91bbac",
+     "title": "Italy Hits Meta with €805 Million Fine over Android Photo Access",
+     "summary": "Italian privacy regulators fined Meta €805 million ($887 million) for harvesting photos and videos from Android users' local device galleries without obtaining explicit consent.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-14T20:34:36Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "BBC News",
+       "title": "Italy fines Meta €805m over accessing users' photos",
+       "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-14T18:28:06Z",
+       "official": false
+      },
+      {
+       "outlet": "Politico Europe",
+       "title": "Italy hits Meta with €805m fine over privacy law violation",
+       "url": "https://www.politico.eu/article/italy-hits-meta-with-e805m-fine-over-privacy-law-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "published": "2026-11-14T14:03:27Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Italy fines Meta $887M for accessing users' photos without specific consent",
+       "url": "https://thehill.com/policy/technology/6220878-meta-italian-privacy-fine-consent/",
+       "published": "2026-11-14T20:34:36Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "898df7876c18",
+     "title": "Widespread Protests and Arrests Continue Across France Over Wage Stagnation",
+     "summary": "Tens of thousands took to the streets in French cities to oppose modest government wage proposals, resulting in over 200 arrests as civil unrest entered another day.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-15T09:00:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Protests continue in France over government's modest wage increase proposal with no clear solution in sight",
+       "url": "http://www.asahi.com/articles/ASVCH2PP3VCHUHBI004M.html?ref=rss",
+       "published": "2026-11-15T09:00:00Z",
+       "translated_from": "ja",
+       "original_title": "フランス、おさまらぬデモ 政権の小幅賃上げ案に反発、みえぬ打開策",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Tens of thousands continue to protest across France",
+       "url": "https://www.dw.com/en/tens-of-thousands-continue-to-protest-across-france/a-79950503?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-15T00:55:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "More than 200 arrests: Protests continue in France",
+       "url": "https://www.tagesschau.de/video/video-1684098.html",
+       "published": "2026-11-15T08:20:51Z",
+       "translated_from": "de",
+       "original_title": "Mehr als 200 Festnahmen: Proteste in Frankreich dauern an",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d6d2a23c0044",
+     "title": "UK Considers Staggered Age of Consent Laws Following Russell Brand Allegations",
+     "summary": "British lawmakers are reviewing proposals for a graduated age of consent after an accuser who alleged she was assaulted at age 16 waived her anonymity to campaign for legal changes.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-15T09:58:50Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Guardian",
+       "title": "Russell Brand accuser waives anonymity to call for consent law change",
+       "url": "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand",
+       "published": "2026-11-15T09:58:50Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Alleged Russell Brand rape victim wants age of consent law changed",
+       "url": "https://www.bbc.co.uk/news/articles/cm3rgx9p583zo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-15T07:19:52Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "U.K. to consider new age of consent law after Russell Brand accuser speaks out",
+       "url": "https://uk.news.yahoo.com/uk-government-consider-changing-age-001714446.html",
+       "published": "2026-11-15T09:58:50Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d5719de6c0b0",
+     "title": "Russian and Ukrainian Industrial Facilities Targeted in Overnight Drone Strikes",
+     "summary": "Russian strikes ignited fires at an industrial site in Ukraine's Kirovohrad region, while a Ukrainian drone assault struck an industrial facility in Russia's Tatarstan region.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-15T06:56:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Industrial facility catches fire in Kirovohrad Oblast following Russian attack",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062928/",
+       "published": "2026-11-15T06:56:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Fire reported at industrial facility in Russia's Tatarstan amid drone attack",
+       "url": "https://kyivindependent.com/fire-reported-at-industrial-facility-in-russias-tatarstan-amid-drone-attack/",
+       "published": "2026-11-15T03:23:36Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f6aeb9a0c9b1",
+     "title": "Philippines Wins Inaugural Eurovision Song Contest Asia",
+     "summary": "The Philippines claimed first place at the first edition of the Eurovision Song Contest Asia, marking a successful launch for the regional broadcast competition.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-15T08:11:28Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Philippines win first Asian Song Contest",
+       "url": "https://orf.at/stories/3448226/",
+       "published": "2026-11-15T08:11:28Z",
+       "translated_from": "de",
+       "original_title": "Philippinen gewinnen ersten Song Contest in Asien",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Philippines wins first Eurovision Song Contest Asia",
+       "url": "https://www.dw.com/en/philippines-wins-first-eurovision-song-contest-asia/a-79950050?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-14T22:44:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "00af6c53bcab",
+     "title": "Digital Realty Plans $10 Billion Japan Data Center Investment",
+     "summary": "Data center operator Digital Realty Trust committed an additional $10 billion to construct high-density computing infrastructure in Japan to meet surging AI workload demands.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Digital Realty Trust to spend $10bn more on Japan data centers: CEO",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/digital-realty-trust-to-spend-10bn-more-on-japan-data-centers-ceo",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a28f20c7bd85",
+     "title": "Japan Proposes Regional Energy Alliance Modeled on IEA at AZEC",
+     "summary": "Prime Minister Takaichi's administration unveiled plans to propose an Asian energy security coalition modeled after the IEA to strengthen supply resilience across partner nations.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-15T08:35:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Japan to propose Asian version of IEA at AZEC summit",
+       "url": "https://www.japantimes.co.jp/news/2026/11/15/japan/politics/japan-iea-asian-version/",
+       "published": "2026-11-15T08:35:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a03927515295",
+     "title": "Japan to Require Online Travel Authorization for Airport Transit Passengers",
+     "summary": "Japanese immigration authorities will introduce a mandatory online pre-clearance authorization system for select international travelers transiting through Japanese airports.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan to require online authorization for some transit passengers",
+       "url": "https://asia.nikkei.com/spotlight/japan-immigration/japan-to-require-online-authorization-for-some-transit-passengers",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "79a2f720d3c3",
+     "title": "Hands Shibuya Store Closes After 48 Years of Operation",
+     "summary": "The iconic Hands department store in Tokyo's Shibuya district permanently shuttered its doors after nearly five decades as a landmark retail and creative goods destination.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-15T10:15:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NHK News (Japanese)",
+       "title": "Hands Shibuya Store Closes After 48 Years, Drawing Crowds to Say Goodbye",
+       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76062",
+       "published": "2026-11-15T10:15:00Z",
+       "translated_from": "ja",
+       "original_title": "ハンズ渋谷店営業終了 48年の歴史に幕 別れ惜しむ人でにぎわう",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ce14df420d47",
+     "title": "Incumbent Tokuhiro Nakamura Wins Fifth Term as Ehime Governor",
+     "summary": "Ehime Prefecture voters re-elected incumbent Tokuhiro Nakamura to a fifth term as governor, defeating two challenger candidates in Sunday's election.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-15T11:00:12Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NHK News (Japanese)",
+       "title": "Incumbent Tokuhiro Nakamura wins fifth term in Ehime gubernatorial election",
+       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76094",
+       "published": "2026-11-15T11:00:12Z",
+       "translated_from": "ja",
+       "original_title": "愛媛県知事選挙 現職の中村時広氏が5回目の当選確実【速報】",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "af6fe04fd043",
+     "title": "Fukuoka and Western Municipal Elections Proceed Amid City Portal Outage",
+     "summary": "Mayoral races began across Fukuoka, Matsuyama, and Kumamoto, with Fukuoka's municipal website experiencing an unexplained service outage on polling day.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-15T10:02:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "NHK News (Japanese)",
+       "title": "Kumamoto Mayoral Election: Live Coverage of Vote Counting and Winner Projections",
+       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76100",
+       "published": "2026-11-15T10:02:20Z",
+       "translated_from": "ja",
+       "original_title": "熊本市長選挙 開票や当選情報はこちらで【速報】",
+       "official": false,
+       "also": [
+        {
+         "title": "Matsuyama Mayoral Election: Real-Time Vote Counting, Exit Polls, and Winner Updates",
+         "url": "https://news.web.nhk/newsweb/na/nd-20261115de76096",
+         "published": "2026-11-15T10:01:38Z",
+         "translated_from": "ja",
+         "original_title": "松山市長選挙 開票や出口調査 当選情報はこちらで【速報】"
+        },
+        {
+         "title": "Fukuoka Mayoral Election: Live Vote Counts and Exit Poll Results",
+         "url": "https://news.web.nhk/newsweb/na/nd-20261115de76099",
+         "published": "2026-11-15T10:00:56Z",
+         "translated_from": "ja",
+         "original_title": "福岡市長選挙 開票や出口調査 当選情報はこちらで【速報】"
+        }
+       ]
+      },
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Fukuoka mayoral election begins with 13 candidates, an unusual race with the possibility of a runoff",
+       "url": "http://www.asahi.com/articles/ASVCG413HVCGTIPE01PM.html?ref=rss",
+       "published": "2026-11-15T09:30:00Z",
+       "translated_from": "ja",
+       "original_title": "13人出馬の福岡市長選、投票始まる 異例の選挙戦、再選挙可能性も",
+       "official": false,
+       "also": [
+        {
+         "title": "Fukuoka city website goes down on mayoral election day due to unknown causes",
+         "url": "http://www.asahi.com/articles/ASVCH2HMVVCHTIPE009M.html?ref=rss",
+         "published": "2026-11-15T08:00:06Z",
+         "translated_from": "ja",
+         "original_title": "福岡市のホームページ、閲覧不能に 市長選の投開票日、原因は不明"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "8ed9f95f6d61",
+     "title": "Subaru Reengineers Boxer Powertrain to Boost Hybrid Fuel Economy",
+     "summary": "Subaru has redesigned its signature horizontally opposed boxer engine architecture to prioritize thermal efficiency and emissions compliance for upcoming hybrid vehicle lineups.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Subaru retools boxer engine for fuel economy, with eye on hybrids",
+       "url": "https://asia.nikkei.com/business/automobiles/subaru-retools-boxer-engine-for-fuel-economy-with-eye-on-hybrids",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "009f61be9aee",
+     "title": "Kim Jong-un's Chief Aide Travels to Moscow Ahead of Trilateral Summit",
+     "summary": "A high-ranking North Korean diplomatic official arrived in Russia to coordinate bilateral security interests prior to upcoming trilateral talks involving the US, China, and Russia.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T06:16:09Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Kim Jong-un's top aide visits Russia ahead of US-China-Russia summit",
+       "url": "https://www.koreaherald.com/article/10937539",
+       "published": "2026-11-15T06:16:09Z",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Kim Jong-un's Close Aide Visits Russia Ahead of US-China-Russia Talks",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205581",
+       "published": "2026-11-15T04:44:55Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9c2c75b27580",
+     "title": "South Korean Presidential Office Considers Life Imprisonment Without Parole",
+     "summary": "The presidential administration is reviewing legislative proposals to institute true life sentences without parole as part of a campaign targeting severe crimes against vulnerable citizens.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Presidential office weighs life without parole as part of public safety push",
+       "url": "https://en.yna.co.kr/view/AEN20261115001400315",
+       "published": "2026-11-15T08:20:21Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Presidential office weighs life without parole as part of public safety push",
+       "url": "https://www.koreatimes.co.kr/southkorea/politics/20261115/presidential-office-weighs-life-without-parole-as-part-of-public-safety-push?utm_source=rss",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a5993043c257",
+     "title": "South Korea Sets Record ICT Export Growth Fueled by AI Sector Demand",
+     "summary": "October export data showed South Korea's information and communications technology sector achieved record-breaking year-over-year shipment growth on surging worldwide demand for AI hardware.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T03:04:24Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "ICT exports log record-high growth in Oct. amid AI boom",
+       "url": "https://en.yna.co.kr/view/AEN20261115000800320",
+       "published": "2026-11-15T03:04:24Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2e5029230abf",
+     "title": "Seoul Launches Outskirt Express Bus Pilot and Expands Subway Line 9",
+     "summary": "The Seoul Metropolitan Government announced express commuter bus corridors from surrounding districts alongside additional Line 9 express trains to relieve peak rush-hour transit bottlenecks.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T04:20:58Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "KBS World",
+       "title": "Seoul to Launch Express Bus Pilot, Adjust Subway Line 9 Services to Ease Congestion",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205579",
+       "published": "2026-11-15T04:20:58Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5ec2852305a8",
+     "title": "National Assembly Considers Inquiry into Czech Nuclear Project Subcontracts",
+     "summary": "South Korea's parliament is weighing hearings following state-run KHNP's decision to terminate construction subcontracts with domestic builders for the Czech nuclear power plant project.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T09:42:14Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Assembly weighs hearing on Czech nuclear deal",
+       "url": "https://www.koreaherald.com/article/10937664",
+       "published": "2026-11-15T09:42:14Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "3ece72ee8fb2",
+     "title": "Warming Seas Wipe Out 99% of Ulleung Island Squid Catch Over 25 Years",
+     "summary": "Fishery statistics reveal squid harvests around Ulleung Island have plunged 99% over the past quarter-century due to rapid sea surface temperature increases off the eastern coast.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Warming seas slash Ulleung's squid catch by 99% in 25 years",
+       "url": "https://www.koreatimes.co.kr/southkorea/society/20261115/warming-seas-slash-ulleungs-squid-catch-by-99-in-25-years?utm_source=rss",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "54886a103f8d",
+     "title": "Actor Ko Kyung-pyo Suspends Career After Drunk-Driving Crash",
+     "summary": "Actor Ko Kyung-pyo apologized and stepped away from all entertainment activities after colliding with a street sweeper while intoxicated, leading television networks to remove his appearances.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Actor Ko Kyung-pyo apologizes for drunk driving, puts career on hold",
+       "url": "https://en.yna.co.kr/view/AEN20261115003100315",
+       "published": "2026-11-15T09:48:41Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Ko Kyung-pyo vows to pause activities after drunk-driving crash",
+       "url": "https://www.koreaherald.com/article/10937702",
+       "published": "2026-11-15T10:58:33Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Actor Ko Kyung-pyo's drunk driving prompts broadcasters to edit him out",
+       "url": "https://www.koreatimes.co.kr/southkorea/society/20261115/actor-ko-kyung-pyos-drunk-driving-prompts-broadcasters-to-edit-him-out?utm_source=rss",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "550d4f16c392",
+     "title": "Uzbek National Sentenced in South Korea for Funding Syrian Terrorist Group",
+     "summary": "A South Korean court sentenced an Uzbek citizen to 16 months in prison after finding him guilty of wiring financial support to an extremist militant organization based in Syria.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-15T11:00:47Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Uzbek national sentenced to 16 months for funding Syria-based terrorist group",
+       "url": "https://en.yna.co.kr/view/AEN20261115001300315",
+       "published": "2026-11-15T06:36:23Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Uzbek student gets 16 months in prison for funding terrorist group in Syria",
+       "url": "https://www.koreaherald.com/article/10937625",
+       "published": "2026-11-15T08:55:38Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Uzbek national sentenced to 16 months for funding Syria-based terrorist group",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261115/uzbek-national-sentenced-to-16-months-for-funding-syria-based-terrorist-group?utm_source=rss",
+       "published": "2026-11-15T11:00:47Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "863fa9cdb530",
+     "title": "Apple M6 Mac Mini and Accessories Discounted in Early Black Friday Sales",
+     "summary": "Retailers have kicked off early Black Friday deals on Apple hardware, cutting the M6 Mac mini to $779 alongside discounts on Apple Watch Series 12 ($329), MacBook Air, and AirTag 2.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-15T10:00:00Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "M6 Mac Mini Early Black Friday Sale (2026)",
+       "url": "https://www.wired.com/story/mac-mini-deal-11-13-2026/",
+       "published": "2026-11-15T10:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Early Black Friday Apple deals: AirPods, AirTag 2, MacBook Air, Apple Pencil, Mac mini, more",
+       "url": "https://9to5mac.com/2026/11/14/early-black-friday-apple-deals-apple-tv-4k-airpods/",
+       "published": "2026-11-14T13:05:05Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Black Friday Starts Early: Save on Apple Watch, MacBook Air, and More",
+       "url": "https://www.macrumors.com/2026/11/14/early-apple-black-friday-deals-2/",
+       "published": "2026-11-14T15:25:16Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple Watch Series 12 falls to $329 with early Black Friday deals",
+       "url": "https://appleinsider.com/articles/26/11/15/apple-watch-series-12-falls-to-329-with-early-black-friday-deals?utm_source=rss",
+       "published": "2026-11-15T07:17:24Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8f2f9b3f7c4f",
+     "title": "REI Launches Early Holiday Sale Discounts Across Outdoor Gear",
+     "summary": "REI began rolling out holiday sale discounts across outdoor apparel, camping equipment, and recreation gear ahead of Black Friday.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-14T15:00:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Here are our favorite deals from REI’s giant Holiday Sale",
+       "url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+       "published": "2026-11-14T15:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "The 21 Best REI Holiday Sale Outdoor Deals (2026)",
+       "url": "https://www.wired.com/story/best-rei-holiday-sale-outdoor-deals-2026/",
+       "published": "2026-11-14T11:00:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "59a80ffdecbe",
+     "title": "Mafia: The Old Country Drops to $19.99 on PlayStation 5 and Xbox Series X",
+     "summary": "Physical console copies of Mafia: The Old Country are marked down to $19.99 at Best Buy and Amazon, with eligible disc-to-digital entitlement on Xbox.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-15T07:29:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Mafia: The Old Country (XSX) is $19.99 on Amazon Xbox disc to digital eligible",
+       "url": "https://link.amazon/B05JPLYt6",
+       "published": "2026-11-15T07:29:47Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Mafia: The Old Country (PS5/XSX) is $19.99 at Best Buy",
+         "url": "https://buff.ly/KdZWVzq",
+         "published": "2026-11-15T06:12:11Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a424363e00d8",
+     "title": "Alan Wake 2 Deluxe Edition Discounted to $29.99 on PlayStation 5",
+     "summary": "Best Buy has discounted physical copies of Alan Wake 2 Deluxe Edition on PS5 down to $29.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-15T06:18:59Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Alan Wake 2 Deluxe Edition (PS5) is $29.99 at Best Buy",
+       "url": "https://buff.ly/8opVx93",
+       "published": "2026-11-15T06:18:59Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8d187c09d860",
+     "title": "Cyberpunk 2077 Ultimate Edition on Sale for $39.99 on PS5",
+     "summary": "The complete bundle of Cyberpunk 2077 including the Phantom Liberty expansion is available for $39.99 at Best Buy.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-15T06:19:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Cyberpunk 2077 Ultimate Edition (PS5) is $39.99 at Best Buy",
+       "url": "https://buff.ly/OmeCDJA",
+       "published": "2026-11-15T06:19:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5224552937cf",
+     "title": "Borderlands 4 Marked Down to $19.99 at Best Buy",
+     "summary": "Console versions of Borderlands 4 have been discounted to $19.99 across PlayStation 5 and Xbox Series X.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-15T06:12:53Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Borderlands 4 (PS5/XSX) is $19.99 at Best Buy",
+       "url": "https://buff.ly/FF4AuHI",
+       "published": "2026-11-15T06:12:53Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "88b0c30a1c6a",
+     "title": "Tormented Souls 2 Falls to $19.99 on PS5 and $29.99 on Switch 2",
+     "summary": "Survival horror sequel Tormented Souls 2 is on sale for $19.99 on PS5 and $29.99 for Switch 2 Key Card editions on Amazon and Best Buy.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-15T09:52:44Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Tormented Souls 2 (Switch 2 KC/PS5) is $19.99/$29.99 at Best Buy",
+       "url": "https://buff.ly/T9U8QGf",
+       "published": "2026-11-15T06:11:23Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Tormented Souls 2 (PS5) is $19.99 on Amazon Switch 2 KC $29.99",
+         "url": "https://amzn.to/4t1MEpb",
+         "published": "2026-11-15T09:52:44Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "91eed1dfd6b9",
+     "title": "Star Wars Heritage Pack Discounted to $24.99 on Nintendo Switch",
+     "summary": "Amazon has dropped the 7-game Star Wars Heritage Pack collection on Nintendo Switch to $24.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-15T09:45:40Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Star Wars Heritage Pack (Switch) is $24.99 on Amazon Includes 7 games, all on cart except KOTOR 1+2",
+       "url": "https://amzn.to/4hU8KEc",
+       "published": "2026-11-15T09:45:40Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T11:00:47Z",
+ "timezone": "America/New_York",
+ "window_hours": 26,
+ "mode": "ai",
+ "model": "gemini-3.8-flash",
+ "stats": {
+  "items": 841,
+  "clusters": 726,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "san",
+   "title": "Straight Arrow News",
+   "status": "error",
+   "detail": "ValueError: not a feed: the site answered with a web page (often a bot check)"
+  },
+  {
+   "key": "helsinkitimes",
+   "title": "Helsinki Times (Finland)",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.helsinkitimes.fi/?format=feed&type=rss"
+  }
+ ]
+}
