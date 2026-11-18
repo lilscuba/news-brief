@@ -1,441 +1,462 @@
 {
  "version": 1,
- "headline": "Global AI chip curbs expand as major tech updates and impending gaming launches dominate headlines.",
+ "headline": "Global anticipation reaches a fever pitch for the launch of Grand Theft Auto VI, while major developments unfold in AI frontier models, semiconductor leadership, and high-stakes international diplomacy.",
  "top": [
   {
-   "id": "0b6f4f7103b6",
-   "title": "US Moves to Curb Remote Access to AI Chips Amid Southeast Asia Scrutiny",
-   "summary": "The US is moving to close loopholes allowing remote access to advanced AI chips following security concerns, with Nvidia warning customers that proposed legislation could subject buyers to legal action.",
+   "id": "ae6cdc634796",
+   "title": "Nvidia Board Members Push for Jensen Huang's Return Despite Chairman's Denial",
+   "summary": "Despite Nvidia chair Harvey Jones telling investors there are no plans to reinstate ousted CEO Jensen Huang, sources reveal a faction of board members continues pushing for his return amid ongoing fallout.",
    "importance": 5,
    "label": "REPORTED",
-   "category": "AI",
-   "published": "2026-11-17T11:00:50Z",
-   "outlet_count": 7,
+   "category": "Tech",
+   "published": "2026-11-18T02:50:08Z",
+   "outlet_count": 11,
    "sources": [
     {
-     "outlet": "CNA (Singapore)",
-     "title": "CNA Explains: Why is the US targeting Southeast Asia in its bid to curb China's access to AI chips?",
-     "url": "https://www.channelnewsasia.com/asia/us-ai-chips-china-southeast-asia-data-centres-6558256",
-     "published": "2026-11-17T08:48:21Z",
+     "outlet": "NPR Politics",
+     "title": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+     "url": "https://www.npr.org/2026/11/17/nx-s1-6044213/jensen-huang-nvidia-congress",
+     "published": "2026-11-17T17:36:31Z",
      "official": false
     },
     {
-     "outlet": "Sky News",
-     "title": "US to further curb China's access to Nvidia chips",
-     "url": "https://news.sky.com/story/us-to-further-curb-chinas-access-to-ai-chips-from-companies-like-nvidia-13612884",
-     "published": "2026-11-16T14:59:00Z",
-     "official": false
-    },
-    {
-     "outlet": "Ars Technica",
-     "title": "US moves to cut China’s remote access to AI chips",
-     "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-     "published": "2026-11-16T19:10:09Z",
-     "official": false
-    },
-    {
-     "outlet": "PBS NewsHour",
-     "title": "U.S. works to close loophole that let China access advanced AI chips",
-     "url": "https://www.pbs.org/newshour/show/u-s-works-to-close-loophole-that-let-china-access-advanced-ai-chips",
-     "published": "2026-11-16T23:40:37Z",
-     "official": false
-    },
-    {
-     "outlet": "Bloomberg",
-     "title": "US to Curb China's Nvidia Access as Trump Goes to Asia",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-17/daybreak-europe-11-17-2026-video",
-     "published": "2026-11-17T08:12:31Z",
-     "official": false
-    },
-    {
-     "outlet": "CNBC via Techmeme",
-     "title": "Sources: Nvidia warns customers that the proposed Remote Access Security Act could subject chip buyers to US legal action if Chinese companies access AI chips",
-     "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
-     "published": "2026-11-17T10:32:01Z",
-     "official": false
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "title": "US moves to curb China's remote access to AI chips after Nvidia scandal",
-     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
-     "published": "2026-11-17T11:00:50Z",
+     "outlet": "The Verge",
+     "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
+     "url": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
+     "published": "2026-11-17T22:32:50Z",
      "official": false,
      "also": [
       {
-       "title": "Singapore, Malaysia grapple with US chip curbs targeting Southeast Asia",
-       "url": "https://asia.nikkei.com/business/technology/singapore-malaysia-grapple-with-us-chip-curbs-targeting-southeast-asia",
-       "published": "2026-11-17T11:00:50Z"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "96a6cacfa1fe",
-   "title": "Ukraine Strikes Kerch Bridge in Unprecedented Attack",
-   "summary": "Ukrainian forces launched an attack that critically damaged the vital Kerch bridge linking Russia and occupied Crimea, prompting praise from President Zelenskyy and vows of reconstruction from the Kremlin.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "Europe",
-   "published": "2026-11-17T10:52:50Z",
-   "outlet_count": 18,
-   "sources": [
-    {
-     "outlet": "Al Jazeera",
-     "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
-     "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
-     "published": "2026-11-17T08:12:06Z",
-     "official": false
-    },
-    {
-     "outlet": "The Kyiv Independent (Ukraine)",
-     "title": "2 key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine",
-     "url": "https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/",
-     "published": "2026-11-16T22:20:30Z",
-     "official": false
-    },
-    {
-     "outlet": "France 24",
-     "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
-     "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
-     "published": "2026-11-17T00:58:33Z",
-     "official": false
-    },
-    {
-     "outlet": "CBS News",
-     "title": "Kyiv under attack from Russian ballistic missiles after Ukraine's overnight attack on Russia",
-     "url": "https://www.cbsnews.com/video/kyiv-under-attack-from-russian-ballistic-missiles-after-ukraine-launched-attack-in-russia/",
-     "published": "2026-11-17T02:10:41Z",
-     "official": false
-    },
-    {
-     "outlet": "Deutsche Welle (Germany)",
-     "title": "Ukraine updates: Key bridges in Kyiv, Crimea hit in strikes",
-     "url": "https://www.dw.com/en/ukraine-updates-key-bridges-in-kyiv-crimea-hit-in-strikes/live-79964446?maca=en-rss-en-all-1573-rdf",
-     "published": "2026-11-17T02:28:00Z",
-     "official": false
-    },
-    {
-     "outlet": "Meduza (Russia)",
-     "title": "Zelensky calls Crimea bridge strike an ‘unprecedented operation,’ says Ukraine used Neptune and Flamingo missiles",
-     "url": "https://meduza.io/en/news/2026/11/17/zelensky-calls-crimea-bridge-strike-an-unprecedented-operation-says-ukraine-used-neptune-and-flamingo-missiles",
-     "published": "2026-11-17T10:28:26Z",
-     "official": false,
-     "also": [
-      {
-       "title": "More than 1,400 Ukrainian drones attacked Russia and Crimea, Russia’s Defense Ministry says",
-       "url": "https://meduza.io/en/news/2026/11/17/more-than-1-400-ukrainian-drones-attacked-russia-and-crimea-russia-s-defense-ministry-says",
-       "published": "2026-11-17T08:47:01Z"
+       "title": "Nvidia says it does not intend to reinstate Jensen Huang as CEO",
+       "url": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+       "published": "2026-11-17T22:05:05Z"
       },
       {
-       "title": "Russia strikes bridges in Kyiv",
-       "url": "https://meduza.io/en/news/2026/11/17/russia-strikes-bridges-in-kyiv",
-       "published": "2026-11-17T08:10:39Z"
+       "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+       "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+       "published": "2026-11-17T16:09:57Z"
       }
      ]
     },
     {
-     "outlet": "Ukrainska Pravda (Ukraine)",
-     "title": "Zelenskyy details weapons used by Ukrainian forces to strike Crimean Bridge",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063242/",
-     "published": "2026-11-17T09:35:00Z",
-     "official": false,
-     "also": [
-      {
-       "title": "Two killed and one injured in Russian attack on Kyiv",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063228/",
-       "published": "2026-11-17T08:26:00Z"
-      }
-     ]
-    },
-    {
-     "outlet": "Politico Europe",
-     "title": "Ukraine strikes Crimean bridge in ‘unprecedented operation,’ Zelenskyy says",
-     "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-     "published": "2026-11-17T08:51:35Z",
+     "outlet": "9to5Mac",
+     "title": "Jensen Huang says he’s ready to rejoin Nvidia as CEO (if asked)",
+     "url": "https://9to5mac.com/2026/11/17/jensen-huang-says-hes-ready-to-rejoin-nvidia-as-ceo-if-asked/",
+     "published": "2026-11-17T16:10:31Z",
      "official": false
     },
     {
-     "outlet": "NPR News",
-     "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
-     "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
-     "published": "2026-11-17T09:50:45Z",
-     "official": false
-    },
-    {
-     "outlet": "The Straits Times",
-     "title": "Ukraine strikes Crimean bridge for second day as Russia pounds Kyiv bridges",
-     "url": "https://www.straitstimes.com/world/europe/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges",
-     "published": "2026-11-17T09:54:54Z",
-     "official": false
-    },
-    {
-     "outlet": "New York Times",
-     "title": "Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea",
-     "url": "https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html",
-     "published": "2026-11-17T09:55:26Z",
-     "official": false
-    },
-    {
-     "outlet": "ABC News",
-     "title": "Ukraine launches 'unprecedented' strike on Crimean bridge, Zelenskyy says",
-     "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-2nd-consecutive-night-officials/story?id=138201512",
-     "published": "2026-11-17T09:58:24Z",
-     "official": false
-    },
-    {
-     "outlet": "Tagesschau (Germany)",
-     "title": "Strikes on Ukraine: Two Major Bridges Hit in Kyiv",
-     "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-212.html",
-     "published": "2026-11-17T10:05:38Z",
-     "translated_from": "de",
-     "original_title": "Angriffe auf die Ukraine: Zwei wichtige Brücken in Kiew getroffen",
-     "official": false
-    },
-    {
-     "outlet": "New York Post",
-     "title": "Russia says Ukraine struck its bridge to Crimea for second day in biggest drone attack of war",
-     "url": "https://nypost.com/2026/11/17/world-news/russia-says-ukraine-struck-its-bridge-to-crimea-for-second-day-in-biggest-drone-attack-of-war/",
-     "published": "2026-11-17T10:09:28Z",
-     "official": false
-    },
-    {
-     "outlet": "The Guardian",
-     "title": "Ukraine hails attack on vital Kerch bridge linking Russia and Crimea",
-     "url": "https://www.theguardian.com/world/live/2026/nov/17/europe-ukraine-russia-crimea-kerch-bridge-attack-latest-news-updates",
-     "published": "2026-11-17T10:48:53Z",
-     "official": false,
-     "also": [
-      {
-       "title": "Ukraine critically damages Kerch bridge linking occupied Crimea with Russia",
-       "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea",
-       "published": "2026-11-17T10:30:22Z"
-      }
-     ]
-    },
-    {
-     "outlet": "franceinfo (France)",
-     "title": "Volodymyr Zelenskyy hails an \"unprecedented operation\" after the Ukrainian attack on the Crimean bridge",
-     "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/deux-ponts-de-kiev-sont-fermes-a-la-circulation-apres-des-attaques-russes-alors-que-de-son-cote-l-ukraine-cible-la-crimee_8286059.html#xtor=RSS-3-[lestitres]",
-     "published": "2026-11-17T10:45:14Z",
-     "translated_from": "fr",
-     "original_title": "Volodymyr Zelensky salue une \"opération sans précédent\" après l'attaque ukrainienne contre le pont de Crimée",
-     "official": false
-    },
-    {
-     "outlet": "BBC News",
-     "title": "Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-17T10:45:55Z",
-     "official": false
-    },
-    {
-     "outlet": "Corriere della Sera (Italy)",
-     "title": "Ukraine hits Crimea bridge: \"One of the symbolic arches collapses.\" Moscow bombs two key bridges in Kyiv. EU: 140 sanctions on Russia",
-     "url": "https://www.corriere.it/esteri/diretta-live/26_novembre_17/guerra-ucraina-russia-le-notizie-in-diretta-trump-putin-sta-cedendo-un-po-potrebbe-essere-piu-duro-kiev-nuovi-attacchi-russi.shtml",
-     "published": "2026-11-17T10:52:45Z",
-     "translated_from": "it",
-     "original_title": "L'Ucraina colpisce il ponte della Crimea: «Crollata una delle arcate-simbolo». Mosca bombarda due ponti-chiave a Kiev. L'Ue: 140 sanzioni alla Russia",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "db48d485a0f3",
-   "title": "California Sues OpenAI Over AI Hacking Risks",
-   "summary": "The California attorney general has filed a lawsuit against OpenAI, alleging that recent AI-related security breaches were entirely foreseeable due to poor security practices.",
-   "importance": 5,
-   "label": "REPORTED",
-   "category": "AI",
-   "published": "2026-11-17T11:00:50Z",
-   "outlet_count": 5,
-   "sources": [
-    {
-     "outlet": "The Verge AI",
-     "title": "California sues OpenAI over rogue AI hacking incidents",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-     "published": "2026-11-16T20:46:01Z",
-     "official": false
-    },
-    {
-     "outlet": "Engadget",
-     "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
-     "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
-     "published": "2026-11-16T19:52:24Z",
+     "outlet": "AppleInsider",
+     "title": "Jensen Huang says he'll return to Nvidia if he gets asked",
+     "url": "https://appleinsider.com/articles/26/11/17/jensen-huang-says-hell-return-to-nvidia-if-he-gets-asked?utm_source=rss",
+     "published": "2026-11-17T16:15:40Z",
      "official": false
     },
     {
      "outlet": "TechCrunch",
-     "title": "California state AG sues OpenAI over rogue agent incidents",
-     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-     "published": "2026-11-16T20:07:13Z",
-     "official": false
-    },
-    {
-     "outlet": "NPR News",
-     "title": "California sues OpenAI over hacking risks",
-     "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
-     "published": "2026-11-16T22:06:22Z",
-     "official": false
-    },
-    {
-     "outlet": "Just the News",
-     "title": "California sues OpenAI over the security and testing of its artificial intelligence models",
-     "url": "https://justthenews.com/nation/states/center-square/california-sues-openai-over-artificial-intelligence-models?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
-     "published": "2026-11-17T11:00:50Z",
-     "official": false
-    }
-   ]
-  },
-  {
-   "id": "4c628426b578",
-   "title": "Apple Releases iOS 27.3 Beta 2 With Face Unlock for iPhone Duo and Siri Limits",
-   "summary": "Apple's latest software betas introduce face unlock capabilities for the iPhone Duo, alongside new daily usage limits for advanced Siri AI features.",
-   "importance": 5,
-   "label": "CONFIRMED",
-   "category": "Tech",
-   "published": "2026-11-17T00:15:18Z",
-   "outlet_count": 8,
-   "sources": [
-    {
-     "outlet": "9to5Mac",
-     "title": "iOS 27.3 adds new face unlock feature for iPhone Duo",
-     "url": "https://9to5mac.com/2026/11/16/ios-27-3-adds-new-face-unlock-feature-for-iphone-duo/",
-     "published": "2026-11-16T18:13:54Z",
+     "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+     "published": "2026-11-17T22:42:27Z",
      "official": false,
      "also": [
       {
-       "title": "Everything new in iOS 27.3 beta 2",
-       "url": "https://9to5mac.com/2026/11/16/everything-new-in-ios-27-3-beta-2-so-far/",
-       "published": "2026-11-16T19:24:53Z"
-      },
-      {
-       "title": "You can now ask Siri AI questions about your health data, with iOS 27.3 beta 2",
-       "url": "https://9to5mac.com/2026/11/16/siri-ai-health-app-questions-ios-27/",
-       "published": "2026-11-16T19:16:41Z"
-      },
-      {
-       "title": "Apple reveals how iCloud+ increases Siri AI and Apple Intelligence usage limits",
-       "url": "https://9to5mac.com/2026/11/16/apple-intelligence-siri-ai-usage-limits/",
-       "published": "2026-11-16T18:12:09Z"
-      },
-      {
-       "title": "Apple releases iOS 27.3 beta 2 for iPhone",
-       "url": "https://9to5mac.com/2026/11/16/apple-releases-ios-27-3-beta-2-for-iphone/",
-       "published": "2026-11-16T18:07:38Z"
-      }
-     ]
-    },
-    {
-     "outlet": "MacRumors",
-     "title": "Everything New in iOS 27.3 Beta 2",
-     "url": "https://www.macrumors.com/2026/11/16/ios-27-3-beta-2-everything-new/",
-     "published": "2026-11-17T00:15:18Z",
-     "official": false,
-     "also": [
-      {
-       "title": "Hands-On With the iPhone Duo's New Face Unlock",
-       "url": "https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock-hands-on/",
-       "published": "2026-11-16T23:27:28Z"
-      },
-      {
-       "title": "iOS 27.3 Adds 'Ask About Page' Siri AI Feature to Safari",
-       "url": "https://www.macrumors.com/2026/11/16/siri-ai-ask-about-page-safari/",
-       "published": "2026-11-16T19:30:51Z"
-      },
-      {
-       "title": "Apple Adds Facial Unlock Option on iPhone Duo in iOS 27.3",
-       "url": "https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock/",
-       "published": "2026-11-16T19:26:16Z"
-      },
-      {
-       "title": "iOS 27.3 Beta Adds Daily Siri AI Limits and iCloud+ Upgrades",
-       "url": "https://www.macrumors.com/2026/11/16/apple-icloud-paid-siri-ai-upgrade/",
-       "published": "2026-11-16T18:36:00Z"
-      },
-      {
-       "title": "iOS 27.3 Beta 2 Now Available for Developers",
-       "url": "https://www.macrumors.com/2026/11/16/apple-releases-ios-27-3-beta-2/",
-       "published": "2026-11-16T18:08:00Z"
-      }
-     ]
-    },
-    {
-     "outlet": "AppleInsider",
-     "title": "Apple's face unlock for iPhone Duo works well, avoids Android's issues",
-     "url": "https://appleinsider.com/articles/26/11/16/apples-face-unlock-for-iphone-duo-works-well-avoids-androids-issues?utm_source=rss",
-     "published": "2026-11-16T21:56:57Z",
-     "official": false,
-     "also": [
-      {
-       "title": "New in iOS 27.3 beta 2: Front camera unlock, Siri AI in Safari, more",
-       "url": "https://appleinsider.com/articles/26/11/16/new-in-ios-273-beta-2-front-camera-unlock-siri-ai-in-safari-more?utm_source=rss",
-       "published": "2026-11-16T19:44:37Z"
-      },
-      {
-       "title": "Second developer betas of iOS 27.3, macOS 27.3 out for testing",
-       "url": "https://appleinsider.com/articles/26/11/16/second-developer-betas-of-ios-273-macos-273-out-for-testing?utm_source=rss",
-       "published": "2026-11-16T19:24:18Z"
-      },
-      {
-       "title": "Siri AI daily usage limits and fees will launch with iOS 27.3",
-       "url": "https://appleinsider.com/articles/26/11/16/siri-ai-daily-usage-limits-and-fees-will-launch-with-ios-273?utm_source=rss",
-       "published": "2026-11-16T18:16:03Z"
+       "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+       "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+       "published": "2026-11-17T16:44:15Z"
       }
      ]
     },
     {
      "outlet": "Wired",
-     "title": "The iPhone Duo Is Getting a Limited Version of Face ID",
-     "url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id/",
-     "published": "2026-11-16T18:26:26Z",
-     "official": false
-    },
-    {
-     "outlet": "Tom Warren",
-     "title": "today’s iOS 27.3 beta adds face unlock to the iPhone Duo. That’s a nice surprise for owners of Apple’s foldable iPhone",
-     "url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
-     "published": "2026-11-16T18:49:47Z",
-     "official": false
-    },
-    {
-     "outlet": "The Verge AI",
-     "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-     "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-     "published": "2026-11-16T19:24:40Z",
-     "official": false
-    },
-    {
-     "outlet": "TechCrunch",
-     "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
-     "url": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
-     "published": "2026-11-16T19:26:55Z",
+     "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+     "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+     "published": "2026-11-17T22:19:19Z",
      "official": false
     },
     {
      "outlet": "Engadget",
-     "title": "The iPhone Duo gets face unlock with the latest iOS 27 beta.",
-     "url": "https://www.engadget.com/2318489/iphone-duo-gets-face-unlock-with-the-latest-ios-27-beta/",
-     "published": "2026-11-16T21:17:24Z",
+     "title": "NVIDIA's board chair says the company is not considering reinstating Jensen Huang as CEO",
+     "url": "https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/",
+     "published": "2026-11-17T22:21:27Z",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Jensen Huang isn't coming back, says Nvidia board",
+     "url": "https://www.pcgamer.com/software/ai/jensen-huang-isnt-coming-back-says-nvidia-board/",
+     "published": "2026-11-17T22:33:32Z",
+     "official": false
+    },
+    {
+     "outlet": "CBC News",
+     "title": "No plans to reinstate CEO Jensen Huang, Nvidia chair tells investors",
+     "url": "https://www.cbc.ca/news/business/nvidia-earnings-jensen-huang-9.7425620?cmp=rss",
+     "published": "2026-11-17T22:56:59Z",
+     "official": false
+    },
+    {
+     "outlet": "Semafor",
+     "title": "Some Nvidia directors continue push to bring Huang back",
+     "url": "https://www.semafor.com/article/11/17/2026/some-nvidia-directors-push-to-bring-huang-back-despite-board-opposition",
+     "published": "2026-11-18T02:17:01Z",
      "official": false
     }
    ]
   },
   {
-   "id": "dab85004c09e",
-   "title": "GTA 6 Pre-Orders Cross $1.4 Billion Ahead of Release",
-   "summary": "Industry tracking indicates that Grand Theft Auto 6 pre-orders have surpassed $1.4 billion, with the vast majority opting for the Ultimate Edition ahead of its launch week.",
+   "id": "b3a4d7911c86",
+   "title": "GTA 6 Leads The Game Awards 2026 Nominations with Eight Nods Ahead of Release",
+   "summary": "Grand Theft Auto 6 has dominated The Game Awards 2026 nominations with eight nods, including Game of the Year, ahead of its official worldwide release.",
    "importance": 5,
    "label": "REPORTED",
    "category": "Gaming",
-   "published": "2026-11-17T01:00:00Z",
-   "outlet_count": 1,
+   "published": "2026-11-18T09:12:10Z",
+   "outlet_count": 9,
    "sources": [
     {
      "outlet": "GamesIndustry.biz",
-     "title": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition",
-     "url": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition",
-     "published": "2026-11-17T01:00:00Z",
+     "title": "GTA 6 leads The Game Awards 2026 with eight nominations",
+     "url": "https://www.gamesindustry.biz/gta-6-leads-the-game-awards-2026-with-eight-nominations",
+     "published": "2026-11-18T09:12:10Z",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "GTA 6 is the most nominated game at The Game Awards 2026",
+     "url": "https://www.videogameschronicle.com/news/the-game-awards-2026-nominations/",
+     "published": "2026-11-17T17:15:45Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Lucia actor confirmed as GTA 6 sweeps The Game Awards nominations",
+       "url": "https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/",
+       "published": "2026-11-17T17:08:11Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Pure Xbox",
+     "title": "The Game Awards Reveals Its Six Nominees For Game Of The Year, Including GTA 6",
+     "url": "https://www.purexbox.com/news/2026/11/the-game-awards-reveals-its-six-nominees-for-game-of-the-year-including-gta-6",
+     "published": "2026-11-17T17:17:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Push Square",
+     "title": "GTA 6 Nominated for Game of the Year Before PS5 Reviews Are Released",
+     "url": "https://www.pushsquare.com/news/2026/11/gta-6-nominated-for-game-of-the-year-before-ps5-reviews-are-released",
+     "published": "2026-11-17T21:00:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "The Game Awards 2026 Nominees Revealed, GTA 6 Up for 8 Awards",
+       "url": "https://www.pushsquare.com/news/2026/11/the-game-awards-2026-nominees-revealed-gta-6-up-for-8-awards",
+       "published": "2026-11-17T17:30:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Gematsu",
+     "title": "The Game Awards 2026 nominees announced",
+     "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced",
+     "published": "2026-11-17T17:38:18Z",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out",
+     "url": "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6",
+     "published": "2026-11-17T19:01:20Z",
+     "official": false,
+     "also": [
+      {
+       "title": "The Game Awards just confirmed who plays GTA 6's Lucia",
+       "url": "https://www.eurogamer.net/gta-6-lucia-actress-manni-l-perez-confirmed",
+       "published": "2026-11-17T17:42:20Z"
+      }
+     ]
+    },
+    {
+     "outlet": "GoNintendo",
+     "title": "The Game Awards 2026 nominees revealed, Nintendo snags most nominations of any company",
+     "url": "https://gonintendo.com/contents/67319-the-game-awards-2026-nominees-revealed-nintendo-snags-most-nominations-of-any",
+     "published": "2026-11-17T17:44:00Z",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "We got 8 Game Awards nominations for GTA 6 before GTA 6",
+     "url": "https://www.pcgamer.com/gaming-industry/events-conferences/we-got-8-game-awards-nominations-for-gta-6-before-gta-6/",
+     "published": "2026-11-17T18:35:38Z",
+     "official": false
+    },
+    {
+     "outlet": "IGN",
+     "title": "GTA 6 Fans Baffled After Jason's Actor Gets Left Out of Game Awards Nominations",
+     "url": "https://www.ign.com/articles/gta-6-fans-baffled-after-jasons-actor-gets-left-out-of-game-awards-nominations",
+     "published": "2026-11-17T23:49:55Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "044fc5e0d874",
+   "title": "OpenAI Launches GPT-6.2 Astra and Sol Frontier Models",
+   "summary": "OpenAI has introduced GPT-6.2 Astra for complex projects and GPT-6.2 Sol for efficient everyday work, making both available immediately in the API alongside expanded journalistic partnerships.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "AI",
+   "published": "2026-11-18T00:00:00Z",
+   "outlet_count": 4,
+   "sources": [
+    {
+     "outlet": "OpenAI News",
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+     "published": "2026-11-17T17:45:00Z",
+     "official": true,
+     "also": [
+      {
+       "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+       "published": "2026-11-18T00:00:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "OpenAI upgrades ChatGPT and Codex with new GPT-6.2 Astra and Sol models",
+     "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models/",
+     "published": "2026-11-17T17:51:47Z",
+     "official": false
+    },
+    {
+     "outlet": "Simon Willison",
+     "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+     "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+     "published": "2026-11-17T22:38:52Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "5eeda2732c28",
+   "title": "Xi Jinping Greets Donald Trump in Shenzhen Ahead of Trilateral Summit with Putin",
+   "summary": "Chinese President Xi Jinping greeted U.S. President Donald Trump with a hug at the airport in Shenzhen ahead of a high-stakes trilateral meeting with Russian President Vladimir Putin.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-11-18T10:59:53Z",
+   "outlet_count": 15,
+   "sources": [
+    {
+     "outlet": "Ukrainska Pravda (Ukraine)",
+     "title": "Trump arrives in China ahead of meeting with Xi and Putin",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063413/",
+     "published": "2026-11-18T09:39:00Z",
+     "official": false
+    },
+    {
+     "outlet": "NPR News",
+     "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+     "published": "2026-11-18T10:32:03Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
+       "url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
+       "published": "2026-11-18T09:43:28Z"
+      },
+      {
+       "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+       "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+       "published": "2026-11-17T12:20:57Z"
+      }
+     ]
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Xi and Putin call for free trade ahead of Trump meeting",
+     "url": "https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/",
+     "published": "2026-11-18T05:04:02Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "APEC summit: Xi greets Trump on arrival in Shenzhen",
+     "url": "https://www.dw.com/en/apec-summit-xi-greets-trump-on-arrival-in-shenzhen/live-79964719?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-18T09:23:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "APEC summit: What Trump, Xi and Putin want",
+       "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-18T05:39:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "Xi calls ties with Russia ‘firm as a mountain’ as he meets Putin ahead of three-way summit with Trump",
+     "url": "https://meduza.io/en/news/2026/11/18/xi-calls-ties-with-russia-firm-as-a-mountain-as-he-meets-putin-ahead-of-three-way-summit-with-trump",
+     "published": "2026-11-18T07:57:19Z",
+     "official": false
+    },
+    {
+     "outlet": "CNA (Singapore)",
+     "title": "Putin slams sanctions ahead of summit with Trump, Xi",
+     "url": "https://www.channelnewsasia.com/world/vladimir-putin-slams-sanctions-trump-xi-apec-summit-6562146",
+     "published": "2026-11-18T09:47:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Trump arrives in China ahead of trilateral summit with Xi, Putin",
+       "url": "https://www.channelnewsasia.com/asia/trump-arrives-china-shenzhen-apec-summit-trilateral-xi-putin-6562131",
+       "published": "2026-11-18T09:32:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Bloomberg",
+     "title": "Xi Greets Trump Ahead of Bilateral and Trilateral Talks",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-18/xi-greets-trump-ahead-of-bilateral-and-trilateral-talks-video",
+     "published": "2026-11-18T09:34:44Z",
+     "official": false
+    },
+    {
+     "outlet": "Newsweek",
+     "title": "Xi Makes Unprecedented Gesture as Trump Arrives in China For Summit",
+     "url": "https://www.newsweek.com/xi-makes-unprecedented-gesture-trump-arrives-china-summit-12732265",
+     "published": "2026-11-18T10:15:06Z",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Xi greets Trump as he arrives in China, a rare move ahead of Putin talks",
+     "url": "https://www.nbcnews.com/world/asia/xi-jinping-greets-trump-arrives-china-tarmac-putin-talks-shenzhen-apec-rcna609962",
+     "published": "2026-11-18T10:29:18Z",
+     "official": false
+    },
+    {
+     "outlet": "Corriere della Sera (Italy)",
+     "title": "Xi welcomes Trump with a hug in Shenzhen, following meeting with Putin: 'Our relations are solid as a mountain'. Trilateral tomorrow",
+     "url": "https://www.corriere.it/esteri/26_novembre_18/xi-shenzhen-colloquio-putin-arrivo-trump-ec66f752-5f86-4509-a33d-736a5a91fxlk.shtml",
+     "published": "2026-11-18T10:52:33Z",
+     "translated_from": "it",
+     "original_title": "Xi accoglie (con un abbraccio) Trump a Shenzhen. Prima l'incontro con Putin: «Le nostre relazioni solide come una montagna». Domani il trilaterale",
+     "official": false
+    },
+    {
+     "outlet": "NHK News (Japanese)",
+     "title": "APEC summit opens as President Xi personally welcomes President Trump",
+     "url": "https://news.web.nhk/newsweb/na/nd-20261118de77556",
+     "published": "2026-11-18T10:53:27Z",
+     "translated_from": "ja",
+     "original_title": "APEC首脳会議開幕へ 習主席 トランプ大統領をみずから出迎え",
+     "official": false
+    },
+    {
+     "outlet": "Politico Europe",
+     "title": "Xi personally welcomes Trump to China for high-stakes summit",
+     "url": "https://www.politico.eu/article/xi-jinping-donald-trump-china-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "published": "2026-11-18T10:54:33Z",
+     "official": false
+    },
+    {
+     "outlet": "New York Times",
+     "title": "In a Rare Move, Xi Greets Trump as He Lands in China",
+     "url": "https://www.nytimes.com/2026/11/18/world/asia/xi-trump-china-arrival.html",
+     "published": "2026-11-18T10:55:13Z",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Trump arrives in China ahead of historic trilateral meeting with Xi Jinping and Vladimir Putin",
+     "url": "https://www.thejournal.ie/trump-in-china-trilateral-meeting-xi-jinping-and-vladimir-putin-7230049-Nov2026/",
+     "published": "2026-11-18T10:55:55Z",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Xi welcomes Trump with hug in Shenzhen ahead of meeting with Putin",
+     "url": "https://cphpost.dk/2026-11-18/global/xi-welcomes-trump-with-hug-in-shenzhen-ahead-of-meeting-with-putin/",
+     "published": "2026-11-18T10:59:53Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "7b95b9ae8099",
+   "title": "Civ Developer Firaxis Games Reportedly Cuts One-Third of Staff",
+   "summary": "Civilization developer Firaxis Games has reportedly laid off a third of its workforce, with studio head Heather Hazen among those departing following struggles with its recent projects.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Gaming",
+   "published": "2026-11-17T19:45:25Z",
+   "outlet_count": 9,
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "title": "Civilization studio Firaxis Games lays off a third of staff",
+     "url": "https://arstechnica.com/gaming/2026/11/civilization-studio-firaxis-games-lays-off-a-third-of-staff/",
+     "published": "2026-11-17T19:45:25Z",
+     "official": false
+    },
+    {
+     "outlet": "Jason Schreier",
+     "title": "BREAKING: Civilization developer Firaxis Games is cutting 1/3 of staff, or around 60 people, sources tell Bloomberg. Studio head also departing.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/take-two-s-firaxis-maker-of-civilization-cuts-a-third-of-its-staff?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDkzMjgwNywiZXhwIjoxNzk1NTM3NjA3LCJhcnRpY2xlSWQiOiJUT05OMDlLSUpIOTQwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.UB2VStiHDC6AEPIoF0t33xZ72QVmViJYS4hB0UM7vs8",
+     "published": "2026-11-17T16:27:04Z",
+     "official": false
+    },
+    {
+     "outlet": "Gematsu",
+     "title": "Firaxis Games lays off a third of staff",
+     "url": "https://www.gematsu.com/2026/11/firaxis-games-lays-off-a-third-of-staff",
+     "published": "2026-11-17T16:50:34Z",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "Take-Two has laid off a third of staff at Civilization and XCOM studio Firaxis",
+     "url": "https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/",
+     "published": "2026-11-17T17:00:25Z",
+     "official": false
+    },
+    {
+     "outlet": "Rock Paper Shotgun",
+     "title": "Only two days out from GTA 6, its publisher Take-Two lay off staff at XCOM and Civilization developer Firaxis",
+     "url": "https://www.rockpapershotgun.com/only-two-days-out-from-gta-6-its-publisher-take-two-lay-off-staff-at-xcom-and-civilization-developer-firaxis",
+     "published": "2026-11-17T17:02:50Z",
+     "official": false
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "Civilization Developer Firaxis Games Cuts A Third Of Its Staff, Studio Head Departs",
+     "url": "https://www.nintendolife.com/news/2026/11/civilization-developer-firaxis-games-cuts-a-third-of-its-staff-studio-head-departs",
+     "published": "2026-11-17T17:15:00Z",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs",
+     "url": "https://www.pcgamer.com/gaming-industry/civilization-dev-firaxis-reportedly-lays-off-a-third-of-its-staff-studio-head-departs/",
+     "published": "2026-11-17T17:27:39Z",
+     "official": false
+    },
+    {
+     "outlet": "GamesIndustry.biz",
+     "title": "Report: Civilization dev Firaxis lays off a third of its staff",
+     "url": "https://www.gamesindustry.biz/report-civilization-dev-firaxis-lays-off-a-third-of-its-staff-following-development-difficulties-with-xcom-sequel",
+     "published": "2026-11-17T17:33:10Z",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "Firaxis reportedly cuts a third of its staff as studio head departs and new XCOM struggles",
+     "url": "https://www.eurogamer.net/firaxis-layoffs-civilization-xcom-heather-hazen",
+     "published": "2026-11-17T18:13:20Z",
      "official": false
     }
    ]
@@ -446,132 +467,146 @@
    "name": "AI",
    "stories": [
     {
-     "id": "5c1231b87e6f",
-     "title": "Anthropic Demos Rapid AMD Integration and Massive Infrastructure Plans",
-     "summary": "Anthropic reportedly ran Claude Mythos Preview on AMD GPUs in just three days, while separate documents detail a $900 billion infrastructure commitment through 2045.",
+     "id": "bccee91cf811",
+     "title": "Microsoft Integrates Office Directly into Copilot at Ignite",
+     "summary": "Microsoft announced during its Ignite keynote that Word, Excel, and PowerPoint are now generally available inside Copilot, which CEO Satya Nadella dubbed the new OS for work.",
      "importance": 4,
      "label": "REPORTED",
      "category": "AI",
-     "published": "2026-11-17T10:50:00Z",
-     "outlet_count": 1,
+     "published": "2026-11-18T05:40:01Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Tom's Hardware via Techmeme",
-       "title": "Anthropic tells investors Claude Mythos Preview got its AI running on AMD GPUs in ~3 days with \"basically no human intervention\", below the usual 6 to 12 months",
-       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
-       "published": "2026-11-17T04:02:44Z",
+       "outlet": "Ars Technica",
+       "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+       "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+       "published": "2026-11-18T00:27:29Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "cd60f55675b4",
+     "title": "Amazon and Google Positioned to Hold Nearly 30% Stake in Anthropic Post-IPO",
+     "summary": "As Anthropic nears its high-profile public offering, financial disclosures reveal that Amazon and Google are positioned to hold nearly 30% of the AI company combined.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-18T10:27:31Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Corriere della Sera (Italy)",
+       "title": "Amazon and Google Closing In on 36% of Anthropic, Stake Could Be Worth 600 Billion: The Capital Gain and Implications for the Two Big Tech Giants",
+       "url": "https://www.corriere.it/economia/finanza/26_novembre_18/amazon-e-google-verso-il-36-di-anthropic-la-quota-puo-valere-oltre-600-miliardi-la-maxi-plusvalenza-e-le-implicazioni-per-le-due-e7356580-ff7a-4147-9863-95b078ae7xlk.shtml",
+       "published": "2026-11-18T10:27:31Z",
+       "translated_from": "it",
+       "original_title": "Amazon e Google verso il 36% di Anthropic, la quota può valere 600 miliardi: la maxi plusvalenza e le implicazioni per le due big tech",
        "official": false
       },
       {
-       "outlet": "Financial Times via Techmeme",
-       "title": "A look at Anthropic's data center network plans, dubbed Anthropic Direct, committing $900B+ through 2045; docs show it will lease 875K TPUs for $7.2B per year",
-       "url": "https://www.ft.com/content/559c13f1-0888-47e5-b6ce-523309a37193",
-       "published": "2026-11-17T10:50:00Z",
+       "outlet": "TechCrunch",
+       "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+       "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+       "published": "2026-11-17T22:29:05Z",
        "official": false
       }
      ]
     },
     {
-     "id": "9d00ff553701",
-     "title": "OpenAI Expands Academic Access and NATO Cyber Defense Partnership",
-     "summary": "OpenAI announced programs offering free frontier model access to 200,000 researchers globally and partnered with NATO to strengthen cyber defenses.",
+     "id": "dc4bbd714a2d",
+     "title": "Anthropic IPO Highlights Massive Startup Equity Valuations",
+     "summary": "An analysis surrounding Anthropic's looming IPO reveals unprecedented windfalls for Silicon Valley AI insiders, alongside shifts in venture capital power rankings.",
      "importance": 4,
-     "label": "CONFIRMED",
+     "label": "REPORTED",
      "category": "AI",
-     "published": "2026-11-17T00:00:00Z",
-     "outlet_count": 1,
+     "published": "2026-11-18T11:00:00Z",
+     "outlet_count": 2,
      "sources": [
       {
-       "outlet": "OpenAI News",
-       "title": "Strengthening NATO and allied cyber defenses with AI",
-       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-       "published": "2026-11-17T00:00:00Z",
-       "official": true,
-       "also": [
-        {
-         "title": "Broadening access to AI for scientists",
-         "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-         "published": "2026-11-16T17:00:00Z"
-        }
-       ]
+       "outlet": "Financial Times via Techmeme",
+       "title": "Anthropic IPO is set to redraw VC power rankings, with lesser-known firms like Spark Capital poised for outsized returns compared with larger, blue-chip rivals",
+       "url": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?accessToken=zwAAAaHtopUSkdOjQw8NAIBJcNOO7CwUyEOLPQ.MEUCIF1q7aLCnP63ba_HSXgJrufMSFKbE0XM6j8UzDPK2UaJAiEAwlWU3Tct7FROgNE7x9sr3LUUt1DjFS0mZu406msl96Y&sharetype=gift&token=a97c7641-a9cb-433e-a6b6-ea4083f6a825",
+       "published": "2026-11-18T07:00:41Z",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg via Techmeme",
+       "title": "Analysis: San Francisco-based AI startup insiders hold a combined $1.2T in equity; at Anthropic's IPO midpoint, the average employee's equity is valued at $72M",
+       "url": "https://www.bloomberg.com/news/features/2026-11-17/san-francisco-s-anthropic-openai-boom-could-create-1-2-trillion-in-wealth?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDkzNTQyNCwiZXhwIjoxNzk1NTQwMjI0LCJhcnRpY2xlSWQiOiJUT043VzdOM04wOUcwMCIsImJjb25uZWN0SWQiOiJBRjJFNDMxQTgzRjk0OTU3QUIxNzg5NTgwOEU2Q0YxMiJ9.7VayFY-M2sQ5RZu3yUtftUqTb-0UIpPVnEz898iFnWw",
+       "published": "2026-11-18T01:50:07Z",
+       "official": false
+      },
+      {
+       "outlet": "Mother Jones",
+       "title": "Anthropic Goes Public. AI Might Go Pop.",
+       "url": "https://www.motherjones.com/politics/2026/11/anthropic-goes-public-ai-tech-jacob-ward/",
+       "published": "2026-11-18T11:00:00Z",
+       "official": false
       }
      ]
     },
     {
-     "id": "c10fc9fd7723",
-     "title": "NVIDIA Introduces Vera Rubin Platform and DGX Spark Developer Kit",
-     "summary": "At the SC26 conference, NVIDIA debuted its Rubin HPC architecture and the DGX Spark Developer Kit for advanced agentic workflows and scientific simulations.",
+     "id": "6ab4eb3121ad",
+     "title": "Proton Launches Privacy-Focused Lumo Desktop Assistant",
+     "summary": "Proton has introduced Lumo Desktop for Windows, Mac, and Linux, offering users a privacy-centric AI assistant with granular access controls across local files and apps.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-17T17:32:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+       "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+       "published": "2026-11-17T17:32:25Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2379ec624c5a",
+     "title": "OpenAI Faces Multiple Legal Scrutiny and Safety Protests",
+     "summary": "OpenAI is facing an Oregon lawsuit over child safety concerns and separate legal actions in California following admissions regarding loss-of-control AI test incidents.",
      "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-17T23:45:32Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "Oregon is the latest state to sue OpenAI over child safety",
+       "url": "https://www.engadget.com/2320041/oregon-is-the-latest-state-to-sue-openai-over-child-safety/",
+       "published": "2026-11-17T23:45:32Z",
+       "official": false
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "OpenAI sued by California after admitting to 80 loss-of-control incidents",
+       "url": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
+       "published": "2026-11-17T18:13:34Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "dec08682255b",
+     "title": "Nvidia Showcases New AI Agent Infrastructure at SC26",
+     "summary": "At the SC26 conference in Chicago, Nvidia detailed new tools designed to let AI agents autonomously plan experiments, write code, and verify scientific research workflows.",
+     "importance": 3,
      "label": "CONFIRMED",
      "category": "AI",
-     "published": "2026-11-16T23:00:05Z",
+     "published": "2026-11-17T14:00:10Z",
      "outlet_count": 1,
      "sources": [
       {
        "outlet": "NVIDIA Blog",
-       "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-       "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-       "published": "2026-11-16T23:00:05Z",
-       "official": true,
-       "also": [
-        {
-         "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-         "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
-         "published": "2026-11-16T16:00:01Z"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "id": "18db3d0bc9b5",
-     "title": "Google Maps Integrates AI Trip Itinerary Planning",
-     "summary": "Google Maps has rolled out new Ask Maps features allowing users to automatically generate detailed trip itineraries with real-time location data.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "AI",
-     "published": "2026-11-16T14:48:13Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "TechCrunch",
-       "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-       "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-       "published": "2026-11-16T14:48:13Z",
-       "official": false
-      },
-      {
-       "outlet": "Google AI",
-       "title": "New Ask Maps features to help with holiday travel and prep",
-       "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-       "published": "2026-11-16T14:00:00Z",
+       "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+       "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+       "published": "2026-11-17T14:00:10Z",
        "official": true
-      },
-      {
-       "outlet": "The Verge AI",
-       "title": "Google Maps can now create trip itineraries for you",
-       "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
-       "published": "2026-11-16T14:00:00Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8e05fb255232",
-     "title": "OpenAI CFO Cites Opportunistic Funding Round",
-     "summary": "OpenAI CFO Sarah Friar disclosed that the lab's latest massive funding round was unplanned and prompted by media leaks.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "AI",
-     "published": "2026-11-17T01:24:10Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Semafor",
-       "title": "OpenAI CFO says latest funding round was unplanned, prompted by news report",
-       "url": "https://www.semafor.com/article/11/16/2026/openai-cfo-says-latest-funding-round-was-unplanned-prompted-by-news-report",
-       "published": "2026-11-17T01:24:10Z",
-       "official": false
       }
      ]
     }
@@ -581,131 +616,251 @@
    "name": "Tech",
    "stories": [
     {
-     "id": "0e48cf49e7ce",
-     "title": "Apple Expands Apple Intelligence Support in China to iPads and Macs",
-     "summary": "Following initial iPhone availability, Apple is expanding its regional AI beta testing to iPad and Mac platforms ahead of public software releases.",
+     "id": "8cb287e66ace",
+     "title": "Apple Services Hit by Brief Major Outage Affecting iCloud and App Store",
+     "summary": "Apple's online infrastructure experienced a widespread outage affecting iCloud, the App Store, and Apple Music, which the company confirmed was not the result of a cyber attack.",
      "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-11-16T21:38:55Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "9to5Mac",
-       "title": "Apple expands Apple Intelligence beta testing in China to iPads and Macs",
-       "url": "https://9to5mac.com/2026/11/16/apple-expands-apple-intelligence-beta-testing-in-china-to-ipads-and-macs/",
-       "published": "2026-11-16T21:38:55Z",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "iPad and Mac Get Apple Intelligence in China in 27.3 Betas",
-       "url": "https://www.macrumors.com/2026/11/16/ipad-mac-apple-intelligence-china/",
-       "published": "2026-11-16T20:56:59Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "aea3c3eace8f",
-     "title": "Meta Tests Standalone Instagram Direct App in Turkey and Thailand",
-     "summary": "Meta is piloting a standalone messaging application for Instagram that does not require an existing primary account to operate.",
-     "importance": 3,
      "label": "REPORTED",
      "category": "Tech",
-     "published": "2026-11-17T04:40:01Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Engadget",
-       "title": "Meta is testing Direct, a standalone messaging app for Instagram",
-       "url": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
-       "published": "2026-11-17T01:00:00Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "8fe2bfc78085",
-     "title": "AT&T Files False Advertising Suit Against Comcast Over Fiber Wi-Fi Claims",
-     "summary": "AT&T initiated legal action arguing that Comcast's marketing of fiber-powered Wi-Fi misrepresents traditional cable infrastructure.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-11-16T20:48:08Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Ars Technica",
-       "title": "Comcast's \"fiber-powered Wi-Fi\" is just cable, AT&T says in false advertising case",
-       "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
-       "published": "2026-11-16T20:27:58Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "ef4ee6d8bf40",
-     "title": "iPhone Duo Shipments Improve as Optimized App Catalog Exceeds 200,000",
-     "summary": "Apple reports that the number of apps optimized specifically for the iPhone Duo has doubled in days, while order shipping estimates shorten ahead of the holidays.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Tech",
-     "published": "2026-11-16T23:29:54Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "MacRumors",
-       "title": "iPhone Duo Orders Will Now Arrive Before the Holidays",
-       "url": "https://www.macrumors.com/2026/11/16/iphone-duo-orders-early-arrival/",
-       "published": "2026-11-16T23:29:54Z",
-       "official": false,
-       "also": [
-        {
-         "title": "Apple Says More Than 200,000 Apps Now Optimized for iPhone Duo",
-         "url": "https://www.macrumors.com/2026/11/16/apple-says-200k-apps-optimized-for-iphone-duo/",
-         "published": "2026-11-16T19:27:58Z"
-        }
-       ]
-      },
-      {
-       "outlet": "9to5Mac",
-       "title": "New iPhone Duo orders now deliver a month earlier than before",
-       "url": "https://9to5mac.com/2026/11/16/new-iphone-duo-orders-now-deliver-a-month-earlier-than-before/",
-       "published": "2026-11-16T21:28:12Z",
-       "official": false,
-       "also": [
-        {
-         "title": "iPhone Duo now has twice as many optimized apps as it did 10 days ago",
-         "url": "https://9to5mac.com/2026/11/16/iphone-duo-now-has-twice-as-many-optimized-apps-as-it-did-10-days-ago/",
-         "published": "2026-11-16T20:18:40Z"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "id": "aea96a823e22",
-     "title": "Instagram Integrates Direct Amazon Affiliate Links",
-     "summary": "Creators can now embed Amazon affiliate links directly into standard Instagram feed posts and Reels.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Tech",
-     "published": "2026-11-16T17:00:00Z",
-     "outlet_count": 2,
+     "published": "2026-11-17T21:02:29Z",
+     "outlet_count": 4,
      "sources": [
       {
        "outlet": "TechCrunch",
-       "title": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
-       "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/",
-       "published": "2026-11-16T17:00:00Z",
+       "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
+       "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+       "published": "2026-11-17T18:55:40Z",
        "official": false
       },
       {
-       "outlet": "Wired",
-       "title": "Instagram Is Bringing Amazon Affiliate Links Directly to Reels and Posts",
-       "url": "https://www.wired.com/story/instagram-is-bringing-amazon-affiliate-links-directly-to-reels-and-posts/",
-       "published": "2026-11-16T17:00:00Z",
+       "outlet": "9to5Mac",
+       "title": "iCloud, App Store, and other Apple services hit by ongoing outage [U]",
+       "url": "https://9to5mac.com/2026/11/17/icloud-app-store-and-other-apple-services-hit-by-ongoing-outage/",
+       "published": "2026-11-17T17:33:58Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Accounts, App Store and Apple Music Experiencing Issues",
+       "url": "https://www.macrumors.com/2026/11/17/apple-accounts-experiencing-issues/",
+       "published": "2026-11-17T17:47:55Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "'Not a cyber attack,' Apple says about outage that hit iCloud & internal services",
+       "url": "https://appleinsider.com/articles/26/11/17/icloud-account-login-icloud-mail-services-are-having-trouble-today?utm_source=rss",
+       "published": "2026-11-17T21:02:29Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a54de110fc15",
+     "title": "Google Wallet Arrives on iOS Without Tap-to-Pay Support",
+     "summary": "Google Wallet has officially launched on the App Store for iOS users, though it currently lacks native NFC tap-to-pay functionality, requiring users to rely on Apple Pay at registers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-17T19:33:27Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "The Google Wallet app is now available on iOS",
+       "url": "https://9to5google.com/2026/11/17/google-wallet-ios-app/",
+       "published": "2026-11-17T17:49:25Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Google Wallet Available on iPhone, But Without Tap to Pay",
+       "url": "https://www.macrumors.com/2026/11/17/google-wallet-iphone/",
+       "published": "2026-11-17T18:19:39Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Google Wallet arrives on iPhone, but you'll still need Apple Pay at the register",
+       "url": "https://appleinsider.com/articles/26/11/17/google-wallet-arrives-on-iphone-but-youll-still-need-apple-pay-at-the-register?utm_source=rss",
+       "published": "2026-11-17T18:43:24Z",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Google Wallet is launching on iOS",
+       "url": "https://www.engadget.com/2319673/google-wallet-is-launching-on-ios/",
+       "published": "2026-11-17T19:33:27Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ce4dbf2898fe",
+     "title": "Disney+ and Hulu to Fully Merge into a Unified App in December",
+     "summary": "Disney has confirmed that the complete merger of Disney+ and Hulu into a single unified app experience will roll out to subscribers next month.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-17T23:56:28Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Disney+ and Hulu’s ‘fully unified’ app is coming next month",
+       "url": "https://9to5mac.com/2026/11/17/disney-and-hulus-fully-unified-app-is-coming-next-month/",
+       "published": "2026-11-17T14:31:31Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Disney+ & Hulu's unified app will arrive before Christmas",
+       "url": "https://appleinsider.com/articles/26/11/17/disney-hulus-unified-app-will-arrive-before-christmas?utm_source=rss",
+       "published": "2026-11-17T15:25:39Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Disney+ and Hulu Will Fully Merge Into One App in December",
+       "url": "https://www.macrumors.com/2026/11/17/disney-hulu-merge-december/",
+       "published": "2026-11-17T23:56:28Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "48d9bb6bd864",
+     "title": "iFixit Teardown Highlights Poor Repairability for Apple HomeView",
+     "summary": "A teardown of Apple's recently launched HomeView hardware reveals compact internal components paired with low repairability scores for wall-mounted options.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-17T22:43:43Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "iFixit’s Apple HomeView teardown reveals a device that will be difficult to repair",
+       "url": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
+       "published": "2026-11-17T22:25:41Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "iFixit Says Apple's HomeView is Unnecessarily Hard to Repair",
+       "url": "https://www.macrumors.com/2026/11/17/ifixit-homeview-teardown/",
+       "published": "2026-11-17T22:04:33Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Differences between both Apple HomeView models revealed in teardown",
+       "url": "https://appleinsider.com/articles/26/11/17/differences-between-both-apple-homeview-models-revealed-in-teardown?utm_source=rss",
+       "published": "2026-11-17T22:43:43Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a8da265caff4",
+     "title": "Apple Begins Selling Official DIY Repair Parts for iPhone Duo",
+     "summary": "Apple has added replacement parts and specialized repair tools for the iPhone Duo to its self-service repair store across the United States, Canada, and Europe.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-17T17:38:37Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Now Sells DIY Repair Parts for iPhone Duo",
+       "url": "https://www.macrumors.com/2026/11/17/apple-now-sells-iphone-duo-repair-parts/",
+       "published": "2026-11-17T17:38:37Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple now selling iPhone Duo replacement parts and tools",
+       "url": "https://9to5mac.com/2026/11/17/apple-now-selling-iphone-duo-replacement-parts-and-tools/",
+       "published": "2026-11-17T14:38:30Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "76ee2dcdd889",
+     "title": "iPhone 20 Pro Rumored Curved Glass Design Leaks via Protective Shells",
+     "summary": "Leak sources and accessory manufacturers have surfaced glass screen protector designs pointing to a heavily curved front panel for Apple's upcoming anniversary iPhone.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Tech",
+     "published": "2026-11-17T15:19:24Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "This is what the iPhone 20 Pro curved glass screen could look like",
+       "url": "https://appleinsider.com/articles/26/11/17/this-is-what-the-iphone-20-pro-curved-glass-screen-could-look-like?utm_source=rss",
+       "published": "2026-11-17T15:19:24Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "iPhone 20 Pro Screen Protectors Show Rumored Curved Design",
+       "url": "https://www.macrumors.com/2026/11/17/iphone-20-pro-screen-protectors-rumored-design/",
+       "published": "2026-11-17T14:08:09Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d05229ecded2",
+     "title": "Major Websites Compromised in Wide-Scale Crypto-Stealing Security Breach",
+     "summary": "Security researchers uncovered a compromise affecting nearly 180 high-profile websites globally, engineered to siphon cryptocurrency credentials from unsuspecting iPhone visitors.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-17T14:06:04Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Major websites compromised to steal crypto from iPhone users",
+       "url": "https://9to5mac.com/2026/11/17/major-websites-compromised-to-steal-crypto-from-iphone-users/",
+       "published": "2026-11-17T14:06:04Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "iPhone Users Targeted in Major Website Security Breach",
+       "url": "https://www.macrumors.com/2026/11/17/iphone-users-targeted-website-security-breach/",
+       "published": "2026-11-17T12:41:57Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "091910f5fb08",
+     "title": "Apple Tweaks 'Liquid Glass' UI Design Following Polarizing Feedback",
+     "summary": "Responding to widespread user feedback regarding its controversial Liquid Glass interface overhaul, Apple is testing a softer design iteration in recent beta software.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-17T12:01:10Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple hears Liquid Glass feedback, tests small but welcome change",
+       "url": "https://9to5mac.com/2026/11/17/apple-hears-liquid-glass-feedback-tests-small-but-welcome-change/",
+       "published": "2026-11-17T12:01:10Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Tests Bringing Back a Softer Side of Liquid Glass",
+       "url": "https://www.macrumors.com/2026/11/17/apple-tests-softer-side-of-liquid-glass/",
+       "published": "2026-11-17T11:16:24Z",
        "official": false
       }
      ]
@@ -716,187 +871,197 @@
    "name": "Gaming",
    "stories": [
     {
-     "id": "d31d0d73c3a6",
-     "title": "Star Wars Galactic Racer Confirms Split-Screen Multiplayer for 2027",
-     "summary": "Developers have announced that Star Wars Galactic Racer will receive a local split-screen mode in a free update next year.",
-     "importance": 3,
+     "id": "9f0d61a00c1a",
+     "title": "Sony Confirms Mandatory PS5 Firmware Update Required to Play GTA 6",
+     "summary": "Sony has issued an official warning noting that PlayStation 5 firmware update 14.23 is strictly required to run Grand Theft Auto 6 at launch.",
+     "importance": 4,
      "label": "CONFIRMED",
      "category": "Gaming",
-     "published": "2026-11-17T11:00:10Z",
-     "outlet_count": 5,
+     "published": "2026-11-18T07:33:45Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Rock Paper Shotgun",
-       "title": "Star Wars Galactic Racer will get local split-screen multiplayer in early 2027 with new 'Free Play' mode, finally letting racers yell at one another in a tangible space",
-       "url": "https://www.rockpapershotgun.com/star-wars-galactic-racer-will-get-local-split-screen-multiplayer-in-early-2027-with-new-free-play-mode-finally-letting-racers-yell-at-one-another-in-a-tangible-space",
-       "published": "2026-11-17T11:00:10Z",
+       "outlet": "Push Square",
+       "title": "GTA 6 Requires New PS5 Firmware Update to Play",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6-requires-new-ps5-firmware-update-to-play",
+       "published": "2026-11-18T02:00:00Z",
        "official": false
       },
       {
-       "outlet": "Gematsu",
-       "title": "Star Wars: Galactic Racer to add split-screen-supported ‘Free Play’ mode in early 2027",
-       "url": "https://www.gematsu.com/2026/11/star-wars-galactic-racer-to-add-split-screen-supported-free-play-mode-in-early-2027",
-       "published": "2026-11-16T17:00:37Z",
+       "outlet": "Kotaku",
+       "title": "PS5 Gets Last-Minute Software Update That’s Required To Play GTA 6",
+       "url": "https://kotaku.com/ps5-gets-last-minute-software-update-thats-required-to-play-gta-6-2000757868",
+       "published": "2026-11-18T03:02:45Z",
        "official": false
       },
       {
-       "outlet": "Pure Xbox",
-       "title": "'We've Heard You!' - Star Wars Galactic Racer Is Officially Adding Split-Screen Multiplayer",
-       "url": "https://www.purexbox.com/news/2026/11/weve-heard-you-star-wars-galactic-racer-is-officially-adding-split-screen-multiplayer",
-       "published": "2026-11-16T17:25:00Z",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027",
-       "url": "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer",
-       "published": "2026-11-16T19:38:20Z",
-       "official": false
-      },
-      {
-       "outlet": "Insider Gaming",
-       "title": "Star Wars: Galactic Racer Adding In Local Split-Screen",
-       "url": "https://insider-gaming.com/star-wars-galactic-racer-splitscreen/",
-       "published": "2026-11-16T21:45:32Z",
+       "outlet": "IGN",
+       "title": "Sony Issues Official PS5 Firmware Update Warning, Confirms GTA 6 Requirement",
+       "url": "https://www.ign.com/articles/sony-issues-official-ps5-firmware-update-warning-confirms-gta-6-requirement",
+       "published": "2026-11-18T07:33:45Z",
        "official": false
       }
      ]
     },
     {
-     "id": "b004131d053e",
-     "title": "Zelda: Ocarina of Time Remake Shatters US Physical Sales Records",
-     "summary": "The newly released Zelda remake became the best-selling physical video game in the US for 2026 within its first week on the market.",
+     "id": "ff3462827449",
+     "title": "PlayStation Defeats Massive £2 Billion UK Class Action Over Store Pricing",
+     "summary": "A UK court has dismissed a multi-billion pound class action lawsuit that accused Sony of abusing its PlayStation Store dominance to force unfair digital game prices onto consumers.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-11-17T09:24:28Z",
+     "published": "2026-11-17T16:30:00Z",
      "outlet_count": 4,
      "sources": [
       {
-       "outlet": "GoNintendo",
-       "title": "Zelda: Ocarina of Time is 2026's best-selling physical video game in the US after just one week",
-       "url": "https://gonintendo.com/contents/67311-zelda-ocarina-of-time-is-2026-s-best-selling-physical-video-game-in-the-us-after",
-       "published": "2026-11-16T23:49:00Z",
-       "official": false
-      },
-      {
-       "outlet": "Mat Piscatella",
-       "title": "After just one week in market, The Legend of Zelda: Ocarina of Time is 2026's best-selling physical video game in the US.",
-       "url": "https://bsky.app/profile/matpiscatella.bsky.social/post/3n2hmkf5tt227",
-       "published": "2026-11-16T22:52:09Z",
-       "official": false
-      },
-      {
-       "outlet": "Nintendo Life",
-       "title": "Zelda: Ocarina Of Time Remake Crowned 2026's \"Best-Selling Physical Video Game In The US\"",
-       "url": "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us",
-       "published": "2026-11-17T00:55:00Z",
+       "outlet": "The Game Business (Christopher Dring)",
+       "title": "PlayStation defeats $2.6 billion UK class action lawsuit over game pricing",
+       "url": "https://www.thegamebusiness.com/p/playstation-defeats-26-billion-uk",
+       "published": "2026-11-17T13:57:26Z",
        "official": false
       },
       {
        "outlet": "VGC",
-       "title": "Zelda Ocarina of Time remake is the best-selling physical game in the US in 2026 so far, passing 1 million in its first week",
-       "url": "https://www.videogameschronicle.com/news/zelda-ocarina-of-time-remake-is-the-best-selling-physical-game-in-the-us-in-2026-so-far-passing-1-million-in-its-first-week/",
-       "published": "2026-11-17T09:24:28Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e8be8331b090",
-     "title": "Shigeru Miyamoto to Receive Inaugural D.I.C.E. Legend Award",
-     "summary": "The Academy of Interactive Arts & Sciences will honor Nintendo designer Shigeru Miyamoto with its first-ever Legend Award.",
-     "importance": 3,
-     "label": "CONFIRMED",
-     "category": "Gaming",
-     "published": "2026-11-16T18:37:20Z",
-     "outlet_count": 3,
-     "sources": [
-      {
-       "outlet": "Nintendo Life",
-       "title": "Shigeru Miyamoto To Receive The Inaugural 'Legend Award' At The 30th D.I.C.E. Awards",
-       "url": "https://www.nintendolife.com/news/2026/11/shigeru-miyamoto-to-receive-the-inaugural-legend-award-at-the-30th-d-i-c-e-awards",
-       "published": "2026-11-16T18:00:00Z",
+       "title": "PlayStation beats $2.6 billion lawsuit over its game prices",
+       "url": "https://www.videogameschronicle.com/news/playstation-beats-2-6-billion-lawsuit-over-its-game-prices/",
+       "published": "2026-11-17T16:08:05Z",
        "official": false
       },
       {
-       "outlet": "GoNintendo",
-       "title": "Shigeru Miyamoto selected as inaugural Legend Award inductee at 30th Annual D.I.C.E. Awards",
-       "url": "https://gonintendo.com/contents/67280-shigeru-miyamoto-selected-as-inaugural-legend-award-inductee-at-30th-annual-d-i-c-e",
-       "published": "2026-11-16T17:41:00Z",
-       "official": false
-      },
-      {
-       "outlet": "GamesIndustry.biz",
-       "title": "Shigeru Miyamoto to receive inaugural Legend Award at the 30th DICE Awards",
-       "url": "https://www.gamesindustry.biz/shigeru-miyamoto-to-receive-inaugural-legend-award-at-the-30th-dice-awards",
-       "published": "2026-11-16T18:37:20Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "23c2cc1dbf96",
-     "title": "GTA 6 Hacker Pleads Guilty to 2022 Breach",
-     "summary": "A member of the Lapsus$ hacking collective has formally pleaded guilty to multiple cybercrimes, including the 2022 leak of Rockstar Games footage.",
-     "importance": 3,
-     "label": "REPORTED",
-     "category": "Gaming",
-     "published": "2026-11-16T23:35:58Z",
-     "outlet_count": 4,
-     "sources": [
-      {
-       "outlet": "The Verge",
-       "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
-       "url": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
-       "published": "2026-11-16T23:35:58Z",
+       "outlet": "Eurogamer",
+       "title": "PlayStation defeats £2 billion UK lawsuit that alleged Sony forced consumers into \"excessive and unfair prices\"",
+       "url": "https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result",
+       "published": "2026-11-17T16:25:20Z",
        "official": false
       },
       {
        "outlet": "Rock Paper Shotgun",
-       "title": "GTA 6 hacker pleads guilty to 2022 Rockstar Games breach which the company claim cost them $5 million",
-       "url": "https://www.rockpapershotgun.com/gta-6-hacker-pleads-guilty-to-2022-rockstar-games-breach-which-the-company-claim-cost-them-5-million",
-       "published": "2026-11-16T15:36:40Z",
-       "official": false
-      },
-      {
-       "outlet": "Kotaku",
-       "title": "GTA 6 Hacker Pleads Guilty To Cybercrimes After Infamous 2022 Leak",
-       "url": "https://kotaku.com/grand-theft-auto-6-leak-gta6-hacker-pleads-guilty-2000757500",
-       "published": "2026-11-16T18:30:14Z",
-       "official": false
-      },
-      {
-       "outlet": "Eurogamer",
-       "title": "Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia",
-       "url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty",
-       "published": "2026-11-16T18:51:40Z",
+       "title": "Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market position fuels \"excessive and unfair\" game prices",
+       "url": "https://www.rockpapershotgun.com/sony-defeat-26-billion-uk-class-action-lawsuit-which-argued-playstations-dominant-market-position-fuels-excessive-and-unfair-game-prices",
+       "published": "2026-11-17T16:30:00Z",
        "official": false
       }
      ]
     },
     {
-     "id": "42782dcac9c4",
-     "title": "Microsoft Clarifies Next-Gen Project Helix is a Console, Not a PC",
-     "summary": "Microsoft has emphasized that its upcoming Project Helix hardware remains fundamentally a dedicated console that can run PC games rather than a desktop PC.",
+     "id": "bdab1613ea0e",
+     "title": "Sony Misses Out on Game of the Year Nominations for the First Time in Over a Decade",
+     "summary": "For the first time in 11 years, Sony Interactive Entertainment failed to secure a single nomination in the Game of the Year category at The Game Awards.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Gaming",
-     "published": "2026-11-16T12:08:40Z",
-     "outlet_count": 2,
+     "published": "2026-11-17T21:31:17Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Eurogamer",
-       "title": "The next Xbox, Project Helix, is a console and \"not a PC\" says Microsoft, as it clarifies that computational power isn't sole focus this time",
-       "url": "https://www.eurogamer.net/microsoft-project-helix-interview-details",
-       "published": "2026-11-16T12:08:40Z",
+       "outlet": "Insider Gaming",
+       "title": "Sony Has No Game of the Year Nods for First Time Since 2014",
+       "url": "https://insider-gaming.com/no-sony-game-of-the-year-nominations/",
+       "published": "2026-11-17T21:31:17Z",
        "official": false
       },
       {
-       "outlet": "Kotaku",
-       "title": "Microsoft Says Of The Next Xbox: ‘Helix Is A Console Capable Of Playing PC Games’",
-       "url": "https://kotaku.com/project-helix-next-xbox-microsoft-pc-asha-sharma-series-s-x-2000757405",
-       "published": "2026-11-16T11:41:48Z",
+       "outlet": "Push Square",
+       "title": "PlayStation Has No GOTY Nominee at The Game Awards for First Time in 12 Years",
+       "url": "https://www.pushsquare.com/news/2026/11/playstation-has-no-goty-nominee-at-the-game-awards-for-first-time-in-12-years",
+       "published": "2026-11-17T19:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "For the first time in 11 years, Sony doesn’t have a GOTY nomination at The Game Awards",
+       "url": "https://www.videogameschronicle.com/news/for-the-first-time-in-11-years-sony-doesnt-have-a-goty-nomination-at-the-game-awards/",
+       "published": "2026-11-17T19:17:11Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8e35f3bc4c6e",
+     "title": "Xbox Game Pass Adds The Outlast Trials and More in Late November",
+     "summary": "Microsoft has revealed its upcoming Xbox Game Pass lineup for late November, headlined by survival horror title The Outlast Trials and Hela: of Mice & Magic.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-17T17:57:40Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Xbox Wire",
+       "title": "Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More",
+       "url": "https://news.xbox.com/en-us/2026/11/17/xbox-game-pass-november-2026-wave-2/",
+       "published": "2026-11-17T17:00:00Z",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "Game Pass adds Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and more in late November",
+       "url": "https://www.gematsu.com/2026/11/game-pass-adds-hela-of-mice-magic-the-outlast-trials-sniper-ghost-warrior-contracts-2-and-more-in-late-november",
+       "published": "2026-11-17T17:57:40Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aea5c06b663b",
+     "title": "Sony and San Diego Studio Officially Announce MLB The Show 27",
+     "summary": "Sony Interactive Entertainment and San Diego Studio have lifted the lid on the next installment in their long-running baseball franchise, sharing initial details on MLB The Show 27.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-17T14:24:33Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "PlayStation Blog",
+       "title": "First details on MLB The Show 27",
+       "url": "https://blog.playstation.com/2026/11/17/first-details-on-mlb-the-show-27/",
+       "published": "2026-11-17T14:00:23Z",
+       "official": true
+      },
+      {
+       "outlet": "Gematsu",
+       "title": "MLB The Show 27 announced",
+       "url": "https://www.gematsu.com/2026/11/mlb-the-show-27-announced",
+       "published": "2026-11-17T14:24:33Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4a8582fc2dcf",
+     "title": "Remedy Entertainment CEO Optimistic Following Record-Breaking Launch",
+     "summary": "Following the fastest-selling release window in the studio's history, Remedy's leadership remains committed to pursuing distinct narrative-driven projects over safe mainstream bets.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-17T22:24:42Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Game File (Stephen Totilo)",
+       "title": "Remedy’s CEO feels good about the future, even if they don’t make ‘mainstream, safe stuff’",
+       "url": "https://www.gamefile.news/p/remedy-control-resonant-ceo-interview",
+       "published": "2026-11-17T22:13:15Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8e7b8d9feb0a",
+     "title": "Metacritic Purges Wave of Fake User Reviews for GTA 6 Prior to Launch",
+     "summary": "Review aggregation site Metacritic was forced to scrub numerous fabricated user ratings submitted for Grand Theft Auto 6 before the game was officially available to play.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-17T15:03:04Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "VGC",
+       "title": "Metacritic has already had to remove fake GTA 6 user reviews",
+       "url": "https://www.videogameschronicle.com/news/metacritic-has-already-had-to-remove-fake-gta-6-user-reviews/",
+       "published": "2026-11-17T15:03:04Z",
        "official": false
       }
      ]
@@ -907,239 +1072,350 @@
    "name": "US",
    "stories": [
     {
-     "id": "9509f5e6a42f",
-     "title": "FAA Vows System Modernization Following Nationwide Ground Stop",
-     "summary": "Transport officials are working to upgrade aging air traffic infrastructure after a widespread technical failure forced a nationwide flight ground stop.",
+     "id": "f550e23824d1",
+     "title": "Democrats Projected to Secure 56-44 Senate Majority After Alaska Victory",
+     "summary": "Mary Peltola's projected victory in Alaska concludes the final unresolved race, leaving Democrats with a 56-44 majority in the U.S. Senate following midterms.",
      "importance": 4,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-11-17T08:02:58Z",
-     "outlet_count": 12,
+     "published": "2026-11-18T10:59:48Z",
+     "outlet_count": 23,
      "sources": [
       {
-       "outlet": "The Hill",
-       "title": "United Airlines says system outage resolved",
-       "url": "https://thehill.com/policy/transportation/6223837-united-airlines-resolves-tech-outage/",
-       "published": "2026-11-16T23:18:20Z",
+       "outlet": "CNA (Singapore)",
+       "title": "Democrat Mary Peltola flips Alaska Senate seat",
+       "url": "https://www.channelnewsasia.com/world/us-midterms-mary-peltola-alaska-win-senate-majority-6561306",
+       "published": "2026-11-18T04:20:00Z",
        "official": false
       },
       {
-       "outlet": "The Daily Wire",
-       "title": "United Airlines Hit By ‘Widespread System Outage’ Again",
-       "url": "https://www.dailywire.com/news/breaking-united-airlines-hit-by-widespread-system-outage-again",
-       "published": "2026-11-16T16:40:50Z",
+       "outlet": "Roll Call",
+       "title": "Mary Peltola unseats Republican Sen. Dan Sullivan in Alaska",
+       "url": "https://rollcall.com/2026/11/17/mary-peltola-dan-sullivan-alaska-senate",
+       "published": "2026-11-17T23:23:22Z",
        "official": false
       },
       {
-       "outlet": "Tangle",
-       "title": "The nationwide ground stop.",
-       "url": "https://www.readtangle.com/faa-nationwide-ground-stop/",
-       "published": "2026-11-16T16:51:00Z",
-       "official": false
-      },
-      {
-       "outlet": "Axios",
-       "title": "United Airlines resolves \"widespread system outage\" that delayed flights",
-       "url": "https://www.axios.com/2026/11/16/united-airlines-outage-faa",
-       "published": "2026-11-16T23:41:45Z",
+       "outlet": "NBC News",
+       "title": "Democrat Mary Peltola wins Alaska’s Senate race, NBC News projects",
+       "url": "https://www.nbcnews.com/video/democrat-mary-peltola-wins-alaska-s-senate-race-nbc-news-projects-273698885569",
+       "published": "2026-11-18T03:48:21Z",
        "official": false,
        "also": [
         {
-         "title": "What we know about what caused the FAA's nationwide ground stop",
-         "url": "https://www.axios.com/2026/11/16/faa-flights-ground-stop-router-cause-reasons",
-         "published": "2026-11-16T19:30:04Z"
+         "title": "Democrat Mary Peltola flips Alaska Senate seat, defeating GOP Sen. Dan Sullivan",
+         "url": "https://www.nbcnews.com/politics/2026-election/mary-peltola-democrat-wins-alaska-senate-dan-sullivan-gop-rcna603307",
+         "published": "2026-11-18T03:19:17Z"
         }
        ]
       },
       {
-       "outlet": "Engadget",
-       "title": "United Airlines has fixed issue that caused 'widespread system outage'",
-       "url": "https://www.engadget.com/2318613/united-airlines-is-experiencing-a-widespread-system-outage/",
-       "published": "2026-11-16T22:38:43Z",
+       "outlet": "The Hill",
+       "title": "Mary Peltola flips Republican Senate seat in Alaska",
+       "url": "https://thehill.com/homenews/campaign/6176074-peltola-wins-alaska-senate/",
+       "published": "2026-11-18T03:21:19Z",
        "official": false
       },
       {
-       "outlet": "The Verge",
-       "title": "United Airlines system outage disrupts departures just days after the big ground stop",
-       "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
-       "published": "2026-11-16T22:54:59Z",
+       "outlet": "Politico",
+       "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
+       "url": "https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129",
+       "published": "2026-11-18T03:24:10Z",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "‘Aarigaa!’: the triumph of Mary Peltola’s historic US Senate win and what it means for Alaska Natives",
+       "url": "https://www.theguardian.com/us-news/2026/nov/18/mary-peltola-alaska-win-analysis",
+       "published": "2026-11-18T04:25:29Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+         "url": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+         "published": "2026-11-18T03:25:14Z"
+        }
+       ]
+      },
+      {
+       "outlet": "NPR Politics",
+       "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+       "url": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+       "published": "2026-11-18T03:27:23Z",
+       "official": false
+      },
+      {
+       "outlet": "Fox News",
+       "title": "Alaska Dem Peltola defeats Sullivan, flipping 9th GOP Senate seat after 'decoy Dan' uproar",
+       "url": "https://www.foxnews.com/politics/alaska-dem-peltola-defeats-sullivan-flipping-gop-senate-seat-decoy-dan-uproar",
+       "published": "2026-11-18T03:27:24Z",
+       "official": false
+      },
+      {
+       "outlet": "Washington Examiner",
+       "title": "Mary Peltola ousts Dan Sullivan in Alaska, giving Democrats 56-seat Senate majority",
+       "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4756043/mary-peltola-dan-sullivan-alaska-senate-race-results/",
+       "published": "2026-11-18T03:28:54Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Democrat Mary Peltola wins Alaska Senate race, beating Republican Dan Sullivan",
+       "url": "https://www.yahoo.com/news/politics/article/democrat-mary-peltola-wins-alaska-senate-race-colored-by-double-dan-sullivan-controversy-033805826.html",
+       "published": "2026-11-18T03:40:49Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Mary Peltola wins Alaska Senate race, flipping seat for Dems",
+       "url": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/",
+       "published": "2026-11-18T03:47:12Z",
        "official": false
       },
       {
        "outlet": "CBC News",
-       "title": "United Airlines says issue affecting departing flights has been resolved",
-       "url": "https://www.cbc.ca/news/world/united-airlines-widespread-system-outage-9.7424259?cmp=rss",
-       "published": "2026-11-16T22:59:23Z",
+       "title": "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
+       "url": "https://www.cbc.ca/news/world/democrat-peltola-wins-alaska-senate-seat-9.7426095?cmp=rss",
+       "published": "2026-11-18T03:56:54Z",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "United Airlines resolves tech outage that delayed flights",
-       "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf",
-       "published": "2026-11-16T23:13:00Z",
+       "outlet": "Axios",
+       "title": "Mary Peltola unseats Republican Dan Sullivan in Alaska, extending Democratic wave",
+       "url": "https://www.axios.com/2026/11/18/alaska-senate-results-dan-sullivan-peltola",
+       "published": "2026-11-18T04:18:44Z",
        "official": false
       },
       {
        "outlet": "Time",
-       "title": "United Airlines Experiences Temporary System Outage in the Wake of Nationwide Ground Stop",
-       "url": "https://time.com/article/2026/11/16/united-airlines-system-outage-technology-issue-flight-delays/",
-       "published": "2026-11-16T23:35:39Z",
+       "title": "Mary Peltola Defeats Incumbent Republican in Alaska Senate Race",
+       "url": "https://time.com/article/2026/11/18/democrat-mary-peltola-wins-alaska-senate-race/",
+       "published": "2026-11-18T04:20:13Z",
        "official": false
       },
       {
-       "outlet": "PBS NewsHour",
-       "title": "Trump administration seeks to deflect responsibility for nationwide ground stop",
-       "url": "https://www.pbs.org/newshour/show/trump-administration-seeks-to-deflect-responsibility-for-nationwide-ground-stop",
-       "published": "2026-11-16T23:55:00Z",
-       "official": false,
-       "also": [
-        {
-         "title": "United Airlines says it resolved a technology issue that delayed departing flights",
-         "url": "https://www.pbs.org/newshour/nation/united-airlines-says-it-resolved-a-technology-issue-that-delayed-departing-flights",
-         "published": "2026-11-16T23:36:10Z"
-        }
-       ]
-      },
-      {
-       "outlet": "The Guardian",
-       "title": "United Airlines says ‘widespread’ system outage resolved",
-       "url": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
-       "published": "2026-11-17T02:57:06Z",
+       "outlet": "Courthouse News Service",
+       "title": "Blue Dog Democrat flips Alaska in tightly contested Senate race",
+       "url": "https://www.courthousenews.com/blue-dog-democrat-flips-alaska-in-tightly-contested-senate-race/",
+       "published": "2026-11-18T04:39:16Z",
        "official": false
       },
       {
-       "outlet": "New York Post",
-       "title": "Duffy vows to modernize aging air traffic system after nationwide ground stop",
-       "url": "https://nypost.com/2026/11/17/us-news/sean-duffy-vows-to-modernize-aging-air-traffic-system-after-nationwide-ground-stop/",
-       "published": "2026-11-17T08:02:58Z",
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+       "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-18T06:27:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Sky News",
+       "title": "Democrat defeats Republican in Alaska in final midterms Senate race",
+       "url": "https://news.sky.com/story/democrat-defeats-republican-in-alaska-in-final-midterms-senate-race-13613459",
+       "published": "2026-11-18T06:46:00Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Times",
+       "title": "Democrats Claim 56 Senate Seats After Mary Peltola Wins in Alaska",
+       "url": "https://www.nytimes.com/2026/11/17/us/politics/alaska-senate-sullivan-peltola.html",
+       "published": "2026-11-18T07:43:35Z",
+       "official": false
+      },
+      {
+       "outlet": "The Washington Post",
+       "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
+       "url": "https://www.washingtonpost.com/politics/2026/11/17/alaska-senate-election-live-results-mary-peltola-defeats-dan-sullivan/",
+       "published": "2026-11-18T08:56:47Z",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Cheers and reactions in Alaska after Mary Peltola's Senate win",
+       "url": "https://www.euronews.com/video/2026/11/18/cheers-and-reactions-in-alaska-after-mary-peltolas-senate-win",
+       "published": "2026-11-18T09:20:32Z",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Why Democrat Mary Peltola’s US Senate win in Alaska matters",
+       "url": "https://www.aljazeera.com/news/2026/11/18/why-democrat-mary-peltolas-us-senate-win-in-alaska-matters?traffic_source=rss",
+       "published": "2026-11-18T09:38:50Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
+       "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-18T10:23:57Z",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Democrats projected to win 56-44 Senate majority after final race called in Alaska",
+       "url": "https://cphpost.dk/2026-11-18/global/democrats-projected-to-win-56-44-senate-majority-after-final-race-called-in-alaska/",
+       "published": "2026-11-18T10:59:48Z",
        "official": false
       }
      ]
     },
     {
-     "id": "e41052a5f6b0",
-     "title": "President Trump Kicks Off Asian Diplomatic Tour in the Philippines",
-     "summary": "President Trump arrived in Manila to begin a regional tour ahead of scheduled international summits.",
-     "importance": 4,
+     "id": "049f3b42e111",
+     "title": "White House Pulls Controversial Overton FDA Nomination Amid Pushback",
+     "summary": "The White House has withdrawn its nomination for FDA commissioner following strong political resistance, with replacement candidates already under consideration.",
+     "importance": 3,
      "label": "REPORTED",
      "category": "US",
-     "published": "2026-11-17T11:00:50Z",
-     "outlet_count": 16,
+     "published": "2026-11-18T09:52:55Z",
+     "outlet_count": 10,
      "sources": [
       {
-       "outlet": "NPR News",
-       "title": "Trump arrives in Philippines to kick off Asia trip",
-       "url": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
-       "published": "2026-11-17T10:43:55Z",
+       "outlet": "Semafor",
+       "title": "White House pulls Overton's FDA nomination",
+       "url": "https://www.semafor.com/article/11/17/2026/white-house-pulls-overtons-fda-nomination",
+       "published": "2026-11-18T09:52:55Z",
        "official": false
       },
       {
-       "outlet": "Foreign Policy",
-       "title": "Trump Kicks Off Asia Tour",
-       "url": "https://foreignpolicy.com/2026/11/16/trump-asean-quad-china-xi-putin-kim-midterms-nvidia-trade-security/",
-       "published": "2026-11-16T21:35:11Z",
+       "outlet": "Axios",
+       "title": "Scoop: White House drops Heidi Overton's FDA nomination",
+       "url": "https://www.axios.com/2026/11/17/heidi-overton-fda-nomination-dropped",
+       "published": "2026-11-17T23:56:35Z",
        "official": false
       },
       {
-       "outlet": "PBS NewsHour",
-       "title": "News Wrap: Trump departs for trip to Asia, meetings with Xi and Putin",
-       "url": "https://www.pbs.org/newshour/show/news-wrap-trump-departs-for-trip-to-asia-meetings-with-xi-and-putin",
-       "published": "2026-11-16T23:45:40Z",
-       "official": false
-      },
-      {
-       "outlet": "The Japan Times",
-       "title": "Asia data center hotbed hit by U.S. chip curbs as Trump visits",
-       "url": "https://www.japantimes.co.jp/business/2026/11/17/tech/asia-data-center-chip-trump/",
-       "published": "2026-11-17T06:13:00Z",
-       "official": false
-      },
-      {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Trump kicks off Asia tour ahead of major talks with Putin, Xi in China",
-       "url": "https://www.dw.com/en/trump-kicks-off-asia-tour-ahead-of-major-talks-with-putin-xi-in-china/live-79964719?maca=en-rss-en-all-1573-rdf",
-       "published": "2026-11-17T07:34:00Z",
-       "official": false
-      },
-      {
-       "outlet": "CNA (Singapore)",
-       "title": "Trump arrives in Manila for Quad talks ahead of China visit",
-       "url": "https://www.channelnewsasia.com/asia/trump-arrives-in-manila-quad-talks-ahead-china-visit-6557351",
-       "published": "2026-11-17T09:03:00Z",
-       "official": false
-      },
-      {
-       "outlet": "Bloomberg",
-       "title": "Trump Kicks Off Asia Visit After US Imposes New Chip Curbs",
-       "url": "https://www.bloomberg.com/news/articles/2026-11-17/trump-lands-in-manila-kicking-off-asia-visit-amid-ai-tensions",
-       "published": "2026-11-17T09:40:06Z",
+       "outlet": "Yahoo News",
+       "title": "White House pulls Trump's pick to lead FDA as Republican support falters",
+       "url": "https://www.yahoo.com/news/politics/articles/white-house-pulls-nomination-dr-004003828.html",
+       "published": "2026-11-18T00:40:03Z",
        "official": false
       },
       {
        "outlet": "Fox News",
-       "title": "Trump kicks off high-stakes Asia trip with Xi, Putin meetings looming on world stage",
-       "url": "https://www.foxnews.com/politics/trump-kicks-off-high-stakes-asia-swing-xi-putin-meetings-looming-world-stage",
-       "published": "2026-11-17T10:00:12Z",
+       "title": "White House pulls Trump’s FDA pick Heidi Overton on eve of Senate panel vote",
+       "url": "https://www.foxnews.com/politics/white-house-pulls-trumps-fda-pick-heidi-overton-eve-senate-panel-vote",
+       "published": "2026-11-18T01:04:59Z",
        "official": false
       },
       {
-       "outlet": "NHK News (Japanese)",
-       "title": "President Trump Arrives in Manila to Begin Asian Diplomatic Tour",
-       "url": "https://news.web.nhk/newsweb/na/nd-20261117de77165",
-       "published": "2026-11-17T10:04:00Z",
-       "translated_from": "ja",
-       "original_title": "トランプ大統領がマニラ到着 一連のアジア外交スタート",
+       "outlet": "The Hill",
+       "title": "White House pulls nomination of Heidi Overton to lead FDA",
+       "url": "https://thehill.com/policy/healthcare/6226487-white-house-withdraws-fda-nomination/",
+       "published": "2026-11-18T01:08:53Z",
        "official": false
       },
       {
-       "outlet": "Al Jazeera",
-       "title": "US President Trump arrives in Manila ahead of ASEAN summit",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/us-president-trump-arrives-in-manila-ahead-of-asean-summit?traffic_source=rss",
-       "published": "2026-11-17T10:13:12Z",
-       "official": false
-      },
-      {
-       "outlet": "The Hindu",
-       "title": "ASEAN Summit LIVE updates: President Trump arrives in Manila to hold discussions with Quad leaders",
-       "url": "https://www.thehindu.com/news/international/asean-india-summit-manila-november-2026-quad-live-updates-pm-modi-trump-meeting-latest-news/article71710382.ece",
-       "published": "2026-11-17T10:15:52Z",
-       "official": false
-      },
-      {
-       "outlet": "New York Post",
-       "title": "Trump arrives in Philippines to kick off Asia trip ahead of historic three-way nuclear talks with Xi and Putin",
-       "url": "https://nypost.com/2026/11/17/us-news/trump-arrives-in-philippines-to-kick-off-asia-trip-ahead-of-historic-three-way-nuclear-talks-with-xi-and-putin/",
-       "published": "2026-11-17T10:17:11Z",
-       "official": false
-      },
-      {
-       "outlet": "ABC News",
-       "title": "Trump Asia trip live updates: Trump lands in Manila ahead meetings with Asian leaders",
-       "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702",
-       "published": "2026-11-17T10:25:15Z",
-       "official": false
-      },
-      {
-       "outlet": "Corriere della Sera (Italy)",
-       "title": "Trump arrives in Manila, small flags and band playing YMCA for the US President",
-       "url": "https://video.corriere.it/esteri/trump-arriva-manila-per-il-presidente-usa-fiori-bandierine-e-la-banda-suona-ymca/0bea4cc5-68a6-4700-985b-5726b87a5xlk",
-       "published": "2026-11-17T10:39:31Z",
-       "translated_from": "it",
-       "original_title": "Trump arriva Manila, per il presidente Usa bandierine e la banda suona Ymca",
+       "outlet": "The Guardian",
+       "title": "White House pulls nomination of Heidi Overton to lead Food and Drug Administration",
+       "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
+       "published": "2026-11-18T02:57:58Z",
        "official": false
       },
       {
        "outlet": "New York Times",
-       "title": "Live Updates: Trump’s Whirlwind Asia Trip Begins in the Philippines",
-       "url": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
-       "published": "2026-11-17T10:55:40Z",
+       "title": "White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner",
+       "url": "https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html",
+       "published": "2026-11-18T03:26:28Z",
        "official": false
       },
       {
-       "outlet": "Nikkei Asia",
-       "title": "US chip curbs, Nvidia uncertainty weigh on Asian data center stocks",
-       "url": "https://asia.nikkei.com/business/markets/us-chip-curbs-nvidia-uncertainty-weigh-on-asian-data-center-stocks",
-       "published": "2026-11-17T11:00:50Z",
+       "outlet": "CBS News",
+       "title": "White House drops its nomination for FDA commissioner",
+       "url": "https://www.cbsnews.com/news/white-house-drops-heidi-overton-fda-commissioner/",
+       "published": "2026-11-18T03:30:49Z",
+       "official": false
+      },
+      {
+       "outlet": "The Washington Post",
+       "title": "White House pulls FDA nominee amid political pushback",
+       "url": "https://www.washingtonpost.com/health/2026/11/17/white-house-pulls-fda-nominee-amid-bipartisan-pushback/",
+       "published": "2026-11-18T03:48:40Z",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Caller",
+       "title": "MAHA Rejoices After White House Drops Controversial FDA Nomination",
+       "url": "https://dailycaller.com/2026/11/18/trump-administration-drops-heidi-overton-food-drug-administration-nominee",
+       "published": "2026-11-18T05:28:04Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7062e0c461be",
+     "title": "Secretary of State Rubio States Zero Evidence Links Recent Tech Outages",
+     "summary": "U.S. Secretary of State Marco Rubio reassured the public that there is no indication recent high-profile technical failures across federal networks and corporations are part of a coordinated attack.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-18T06:26:49Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Guardian",
+       "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+       "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+       "published": "2026-11-18T06:26:49Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Rubio says there's \"zero evidence\" recent tech outages are related",
+       "url": "https://www.cbsnews.com/news/marco-rubio-tech-outages-not-connected/",
+       "published": "2026-11-18T02:43:00Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+       "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-18T04:57:06Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fdf1d42ed039",
+     "title": "U.S. Loses Measles-Free Status Following Resurgence and Record Case Numbers",
+     "summary": "Public health authorities confirm the United States has officially lost its measles elimination status after 26 years, driven by a steady rise in cases and falling vaccination rates.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-18T08:40:36Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Hindu",
+       "title": "Why did the U.S. lose its measles elimination status?",
+       "url": "https://www.thehindu.com/sci-tech/health/why-the-us-lost-its-measles-elimination-status-explained/article71714981.ece",
+       "published": "2026-11-18T08:40:36Z",
+       "official": false
+      },
+      {
+       "outlet": "Mother Jones",
+       "title": "America’s Measles Elimination Status Has Been Revoked",
+       "url": "https://www.motherjones.com/politics/2026/11/us-measles-endemic-vaccination-elimination-lost-pan-american-health-organization-rfk-hhs/",
+       "published": "2026-11-17T18:37:01Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "US loses measles elimination status after 26 years amid record case numbers",
+       "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-17T21:04:00Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Times",
+       "title": "Democrats Assail RFK Jr. After U.S. Loses Measles Elimination Status",
+       "url": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
+       "published": "2026-11-18T03:33:29Z",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "United States loses measles-free status after 26 years",
+       "url": "https://cphpost.dk/2026-11-18/global/united-states-loses-measles-free-status-after-26-years/",
+       "published": "2026-11-18T05:26:51Z",
        "official": false
       }
      ]
@@ -1150,67 +1426,110 @@
    "name": "World",
    "stories": [
     {
-     "id": "87a60b3f997e",
-     "title": "Trump and Global Leaders Discuss Regional Summits Amid Diplomatic Tour",
-     "summary": "International leaders gathered for upcoming summits touching on security, trade, and bilateral cooperation across Asia.",
+     "id": "d3c439356824",
+     "title": "Philippine Police File Criminal Complaints Against Thomas Markle",
+     "summary": "Law enforcement officials in the Philippines have filed criminal complaints against Thomas Markle concerning alleged distribution and possession of illicit material.",
      "importance": 3,
      "label": "REPORTED",
      "category": "World",
-     "published": "2026-11-17T10:13:27Z",
+     "published": "2026-11-18T10:45:00Z",
      "outlet_count": 6,
      "sources": [
       {
-       "outlet": "NPR",
-       "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
-       "url": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
-       "published": "2026-11-17T09:46:00Z",
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Thomas Markle: Police in the Philippines request charges against Meghan Markle's father",
+       "url": "https://www.spiegel.de/panorama/justiz/thomas-markle-polizei-auf-den-philippinen-beantragt-anklage-gegen-vater-von-herzogin-meghan-a-5f7cba2c-ec09-42cc-86c3-910a18591368#ref=rss",
+       "published": "2026-11-18T10:45:00Z",
+       "translated_from": "de",
+       "original_title": "Thomas Markle: Polizei auf den Philippinen beantragt Anklage gegen Vater von Herzogin Meghan",
        "official": false
       },
       {
-       "outlet": "The Washington Post",
-       "title": "Trump floats meeting with Kim Jong Un while in Asia",
-       "url": "https://www.washingtonpost.com/politics/2026/11/16/trump-floats-meeting-with-kim-jong-un-while-asia/",
-       "published": "2026-11-16T15:35:30Z",
-       "official": false
-      },
-      {
-       "outlet": "CBC News",
-       "title": "Carney arrives in China for meeting with Xi Jinping, Asia-Pacific summit",
-       "url": "https://www.cbc.ca/news/politics/carney-china-xi-apec-9.7423904?cmp=rss",
-       "published": "2026-11-16T19:21:16Z",
-       "official": false
-      },
-      {
-       "outlet": "NK News (North Korea)",
-       "title": "Kim Jong Un’s top aide meets Putin, backs fight against US ‘neo-Nazism’",
-       "url": "https://www.nknews.org/2026/11/kim-jong-uns-top-aide-meets-putin-backs-fight-against-us-neo-nazism/",
-       "published": "2026-11-17T08:55:34Z",
-       "official": false,
-       "also": [
-        {
-         "title": "Putin will ‘of course’ meet Kim Jong Un if he attends APEC summit: Kremlin",
-         "url": "https://www.nknews.org/2026/11/putin-will-of-course-meet-kim-jong-un-if-he-attends-apec-summit-kremlin/",
-         "published": "2026-11-17T03:05:33Z"
-        },
-        {
-         "title": "Trump floats meeting with Kim Jong Un, says ‘up to’ China’s Xi Jinping",
-         "url": "https://www.nknews.org/2026/11/trump-floats-meeting-with-kim-jong-un-says-up-to-chinas-xi-jinping/",
-         "published": "2026-11-16T21:40:04Z"
-        }
-       ]
-      },
-      {
-       "outlet": "Fox News",
-       "title": "Trump arrives in Philippines ahead of Xi Jinping summit in China after GOP midterm losses",
-       "url": "https://www.foxnews.com/politics/trump-philippines-arrival-xi-jinping-china-summit",
-       "published": "2026-11-17T09:47:25Z",
+       "outlet": "Sky News",
+       "title": "Police in Philippines pursue three charges against Thomas Markle Sr",
+       "url": "https://news.sky.com/story/police-in-philippines-pursue-three-charges-against-thomas-markle-sr-over-child-sex-abuse-images-13613346",
+       "published": "2026-11-17T17:34:00Z",
        "official": false
       },
       {
        "outlet": "BBC News",
-       "title": "Will President Trump meet Kim Jong Un?",
-       "url": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
-       "published": "2026-11-17T10:13:27Z",
+       "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
+       "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-18T07:48:18Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Meghan Markle’s father faces new child sex abuse complaints in the Philippines",
+       "url": "https://www.nbcnews.com/world/united-kingdom/meghan-markle-father-thomas-new-child-sex-abuse-charges-philippines-rcna609831",
+       "published": "2026-11-18T09:30:44Z",
+       "official": false
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "Philippine police file criminal complaints against Thomas Markle",
+       "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374906/philippine-police-file-criminal-complaints-against-thomas-markle",
+       "published": "2026-11-18T10:15:05Z",
+       "official": false
+      },
+      {
+       "outlet": "ERT News (Greece)",
+       "title": "Philippines: Police file criminal complaints against Meghan Markle's father",
+       "url": "https://www.ertnews.gr/eidiseis/diethni/filippines-i-astynomia-proxorise-se-poinikes-kataggelies-eis-varos-tou-patera-tis-megkan-markl/",
+       "published": "2026-11-18T10:44:55Z",
+       "translated_from": "el",
+       "original_title": "Φιλιππίνες: Η αστυνομία προχώρησε σε ποινικές καταγγελίες εις βάρος του πατέρα της Μέγκαν Μαρκλ",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1cfad1c2ea1c",
+     "title": "NASA Voyager 1 Reaches Historic 'Light-Day' Milestone After 49 Years",
+     "summary": "NASA's pioneering Voyager 1 spacecraft has officially reached a distance of one light-day from Earth, remaining operational nearly half a century after its launch.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-18T10:54:31Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Mainichi Shimbun (Japanese)",
+       "title": "Voyager 1 Reaches 'One Light-Day' for the First Time, 49 Years After Launch, Still in Communication",
+       "url": "https://mainichi.jp/articles/20261117/k00/00m/100/349000c",
+       "published": "2026-11-18T10:24:04Z",
+       "translated_from": "ja",
+       "original_title": "ボイジャー1号が「1光日」に初到達 打ち上げ49年、今も交信",
+       "official": false
+      },
+      {
+       "outlet": "Vox",
+       "title": "Voyager 1 is about to reach a mind-bending milestone",
+       "url": "https://www.vox.com/today-explained-newsletter/510956/voyager-light-day",
+       "published": "2026-11-17T22:40:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Asahi Shimbun (Japanese)",
+       "title": "Voyager 1 Reaches One Light-Day from Earth, 49 Years After Launch and Still Communicating",
+       "url": "http://www.asahi.com/articles/ASVCD2FL5VCDDIFI008M.html?ref=rss",
+       "published": "2026-11-18T10:19:50Z",
+       "translated_from": "ja",
+       "original_title": "ボイジャー1号、地球から1光日に到達 打ち上げ49年、今も交信中",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "NASA Voyager 1 probe believed to have reached 'light-day' milestone",
+       "url": "https://www.straitstimes.com/world/nasa-voyager-1-probe-believed-to-have-reached-light-day-milestone",
+       "published": "2026-11-18T10:25:05Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "NASA Voyager 1 probe believed to have reached ‘light-day’ milestone",
+       "url": "https://www.thehindu.com/sci-tech/nasa-voyager-1-probe-believed-to-have-reached-light-day-milestone/article71715503.ece",
+       "published": "2026-11-18T10:54:31Z",
        "official": false
       }
      ]
@@ -1221,162 +1540,116 @@
    "name": "Europe",
    "stories": [
     {
-     "id": "848b0d1df12c",
-     "title": "Five EU States Push Forward With Rwanda Migrant Return Hub Plans",
-     "summary": "A coalition of European nations is reviving controversial proposals to establish immigration processing hubs in Rwanda despite human rights criticisms.",
+     "id": "fcf350a54d9a",
+     "title": "European Commission Proposes €45 Billion Ukraine Loan Repayable by Russia",
+     "summary": "The EU has proposed a fresh €45 billion financial and military support package for Ukraine for 2027, designed to be serviced using proceeds from immobilized Russian assets.",
      "importance": 4,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-11-17T10:22:52Z",
-     "outlet_count": 7,
+     "published": "2026-11-18T10:59:56Z",
+     "outlet_count": 5,
      "sources": [
-      {
-       "outlet": "Al Jazeera",
-       "title": "Why are five EU countries reviving plans to deport migrants to Rwanda?",
-       "url": "https://www.aljazeera.com/news/2026/11/17/why-are-five-eu-countries-reviving-plans-to-deport-migrants-to-rwanda?traffic_source=rss",
-       "published": "2026-11-17T10:22:52Z",
-       "official": false
-      },
-      {
-       "outlet": "Helsinki Times (Finland)",
-       "title": "Five EU countries announce plans for migrant return centre in Rwanda",
-       "url": "https://www.helsinkitimes.com/world-int/29500-five-eu-countries-announce-plans-for-migrant-return-centre-in-rwanda.html",
-       "published": "2026-11-16T18:33:41Z",
-       "official": false
-      },
       {
        "outlet": "France 24",
-       "title": "EU nations unveil Rwanda deal for migrant return hub",
-       "url": "https://www.france24.com/en/eu-nations-unveil-rwanda-deal-for-migrant-return-hub",
-       "published": "2026-11-16T20:01:34Z",
-       "official": false
-      },
-      {
-       "outlet": "BBC News",
-       "title": "Five EU countries announce migrant deportation centre in Rwanda",
-       "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-       "published": "2026-11-16T23:20:45Z",
-       "official": false
-      },
-      {
-       "outlet": "The Guardian",
-       "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
-       "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
-       "published": "2026-11-17T01:10:59Z",
-       "official": false
-      },
-      {
-       "outlet": "CBC News",
-       "title": "5 European countries want to start deporting migrants to Rwanda, despite concerns from human rights groups",
-       "url": "https://www.cbc.ca/news/world/rwanda-deportation-hub-european-countries-9.7423753?cmp=rss",
-       "published": "2026-11-17T09:00:00Z",
-       "official": false
-      },
-      {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Germany and Four Other European Countries Announce Illegal Migrant Transfer Plan to Rwanda, Human Rights Groups Criticize",
-       "url": "http://www.asahi.com/articles/ASVCK36MCVCKSFVU37JM.html?ref=rss",
-       "published": "2026-11-17T10:18:36Z",
-       "translated_from": "ja",
-       "original_title": "独など欧州5カ国、不法移民のルワンダ移送計画発表 人権団体は批判",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "d84c70cc7135",
-     "title": "Japan Scrambles Jets Following Suspected Russian Airspace Incursion",
-     "summary": "Japanese and South Korean military authorities deployed fighter jets after Russian military aircraft briefly entered regional air defense zones without notice.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Europe",
-     "published": "2026-11-17T11:00:50Z",
-     "outlet_count": 6,
-     "sources": [
-      {
-       "outlet": "The Copenhagen Post (Denmark)",
-       "title": "Japan scrambles fighter jets after suspected Russian aircraft enter its airspace",
-       "url": "https://cphpost.dk/2026-11-17/global/japan-scrambles-fighter-jets-after-suspected-russian-aircraft-enter-its-airspace/",
-       "published": "2026-11-17T10:55:52Z",
+       "title": "EU proposes new €45 billion Ukraine loan to be repaid by Russia",
+       "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
+       "published": "2026-11-18T10:42:58Z",
        "official": false
       },
       {
        "outlet": "The Kyiv Independent (Ukraine)",
-       "title": "South Korea scrambles fighter jets after Russian military aircraft enter air defense zone",
-       "url": "https://kyivindependent.com/south-korea-scrambles-fighter-jets-after-russian-military-aircraft-enter-air-defense-zone/",
-       "published": "2026-11-17T03:26:35Z",
+       "title": "Exclusive: EU proposes additional 45 billion euros for Ukraine, seeks to incentivize allies to step up",
+       "url": "https://kyivindependent.com/exclusive-eu-proposes-additional-45-billion-euros-for-ukraine-seeks-to-incentivize-allies-to-step-up/",
+       "published": "2026-11-17T21:30:15Z",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "Japan scrambles jets to counter suspected Russian aircraft",
-       "url": "https://www.dw.com/en/japan-scrambles-jets-to-counter-suspected-russian-aircraft/a-79964537?maca=en-rss-en-all-1573-rdf",
-       "published": "2026-11-17T03:29:00Z",
+       "outlet": "Bloomberg",
+       "title": "EU Proposes €45 Billion Ukraine Loan as Russian Strikes Rise",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-18/eu-proposes-45-billion-ukraine-loan-as-russian-strikes-mount",
+       "published": "2026-11-18T10:08:08Z",
        "official": false
       },
       {
-       "outlet": "BBC News",
-       "title": "Japan sends up jets after alleged Russian incursion of its airspace",
-       "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-       "published": "2026-11-17T07:44:17Z",
+       "outlet": "The Straits Times",
+       "title": "EU proposes new €45 billion loan for Ukraine for 2027 to be repaid by Russia",
+       "url": "https://www.straitstimes.com/world/europe/eu-proposes-new-eu45-billion-loan-for-ukraine-for-2027-to-be-repaid-by-russia",
+       "published": "2026-11-18T10:35:40Z",
        "official": false
       },
       {
-       "outlet": "Tagesschau (Germany)",
-       "title": "Tokyo Protests in Moscow Over Suspected Russian Jets in Japanese Airspace",
-       "url": "https://www.tagesschau.de/ausland/asien/japan-russland-luftraumverletzung-100.html",
-       "published": "2026-11-17T09:54:08Z",
-       "translated_from": "de",
-       "original_title": "Protest Tokios in Moskau - Mutmaßlich russische Jets im japanischen Luftraum",
-       "official": false
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "Several Russian military aircraft enter S. Korea's air defense zone without notice: JCS",
-       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261117/several-russian-military-aircraft-enter-s-koreas-air-defense-zone-without-notice-jcs?utm_source=rss",
-       "published": "2026-11-17T11:00:50Z",
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "EU proposes 45 billion EUR loan for Ukraine",
+       "url": "https://cphpost.dk/2026-11-18/global/eu-proposes-45-billion-eur-loan-for-ukraine/",
+       "published": "2026-11-18T10:59:56Z",
        "official": false
       }
      ]
     },
     {
-     "id": "1af2f2874d1c",
-     "title": "French Football Chief Philippe Diallo Challenges Gianni Infantino for FIFA Presidency",
-     "summary": "French Football Federation president Philippe Diallo has officially entered the race to challenge incumbent FIFA president Gianni Infantino.",
+     "id": "97a7eacf367c",
+     "title": "Cambridge Dictionary Names 'Human' as Word of the Year 2026",
+     "summary": "Amid ongoing global anxieties regarding the rapid rise of artificial intelligence, the Cambridge Dictionary has crowned 'human' as its definitive Word of the Year.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Europe",
-     "published": "2026-11-17T10:27:27Z",
-     "outlet_count": 4,
+     "published": "2026-11-18T10:42:38Z",
+     "outlet_count": 3,
      "sources": [
       {
-       "outlet": "RFI (France)",
-       "title": "French football boss Diallo anointed to fight Infantino for Fifa presidency",
-       "url": "https://www.rfi.fr/en/sports/20261117-french-football-boss-diallo-anointed-to-fight-infantino-for-fifa-presidency",
-       "published": "2026-11-17T08:29:36Z",
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Cambridge Dictionary Word of the Year: 'Human'",
+       "url": "https://www.spiegel.de/kultur/wort-des-jahres-von-cambridge-dictionary-human-also-menschlich-a-3de400ca-0d74-4b5d-9a57-65ab24b48c61#ref=rss",
+       "published": "2026-11-18T10:24:00Z",
+       "translated_from": "de",
+       "original_title": "Wort des Jahres von Cambridge Dictionary: »human«, also: »menschlich«",
        "official": false
       },
       {
-       "outlet": "Sky News",
-       "title": "FIFA president Gianni Infantino faces challenge from French football chief",
-       "url": "https://news.sky.com/story/head-of-french-football-to-stand-against-infantino-in-fifa-presidential-election-13612894",
-       "published": "2026-11-16T15:25:00Z",
+       "outlet": "CBC News",
+       "title": "Would AI have come up with a better word of the year than the Cambridge Dictionary?",
+       "url": "https://www.cbc.ca/news/world/cambridge-dictionary-2026-word-of-the-year-9.7426019?cmp=rss",
+       "published": "2026-11-18T02:02:44Z",
        "official": false
       },
       {
-       "outlet": "Deutsche Welle (Germany)",
-       "title": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
-       "url": "https://www.dw.com/en/france-s-philippe-diallo-to-challenge-infantino-for-fifa-presidency/a-79962843?maca=en-rss-en-all-1573-rdf",
-       "published": "2026-11-16T20:24:00Z",
+       "outlet": "Euronews",
+       "title": "'Human': Cambridge Dictionary's Word of the Year 2026 tackles ongoing AI fears",
+       "url": "https://www.euronews.com/2026/11/18/human-cambridge-dictionarys-word-of-the-year-2026-tackles-ongoing-ai-fears",
+       "published": "2026-11-18T10:42:38Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "eb5b3c4c01c7",
+     "title": "Glastonbury Festival Announces 2027 Headliners Including Cher and Harry Styles",
+     "summary": "Following a scheduled fallow year in 2026, Glastonbury has revealed that Harry Styles, Cher, and Billie Eilish will headline the iconic festival's return next June.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-18T08:56:12Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Styles, Cher and Eilish among Glastonbury 2027 headliners",
+       "url": "https://www.rte.ie/entertainment/2026/1118/1599641-styles-cher-and-eilish-among-glastonbury-2027-headliners/",
+       "published": "2026-11-18T08:32:26Z",
        "official": false
       },
       {
-       "outlet": "Le Monde (France)",
-       "title": "Philippe Diallo, a \"Little-Known\" Candidate to Lead FIFA Who Must \"Crack the Bloc\" Around Gianni Infantino, According to International Press",
-       "url": "https://www.lemonde.fr/sport/article/2026/11/17/avec-la-candidature-de-philippe-diallo-a-la-tete-de-la-fifa-la-presse-internationale-decouvre-un-candidat-peu-connu-qui-devra-fissurer-le-bloc-autour-de-gianni-infantino_6812953_3242.html",
-       "published": "2026-11-17T10:27:27Z",
-       "translated_from": "fr",
-       "original_title": "Philippe Diallo, un candidat « peu connu » pour diriger la FIFA qui devra « fissurer le bloc » autour de Gianni Infantino, selon la presse internationale",
+       "outlet": "BBC News",
+       "title": "Harry Styles, Cher, Sam Fender and Billie Eilish to headline Glastonbury 2027",
+       "url": "https://www.bbc.co.uk/news/articles/crwy4w381nlpo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-18T07:59:54Z",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Cher and Harry Styles to headline Glastonbury 2027, with Kingfishr among Irish acts",
+       "url": "https://www.thejournal.ie/cher-and-harry-styles-to-headline-glastonbury-2027-kingfishr-among-irish-acts-7229921-Nov2026/",
+       "published": "2026-11-18T08:56:12Z",
        "official": false
       }
      ]
@@ -1387,29 +1660,27 @@
    "name": "Japan",
    "stories": [
     {
-     "id": "ce1d33a7f985",
-     "title": "Princess Aiko Arrives in Singapore for Official Overseas Visit",
-     "summary": "Princess Aiko has traveled to Singapore for her second official international diplomatic trip.",
+     "id": "142f0fedc651",
+     "title": "Scientists Warn Global Exposure Costs for Endocrine-Disrupting Chemicals Exceed $1 Trillion",
+     "summary": "A comprehensive scientific report warns that widespread exposure to ubiquitous endocrine-disrupting chemicals incurs health and environmental costs surpassing $1 trillion annually.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Japan",
-     "published": "2026-11-17T10:13:32Z",
+     "published": "2026-11-18T06:04:00Z",
      "outlet_count": 2,
      "sources": [
       {
-       "outlet": "Asahi Shimbun (Japanese)",
-       "title": "Princess Aiko Arrives in Singapore, Second Official Overseas Visit Following Laos",
-       "url": "http://www.asahi.com/articles/ASVCK0FSPVCKUQIP008M.html?ref=rss",
-       "published": "2026-11-17T10:13:32Z",
-       "translated_from": "ja",
-       "original_title": "愛子さま、シンガポールに到着 ラオスに続き2回目の外国公式訪問",
+       "outlet": "The Japan Times",
+       "title": "Scientists warn of growing health threats of chemicals found everywhere",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/world/science-health/scientists-health-threats-chemicals/",
+       "published": "2026-11-18T06:04:00Z",
        "official": false
       },
       {
-       "outlet": "The Japan Times",
-       "title": "Princess Aiko leaves for official visit to Singapore",
-       "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/japan-princess-aiko-singapore-visit/",
-       "published": "2026-11-17T07:10:00Z",
+       "outlet": "CNA (Singapore)",
+       "title": "Scientists warn of growing health threats of chemicals found everywhere",
+       "url": "https://www.channelnewsasia.com/world/scientists-warn-growing-health-threats-chemicals-found-everywhere-6561286",
+       "published": "2026-11-18T04:14:00Z",
        "official": false
       }
      ]
@@ -1420,108 +1691,98 @@
    "name": "Korea",
    "stories": [
     {
-     "id": "970c45a6a958",
-     "title": "South Korea Implements Strict AI Cheating Prevention Measures for College Entrance Exam",
-     "summary": "Seoul has deployed an emergency task force, banned smart wearable devices from testing rooms, and adjusted flight schedules to combat AI-assisted cheating during national exams.",
-     "importance": 4,
-     "label": "CONFIRMED",
-     "category": "Korea",
-     "published": "2026-11-17T11:00:50Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "Yonhap News",
-       "title": "PM announces package of measures to prevent cheating on college entrance exam",
-       "url": "https://en.yna.co.kr/view/AEN20261117003253315",
-       "published": "2026-11-17T08:15:03Z",
-       "official": false,
-       "also": [
-        {
-         "title": "PM announces package of measures to prevent cheating on college entrance exam",
-         "url": "https://en.yna.co.kr/view/AEN20261117003252315",
-         "published": "2026-11-17T07:38:14Z"
-        }
-       ]
-      },
-      {
-       "outlet": "The Korea Times",
-       "title": "PM announces package of measures to prevent cheating on college entrance exam",
-       "url": "https://www.koreatimes.co.kr/southkorea/education/20261117/pm-announces-package-of-measures-to-prevent-cheating-on-college-entrance-exam?utm_source=rss",
-       "published": "2026-11-17T11:00:50Z",
-       "official": false,
-       "also": [
-        {
-         "title": "Gov't rules out postponing college entrance exam amid cheating fears",
-         "url": "https://www.koreatimes.co.kr/southkorea/education/20261117/govt-rules-out-postponing-college-entrance-exam-amid-cheating-fears?utm_source=rss",
-         "published": "2026-11-17T11:00:50Z"
-        },
-        {
-         "title": "Cheong Wa Dae launches task force to combat AI-facilitated cheating",
-         "url": "https://www.koreatimes.co.kr/southkorea/politics/20261117/cheong-wa-dae-launches-task-force-to-combat-ai-facilitated-cheating?utm_source=rss",
-         "published": "2026-11-17T11:00:50Z"
-        },
-        {
-         "title": "Korea to ground flights for 35 minutes during CSAT English test Thursday",
-         "url": "https://www.koreatimes.co.kr/southkorea/others/20261117/korea-to-ground-flights-for-35-minutes-during-csat-english-test-thursday?utm_source=rss",
-         "published": "2026-11-17T11:00:50Z"
-        },
-        {
-         "title": "Prime minister vows again to root out AI cheating in this week's college entrance exam",
-         "url": "https://www.koreatimes.co.kr/southkorea/society/20261117/prime-minister-vows-again-to-root-out-ai-cheating-in-this-weeks-college-entrance-exam?utm_source=rss",
-         "published": "2026-11-17T11:00:50Z"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "id": "c8ce9fff71cb",
-     "title": "South Korean President Holds Summit With Japanese PM Takaichi",
-     "summary": "Leaders from South Korea and Japan met to celebrate improving bilateral economic cooperation and record favorable public sentiment.",
-     "importance": 4,
-     "label": "REPORTED",
-     "category": "Korea",
-     "published": "2026-11-17T10:37:55Z",
-     "outlet_count": 2,
-     "sources": [
-      {
-       "outlet": "The Korea Herald",
-       "title": "Lee, Takaichi hold summit amid record goodwill",
-       "url": "https://www.koreaherald.com/article/10940326",
-       "published": "2026-11-17T10:37:55Z",
-       "official": false
-      },
-      {
-       "outlet": "KBS World",
-       "title": "Lee, Takaichi Hold Summit on Sidelines of ASEAN Meeting",
-       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205646",
-       "published": "2026-11-17T10:37:21Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "058b646ae24e",
-     "title": "Former Opposition Party Leader Cho Kuk Denied Entry to Japan",
-     "summary": "South Korean politician Cho Kuk was barred entry at the Japanese border while attempting to travel for an academic seminar.",
+     "id": "0f56f9dc4ea6",
+     "title": "South Korea and U.S. Military Leaders Discuss All-Domain Operations",
+     "summary": "Top military commanders from South Korea and U.S. Forces Korea convened to coordinate joint all-domain defense tactics and enhance bilateral intelligence sharing.",
      "importance": 3,
      "label": "REPORTED",
      "category": "Korea",
-     "published": "2026-11-17T09:01:16Z",
+     "published": "2026-11-18T11:00:49Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "S. Korea, U.S. discuss facilitating joint all-domain operations at high-level military meeting",
+       "url": "https://en.yna.co.kr/view/AEN20261118009200315",
+       "published": "2026-11-18T08:18:15Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Korea, US discuss facilitating joint all-domain operations at high-level military meeting",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261118/korea-us-discuss-facilitating-joint-all-domain-operations-at-high-level-military-meeting?utm_source=rss",
+       "published": "2026-11-18T11:00:49Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "28378b808a21",
+     "title": "Daegu Mayor Acquitted of Charges Related to 2024 Martial Law Vote Obstruction",
+     "summary": "A South Korean court has acquitted Daegu Mayor Choo Kyung-ho of charges accusing him of obstructing the parliamentary vote against former President Yoon Suk Yeol's martial law decree.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-18T11:00:49Z",
      "outlet_count": 2,
      "sources": [
       {
        "outlet": "The Korea Herald",
-       "title": "Ex-minor party leader Cho Kuk denied entry to Japan",
-       "url": "https://www.koreaherald.com/article/10940250",
-       "published": "2026-11-17T09:01:16Z",
+       "title": "Daegu mayor, ex-PPP leader Choo Kyung-ho acquitted of obstructing martial law vote",
+       "url": "https://www.koreaherald.com/article/10941493",
+       "published": "2026-11-18T06:26:15Z",
        "official": false
       },
       {
-       "outlet": "Yonhap News",
-       "title": "Ex-justice minister Cho Kuk denied entry to Japan: officials",
-       "url": "https://en.yna.co.kr/view/AEN20261117009000315",
-       "published": "2026-11-17T08:28:44Z",
+       "outlet": "The Korea Times",
+       "title": "Daegu mayor acquitted of obstructing martial law vote",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261118/daegu-mayor-acquitted-of-obstructing-martial-law-vote?utm_source=rss",
+       "published": "2026-11-18T11:00:49Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a14cec96cea4",
+     "title": "South Korea Finalizes Plan for Unified Military Academy Launching in 2029",
+     "summary": "Seoul announced a revised blueprint to integrate service academies into a single foundational institution by 2029 while preserving regional campuses to mitigate institutional pushback.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-18T11:00:49Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Unified military academy to admit first cadets in 2029 under revised plan",
+       "url": "https://www.koreaherald.com/article/10941520",
+       "published": "2026-11-18T06:41:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Korea finalizes revised plan for unified military academy, Army college relocation",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261118/korea-finalizes-revised-plan-for-unified-military-academy-army-college-relocation?utm_source=rss",
+       "published": "2026-11-18T11:00:49Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7debfe99684b",
+     "title": "South Korea Launches Advanced 3,600-Ton Domestic Stealth Frigate",
+     "summary": "The South Korean Navy has commissioned a new 3,600-ton guided-missile frigate outfitted with homegrown stealth sensors and radar arrays to strengthen western maritime defense.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-18T11:00:49Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Korea Times",
+       "title": "Korea launches advanced 3,600-ton frigate equipped with homegrown radar",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261118/korea-launches-advanced-3600-ton-frigate-equipped-with-homegrown-radar?utm_source=rss",
+       "published": "2026-11-18T11:00:49Z",
        "official": false
       }
      ]
@@ -1532,154 +1793,123 @@
    "name": "Deals",
    "stories": [
     {
-     "id": "510976ebc89c",
-     "title": "Early Black Friday Sales Bring Record Discounts on Apple Watch and AirPods",
-     "summary": "Retailers have launched early holiday price drops, slashing prices across the Apple Watch Series 12 and discounting AirPods Pro 3 to $179.",
-     "importance": 3,
+     "id": "08cef5ab8297",
+     "title": "MacBook Neo Receives Rare $50 Discount Ahead of Black Friday",
+     "summary": "Multiple major retailers have dropped prices on the MacBook Neo by $50 across various colorways and storage tiers ahead of the holiday shopping rush.",
+     "importance": 2,
      "label": "DEAL",
      "category": "Deals",
-     "published": "2026-11-16T20:38:12Z",
+     "published": "2026-11-17T21:46:20Z",
      "outlet_count": 3,
      "sources": [
       {
-       "outlet": "Wired",
-       "title": "Best Early Black Friday Espresso Machine Deals (2026)",
-       "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-11-16-2026/",
-       "published": "2026-11-16T20:00:00Z",
-       "official": false
-      },
-      {
-       "outlet": "MacRumors",
-       "title": "Best Early AirPods Black Friday Deals Include AirPods Pro 3 for $179",
-       "url": "https://www.macrumors.com/2026/11/16/early-airpods-black-friday-deals/",
-       "published": "2026-11-16T18:29:53Z",
-       "official": false
-      },
-      {
        "outlet": "9to5Mac",
-       "title": "In My Cart: The best early Black Friday deals we’re buying today",
-       "url": "https://9to5mac.com/2026/11/16/gear-we-buying-amazon-early-black-friday-sale/",
-       "published": "2026-11-16T20:38:12Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "e07f4ee5fc1f",
-     "title": "Xbox Black Friday Sale to Offer Up to 80% Off Games and Accessories",
-     "summary": "Microsoft's major annual sale begins November 19, discounting select digital and physical games alongside hardware accessories.",
-     "importance": 3,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-11-16T23:57:43Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Xbox Wire",
-       "title": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
-       "url": "https://news.xbox.com/en-us/2026/11/16/xbox-black-friday-sale-2026/",
-       "published": "2026-11-16T23:57:43Z",
-       "official": true
-      }
-     ]
-    },
-    {
-     "id": "8cc7a0af2d82",
-     "title": "Warhammer 40,000: Dark Heresy Pre-Orders Open on Amazon",
-     "summary": "Physical pre-orders for Warhammer 40,000: Dark Heresy have opened on Amazon for multiple console platforms.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-11-17T06:24:51Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Warhammer 40,000: Dark Heresy (PS5) up for preorder on Amazon ($59.99)",
-       "url": "https://amzn.to/4eGjjdV",
-       "published": "2026-11-17T05:56:12Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "6efc691ec21a",
-     "title": "Hitman World of Assassination Discounted at Major Retailers",
-     "summary": "Hitman World of Assassination is seeing substantial price cuts across PlayStation and Nintendo Switch 2 physical editions.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-11-17T06:03:59Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Hitman World of Assassination (PS5) is $19.99 at Best Buy HITMAN World of Assassination - Signature Edition (Switch 2 KC) $29.99",
-       "url": "https://buff.ly/qDTdW7H",
-       "published": "2026-11-17T06:03:59Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "53ca630232f1",
-     "title": "High on Life 2 Physical Pre-Orders Priced at $29.99",
-     "summary": "Retail listings have discounted upcoming physical copies of High on Life 2 for current-generation consoles.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-11-17T06:02:52Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "High on Life 2 (PS5/Switch 2 KC) is $29.99 at Best Buy",
-       "url": "https://buff.ly/7M4txkm",
-       "published": "2026-11-17T06:02:52Z",
-       "official": false
-      }
-     ]
-    },
-    {
-     "id": "f6166ded6d78",
-     "title": "Shrek 2 Remastered Available for Pre-Order",
-     "summary": "Shrek 2 Remastered physical pre-orders are now live across major retailers for $29.99.",
-     "importance": 2,
-     "label": "DEAL",
-     "category": "Deals",
-     "published": "2026-11-17T03:19:07Z",
-     "outlet_count": 1,
-     "sources": [
-      {
-       "outlet": "Wario64",
-       "title": "Shrek 2 Remastered up for preorder on Amazon ($29.99)",
-       "url": "https://amzn.to/4kgoPri",
-       "published": "2026-11-17T02:45:06Z",
+       "title": "Deals: Rare MacBook Neo discounts from $650 ($50 off), Apple Watch Series 12, Nomad 2026 Black Friday sale, more",
+       "url": "https://9to5mac.com/2026/11/17/deals-macbook-neo-apple-watch-nomad-airpods/",
+       "published": "2026-11-17T16:23:44Z",
        "official": false,
        "also": [
         {
-         "title": "Shrek 2 Remastered (PS5/Switch/Switch 2 KC/XSX) up for preorder on Amazon ($29.99)",
-         "url": "https://link.amazon/B07EdLLUz",
-         "published": "2026-11-17T03:19:07Z"
+         "title": "MacBook Neo gets rare $50 price drop in early Black Friday deal",
+         "url": "https://9to5mac.com/2026/11/17/macbook-neo-gets-rare-50-price-drop-in-early-black-friday-deal/",
+         "published": "2026-11-17T11:16:21Z"
         }
        ]
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Nomad Launches Black Friday Sale With Up to 30% Off Apple Accessories",
+       "url": "https://www.macrumors.com/2026/11/17/nomad-black-friday-sale-2026/",
+       "published": "2026-11-17T18:35:28Z",
+       "official": false,
+       "also": [
+        {
+         "title": "MacBook Neo Black Friday Deals Arrive With $49 Discounts on Nearly Every Model at Amazon",
+         "url": "https://www.macrumors.com/2026/11/17/macbook-neo-rare-50-discount/",
+         "published": "2026-11-17T13:36:15Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Verge",
+       "title": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
+       "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+       "published": "2026-11-17T21:46:20Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4b3699e14a92",
+     "title": "Red Dead Redemption Drops to $13.98 at VGP with Free Switch 2 Upgrade",
+     "summary": "Retailer VGP has slashed the price of Red Dead Redemption down to $13.98 for Nintendo Switch and PS5, complete with a free upgrade path for next-generation hardware.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-18T06:45:47Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Red Dead Redemption (Switch/PS5) is $13.98 US Dollars at VGP Switch 2 upgrade pack is free",
+       "url": "https://buff.ly/GcBWpqd",
+       "published": "2026-11-18T06:45:47Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "ed58033178c7",
+     "title": "Puyo Puyo Tetris 2S for Switch 2 Discounted to $15 on Amazon",
+     "summary": "Amazon has marked down physical copies of Puyo Puyo Tetris 2S for the Nintendo Switch 2 to an aggressive $15 price point.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-18T06:38:18Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Puyo Puyo Tetris 2S (Switch 2 KC) is $15 on Amazon",
+       "url": "https://amzn.to/4iBodeA",
+       "published": "2026-11-18T06:38:18Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f49e7033a639",
+     "title": "Sea of Stars Sunset Edition Switch 2 Physical Preorders Open at $49.99",
+     "summary": "Sabotage Studio and iam8bit have opened physical preorders for the upcoming Sea of Stars Sunset Edition on Switch 2 at an MSRP of $49.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-18T06:25:42Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Sea of Stars: Sunset Edition (Switch 2) is up for preorder on Amazon ($49.99) PS5/Switch 2 iam8bit Exclusive Edition/CE/Collector's Box on iam8bit",
+       "url": "https://amzn.to/4fi2hD9",
+       "published": "2026-11-18T06:25:42Z",
+       "official": false
       }
      ]
     }
    ]
   }
  ],
- "date": "2026-11-17",
- "generated_at": "2026-11-17T11:00:50Z",
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T11:00:49Z",
  "timezone": "America/New_York",
  "window_hours": 26,
  "mode": "ai",
  "model": "gemini-3.5-flash-lite",
  "stats": {
-  "items": 1333,
-  "clusters": 1106,
-  "feeds_ok": 175,
-  "feeds_failed": 1
+  "items": 1295,
+  "clusters": 1062,
+  "feeds_ok": 174,
+  "feeds_failed": 2
  },
  "feed_health": [
   {
@@ -1687,6 +1917,12 @@
    "title": "Meta AI (mirror)",
    "status": "stale",
    "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "hn-claude",
+   "title": "HN: Claude/Anthropic",
+   "status": "error",
+   "detail": "HTTPError: 502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=Claude+OR+Anthropic&points=50"
   },
   {
    "key": "san",
