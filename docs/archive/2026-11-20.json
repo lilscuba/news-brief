@@ -1,0 +1,2175 @@
+{
+ "version": 1,
+ "headline": "Anthropic shatters records with a historic $81 billion IPO on Wall Street, while Grand Theft Auto 6 dominates the gaming landscape upon its massive release.",
+ "top": [
+  {
+   "id": "c7dc25d30057",
+   "title": "Anthropic Makes History with Massive $81 Billion IPO on Nasdaq",
+   "summary": "AI lab Anthropic has gone public in New York, raising over $81 billion in the largest initial public offering in history and briefly achieving a valuation above $2 trillion before closing up 17 percent.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "AI",
+   "published": "2026-11-20T11:00:50Z",
+   "outlet_count": 19,
+   "sources": [
+    {
+     "outlet": "Fox News",
+     "title": "ASRA Q. NOMANI: Inside the coordinated activist blitz that crashed Anthropic’s historic Nasdaq debut",
+     "url": "https://www.foxnews.com/politics/asra-q-nomani-inside-coordinated-activist-blitz-crashed-anthropic-historic-nasdaq-debut",
+     "published": "2026-11-19T22:57:07Z",
+     "official": false
+    },
+    {
+     "outlet": "NPR Politics",
+     "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+     "url": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic",
+     "published": "2026-11-19T12:26:01Z",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
+     "url": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+     "published": "2026-11-19T14:02:22Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge AI",
+     "title": "Anthropic starts trading on Wall Street",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+     "published": "2026-11-19T16:52:01Z",
+     "official": false,
+     "also": [
+      {
+       "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+       "published": "2026-11-19T14:25:37Z"
+      }
+     ]
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+     "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+     "published": "2026-11-20T00:43:50Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+       "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+       "published": "2026-11-19T16:59:23Z"
+      },
+      {
+       "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+       "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+       "published": "2026-11-19T16:19:41Z"
+      },
+      {
+       "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+       "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+       "published": "2026-11-19T14:54:39Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Hacker News (100+ points)",
+     "title": "Anthropic’s Nasdaq debut",
+     "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+     "published": "2026-11-19T17:02:40Z",
+     "official": false
+    },
+    {
+     "outlet": "Mother Jones",
+     "title": "“This Is Familiar Territory”: Veterans of the 2008 Crash Protest Anthropic’s IPO",
+     "url": "https://www.motherjones.com/politics/2026/11/anthropic-ipo-nasdaq-protest/",
+     "published": "2026-11-19T18:05:15Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Anthropic is now a public company worth more than $1 trillion",
+     "url": "https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/",
+     "published": "2026-11-19T18:41:26Z",
+     "official": false
+    },
+    {
+     "outlet": "Jacobin",
+     "title": "Anthropic Is Already Part of the Security Establishment",
+     "url": "https://jacobin.com/2026/11/anthropic-ai-security-surveillance-state",
+     "published": "2026-11-19T20:04:02Z",
+     "official": false
+    },
+    {
+     "outlet": "The Daily Caller",
+     "title": "Anthropic Stock Jumped 17%. So How Did Some Buyers End The Day Down 13%?",
+     "url": "https://dailycaller.com/2026/11/19/anthropic-stock-jumped-17-so-how-did-some-buyers-end-the-day-down-13",
+     "published": "2026-11-19T22:12:22Z",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Anthropic's trillion-dollar valuation tests its promise to develop AI responsibly",
+     "url": "https://www.pbs.org/newshour/show/anthropics-trillion-dollar-valuation-tests-its-promise-to-develop-ai-responsibly",
+     "published": "2026-11-19T23:40:24Z",
+     "official": false
+    },
+    {
+     "outlet": "BBC News",
+     "title": "How did Anthropic's stock market debut unfold?",
+     "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-19T23:52:25Z",
+     "official": false
+    },
+    {
+     "outlet": "Reuters via Techmeme",
+     "title": "Sources: Menlo invested $1B+ for a ~1.5% Anthropic stake, worth $20B+ at a $1.5T valuation; Lightspeed, the top financial investor, invested $3B+ and holds 2%+",
+     "url": "https://www.reuters.com/legal/transactional/anthropics-15-trillion-debut-rewrites-venture-capitals-playbook-2026-11-19/",
+     "published": "2026-11-20T00:35:46Z",
+     "official": false
+    },
+    {
+     "outlet": "Forbes via Techmeme",
+     "title": "Source: Iconiq invested more than $6B in Anthropic; its estimated 1.8% stake was worth ~$31.8B at Thursday's close, a 430%+ return on investment",
+     "url": "https://www.forbes.com/sites/richardnieva/2026/11/19/the-big-vc-winners-in-anthropics-ipo/",
+     "published": "2026-11-20T00:50:59Z",
+     "official": false
+    },
+    {
+     "outlet": "The New Yorker",
+     "title": "Amid Heckles and Hurrahs, Anthropic Rings In a New Era",
+     "url": "https://www.newyorker.com/magazine/2026/11/30/amid-heckles-and-hurrahs-anthropic-rings-in-a-new-era",
+     "published": "2026-11-20T01:56:42Z",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg via Techmeme",
+     "title": "Anthropic fell ~5% in after-hours trading on its debut day, following a record $107.3B IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-shares-drop-post-market-on-apple-s-ai-agent-plans",
+     "published": "2026-11-20T04:15:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Anthropic raises record $81 billion in stock market debut as shares close 17 percent higher",
+     "url": "https://cphpost.dk/2026-11-20/global/anthropic-raises-record-81-billion-in-stock-market-debut-as-shares-close-17-percent-higher/",
+     "published": "2026-11-20T05:34:26Z",
+     "official": false
+    },
+    {
+     "outlet": "Financial Times via Techmeme",
+     "title": "Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+",
+     "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b",
+     "published": "2026-11-20T05:45:01Z",
+     "official": false
+    },
+    {
+     "outlet": "TheJournal.ie (Ireland)",
+     "title": "Anthropic, the AI firm behind Claude, briefly valued at $2 trillion after record Wall Street debut",
+     "url": "https://www.thejournal.ie/anthropic-stock-market-shares-billions-claude-7231563-Nov2026/",
+     "published": "2026-11-20T07:32:00Z",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Meet Anthropic's 7 co-founders, now worth about $20 billion each",
+     "url": "https://www.cbsnews.com/news/anthropic-ipo-founders-net-worth/",
+     "published": "2026-11-20T08:43:27Z",
+     "official": false
+    },
+    {
+     "outlet": "The Guardian",
+     "title": "Global stock markets slump as Anthropic IPO fails to stem AI sell-off",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+     "published": "2026-11-20T10:02:21Z",
+     "official": false
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "title": "Asian tech stocks fall sharply after Anthropic's blockbuster IPO",
+     "url": "https://asia.nikkei.com/business/markets/asian-tech-stocks-fall-sharply-after-anthropic-s-blockbuster-ipo",
+     "published": "2026-11-20T11:00:50Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "064266a8ac89",
+   "title": "Grand Theft Auto 6 Launches Globally to Record Sales and Massive Hype",
+   "summary": "Rockstar Games has officially released Grand Theft Auto 6, driving massive entertainment sales figures, setting off widespread cultural reactions, and sparking early discussions about its open-world design and performance.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Gaming",
+   "published": "2026-11-20T10:42:10Z",
+   "outlet_count": 19,
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "title": "Grand Theft Auto VI is Out Now",
+     "url": "https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/",
+     "published": "2026-11-19T14:00:00Z",
+     "official": true
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "GTA 6 On Switch 2? Digital Foundry Weighs In On The Possibility",
+     "url": "https://www.nintendolife.com/news/2026/11/gta-6-on-switch-2-digital-foundry-weighs-in-on-the-possibility",
+     "published": "2026-11-19T17:15:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Round Up: Spare A Thought For These Games Launching On 'GTA 6 Day'",
+       "url": "https://www.nintendolife.com/news/2026/11/round-up-spare-a-thought-for-these-games-launching-on-gta-6-day",
+       "published": "2026-11-19T11:45:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Push Square",
+     "title": "Guide: GTA 6: Radio Songs - All Music, Radio Stations, & Artists",
+     "url": "https://www.pushsquare.com/guides/gta-6-radio-songs-all-music-radio-stations-and-artists",
+     "published": "2026-11-20T01:00:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "GTA 6's Mandy 'Is a Lot of Fun' Says Real-Life Actress as PS5 Players Are Smitten",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6s-mandy-is-a-lot-of-fun-says-real-life-actress-as-ps5-players-are-smitten",
+       "published": "2026-11-20T00:00:00Z"
+      },
+      {
+       "title": "GTA 6 Censorship in Japan Sees Characters Shower in Underwear, as Sex and Violence Are Toned Down",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6-censorship-in-japan-sees-characters-shower-in-underwear-as-sex-and-violence-are-toned-down",
+       "published": "2026-11-19T18:30:00Z"
+      },
+      {
+       "title": "Guide: GTA 6: Who Is the Real Actor Jason Is Based On?",
+       "url": "https://www.pushsquare.com/guides/gta-6-who-is-the-real-actor-jason-is-based-on",
+       "published": "2026-11-19T17:30:00Z"
+      },
+      {
+       "title": "GTA 6 Doesn't Have Any Sex Workers, and Rockstar Has Explained Why",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6-doesnt-have-any-sex-workers-and-rockstar-has-explained-why",
+       "published": "2026-11-19T17:00:00Z"
+      },
+      {
+       "title": "GTA 6 Has an Easy Mode Buried in an Impressive Range of Accessibility Options",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6-has-an-easy-mode-buried-in-an-impressive-range-of-accessibility-options",
+       "published": "2026-11-19T13:30:00Z"
+      },
+      {
+       "title": "GTA 6 Takes Over PS5's Welcome Page, Including a New Set of Wallpapers",
+       "url": "https://www.pushsquare.com/news/2026/11/gta-6-takes-over-ps5s-welcome-page-including-a-new-set-of-wallpapers",
+       "published": "2026-11-19T12:00:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game",
+     "url": "https://www.eurogamer.net/cyberleek-gta-6-dev-build",
+     "published": "2026-11-19T21:08:50Z",
+     "official": false,
+     "also": [
+      {
+       "title": "GTA 6 players are being abducted by aliens and knocked out by Bigfoot",
+       "url": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
+       "published": "2026-11-19T17:48:50Z"
+      },
+      {
+       "title": "Over 2 million Xbox players in the UK and US reportedly used the 'New Zealand trick' to play GTA 6 early - that's more than a third of the country's population",
+       "url": "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early",
+       "published": "2026-11-19T15:40:10Z"
+      },
+      {
+       "title": "Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game",
+       "url": "https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor",
+       "published": "2026-11-19T15:07:00Z"
+      },
+      {
+       "title": "Does GTA 6 have an 'easy mode'? Not officially, but there are two very important settings you can change to make the game less difficult",
+       "url": "https://www.eurogamer.net/gta-6-easy-mode-accessibility-options",
+       "published": "2026-11-19T14:42:20Z"
+      },
+      {
+       "title": "Warren Spector lambasts GTA 6's \"billion dollar\" development - 'I just hope it's is the last of its kind even if it's the best we have to offer'",
+       "url": "https://www.eurogamer.net/gta-6-warren-spector-lambasts-billion-dollar-development",
+       "published": "2026-11-19T14:08:40Z"
+      },
+      {
+       "title": "As Rockstar's alleged \"union busting\" tribunal hearing comes to a close amid GTA 6 launch, judge pledges to deliver verdict \"as quickly as I possibly can\"",
+       "url": "https://www.eurogamer.net/gta-6-rockstar-tribunal-awaits-verdict",
+       "published": "2026-11-19T14:08:10Z"
+      },
+      {
+       "title": "GTA 6 has replaced websites with social media and phone apps because \"it didn't feel necessary\"",
+       "url": "https://www.eurogamer.net/grand-theft-auto-6-no-web-social-media-apps",
+       "published": "2026-11-19T13:43:10Z"
+      },
+      {
+       "title": "GameStop CEO slams 'code-in-a-box' games in the wake of GTA 6's discless release",
+       "url": "https://www.eurogamer.net/gta-6-discless-release-code-in-a-box-gamestop-ceo",
+       "published": "2026-11-19T13:03:30Z"
+      },
+      {
+       "title": "GTA 6 developers at Rockstar are worried about being laid off after shipping \"the biggest game of all time\"",
+       "url": "https://www.eurogamer.net/gta-6-rockstar-developers-layoffs-worries",
+       "published": "2026-11-19T12:16:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Stephen Totilo",
+     "title": "I wrote up some initial GTA VI impressions - Thrilled to see Rockstar bail on tap-A-to-sprint - Jason's house is my Dragon Age \"Hinterlands\"... spent two hours in it instead of getting on with the…",
+     "url": "https://www.gamefile.news/p/gta-vi-early-impressions",
+     "published": "2026-11-19T13:16:06Z",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "GTA 6 sold around 25 million copies and made $2.36 billion in its first day, estimates suggest",
+     "url": "https://www.videogameschronicle.com/news/gta-6-sold-around-25-million-copies-and-made-2-36-billion-in-its-first-day-estimates-suggest/",
+     "published": "2026-11-20T09:42:03Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Cyberleek claims to release development build of GTA 6",
+       "url": "https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/",
+       "published": "2026-11-19T20:27:49Z"
+      },
+      {
+       "title": "Japan censors GTA 6’s violence and nudity, including Jason in the shower",
+       "url": "https://www.videogameschronicle.com/news/japan-censors-gta-6s-violence-and-nudity-including-jason-in-the-shower/",
+       "published": "2026-11-19T16:32:45Z"
+      },
+      {
+       "title": "‘See y’all in Leonida’: Jason’s actor finally confirms he’s in GTA 6",
+       "url": "https://www.videogameschronicle.com/news/see-yall-in-leonida-jasons-actor-finally-confirms-hes-in-gta-6/",
+       "published": "2026-11-19T14:56:48Z"
+      },
+      {
+       "title": "GTA 6 PSA: Here’s how GTA 6 autosave works",
+       "url": "https://www.videogameschronicle.com/guide/gta-6-psa-heres-how-gta-6-autosave-works/",
+       "published": "2026-11-19T14:13:50Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Pure Xbox",
+     "title": "GTA 6 First-Person Glitch Discovered, And It Works On Xbox & PS5",
+     "url": "https://www.purexbox.com/news/2026/11/gta-6-first-person-glitch-discovered-and-it-works-on-xbox-and-ps5",
+     "published": "2026-11-20T00:28:00Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Xbox One Players Share Their First Impressions Of GTA 6 Via The Cloud",
+       "url": "https://www.purexbox.com/news/2026/11/xbox-one-players-share-their-first-impressions-of-gta-6-via-the-cloud",
+       "published": "2026-11-19T18:00:00Z"
+      },
+      {
+       "title": "The Official GTA 6 Map Is Now Available To Download For Free",
+       "url": "https://www.purexbox.com/news/2026/11/the-official-gta-6-map-is-now-available-to-download-for-free",
+       "published": "2026-11-19T14:21:00Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Engadget",
+     "title": "The GTA 6 star system says a lot more than just your Wanted level",
+     "url": "https://www.engadget.com/2322564/gta-6-wanted-level-star-system-details/",
+     "published": "2026-11-19T23:28:22Z",
+     "official": false,
+     "also": [
+      {
+       "title": "You won't find this fan favorite feature in GTA 6",
+       "url": "https://www.engadget.com/2321965/you-wont-find-this-fan-favorite-feature-in-gta-6/",
+       "published": "2026-11-19T17:23:58Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "GTA 6 Has A Surprising Late Game Cameo That Knocked Me On My Ass",
+     "url": "https://kotaku.com/gta-6-has-a-surprising-late-game-cameo-that-knocked-me-on-my-ass-2000758623",
+     "published": "2026-11-20T02:52:57Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Here’s What People Are Playing That’s Not GTA 6",
+       "url": "https://kotaku.com/heres-what-people-are-playing-thats-not-gta-6-2000758577",
+       "published": "2026-11-20T00:00:35Z"
+      },
+      {
+       "title": "GTA 6 Is Even Better When You Play It Side-By-Side With Your Wife",
+       "url": "https://kotaku.com/gta-6-is-even-better-when-you-play-it-side-by-side-with-your-wife-2000758581",
+       "published": "2026-11-19T23:30:38Z"
+      },
+      {
+       "title": "CNN Calls GTA 6 The ‘Most Intense Version Of Pac-Man‘",
+       "url": "https://kotaku.com/cnn-calls-gta-6-the-most-intense-version-of-pac-man-2000758598",
+       "published": "2026-11-19T23:07:32Z"
+      },
+      {
+       "title": "GTA 6′s Pop And Classic Rock Radio Stations Contain 150 Songs, More Than All Of Vice City’s Radio Stations Combined",
+       "url": "https://kotaku.com/gta-6s-pop-and-classic-rock-radio-stations-contain-150-songs-more-than-all-of-vice-citys-radio-stations-combined-2000758551",
+       "published": "2026-11-19T22:02:25Z"
+      },
+      {
+       "title": "Cyberleek Is Threatening To Unleash Chaos Again After Allegedly Tossing An Xbox Build Of GTA 6 Onto The Internet",
+       "url": "https://kotaku.com/cyberleek-is-threatening-to-unleash-chaos-again-after-tossing-an-alleged-xbox-build-of-gta-6-onto-the-internet-2000758544",
+       "published": "2026-11-19T21:05:13Z"
+      },
+      {
+       "title": "I Didn’t Expect GTA 6 To Be The Game That Tries To De-Toxify Toxic Masculinity",
+       "url": "https://kotaku.com/i-didnt-expect-gta-6-to-be-the-game-that-tries-to-de-toxify-toxic-masculinity-2000758476",
+       "published": "2026-11-19T21:00:32Z"
+      },
+      {
+       "title": "‘Are We Going Too Crazy?’ Here’s Why Rockstar Put A Red Hulk In GTA 6",
+       "url": "https://kotaku.com/are-we-going-too-crazy-heres-why-rockstar-put-a-red-hulk-in-gta-6-2000758505",
+       "published": "2026-11-19T21:00:00Z"
+      },
+      {
+       "title": "18 Coolest Details Players Have Spotted In GTA 6 So Far",
+       "url": "https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435",
+       "published": "2026-11-19T20:00:00Z"
+      },
+      {
+       "title": "Let’s Talk About Sex In GTA 6, Baby",
+       "url": "https://kotaku.com/grand-theft-auto-6-sex-scenes-romance-relationship-jason-lucia-unlock-2000758517",
+       "published": "2026-11-19T19:40:09Z"
+      },
+      {
+       "title": "Rockstar Wouldn’t Confirm Or Deny If That’s Studio President Sam Houser In GTA 6",
+       "url": "https://kotaku.com/rockstar-wouldnt-confirm-or-deny-if-thats-studio-president-sam-houser-in-gta-6-2000758489",
+       "published": "2026-11-19T18:05:51Z"
+      }
+     ]
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Modders reckon GTA 6 will be playable on PC within a week",
+     "url": "https://www.pcgamer.com/games/grand-theft-auto/modders-reckon-gta-6-will-be-playable-on-pc-within-a-week/",
+     "published": "2026-11-20T10:33:56Z",
+     "official": false,
+     "also": [
+      {
+       "title": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/",
+       "published": "2026-11-20T01:01:43Z"
+      },
+      {
+       "title": "Cyberleek drops what they claim is a near-complete GTA 6 Xbox build online",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/",
+       "published": "2026-11-19T23:17:00Z"
+      },
+      {
+       "title": "Help: I can't stop obeying traffic laws in GTA 6",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/help-i-cant-stop-obeying-traffic-laws-in-gta-6/",
+       "published": "2026-11-19T22:46:37Z"
+      },
+      {
+       "title": "GTA 6 has the best use of the PS5 controller I've ever seen",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-the-best-use-of-the-ps5-controller-ive-ever-seen/",
+       "published": "2026-11-19T22:28:33Z"
+      },
+      {
+       "title": "GTA 5's Steam concurrents have gone up rather than down now that GTA 6 is out, suggesting a lot of PC players are waiting",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-steam-concurrents-have-gone-up-rather-than-down-now-that-gta-6-is-out-suggesting-a-lot-of-pc-players-are-waiting/",
+       "published": "2026-11-19T22:00:43Z"
+      },
+      {
+       "title": "Should you give the statue to Benedict Halifax in GTA 6?",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not/",
+       "published": "2026-11-19T21:56:00Z"
+      },
+      {
+       "title": "In the GTA 6 Delights robbery mission, help or don't help Frankie and Mario?",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help/",
+       "published": "2026-11-19T21:46:10Z"
+      },
+      {
+       "title": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings/",
+       "published": "2026-11-19T21:24:15Z"
+      },
+      {
+       "title": "Where to have a bona fide bigfoot (skunk ape) sighting in GTA 6",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bigfoot-location-skunk-ape/",
+       "published": "2026-11-19T20:12:34Z"
+      },
+      {
+       "title": "Your GTA 6 car is your Red Dead 2 horse, and it's perfect",
+       "url": "https://www.pcgamer.com/games/grand-theft-auto/your-gta-6-car-is-your-red-dead-2-horse-and-its-perfect/",
+       "published": "2026-11-19T19:54:22Z"
+      }
+     ]
+    },
+    {
+     "outlet": "IGN",
+     "title": "GTA 6 Has Police Departments Across America Begging People Not to Commit Crimes IRL",
+     "url": "https://www.ign.com/articles/gta-6-has-police-departments-across-america-begging-people-not-to-commit-crimes-irl",
+     "published": "2026-11-19T23:55:01Z",
+     "official": false,
+     "also": [
+      {
+       "title": "GTA 6's Viral NPC May Actually Have a Dark Secret",
+       "url": "https://www.ign.com/articles/gta-6-mandy-serial-killer",
+       "published": "2026-11-19T22:38:34Z"
+      },
+      {
+       "title": "Video Game Spending Dropped 14% This October, Possibly Because Everyone Was Preparing for GTA 6",
+       "url": "https://www.ign.com/articles/video-game-spending-dropped-14-percent-this-october-possibly-because-everyone-was-preparing-for-gta-6",
+       "published": "2026-11-19T22:20:09Z"
+      }
+     ]
+    },
+    {
+     "outlet": "Insider Gaming",
+     "title": "Where to Find the UFO Encounter in GTA 6—Alien Abduction Event, Explained",
+     "url": "https://insider-gaming.com/where-to-find-ufo-in-gta-6-explained/",
+     "published": "2026-11-20T08:20:41Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Where Do Photo Studio Pictures Get Saved in GTA 6?",
+       "url": "https://insider-gaming.com/photo-studio-pictures-gta-6/",
+       "published": "2026-11-19T23:22:00Z"
+      },
+      {
+       "title": "Best Early Game Locations For Easy Cash in GTA 6—Chapter One Money Making, Explained",
+       "url": "https://insider-gaming.com/gta-6-early-game-locations-make-money/",
+       "published": "2026-11-19T22:51:08Z"
+      },
+      {
+       "title": "When Can You Get a New Safehouse in GTA 6? Next Hideout, Explained",
+       "url": "https://insider-gaming.com/when-do-you-get-new-safehouse-gta-6-explained/",
+       "published": "2026-11-19T22:29:07Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Atlantic",
+     "title": "Grand Theft Auto VI Is Really Weird",
+     "url": "https://www.theatlantic.com/ideas/2026/11/grand-theft-auto-vi-review/689514/?utm_source=feed",
+     "published": "2026-11-19T22:56:38Z",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "Game streaming can bring 'Grand Theft Auto VI' to your iPhone, iPad, or Apple Vision Pro",
+     "url": "https://appleinsider.com/articles/26/11/20/game-streaming-can-bring-grand-theft-auto-vi-to-your-iphone-ipad-or-apple-vision-pro?utm_source=rss",
+     "published": "2026-11-20T03:02:49Z",
+     "official": false
+    },
+    {
+     "outlet": "New York Times",
+     "title": "Grand Theft Auto: An American Icon, Born in Scotland",
+     "url": "https://www.nytimes.com/2026/11/18/world/europe/grand-theft-auto-america-scotland-global-reaction.html",
+     "published": "2026-11-20T08:53:25Z",
+     "official": false
+    },
+    {
+     "outlet": "Christopher Dring",
+     "title": "We’ve had some fun coverage GTA this week! We began with an edition featuring Take-Two CEO Strauss Zelnick, plus indie legends Rami Ismail and Edmund McMillen about going head-to-head with GTA 6 “The…",
+     "url": "https://www.thegamebusiness.com/p/the-two-indie-game-legends-going",
+     "published": "2026-11-20T09:21:37Z",
+     "official": false
+    },
+    {
+     "outlet": "SRF News (Switzerland)",
+     "title": "80s hit 'Captain of Her Heart' – Swiss music featured in 'GTA 6'",
+     "url": "https://www.srf.ch/radio-srf-3/musik/80s-hit-captain-of-her-heart-in-gta-6-laeuft-schweizer-musik",
+     "published": "2026-11-20T09:27:36Z",
+     "translated_from": "de",
+     "original_title": "80s-Hit «Captain of Her Heart» – In «GTA 6» läuft Schweizer Musik",
+     "official": false
+    },
+    {
+     "outlet": "GamesIndustry.biz",
+     "title": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6",
+     "url": "https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6",
+     "published": "2026-11-20T10:07:40Z",
+     "official": false
+    },
+    {
+     "outlet": "Rock Paper Shotgun",
+     "title": "GTA 6 leaker claims to have lobbed a near-complete Xbox build of Rockstar's crimsim onto the net, shouts that the \"community will have it emulated inside a week\"",
+     "url": "https://www.rockpapershotgun.com/gta-6-leaker-claims-to-have-lobbed-a-near-complete-xbox-build-of-rockstars-crimsim-onto-the-net-shouts-that-the-community-will-have-it-emulated-inside-a-week",
+     "published": "2026-11-20T10:42:10Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "dfec981b5094",
+   "title": "Trump, Xi, and Putin Hold First Trilateral Summit and Issue Peace Declaration",
+   "summary": "The leaders of the U.S., China, and Russia met for an unprecedented trilateral summit, pledging greater cooperation on nuclear nonproliferation and releasing a joint peace declaration addressing international reforms.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-11-20T06:27:52Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "The American Conservative",
+     "title": "Trump, Xi, and Putin End Summit With ‘Joint Declaration of Peace’",
+     "url": "https://www.theamericanconservative.com/trump-xi-and-putin-end-summit-with-joint-declaration-of-peace/",
+     "published": "2026-11-19T23:00:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "A New International Order? Xi, Trump & Putin Hold Historic Trilateral Summit in China",
+     "url": "http://www.democracynow.org/2026/11/19/china_us_russia",
+     "published": "2026-11-19T13:14:11Z",
+     "official": false
+    },
+    {
+     "outlet": "Helsinki Times (Finland)",
+     "title": "Xi, Trump and Putin agree on peace and cooperation at historic summit in China",
+     "url": "https://www.helsinkitimes.com/world-int/29513-xi-trump-and-putin-agree-on-peace-and-cooperation-at-historic-summit-in-china.html",
+     "published": "2026-11-19T16:14:30Z",
+     "official": false
+    },
+    {
+     "outlet": "Foreign Policy",
+     "title": "Trump, Xi, Putin Hold Historic Trilateral Talks",
+     "url": "https://foreignpolicy.com/2026/11/19/trump-xi-putin-trilateral-talks-nuclear-disarmament-un-icc-oil/",
+     "published": "2026-11-19T21:28:32Z",
+     "official": false
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Inside the historic summit between Trump, Xi and Putin",
+     "url": "https://www.pbs.org/newshour/show/inside-the-historic-summit-between-trump-xi-and-putin",
+     "published": "2026-11-19T23:55:57Z",
+     "official": false
+    },
+    {
+     "outlet": "CNA (Singapore)",
+     "title": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+     "url": "https://www.channelnewsasia.com/world/china-russia-us-peace-declaration-nuclear-trilateral-talks-6565716",
+     "published": "2026-11-20T03:16:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Trump, Xi and Putin agree on UN reform, energy supplies, international courts and nuclear weapons in joint peace declaration",
+     "url": "https://cphpost.dk/2026-11-20/global/trump-xi-and-putin-agree-on-un-reform-energy-supplies-international-courts-and-nuclear-weapons-in-joint-peace-declaration/",
+     "published": "2026-11-20T05:34:18Z",
+     "official": false
+    },
+    {
+     "outlet": "NK News (North Korea)",
+     "title": "Trump, Xi and Putin discuss North Korea, nuclear risks at first trilateral talks",
+     "url": "https://www.nknews.org/2026/11/trump-xi-and-putin-discuss-north-korea-nuclear-risks-at-first-trilateral-talks/",
+     "published": "2026-11-20T06:27:52Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "074c6dce68a1",
+   "title": "Russian Missile Strikes Territory in Poland During Major Attack on Kyiv",
+   "summary": "Polish authorities reported that a Russian missile struck southeast Poland during a massive aerial assault on Ukraine that also damaged embassies and infrastructure in Kyiv.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "Europe",
+   "published": "2026-11-20T10:38:51Z",
+   "outlet_count": 15,
+   "sources": [
+    {
+     "outlet": "BBC News",
+     "title": "Three Kyiv bridges hit during major Russian missile attack",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-20T10:20:08Z",
+     "official": false
+    },
+    {
+     "outlet": "France 24",
+     "title": "Poland says Russian missile hit its territory during attack on Ukraine",
+     "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
+     "published": "2026-11-20T10:38:51Z",
+     "official": false,
+     "also": [
+      {
+       "title": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
+       "url": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies",
+       "published": "2026-11-19T21:25:27Z"
+      }
+     ]
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "News Wrap: Russian drone attack damages Dutch embassy and cathedral in Ukraine",
+     "url": "https://www.pbs.org/newshour/show/news-wrap-russian-drone-attack-damages-dutch-embassy-and-cathedral-in-ukraine",
+     "published": "2026-11-19T23:45:23Z",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Russian strikes on Kyiv kill one and damage Austrian and Dutch embassies",
+     "url": "https://cphpost.dk/2026-11-20/global/russian-strikes-on-kyiv-kill-one-and-damage-austrian-and-dutch-embassies/",
+     "published": "2026-11-20T05:33:39Z",
+     "official": false
+    },
+    {
+     "outlet": "RTÉ News (Ireland)",
+     "title": "Russian missile strikes target key bridges in Kyiv",
+     "url": "https://www.rte.ie/news/ukraine/2026/1120/1599948-ukraine-russia/",
+     "published": "2026-11-20T07:00:21Z",
+     "official": false
+    },
+    {
+     "outlet": "Meduza (Russia)",
+     "title": "Russian missile and drone attack on Kyiv kills three and damages three Dnipro bridges, mayor says",
+     "url": "https://meduza.io/en/news/2026/11/20/russian-missile-and-drone-attack-on-kyiv-kills-three-and-damages-three-dnipro-bridges-mayor-says",
+     "published": "2026-11-20T07:02:22Z",
+     "official": false
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Russia’s day-long attack on Kyiv damages embassies",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
+     "published": "2026-11-20T08:56:08Z",
+     "official": false
+    },
+    {
+     "outlet": "The Kyiv Independent (Ukraine)",
+     "title": "Two Russian Kh-101 missiles, drone, fall on Poland during Russian attack on Ukraine",
+     "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
+     "published": "2026-11-20T09:11:40Z",
+     "official": false
+    },
+    {
+     "outlet": "New York Post",
+     "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
+     "url": "https://nypost.com/2026/11/20/world-news/russian-attacks-on-kyiv-kill-3-cripple-bridges-and-cut-power/",
+     "published": "2026-11-20T09:22:04Z",
+     "official": false
+    },
+    {
+     "outlet": "Notes from Poland",
+     "title": "Two Russian missiles and a drone hit Poland, says defence minister",
+     "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/",
+     "published": "2026-11-20T09:30:31Z",
+     "official": false
+    },
+    {
+     "outlet": "Tagesschau (Germany)",
+     "title": "Fatalities in Russian attacks on multiple bridges in Kyiv",
+     "url": "https://www.tagesschau.de/ausland/ukraine-russland-angriffe-bruecken-100.html",
+     "published": "2026-11-20T09:34:09Z",
+     "translated_from": "de",
+     "original_title": "Tote bei russischen Angriffen auf mehrere Brücken in Kiew",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Two missiles crash in Poland amid major Russian attack on Ukraine",
+     "url": "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
+     "published": "2026-11-20T09:36:25Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+     "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-20T09:58:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Bloomberg",
+     "title": "Poland Says Two Russian Missiles, Drone Crashed on Its Soil",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/poland-says-two-russian-missiles-drone-crashed-on-its-soil",
+     "published": "2026-11-20T10:02:20Z",
+     "official": false
+    },
+    {
+     "outlet": "ORF News (Austria)",
+     "title": "Minister: Russian cruise missile crashed in Poland",
+     "url": "https://orf.at/stories/3448763/",
+     "published": "2026-11-20T10:20:37Z",
+     "translated_from": "de",
+     "original_title": "Minister: Russischer Marschflugkörper in Polen abgestürzt",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "6d6821f501bb",
+   "title": "Google Expands Gemini Mac Capabilities to Control Desktop Apps",
+   "summary": "Google has updated its Gemini app for Mac to allow the AI assistant to take full advantage of desktop apps, files, and websites to complete complex background workflows.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "AI",
+   "published": "2026-11-19T20:14:23Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "MacRumors",
+     "title": "Google's Gemini Can Now Control Apps on Your Mac",
+     "url": "https://www.macrumors.com/2026/11/19/google-gemini-mac-app-control/",
+     "published": "2026-11-19T20:14:23Z",
+     "official": false
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Google gives Gemini the ability to use your Mac for you",
+     "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+     "published": "2026-11-19T18:09:11Z",
+     "official": false
+    },
+    {
+     "outlet": "The Verge AI",
+     "title": "Gemini on Mac can now use your computer",
+     "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+     "published": "2026-11-19T18:21:13Z",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "Gemini app for Mac adds computer use to control desktop apps",
+     "url": "https://9to5google.com/2026/11/19/gemini-mac-computer-use/",
+     "published": "2026-11-19T18:55:42Z",
+     "official": false
+    },
+    {
+     "outlet": "AppleInsider",
+     "title": "Gemini can now control Mac apps, but you still shouldn't let it",
+     "url": "https://appleinsider.com/articles/26/11/19/gemini-can-now-control-mac-apps-but-you-still-shouldnt-let-it?utm_source=rss",
+     "published": "2026-11-19T19:49:04Z",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "b24c1081da70",
+     "title": "Apple Recruits Engineers to Build Its Own AI Computer Agent",
+     "summary": "Apple is reportedly developing its own AI agent designed to run and operate apps and code natively on macOS, competing directly with tools from OpenAI, Meta, and Anthropic.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-20T00:56:01Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Apple is hiring engineers to build its own AI agent",
+       "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+       "published": "2026-11-19T22:31:41Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple is Building an AI Agent That Can Use Apps and Code",
+       "url": "https://www.macrumors.com/2026/11/19/apple-ai-agent-development/",
+       "published": "2026-11-19T22:43:08Z",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "Apple may be developing its own AI agent that runs your Mac",
+       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+       "published": "2026-11-20T00:56:01Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bf86ca0c3db1",
+     "title": "OpenAI Begins Testing Dots Proactive Personal Agents on Plus Tier",
+     "summary": "OpenAI is expanding the testing phase of its proactive AI agents, known as Dots, to a small cohort of subscribers on its $20 per month ChatGPT Plus tier.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-20T07:31:25Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Engadget",
+       "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
+       "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/",
+       "published": "2026-11-20T07:31:25Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "OpenAI begins testing dots with ChatGPT Plus users, expands Business access",
+       "url": "https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/",
+       "published": "2026-11-19T23:47:30Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b00f82b6db94",
+     "title": "Google Releases Tool Retrieval Feature in the Gemini API",
+     "summary": "Google AI has introduced a new Tool Retrieval capability for the Gemini API, designed to streamline how developers integrate external functions into applications.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-11-19T18:00:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Google AI",
+       "title": "Introducing Tool Retrieval in the Gemini API",
+       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+       "published": "2026-11-19T18:00:00Z",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "1a7867b3a729",
+     "title": "NVIDIA and Microsoft Expand Accelerated Computing from Azure to Windows PCs",
+     "summary": "NVIDIA and Microsoft are deepening their full-stack collaboration to help organizations build and deploy AI applications across enterprise Azure infrastructure and Windows PCs.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-11-19T20:00:15Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+       "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+       "published": "2026-11-19T20:00:15Z",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "93201ff2693e",
+     "title": "NVIDIA DeepMind Researchers Outline Path Toward ASI Beyond AGI",
+     "summary": "Google DeepMind researchers argue that ongoing AI development is rapidly paving the way toward Artificial Superintelligence, which will consistently outperform human expert groups.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-20T01:50:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "DeepMind Institute via Techmeme",
+       "title": "Google DeepMind researchers argue AI development is on pace to move beyond human-level AGI to ASI, which consistently outperforms groups of human experts",
+       "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+       "published": "2026-11-20T01:50:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1112027d5901",
+     "title": "NVIDIA Demonstrates Frontier AI Agents for 3D Omniverse Simulations",
+     "summary": "NVIDIA outlined new workflows showing how developers can leverage frontier AI agents to turn simulation concepts into working interactive applications within the Omniverse platform.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-11-19T17:00:35Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+       "published": "2026-11-19T17:00:35Z",
+       "official": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "47b123c67552",
+     "title": "SK Hynix Set to Become Kioxia's Largest Shareholder via Bond Conversion",
+     "summary": "Regulatory filings indicate that SK Hynix will convert bonds into shares to take a 14.1 percent stake in Kioxia, expanding its strategic leverage in the critical NAND memory chip sector.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-20T10:51:08Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "SK hynix to convert Kioxia-related bonds into shares",
+       "url": "https://en.yna.co.kr/view/AEN20261120005051320",
+       "published": "2026-11-20T08:04:42Z",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg via Techmeme",
+       "title": "Filing: SK Hynix will become Kioxia's largest shareholder with a ~14.1% stake after it converts Kioxia bonds into shares, expanding its clout in the NAND sector",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-20/sk-hynix-to-be-kioxia-s-top-shareholder-after-bond-conversion",
+       "published": "2026-11-20T10:51:08Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e5e0f656f561",
+     "title": "California Attorney General Subpoenas Nvidia Over Alleged Chip Exports to China",
+     "summary": "The California AG has served an investigative subpoena on Nvidia to determine whether advanced chips reached China and if corporate executives misled investors.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-20T09:18:30Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Guardian",
+       "title": "California investigates Nvidia over whether chip exports ended up in China",
+       "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+       "published": "2026-11-20T09:18:30Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News via Techmeme",
+       "title": "California's AG subpoenas Nvidia to investigate whether Jensen Huang's actions resulted in China getting advanced chips, and whether Nvidia misled investors",
+       "url": "https://www.cbsnews.com/sanfrancisco/news/california-nvidia-subpoena-jensen-huang-affair-alleged-chinese-spy/",
+       "published": "2026-11-20T03:30:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5c452b248bd7",
+     "title": "UK Tribunal Rules Against Government to Force Disclosure of Apple Backdoor Order",
+     "summary": "A UK tribunal rejected government arguments regarding national security, forcing the public disclosure of a secret order directed at Apple.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-19T15:32:20Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "TechCrunch",
+       "title": "UK government forced to disclose secret Apple backdoor order",
+       "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+       "published": "2026-11-19T15:32:20Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "UK Loses Secrecy Fight Over Apple 'Backdoor' Order",
+       "url": "https://www.macrumors.com/2026/11/19/uk-loses-secrecy-fight-over-apple-backdoor-order/",
+       "published": "2026-11-19T14:06:17Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8a78f7986a82",
+     "title": "Meta's Upcoming Muse Charm Standalone AI Gadget Reportedly Priced at $300",
+     "summary": "Meta's standalone AI hardware device, the Muse Charm, will reportedly cost $300 and may bundle a complimentary Verizon 5G data plan.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-19T22:56:42Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Meta’s Muse Charm might cost $300",
+       "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+       "published": "2026-11-19T20:22:17Z",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "Meta’s new Muse Charm device may cost $300",
+       "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+       "published": "2026-11-19T21:58:06Z",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Meta's Muse Charm will reportedly cost $300 and come with free Verizon 5G",
+       "url": "https://www.engadget.com/2322541/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g/",
+       "published": "2026-11-19T22:56:42Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d07bcdf0c76d",
+     "title": "Apple Considering Cancellation of Future OLED iMac Plans",
+     "summary": "Supply chain reports suggest Apple may scrap its plans to develop and release an OLED iMac following the recent launch of touchscreen MacBook Pro models.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-19T12:51:43Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "OLED iMac plans may be cancelled by Apple for two reasons",
+       "url": "https://9to5mac.com/2026/11/19/oled-imac-plans-may-be-cancelled-by-apple-for-two-reasons/",
+       "published": "2026-11-19T12:51:43Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Apple May Cancel OLED iMac",
+       "url": "https://www.macrumors.com/2026/11/19/apple-may-cancel-oled-imac/",
+       "published": "2026-11-19T11:55:02Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "de9428d7456c",
+     "title": "Samsung Restructures Executive Leadership for Mobile and Memory Divisions",
+     "summary": "Samsung has appointed Choi Won-Joon to head its mobile division and Sang Joon Hwang to lead its memory business in a major leadership shakeup.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-20T06:25:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Google via Techmeme",
+       "title": "Samsung names Choi Won-Joon head of its mobile division, replacing TM Roh, who stays as Samsung co-CEO, and Sang Joon Hwang to lead its memory business",
+       "url": "https://9to5google.com/2026/11/19/samsung-mobile-division-lead-choi-won-joon/",
+       "published": "2026-11-20T06:25:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2b59a2b8adcc",
+     "title": "FCC Greenlights New Rule Allowing Prisons to Jam Contraband Cellphones",
+     "summary": "The Federal Communications Commission voted to permit state prisons across the United States to block signals from illegal smuggled mobile devices.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-20T00:02:08Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "PBS NewsHour",
+       "title": "FCC votes to allow state prisons to jam signals from contraband cellphones",
+       "url": "https://www.pbs.org/newshour/nation/fcc-votes-to-allow-state-prisons-to-jam-signals-from-contraband-cellphones",
+       "published": "2026-11-20T00:02:08Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "FCC greenlights rule allowing prisons to jam cellphone signals",
+       "url": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
+       "published": "2026-11-19T19:40:28Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "08df0a45d6da",
+     "title": "Ubisoft Lays Off 166 Workers and Establishes Generative AI Game Studio",
+     "summary": "Ubisoft has opened a new subsidiary called Motherbrain focused entirely on generative AI implementation in games, while simultaneously cutting 166 jobs across major Canadian development studios.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-19T21:34:57Z",
+     "outlet_count": 9,
+     "sources": [
+      {
+       "outlet": "Gematsu",
+       "title": "Ubisoft lays off 166 staff at Montreal and Quebec studios",
+       "url": "https://www.gematsu.com/2026/11/ubisoft-lays-off-166-staff-at-montreal-and-quebec-studios",
+       "published": "2026-11-19T15:59:21Z",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Ubisoft lays off 166 staff in Montreal and Quebec studios",
+       "url": "https://www.gamesindustry.biz/ubisoft-lays-off-166-staff-in-montreal-and-quebec-studios",
+       "published": "2026-11-19T15:15:00Z",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "Ubisoft has founded a studio dedicated to generative AI in games",
+       "url": "https://www.videogameschronicle.com/news/ubisoft-has-founded-a-studio-dedicated-to-generative-ai-in-games/",
+       "published": "2026-11-19T17:26:14Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Ubisoft is laying off 166 staff in its Montréal and Québec City offices",
+         "url": "https://www.videogameschronicle.com/news/ubisoft-is-laying-off-166-staff-in-its-montreal-and-quebec-city-offices/",
+         "published": "2026-11-19T15:15:42Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Ubisoft lay off 166 more staff, this time at their Montreal and Quebec City studios, while mumbling about \"current production priorities and business needs\"",
+       "url": "https://www.rockpapershotgun.com/ubisoft-lay-off-166-more-staff-this-time-at-their-montreal-and-quebec-city-studios-while-mumbling-about-current-production-priorities-and-business-needs",
+       "published": "2026-11-19T16:12:50Z",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Ubisoft Confirms 166 Layoffs at Key Assassin's Creed Studios",
+       "url": "https://www.pushsquare.com/news/2026/11/ubisoft-confirms-166-layoffs-at-key-assassins-creed-studios",
+       "published": "2026-11-19T16:30:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Ubisoft cuts jobs at major Assassin's Creed and Far Cry studios as its year of layoffs continues",
+       "url": "https://www.eurogamer.net/ubisoft-layoffs-166-assassins-creed-far-cry-montreal-quebec",
+       "published": "2026-11-19T17:43:50Z",
+       "official": false
+      },
+      {
+       "outlet": "Nintendo Life",
+       "title": "Ubisoft Is Laying Off Staff From Two Of Its Biggest Studios",
+       "url": "https://www.nintendolife.com/news/2026/11/ubisoft-is-laying-off-staff-from-two-of-its-biggest-studios",
+       "published": "2026-11-19T18:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "Ubisoft lays off 166 more workers, opens a generative AI studio",
+       "url": "https://www.engadget.com/2322205/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/",
+       "published": "2026-11-19T19:06:04Z",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "Ubisoft Creates Generative AI Game Studio Called Motherbrain",
+       "url": "https://www.ign.com/articles/ubisoft-creates-generative-ai-game-studio-called-motherbrain",
+       "published": "2026-11-19T21:34:57Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f614a1f3ee76",
+     "title": "Valve's Steam Machine Now Available for Direct Purchase Without Reservations",
+     "summary": "Hardware supplies have stabilized enough for Valve to lift the waitlist requirement, allowing customers to purchase the Steam Machine directly.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-19T22:34:28Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "You Can Now Buy the Steam Machine Without a Reservation – But Supplies Are Limited",
+       "url": "https://www.ign.com/articles/you-can-now-buy-the-steam-machine-without-a-reservation-but-supplies-are-limited",
+       "published": "2026-11-19T22:34:28Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "You can now buy a Steam Machine without getting on a waitlist",
+       "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
+       "published": "2026-11-19T19:33:22Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d30c20523569",
+     "title": "Call of Duty: Modern Warfare 4 Debuts as October's Top-Selling US Game",
+     "summary": "Despite dominating the charts as October's highest-selling title in the United States, Modern Warfare 4 fell short of cracking the year's overall top ten best-sellers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-20T01:30:00Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "Call Of Duty: Modern Warfare 4 Tops \"Best-Selling\" Games In October (US)",
+       "url": "https://www.nintendolife.com/news/2026/11/call-of-duty-modern-warfare-4-tops-best-selling-games-in-october-us",
+       "published": "2026-11-20T01:30:00Z",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "Call of Duty: Modern Warfare 4 debuts as top-selling game in US for October 2026",
+       "url": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026",
+       "published": "2026-11-19T14:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Call of Duty: Modern Warfare 4 was October's biggest game in the US, but it wasn't enough to crack 2026's best-selling top 10",
+       "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-october-top-seller",
+       "published": "2026-11-19T14:01:40Z",
+       "official": false
+      },
+      {
+       "outlet": "Push Square",
+       "title": "Call of Duty's Influence Is Fading Fast as Modern Warfare 4 Fails to Make US Top 10",
+       "url": "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10",
+       "published": "2026-11-19T15:30:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a008723e019c",
+     "title": "Circana Reveals Top 20 Best-Selling Wii Games on Console's 20th Anniversary",
+     "summary": "Analyst Mat Piscatella published the all-time unit sales ranking for Nintendo Wii games in North America to mark the historic hardware's 20th anniversary.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-19T18:45:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "Top 20 Best-Selling Wii Games Of All Time Revealed (US)",
+       "url": "https://www.nintendolife.com/news/2026/11/top-20-best-selling-wii-games-of-all-time-revealed-us",
+       "published": "2026-11-19T18:45:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Mat Piscatella",
+       "title": "Happy 20th to the Wii! Here are the all-time top 20 best-selling Wii games in the US, ranked by unit sales (excludes bundled software). It's a wild list, and yes Wii Fit was that big.",
+       "url": "https://bsky.app/profile/matpiscatella.bsky.social/post/3n2o73zlnd22g",
+       "published": "2026-11-19T13:40:06Z",
+       "official": false
+      },
+      {
+       "outlet": "GoNintendo",
+       "title": "On the Wii's 20th anniversary, the console's 20 best-selling games in the U.S. have been revealed",
+       "url": "https://gonintendo.com/contents/67414-on-the-wii-s-20th-anniversary-the-console-s-20-best-selling-games-in-the-u-s-have",
+       "published": "2026-11-19T18:44:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "f6fc549d14e5",
+     "title": "National Cyber Director Abruptly Leaves Post Following Major Tech Outages",
+     "summary": "The U.S. national cyber director is stepping down amid conflicting accounts from administration officials over whether the cyber chief was fired or resigned following widespread infrastructure outages.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-20T09:47:21Z",
+     "outlet_count": 13,
+     "sources": [
+      {
+       "outlet": "NBC News",
+       "title": "White House national cyber director is leaving the administration after series of tech outages",
+       "url": "https://www.nbcnews.com/politics/white-house/national-cyber-director-sean-cairncross-leaving-kirsten-davies-replaci-rcna610329",
+       "published": "2026-11-20T00:48:22Z",
+       "official": false,
+       "also": [
+        {
+         "title": "National cyber director to leave Trump administration",
+         "url": "https://www.nbcnews.com/nightly-news/video/national-cyber-director-to-leave-trump-administration-273861701758",
+         "published": "2026-11-20T00:18:11Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Tangle",
+       "title": "The tech outages.",
+       "url": "https://www.readtangle.com/tech-outages-ai-disruptions/",
+       "published": "2026-11-19T16:54:54Z",
+       "official": false
+      },
+      {
+       "outlet": "TechCrunch",
+       "title": "The U.S. national cyber director is stepping down",
+       "url": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
+       "published": "2026-11-20T09:14:19Z",
+       "official": false,
+       "also": [
+        {
+         "title": "These tech outages are giving Y2K, AI agent style",
+         "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+         "published": "2026-11-19T21:42:31Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Axios",
+       "title": "Scoop: Trump names Kirsten Davies as new national cyber director",
+       "url": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
+       "published": "2026-11-19T22:12:23Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Trump's cyber chief is out as U.S. grapples with multiple tech outages",
+       "url": "https://www.yahoo.com/news/articles/white-house-national-cyber-director-222714781.html",
+       "published": "2026-11-20T01:38:10Z",
+       "official": false
+      },
+      {
+       "outlet": "Fox News",
+       "title": "Trump’s National Cyber Director Sean Cairncross fired amid widespread tech outages",
+       "url": "https://www.foxnews.com/politics/trumps-national-cyber-director-sean-cairncross-fired",
+       "published": "2026-11-20T02:00:36Z",
+       "official": false
+      },
+      {
+       "outlet": "Reuters via Techmeme",
+       "title": "Source: National Cyber Director Sean Cairncross was \"fired\" from his role; the president \"fully supported\" the firing days after a wave of tech-related outages",
+       "url": "https://www.reuters.com/world/us/white-house-national-cyber-director-cairncross-leaving-his-post-axios-reports-2026-11-19/",
+       "published": "2026-11-20T02:20:55Z",
+       "official": false
+      },
+      {
+       "outlet": "The Washington Post",
+       "title": "White House replaces top cybersecurity official after string of outages",
+       "url": "https://www.washingtonpost.com/politics/2026/11/19/white-house-replaces-top-cybersecurity-official/",
+       "published": "2026-11-20T02:42:03Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "White House national cyber director leaving his post",
+       "url": "https://www.cbsnews.com/news/white-house-national-cyber-director-sean-cairncross-leaving/",
+       "published": "2026-11-20T02:50:29Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Times",
+       "title": "Top White House Cybersecurity Official Is Replaced",
+       "url": "https://www.nytimes.com/2026/11/19/us/politics/white-house-cyber-director-departs.html",
+       "published": "2026-11-20T03:31:41Z",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "White House replaces cyber security chief after tech outages",
+       "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-20T04:21:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "White House fires cybersecurity chief after widespread outages",
+       "url": "https://www.thehindu.com/news/international/white-house-fires-cybersecurity-chief-after-widespread-outages/article71722952.ece",
+       "published": "2026-11-20T08:05:47Z",
+       "official": false
+      },
+      {
+       "outlet": "Semafor",
+       "title": "Cairncross departs abruptly after widespread tech outages",
+       "url": "https://www.semafor.com/article/11/19/2026/cairncross-departs-abruptly-after-widespread-tech-outages",
+       "published": "2026-11-20T09:47:21Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c67cfd806c0f",
+     "title": "Senate Passes Bipartisan Permitting Reform Bill to Accelerate Energy Projects",
+     "summary": "The U.S. Senate overwhelmingly approved a bipartisan bill designed to cut infrastructure and energy project construction costs by streamlining federal permitting rules.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-20T04:30:06Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "Axios",
+       "title": "Senate passes Trump-backed permitting bill",
+       "url": "https://www.axios.com/2026/11/20/senate-passes-energy-permitting-bill",
+       "published": "2026-11-20T03:08:28Z",
+       "official": false
+      },
+      {
+       "outlet": "Roll Call",
+       "title": "Sweeping permitting overhaul passes Senate, on to House",
+       "url": "https://rollcall.com/2026/11/19/sweeping-permitting-overhaul-passes-senate-on-to-house",
+       "published": "2026-11-19T22:27:55Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Senate passes bipartisan bill to make data centers pay for their energy use",
+       "url": "https://www.yahoo.com/news/politics/articles/senate-vote-bill-speed-permitting-020439514.html",
+       "published": "2026-11-20T02:04:39Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Senate approves key permitting reform bill, sends to House",
+       "url": "https://thehill.com/homenews/senate/6229829-senate-passes-permitting-reform/",
+       "published": "2026-11-20T03:09:11Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Senate passes bill simplifying permitting rules to build in America, sending it to House",
+       "url": "https://www.nbcnews.com/politics/congress/senate-passes-sweeping-bill-simplifying-permitting-rules-build-america-rcna610196",
+       "published": "2026-11-20T03:09:51Z",
+       "official": false
+      },
+      {
+       "outlet": "The Wall Street Journal",
+       "title": "Senate Passes Measure Designed to Speed Up Energy Projects, Lower Consumer Costs",
+       "url": "https://www.wsj.com/politics/policy/senate-passes-measure-designed-to-speed-up-energy-projects-lower-consumer-costs-dcacc9c6?mod=rss_usnews",
+       "published": "2026-11-20T04:12:00Z",
+       "official": false
+      },
+      {
+       "outlet": "CBS News",
+       "title": "Senate passes bipartisan permitting bill designed to boost energy projects",
+       "url": "https://www.cbsnews.com/news/senate-bipartisan-permitting-reform-bill-energy-baaja-trump/",
+       "published": "2026-11-20T04:30:06Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "bdfedd8d3e83",
+     "title": "Justice Department Drops Lawsuit Challenging Certification of Alaska Senate Race",
+     "summary": "The DOJ officially moved to dismiss its lawsuit seeking to block certification of Alaska's Senate race after declaring the active legal dispute moot.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-20T10:31:20Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "CBS News",
+       "title": "DOJ moves to dismiss lawsuit over Alaska Senate race",
+       "url": "https://www.cbsnews.com/news/trump-administration-dismiss-alaska-senate-lawsuit/",
+       "published": "2026-11-20T03:55:45Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "DOJ ditches lawsuit that sought to pause certification of Alaska's U.S. Senate election",
+       "url": "https://alaskabeacon.com/2026/11/19/doj-abandons-lawsuit-that-sought-to-pause-certification-of-alaskas-us-senate-election/",
+       "published": "2026-11-20T01:28:15Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Justice Department seeks dismissal of its lawsuit in Alaska Senate race",
+       "url": "https://www.nbcnews.com/politics/2026-election/doj-seeks-dismissal-lawsuit-alaska-senate-dan-sullivan-mary-peltola-rcna610343",
+       "published": "2026-11-20T01:59:24Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hill",
+       "title": "DOJ looks to dismiss Alaska Senate lawsuit",
+       "url": "https://thehill.com/regulation/court-battles/6232324-doj-seeks-alaska-senate-lawsuit-dismissal/",
+       "published": "2026-11-20T03:25:33Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Times",
+       "title": "Justice Department Gives Up on Alaska Senate Lawsuit",
+       "url": "https://www.nytimes.com/2026/11/19/us/politics/justice-department-gives-up-on-alaska-senate-lawsuit.html",
+       "published": "2026-11-20T03:47:05Z",
+       "official": false
+      },
+      {
+       "outlet": "Washington Examiner",
+       "title": "DOJ drops lawsuit challenging certification of Alaska Senate race after Peltola wins",
+       "url": "https://www.washingtonexaminer.com/news/justice/4809655/doj-drops-lawsuit-alaska-senate-race-certification/",
+       "published": "2026-11-20T03:58:35Z",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "DOJ dropping Alaska midterms Senate certification lawsuit, saying case is 'moot'",
+       "url": "https://abcnews.com/Politics/doj-dropping-alaska-midterms-senate-certification-lawsuit-case/story?id=138307517",
+       "published": "2026-11-20T10:31:20Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "b9d8a01e05f2",
+     "title": "Myanmar Rejects International Court of Justice Rohingya Genocide Ruling",
+     "summary": "Myanmar government officials dismissed the recent ICJ genocide ruling as unfair, while Rohingya refugees in Bangladesh welcomed the verdict and expressed a desire to return home.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-20T10:44:59Z",
+     "outlet_count": 13,
+     "sources": [
+      {
+       "outlet": "New York Times",
+       "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
+       "url": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html",
+       "published": "2026-11-20T01:37:20Z",
+       "official": false
+      },
+      {
+       "outlet": "DutchNews.nl (Netherlands)",
+       "title": "UN court in The Hague rules Myanmar committed genocide",
+       "url": "https://www.dutchnews.nl/2026/11/un-court-in-the-hague-finds-myanmar-guilty-of-genocide/",
+       "published": "2026-11-19T12:15:19Z",
+       "official": false
+      },
+      {
+       "outlet": "NPR News",
+       "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+       "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+       "published": "2026-11-19T12:29:41Z",
+       "official": false
+      },
+      {
+       "outlet": "Helsinki Times (Finland)",
+       "title": "UN court delivers historic ruling on Myanmar's genocide against Rohingya",
+       "url": "https://www.helsinkitimes.com/world-int/29511-un-court-delivers-historic-ruling-on-myanmar-s-genocide-against-rohingya.html",
+       "published": "2026-11-19T14:24:35Z",
+       "official": false
+      },
+      {
+       "outlet": "Common Dreams",
+       "title": "World Court Finds Myanmar Responsible for Rohingya Genocide",
+       "url": "https://www.commondreams.org/newswire/world-court-finds-myanmar-responsible-for-rohingya-genocide",
+       "published": "2026-11-19T15:14:15Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Historic UN ruling that Myanmar committed genocide against Rohingya is rare victory for survivors",
+         "url": "https://www.commondreams.org/newswire/historic-un-ruling-that-myanmar-committed-genocide-against-rohingya-is-rare-victory-for-survivors",
+         "published": "2026-11-19T15:13:03Z"
+        }
+       ]
+      },
+      {
+       "outlet": "CBC News",
+       "title": "Myanmar committed genocide against Rohingya ethnic minority, International Court of Justice rules",
+       "url": "https://www.cbc.ca/news/world/hague-icj-court-myanmar-rohingya-ruling-9.7427764?cmp=rss",
+       "published": "2026-11-19T16:22:16Z",
+       "official": false
+      },
+      {
+       "outlet": "Zeteo",
+       "title": "The Genocide Ruling Against Myanmar Is a Remarkable Moment for the Rohingya – and Global Justice",
+       "url": "https://zeteo.com/p/the-genocide-ruling-against-myanmar",
+       "published": "2026-11-19T19:47:38Z",
+       "official": false
+      },
+      {
+       "outlet": "The Christian Science Monitor",
+       "title": "Step toward accountability: Top UN court finds Myanmar guilty of Rohingya genocide",
+       "url": "https://www.csmonitor.com/World/Asia-South-Central/2026/1119/rohingya-myanmar-genocide-ruling-un-court?icid=rss",
+       "published": "2026-11-19T22:35:14Z",
+       "official": false
+      },
+      {
+       "outlet": "PBS NewsHour",
+       "title": "International Court of Justice finds Myanmar guilty of genocide against Rohingya",
+       "url": "https://www.pbs.org/newshour/show/international-court-of-justice-finds-myanmar-guilty-of-genocide-against-rohingya",
+       "published": "2026-11-19T23:35:01Z",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "ICJ ruling on Myanmar hailed as 'milestone' for Rohingya",
+       "url": "https://www.rte.ie/news/ireland/2026/1120/1599963-ireland-myanmar-rohingya/",
+       "published": "2026-11-20T08:23:46Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
+       "url": "https://www.thehindu.com/news/international/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar/article71723495.ece",
+       "published": "2026-11-20T09:47:20Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Myanmar calls ICJ ruling on genocide 'unfair'",
+         "url": "https://www.thehindu.com/news/international/myanmar-calls-icj-ruling-on-genocide-unfair/article71723709.ece",
+         "published": "2026-11-20T09:21:15Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Time",
+       "title": "What Comes Next After Historic Myanmar Genocide Ruling",
+       "url": "https://time.com/article/2026/11/20/rohingya-genocide-icj-history-myanmar-israel/",
+       "published": "2026-11-20T10:30:00Z",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Myanmar rejects ICJ ruling on Rohingya genocide",
+       "url": "https://orf.at/stories/3448766/",
+       "published": "2026-11-20T10:44:59Z",
+       "translated_from": "de",
+       "original_title": "Myanmar weist IGH-Urteil zu Völkermord an Rohingya zurück",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9afb26f1f5e3",
+     "title": "Meghan Markle's Father Ruled Competent to Stand Trial on Child Sex Abuse Charges",
+     "summary": "A U.S. psychiatric assessment has determined that Thomas Markle is mentally competent to face trial on federal charges involving child sexual abuse material.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-20T07:45:36Z",
+     "outlet_count": 7,
+     "sources": [
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Thomas Markle ruled fit for child sex abuse images trial",
+       "url": "https://www.rte.ie/news/us/2026/1120/1599953-thomas-markle/",
+       "published": "2026-11-20T07:45:36Z",
+       "official": false
+      },
+      {
+       "outlet": "Sky News",
+       "title": "Thomas Markle fit to stand trial over child abuse images, US court rules",
+       "url": "https://news.sky.com/story/thomas-markle-fit-to-stand-trial-over-child-abuse-images-us-court-rules-13614172",
+       "published": "2026-11-19T21:39:00Z",
+       "official": false
+      },
+      {
+       "outlet": "CBC News",
+       "title": "Judge declares Meghan Markle's father fit to face charges related to child sexual abuse images",
+       "url": "https://www.cbc.ca/news/world/thomas-markle-meghan-fit-stand-trial-9.7428903?cmp=rss",
+       "published": "2026-11-19T22:20:43Z",
+       "official": false
+      },
+      {
+       "outlet": "HuffPost",
+       "title": "Thomas Markle Competent To Face Child Sex Abuse Images Case, Expert Says",
+       "url": "https://www.huffpost.com/entry/thomas-markle-fit-to-stand-trial-in-child-abuse-images-case_n_6aff7d50e4b0976dc4a27dcb",
+       "published": "2026-11-19T22:54:07Z",
+       "official": false
+      },
+      {
+       "outlet": "Courthouse News Service",
+       "title": "Meghan Markle’s dad deemed competent in child abuse materials case",
+       "url": "https://www.courthousenews.com/meghan-markles-dad-deemed-competent-in-child-abuse-materials-case/",
+       "published": "2026-11-20T00:58:27Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Accused child sex predator Thomas Markle ruled competent to face trial",
+       "url": "https://www.channelnewsasia.com/world/accused-child-sex-predator-thomas-markle-competent-trial-6567646",
+       "published": "2026-11-20T04:07:26Z",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Meghan Markle’s father ruled mentally fit to stand trial on child sexual abuse material charges",
+       "url": "https://cphpost.dk/2026-11-20/global/meghan-markles-father-ruled-mentally-fit-to-stand-trial-on-child-sexual-abuse-material-charges/",
+       "published": "2026-11-20T05:34:03Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "dee9c62e275d",
+     "title": "UN Climate Summit Enters Final Phase with Fossil Fuel Phaseout Undecided",
+     "summary": "Negotiators at the COP31 climate summit remain deeply divided in the final hours, with draft declarations omitting explicit language regarding the phaseout of fossil fuels.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-20T09:52:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "UN climate talks enter crunch time with no deal in sight",
+       "url": "https://www.thejournal.ie/cop31-climate-talks-antalya-7232074-Nov2026/",
+       "published": "2026-11-20T07:15:51Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "UN climate talks enter crunch time with no deal in sight",
+       "url": "https://www.channelnewsasia.com/sustainability/cop31-climate-talks-no-deal-fossil-fuels-6568286",
+       "published": "2026-11-20T04:37:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "COP31: UN Climate summit enters final phase with no deal in sight",
+       "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-20T09:52:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a732f068d22a",
+     "title": "Russia Pushes Back Against U.S. Proposals for NATO-Style Ukraine Guarantees",
+     "summary": "Russian diplomatic officials publicly rejected American concepts centered on providing NATO-style security guarantees to Ukraine, calling the framework completely unacceptable.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-20T10:13:50Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Russia opposes NATO-style security guarantees for Ukraine",
+       "url": "https://orf.at/stories/3448761/",
+       "published": "2026-11-20T10:13:50Z",
+       "translated_from": "de",
+       "original_title": "Russland gegen Sicherheitsgarantien nach NATO-Art für Ukraine",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Russia pushes back against US idea of NATO-style security guarantees for Ukraine",
+       "url": "https://www.straitstimes.com/world/europe/russia-pushes-back-against-us-idea-of-nato-style-security-guarantees-for-ukraine",
+       "published": "2026-11-20T08:35:24Z",
+       "official": false
+      },
+      {
+       "outlet": "Ukrainska Pravda (Ukraine)",
+       "title": "Russia calls US ideas for NATO-style security guarantees for Ukraine \"unacceptable\"",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063771/",
+       "published": "2026-11-20T09:28:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": []
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "0e1be63f3fc4",
+     "title": "South Korea Ruling Party Moves to Impeach Supreme Court Chief Justice",
+     "summary": "The ruling Democratic Party formally adopted a political plan to pursue the impeachment of Supreme Court Chief Justice Cho Hee-dae following a high-profile judicial ruling.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-20T10:57:07Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "Ruling party formally decides to seek impeachment of chief justice",
+       "url": "https://www.koreaherald.com/article/10944466",
+       "published": "2026-11-20T10:57:07Z",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "Ruling party formally decides to seek impeachment of chief justice",
+       "url": "https://en.yna.co.kr/view/AEN20261120008800315",
+       "published": "2026-11-20T10:25:01Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9623fcc0cc10",
+     "title": "South Korean President Calls for National Exam Overhaul to Stop AI Cheating",
+     "summary": "President Lee Jae Myung urged a comprehensive restructuring of state-administered examinations to combat rising risks of AI-assisted cheating.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-20T08:19:05Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Lee urges complete overhaul of state exam system to combat AI-assisted cheating",
+       "url": "https://en.yna.co.kr/view/AEN20261120005253315",
+       "published": "2026-11-20T08:19:05Z",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Lee Calls for Overhaul of National Exams to Curb AI-Powered Cheating",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205718",
+       "published": "2026-11-20T06:49:20Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0573809f3543",
+     "title": "Trump Concludes Asia Tour Without Arranging Meeting with North Korea's Leader",
+     "summary": "U.S. President Donald Trump wrapped up his regional diplomatic trip without holding a summit meeting with North Korean leader Kim Jong Un.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-20T08:50:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Why North Korea's Kim Jong Un didn't meet US President Donald Trump, despite the hype",
+       "url": "https://www.channelnewsasia.com/east-asia/north-korea-kim-jong-un-us-donald-trump-meeting-6568771",
+       "published": "2026-11-20T08:50:00Z",
+       "official": false
+      },
+      {
+       "outlet": "NK News (North Korea)",
+       "title": "Trump wraps up Asia trip without meeting North Korean leader Kim Jong Un",
+       "url": "https://www.nknews.org/2026/11/trump-wraps-up-asia-trip-without-meeting-north-korean-leader-kim-jong-un/",
+       "published": "2026-11-20T04:53:27Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "cb7c885a1ffa",
+     "title": "Apple TV Streaming Service Discounted to $6.99/Month for Black Friday",
+     "summary": "Retailers have launched Black Friday promotions slashing the monthly price of the ad-free Apple TV streaming service in half.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-19T23:30:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Black Friday Deal: Apple TV Streaming Service for $6.99/Month",
+       "url": "https://www.macrumors.com/2026/11/19/apple-tv-black-friday-streaming-deal/",
+       "published": "2026-11-19T23:12:05Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple TV is now $6.99/month (50% off) for Black Friday, details here",
+       "url": "https://9to5mac.com/2026/11/19/apple-tv-launches-50-off-black-friday-deal-6-99-month-for-6-months/",
+       "published": "2026-11-19T21:55:07Z",
+       "official": false
+      },
+      {
+       "outlet": "IGN",
+       "title": "The Apple TV Black Friday Deal Gets You 6 Months of Ad-free Streaming for Half the Price",
+       "url": "https://www.ign.com/articles/apple-tv-black-friday-streaming-deal-2026",
+       "published": "2026-11-19T23:30:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "9a261af2e325",
+     "title": "Apple Unveils Black Friday Event Discounts Across Mac, iPad, and iPhone",
+     "summary": "Apple announced its annual four-day shopping event spanning late November, offering promotional gift cards and price cuts across hardware categories.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-19T17:11:26Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "Apple Announces 2026 Black Friday Event, Here's What You Can Get",
+       "url": "https://www.macrumors.com/2026/11/19/apple-announces-2026-black-friday-event/",
+       "published": "2026-11-19T17:11:26Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple announces Black Friday deals on iPhone, iPad, Mac, and more",
+       "url": "https://9to5mac.com/2026/11/19/apple-announces-black-friday-deals-on-iphone-ipad-mac-and-more/",
+       "published": "2026-11-19T12:05:37Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "90649bae637f",
+     "title": "Amazon Discounts M6 MacBook Pros by Up to $250 for Black Friday",
+     "summary": "Early Black Friday promotions have brought the first direct price cuts on Apple's newest M6 MacBook Pro and PROLED XDR display configurations.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-19T22:45:00Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "MacBook Pro Black Friday Deals Are Here: Get Up to $250 Off M6 and PROLED XDR",
+       "url": "https://www.macrumors.com/2026/11/19/macbook-pro-black-friday-deals-3/",
+       "published": "2026-11-19T22:45:00Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Deals – Black Friday Week now live: MacBook Neo, M6 Pro $150 off, PROLED XDR, Beats 360 $100 off, more",
+       "url": "https://9to5mac.com/2026/11/19/black-friday-week-deals-macbook-neo-m6-pro-proled/",
+       "published": "2026-11-19T18:42:08Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Best Apple Black Friday deals now live: AirPods, MacBook Neo, Series 12, M6 MacBook Pro, much more",
+         "url": "https://9to5mac.com/2026/11/19/best-apple-black-friday-deals-now-live/",
+         "published": "2026-11-19T16:04:36Z"
+        },
+        {
+         "title": "MacBook Pro PROLED, MacBook Neo, more: The best Amazon Black Friday deals on Macs",
+         "url": "https://9to5mac.com/2026/11/19/macbook-pro-proled-macbook-neo-more-the-best-amazon-black-friday-deals-on-macs/",
+         "published": "2026-11-19T13:56:07Z"
+        }
+       ]
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "B&H's $1,799 M6 MacBook Pro deal beats Amazon for Black Friday",
+       "url": "https://appleinsider.com/articles/26/11/19/bhs-1799-m6-macbook-pro-deal-beats-amazon-for-black-friday?utm_source=rss",
+       "published": "2026-11-19T21:44:03Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Apple's new M6, PROLED MacBook Pros are already up to $250 off for Black Friday",
+         "url": "https://appleinsider.com/articles/26/11/19/apples-newest-macbook-pros-are-already-up-to-250-off-for-black-friday?utm_source=rss",
+         "published": "2026-11-19T19:24:24Z"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "baa754261624",
+     "title": "NVIDIA Cuts GeForce NOW Cloud Gaming Six-Month Subscriptions by 30 Percent",
+     "summary": "NVIDIA kicked off its seasonal sales event by offering a 30 percent discount on the initial six-month term for Performance and Ultimate cloud gaming tiers.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-19T14:00:12Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NVIDIA Blog",
+       "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+       "published": "2026-11-19T14:00:12Z",
+       "official": true
+      }
+     ]
+    },
+    {
+     "id": "91dac7d0bb96",
+     "title": "Sonos Launches Black Friday Sale with Up to 30 Percent Off Speakers",
+     "summary": "Sonos has initiated its holiday discount period, lowering prices on premium home speakers and soundbars by up to 30 percent through November 30.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-19T18:33:08Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Verge",
+       "title": "Sonos is taking up to 30 percent off speakers and soundbars right now",
+       "url": "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale",
+       "published": "2026-11-19T18:33:08Z",
+       "official": false
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "Sonos Black Friday Sale Takes Up to 25% Off Speakers, Soundbars, and More",
+       "url": "https://www.macrumors.com/2026/11/19/sonos-black-friday-sale-3/",
+       "published": "2026-11-19T17:04:40Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1a58d7bc52d0",
+     "title": "Xbox Black Friday Sale Goes Live with Over 2,000 Digital Games Discounted",
+     "summary": "Microsoft's massive digital storefront sale is officially underway, featuring price reductions on more than two thousand Xbox console games.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-20T10:45:46Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Steam News",
+       "title": "The best Black Friday deals for gamers already live this weekend: tracking top PS5, Switch 2, Xbox, and PC discounts",
+       "url": "https://store.steampowered.com/news/group/38509069/view/668382571964400343",
+       "published": "2026-11-20T10:45:46Z",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Deals: Xbox Black Friday Sale 2026 Now Live, 2,000+ Games Discounted",
+       "url": "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted",
+       "published": "2026-11-19T20:25:00Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T11:00:50Z",
+ "timezone": "America/New_York",
+ "window_hours": 26,
+ "mode": "ai",
+ "model": "gemini-3.5-flash-lite",
+ "stats": {
+  "items": 1297,
+  "clusters": 1097,
+  "feeds_ok": 174,
+  "feeds_failed": 2
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "san",
+   "title": "Straight Arrow News",
+   "status": "error",
+   "detail": "ValueError: not a feed: the site answered with a web page (often a bot check)"
+  },
+  {
+   "key": "bellingcat",
+   "title": "Bellingcat",
+   "status": "stale",
+   "detail": "no new items since 2026-11-05"
+  },
+  {
+   "key": "koreatimes",
+   "title": "The Korea Times",
+   "status": "error",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.koreatimes.co.kr/www/rss/nation.xml"
+  }
+ ]
+}
