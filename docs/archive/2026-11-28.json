@@ -1,0 +1,2088 @@
+{
+ "version": 1,
+ "headline": "OpenAI escalates its legal battle against Apple, Team Cherry surprises with a free Silksong expansion, and U.S. export controls face scrutiny over Nvidia chips in China.",
+ "top": [
+  {
+   "id": "46e5b47e1895",
+   "title": "OpenAI Countersues Apple Over AI Hardware and Trade Secrets",
+   "summary": "OpenAI has filed a countersuit against Apple, alleging the company misappropriated trade secrets regarding unreleased AI devices and pressured supply chain partners to avoid collaborating with OpenAI.",
+   "importance": 5,
+   "label": "REPORTED",
+   "category": "AI",
+   "published": "2026-11-28T10:58:43Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "AppleInsider",
+     "title": "OpenAI counter-sues Apple over trade secret theft",
+     "url": "https://appleinsider.com/articles/26/11/27/openai-counter-sues-apple-over-trade-secret-theft?utm_source=rss",
+     "published": "2026-11-28T00:11:45Z",
+     "official": false
+    },
+    {
+     "outlet": "9to5Mac",
+     "title": "OpenAI countersues Apple, alleging trade secret theft and supplier threats; Apple responds",
+     "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+     "published": "2026-11-27T18:42:21Z",
+     "official": false
+    },
+    {
+     "outlet": "Financial Times via Techmeme",
+     "title": "OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and \"coercing and threatening\" suppliers that work with both",
+     "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4",
+     "published": "2026-11-27T18:57:47Z",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+     "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+     "published": "2026-11-27T19:38:37Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "OpenAI countersues Apple and accuses it of stealing trade secrets",
+     "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+     "published": "2026-11-27T19:44:38Z",
+     "official": false
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "OpenAI says Apple pressured suppliers to shun its devices",
+     "url": "https://www.japantimes.co.jp/business/2026/11/28/tech/openai-apple-pressured-suppliers/",
+     "published": "2026-11-28T01:09:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "OpenAI and Apple accuse each other of stealing secrets",
+     "url": "https://cphpost.dk/2026-11-28/global/openai-and-apple-accuse-each-other-of-stealing-secrets/",
+     "published": "2026-11-28T04:58:38Z",
+     "official": false
+    },
+    {
+     "outlet": "Helsinki Times (Finland)",
+     "title": "OpenAI countersues Apple over trade secrets and AI hardware competition",
+     "url": "https://www.helsinkitimes.com/business/29545-openai-countersues-apple-over-trade-secrets-and-ai-hardware-competition.html",
+     "published": "2026-11-28T10:58:43Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "10f199200156",
+   "title": "Hollow Knight: Silksong's First DLC 'Sea of Sorrow' Announced for Next Month",
+   "summary": "Team Cherry revealed that Silksong will receive its first major content expansion, Sea of Sorrow, in mid-December as a free update across platforms.",
+   "importance": 5,
+   "label": "CONFIRMED",
+   "category": "Gaming",
+   "published": "2026-11-27T19:00:00Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "Gematsu",
+     "title": "Hollow Knight: Silksong free expansion ‘Sea of Sorrow’ launches December 11",
+     "url": "https://www.gematsu.com/2026/11/hollow-knight-silksong-free-expansion-sea-of-sorrow-launches-december-11",
+     "published": "2026-11-27T15:11:41Z",
+     "official": false
+    },
+    {
+     "outlet": "Nintendo Life",
+     "title": "Hollow Knight: Silksong - Sea Of Sorrow DLC Finally Has A Release Date",
+     "url": "https://www.nintendolife.com/news/2026/11/hollow-knight-silksong-sea-of-sorrow-dlc-finally-has-a-release-date",
+     "published": "2026-11-27T15:13:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Eurogamer",
+     "title": "Hollow Knight: Silksong's first big expansion, Sea of Sorrow, comes out in two weeks - and seems to include a fishing minigame",
+     "url": "https://www.eurogamer.net/hollow-knight-silksongs-first-big-expansion-sea-of-sorrows-comes-out-in-two-weeks-and-seems-to-include-a-fishing-minigame",
+     "published": "2026-11-27T15:16:10Z",
+     "official": false
+    },
+    {
+     "outlet": "Kotaku",
+     "title": "Hollow Knight: Silksong DLC Sea Of Sorrow Releases Free For All Players And Adds Fishing",
+     "url": "https://kotaku.com/hollow-knight-silksong-dlc-sea-of-sorrow-releases-free-for-all-players-and-adds-fishing-2001001319",
+     "published": "2026-11-27T15:25:27Z",
+     "official": false
+    },
+    {
+     "outlet": "VGC",
+     "title": "Hollow Knight: Silksong’s first expansion, Sea of Sorrow, is officially out next month",
+     "url": "https://www.videogameschronicle.com/news/hollow-knight-silksongs-first-expansion-sea-of-sorrow-is-officially-out-next-month/",
+     "published": "2026-11-27T16:07:26Z",
+     "official": false
+    },
+    {
+     "outlet": "Push Square",
+     "title": "Hollow Knight: Silksong's Sea of Sorrow DLC Launches Next Month, and It's Free",
+     "url": "https://www.pushsquare.com/news/2026/11/hollow-knight-silksongs-sea-of-sorrow-dlc-launches-next-month-and-its-free",
+     "published": "2026-11-27T16:30:00Z",
+     "official": false
+    },
+    {
+     "outlet": "PC Gamer",
+     "title": "Silksong is getting a free expansion in 2 weeks",
+     "url": "https://www.pcgamer.com/games/action/silksong-is-getting-a-free-expansion-its-first-content-update-since-launch-in-2-weeks/",
+     "published": "2026-11-27T16:31:53Z",
+     "official": false
+    },
+    {
+     "outlet": "Pure Xbox",
+     "title": "Hollow Knight: Silksong's Sea of Sorrow DLC Is Coming To Xbox Next Month, And It's Free",
+     "url": "https://www.purexbox.com/news/2026/11/hollow-knight-silksongs-sea-of-sorrow-dlc-is-coming-to-xbox-next-month-and-its-free",
+     "published": "2026-11-27T19:00:00Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "367b49a47452",
+   "title": "Hackers Breach U.S. Air Force Flagship Cloud Platform",
+   "summary": "Intruders compromised the Air Force's Cloud One computing environment, prompting military officials to review network integrity without outright denying the breach.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "US",
+   "published": "2026-11-28T06:48:50Z",
+   "outlet_count": 8,
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "U.S. Air Force cloud platform breached by hackers, report says",
+     "url": "https://www.cbsnews.com/news/u-s-air-force-cloud-platform-breached-by-hackers/",
+     "published": "2026-11-28T02:44:55Z",
+     "official": false,
+     "also": [
+      {
+       "title": "U.S. Air Force cloud platform breached by hackers, report says",
+       "url": "https://www.cbsnews.com/video/us-air-force-cloud-platform-breached-by-hackers-report-says/",
+       "published": "2026-11-28T01:01:14Z"
+      }
+     ]
+    },
+    {
+     "outlet": "The Copenhagen Post (Denmark)",
+     "title": "Hackers breach US Air Force cloud platform",
+     "url": "https://cphpost.dk/2026-11-27/global/hackers-breach-us-air-force-cloud-platform/",
+     "published": "2026-11-27T15:00:48Z",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Hackers breached the US Air Force's flagship Cloud One platform, report says",
+     "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+     "published": "2026-11-27T16:06:43Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Hackers reportedly infiltrated the Air Force's cloud systems",
+     "url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
+     "published": "2026-11-27T16:55:43Z",
+     "official": false
+    },
+    {
+     "outlet": "MercoPress (South Atlantic)",
+     "title": "US Air Force cloud platform hacked, Reuters reports",
+     "url": "https://en.mercopress.com/2026/11/27/us-air-force-cloud-platform-hacked-reuters-reports?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "published": "2026-11-27T17:06:00Z",
+     "official": false
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Cyber attack on U.S. Air Force cloud-based platform",
+     "url": "https://www.nbcnews.com/nightly-news/video/cyber-attack-on-u-s-air-force-cloud-based-platform-274285637711",
+     "published": "2026-11-27T23:39:55Z",
+     "official": false
+    },
+    {
+     "outlet": "The Japan Times",
+     "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
+     "url": "https://www.japantimes.co.jp/news/2026/11/28/world/hackers-us-air-force-computing-platform/",
+     "published": "2026-11-28T01:11:00Z",
+     "official": false
+    },
+    {
+     "outlet": "The Straits Times",
+     "title": "US military says cyber systems secure after reports of Air Force hack",
+     "url": "https://www.straitstimes.com/world/united-states/us-military-says-cyber-systems-secure-after-reports-of-air-force-hack",
+     "published": "2026-11-28T06:48:50Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "33fce2e25d8f",
+   "title": "Sanctioned Nvidia Blackwell Chips Discovered in Shanghai Data Center",
+   "summary": "Banned high-performance Nvidia accelerators were found installed at a Chinese computing facility, raising fresh concerns regarding the enforcement of U.S. semiconductor export restrictions.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "Japan",
+   "published": "2026-11-28T10:15:43Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "NHK News (Japanese)",
+     "title": "\"Nvidia semiconductors found in sanctioned China\"",
+     "url": "https://news.web.nhk/newsweb/na/nd-20261128de82966",
+     "published": "2026-11-28T10:15:43Z",
+     "translated_from": "ja",
+     "original_title": "“エヌビディア半導体 輸出規制先の中国で確認”米メディア",
+     "official": false
+    },
+    {
+     "outlet": "The Daily Caller",
+     "title": "REPORT: Nvidia Chips Under US Export Controls Turn Up At Shanghai Data Center",
+     "url": "https://dailycaller.com/2026/11/27/nvidia-chips-us-exports-megaspeed-alice-huang-shanghai-data-center",
+     "published": "2026-11-27T18:05:40Z",
+     "official": false
+    },
+    {
+     "outlet": "The Decoder",
+     "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+     "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+     "published": "2026-11-27T18:27:02Z",
+     "official": false
+    },
+    {
+     "outlet": "Engadget",
+     "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
+     "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+     "published": "2026-11-27T19:45:23Z",
+     "official": false
+    },
+    {
+     "outlet": "The Wall Street Journal",
+     "title": "Nvidia and Failing U.S. Export Controls",
+     "url": "https://www.wsj.com/opinion/nvidia-chips-u-s-export-controls-china-jensen-huang-c457c915?mod=rss_usnews",
+     "published": "2026-11-27T21:52:00Z",
+     "official": false
+    }
+   ]
+  },
+  {
+   "id": "389b1df62202",
+   "title": "U.S. Military Disables Commercial Vessel Attempting to Breach Iran Blockade",
+   "summary": "U.S. Central Command confirmed an aircraft struck and disabled a Palau-flagged ship in the Gulf of Oman with precision munitions following multiple ignored warnings.",
+   "importance": 4,
+   "label": "REPORTED",
+   "category": "World",
+   "published": "2026-11-28T10:26:51Z",
+   "outlet_count": 5,
+   "sources": [
+    {
+     "outlet": "The Japan Times",
+     "title": "U.S. military fires on ship violating Iran blockade",
+     "url": "https://www.japantimes.co.jp/news/2026/11/28/world/us-military-fires-ship-iran-blockade/",
+     "published": "2026-11-28T01:09:00Z",
+     "official": false
+    },
+    {
+     "outlet": "CNA (Singapore)",
+     "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+     "url": "https://www.channelnewsasia.com/world/us-disable-ship-iran-blockade-hormuz-6588546",
+     "published": "2026-11-27T20:55:17Z",
+     "official": false
+    },
+    {
+     "outlet": "Deutsche Welle (Germany)",
+     "title": "US disables ship in Gulf of Oman under Iran blockade",
+     "url": "https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950?maca=en-rss-en-all-1573-rdf",
+     "published": "2026-11-27T23:17:00Z",
+     "official": false
+    },
+    {
+     "outlet": "Euronews",
+     "title": "US military fires at a ship that violated blockade of Iranian ports",
+     "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
+     "published": "2026-11-28T06:55:55Z",
+     "official": false
+    },
+    {
+     "outlet": "CBS News",
+     "title": "U.S. forces disable commercial ship that allegedly tried to breach Iran blockade",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/",
+     "published": "2026-11-28T10:26:51Z",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI",
+   "stories": [
+    {
+     "id": "48e0d652ecbd",
+     "title": "Anthropic Rebuffs Allegations That Claude Intentionally Sabotages Projects",
+     "summary": "Anthropic stated Claude is not designed to undermine user tasks, explaining that unexpected behaviors stem from excessive caution and adherence to self-imposed boundaries during long sessions.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-28T03:35:05Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "@edwinarbus via Techmeme",
+       "title": "Anthropic says Claude doesn't silently sabotage work and that some user reports reflect \"overcaution\", where Claude clings to self-imposed rules on long tasks",
+       "url": "https://x.com/edwinarbus/status/2126507795642187855",
+       "published": "2026-11-28T03:35:05Z",
+       "official": false
+      },
+      {
+       "outlet": "Drew Breunig via Techmeme",
+       "title": "Some users claim Claude is silently sabotaging projects, especially those involving ML work, but it's hard to prove because models are built to be proactive",
+       "url": "https://www.dbreunig.com/2026/11/27/proactivity-can-read-as-sabotage.html",
+       "published": "2026-11-27T21:35:01Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8caae074fb5b",
+     "title": "Meta Revises UK Terms for Muse AI Under Regulatory Scrutiny",
+     "summary": "Following intervention from the Competition and Markets Authority, Meta altered its terms of service for the Muse AI agent in the UK, exposing the platform to greater legal liability than in the U.S.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-27T15:25:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Politico Europe",
+       "title": "Meta’s UK rollout for Muse AI agent exposes it to more liability",
+       "url": "https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+       "published": "2026-11-27T11:25:07Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "aa5274859672",
+     "title": "Multiple U.S. States Sue SpaceX Over Grok AI Generations",
+     "summary": "State attorneys general have initiated legal action to stop xAI's Grok model from producing non-consensual explicit imagery and child sexual abuse material.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-27T19:42:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+       "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+       "published": "2026-11-27T19:42:25Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d3bad68b0e5d",
+     "title": "Robotics World-Model Startup Embo Launches with $110 Million Seed",
+     "summary": "Embo emerged from stealth backed by Andreessen Horowitz to develop universal robot foundational models trained on internet video and simulated physics.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "AI",
+     "published": "2026-11-28T10:48:18Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Embo via Techmeme",
+       "title": "Embo, which is developing world models for robotics trained on massive amounts of internet video, emerges from stealth with a $110M seed led by a16z",
+       "url": "https://embo.com/introducing-embo",
+       "published": "2026-11-28T05:50:02Z",
+       "official": false
+      },
+      {
+       "outlet": "The Decoder",
+       "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+       "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+       "published": "2026-11-28T10:48:18Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1cbafb2225ea",
+     "title": "OpenAI Developing 'Athena' Semantic Layer to Improve Agent Accuracy",
+     "summary": "OpenAI is internally working on a platform codenamed Athena to define uniform business metrics and minimize hallucinated calculations by enterprise agents.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-27T16:05:23Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+       "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+       "published": "2026-11-27T16:05:23Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "77ab3d65a278",
+     "title": "Google Unveils DeepCrossAttention for Faster Model Inference",
+     "summary": "Google researchers published DeepCrossAttention, an architectural advancement that matches full-model performance while accelerating processing speeds up to threefold.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "AI",
+     "published": "2026-11-27T23:06:29Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+       "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+       "published": "2026-11-27T23:06:29Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tech",
+   "stories": [
+    {
+     "id": "0ded28682e3d",
+     "title": "Product(RED) HomePod Mini 2 Sighted Ahead of Expected Launch",
+     "summary": "Retail displays featuring an unreleased Product(RED) version of the second-generation HomePod mini have appeared in stores ahead of World AIDS Day.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Tech",
+     "published": "2026-11-28T03:50:47Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "MacRumors",
+       "title": "HomePod Mini 2 in (RED) Seemingly Spotted Ahead of Announcement",
+       "url": "https://www.macrumors.com/2026/11/27/red-homepod-mini-2-seemingly-spotted/",
+       "published": "2026-11-28T03:50:47Z",
+       "official": false
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Product(RED) HomePod mini 2 seemingly surfaces ahead of rumored announcement [U]",
+       "url": "https://9to5mac.com/2026/11/27/productred-homepod-mini-2-seemingly-surfaces-ahead-of-rumored-announcement/",
+       "published": "2026-11-28T03:07:04Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0436a97e6620",
+     "title": "Chile Antitrust Regulator Files Lawsuit Targeting Apple App Store",
+     "summary": "Chile's FNE has sued Apple over alleged monopolistic conduct in iOS distribution and in-app purchase systems, seeking up to $80 million in fines.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-27T20:31:12Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "Apple faces potential $80 million fine and App Store overhaul in Chile [U: Apple responds]",
+       "url": "https://9to5mac.com/2026/11/27/apple-faces-potential-80-million-fine-and-app-store-overhaul-in-chile/",
+       "published": "2026-11-27T20:31:12Z",
+       "official": false
+      },
+      {
+       "outlet": "AppleInsider",
+       "title": "Apple faces another App Store antitrust fight, this time in Chile",
+       "url": "https://appleinsider.com/articles/26/11/27/apple-faces-another-app-store-antitrust-fight-this-time-in-chile?utm_source=rss",
+       "published": "2026-11-27T15:30:18Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1d775cc52b43",
+     "title": "SAP Discloses Security Incident Involving Stolen GitHub Tokens",
+     "summary": "Attackers obtained employee authentication tokens and accessed SAP source repositories on GitHub, modifying and exfiltrating code before access was revoked.",
+     "importance": 4,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-11-27T16:35:08Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "SecurityWeek via Techmeme",
+       "title": "SAP confirms a cybersecurity incident; report: hackers obtained its staffers' authentication tokens, letting them copy and alter source code stored on GitHub",
+       "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+       "published": "2026-11-27T16:35:08Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "01ad6aa5eb7f",
+     "title": "Upcoming iOS 27.3 Reportedly Introduces Daily Quotas on Advanced AI Tools",
+     "summary": "Code and leaks point to new system-level rate limits on resource-heavy AI functionalities in Apple's upcoming iOS update.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Tech",
+     "published": "2026-11-27T14:50:41Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "iOS 27.3 adds limits for these advanced features, details here",
+       "url": "https://9to5mac.com/2026/11/27/ios-27-3-adds-limits-for-these-advanced-features-details-here/",
+       "published": "2026-11-27T14:50:41Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "baceb0147afe",
+     "title": "Allstate Hit by Multi-Day Infrastructure Outage During Holiday Travel",
+     "summary": "A major disruption beginning November 23 knocked out Allstate's customer portal and mobile application, leaving policyholders unable to file claims.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-27T23:30:02Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wall Street Journal via Techmeme",
+       "title": "US insurance giant Allstate has been suffering an outage since November 23, affecting its website and app; the company hasn't said what is causing the outage",
+       "url": "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488?st=h32XJK&reflink=desktopwebshare_permalink",
+       "published": "2026-11-27T23:30:02Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "83d36d1b0f86",
+     "title": "WhatsApp Introduces In-App Travel eSIM Purchases",
+     "summary": "Meta's messaging app has rolled out direct international travel eSIM ordering alongside experimental privacy updates for iOS users.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Tech",
+     "published": "2026-11-27T22:30:06Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "9to5Mac",
+       "title": "WhatsApp announces travel eSIMs, tests view-once texts and a cleaner interface",
+       "url": "https://9to5mac.com/2026/11/27/whatsapp-announces-travel-esims-tests-view-once-texts-and-a-cleaner-interface/",
+       "published": "2026-11-27T22:30:06Z",
+       "official": false
+      },
+      {
+       "outlet": "Engadget",
+       "title": "WhatsApp adds support for travel eSIMs",
+       "url": "https://www.engadget.com/2329553/whatsapp-adds-support-for-travel-esims/",
+       "published": "2026-11-27T16:24:07Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "19cdc68774c9",
+     "title": "E-Commerce Sites Infected with WebRTC-Based Credit Card Skimmers",
+     "summary": "Security researchers identified malicious payment skimmers abusing WebRTC data channels to siphon customer payment credentials covertly.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-27T15:40:31Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+       "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+       "published": "2026-11-27T15:40:31Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "7d5642ecb0f0",
+     "title": "Unkernel Compiles Native Linux Kernel to WebAssembly",
+     "summary": "A new open-source developer project demonstrates a genuine Linux kernel compiled directly to WebAssembly to run system environments within web browsers.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Tech",
+     "published": "2026-11-28T03:19:20Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Hacker News (100+ points)",
+       "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+       "url": "https://unkernel.dev",
+       "published": "2026-11-28T03:19:20Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "stories": [
+    {
+     "id": "4572a0062987",
+     "title": "Simpsons: Hit & Run Remake Reportedly Scrapped Amid Studio Layoffs",
+     "summary": "Developer social media posts suggest an unannounced project widely believed to be a remake of The Simpsons: Hit & Run was cancelled following recent staff reductions.",
+     "importance": 3,
+     "label": "RUMOR-CREDIBLE",
+     "category": "Gaming",
+     "published": "2026-11-27T18:08:20Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Push Square",
+       "title": "The Much-Rumoured Simpsons Hit & Run Remake May Have Been Cancelled",
+       "url": "https://www.pushsquare.com/news/2026/11/the-much-rumoured-simpsons-hit-and-run-remake-may-have-been-cancelled",
+       "published": "2026-11-27T17:30:00Z",
+       "official": false
+      },
+      {
+       "outlet": "VGC",
+       "title": "The Simpsons Hit & Run remake may have been cancelled as developer seemingly hints they were working on it",
+       "url": "https://www.videogameschronicle.com/news/the-simpsons-hit-run-remake-may-have-been-cancelled-as-developer-drops-hints-they-were-working-on-it/",
+       "published": "2026-11-27T12:53:49Z",
+       "official": false
+      },
+      {
+       "outlet": "Kotaku",
+       "title": "Fans Worry The Simpsons: Hit & Run Remake May Have Been Killed Amid Studio Layoffs",
+       "url": "https://kotaku.com/fans-worry-the-simpsons-hit-run-remake-may-have-been-killed-amid-studio-layoffs-2001001317",
+       "published": "2026-11-27T14:58:50Z",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "Rumoured Simpsons: Hit & Run remake could be dead in the water, as New Radical Games devs suggest their unannounced game's been cancelled",
+       "url": "https://www.rockpapershotgun.com/rumoured-simpsons-hit-run-remake-could-be-dead-in-the-water-as-new-radical-games-devs-suggest-their-unannounced-games-been-cancelled",
+       "published": "2026-11-27T17:00:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Rumoured The Simpsons: Hit & Run remake may be in trouble after one developer says their \"mind-blowingly awesome\" project is cancelled",
+       "url": "https://www.eurogamer.net/simpsons-hit-and-run-remake-rumored-cancelled",
+       "published": "2026-11-27T18:08:20Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "285cc8e2e50a",
+     "title": "Yooka-Laylee Definitive Edition Upgrade Will Skip Xbox Consoles",
+     "summary": "Playtonic Games confirmed that the enhanced edition of Yooka-Laylee and the Impossible Lair will launch on PS5, PC, and Switch 2, but will bypass Xbox.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-27T23:30:32Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "Insider Gaming",
+       "title": "Yooka-Laylee Team Skips Xbox for Definitive Edition",
+       "url": "https://insider-gaming.com/yooka-laylee-team-skips-xbox/",
+       "published": "2026-11-27T20:32:55Z",
+       "official": false
+      },
+      {
+       "outlet": "Pure Xbox",
+       "title": "Yooka-Laylee Developer Issues Statement On Why Definitive Edition Is Skipping Xbox",
+       "url": "https://www.purexbox.com/news/2026/11/yooka-laylee-developer-issues-statement-on-why-definitive-edition-is-skipping-xbox",
+       "published": "2026-11-27T15:38:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Eurogamer",
+       "title": "Yooka-Laylee studio explains upcoming Definitive Edition's absence on Xbox to 'frustrated' fans",
+       "url": "https://www.eurogamer.net/yooka-laylee-skipping-xbox-costs",
+       "published": "2026-11-27T19:08:10Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+       "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+       "published": "2026-11-27T23:30:32Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "df6b29fb56b7",
+     "title": "AI Coding Agents Accelerate Community Efforts to Port GTA 6 to PC",
+     "summary": "Dozens of unauthorized community projects are leveraging tools like Claude Code to reverse-engineer console builds and emulator compatibility following GTA 6's release.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-27T15:37:47Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "The Decoder",
+       "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+       "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+       "published": "2026-11-27T15:37:47Z",
+       "official": false
+      },
+      {
+       "outlet": "Rock Paper Shotgun",
+       "title": "\"Does changing where games run cross a legal line?\" Microsoft-owned Github ask in now-deleted post celebrating GTA 6's effect on PC port-focused PS5 emulator",
+       "url": "https://www.rockpapershotgun.com/does-changing-where-games-run-cross-a-legal-line-microsoft-owned-github-ask-in-now-deleted-post-celebrating-gta-6s-effect-on-pc-port-focused-ps5-emulator",
+       "published": "2026-11-27T11:27:40Z",
+       "official": false
+      },
+      {
+       "outlet": "GamesIndustry.biz",
+       "title": "GTA 6's pirate PC ports: new tools, old problem",
+       "url": "https://www.gamesindustry.biz/gta-6s-pirate-pc-ports-new-tools-old-problem-opinion",
+       "published": "2026-11-27T14:43:20Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "b08c6fb7ba6d",
+     "title": "ArcheAge Chronicles Studio XL Games Faces Heavy Layoffs and Potential Shutdown",
+     "summary": "South Korean developer XL Games is initiating extensive corporate restructuring and may shutter entirely following weaker-than-anticipated sales of its flagship title.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-28T10:44:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Eurogamer",
+       "title": "ArcheAge Chronicles developer XL Games faces major layoffs and possible closure after disappointing sales",
+       "url": "https://www.eurogamer.net/archeage-chronicles-xl-games-restructuring-layoffs-closure",
+       "published": "2026-11-28T10:44:50Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "afeb6204d94b",
+     "title": "Official Plush Line Revealed for Upcoming Pokémon Winds & Waves",
+     "summary": "The Pokémon Company showcased the initial starter merchandise ahead of next month's product rollout in Japan.",
+     "importance": 2,
+     "label": "CONFIRMED",
+     "category": "Gaming",
+     "published": "2026-11-28T01:05:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Nintendo Life",
+       "title": "Pokémon Winds & Waves Starter Pokémon Plush Revealed",
+       "url": "https://www.nintendolife.com/news/2026/11/pokemon-winds-and-waves-starter-pokemon-plush-revealed",
+       "published": "2026-11-28T01:05:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Insider Gaming",
+       "title": "Official Pokémon Winds and Waves Plushies Revealed",
+       "url": "https://insider-gaming.com/pokemon-winds-and-waves-plushies/",
+       "published": "2026-11-27T21:28:52Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0639e0252f98",
+     "title": "Former id Software Developer Reflects on Cancelled Doom 4 Project",
+     "summary": "A former id Software staffer shared retrospect on the scrapped Doom 4 build, noting that while mechanically entertaining, it deviated too far from the series identity.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Gaming",
+     "published": "2026-11-28T10:52:25Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "PC Gamer",
+       "title": "The cancelled Doom 4 was 'actually a fun game', according to a former id Software developer, but it had one big problem",
+       "url": "https://www.pcgamer.com/games/fps/the-cancelled-doom-4-was-actually-a-fun-game-according-to-a-former-id-software-developer-but-it-had-one-big-problem/",
+       "published": "2026-11-28T10:52:25Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "US",
+   "stories": [
+    {
+     "id": "0af2f1ffe9c8",
+     "title": "Delayed Macy's Thanksgiving Day Parade Steps Off Two Days Late",
+     "summary": "New York City's 100th annual Thanksgiving Day parade marched on Saturday after being postponed due to severe weather, with minor performance adjustments.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-28T10:53:21Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "NBC News",
+       "title": "Macy’s Thanksgiving Day Parade marches on after delay",
+       "url": "https://www.nbcnews.com/nightly-news/video/macy-s-thanksgiving-day-parade-marches-on-after-delay-274287685668",
+       "published": "2026-11-28T00:16:43Z",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "What to know about the weather-delayed 100th Macy's Thanksgiving Day Parade",
+       "url": "https://abcnews.com/GMA/Living/weather-delayed-100th-macys-thanksgiving-day-parade/story?id=138486032",
+       "published": "2026-11-28T10:34:40Z",
+       "official": false,
+       "also": [
+        {
+         "title": "WATCH: The Children's Hospital Thanksgiving Day Parade",
+         "url": "https://abcnews.com/video/138479018/",
+         "published": "2026-11-27T14:32:09Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Hill",
+       "title": "Weather delay will cost $700,000 for Hawaii All-Star band performing at Macy's Thanksgiving Day parade",
+       "url": "https://thehill.com/homenews/state-watch/6245658-macys-thanksgiving-day-parade-weather-delay-hawaii-band/",
+       "published": "2026-11-27T21:16:41Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Post",
+       "title": "Where to watch the postponed Macy’s Thanksgiving Day Parade 2026 for free",
+       "url": "https://nypost.com/2026/11/28/entertainment/where-to-watch-postponed-macys-thanksgiving-parade-2026-for-free/",
+       "published": "2026-11-28T09:30:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Newsweek",
+       "title": "List of Changes To Macy's Postponed Thanksgiving Parade",
+       "url": "https://www.newsweek.com/list-changes-macys-postponed-thanksgiving-parade-12775431",
+       "published": "2026-11-28T10:53:21Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "851fd554d9d1",
+     "title": "Two Commercial Airliners Clip Wings at Reagan National Airport",
+     "summary": "The FAA is investigating after two American Airlines planes made wing-tip contact on the tarmac while taxiing prior to takeoff in Washington, D.C.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-28T09:15:08Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "CBS News",
+       "title": "2 American Airlines jets clip wings on tarmac of Reagan Airport",
+       "url": "https://www.cbsnews.com/news/american-airlines-jets-clip-wings-reagan-airport/",
+       "published": "2026-11-28T01:05:00Z",
+       "official": false,
+       "also": [
+        {
+         "title": "2 American Airlines jets clip their wings at Reagan National Airport",
+         "url": "https://www.cbsnews.com/video/2-american-airlines-jets-clip-their-wings-at-reagan-national-airport/",
+         "published": "2026-11-28T00:58:44Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Daily Wire",
+       "title": "American Airlines Jet Clips Another At Reagan National, Breaking Off Piece Of Wing",
+       "url": "https://www.dailywire.com/news/american-airlines-jet-clips-another-at-reagan-national-breaking-off-piece-of-wing",
+       "published": "2026-11-27T19:34:31Z",
+       "official": false
+      },
+      {
+       "outlet": "Yahoo News",
+       "title": "Two American Airlines planes clip wings before takeoff",
+       "url": "https://www.bbc.com/news/articles/cqkgr4g5nrnlo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+       "published": "2026-11-28T01:40:31Z",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Beast",
+       "title": "Two Jets Collide on Tarmac at D.C. Airport",
+       "url": "https://www.thedailybeast.com/two-jets-collide-on-tarmac-at-dc-airport",
+       "published": "2026-11-28T09:15:08Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "79315ec4eaea",
+     "title": "New York State Senate Majority Leader Andrea Stewart-Cousins Dies at 76",
+     "summary": "Andrea Stewart-Cousins, who made history as the first woman to lead the New York State Senate, passed away at age 76.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-27T22:26:27Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Hill",
+       "title": "New York State Senate Majority Leader Andrea Stewart-Cousins dies at 76",
+       "url": "https://thehill.com/homenews/state-watch/6245597-new-york-state-senate-majority-leader-andrea-stewart-cousins-dies-at-76/",
+       "published": "2026-11-27T19:47:21Z",
+       "official": false
+      },
+      {
+       "outlet": "Bloomberg",
+       "title": "New York Senate Majority Leader Andrea Stewart-Cousins Dies",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-27/new-york-senate-majority-leader-andrea-stewart-cousins-dies",
+       "published": "2026-11-27T19:07:22Z",
+       "official": false
+      },
+      {
+       "outlet": "Fox News",
+       "title": "Powerful NY Democrat Andrea Stewart-Cousins dead at 76, reports say",
+       "url": "https://www.foxnews.com/politics/powerful-ny-democrat-andrea-stewart-cousins-dead-76-reports-say",
+       "published": "2026-11-27T19:10:31Z",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "NY Senate leader Andrea Stewart-Cousins, first woman in the role, dies at 76",
+       "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+       "published": "2026-11-27T22:26:27Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "fe60b50e3a36",
+     "title": "WWE Performer Bronson Reed Passes Away at Age 38",
+     "summary": "Australian professional wrestler Jermaine Haley, known in WWE as Bronson Reed, died following unexpected medical complications.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-28T09:09:52Z",
+     "outlet_count": 4,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "WWE star Bronson Reed dies at 38",
+       "url": "https://www.japantimes.co.jp/sports/2026/11/28/more-sports/bronson-reed-wwe-wrestling/",
+       "published": "2026-11-28T06:21:00Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
+       "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-28T07:31:14Z",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "WWE star Bronson Reed dies at 38 due to 'medical complications'",
+       "url": "https://abcnews.com/US/wwe-star-bronson-reed-dies-38-due-medical/story?id=138490946",
+       "published": "2026-11-28T08:58:16Z",
+       "official": false
+      },
+      {
+       "outlet": "The Daily Beast",
+       "title": "WWE Star Dies at 38",
+       "url": "https://www.thedailybeast.com/wwe-star-dies-at-38",
+       "published": "2026-11-28T09:09:52Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "6ba8cf48dfe1",
+     "title": "Zelenskyy Challenges Trump's Rhetoric Toward Russian Leadership",
+     "summary": "Ukrainian President Volodymyr Zelenskyy publicly questioned Donald Trump's repeated references to Vladimir Putin as a friend, warning against concessions to Moscow.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "US",
+     "published": "2026-11-28T09:16:01Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "The Hindu",
+       "title": "Zelenskyy urges U.S. to pressure Russia and questions Trump referring Putin as ‘friend’",
+       "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-pressure-russia-and-questions-trump-referring-putin-as-friend/article71753434.ece",
+       "published": "2026-11-28T07:20:26Z",
+       "official": false
+      },
+      {
+       "outlet": "ABC News",
+       "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
+       "url": "https://abcnews.com/International/wireStory/zelenskyy-urges-us-pressure-putin-calling-trumps-friend-138478386",
+       "published": "2026-11-27T15:46:16Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
+       "url": "https://www.channelnewsasia.com/world/zelenskyy-trump-russia-ukraine-putin-us-friend-6588296",
+       "published": "2026-11-27T17:28:50Z",
+       "official": false
+      },
+      {
+       "outlet": "Courthouse News Service",
+       "title": "Zelenskyy urges US to pressure Putin and questions Trump’s reference to Putin as a ‘friend’",
+       "url": "https://www.courthousenews.com/zelenskyy-urges-us-to-pressure-putin-and-questions-trumps-reference-to-putin-as-a-friend/",
+       "published": "2026-11-27T19:19:52Z",
+       "official": false
+      },
+      {
+       "outlet": "NBC News",
+       "title": "Zelenskyy questions Trump’s ‘strange’ reference to Putin as a ‘friend’",
+       "url": "https://www.nbcnews.com/world/ukraine/zelenskyy-questions-trumps-strange-reference-putin-friend-rcna611653",
+       "published": "2026-11-28T09:16:01Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "World",
+   "stories": [
+    {
+     "id": "fd69677220f6",
+     "title": "Israeli Strike in Gaza Kills Two Doctors Without Borders Staff",
+     "summary": "Médecins Sans Frontières expressed condemnation after an Israeli airstrike killed two medical workers outside a Gaza clinic; Israel claimed the targets were militants.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-28T10:44:24Z",
+     "outlet_count": 9,
+     "sources": [
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+       "url": "https://www.channelnewsasia.com/world/israel-gaza-strike-doctors-without-borders-6589316",
+       "published": "2026-11-28T09:41:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Sky News",
+       "title": "Doctors Without Borders 'outraged' after staff killed in Gaza",
+       "url": "https://news.sky.com/story/son-of-hamas-chief-and-his-family-survive-israeli-airstrike-group-says-13617394",
+       "published": "2026-11-28T00:33:00Z",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "MSF 'devastated' after two staff killed in Israeli strike",
+       "url": "https://www.rte.ie/news/middle-east/2026/1128/1600979-israeli-gaza/",
+       "published": "2026-11-28T04:26:26Z",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+       "url": "https://www.thejournal.ie/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza-7241297-Nov2026/",
+       "published": "2026-11-28T07:41:17Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Israeli strike killed two staff outside Gaza clinic, MSF says",
+       "url": "https://www.straitstimes.com/world/europe/israeli-strike-killed-two-staff-outside-gaza-clinic-msf-says",
+       "published": "2026-11-28T08:07:20Z",
+       "official": false
+      },
+      {
+       "outlet": "Corriere della Sera (Italy)",
+       "title": "Doctors Without Borders denounces: \"Two of our Palestinian workers killed in an Israeli raid in Gaza\"",
+       "url": "https://www.corriere.it/esteri/diretta-live/26_novembre_28/iran-usa-news-diretta.shtml",
+       "published": "2026-11-28T09:28:43Z",
+       "translated_from": "it",
+       "original_title": "Medici Senza Frontiere denuncia: «Due nostri operatori palestinesi uccisi in un raid israeliano a Gaza»",
+       "official": false
+      },
+      {
+       "outlet": "Tagesschau (Germany)",
+       "title": "Doctors Without Borders staff killed in the Gaza Strip",
+       "url": "https://www.tagesschau.de/ausland/asien/gaza-israel-angriff-hamas-aerzte-ohne-grenzen-100.html",
+       "published": "2026-11-28T09:58:16Z",
+       "translated_from": "de",
+       "original_title": "Mitarbeiter von Ärzte ohne Grenzen im Gazastreifen getötet",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+       "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-28T10:34:58Z",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "Israeli strike killed two staff outside Gaza clinic, medical charity MSF says",
+       "url": "https://www.rfi.fr/en/international/20261128-israeli-strike-killed-two-staff-outside-gaza-clinic-medical-charity-msf-says",
+       "published": "2026-11-28T10:44:24Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "4a5c12172b8f",
+     "title": "Kenyan Cult Leader Paul Mackenzie Convicted of 123 Counts of Manslaughter",
+     "summary": "A Kenyan court found doomsday pastor Paul Mackenzie guilty of manslaughter after commanding his followers to starve themselves to death to meet religious figures.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-28T09:59:11Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Al Jazeera",
+       "title": "Kenyan starvation cult leader found guilty over deaths of 123 followers",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/28-11-sv-kenya-cult-leader-paul-mackenzie?traffic_source=rss",
+       "published": "2026-11-28T09:59:11Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+       "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-27T17:19:31Z",
+       "official": false
+      },
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
+       "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
+       "published": "2026-11-27T18:21:47Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "Kenya cult leader found guilty of manslaughter of 123 followers asked to starve to meet Jesus",
+       "url": "https://www.thehindu.com/news/international/kenya-cult-leader-found-guilty-of-manslaughter-of-123-followers-asked-to-starve-to-meet-jesus/article71753625.ece",
+       "published": "2026-11-28T05:25:36Z",
+       "official": false
+      },
+      {
+       "outlet": "RFI (France)",
+       "title": "Kenyan starvation cult leader convicted over further 123 deaths",
+       "url": "https://www.rfi.fr/en/africa/20261128-kenyan-starvation-cult-leader-convicted-over-further-123-deaths",
+       "published": "2026-11-28T08:31:24Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8d0c0fa46b26",
+     "title": "Canadian Supreme Court Upholds Quebec's Public Religious Symbol Ban",
+     "summary": "Canada's top court largely sustained Quebec's secularism law barring civil servants from wearing visible religious items, affirming the province's constitutional override.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-27T21:17:12Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "PBS NewsHour",
+       "title": "Canada's Supreme Court largely upholds a Quebec ban on religious symbols for public servants",
+       "url": "https://www.pbs.org/newshour/world/canadas-supreme-court-largely-upholds-a-quebec-ban-on-religious-symbols-for-public-servants",
+       "published": "2026-11-27T20:48:47Z",
+       "official": false
+      },
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
+       "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-27T20:43:00Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Times",
+       "title": "Quebec Can Keep Its Ban on Religious Symbols, Canada’s Top Court Rules",
+       "url": "https://www.nytimes.com/2026/11/27/world/canada/canada-supreme-court-quebec-religion-bill-21.html",
+       "published": "2026-11-27T21:17:12Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e32645d2a9a2",
+     "title": "Saudi Arabia and Houthi Militants Exchange Capital Strikes",
+     "summary": "Cross-border hostilities intensified as Saudi defense units and Houthi rebels launched reciprocal drone and missile strikes targeting administrative centers.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-28T10:37:00Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Saudi, Houthis trade strikes targeting capitals",
+       "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-strikes-riyadh-6589336",
+       "published": "2026-11-28T10:37:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "Saudi Arabia, Houthis trade attacks on rival capitals",
+       "url": "https://www.thehindu.com/news/international/saudi-arabia-houthis-trade-attacks-on-rival-capitals/article71753601.ece",
+       "published": "2026-11-28T07:35:52Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "f4528e1c2cc5",
+     "title": "Explosion Near Afghan School Kills Seven Children in Kunar",
+     "summary": "An accidental detonation at an adjacent commercial mining explosives depot killed at least seven students and injured nearly 100 people in eastern Afghanistan.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-28T10:54:00Z",
+     "outlet_count": 5,
+     "sources": [
+      {
+       "outlet": "Deutsche Welle (Germany)",
+       "title": "Afghanistan: Several killed in blast near middle school",
+       "url": "https://www.dw.com/en/afghanistan-several-killed-in-blast-near-middle-school/a-80084227?maca=en-rss-en-all-1573-rdf",
+       "published": "2026-11-28T10:21:00Z",
+       "official": false
+      },
+      {
+       "outlet": "Al Jazeera",
+       "title": "Several students killed in blast beside Afghan school",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
+       "published": "2026-11-28T10:05:26Z",
+       "official": false,
+       "also": [
+        {
+         "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+         "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
+         "published": "2026-11-28T07:42:09Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Hindu",
+       "title": "At least seven killed, 97 injured in explosion at a middle school in eastern Afghanistan",
+       "url": "https://www.thehindu.com/news/international/several-students-reportedly-killed-wounded-in-explosion-at-a-middle-school-in-eastern-afghanistan/article71753929.ece",
+       "published": "2026-11-28T09:42:35Z",
+       "official": false
+      },
+      {
+       "outlet": "BBC News",
+       "title": "Seven students killed and nearly 100 injured in explosion in Afghanistan, official says",
+       "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-28T10:14:37Z",
+       "official": false
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "Afghanistan: Several dead in explosion near school",
+       "url": "https://www.spiegel.de/panorama/afghanistan-mehrere-tote-bei-explosion-nahe-schule-a-7f2d2901-cf4d-4ba0-83bd-bd580b72ce48#ref=rss",
+       "published": "2026-11-28T10:54:00Z",
+       "translated_from": "de",
+       "original_title": "Afghanistan: Mehrere Tote bei Explosion nahe Schule",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "2a0e8c35ff2d",
+     "title": "Severe El Niño Floods Kill Dozens Across Peru and Ecuador",
+     "summary": "Torrential rainfall driven by El Niño conditions caused widespread mudslides and flooding in Andean and coastal regions, leaving scores dead and thousands displaced.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "World",
+     "published": "2026-11-28T10:56:13Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "El Nino: Dozens dead in floods in Peru and Ecuador",
+       "url": "https://orf.at/stories/3449522/",
+       "published": "2026-11-28T10:56:13Z",
+       "translated_from": "de",
+       "original_title": "„El Nino“: Dutzende Tote bei Hochwasser in Peru und Ecuador",
+       "official": false
+      },
+      {
+       "outlet": "South China Morning Post",
+       "title": "Peru, Ecuador hit by El Nino-linked floods",
+       "url": "https://www.scmp.com/news/world/americas/article/3376127/peru-ecuador-hit-el-nino-linked-floods",
+       "published": "2026-11-28T09:38:59Z",
+       "official": false
+      },
+      {
+       "outlet": "Der Spiegel (Germany)",
+       "title": "El Niño: Dozens dead in floods in Peru and Ecuador",
+       "url": "https://www.spiegel.de/ausland/el-nino-dutzende-tote-bei-ueberschwemmungen-in-peru-und-ecuador-a-45c00905-e7c7-4e59-b5de-a9403f5ba93d#ref=rss",
+       "published": "2026-11-28T10:10:00Z",
+       "translated_from": "de",
+       "original_title": "El Niño: Dutzende Tote bei Überschwemmungen in Peru und Ecuador",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "stories": [
+    {
+     "id": "f4489bc5fe0c",
+     "title": "Russia Claims Massive Drone Interception as Ukraine Deploys Laser Air Defenses",
+     "summary": "Moscow reported shooting down over 1,200 Ukrainian drones overnight, while Ukrainian forces announced the successful first combat interception of a jet drone using laser weaponry.",
+     "importance": 4,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-28T10:56:23Z",
+     "outlet_count": 9,
+     "sources": [
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "Russia says shot down more than 1,200 Ukraine drones overnight",
+       "url": "https://www.channelnewsasia.com/world/russia-ukraine-shot-down-drones-overnight-6589261",
+       "published": "2026-11-28T07:41:00Z",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Ukraine downs Russian drone with laser for first time",
+       "url": "https://cphpost.dk/2026-11-28/global/ukraine-downs-russian-drone-with-laser-for-first-time/",
+       "published": "2026-11-28T04:58:44Z",
+       "official": false
+      },
+      {
+       "outlet": "France 24",
+       "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+       "url": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
+       "published": "2026-11-28T07:12:00Z",
+       "official": false
+      },
+      {
+       "outlet": "TheJournal.ie (Ireland)",
+       "title": "Russian authorities say over 1,200 Ukrainian drones shot down in new nighttime attack",
+       "url": "https://www.thejournal.ie/russian-say-over-1200-ukrainian-drones-shot-down-in-new-night-time-attack-7241292-Nov2026/",
+       "published": "2026-11-28T07:22:38Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "Russia says it downed 1,246 Ukrainian drones overnight",
+       "url": "https://www.straitstimes.com/world/europe/russia-says-it-downed-1246-ukrainian-drones-overnight",
+       "published": "2026-11-28T07:26:58Z",
+       "official": false
+      },
+      {
+       "outlet": "ORF News (Austria)",
+       "title": "Russia: More than 1,200 Ukrainian drones intercepted",
+       "url": "https://orf.at/stories/3449507/",
+       "published": "2026-11-28T07:27:48Z",
+       "translated_from": "de",
+       "original_title": "Russland: Mehr als 1.200 ukrainische Drohnen abgefangen",
+       "official": false
+      },
+      {
+       "outlet": "Euronews",
+       "title": "Russia says it downed hundreds of drones as Ukraine reports first laser interception of a jet drone",
+       "url": "https://www.euronews.com/2026/11/28/russia-says-it-downed-hundreds-of-drones-as-ukraine-reports-first-laser-interception-of-a-",
+       "published": "2026-11-28T07:35:12Z",
+       "official": false
+      },
+      {
+       "outlet": "Corriere della Sera (Italy)",
+       "title": "Russian drone shot down by Ukrainian army: \"Laser weapon used, it's a first\"",
+       "url": "https://video.corriere.it/esteri/il-video-del-drone-russo-abbattuto-dall-esercito-ucraino-usata-un-arma-laser-e-la-prima-volta/40eadf79-1d08-492c-b7a3-47d413cd1xlk",
+       "published": "2026-11-28T09:25:12Z",
+       "translated_from": "it",
+       "original_title": "Il drone russo abbattuto dall'esercito ucraino: «Usata arma-laser, è la prima volta»",
+       "official": false
+      },
+      {
+       "outlet": "RTÉ News (Ireland)",
+       "title": "Russia says it downed 1,246 Ukrainian drones overnight",
+       "url": "https://www.rte.ie/news/ukraine/2026/1128/1600998-ukraine-russia/",
+       "published": "2026-11-28T10:56:23Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1fbff54e6c49",
+     "title": "Zelenskyy Confirms Libya Naval Strike Was Conducted Independently of Allies",
+     "summary": "President Zelenskyy acknowledged Ukrainian forces did not notify or coordinate with European partners prior to an operation that sank a Russian warship docked in Libya.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-28T09:42:09Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Straits Times",
+       "title": "Ukraine's attack on Russian ship in Libya was not coordinated with partners, Zelenskiy says",
+       "url": "https://www.straitstimes.com/world/europe/ukraines-attack-on-russian-ship-in-libya-was-not-coordinated-with-partners-zelenskiy-says",
+       "published": "2026-11-28T09:42:09Z",
+       "official": false
+      },
+      {
+       "outlet": "The Kyiv Independent (Ukraine)",
+       "title": "Zelensky acknowledges Ukraine did not coordinate Libya strike with European partners",
+       "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+       "published": "2026-11-27T18:26:38Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "814325d328aa",
+     "title": "Russia Commissions New Nuclear Attack Submarine Perm",
+     "summary": "Russian President Vladimir Putin attended the official flag-raising for the Perm, the latest addition to Russia's expanding nuclear-powered submarine fleet.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-28T08:40:27Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Euronews",
+       "title": "Putin unveils Russia's newest nuclear-powered submarine",
+       "url": "https://www.euronews.com/video/2026/11/28/putin-unveils-russias-newest-nuclear-powered-submarine",
+       "published": "2026-11-28T08:40:27Z",
+       "official": false
+      },
+      {
+       "outlet": "The Copenhagen Post (Denmark)",
+       "title": "Putin unveils new nuclear submarine",
+       "url": "https://cphpost.dk/2026-11-28/global/putin-unveils-new-nuclear-submarine/",
+       "published": "2026-11-28T04:58:34Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a67132196a79",
+     "title": "UK Mandates Scheduled Daily Reading Time in Primary Schools",
+     "summary": "England's Department for Education updated the national curriculum to require dedicated daily leisure reading to boost youth literacy and curb recreational screen time.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-28T08:27:17Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "BBC News",
+       "title": "Set time aside for children to read for pleasure, schools to be told",
+       "url": "https://www.bbc.co.uk/news/articles/c65y1vp4ndqjo?at_medium=RSS&at_campaign=rss",
+       "published": "2026-11-28T08:27:17Z",
+       "official": false
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "Schools in England must set aside time for pupils to read for pleasure",
+       "url": "https://www.theguardian.com/education/2026/nov/27/schools-in-england-must-set-aside-time-for-pupils-to-read-for-pleasure",
+       "published": "2026-11-27T23:34:55Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "49e59ebb6e6b",
+     "title": "U.S. Forces Countered Drone Threats Above UK Airbase",
+     "summary": "Reports revealed American military personnel recently intercepted and neutralized suspected Iranian-designed drones operating over an allied airbase in Britain.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Europe",
+     "published": "2026-11-28T08:33:39Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "CNA (Singapore)",
+       "title": "US military repelled drones at UK airbase this month: Report",
+       "url": "https://www.channelnewsasia.com/world/us-military-repelled-drones-uk-airbase-6589176",
+       "published": "2026-11-28T08:33:39Z",
+       "official": false
+      },
+      {
+       "outlet": "The Straits Times",
+       "title": "US military repelled drones at UK airbase this month, FT reports",
+       "url": "https://www.straitstimes.com/world/europe/us-military-repelled-drones-at-uk-airbase-this-month-ft-reports",
+       "published": "2026-11-28T06:42:06Z",
+       "official": false
+      },
+      {
+       "outlet": "New York Post",
+       "title": "US military repelled suspected Iranian drones over UK airbase: report",
+       "url": "https://nypost.com/2026/11/28/world-news/us-military-repelled-suspected-iranian-drones-over-uk-raf-lakenheath-base/",
+       "published": "2026-11-28T08:04:35Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Japan",
+   "stories": [
+    {
+     "id": "58853306e3f1",
+     "title": "Japan to Establish Dedicated Space Security Assets in Defense Overhaul",
+     "summary": "The Ministry of Defense outlined plans to expand space-based monitoring capabilities as part of broader upcoming defense policy updates.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-28T11:00:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan looks to space for security with defense force update",
+       "url": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-looks-to-space-for-security-with-defense-force-update",
+       "published": "2026-11-28T11:00:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "30a0c8bf9e7f",
+     "title": "Japan Records First Annual Birth Increase in 11 Years",
+     "summary": "Government demographic data showed a year-over-year rise in live births, reversing a decade-long decline following an uptick in post-pandemic marriages.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-28T06:22:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Number of births in Japan rises for the first time in 11 years",
+       "url": "https://www.japantimes.co.jp/news/2026/11/28/japan/society/japan-births-rise/",
+       "published": "2026-11-28T06:22:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "5eed8861c6ee",
+     "title": "Japan Security Strategy Revision to Weigh Nuclear Submarine Acquisition",
+     "summary": "Revised national security documents slated for year-end will formally initiate an official assessment of whether Japan should consider adopting nuclear-powered submarines.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-28T05:48:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "The Japan Times",
+       "title": "Japan expected to push for debate on nuclear subs in security document revisions",
+       "url": "https://www.japantimes.co.jp/news/2026/11/28/japan/japan-nuclear-submarines-security-documents/",
+       "published": "2026-11-28T05:48:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "8d858166a966",
+     "title": "Tokyo Outpaces Global Metropolises in Commercial Office Rent Growth",
+     "summary": "Surging domestic corporate demand propelled Tokyo to the highest office rent and capital appreciation increases worldwide.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-28T11:00:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Tokyo leads world in office rent, price growth as employers vie for prime space",
+       "url": "https://asia.nikkei.com/business/markets/property/tokyo-leads-world-in-office-rent-price-growth-as-employers-vie-for-prime-space",
+       "published": "2026-11-28T11:00:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "481700ca81b8",
+     "title": "Japan's Foreign Truck Driver Hiring Initiative Reaches Only 4% of Target",
+     "summary": "Strict certification hurdles and visa requirements have left Japan's overseas logistics driver recruitment program far behind schedule amid severe supply chain labor shortages.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-28T11:00:51Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Nikkei Asia",
+       "title": "Japan's recruitment of foreign truck drivers at just 4% of goal",
+       "url": "https://asia.nikkei.com/spotlight/japan-immigration/japan-s-recruitment-of-foreign-truck-drivers-at-just-4-of-goal",
+       "published": "2026-11-28T11:00:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "d357fd53297d",
+     "title": "Rampaging Wild Boar Injures Seven Pedestrians in Shizuoka",
+     "summary": "A wild boar smashed through a commercial storefront window in Shimizu Ward before charging multiple people along public streets.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Japan",
+     "published": "2026-11-28T08:53:19Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "NHK News (Japanese)",
+       "title": "Wild boar breaks shop glass and attacks people on the street, injuring 7 in Shizuoka",
+       "url": "https://news.web.nhk/newsweb/na/nd-20261128de82992",
+       "published": "2026-11-28T08:53:19Z",
+       "translated_from": "ja",
+       "original_title": "イノシシが店舗のガラス破り 路上で次々と人襲う 7人けが 静岡",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Korea",
+   "stories": [
+    {
+     "id": "5705686a0734",
+     "title": "President Lee Jae Myung Pledges Total Support for National AI Leadership",
+     "summary": "Attending a data center groundbreaking in Gangwon Province, President Lee vowed to marshal central government resources to back domestic artificial intelligence infrastructure.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-28T11:00:51Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Lee vows all-out efforts to lead AI race at data center groundbreaking in Gangwon",
+       "url": "https://en.yna.co.kr/view/AEN20261128001552315",
+       "published": "2026-11-28T06:39:34Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Lee vows all-out efforts to lead AI race at data center groundbreaking in Gangwon",
+         "url": "https://en.yna.co.kr/view/AEN20261128001551315",
+         "published": "2026-11-28T04:44:36Z"
+        },
+        {
+         "title": "Lee attends groundbreaking ceremony for major AI data center in Gangwon",
+         "url": "https://en.yna.co.kr/view/AEN20261128001500315",
+         "published": "2026-11-28T02:55:02Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Lee vows all-out efforts to lead AI race at data center groundbreaking in Gangwon",
+       "url": "https://www.koreaherald.com/article/10952453",
+       "published": "2026-11-28T05:06:25Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Lee vows all-out efforts to lead AI race at data center groundbreaking in Gangwon",
+       "url": "https://www.koreatimes.co.kr/southkorea/20261128/lee-vows-all-out-efforts-to-lead-ai-race-at-data-center-groundbreaking-in-gangwon?utm_source=rss",
+       "published": "2026-11-28T11:00:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "0697392173ee",
+     "title": "South Korea's Internet Post Office Suffers Breach of Over 113,000 Accounts",
+     "summary": "A cyberattack on the national postal web portal compromised personal user records, prompting a comprehensive forensic investigation by state authorities.",
+     "importance": 3,
+     "label": "CONFIRMED",
+     "category": "Korea",
+     "published": "2026-11-28T11:00:51Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Internet Post Office hacked; personal data of at least 113,000 customers leaked",
+       "url": "https://en.yna.co.kr/view/AEN20261128001400315",
+       "published": "2026-11-28T02:38:35Z",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Internet Post Office Hacked; Over 113,000 Personal Information Breached",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205887",
+       "published": "2026-11-28T04:55:34Z",
+       "official": false
+      },
+      {
+       "outlet": "The Korea Times",
+       "title": "Internet Post Office hacking leaks personal data of at least 113,000 customers",
+       "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261128/internet-post-office-hacking-leaks-personal-data-of-at-least-113000-customers?utm_source=rss",
+       "published": "2026-11-28T11:00:51Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "283982ec163b",
+     "title": "Seoul Intelligence Monitors Signs of Potential Kim Jong-un Visit to Beijing",
+     "summary": "South Korea's National Intelligence Service confirmed it is tracking diplomatic movements amid rumors North Korea's leader may soon travel to China for high-level summits.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-28T05:20:13Z",
+     "outlet_count": 3,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "Spy agency says monitoring developments amid speculation over N.K. leader's possible China visit",
+       "url": "https://en.yna.co.kr/view/AEN20261128000751315",
+       "published": "2026-11-28T05:20:13Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Spy agency says monitoring developments amid speculation over N.K. leader's possible China visit",
+         "url": "https://en.yna.co.kr/view/AEN20261128000700315",
+         "published": "2026-11-28T01:57:17Z"
+        }
+       ]
+      },
+      {
+       "outlet": "The Korea Herald",
+       "title": "Spy agency says monitoring developments amid speculation over NK leader's possible China visit",
+       "url": "https://www.koreaherald.com/article/10952401",
+       "published": "2026-11-28T02:02:17Z",
+       "official": false
+      },
+      {
+       "outlet": "KBS World",
+       "title": "Spy Agency Monitoring Developments amid Speculation over Kim Jong-un’s Visit to China",
+       "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=205881",
+       "published": "2026-11-28T02:36:10Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "e22d74750cb2",
+     "title": "North Korea and Russia Agree to Expand Joint Bilateral Economic Projects",
+     "summary": "Delegates from Pyongyang and Moscow concluded bilateral committee talks with commitments to deepen collaboration in trade, logistics, and resource development.",
+     "importance": 3,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-28T01:16:04Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "The Korea Herald",
+       "title": "N. Korea, Russia hold economic cooperation meeting, agree to boost joint projects",
+       "url": "https://www.koreaherald.com/article/10952383",
+       "published": "2026-11-28T01:16:04Z",
+       "official": false
+      },
+      {
+       "outlet": "Yonhap News",
+       "title": "N. Korea, Russia hold economic cooperation meeting, agree to boost joint projects",
+       "url": "https://en.yna.co.kr/view/AEN20261128000500315",
+       "published": "2026-11-28T00:44:08Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "a630da77e590",
+     "title": "POSCO Labor Union Ratifies Annual Wage Agreement",
+     "summary": "Union members at South Korean steelmaker POSCO voted to accept management's wage proposal, averting potential strike action across major domestic mills.",
+     "importance": 2,
+     "label": "REPORTED",
+     "category": "Korea",
+     "published": "2026-11-28T08:53:50Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Yonhap News",
+       "title": "POSCO workers vote to accept pay deal",
+       "url": "https://en.yna.co.kr/view/AEN20261128001800320",
+       "published": "2026-11-28T08:53:50Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deals",
+   "stories": [
+    {
+     "id": "a1b5218918df",
+     "title": "Black Friday Hardware Discounts Extended Through Cyber Monday on Apple Devices",
+     "summary": "Retailers have carried over record-low pricing on MacBooks, iPads, and Apple Watch models, offering savings up to $800.",
+     "importance": 3,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-28T09:04:51Z",
+     "outlet_count": 6,
+     "sources": [
+      {
+       "outlet": "AppleInsider",
+       "title": "Best Black Friday Apple Watch deals start at $179 with up to $250 off",
+       "url": "https://appleinsider.com/articles/26/11/27/best-black-friday-apple-watch-deals-start-at-179-with-up-to-250-off?utm_source=rss",
+       "published": "2026-11-27T21:51:35Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Amazon extends its best Black Friday Apple deals into Cyber Monday",
+         "url": "https://appleinsider.com/articles/26/11/28/amazon-extends-its-best-black-friday-apple-deals-into-cyber-monday?utm_source=rss",
+         "published": "2026-11-28T09:04:51Z"
+        }
+       ]
+      },
+      {
+       "outlet": "MacRumors",
+       "title": "The Best Black Friday Streaming Deals on Apple TV, Disney+, and More",
+       "url": "https://www.macrumors.com/2026/11/27/best-black-friday-streaming/",
+       "published": "2026-11-27T15:06:49Z",
+       "official": false,
+       "also": [
+        {
+         "title": "The Best Black Friday AirPods Deals Still Available",
+         "url": "https://www.macrumors.com/2026/11/27/best-black-friday-airpods-deals-2026/",
+         "published": "2026-11-27T13:15:00Z"
+        },
+        {
+         "title": "The Best Black Friday Deals on Apple Home Products",
+         "url": "https://www.macrumors.com/2026/11/27/the-best-black-friday-deals-on-apple-home-products/",
+         "published": "2026-11-27T13:11:23Z"
+        },
+        {
+         "title": "The Best Black Friday iPhone Deals Still Available",
+         "url": "https://www.macrumors.com/2026/11/27/best-black-friday-iphone-deals-2026/",
+         "published": "2026-11-27T12:58:22Z"
+        },
+        {
+         "title": "The Best Black Friday iPad Deals Still Available",
+         "url": "https://www.macrumors.com/2026/11/27/best-black-friday-ipad-deals-2026/",
+         "published": "2026-11-27T12:54:10Z"
+        },
+        {
+         "title": "The Best Black Friday Apple Watch Deals Still Available",
+         "url": "https://www.macrumors.com/2026/11/27/best-black-friday-apple-watch-deals-2026/",
+         "published": "2026-11-27T12:48:29Z"
+        },
+        {
+         "title": "The Best Black Friday AirTag Deals Still Available",
+         "url": "https://www.macrumors.com/2026/11/27/best-black-friday-airtag-deals-2026/",
+         "published": "2026-11-27T12:43:55Z"
+        },
+        {
+         "title": "The Best Black Friday Mac Deals Still Available",
+         "url": "https://www.macrumors.com/2026/11/27/best-black-friday-mac-deals-2026/",
+         "published": "2026-11-27T12:39:32Z"
+        }
+       ]
+      },
+      {
+       "outlet": "9to5Mac",
+       "title": "Here are the best Apple Watch deals for Black Friday",
+       "url": "https://9to5mac.com/2026/11/27/here-are-the-best-apple-watch-deals-for-black-friday/",
+       "published": "2026-11-27T20:40:35Z",
+       "official": false,
+       "also": [
+        {
+         "title": "Here are the best Black Friday iPad deals",
+         "url": "https://9to5mac.com/2026/11/27/here-are-the-best-black-friday-ipad-deals/",
+         "published": "2026-11-27T18:03:10Z"
+        },
+        {
+         "title": "These are the best AirPods deals for Black Friday",
+         "url": "https://9to5mac.com/2026/11/27/airpods-pro-black-friday-deals-pirces/",
+         "published": "2026-11-27T15:03:06Z"
+        },
+        {
+         "title": "These are the best Mac Black Friday deals",
+         "url": "https://9to5mac.com/2026/11/27/mac-black-friday-deals-roundup/",
+         "published": "2026-11-27T13:53:28Z"
+        }
+       ]
+      },
+      {
+       "outlet": "Ars Technica",
+       "title": "The best Black Friday deals Ars could find",
+       "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
+       "published": "2026-11-27T17:05:37Z",
+       "official": false
+      },
+      {
+       "outlet": "Wired",
+       "title": "The Best Black Friday Gaming Deals I’ve Found (2026)",
+       "url": "https://www.wired.com/story/black-friday-gaming-deals-11-27-2026/",
+       "published": "2026-11-27T23:15:34Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+       "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+       "published": "2026-11-27T23:53:19Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "c380ec0b0509",
+     "title": "Roborock Robot Vacuums Discounted Up to 60%",
+     "summary": "Top-tier Roborock vacuum and mop combination units have reached their lowest recorded prices across major storefronts.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-28T10:50:44Z",
+     "outlet_count": 2,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Best Black Friday Robot Vacuum Deals from Roborock (2026): Up to 60% Off",
+       "url": "https://www.wired.com/story/black-friday-robot-vacuum-deals-11-28-2026/",
+       "published": "2026-11-28T10:50:44Z",
+       "official": false
+      },
+      {
+       "outlet": "The Verge",
+       "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
+       "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+       "published": "2026-11-27T23:32:17Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "1ba6247433f2",
+     "title": "Switch 2 MicroSD Express Storage Cards Marked Down by Up to $70",
+     "summary": "SanDisk MicroSD Express memory cards compatible with next-generation consoles are discounted across 256GB, 512GB, and 1TB capacities.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-27T20:37:00Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "IGN",
+       "title": "Switch 2-Compatible SanDisk MicroSD Express Cards Are Up to $70 Off for Black Friday",
+       "url": "https://www.ign.com/articles/sandisk-microsd-express-cards-switch-2-deal-black-friday-2026",
+       "published": "2026-11-27T20:37:00Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "11ed46815c80",
+     "title": "Kindle and E-Readers Discounted Up to $180",
+     "summary": "Amazon has cut prices across its Kindle lineup and rival e-ink reading tablets for the holiday weekend.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-28T09:15:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Best Kindle and E-Reader Black Friday Deals (2026): Up to $180 Off",
+       "url": "https://www.wired.com/story/best-kindle-ereader-black-friday-deals-11-28-2026/",
+       "published": "2026-11-28T09:15:38Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "daad7617051c",
+     "title": "De'Longhi and Nespresso Espresso Makers Up to 38% Off",
+     "summary": "Popular countertop espresso machines are marked down significantly, including sub-$100 capsule options and premium pump machines.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-28T08:58:38Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wired",
+       "title": "Best Black Friday Espresso Machine Deals: Up to 38% Off (2026)",
+       "url": "https://www.wired.com/story/black-friday-coffee-espresso-deals-11-28-2026/",
+       "published": "2026-11-28T08:58:38Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "171c99816df2",
+     "title": "Puyo Puyo Tetris 2S for Switch 2 Drops to $15 at Best Buy",
+     "summary": "Best Buy has discounted the physical Switch 2 edition of Puyo Puyo Tetris 2S to $15 for Black Friday.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-27T22:34:22Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Puyo Puyo Tetris 2S (Switch 2 KC) is $15 at Best Buy",
+       "url": "https://buff.ly/apLMURo",
+       "published": "2026-11-27T22:34:22Z",
+       "official": false
+      }
+     ]
+    },
+    {
+     "id": "077fe7ed35f7",
+     "title": "Hisense 65-Inch 4K UHD Smart Roku TV Available for $280",
+     "summary": "Best Buy offers the 2026 Hisense 65-inch QD5 Series QLED 4K TV discounted to $279.99.",
+     "importance": 2,
+     "label": "DEAL",
+     "category": "Deals",
+     "published": "2026-11-28T06:06:49Z",
+     "outlet_count": 1,
+     "sources": [
+      {
+       "outlet": "Wario64",
+       "title": "Hisense - 65\" Class QD5 Hi-QLED Series4K UHD Smart Roku TV (2026) is $279.99 at Best Buy",
+       "url": "https://buff.ly/9uZndRR",
+       "published": "2026-11-28T06:06:49Z",
+       "official": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T11:00:51Z",
+ "timezone": "America/New_York",
+ "window_hours": 26,
+ "mode": "ai",
+ "model": "gemini-3.8-flash",
+ "stats": {
+  "items": 1019,
+  "clusters": 858,
+  "feeds_ok": 175,
+  "feeds_failed": 1
+ },
+ "feed_health": [
+  {
+   "key": "metaai",
+   "title": "Meta AI (mirror)",
+   "status": "stale",
+   "detail": "no new items since 2026-07-27 (unofficial mirror; it may have broken)"
+  },
+  {
+   "key": "san",
+   "title": "Straight Arrow News",
+   "status": "error",
+   "detail": "ValueError: not a feed: the site answered with a web page (often a bot check)"
+  },
+  {
+   "key": "bellingcat",
+   "title": "Bellingcat",
+   "status": "stale",
+   "detail": "no new items since 2026-11-05"
+  }
+ ]
+}
